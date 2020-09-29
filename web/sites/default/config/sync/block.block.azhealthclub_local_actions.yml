@@ -1,6 +1,6 @@
 uuid: 330a9037-a5f2-47ad-84ca-082ac5043f8d
 langcode: en
-status: true
+status: false
 dependencies:
   theme:
     - azhealthclub

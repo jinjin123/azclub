@@ -41,6 +41,7 @@ module:
   user: 0
   views_ui: 0
   views: 10
+  empty_page: 1000
   standard: 1000
 theme:
   bartik: 0
