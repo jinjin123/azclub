@@ -1,13 +1,13 @@
-uuid: 9f3db58d-8aa2-4209-9458-2a20d9f1d382
+uuid: e3d7d5fb-3ca4-4d6e-b96c-761d7daeefc6
 langcode: en
 status: true
 dependencies:
   theme:
-    - azhealthclub
+    - bootstrap_barrio
 _core:
   default_config_hash: 13GQpeITIJsp1kyPniXtWZfyFH87vb1xxJCHifL4UeE
-id: azhealthclub_local_actions
-theme: azhealthclub
+id: bootstrap_barrio_local_actions
+theme: bootstrap_barrio
 region: content
 weight: -20
 provider: null
