@@ -1,0 +1,22 @@
+uuid: 934bcc0c-9903-4f3b-a956-6ad7be3e92fb
+langcode: en
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - azhealthclub
+_core:
+  default_config_hash: 8I8iACSa0sKO3k3jlvUG1ge52rfcKX7USJAQYnzuBgg
+id: azhealthclub_help
+theme: azhealthclub
+region: content
+weight: -30
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  provider: help
+  label_display: '0'
+visibility: {  }

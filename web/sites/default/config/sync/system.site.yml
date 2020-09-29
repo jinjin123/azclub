@@ -1,0 +1,14 @@
+uuid: 9a6aa260-bdbe-46b0-ad1b-58e1d4f6c4f5
+name: azhealthclub
+mail: carlxjs@qq.com
+slogan: ''
+page:
+  403: ''
+  404: ''
+  front: /home
+admin_compact_mode: false
+weight_select_max: 100
+langcode: en
+default_langcode: en
+_core:
+  default_config_hash: yTxtFqBHnEWxQswuWvkjE8mKw2t8oKuCL1q8KnfHuGE
