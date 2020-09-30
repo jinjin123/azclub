@@ -31,7 +31,8 @@
     "minimum-stability": "dev",
     "prefer-stable": true,
     "config": {
-        "sort-packages": true
+        "sort-packages": true,
+        "preferred-install": "source"
     },
     "extra": {
         "drupal-scaffold": {
@@ -85,6 +86,8 @@
                 "  * Remove the plugin that prints this message:",
                 "      composer remove drupal/core-project-message"
             ]
-        }
+        },
+        "patches-file": "composer.patches.json",
+        "enable-patching": true
     }
 }
