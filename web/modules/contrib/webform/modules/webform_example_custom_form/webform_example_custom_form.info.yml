@@ -7,8 +7,3 @@ configure: webform_example_custom_form.settings
 dependencies:
   - 'webform:webform'
   - 'webform:webform_devel'
-
-# Information added by Drupal.org packaging script on 2020-09-29
-version: '6.0.0-alpha18'
-project: 'webform'
-datestamp: 1601385868

@@ -6,8 +6,3 @@ type: module
 dependencies:
   - 'webform:webform'
   - 'webform:webform_node'
-
-# Information added by Drupal.org packaging script on 2020-09-29
-version: '6.0.0-alpha18'
-project: 'webform'
-datestamp: 1601385868
