@@ -1,0 +1,25 @@
+<?php
+
+/**
+ * @file
+ * Contains azhealthclub_modify.module.
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+use Drupal\views\ViewExecutable;
+
+/**
+ * Implements hook_help().
+ */
+function azhealthclub_modify_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    // Main module help for the azhealthclub_modify module.
+    case 'help.page.azhealthclub_modify':
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('Some modify code for azhealthclub') . '</p>';
+      return $output;
+
+    default:
+  }
+}

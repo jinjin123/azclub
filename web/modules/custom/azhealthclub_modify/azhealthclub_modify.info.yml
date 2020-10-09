@@ -1,0 +1,5 @@
+name: 'azhealthclub_modify'
+type: module
+description: 'Some modify code for azhealthclub'
+core_version_requirement: ^9
+package: 'Custom'
