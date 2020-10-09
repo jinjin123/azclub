@@ -19,6 +19,7 @@
         "cweagans/composer-patches": "^1.6",
         "drupal/bootstrap_barrio": "^5.1",
         "drupal/console": "^1.9",
+        "drupal/content_access": "^1.0",
         "drupal/core-composer-scaffold": "^9",
         "drupal/core-project-message": "^9",
         "drupal/core-recommended": "^9",
