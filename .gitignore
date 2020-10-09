@@ -42,3 +42,4 @@ web/sites/simpletest
 # simpletest
 
 .idea
+*.sql.gz
