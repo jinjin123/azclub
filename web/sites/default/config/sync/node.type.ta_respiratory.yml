@@ -1,0 +1,17 @@
+uuid: 18d579c0-e1bc-4ad4-9114-382d19146f2f
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: Respiratory
+type: ta_respiratory
+description: 'Therapeutic Area Content,  the category is Respiratory.'
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: false

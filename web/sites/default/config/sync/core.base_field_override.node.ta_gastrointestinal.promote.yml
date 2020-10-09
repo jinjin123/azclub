@@ -1,0 +1,22 @@
+uuid: ba7caf3c-096e-41ce-bdf8-219a4c1b125c
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.ta_gastrointestinal
+id: node.ta_gastrointestinal.promote
+field_name: promote
+entity_type: node
+bundle: ta_gastrointestinal
+label: 'Promoted to front page'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

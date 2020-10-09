@@ -1,0 +1,17 @@
+uuid: 46dc269a-a905-4cc1-b035-10bb08244cf7
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: 'TA Campaign'
+type: ta_campaign
+description: 'Therapeutic Area Campaign'
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: false

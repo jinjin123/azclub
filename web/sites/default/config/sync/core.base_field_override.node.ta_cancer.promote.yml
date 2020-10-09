@@ -1,0 +1,22 @@
+uuid: 6fa5e726-b239-4589-83b6-69bd5707429f
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.ta_cancer
+id: node.ta_cancer.promote
+field_name: promote
+entity_type: node
+bundle: ta_cancer
+label: 'Promoted to front page'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

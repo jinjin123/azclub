@@ -1,0 +1,28 @@
+uuid: b370e772-7bbe-4e0e-9383-43232ad1cdc1
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.ta_diabetes.body
+    - node.type.ta_diabetes
+  module:
+    - text
+    - user
+id: node.ta_diabetes.default
+targetEntityType: node
+bundle: ta_diabetes
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden: {  }

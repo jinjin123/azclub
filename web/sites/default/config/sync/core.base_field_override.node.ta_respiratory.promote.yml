@@ -1,0 +1,22 @@
+uuid: 7b8fa300-a927-4400-b2d0-37f2ee6a05ce
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.ta_respiratory
+id: node.ta_respiratory.promote
+field_name: promote
+entity_type: node
+bundle: ta_respiratory
+label: 'Promoted to front page'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

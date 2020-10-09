@@ -1,0 +1,23 @@
+uuid: 1d6c2159-c6e7-44a1-ba19-8ebb21abaf03
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.ta_diabetes
+  module:
+    - text
+id: node.ta_diabetes.body
+field_name: body
+entity_type: node
+bundle: ta_diabetes
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+  required_summary: false
+field_type: text_with_summary

@@ -1,0 +1,17 @@
+uuid: 86a6f760-ae04-4d88-a4b6-90e9ffa1a8a1
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: Infection
+type: ta_infection
+description: 'Therapeutic Area Content,  the category is Infection.'
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: false

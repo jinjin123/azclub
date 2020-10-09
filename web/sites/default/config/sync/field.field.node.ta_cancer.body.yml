@@ -1,0 +1,23 @@
+uuid: 5c824eb6-e6cf-4e9f-bd6c-54a3b421d82e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.ta_cancer
+  module:
+    - text
+id: node.ta_cancer.body
+field_name: body
+entity_type: node
+bundle: ta_cancer
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+  required_summary: false
+field_type: text_with_summary

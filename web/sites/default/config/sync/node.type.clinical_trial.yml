@@ -1,0 +1,17 @@
+uuid: 61843e9e-aa49-4bdc-9e1e-9b4b2d6afeba
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: 'Clinical Trial'
+type: clinical_trial
+description: 'The content about Clinical Trial'
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: false

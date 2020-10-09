@@ -1,0 +1,28 @@
+uuid: 276288b6-95f5-410a-bd9c-1c9d66fd8a1c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.ta_cardiovascular.body
+    - node.type.ta_cardiovascular
+  module:
+    - text
+    - user
+id: node.ta_cardiovascular.default
+targetEntityType: node
+bundle: ta_cardiovascular
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden: {  }

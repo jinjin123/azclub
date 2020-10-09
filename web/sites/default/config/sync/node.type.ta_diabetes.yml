@@ -1,0 +1,17 @@
+uuid: 38cb2eeb-472f-4023-a664-510867cb15b1
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: Diabetes
+type: ta_diabetes
+description: 'Therapeutic Area Content,  the category is Diabetes.'
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: false

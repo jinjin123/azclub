@@ -1,0 +1,17 @@
+uuid: d1be35d8-2e03-41b3-95c1-a52eb529520b
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: Gastrointestinal
+type: ta_gastrointestinal
+description: 'Therapeutic Area Content,  the category is Gastrointestinal.'
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: false

@@ -1,0 +1,22 @@
+uuid: 9b95a4cc-a5b5-4dd8-ad8f-e7fb12b713f1
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.clinical_trial
+id: node.clinical_trial.promote
+field_name: promote
+entity_type: node
+bundle: clinical_trial
+label: 'Promoted to front page'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

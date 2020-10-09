@@ -1,0 +1,28 @@
+uuid: 309ed6ec-f018-4255-bc2d-94a4e395a42c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.medical_article.body
+    - node.type.medical_article
+  module:
+    - text
+    - user
+id: node.medical_article.default
+targetEntityType: node
+bundle: medical_article
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden: {  }

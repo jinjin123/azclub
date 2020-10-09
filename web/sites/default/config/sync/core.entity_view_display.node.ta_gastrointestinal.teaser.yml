@@ -1,0 +1,30 @@
+uuid: cf5ebcb1-241c-4bd6-b2c5-5c4ea8fac030
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.ta_gastrointestinal.body
+    - node.type.ta_gastrointestinal
+  module:
+    - text
+    - user
+id: node.ta_gastrointestinal.teaser
+targetEntityType: node
+bundle: ta_gastrointestinal
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden: {  }

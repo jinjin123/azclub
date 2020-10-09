@@ -1,0 +1,28 @@
+uuid: f7b8bf31-9d5d-4ab4-834a-e8d98da1d1d3
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.ta_articles.body
+    - node.type.ta_articles
+  module:
+    - text
+    - user
+id: node.ta_articles.default
+targetEntityType: node
+bundle: ta_articles
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden: {  }

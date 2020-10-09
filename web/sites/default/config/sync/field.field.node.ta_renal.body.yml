@@ -1,0 +1,23 @@
+uuid: afe22c25-2df3-4768-ae52-835640d7c0d6
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.ta_renal
+  module:
+    - text
+id: node.ta_renal.body
+field_name: body
+entity_type: node
+bundle: ta_renal
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+  required_summary: false
+field_type: text_with_summary

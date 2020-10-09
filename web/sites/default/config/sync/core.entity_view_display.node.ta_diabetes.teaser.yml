@@ -1,0 +1,30 @@
+uuid: 78d8ae12-f07d-463f-9f13-b010e136a55f
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.ta_diabetes.body
+    - node.type.ta_diabetes
+  module:
+    - text
+    - user
+id: node.ta_diabetes.teaser
+targetEntityType: node
+bundle: ta_diabetes
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden: {  }

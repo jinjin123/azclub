@@ -1,0 +1,17 @@
+uuid: 28a61ccc-7687-4bcd-848f-b4b6e8fc3d9c
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: Renal
+type: ta_renal
+description: 'Therapeutic Area Content,  the category is Renal.'
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: false

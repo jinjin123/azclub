@@ -1,0 +1,28 @@
+uuid: 1f9ac183-6e28-4df6-93f4-c44b168e3dd4
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.ta_campaign.body
+    - node.type.ta_campaign
+  module:
+    - text
+    - user
+id: node.ta_campaign.default
+targetEntityType: node
+bundle: ta_campaign
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden: {  }

@@ -1,0 +1,28 @@
+uuid: e2950d64-9b01-44a9-b6d9-cd9be2dc667d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.ta_gastrointestinal.body
+    - node.type.ta_gastrointestinal
+  module:
+    - text
+    - user
+id: node.ta_gastrointestinal.default
+targetEntityType: node
+bundle: ta_gastrointestinal
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden: {  }
