@@ -1,0 +1,22 @@
+uuid: bf421bab-2cd9-421c-bef8-017d717d35a8
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.offers_details
+id: node.offers_details.promote
+field_name: promote
+entity_type: node
+bundle: offers_details
+label: 'Promoted to front page'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

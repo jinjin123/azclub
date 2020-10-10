@@ -1,0 +1,28 @@
+uuid: 4e4fd341-d6ba-4d3b-bf9e-bfaef7134843
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.offers_details.body
+    - node.type.offers_details
+  module:
+    - text
+    - user
+id: node.offers_details.default
+targetEntityType: node
+bundle: offers_details
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden: {  }

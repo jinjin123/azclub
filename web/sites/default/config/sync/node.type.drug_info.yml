@@ -1,0 +1,17 @@
+uuid: a93b0067-e9f6-44fa-802c-e018eca56a38
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: 'Drug Info'
+type: drug_info
+description: 'Drug Info Content'
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: false

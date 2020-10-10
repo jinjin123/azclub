@@ -1,0 +1,17 @@
+uuid: 05ae2280-8f4d-4389-aa70-615a73eb83e4
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: 'Offers Details'
+type: offers_details
+description: 'Offers Details Content'
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: false
