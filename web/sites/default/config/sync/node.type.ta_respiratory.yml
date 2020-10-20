@@ -12,6 +12,6 @@ name: Respiratory
 type: ta_respiratory
 description: 'Therapeutic Area Content,  the category is Respiratory.'
 help: ''
-new_revision: true
+new_revision: false
 preview_mode: 1
 display_submitted: false

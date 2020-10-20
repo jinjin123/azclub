@@ -1,0 +1,37 @@
+uuid: fabe60ba-3d98-4fdb-857b-b19adb6258ea
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_visibility_groups.block_visibility_group.right_sidebar
+    - views.view.categories_post
+  module:
+    - block_visibility_groups
+    - gaviasthemer
+    - views
+  theme:
+    - astrazeneca
+third_party_settings:
+  gaviasthemer:
+    classes: ''
+_core:
+  default_config_hash: jzydYnxk1AJxUqLxuqfUrIgcTUY9iblOLdF1_nlKNWM
+id: astrazeneca_views_block__categories_post_block_1
+theme: astrazeneca
+region: sidebar_right
+weight: -18
+provider: null
+plugin: 'views_block:categories_post-block_1'
+settings:
+  id: 'views_block:categories_post-block_1'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+visibility:
+  condition_group:
+    id: condition_group
+    negate: false
+    block_visibility_group: right_sidebar
+    context_mapping: {  }

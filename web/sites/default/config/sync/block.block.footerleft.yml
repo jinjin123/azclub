@@ -1,0 +1,34 @@
+uuid: 97b1e3dd-2620-4101-9aa3-0e9c427d0ac4
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:072ea747-495b-499c-9347-1541f29a2e07'
+  module:
+    - block_content
+    - block_visibility_groups
+    - gaviasthemer
+  theme:
+    - astrazeneca
+third_party_settings:
+  gaviasthemer:
+    classes: ''
+id: footerleft
+theme: astrazeneca
+region: footer_first
+weight: 0
+provider: null
+plugin: 'block_content:072ea747-495b-499c-9347-1541f29a2e07'
+settings:
+  id: 'block_content:072ea747-495b-499c-9347-1541f29a2e07'
+  label: 'Footer left'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  condition_group:
+    id: condition_group
+    negate: false
+    block_visibility_group: ''

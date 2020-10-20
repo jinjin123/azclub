@@ -6,6 +6,11 @@ dependencies:
     - field.field.node.article.body
     - field.field.node.article.comment
     - field.field.node.article.field_image
+    - field.field.node.article.field_post_category
+    - field.field.node.article.field_post_embed
+    - field.field.node.article.field_post_format
+    - field.field.node.article.field_post_gallery
+    - field.field.node.article.field_post_type
     - field.field.node.article.field_tags
     - image.style.thumbnail
     - node.type.article
@@ -106,4 +111,9 @@ content:
       size: 60
       placeholder: ''
     third_party_settings: {  }
-hidden: {  }
+hidden:
+  field_post_category: true
+  field_post_embed: true
+  field_post_format: true
+  field_post_gallery: true
+  field_post_type: true

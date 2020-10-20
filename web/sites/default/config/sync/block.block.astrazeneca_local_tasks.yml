@@ -1,0 +1,22 @@
+uuid: b7e748ca-cfa0-45e4-9c8a-9fdd1a0fc58c
+langcode: en
+status: true
+dependencies:
+  theme:
+    - astrazeneca
+_core:
+  default_config_hash: X9I1OB0W3WlWtrK-CNcg6hNWwa8wficanpH8pYnDZDE
+id: astrazeneca_local_tasks
+theme: astrazeneca
+region: help
+weight: -13
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: Tabs
+  provider: core
+  label_display: '0'
+  primary: true
+  secondary: true
+visibility: {  }

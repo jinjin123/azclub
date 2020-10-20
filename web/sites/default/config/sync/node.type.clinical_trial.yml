@@ -12,6 +12,6 @@ name: 'Clinical Trial'
 type: clinical_trial
 description: 'The content about Clinical Trial'
 help: ''
-new_revision: true
+new_revision: false
 preview_mode: 1
 display_submitted: false

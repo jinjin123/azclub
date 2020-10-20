@@ -12,6 +12,6 @@ name: Gastrointestinal
 type: ta_gastrointestinal
 description: 'Therapeutic Area Content,  the category is Gastrointestinal.'
 help: ''
-new_revision: true
+new_revision: false
 preview_mode: 1
 display_submitted: false

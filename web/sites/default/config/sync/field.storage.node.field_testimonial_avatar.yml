@@ -1,0 +1,32 @@
+uuid: 39c27fcc-0ed5-4b85-8b7c-69724d986159
+langcode: en
+status: true
+dependencies:
+  module:
+    - file
+    - image
+    - node
+_core:
+  default_config_hash: 2PFvFSvqzssuywLnVCnPc9IceNg6yg4ZlR68bb0ZNUo
+id: node.field_testimonial_avatar
+field_name: field_testimonial_avatar
+entity_type: node
+type: image
+settings:
+  uri_scheme: public
+  default_image:
+    uuid: ''
+    alt: ''
+    title: ''
+    width: null
+    height: null
+  target_type: file
+  display_field: false
+  display_default: false
+module: image
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

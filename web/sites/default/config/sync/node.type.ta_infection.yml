@@ -12,6 +12,6 @@ name: Infection
 type: ta_infection
 description: 'Therapeutic Area Content,  the category is Infection.'
 help: ''
-new_revision: true
+new_revision: false
 preview_mode: 1
 display_submitted: false

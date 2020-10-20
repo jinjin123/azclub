@@ -1,0 +1,20 @@
+uuid: 30fb8788-e14e-4a93-a835-2117c2850a58
+langcode: en
+status: true
+dependencies:
+  theme:
+    - astrazeneca
+_core:
+  default_config_hash: 13GQpeITIJsp1kyPniXtWZfyFH87vb1xxJCHifL4UeE
+id: astrazeneca_local_actions
+theme: astrazeneca
+region: help
+weight: -14
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  provider: core
+  label_display: '0'
+visibility: {  }

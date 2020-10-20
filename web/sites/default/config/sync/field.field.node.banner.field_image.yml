@@ -1,4 +1,4 @@
-uuid: e68b2293-846a-44e3-9f8c-0d048456d053
+uuid: 5770c8ae-abe9-4537-b9b4-cfeae9fd5e65
 langcode: en
 status: true
 dependencies:
@@ -7,18 +7,20 @@ dependencies:
     - node.type.banner
   module:
     - image
+_core:
+  default_config_hash: ka1L21lYzu5-QNUwYAkAxRFLY5dvllVMyULQy5yWNzA
 id: node.banner.field_image
 field_name: field_image
 entity_type: node
 bundle: banner
-label: 'Banner Image'
+label: Image
 description: ''
 required: false
 translatable: true
 default_value: {  }
 default_value_callback: ''
 settings:
-  file_directory: banner_image
+  file_directory: banner
   file_extensions: 'png gif jpg jpeg'
   max_filesize: ''
   max_resolution: ''

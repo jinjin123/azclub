@@ -1,0 +1,36 @@
+uuid: b944c87d-b979-4e4a-a752-c474ed08e1c1
+langcode: en
+status: false
+dependencies:
+  config:
+    - views.view.post_other
+  module:
+    - block_visibility_groups
+    - gaviasthemer
+    - views
+  theme:
+    - astrazeneca
+third_party_settings:
+  gaviasthemer:
+    classes: ''
+_core:
+  default_config_hash: V94HQeNKZzNzkEgiHtYfsr-M_7ERLWHUOWvBaatyFyc
+id: astrazeneca_views_block__post_other_block_2
+theme: astrazeneca
+region: offcanvas
+weight: -3
+provider: null
+plugin: 'views_block:post_other-block_2'
+settings:
+  id: 'views_block:post_other-block_2'
+  label: ''
+  provider: views
+  label_display: '0'
+  views_label: ''
+  items_per_page: none
+visibility:
+  condition_group:
+    id: condition_group
+    negate: false
+    block_visibility_group: ''
+    context_mapping: {  }

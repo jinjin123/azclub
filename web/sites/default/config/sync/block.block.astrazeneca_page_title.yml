@@ -1,0 +1,20 @@
+uuid: 0e2a53ee-7d46-4d1e-a3ad-236d0c62fe5f
+langcode: en
+status: true
+dependencies:
+  theme:
+    - astrazeneca
+_core:
+  default_config_hash: 7rR9chwXvdM2H8OYMAYx9Zj3GGlPMrZp_M3ZA4thYTk
+id: astrazeneca_page_title
+theme: astrazeneca
+region: content
+weight: -50
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  provider: core
+  label_display: '0'
+visibility: {  }

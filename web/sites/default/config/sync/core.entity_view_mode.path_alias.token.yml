@@ -1,0 +1,10 @@
+uuid: dfaca3d5-ccdb-46f6-81e1-428720572822
+langcode: en
+status: true
+dependencies:
+  module:
+    - path_alias
+id: path_alias.token
+label: Token
+targetEntityType: path_alias
+cache: true

@@ -1,0 +1,26 @@
+uuid: 08d6bd30-9038-4829-a670-08f3e607dd52
+langcode: en
+status: false
+dependencies:
+  config:
+    - views.view.testimonial
+  module:
+    - views
+  theme:
+    - astrazeneca
+_core:
+  default_config_hash: wdz7EOUkCWH6L9elBXLZt6rnR4n4CuUI8lLWoyHmoPA
+id: astrazeneca_views_block__testimonial_testimonial_v2
+theme: astrazeneca
+region: offcanvas
+weight: -6
+provider: null
+plugin: 'views_block:testimonial-testimonial_v2'
+settings:
+  id: 'views_block:testimonial-testimonial_v2'
+  label: ''
+  provider: views
+  label_display: '0'
+  views_label: ''
+  items_per_page: none
+visibility: {  }

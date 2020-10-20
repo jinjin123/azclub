@@ -1,0 +1,36 @@
+uuid: dc90e27d-5930-4236-8dfc-12d44eb89a9f
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.banner
+  module:
+    - block_visibility_groups
+    - gaviasthemer
+    - views
+  theme:
+    - astrazeneca
+third_party_settings:
+  gaviasthemer:
+    classes: ''
+_core:
+  default_config_hash: eq7Gn8QL8BAqRZC-agCZ435UvsBWQQDp22K_ljzfyGE
+id: astrazeneca_views_block__banner_block_3
+theme: astrazeneca
+region: branding
+weight: -14
+provider: null
+plugin: 'views_block:banner-block_3'
+settings:
+  id: 'views_block:banner-block_3'
+  label: ''
+  provider: views
+  label_display: '0'
+  views_label: ''
+  items_per_page: none
+visibility:
+  condition_group:
+    id: condition_group
+    negate: false
+    block_visibility_group: ''
+    context_mapping: {  }

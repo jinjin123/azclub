@@ -12,6 +12,6 @@ name: 'TA Campaign'
 type: ta_campaign
 description: 'Therapeutic Area Campaign'
 help: ''
-new_revision: true
+new_revision: false
 preview_mode: 1
 display_submitted: false

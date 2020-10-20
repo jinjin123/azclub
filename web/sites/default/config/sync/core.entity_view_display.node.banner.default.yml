@@ -1,4 +1,4 @@
-uuid: b0e8c56b-c78d-4c96-8503-70c4765a870b
+uuid: 601577ff-8234-4d9c-8521-65063b21c747
 langcode: en
 status: true
 dependencies:
@@ -10,6 +10,8 @@ dependencies:
     - image
     - text
     - user
+_core:
+  default_config_hash: I1agD-_qXsD7YoWzrvhQICzxa0JO0QyVYAQ0aj3JWpg
 id: node.banner.default
 targetEntityType: node
 bundle: banner
@@ -18,18 +20,20 @@ content:
   body:
     label: hidden
     type: text_default
-    weight: 0
+    weight: 101
     settings: {  }
     third_party_settings: {  }
     region: content
   field_image:
-    weight: 1
-    label: hidden
+    weight: 102
+    label: above
     settings:
       image_style: ''
       image_link: ''
     third_party_settings: {  }
     type: image
     region: content
-hidden:
-  links: true
+  links:
+    weight: 100
+    region: content
+hidden: {  }

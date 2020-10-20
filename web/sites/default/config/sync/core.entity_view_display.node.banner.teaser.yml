@@ -1,4 +1,4 @@
-uuid: 1520ac6f-7e96-4ae0-bcdd-b918d10cfbdd
+uuid: 2eabf94b-0940-4a94-85df-c964b8ce0f49
 langcode: en
 status: true
 dependencies:
@@ -10,6 +10,8 @@ dependencies:
   module:
     - text
     - user
+_core:
+  default_config_hash: Tadhi8KtCdzUQPxaeMk_0ID1BUGSYUV6n8pJk5HLHfc
 id: node.banner.teaser
 targetEntityType: node
 bundle: banner
@@ -25,8 +27,6 @@ content:
     region: content
   links:
     weight: 100
-    settings: {  }
-    third_party_settings: {  }
     region: content
 hidden:
   field_image: true
