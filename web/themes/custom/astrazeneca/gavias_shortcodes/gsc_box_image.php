@@ -1,4 +1,4 @@
-<?php 
+<?php
 namespace Drupal\gavias_blockbuilder\shortcodes;
 if(!class_exists('gsc_box_color')):
    class gsc_box_color{
@@ -36,7 +36,7 @@ if(!class_exists('gsc_box_color')):
                   'id'        => 'icon',
                   'type'      => 'text',
                   'title'     => t('Icon'),
-                  'desc'     => t('Use class icon font <a target="_blank" href="http://fontawesome.io/icons/">Icon Awesome</a> or <a target="_blank" href="'.base_path().drupal_get_path('theme', 'gavias_tico').'/demo-font/index.html'.'">Custom icon</a>'),
+                  'desc'     => t('Use class icon font <a target="_blank" href="http://fontawesome.io/icons/">Icon Awesome</a> or <a target="_blank" href="'.base_path().drupal_get_path('theme', 'astrazeneca').'/demo-font/index.html'.'">Custom icon</a>'),
                ),
                array(
                   'id'        => 'link',
@@ -63,7 +63,7 @@ if(!class_exists('gsc_box_color')):
                   'title'     => t('Extra class name'),
                   'desc'      => t('Style particular content element differently - add a class name and refer to it in custom CSS.'),
                ),
-            ),                                     
+            ),
          );
       }
 
@@ -96,7 +96,7 @@ if(!class_exists('gsc_box_color')):
             $el_class .= ' wow';
             $el_class .= ' '. $animate;
          }
-         
+
          ?>
             <?php ob_start() ?>
             <div class="widget gsc-box-image<?php if($el_class) print (' '.$el_class) ?>">
@@ -118,10 +118,10 @@ if(!class_exists('gsc_box_color')):
            </div>
            <?php return ob_get_clean() ?>
       <?php
-      } 
+      }
 
       public function load_shortcode(){
          add_shortcode( 'box_image', array('gsc_box_image', 'sc_box_image'));
       }
    }
-endif;   
+endif;

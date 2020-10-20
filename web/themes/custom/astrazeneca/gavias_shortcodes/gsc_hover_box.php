@@ -1,8 +1,8 @@
-<?php 
+<?php
 namespace Drupal\gavias_blockbuilder\shortcodes;
 if(!class_exists('gsc_hover_box')):
    class gsc_hover_box{
-      
+
       public function render_form(){
          $fields = array(
             'type'            => 'gsc_hover_box',
@@ -20,7 +20,7 @@ if(!class_exists('gsc_hover_box')):
                   'id'        => 'icon',
                   'type'      => 'text',
                   'title'     => t('Icon'),
-                  'desc'     => t('Use class icon font <a target="_blank" href="http://fontawesome.io/icons/">Icon Awesome</a> or <a target="_blank" href="'.base_path().drupal_get_path('theme', 'gavias_tico').'/demo-font/index.html'.'">Custom icon</a>'),
+                  'desc'     => t('Use class icon font <a target="_blank" href="http://fontawesome.io/icons/">Icon Awesome</a> or <a target="_blank" href="'.base_path().drupal_get_path('theme', 'astrazeneca').'/demo-font/index.html'.'">Custom icon</a>'),
                ),
                array(
                   'id'        => 'icon_image',
@@ -63,7 +63,7 @@ if(!class_exists('gsc_hover_box')):
                   'desc'      => t('Entrance animation'),
                   'options'   => gavias_blockbuilder_animate(),
                ),
-            ),                                     
+            ),
          );
          return $fields;
       }
@@ -87,7 +87,7 @@ if(!class_exists('gsc_hover_box')):
          ), $attr));
 
          if($icon_image){
-            $icon_image = $base_url . '/' .$icon_image; 
+            $icon_image = $base_url . '/' .$icon_image;
          }
 
          // target
@@ -123,7 +123,7 @@ if(!class_exists('gsc_hover_box')):
          add_shortcode( 'hover_box', array('gsc_hover_box', 'sc_hover_box') );
       }
    }
-endif;   
+endif;
 
 
 

@@ -1,5 +1,5 @@
 <?php
-function gavias_tico_preprocess_views_view_grid(&$variables) {
+function astrazeneca_preprocess_views_view_grid(&$variables) {
    $view = $variables['view'];
    $rows = $variables['rows'];
    $style = $view->style_plugin;

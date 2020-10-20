@@ -1,14 +1,14 @@
-name: Gavias Tico
+name: Astrazeneca
 type: theme
 description: 'A flexible, recolorable theme with many regions and a responsive, mobile-first layout.'
-package: gaviasthemes
+package: custom
 base theme: false
 libraries:
-  - gavias_tico/global-styling
+  - astrazeneca/global-styling
   - core/jquery
 
 libraries-override:
-  views_infinite_scroll/views-infinite-scroll: gavias_tico/views-infinite-scroll
+  views_infinite_scroll/views-infinite-scroll: astrazeneca/views-infinite-scroll
 
 regions:
   offcanvas: 'After Offcanvas'

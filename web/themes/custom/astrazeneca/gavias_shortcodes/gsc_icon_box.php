@@ -1,4 +1,4 @@
-<?php 
+<?php
 namespace Drupal\gavias_blockbuilder\shortcodes;
 if(!class_exists('gsc_icon_box')):
    class gsc_icon_box{
@@ -6,9 +6,9 @@ if(!class_exists('gsc_icon_box')):
       public function render_form(){
          $fields = array(
             'type' => 'gsc_icon_box',
-            'title' => ('Icon Box'), 
+            'title' => ('Icon Box'),
             'size' => 3,'fields' => array(
-         
+
                array(
                   'id'        => 'title',
                   'type'      => 'text',
@@ -21,13 +21,13 @@ if(!class_exists('gsc_icon_box')):
                   'title'     => t('Content'),
                   'desc'      => t('Some Shortcodes and HTML tags allowed'),
                ),
-         
+
                array(
                   'id'        => 'icon',
                   'type'      => 'text',
                   'title'     => t('Icon class'),
                   'std'       => '',
-                  'desc'     => t('Use class icon font <a target="_blank" href="http://fontawesome.io/icons/">Icon Awesome</a> or <a target="_blank" href="'.base_path().drupal_get_path('theme', 'gavias_tico').'/demo-font/index.html'.'">Custom icon</a>'),
+                  'desc'     => t('Use class icon font <a target="_blank" href="http://fontawesome.io/icons/">Icon Awesome</a> or <a target="_blank" href="'.base_path().drupal_get_path('theme', 'astrazeneca').'/demo-font/index.html'.'">Custom icon</a>'),
                ),
                array(
                   'id'        => 'icon_size',
@@ -47,7 +47,7 @@ if(!class_exists('gsc_icon_box')):
                   'type'      => 'upload',
                   'title'     => t('Icon image'),
                ),
-               
+
                array(
                   'id'            => 'icon_position',
                   'type'          => 'select',
@@ -90,11 +90,11 @@ if(!class_exists('gsc_icon_box')):
                   'type'      => 'select',
                   'title'     => 'Skin Text for box',
                   'options'   => array(
-                     'text-dark'  => t('Text Dark'), 
+                     'text-dark'  => t('Text Dark'),
                      'text-light' => t('Text Light')
-                  ) 
+                  )
                ),
-               
+
                array(
                   'id'        => 'target',
                   'type'      => 'select',
@@ -102,7 +102,7 @@ if(!class_exists('gsc_icon_box')):
                   'title'     => t('Open in new window'),
                   'desc'      => t('Adds a target="_blank" attribute to the link.'),
                ),
-               
+
                array(
                   'id'        => 'animate',
                   'type'      => 'select',
@@ -110,7 +110,7 @@ if(!class_exists('gsc_icon_box')):
                   'desc'      => t('Entrance animation for element'),
                   'options'   => gavias_blockbuilder_animate(),
                ),
-               
+
                array(
                   'id'     => 'el_class',
                   'type'      => 'text',
@@ -118,7 +118,7 @@ if(!class_exists('gsc_icon_box')):
                   'desc'      => t('Style particular content element differently - add a class name and refer to it in custom CSS.'),
                ),
 
-            ),                                       
+            ),
          );
          return $fields;
       }
@@ -156,7 +156,7 @@ if(!class_exists('gsc_icon_box')):
          }
 
          if($image){
-            $image = substr(base_path(), 0, -1) . $image; 
+            $image = substr(base_path(), 0, -1) . $image;
          }
 
          $class = array();
@@ -205,7 +205,7 @@ if(!class_exists('gsc_icon_box')):
                <?php } ?>
                <div class="desc"><?php print do_shortcode($content); ?></div>
             </div>
-         </div> 
+         </div>
          <?php return ob_get_clean() ?>
        <?php
       }
@@ -214,7 +214,7 @@ if(!class_exists('gsc_icon_box')):
          add_shortcode( 'icon_box', array($this, 'sc_icon_box') );
       }
    }
-endif;   
+endif;
 
 
 

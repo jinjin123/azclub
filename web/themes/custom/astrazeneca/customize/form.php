@@ -1,16 +1,16 @@
 <div id="gavias_customize_form" class="gavias_customize_form">
-  
+
    <div class="form-group action">
       <input type="button" id="gavias_customize_save" class="btn form-submit" value="Save" />
       <input type="button" id="gavias_customize_preview" class="btn form-submit" value="Preview" />
       <input type="button" id="gavias_customize_reset" class="btn form-submit" value="Reset" />
-      <input type="hidden" id="gva_theme_name" name="theme_name" value="gavias_tico" />
-   </div>   
+      <input type="hidden" id="gva_theme_name" name="theme_name" value="astrazeneca" />
+   </div>
 
    <div class="clearfix"></div>
    <div id="customize-gavias-preivew">
-      <div class="panel-group" id="customize-accordion" role="tablist" aria-multiselectable="true">   
-        
+      <div class="panel-group" id="customize-accordion" role="tablist" aria-multiselectable="true">
+
          <!-- Typo -->
          <div class="panel panel-default">
             <div class="panel-heading" role="tab">
@@ -90,8 +90,8 @@
                      </div>
                   </div>
                </div>
-            </div> 
-         </div> 
+            </div>
+         </div>
 
          <!-- Body -->
          <div class="panel panel-default">
@@ -106,7 +106,7 @@
                <div class="panel-body">
                   <div class="desc">Background body show when use boxed layout</div>
                   <div class="form-wrapper">
-                  <div class="desc" style="line-height: 16px;"><b>You can upload image for /themes/gavias_tico/images/patterns</b></div>
+                  <div class="desc" style="line-height: 16px;"><b>You can upload image for /themes/astrazeneca/images/patterns</b></div>
                      <div class="form-group">
                         <label>Background Image</label>
                         <div class="input-group">
@@ -166,7 +166,7 @@
                      </div>
                   </div>
                </div>
-            </div> 
+            </div>
          </div>
 
          <!-- General -->
@@ -221,8 +221,8 @@
                      </div>
                   </div>
                </div>
-            </div> 
-         </div> 
+            </div>
+         </div>
 
          <!-- Header -->
          <div class="panel panel-default">
@@ -266,7 +266,7 @@
                      </div>
                   </div>
                </div>
-            </div> 
+            </div>
          </div>
 
          <!-- Main menu -->
@@ -351,7 +351,7 @@
                      </div>
                   </div>
                </div>
-            </div> 
+            </div>
          </div>
 
          <!-- Footer -->
@@ -407,7 +407,7 @@
                   </div>
 
                </div>
-            </div> 
+            </div>
          </div>
 
          <!-- Copyright -->
@@ -463,9 +463,9 @@
                   </div>
 
                </div>
-            </div> 
+            </div>
          </div>
 
-      </div>    
-   </div>   
+      </div>
+   </div>
 </div>

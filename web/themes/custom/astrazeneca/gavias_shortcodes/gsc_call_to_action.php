@@ -1,4 +1,4 @@
-<?php 
+<?php
 namespace Drupal\gavias_blockbuilder\shortcodes;
 if(!class_exists('gsc_call_to_action')):
    class gsc_call_to_action{
@@ -7,7 +7,7 @@ if(!class_exists('gsc_call_to_action')):
             'type' => 'gsc_call_to_action',
             'title' => t('Call to Action'),
             'size' => 12,
-            
+
             'fields' => array(
                array(
                   'id'     => 'title',
@@ -24,7 +24,7 @@ if(!class_exists('gsc_call_to_action')):
                   'id'     => 'icon',
                   'type'      => 'text',
                   'title'  => t('Icon'),
-                  'desc'     => t('Use class icon font <a target="_blank" href="http://fontawesome.io/icons/">Icon Awesome</a> or <a target="_blank" href="'.base_path().drupal_get_path('theme', 'gavias_tico').'/demo-font/index.html'.'">Custom icon</a>'),
+                  'desc'     => t('Use class icon font <a target="_blank" href="http://fontawesome.io/icons/">Icon Awesome</a> or <a target="_blank" href="'.base_path().drupal_get_path('theme', 'astrazeneca').'/demo-font/index.html'.'">Custom icon</a>'),
                ),
                array(
                   'id'     => 'content',
@@ -86,7 +86,7 @@ if(!class_exists('gsc_call_to_action')):
                   'sub_desc'  => t('Entrance animation'),
                   'options'   => gavias_blockbuilder_animate(),
                ),
-            ),                                       
+            ),
          );
       return $fields;
       }
@@ -110,14 +110,14 @@ if(!class_exists('gsc_call_to_action')):
             'animate'      => '',
             'style_text'   => 'text-dark'
          ), $attr));
-         
+
          // target
          if( $target ){
             $target = 'target="_blank"';
          } else {
             $target = false;
          }
-         
+
          $class = array();
          $class[] = $el_class;
          $class[] = $button_align;
@@ -144,7 +144,7 @@ if(!class_exists('gsc_call_to_action')):
                         <span class="icon"><i class="<?php print $icon; ?>"></i></span>
                      <?php } ?>
                      <span><?php print $button_title ?></span>
-                  </a>   
+                  </a>
                </div>
                <?php } ?>
             </div>
@@ -157,7 +157,7 @@ if(!class_exists('gsc_call_to_action')):
          add_shortcode( 'cta', array($this, 'sc_call_to_action') );
       }
    }
-endif;   
+endif;
 
 
 

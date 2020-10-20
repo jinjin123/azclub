@@ -1,14 +1,14 @@
 <?php
-function gavias_tico_font_size(){
+function astrazeneca_font_size(){
     $size = array();
     $size[''] = '-- Default --';
-    for ($i=12; $i <= 50 ; $i = $i+1) { 
+    for ($i=12; $i <= 50 ; $i = $i+1) {
         $size[$i] = $i;
     }
     return $size;
 }
 
-function gavias_tico_fonts(){
+function astrazeneca_fonts(){
 $tmp = array(
         '---',
         'Arial, Helvetica, sans-serif',
@@ -686,13 +686,13 @@ $tmp = array(
     );
     $fonts = array();
     foreach ($tmp as $key => $value) {
-        $fonts[$value] = $value;   
-    }   
+        $fonts[$value] = $value;
+    }
     return $fonts;
 }
 
-function gavias_tico_render_option_font(){
-    $fonts = gavias_tico_fonts();
+function astrazeneca_render_option_font(){
+    $fonts = astrazeneca_fonts();
     $output = '';
     foreach ($fonts as $key => $value) {
         $output .= '<option value="'.$key.'">' . $value . '</option>';
@@ -700,11 +700,11 @@ function gavias_tico_render_option_font(){
     return $output;
 }
 
-function gavias_tico_typography_font_styles($option, $selectors) {
+function astrazeneca_typography_font_styles($option, $selectors) {
     $output = $selectors . ' {';
     if(isset($option['face']) && $option['face']){
         $output .= 'font-family:' . $option['face'] . '; ';
-    }    
+    }
     if(isset($option['weight']) && $option['weight']){
         $output .= 'font-weight:' . $option['weight'] . '; ';
     }
@@ -716,39 +716,39 @@ function gavias_tico_typography_font_styles($option, $selectors) {
     return $output;
 }
 
-function gavias_tico_typography_enqueue_google_font($font) {
- 
+function astrazeneca_typography_enqueue_google_font($font) {
+
     if($font && $font != "---"){
-        if(array_search($font, array_keys(gavias_tico_fonts())) > 17){
+        if(array_search($font, array_keys(astrazeneca_fonts())) > 17){
             $font = str_replace(" ", "+", $font);
             return "<link rel=\"stylesheet\" type=\"text/css\" href=\"http://fonts.googleapis.com/css?family=$font:100,300,400,600,800,900\"/>\n";
         }
-    } 
-    return '';   
+    }
+    return '';
 }
 
-function gavias_tico_links_typography_font($json){
+function astrazeneca_links_typography_font($json){
     $links_fonts = '';
     $customize = (array)json_decode($json, true);
     if(isset($customize['font_family_primary']) && $customize['font_family_primary']){
-        $links_fonts .= gavias_tico_typography_enqueue_google_font($customize['font_family_primary']);
+        $links_fonts .= astrazeneca_typography_enqueue_google_font($customize['font_family_primary']);
     }
     if(isset($customize['font_family_second']) && $customize['font_family_second']){
-        $links_fonts .= gavias_tico_typography_enqueue_google_font($customize['font_family_second']);
+        $links_fonts .= astrazeneca_typography_enqueue_google_font($customize['font_family_second']);
     }
     return $links_fonts;
 }
 
-function gavias_tico_options_patterns(){
+function astrazeneca_options_patterns(){
     $output = '';
-    $file_path = drupal_get_path('theme', 'gavias_tico');
+    $file_path = drupal_get_path('theme', 'astrazeneca');
     $list_file = glob($file_path . '/images/patterns/*.{jpg,png,gif}', GLOB_BRACE);
-   
+
     foreach ($list_file as $key => $file) {
       if(basename($file)){
-        $file_url = $file_path . 'images/patterns/' .  basename($file); 
+        $file_url = $file_path . 'images/patterns/' .  basename($file);
         $output .= '<option value = "'.basename($file).'">'.basename($file).'</option>';
-      } 
+      }
     }
     return $output;
 }

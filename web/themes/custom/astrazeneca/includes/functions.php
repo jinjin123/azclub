@@ -7,7 +7,7 @@
  * @param string $path
  *   Path relative to $theme.
  */
-function gavias_tico_include($theme, $path) {
+function astrazeneca_include($theme, $path) {
   static $themes = array();
   if (!isset($themes[$theme])) {
     $themes[$theme] = drupal_get_path('theme', $theme);
@@ -17,18 +17,18 @@ function gavias_tico_include($theme, $path) {
   }
 }
 
-function gavias_tico_render_block($key) {
+function astrazeneca_render_block($key) {
   $block = \Drupal\block\Entity\Block::load($key);
   if($block){
   $block_content = \Drupal::entityTypeManager()
     ->getViewBuilder('block')
     ->view($block);
     return \Drupal::service('renderer')->render($block_content);
-  }  
+  }
   return '';
 }
 
-function gavias_tico_makeid($length = 5){
+function astrazeneca_makeid($length = 5){
     $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
     $randomString = '';
     for ($i = 0; $i < $length; $i++) {

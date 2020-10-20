@@ -1,6 +1,6 @@
 <?php
-function gavias_tico_form_contact_message_feedback_form_alter(&$form, \Drupal\Core\Form\FormStateInterface $form_state, $form_id) {
-  
+function astrazeneca_form_contact_message_feedback_form_alter(&$form, \Drupal\Core\Form\FormStateInterface $form_state, $form_id) {
+
   // Name
   $form['name']['#weight'] = -1;
   $form['name']['#prefix'] = '<div class="contact-feedback"><div class="row"><div class="col-sm-4"><div class="form-group">';
@@ -25,7 +25,7 @@ function gavias_tico_form_contact_message_feedback_form_alter(&$form, \Drupal\Co
   $form['subject']['widget'][0]['value']['#attributes']['class'][] = 'form-control';
   $form['subject']['widget'][0]['value']['#attributes']['placeholder'][] = $form['subject']['widget'][0]['#title'].'*';
   unset($form['subject']['widget'][0]['value']['#title']);
- 
+
   // Message
   $form['message']['#weight'] = -5;
   $form['message']['widget'][0]['value']['#attributes']['class'][] = 'form-control';
@@ -41,5 +41,5 @@ function gavias_tico_form_contact_message_feedback_form_alter(&$form, \Drupal\Co
   $form['actions']['#suffix'] = '</div></div>';
   $form['actions']['submit']['#attributes']['class'][] = 'btn';
   $form['actions']['submit']['#attributes']['class'][] = 'btn-theme-submit';
-  
+
 }

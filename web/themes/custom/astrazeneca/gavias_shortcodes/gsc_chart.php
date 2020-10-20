@@ -1,4 +1,4 @@
-<?php 
+<?php
 namespace Drupal\gavias_blockbuilder\shortcodes;
 if(!class_exists('gsc_chart')):
    class gsc_chart{
@@ -25,7 +25,7 @@ if(!class_exists('gsc_chart')):
                   'id'        => 'icon',
                   'type'      => 'text',
                   'title'     => t('Chart Icon'),
-                  'desc'     => t('Use class icon font <a target="_blank" href="http://fontawesome.io/icons/">Icon Awesome</a> or <a target="_blank" href="'.base_path().drupal_get_path('theme', 'gavias_tico').'/demo-font/index.html'.'">Custom icon</a>'),
+                  'desc'     => t('Use class icon font <a target="_blank" href="http://fontawesome.io/icons/">Icon Awesome</a> or <a target="_blank" href="'.base_path().drupal_get_path('theme', 'astrazeneca').'/demo-font/index.html'.'">Custom icon</a>'),
                ),
                array(
                   'id'        => 'content',
@@ -51,7 +51,7 @@ if(!class_exists('gsc_chart')):
                   'title'     => t('Extra class name'),
                   'desc'      => t('Style particular content element differently - add a class name and refer to it in custom CSS.'),
                ),
-            ),                                     
+            ),
          );
          return $fields;
       }
@@ -82,21 +82,21 @@ if(!class_exists('gsc_chart')):
          <?php ob_start() ?>
          <div class="widget gsc-chart <?php print $el_class ?>">
             <div class="pieChart" data-bar-color="<?php print $color ?>" data-bar-width="150" data-percent="<?php print $percent ?>">
-               <span><?php print $percent; ?>%</span>  
+               <span><?php print $percent; ?>%</span>
             </div>
             <div class="content">
             <?php if($icon){ ?>
                <div class="icon" <?php if($color) print 'style="color:'.$color.';"' ?>><i class="<?php print $icon ?>"></i></div>
             <?php } ?>
-            <?php if($title){ ?>   
-               <div class="title"><span><?php print $title; ?></span></div>  
-            <?php } ?>  
-            <?php if($content){ ?>   
+            <?php if($title){ ?>
+               <div class="title"><span><?php print $title; ?></span></div>
+            <?php } ?>
+            <?php if($content){ ?>
                <div class="content"><?php print $content; ?></div>
-            <?php } ?>   
+            <?php } ?>
             </div>
-         </div>  
-         <?php return ob_get_clean() ?>    
+         </div>
+         <?php return ob_get_clean() ?>
          <?php
       }
 
@@ -104,7 +104,7 @@ if(!class_exists('gsc_chart')):
          add_shortcode( 'chart', array($this, 'sc_chart') );
       }
    }
- endif;  
+ endif;
 
 
 

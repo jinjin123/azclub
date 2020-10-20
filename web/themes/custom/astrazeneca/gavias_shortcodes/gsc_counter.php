@@ -1,4 +1,4 @@
-<?php 
+<?php
 namespace Drupal\gavias_blockbuilder\shortcodes;
 if(!class_exists('gsc_counter')):
    class gsc_counter{
@@ -19,7 +19,7 @@ if(!class_exists('gsc_counter')):
                   'title'     => t('Icon'),
                   'type'      => 'text',
                   'std'       => '',
-                  'desc'      => t('Use class icon font <a target="_blank" href="http://fontawesome.io/icons/">Icon Awesome</a> or <a target="_blank" href="'.base_path().drupal_get_path('theme', 'gavias_tico').'/demo-font/index.html'.'">Custom icon</a>'),
+                  'desc'      => t('Use class icon font <a target="_blank" href="http://fontawesome.io/icons/">Icon Awesome</a> or <a target="_blank" href="'.base_path().drupal_get_path('theme', 'astrazeneca').'/demo-font/index.html'.'">Custom icon</a>'),
                ),
                array(
                   'id'        => 'number',
@@ -59,8 +59,8 @@ if(!class_exists('gsc_counter')):
                   'sub_desc'  => t('Entrance animation'),
                   'options'   => gavias_blockbuilder_animate(),
                ),
-         
-            ),                                      
+
+            ),
          );
          return $fields;
       }
@@ -94,7 +94,7 @@ if(!class_exists('gsc_counter')):
          <div class="widget milestone-block <?php if(count($class) > 0){ print implode(' ', $class); } ?>">
             <?php if($icon){ ?>
                <div class="milestone-icon"><span class="<?php print $icon; ?>"></span></div>
-            <?php } ?>   
+            <?php } ?>
             <div class="milestone-right">
                <div class="milestone-number"><?php print $number; ?></div>
                <div class="milestone-text"><?php print $title ?></div>
@@ -109,7 +109,7 @@ if(!class_exists('gsc_counter')):
        }
    }
 endif;
-   
+
 
 
 

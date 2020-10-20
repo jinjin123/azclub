@@ -1,14 +1,14 @@
 <?php
-function gavias_tico_base_url(){
+function astrazeneca_base_url(){
   global $base_url;
-  $theme_path = drupal_get_path('theme', 'gavias_tico');
+  $theme_path = drupal_get_path('theme', 'astrazeneca');
   return $base_url . '/' . $theme_path . '/';
 }
 
-function gavias_tico_preprocess_node(&$variables) {
+function astrazeneca_preprocess_node(&$variables) {
   $date = $variables['node']->getCreatedTime();
   $variables['date'] = date( 'j F Y', $date);
-  
+
   if ($variables['teaser'] || !empty($variables['content']['comments']['comment_form'])) {
     unset($variables['content']['links']['comment']['#links']['comment-add']);
   }
@@ -64,9 +64,9 @@ function gavias_tico_preprocess_node(&$variables) {
 }
 
 
-function gavias_tico_preprocess_breadcrumb(&$variables){
+function astrazeneca_preprocess_breadcrumb(&$variables){
   $variables['#cache']['max-age'] = 0;
-  
+
   $request = \Drupal::request();
   $title = '';
   if ($route = $request->attributes->get(\Symfony\Cmf\Component\Routing\RouteObjectInterface::ROUTE_OBJECT)) {
@@ -86,7 +86,7 @@ function gavias_tico_preprocess_breadcrumb(&$variables){
       );
       $variables['breadcrumb'][] = array(
         'text' => $title
-      );  
-    }  
+      );
+    }
   }
 }

@@ -1,13 +1,13 @@
-<?php 
+<?php
 namespace Drupal\gavias_blockbuilder\shortcodes;
 if(!class_exists('gsc_heading')):
    class gsc_heading{
       public function render_form(){
          $fields = array(
             'type'      => 'gsc_heading',
-            'title'     => t('Heading'), 
-            'size'      => 3, 
-            
+            'title'     => t('Heading'),
+            'size'      => 3,
+
             'fields'    => array(
                array(
                   'id'        => 'title',
@@ -29,7 +29,7 @@ if(!class_exists('gsc_heading')):
                   'id'        => 'icon',
                   'type'      => 'text',
                   'title'     => t('Icon for heading'),
-                  'desc'     => t('Use class icon font <a target="_blank" href="http://fontawesome.io/icons/">Icon Awesome</a> or <a target="_blank" href="'.base_path().drupal_get_path('theme', 'gavias_tico').'/demo-font/index.html'.'">Custom icon</a>'),
+                  'desc'     => t('Use class icon font <a target="_blank" href="http://fontawesome.io/icons/">Icon Awesome</a> or <a target="_blank" href="'.base_path().drupal_get_path('theme', 'astrazeneca').'/demo-font/index.html'.'">Custom icon</a>'),
                ),
                array(
                   'id'        => 'align',
@@ -65,7 +65,7 @@ if(!class_exists('gsc_heading')):
                   'type'      => 'select',
                   'title'     => t('Remove Padding'),
                   'options'   => array(
-                        ''                   => 'Default',   
+                        ''                   => 'Default',
                         'padding-top-0'      => 'Remove padding top',
                         'padding-bottom-0'    => 'Remove padding bottom',
                         'padding-bottom-0 padding-top-0'   => 'Remove padding top & bottom'
@@ -86,11 +86,11 @@ if(!class_exists('gsc_heading')):
                   'desc'      => t('Entrance animation'),
                   'options'   => gavias_blockbuilder_animate(),
                ),
-            ),                                       
+            ),
          );
          return $fields;
-      } 
-      
+      }
+
       public function render_content( $item ) {
          if( ! key_exists('content', $item['fields']) ) $item['fields']['content'] = '';
          print self::sc_heading( $item['fields'], $item['fields']['content'] );
@@ -124,7 +124,7 @@ if(!class_exists('gsc_heading')):
          <div class="widget gsc-heading <?php print implode(' ', $class) ?>">
             <?php if($sub){ ?><p class="title-sub"><?php print $sub; ?></p><?php } ?>
             <?php if($title){ ?><h2 class="title"><span><?php print $title; ?></span></h2> <?php } ?>
-            <?php if($icon){?><div class="title-icon"><span><i class="<?php print $icon ?>"></i></span></div><?php } ?> 
+            <?php if($icon){?><div class="title-icon"><span><i class="<?php print $icon ?>"></i></span></div><?php } ?>
             <?php if($desc){ ?><div class="title-desc"><?php print $desc; ?></div><?php } ?>
          </div>
          <div class="clearfix"></div>

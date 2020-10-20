@@ -6,11 +6,11 @@ use Drupal\Core\Url;
 use Drupal\Core\Menu\MenuLinkInterface;
 use Drupal\Component\Plugin\Exception\PluginNotFoundException;
 
-function gavias_tico_preprocess_menu__main(&$variables) {
+function astrazeneca_preprocess_menu__main(&$variables) {
   $variables['attributes']['class'][] = 'clearfix';
 
   foreach ($variables['items'] as &$item) {
-   $menu_link_attributes = _gavias_tico_attributes_get_attributes($item['original_link']);
+   $menu_link_attributes = _astrazeneca_attributes_get_attributes($item['original_link']);
 
       if (count($menu_link_attributes)) {
         $url_attributes = $item['url']->getOption('attributes') ?: [];
@@ -24,13 +24,13 @@ function gavias_tico_preprocess_menu__main(&$variables) {
         $item['attributes']['gva_layout_columns'] = (isset($attributes['gva_layout_columns']) && $attributes['gva_layout_columns']) ? $attributes['gva_layout_columns']: 4;
         $item['attributes']['gva_block'] = (isset($attributes['gva_block']) && $attributes['gva_block']) ? $attributes['gva_block']: '';
         if(isset($attributes['gva_layout']) && $attributes['gva_layout']=='menu-block'){
-          $item['gva_block_content'] = gavias_tico_render_block($attributes['gva_block']);
+          $item['gva_block_content'] = astrazeneca_render_block($attributes['gva_block']);
         }
      }
    }
 }
 
-function _gavias_tico_attributes_get_attributes(MenuLinkInterface $menu_link_content_plugin) {
+function _astrazeneca_attributes_get_attributes(MenuLinkInterface $menu_link_content_plugin) {
   $attributes = [];
   try {
     $plugin_id = $menu_link_content_plugin->getPluginId();

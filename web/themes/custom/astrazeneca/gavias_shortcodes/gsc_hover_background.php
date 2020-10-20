@@ -1,4 +1,4 @@
-<?php 
+<?php
 namespace Drupal\gavias_blockbuilder\shortcodes;
 if(!class_exists('gsc_hover_background')):
    class gsc_hover_background{
@@ -9,7 +9,7 @@ if(!class_exists('gsc_hover_background')):
             'size'         => 3,
             'icon'         => 'fa fa-bars',
             'fields' => array(
-            
+
                array(
                   'id'        => 'title',
                   'type'      => 'text',
@@ -21,7 +21,7 @@ if(!class_exists('gsc_hover_background')):
                   'id'        => 'icon',
                   'type'      => 'text',
                   'title'     => t('Icon'),
-                  'desc'     => t('Use class icon font <a target="_blank" href="http://fontawesome.io/icons/">Icon Awesome</a> or <a target="_blank" href="'.base_path().drupal_get_path('theme', 'gavias_tico').'/demo-font/index.html'.'">Custom icon</a>'),
+                  'desc'     => t('Use class icon font <a target="_blank" href="http://fontawesome.io/icons/">Icon Awesome</a> or <a target="_blank" href="'.base_path().drupal_get_path('theme', 'astrazeneca').'/demo-font/index.html'.'">Custom icon</a>'),
                ),
 
                array(
@@ -29,7 +29,7 @@ if(!class_exists('gsc_hover_background')):
                   'type'      => 'upload',
                   'title'     => t('Background images')
                ),
-         
+
                array(
                   'id'        => 'background_color',
                   'type'      => 'text',
@@ -38,7 +38,7 @@ if(!class_exists('gsc_hover_background')):
                   'class'     => 'small-text',
                   'std'       => '#2991D6',
                ),
-            
+
 
                array(
                   'id'        => 'content',
@@ -82,8 +82,8 @@ if(!class_exists('gsc_hover_background')):
                   'desc'      => t('Entrance animation'),
                   'options'   => gavias_blockbuilder_animate(),
                ),
-         
-            ),                                     
+
+            ),
          );
       }
 
@@ -112,9 +112,9 @@ if(!class_exists('gsc_hover_background')):
          } else {
             $target = false;
          }
-         
+
          if($background){
-            $background = $base_url . '/' .$background; 
+            $background = $base_url . '/' .$background;
          }
 
          $style = '';
@@ -138,11 +138,11 @@ if(!class_exists('gsc_hover_background')):
             <div class="front" <?php print $style; ?>>
                <?php if($icon){ ?>
                   <div class="icon"><i class="<?php print $icon ?>"></i></div>
-               <?php } ?>   
+               <?php } ?>
                <?php if($title){ ?>
                   <h2><?php print $title ?></h2>
-               <?php } ?>  
-            </div>  
+               <?php } ?>
+            </div>
 
             <div <?php print $style_hover; ?> class="back">
                <div class="content">
@@ -151,14 +151,14 @@ if(!class_exists('gsc_hover_background')):
                      <div class="readmore"><a class="btn-theme btn btn-sm" href="<?php print $link ?>"><?php print $text_link ?></a></div>
                   <?php } ?>
                </div>
-            </div>   
+            </div>
          </div>
          <?php return ob_get_clean() ?>
-        <?php            
-      } 
+        <?php
+      }
 
       public function load_shortcode(){
          add_shortcode( 'hover_background', array('gsc_hover_background', 'sc_hover_background'));
       }
    }
-endif;   
+endif;

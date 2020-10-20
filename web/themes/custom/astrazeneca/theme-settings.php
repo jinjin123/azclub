@@ -15,8 +15,8 @@ use Symfony\Component\HttpFoundation\Request;
  * @param $form_state
  *   A keyed array containing the current state of the form.
  */
-function gavias_tico_form_system_theme_settings_alter(&$form, &$form_state) {
-  $form['#attached']['library'][] = 'gavias_tico/gavias-tico-admin';  
+function astrazeneca_form_system_theme_settings_alter(&$form, &$form_state) {
+  $form['#attached']['library'][] = 'astrazeneca/gavias-tico-admin';
   // Get the build info for the form
   $build_info = $form_state->getBuildInfo();
   // Get the theme name we are editing
@@ -36,7 +36,7 @@ function gavias_tico_form_system_theme_settings_alter(&$form, &$form_state) {
   $form['theme_settings']['#open'] = FALSE;
   $form['logo']['#open'] = FALSE;
   $form['favicon']['#open'] = FALSE;
-  
+
   // Custom settings in Vertical Tabs container
   $form['options'] = array(
     '#type' => 'vertical_tabs',
@@ -67,8 +67,8 @@ function gavias_tico_form_system_theme_settings_alter(&$form, &$form_state) {
     '#options' => array(
       'off'        => t('Disable'),
       'on'        => t('Enable')
-     ) 
-  ); 
+     )
+  );
   $form['general']['sticky_menu'] =array(
     '#type' => 'select',
     '#title' => t('Enable Sticky Menu'),
@@ -77,8 +77,8 @@ function gavias_tico_form_system_theme_settings_alter(&$form, &$form_state) {
     '#options' => array(
       '0'        => t('Disable'),
       '1'        => t('Enable')
-     ) 
-  ); 
+     )
+  );
   $form['general']['site_layout'] = array(
     '#type' => 'select',
     '#title' => t('Body Layout'),
@@ -104,7 +104,7 @@ function gavias_tico_form_system_theme_settings_alter(&$form, &$form_state) {
       '1' => t('Enable')
     ),
   );
-  
+
   /*--------- Setting Header ------------ */
   $form['header'] = array(
     '#type' => 'details',
@@ -201,7 +201,7 @@ function gavias_tico_form_system_theme_settings_alter(&$form, &$form_state) {
     '#attributes' => array('class' => array('code_css') ),
     '#default_value' => theme_get_setting('customize_css'),
   );
-    
+
   //Customize color ----------------------------------
 
   $form['options']['settings_customize'] = array(
@@ -249,4 +249,4 @@ function gavias_tico_form_system_theme_settings_alter(&$form, &$form_state) {
   );
 
   $form['actions']['submit']['#value'] = t('Save');
-} 
+}
