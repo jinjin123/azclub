@@ -9,12 +9,12 @@ dependencies:
     - gaviasthemer
     - views
   theme:
-    - gavias_tico
+    - astrazeneca
 third_party_settings:
   gaviasthemer:
     classes: ''
-id: gavias_tico_views_block__post_other_block_1
-theme: gavias_tico
+id: astrazeneca_views_block__post_other_block_1
+theme: astrazeneca
 region: sidebar_right
 weight: -17
 provider: null

@@ -6,9 +6,9 @@ dependencies:
   module:
     - views
   theme:
-    - gavias_tico
-id: gavias_tico_views_block__portfolio_portfolio_carousel
-theme: gavias_tico
+    - astrazeneca
+id: astrazeneca_views_block__portfolio_portfolio_carousel
+theme: astrazeneca
 region: '-1'
 weight: -14
 provider: null

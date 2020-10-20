@@ -6,9 +6,9 @@ dependencies:
   module:
     - views
   theme:
-    - gavias_tico
-id: gavias_tico_views_block__testimonial_testimonial_v2
-theme: gavias_tico
+    - astrazeneca
+id: astrazeneca_views_block__testimonial_testimonial_v2
+theme: astrazeneca
 region: '-1'
 weight: -6
 provider: null

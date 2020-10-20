@@ -8,18 +8,18 @@ dependencies:
     - gaviasthemer
     - views
   theme:
-    - gavias_tico
+    - astrazeneca
 third_party_settings:
   gaviasthemer:
     classes: ''
-id: gavias_tico_views_block__gallery_gallery_carousel
-theme: gavias_tico
+id: astrazeneca_views_block__gallery_gallery_grid
+theme: astrazeneca
 region: '-1'
-weight: -16
+weight: -4
 provider: null
-plugin: 'views_block:gallery-gallery_carousel'
+plugin: 'views_block:gallery-gallery_grid'
 settings:
-  id: 'views_block:gallery-gallery_carousel'
+  id: 'views_block:gallery-gallery_grid'
   label: ''
   provider: views
   label_display: '0'

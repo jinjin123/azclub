@@ -2,24 +2,24 @@ langcode: en
 status: false
 dependencies:
   config:
-    - views.view.gallery
+    - views.view.portfolio
   module:
     - block_visibility_groups
     - gaviasthemer
     - views
   theme:
-    - gavias_tico
+    - astrazeneca
 third_party_settings:
   gaviasthemer:
     classes: ''
-id: gavias_tico_views_block__gallery_gallery_grid
-theme: gavias_tico
+id: astrazeneca_views_block__portfolio_block_1
+theme: astrazeneca
 region: '-1'
-weight: -4
+weight: -13
 provider: null
-plugin: 'views_block:gallery-gallery_grid'
+plugin: 'views_block:portfolio-block_1'
 settings:
-  id: 'views_block:gallery-gallery_grid'
+  id: 'views_block:portfolio-block_1'
   label: ''
   provider: views
   label_display: '0'

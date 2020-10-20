@@ -1,5 +1,5 @@
-name: 'Features Tico'
-description: 'Tico Features - Import content type, field, view ... for Tico Theme'
+name: 'Features Astrazeneca'
+description: 'Astrazeneca Features - Import content type, field, view ... for Astrazeneca Theme'
 type: module
 dependencies:
   - block

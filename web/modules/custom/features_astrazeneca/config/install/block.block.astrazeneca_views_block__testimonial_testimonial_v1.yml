@@ -2,19 +2,19 @@ langcode: en
 status: false
 dependencies:
   config:
-    - views.view.portfolio
+    - views.view.testimonial
   module:
     - views
   theme:
-    - gavias_tico
-id: gavias_tico_views_block__portfolio_portfolio_grid
-theme: gavias_tico
+    - astrazeneca
+id: astrazeneca_views_block__testimonial_testimonial_v1
+theme: astrazeneca
 region: '-1'
-weight: -12
+weight: -7
 provider: null
-plugin: 'views_block:portfolio-portfolio_grid'
+plugin: 'views_block:testimonial-testimonial_v1'
 settings:
-  id: 'views_block:portfolio-portfolio_grid'
+  id: 'views_block:testimonial-testimonial_v1'
   label: ''
   provider: views
   label_display: '0'

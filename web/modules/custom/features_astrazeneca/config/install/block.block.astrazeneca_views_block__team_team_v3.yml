@@ -7,18 +7,18 @@ dependencies:
     - gaviasthemer
     - views
   theme:
-    - gavias_tico
+    - astrazeneca
 third_party_settings:
   gaviasthemer:
     classes: ''
-id: gavias_tico_views_block__team_team_v2
-theme: gavias_tico
+id: astrazeneca_views_block__team_team_v3
+theme: astrazeneca
 region: '-1'
-weight: -9
+weight: -8
 provider: null
-plugin: 'views_block:team-team_v2'
+plugin: 'views_block:team-team_v3'
 settings:
-  id: 'views_block:team-team_v2'
+  id: 'views_block:team-team_v3'
   label: ''
   provider: views
   label_display: '0'
