@@ -23,3 +23,14 @@ function azhealthclub_modify_help($route_name, RouteMatchInterface $route_match)
     default:
   }
 }
+
+function azhealthclub_modify_theme()
+{
+ return [
+   'azhealthclub_contact'=> [
+     'variables' => [
+       'variables'=>[]
+     ]
+   ]
+ ];
+}
