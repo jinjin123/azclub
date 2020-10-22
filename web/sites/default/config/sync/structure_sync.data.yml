@@ -148,3 +148,75 @@ menus:
     weight: '-48'
     langcode: en
     uuid: 3b8947d1-4888-4dc5-9962-2077323995c6
+  -
+    menu_name: main
+    title: 關注疾病
+    parent: null
+    uri: 'internal:#'
+    link_title: ''
+    description: null
+    enabled: '1'
+    expanded: '0'
+    weight: '0'
+    langcode: en
+    uuid: 5575a420-054e-4fee-9bb0-2d57008900ba
+  -
+    menu_name: main
+    title: 臨床實驗
+    parent: null
+    uri: 'internal:#'
+    link_title: ''
+    description: null
+    enabled: '1'
+    expanded: '0'
+    weight: '0'
+    langcode: en
+    uuid: 233aa97f-df59-4969-8ec4-fb18ab0f3073
+  -
+    menu_name: main
+    title: 產品資訊
+    parent: null
+    uri: 'internal:#'
+    link_title: ''
+    description: null
+    enabled: '1'
+    expanded: '0'
+    weight: '0'
+    langcode: en
+    uuid: c4017921-6a0f-4ada-9e81-a6b089f1cecc
+  -
+    menu_name: main
+    title: 病友支援
+    parent: null
+    uri: 'internal:#'
+    link_title: ''
+    description: null
+    enabled: '1'
+    expanded: '0'
+    weight: '0'
+    langcode: en
+    uuid: 7996e0f4-2810-4da7-ad8f-b857d7f76acb
+  -
+    menu_name: main
+    title: 會員資訊
+    parent: null
+    uri: 'internal:#'
+    link_title: ''
+    description: null
+    enabled: '1'
+    expanded: '0'
+    weight: '0'
+    langcode: en
+    uuid: 634a1ae5-fca6-48e1-ae65-b5efd7bb08c2
+  -
+    menu_name: main
+    title: 註冊/登陸
+    parent: null
+    uri: 'internal:#'
+    link_title: ''
+    description: null
+    enabled: '1'
+    expanded: '0'
+    weight: '0'
+    langcode: en
+    uuid: e97426f8-2594-4e97-a84b-fef353e5f433
