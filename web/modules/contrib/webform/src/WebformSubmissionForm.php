@@ -7,8 +7,6 @@ use Drupal\Component\Utility\Bytes;
 use Drupal\Component\Utility\Html;
 use Drupal\Component\Utility\NestedArray;
 use Drupal\Core\Cache\Cache;
-use Drupal\Core\Config\ConfigFactoryInterface;
-use Drupal\Core\Entity\EntityFieldManagerInterface;
 use Drupal\Core\Entity\EntityInterface;
 use Drupal\Core\Entity\ContentEntityForm;
 use Drupal\Core\Form\FormState;
@@ -55,6 +53,13 @@ class WebformSubmissionForm extends ContentEntityForm {
    * @var \Drupal\Core\Render\RendererInterface
    */
   protected $renderer;
+
+  /**
+   * The form builder.
+   *
+   * @var \Drupal\Core\Form\FormBuilderInterface
+   */
+  protected $formBuilder;
 
   /**
    * The kill switch.
@@ -184,6 +189,7 @@ class WebformSubmissionForm extends ContentEntityForm {
     $instance = parent::create($container);
     $instance->configFactory = $container->get('config.factory');
     $instance->renderer = $container->get('renderer');
+    $instance->formBuilder = $container->get('form_builder');
     $instance->killSwitch = $container->get('page_cache_kill_switch');
     $instance->aliasManager = $container->get('path_alias.manager');
     $instance->pathValidator = $container->get('path.validator');
@@ -737,13 +743,7 @@ class WebformSubmissionForm extends ContentEntityForm {
     }
 
     // Append elements to the webform.
-    $form_elements_attributes = $this->getWebformSetting('form_elements_attributes');
-    $form_elements_attributes['class'][] = 'webform-elements';
-    $form['elements'] = [
-      '#type' => 'html_tag',
-      '#tag' => 'div',
-      '#attributes' => $form_elements_attributes,
-    ] + $elements;
+    $form['elements'] = $elements;
 
     // Pages: Set current wizard or preview page.
     $this->displayCurrentPage($form, $form_state);
@@ -1624,7 +1624,7 @@ class WebformSubmissionForm extends ContentEntityForm {
           // Prevent the previously-cached form object, which is stored in
           // $form['build_info']['callback_object'] from being used because it
           // refers to the original new (unsaved) entity.
-          \Drupal::formBuilder()->deleteCache($form['#build_id']);
+          $this->formBuilder->deleteCache($form['#build_id']);
         }
       }
     }
