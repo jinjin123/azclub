@@ -5,6 +5,7 @@ dependencies:
   config:
     - core.entity_view_mode.node.teaser
     - field.field.node.ta_articles.body
+    - field.field.node.ta_articles.field_ta_type
     - node.type.ta_articles
   module:
     - text
@@ -27,4 +28,5 @@ content:
     settings: {  }
     third_party_settings: {  }
     region: content
-hidden: {  }
+hidden:
+  field_ta_type: true

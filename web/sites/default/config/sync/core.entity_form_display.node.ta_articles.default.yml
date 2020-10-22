@@ -4,6 +4,7 @@ status: true
 dependencies:
   config:
     - field.field.node.ta_articles.body
+    - field.field.node.ta_articles.field_ta_type
     - node.type.ta_articles
   module:
     - path
@@ -29,6 +30,12 @@ content:
     region: content
     settings: {  }
     third_party_settings: {  }
+  field_ta_type:
+    weight: 122
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+    region: content
   path:
     type: path
     weight: 30

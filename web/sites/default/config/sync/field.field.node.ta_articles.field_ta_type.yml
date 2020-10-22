@@ -1,0 +1,29 @@
+uuid: 24bb6359-b94f-4b39-bd9e-a270121dd9f8
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_ta_type
+    - node.type.ta_articles
+    - taxonomy.vocabulary.ta_type
+id: node.ta_articles.field_ta_type
+field_name: field_ta_type
+entity_type: node
+bundle: ta_articles
+label: ta_type
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      ta_type: ta_type
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

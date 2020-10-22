@@ -10,8 +10,3 @@ dependencies:
 
 test_dependencies:
   - drupal:acl
-
-# Information added by Drupal.org packaging script on 2020-09-17
-version: '8.x-1.0-alpha3'
-project: 'content_access'
-datestamp: 1600327759

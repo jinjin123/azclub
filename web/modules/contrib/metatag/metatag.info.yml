@@ -7,8 +7,3 @@ configure: entity.metatag_defaults.collection
 dependencies:
   - drupal:field
   - token:token
-
-# Information added by Drupal.org packaging script on 2020-08-11
-version: '8.x-1.14'
-project: 'metatag'
-datestamp: 1597183854

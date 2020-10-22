@@ -9,8 +9,3 @@ tags:
  - developer
 dependencies:
  - devel:devel
-
-# Information added by Drupal.org packaging script on 2020-09-16
-version: '4.0.1'
-project: 'devel'
-datestamp: 1600300083

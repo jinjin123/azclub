@@ -12,7 +12,7 @@ id: newsletter_subscription
 title: 'Newsletter Subscription'
 description: ''
 category: ''
-elements: "name:\n  '#type': webform_name\n  '#title': name\n  '#title__access': false\n  '#first__title': 'Your Name'\n  '#middle__access': false\n  '#last__title': 'Last Name'\n  '#suffix__access': false\n  '#degree__access': false\nemail:\n  '#type': email\n  '#title': email\nphone:\n  '#type': tel\n  '#title': phone"
+elements: "email:\n  '#type': email\n  '#title': email\n  '#title_display': none\n  '#placeholder': 你的電郵地址\nta_type:\n  '#type': webform_term_select\n  '#title': 'TA type'\n  '#title_display': none\n  '#empty_option': 資訊範疇\n  '#required': true\n  '#vocabulary': ta_type\n  '#breadcrumb_delimiter': ''"
 css: ''
 javascript: ''
 settings:
