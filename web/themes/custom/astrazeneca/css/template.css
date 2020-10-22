@@ -367,7 +367,7 @@ header .area-main-menu .area-inner {
 header .area-main-menu .gva-search-region {
   position: absolute;
   right: 5px;
-  top: 50%;
+  top: 75%;
   margin-top: -13px;
   z-index: 9;
 }
