@@ -434,7 +434,7 @@ class BlocksController extends ControllerBase {
 
     StructureSyncHelper::logMessage('Successfully imported custom blocks');
 
-    $this->messenger()->addStatus(t('Successfully imported custom blocks'));
+    //$this->messenger()->addStatus(t('Successfully imported custom blocks'));
   }
 
 }

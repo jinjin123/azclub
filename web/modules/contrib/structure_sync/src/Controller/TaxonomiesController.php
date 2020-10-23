@@ -819,7 +819,7 @@ class TaxonomiesController extends ControllerBase {
   public static function taxonomiesImportFinishedCallback($success, $results, $operations) {
     StructureSyncHelper::logMessage('Successfully imported taxonomies');
 
-    $this->messenger()->addStatus(t('Successfully imported taxonomies'));
+    //$this->messenger()->addStatus(t('Successfully imported taxonomies'));
   }
 
 }
