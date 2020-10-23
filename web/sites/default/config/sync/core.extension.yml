@@ -28,6 +28,7 @@ module:
   devel_generate: 0
   dynamic_page_cache: 0
   editor: 0
+  entity_reference_revisions: 0
   features: 0
   features_astrazeneca: 0
   field: 0
@@ -63,6 +64,7 @@ module:
   search_api: 0
   shortcut: 0
   simplenews: 0
+  smtp: 0
   structure_sync: 0
   system: 0
   taxonomy: 0
@@ -78,6 +80,7 @@ module:
   webform_ui: 0
   pathauto: 1
   views: 10
+  paragraphs: 11
   standard: 1000
 theme:
   bartik: 0

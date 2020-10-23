@@ -87,6 +87,32 @@ blocks:
           value: "<img src=\"/themes/custom/astrazeneca/logo.png\">\r\n\r\n<p><strong>免責聲明</strong><br />\r\n此網站為香港市民提供疾病資訊。<br />\r\n本網站內所提供之資料謹供學術或參考用途，並不能取代醫生及其他醫護專業人員的意見。雖然我們已盡力確保網站的資料準確，但不會保證該等資料的準確性，亦不會對任何資料上的錯誤或遺漏承擔法律責任。如有任何疑問或有關資訊，請向你的醫生查詢。</p>\r\n"
           summary: ''
           format: basic_html
+  -
+    info: 'Clinical middle block'
+    langcode: en
+    uuid: 250c78c1-5e57-44f5-aa86-6a4bc41299f8
+    bundle: basic
+    revision_id: null
+    rev_id_current: null
+    fields:
+      body:
+        -
+          value: "<div class=\"az_clinical_box\">\r\n<p>治療區域</p>\r\n\r\n<p>這裡治療什麼臨床類型？</p>\r\n\r\n<p>他們痛苦不堪。什麼東西。但是因為我必到最小的地方來。我們的軍隊是誰呢？除了最小的以外，我什麼都不勞苦。好的，洛琳考慮到這一點，他一定很痛苦。</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<div class=\"flex\"><img src=\"/theme/custom/astrazeneca/images/add.png\" /> <img src=\"/theme/custom/astrazeneca/images/add.png\" /> <img src=\"/theme/custom/astrazeneca/images/add.png\" /> <img src=\"/theme/custom/astrazeneca/images/add.png\" /> <img src=\"/theme/custom/astrazeneca/images/add.png\" /> <img src=\"/theme/custom/astrazeneca/images/add.png\" /></div>\r\n</div>\r\n\r\n<div class=\"az_clinical_bottom_box\">\r\n<div class=\"az__bottom_right_box\">\r\n<div class=\"az__bottom_right_box_title\">參加臨床飾演？</div>\r\n\r\n<div class=\"az__bottom_right_box_body\">他們痛苦不堪。什麼東西。但是因為我要追問，我們的軍兵是誰，除了使他們中的任何一個人可以佔便宜外，他們是誰？</div>\r\n</div>\r\n\r\n<div class=\"az__bottom_left_box\"><span>找到你的臨床試驗</span></div>\r\n</div>\r\n"
+          summary: ''
+          format: full_html
+  -
+    info: 'reference block'
+    langcode: en
+    uuid: 66d9cc7f-d1cb-4bf5-a977-5e18e750c8da
+    bundle: basic
+    revision_id: null
+    rev_id_current: null
+    fields:
+      body:
+        -
+          value: "<p>香港生生防中心.心属病:引宫&amp;本地情況&amp;高危因素.Availableathttps:/ chp. gov. hk/tc/content/9/25/57.html Accessed on 18-12-18 院管理局智友冠心病Availableathttp://www21.ha.org.hk/sm /SPW/zh-hk/disease-informatio /?guid-f9899bdc-ad84-460b-825a-6fdd85a079d6 Accessed on 18-12-18 British Heart Foundation. Diabetes and your Heart. Available at h it/bhf-his22 diabetes and your heart a4. pdf Accessed on 28-11-18 Accessed on 18-12-18 音港衛生衛生防護中心男性常见疾状勤服心病.Availableathttps://www.chp.gov.hk/tc/static/80035.htmlAccessedon18-12-18 World Health O /fs317/en/Accessed on 18-12-18 aph. One In Three Heart Attacks Feel Like Indigesti like-ind h-h/Accessed on 18-12-18 香港生衛生防護中心.口服抗心较痛Availableathttps://www.drugofhce.gov.hk/eps/do/tc/consumer/new ons/dm 27. htmlab Accessed on 18-12-18 American Heart A CPR&amp; ECC Guidel 18-12-18 HK-206115/02/20</p>\r\n"
+          summary: ''
+          format: basic_html
 menus:
   -
     menu_name: footer
@@ -164,7 +190,7 @@ menus:
     menu_name: main
     title: 臨床實驗
     parent: null
-    uri: 'internal:#'
+    uri: 'entity:node/15'
     link_title: ''
     description: null
     enabled: '1'

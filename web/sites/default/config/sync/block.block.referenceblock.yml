@@ -1,0 +1,39 @@
+uuid: b7e6aa5f-7664-4441-872e-c85c0253ce0d
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:66d9cc7f-d1cb-4bf5-a977-5e18e750c8da'
+  module:
+    - block_content
+    - block_visibility_groups
+    - gaviasthemer
+    - system
+  theme:
+    - astrazeneca
+third_party_settings:
+  gaviasthemer:
+    classes: ''
+id: referenceblock
+theme: astrazeneca
+region: content_bottom
+weight: 0
+provider: null
+plugin: 'block_content:66d9cc7f-d1cb-4bf5-a977-5e18e750c8da'
+settings:
+  id: 'block_content:66d9cc7f-d1cb-4bf5-a977-5e18e750c8da'
+  label: 參考：
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  condition_group:
+    id: condition_group
+    negate: false
+    block_visibility_group: ''
+  request_path:
+    id: request_path
+    pages: /clinical-trial-portal
+    negate: false
