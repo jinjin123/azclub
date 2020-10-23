@@ -1,0 +1,23 @@
+uuid: fd92fee1-6a40-4ec5-94e9-04faac1a555c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.government_support
+  module:
+    - text
+id: node.government_support.body
+field_name: body
+entity_type: node
+bundle: government_support
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+  required_summary: false
+field_type: text_with_summary

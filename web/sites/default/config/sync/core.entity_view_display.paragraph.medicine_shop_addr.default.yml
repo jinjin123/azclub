@@ -1,0 +1,49 @@
+uuid: d4aa650a-f6ea-428a-a037-59086e539872
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.medicine_shop_addr.field_area
+    - field.field.paragraph.medicine_shop_addr.field_phone
+    - field.field.paragraph.medicine_shop_addr.field_shop_detail
+    - field.field.paragraph.medicine_shop_addr.field_shopname
+    - paragraphs.paragraphs_type.medicine_shop_addr
+  module:
+    - text
+id: paragraph.medicine_shop_addr.default
+targetEntityType: paragraph
+bundle: medicine_shop_addr
+mode: default
+content:
+  field_area:
+    weight: 3
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_phone:
+    weight: 4
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_shop_detail:
+    weight: 1
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  field_shopname:
+    weight: 0
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+hidden:
+  search_api_excerpt: true

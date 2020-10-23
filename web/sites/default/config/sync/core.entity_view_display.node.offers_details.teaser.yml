@@ -5,6 +5,10 @@ dependencies:
   config:
     - core.entity_view_mode.node.teaser
     - field.field.node.offers_details.body
+    - field.field.node.offers_details.field_medicine_shop_img
+    - field.field.node.offers_details.field_medicine_shop_params
+    - field.field.node.offers_details.field_offer_img
+    - field.field.node.offers_details.field_offer_img_description
     - node.type.offers_details
   module:
     - text
@@ -27,4 +31,9 @@ content:
     settings: {  }
     third_party_settings: {  }
     region: content
-hidden: {  }
+hidden:
+  field_medicine_shop_img: true
+  field_medicine_shop_params: true
+  field_offer_img: true
+  field_offer_img_description: true
+  search_api_excerpt: true

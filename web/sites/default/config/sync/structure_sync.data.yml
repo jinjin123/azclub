@@ -230,8 +230,8 @@ menus:
     link_title: ''
     description: null
     enabled: '1'
-    expanded: '0'
-    weight: '0'
+    expanded: '1'
+    weight: '1'
     langcode: en
     uuid: 634a1ae5-fca6-48e1-ae65-b5efd7bb08c2
   -
@@ -246,3 +246,39 @@ menus:
     weight: '0'
     langcode: en
     uuid: e97426f8-2594-4e97-a84b-fef353e5f433
+  -
+    menu_name: main
+    title: 醫學講座及活動
+    parent: 'menu_link_content:634a1ae5-fca6-48e1-ae65-b5efd7bb08c2'
+    uri: 'internal:#'
+    link_title: ''
+    description: null
+    enabled: '1'
+    expanded: '0'
+    weight: '-49'
+    langcode: en
+    uuid: 694bd965-c2d3-4034-8f6c-80124186e2ed
+  -
+    menu_name: main
+    title: 健康小提示
+    parent: 'menu_link_content:634a1ae5-fca6-48e1-ae65-b5efd7bb08c2'
+    uri: 'internal:#'
+    link_title: ''
+    description: null
+    enabled: '1'
+    expanded: '1'
+    weight: '-50'
+    langcode: en
+    uuid: 1d6ff10d-efcc-4fdb-9662-eb08153af251
+  -
+    menu_name: main
+    title: 康心摯友會活動
+    parent: 'menu_link_content:634a1ae5-fca6-48e1-ae65-b5efd7bb08c2'
+    uri: 'internal:#'
+    link_title: ''
+    description: null
+    enabled: '1'
+    expanded: '0'
+    weight: '-48'
+    langcode: en
+    uuid: 200fdc7e-2624-4345-8524-0fed74fd7c7f

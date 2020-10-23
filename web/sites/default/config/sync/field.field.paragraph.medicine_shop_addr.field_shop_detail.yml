@@ -1,0 +1,21 @@
+uuid: 29559098-e736-48e0-8bd2-1151f4f29d29
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_shop_detail
+    - paragraphs.paragraphs_type.medicine_shop_addr
+  module:
+    - text
+id: paragraph.medicine_shop_addr.field_shop_detail
+field_name: field_shop_detail
+entity_type: paragraph
+bundle: medicine_shop_addr
+label: shop_detail
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

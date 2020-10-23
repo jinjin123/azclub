@@ -1,23 +1,19 @@
-uuid: 517fba3f-44fc-47c1-b0d2-72b107a7af7a
+uuid: 9f4a5eee-6557-47a1-b812-7847997cc230
 langcode: en
 status: true
 dependencies:
   config:
-    - field.field.node.offers_details.body
-    - field.field.node.offers_details.field_medicine_shop_img
-    - field.field.node.offers_details.field_medicine_shop_params
-    - field.field.node.offers_details.field_offer_img
-    - field.field.node.offers_details.field_offer_img_description
+    - field.field.node.government_support.body
+    - field.field.node.government_support.field_sp_img
     - image.style.thumbnail
-    - node.type.offers_details
+    - node.type.government_support
   module:
     - image
-    - paragraphs
     - path
     - text
-id: node.offers_details.default
+id: node.government_support.default
 targetEntityType: node
-bundle: offers_details
+bundle: government_support
 mode: default
 content:
   body:
@@ -36,41 +32,13 @@ content:
     region: content
     settings: {  }
     third_party_settings: {  }
-  field_medicine_shop_img:
-    weight: 123
-    settings:
-      progress_indicator: throbber
-      preview_image_style: thumbnail
-    third_party_settings: {  }
-    type: image_image
-    region: content
-  field_medicine_shop_params:
-    type: entity_reference_paragraphs
-    weight: 125
-    settings:
-      title: Paragraph
-      title_plural: Paragraphs
-      edit_mode: open
-      add_mode: dropdown
-      form_display_mode: default
-      default_paragraph_type: ''
-    third_party_settings: {  }
-    region: content
-  field_offer_img:
+  field_sp_img:
     weight: 122
     settings:
       progress_indicator: throbber
       preview_image_style: thumbnail
     third_party_settings: {  }
     type: image_image
-    region: content
-  field_offer_img_description:
-    weight: 124
-    settings:
-      rows: 5
-      placeholder: ''
-    third_party_settings: {  }
-    type: text_textarea
     region: content
   path:
     type: path
