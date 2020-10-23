@@ -4,11 +4,9 @@ status: true
 dependencies:
   config:
     - field.field.node.simplenews_issue.body
-    - field.field.node.simplenews_issue.simplenews_issue
     - node.type.simplenews_issue
   module:
     - path
-    - simplenews
     - text
 _core:
   default_config_hash: 95gz1Cn7UjP1ED-lgXnR9ucmWPz9TOn1YEuKUllmELo
@@ -43,12 +41,6 @@ content:
     settings:
       display_label: true
     weight: 15
-    third_party_settings: {  }
-    region: content
-  simplenews_issue:
-    type: simplenews_issue
-    weight: 3
-    settings: {  }
     third_party_settings: {  }
     region: content
   status:
