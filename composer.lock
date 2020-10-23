@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "e7f656c355c0896da21383408e53f671",
+    "content-hash": "a3601d79487cb5046bf9a32903f2e310",
     "packages": [
         {
             "name": "alchemy/zippy",
@@ -3591,7 +3591,8 @@
             "support": {
                 "source": "https://git.drupalcode.org/project/quicktabs",
                 "issues": "https://www.drupal.org/project/issues/quicktabs"
-            }
+            },
+            "time": "2020-10-07T15:49:48+00:00"
         },
         {
             "name": "drupal/smtp",
@@ -3809,6 +3810,58 @@
             "support": {
                 "source": "https://git.drupalcode.org/project/token"
             }
+        },
+        {
+            "name": "drupal/twig_tweak",
+            "version": "dev-3.x",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/twig_tweak.git",
+                "reference": "2fd6b6c5b9ddc71bd2c0bf2850ef02d626b74e9a"
+            },
+            "require": {
+                "drupal/core": "^9.0",
+                "php": ">=7.3",
+                "twig/twig": "^2.12"
+            },
+            "suggest": {
+                "symfony/var-dumper": "Better dump() function for debugging Twig variables"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-3.x": "3.x-dev"
+                },
+                "drupal": {
+                    "version": "3.x-dev",
+                    "datestamp": "1602156576",
+                    "security-coverage": {
+                        "status": "not-covered",
+                        "message": "Dev releases are not covered by Drupal security advisories."
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Chi",
+                    "homepage": "https://www.drupal.org/user/556138"
+                }
+            ],
+            "description": "A Twig extension with some useful functions and filters for Drupal development.",
+            "homepage": "https://www.drupal.org/project/twig_tweak",
+            "keywords": [
+                "Drupal",
+                "Twig"
+            ],
+            "support": {
+                "source": "https://git.drupalcode.org/project/twig_tweak",
+                "issues": "https://www.drupal.org/project/issues/twig_tweak"
+            },
+            "time": "2020-10-08T11:29:03+00:00"
         },
         {
             "name": "drupal/webform",
@@ -8306,7 +8359,8 @@
     "minimum-stability": "dev",
     "stability-flags": {
         "drupal/better_exposed_filters": 10,
-        "drupal/quicktabs": 20
+        "drupal/quicktabs": 20,
+        "drupal/twig_tweak": 20
     },
     "prefer-stable": true,
     "prefer-lowest": false,

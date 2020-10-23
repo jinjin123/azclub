@@ -17,7 +17,7 @@ id: contact
 title: Contact
 description: 'Basic email contact webform.'
 category: ''
-elements: "name:\n  '#title': 'Your Name'\n  '#type': textfield\n  '#required': true\n  '#default_value': '[current-user:display-name]'\nemail:\n  '#title': 'Your Email'\n  '#type': email\n  '#required': true\n  '#default_value': '[current-user:mail]'\nsubject:\n  '#title': Subject\n  '#type': textfield\n  '#required': true\n  '#test': 'Testing contact webform from [site:name]'\nmessage:\n  '#title': Message\n  '#type': textarea\n  '#required': true\n  '#test': 'Please ignore this email.'\nactions:\n  '#type': webform_actions\n  '#title': 'Submit button(s)'\n  '#submit__label': 'Send message'\n"
+elements: "name:\n  '#title': 'Your Name'\n  '#type': textfield\n  '#required': true\n  '#default_value': '[current-user:display-name]'\nemail:\n  '#title': 'Your Email'\n  '#type': email\n  '#required': true\n  '#default_value': '[current-user:mail]'\nsubject:\n  '#title': Subject\n  '#type': textfield\n  '#required': true\n  '#test': 'Testing contact webform from [site:name]'\nmessage:\n  '#title': Message\n  '#type': textarea\n  '#required': true\n  '#test': 'Please ignore this email.'\ncode:\n  '#type': textfield\n  '#title': code\n  '#size': 8\ntermcheck:\n  '#type': checkbox\n  '#title': termcheck\ntermcontent:\n  '#type': textarea\n  '#title': termcontent\n  '#disabled': true\n  '#readonly': true\n  '#default_value': |\n    本人已詳細閱讀網站的個人資料私隱政策聲明和法律聲明及使用條款，並確認本人完全明白及同意有關內容。\n    我同意「阿斯利康」和「康心摯友」使用以上個人資料聯絡我。\n    \nactions:\n  '#type': webform_actions\n  '#title': 'Submit button(s)'\n  '#submit__label': 發送查詢電郵"
 css: ''
 javascript: ''
 settings:
@@ -200,6 +200,7 @@ handlers:
   email_confirmation:
     id: email
     label: 'Email confirmation'
+    notes: ''
     handler_id: email_confirmation
     status: true
     conditions: {  }
@@ -236,6 +237,7 @@ handlers:
   email_notification:
     id: email
     label: 'Email notification'
+    notes: ''
     handler_id: email_notification
     status: true
     conditions: {  }
