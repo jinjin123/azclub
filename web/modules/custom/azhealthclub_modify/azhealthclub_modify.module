@@ -34,3 +34,15 @@ function azhealthclub_modify_theme()
    ]
  ];
 }
+
+/**
+ * Implements hook_menu_local_tasks_alter().
+ */
+function azhealthclub_modify_menu_local_tasks_alter(&$data, $route_name, \Drupal\Core\Cache\RefinableCacheableDependencyInterface &$cacheability) {
+  if ($route_name == 'user.login'  && isset($data['tabs'][0])) {
+    // Remove all tabs from user login form.
+    foreach ($data['tabs'][0] as $key => $tab) {
+      $data['tabs'][0][$key]['#access'] = FALSE;
+    }
+  }
+}
