@@ -1,0 +1,9 @@
+uuid: 2fc061d3-5657-4b14-b40d-75a46b3a85f0
+langcode: en
+status: true
+dependencies: {  }
+id: content_maintainer
+label: 'content maintainer'
+weight: 3
+is_admin: null
+permissions: {  }
