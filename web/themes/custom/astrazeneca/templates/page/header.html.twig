@@ -65,14 +65,17 @@
                          <span class="three"></span>
                        </div>
 
-                       {% if page.search %}
+{#                       {% if page.search %}#}
                          <div class="gva-search-region search-region">
-                           <span class="icon"><i class="fa fa-search"></i></span>
-                           <div class="search-content">
-                             {{ page.search }}
-                           </div>
+{#                           <span class="icon"><i class="fa fa-search"></i></span>#}
+{#                           <div class="search-content">#}
+{#                             {{ page.search }}#}
+                           {{ drupal_entity("block","searchform",check_access=false)  }}
+                           <span class="icon"><i class="fa fa-search">
+                             </i></span>
+{#                           </div>#}
                          </div>
-                       {% endif %}
+{#                       {% endif %}#}
                      </div>
                    </div>
                  </div>

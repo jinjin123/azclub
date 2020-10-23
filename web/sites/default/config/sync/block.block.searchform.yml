@@ -1,0 +1,30 @@
+uuid: be91d2b0-6cbe-4e1a-996f-50289ecfedec
+langcode: en
+status: false
+dependencies:
+  module:
+    - block_visibility_groups
+    - gaviasthemer
+    - search
+  theme:
+    - astrazeneca
+third_party_settings:
+  gaviasthemer:
+    classes: ''
+id: searchform
+theme: astrazeneca
+region: main_menu
+weight: -17
+provider: null
+plugin: search_form_block
+settings:
+  id: search_form_block
+  label: 'Search form'
+  provider: search
+  label_display: '0'
+  page_id: ''
+visibility:
+  condition_group:
+    id: condition_group
+    negate: false
+    block_visibility_group: ''

@@ -60,6 +60,7 @@ module:
   quicktabs: 0
   rdf: 0
   search: 0
+  search_api: 0
   shortcut: 0
   simplenews: 0
   structure_sync: 0
