@@ -55,7 +55,7 @@ function azhealthclub_modify_menu_local_tasks_alter(&$data, $route_name, \Drupal
  */
 function azhealthclub_modify_form_alter(&$form, \Drupal\Core\Form\FormStateInterface $form_state, $form_id) {
   if ($form_id == "user_login_form") {
-    $form['#prefix'] = '<div><div class="free-apply">免費申請加入 「康心摯友會」</div>';
+    $form['#prefix'] = '<div><div class="free-apply">免費申請加入「康心摯友會」</div>';
     $form['#suffix'] = '</div>';
 
     $form["name"]["#title"] = '';
@@ -67,6 +67,17 @@ function azhealthclub_modify_form_alter(&$form, \Drupal\Core\Form\FormStateInter
     $url = $urlGenerator->generateFromRoute('user.pass');
     $form["pass"]["#description"] = '<a href="' . $url . '">忘記密碼</a>';
     $form['pass']['#attributes']['placeholder'] = '密碼';
+
+    $form["actions"]["submit"]["#value"] = '登入';
+    $form["actions"]["register"] = [
+      '#title' => '加入康心摯友會',
+      '#type' => 'link',
+      '#url' => \Drupal\Core\Url::fromRoute('user.register'),
+      '#attributes'=> [
+        'class' => ['btn'],
+      ],
+    ];
+
   }
 }
 
