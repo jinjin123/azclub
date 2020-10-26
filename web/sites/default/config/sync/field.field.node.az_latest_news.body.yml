@@ -1,0 +1,23 @@
+uuid: 1e47fbf7-40df-4a06-bd62-1edbadcf1fc5
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.az_latest_news
+  module:
+    - text
+id: node.az_latest_news.body
+field_name: body
+entity_type: node
+bundle: az_latest_news
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+  required_summary: false
+field_type: text_with_summary
