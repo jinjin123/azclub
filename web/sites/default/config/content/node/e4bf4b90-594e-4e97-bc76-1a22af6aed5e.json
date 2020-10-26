@@ -1,0 +1,169 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/default\/node\/12?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/default\/rest\/type\/node\/ta_articles"
+        },
+        "http:\/\/default\/rest\/relation\/node\/ta_articles\/revision_uid": [
+            {
+                "href": "http:\/\/default\/user\/1?_format=hal_json"
+            }
+        ],
+        "http:\/\/default\/rest\/relation\/node\/ta_articles\/uid": [
+            {
+                "href": "http:\/\/default\/user\/1?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/default\/rest\/relation\/node\/ta_articles\/field_ta_type": [
+            {
+                "href": "http:\/\/default\/taxonomy\/term\/1?_format=hal_json"
+            }
+        ]
+    },
+    "uuid": [
+        {
+            "value": "e4bf4b90-594e-4e97-bc76-1a22af6aed5e"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "ta_articles"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2020-10-21T07:07:16+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/default\/rest\/relation\/node\/ta_articles\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/default\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "ad86f4f8-ab08-4ff1-be42-53e6179dd359"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/default\/rest\/relation\/node\/ta_articles\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/default\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "ad86f4f8-ab08-4ff1-be42-53e6179dd359"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/default\/rest\/relation\/node\/ta_articles\/field_ta_type": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/taxonomy\/term\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/default\/rest\/type\/taxonomy_term\/ta_type"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "5f18a532-1234-4e3c-95d6-b3b4bad7ac98"
+                    }
+                ]
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "Camur",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2020-10-21T07:07:15+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2020-10-22T05:29:40+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "path": [
+        {
+            "alias": null,
+            "pid": null,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "body": [
+        {
+            "value": "Imputo letalis nisl paulatim. Dignissim voco wisi. Abico aliquip antehabeo comis gilvus ibidem illum mos tincidunt turpis. Appellatio ea elit praesent suscipit tation venio.\r\n\r\nConsequat iriure odio paratus. Aliquip ex ille iustum magna mauris neque pala te. Amet autem euismod gravis humo quidne vulputate. Ad decet jugis similis sudo tation tego usitas. Caecus causa consequat lucidus neque utrum.\r\n\r\nCommoveo eros facilisis loquor luctus nibh saluto turpis vulpes vulputate. Acsi eum huic pneum tation. Antehabeo causa gravis hendrerit humo incassum lenis occuro tego tum. Abbas exputo persto quidem singularis. Aliquam eros macto singularis. Eu huic ille iustum oppeto quidne tincidunt. Bene brevitas facilisis pecus saepius suscipit. Conventio ex importunus iriure luptatum praemitto si tincidunt vulpes. Ex haero pala secundum volutpat zelus.\r\n\r\nImputo singularis velit venio. Aptent augue causa dolore elit humo quidem quis similis. Abluo vero wisi. Consectetuer conventio gilvus imputo iusto saluto tation velit vindico. Bene loquor patria pneum tum. Brevitas eros exerci facilisis ibidem importunus letalis valde. Qui ullamcorper uxor vereor. Abluo adipiscing capto immitto pertineo quidem tego.\r\n\r\nCausa ibidem letalis molior obruo tation vereor virtus. Defui eu facilisis modo mos proprius quadrum quis virtus. Abigo odio persto probo quadrum. Pagus paulatim populus premo quidem quidne roto suscipere veniam vindico. Diam nibh occuro torqueo.\r\n\r\nAbico damnum gilvus interdico minim si suscipit ullamcorper. Abbas defui exerci hendrerit iusto luctus. Decet humo iaceo incassum metuo quidne sit usitas. Duis iustum tincidunt tum. Caecus immitto natu tamen tum verto. Abdo imputo sagaciter. Abigo ibidem metuo nostrud suscipere tincidunt torqueo. Decet enim ibidem jugis pneum sino suscipere tincidunt veniam. Camur dignissim esse exerci facilisi gilvus ludus molior tum venio.\r\n\r\nAt capto fere hendrerit humo in jumentum loquor secundum volutpat. Facilisis fere populus roto utinam verto wisi. Amet autem immitto luctus natu occuro utrum velit verto. Abigo cui eu immitto iusto saepius sudo torqueo.\r\n\r\nLuctus minim mos nulla probo. Adipiscing diam dolor ideo illum imputo magna nisl nutus venio. Capto distineo molior nulla pecus pneum. At jumentum mauris tamen ymo. Iusto nobis populus uxor valde vindico. Distineo et quia. Brevitas exerci facilisis tamen torqueo valetudo.\r\n\r\nAbbas abluo ea. Blandit cogo damnum eum letalis macto ullamcorper. Genitus iusto obruo. Conventio importunus inhibeo lobortis quadrum quibus. Inhibeo ludus nimis ratis tincidunt valde veniam. Distineo natu quidne. Decet facilisis haero virtus. Appellatio blandit macto proprius. Iaceo iriure iustum loquor refoveo suscipit tamen torqueo valde. Et interdico refoveo utinam.\r\n\r\nAmet commodo defui haero magna mauris pertineo vindico. Ad caecus consequat iriure quidem similis typicus venio. Genitus sed torqueo virtus. Decet erat illum inhibeo nimis ullamcorper vulpes. Consequat ibidem luctus mos nunc pertineo sudo virtus.\r\n\r\nAbdo lucidus quis secundum singularis. Abdo conventio defui iusto natu proprius quia saluto suscipere tego. Aptent autem consequat jus lucidus luptatum nibh nostrud rusticus similis. Causa ea feugiat ideo olim paulatim scisco valetudo.\r\n\r\nAdipiscing consequat diam dolus os secundum sudo. Acsi ideo luptatum persto quibus vulputate zelus. Acsi eligo exputo sino turpis usitas uxor venio. Interdico nunc voco. Caecus facilisis illum importunus lenis luptatum roto scisco. Abluo causa eligo facilisis haero hendrerit ille paulatim pneum secundum. Eros exputo gravis hos ideo iusto tincidunt ulciscor ullamcorper.\r\n\r\n",
+            "format": "plain_text",
+            "processed": "<p>Imputo letalis nisl paulatim. Dignissim voco wisi. Abico aliquip antehabeo comis gilvus ibidem illum mos tincidunt turpis. Appellatio ea elit praesent suscipit tation venio.<\/p>\n<p>Consequat iriure odio paratus. Aliquip ex ille iustum magna mauris neque pala te. Amet autem euismod gravis humo quidne vulputate. Ad decet jugis similis sudo tation tego usitas. Caecus causa consequat lucidus neque utrum.<\/p>\n<p>Commoveo eros facilisis loquor luctus nibh saluto turpis vulpes vulputate. Acsi eum huic pneum tation. Antehabeo causa gravis hendrerit humo incassum lenis occuro tego tum. Abbas exputo persto quidem singularis. Aliquam eros macto singularis. Eu huic ille iustum oppeto quidne tincidunt. Bene brevitas facilisis pecus saepius suscipit. Conventio ex importunus iriure luptatum praemitto si tincidunt vulpes. Ex haero pala secundum volutpat zelus.<\/p>\n<p>Imputo singularis velit venio. Aptent augue causa dolore elit humo quidem quis similis. Abluo vero wisi. Consectetuer conventio gilvus imputo iusto saluto tation velit vindico. Bene loquor patria pneum tum. Brevitas eros exerci facilisis ibidem importunus letalis valde. Qui ullamcorper uxor vereor. Abluo adipiscing capto immitto pertineo quidem tego.<\/p>\n<p>Causa ibidem letalis molior obruo tation vereor virtus. Defui eu facilisis modo mos proprius quadrum quis virtus. Abigo odio persto probo quadrum. Pagus paulatim populus premo quidem quidne roto suscipere veniam vindico. Diam nibh occuro torqueo.<\/p>\n<p>Abico damnum gilvus interdico minim si suscipit ullamcorper. Abbas defui exerci hendrerit iusto luctus. Decet humo iaceo incassum metuo quidne sit usitas. Duis iustum tincidunt tum. Caecus immitto natu tamen tum verto. Abdo imputo sagaciter. Abigo ibidem metuo nostrud suscipere tincidunt torqueo. Decet enim ibidem jugis pneum sino suscipere tincidunt veniam. Camur dignissim esse exerci facilisi gilvus ludus molior tum venio.<\/p>\n<p>At capto fere hendrerit humo in jumentum loquor secundum volutpat. Facilisis fere populus roto utinam verto wisi. Amet autem immitto luctus natu occuro utrum velit verto. Abigo cui eu immitto iusto saepius sudo torqueo.<\/p>\n<p>Luctus minim mos nulla probo. Adipiscing diam dolor ideo illum imputo magna nisl nutus venio. Capto distineo molior nulla pecus pneum. At jumentum mauris tamen ymo. Iusto nobis populus uxor valde vindico. Distineo et quia. Brevitas exerci facilisis tamen torqueo valetudo.<\/p>\n<p>Abbas abluo ea. Blandit cogo damnum eum letalis macto ullamcorper. Genitus iusto obruo. Conventio importunus inhibeo lobortis quadrum quibus. Inhibeo ludus nimis ratis tincidunt valde veniam. Distineo natu quidne. Decet facilisis haero virtus. Appellatio blandit macto proprius. Iaceo iriure iustum loquor refoveo suscipit tamen torqueo valde. Et interdico refoveo utinam.<\/p>\n<p>Amet commodo defui haero magna mauris pertineo vindico. Ad caecus consequat iriure quidem similis typicus venio. Genitus sed torqueo virtus. Decet erat illum inhibeo nimis ullamcorper vulpes. Consequat ibidem luctus mos nunc pertineo sudo virtus.<\/p>\n<p>Abdo lucidus quis secundum singularis. Abdo conventio defui iusto natu proprius quia saluto suscipere tego. Aptent autem consequat jus lucidus luptatum nibh nostrud rusticus similis. Causa ea feugiat ideo olim paulatim scisco valetudo.<\/p>\n<p>Adipiscing consequat diam dolus os secundum sudo. Acsi ideo luptatum persto quibus vulputate zelus. Acsi eligo exputo sino turpis usitas uxor venio. Interdico nunc voco. Caecus facilisis illum importunus lenis luptatum roto scisco. Abluo causa eligo facilisis haero hendrerit ille paulatim pneum secundum. Eros exputo gravis hos ideo iusto tincidunt ulciscor ullamcorper.<\/p>\n",
+            "summary": "Summary Camur",
+            "lang": "en"
+        }
+    ]
+}

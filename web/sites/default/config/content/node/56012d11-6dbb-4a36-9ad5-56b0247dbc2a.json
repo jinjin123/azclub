@@ -1,0 +1,169 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/default\/node\/10?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/default\/rest\/type\/node\/ta_articles"
+        },
+        "http:\/\/default\/rest\/relation\/node\/ta_articles\/revision_uid": [
+            {
+                "href": "http:\/\/default\/user\/1?_format=hal_json"
+            }
+        ],
+        "http:\/\/default\/rest\/relation\/node\/ta_articles\/uid": [
+            {
+                "href": "http:\/\/default\/user\/1?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/default\/rest\/relation\/node\/ta_articles\/field_ta_type": [
+            {
+                "href": "http:\/\/default\/taxonomy\/term\/1?_format=hal_json"
+            }
+        ]
+    },
+    "uuid": [
+        {
+            "value": "56012d11-6dbb-4a36-9ad5-56b0247dbc2a"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "ta_articles"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2020-10-21T07:07:16+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/default\/rest\/relation\/node\/ta_articles\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/default\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "ad86f4f8-ab08-4ff1-be42-53e6179dd359"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/default\/rest\/relation\/node\/ta_articles\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/default\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "ad86f4f8-ab08-4ff1-be42-53e6179dd359"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/default\/rest\/relation\/node\/ta_articles\/field_ta_type": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/taxonomy\/term\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/default\/rest\/type\/taxonomy_term\/ta_type"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "5f18a532-1234-4e3c-95d6-b3b4bad7ac98"
+                    }
+                ]
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "Augue",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2020-10-21T07:07:16+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2020-10-22T05:29:17+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "path": [
+        {
+            "alias": null,
+            "pid": null,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "body": [
+        {
+            "value": "Iustum letalis lucidus nobis probo uxor velit. Aliquip augue ideo plaga rusticus scisco. Erat singularis sino wisi. Jugis meus molior proprius quidem sagaciter valde venio. Aliquip commodo damnum neque oppeto tamen tincidunt voco vulpes.\r\n\r\nHendrerit iaceo paratus patria quae torqueo. Amet ea facilisis illum molior pneum populus torqueo. Exerci pertineo premo. Aliquam euismod ex gemino. Dolor esca illum ratis roto similis turpis utrum vulputate. Commodo iusto nibh praemitto similis vulpes.\r\n\r\nAbluo defui ea exputo importunus in luptatum nibh virtus. Gilvus nibh typicus vicis. Fere imputo probo quidne si sit. At augue hendrerit virtus vulputate.\r\n\r\nConventio defui nisl ymo. Distineo et lobortis macto saluto usitas wisi. Aptent magna metuo molior neo wisi. Interdico quidne quis. Accumsan blandit ea ideo iustum macto pertineo plaga vulpes.\r\n\r\nLuptatum molior neque nostrud oppeto plaga pneum praesent ullamcorper. Cogo cui elit mauris molior paratus te turpis usitas vulpes. Ea iaceo ullamcorper. Cui lobortis meus neque persto saepius tamen voco.\r\n\r\nAppellatio humo interdico luptatum melior scisco tamen ullamcorper valde. Humo ideo nisl. Defui facilisi sudo vindico. Blandit ea occuro praemitto. Ad camur esse euismod patria tego veniam. Abico bene decet eu gemino lucidus pecus singularis wisi.\r\n\r\nFere haero immitto nibh. Erat gilvus laoreet nobis patria praesent sino ullamcorper velit. Antehabeo consequat ludus nunc pala suscipere tego tincidunt validus. Cui dignissim loquor nibh olim ullamcorper zelus. Feugiat gilvus letalis plaga singularis.\r\n\r\nCapto in molior nutus patria uxor. Abluo amet nulla. Enim nulla quis venio. Dolor natu turpis. Autem cui qui. Camur dignissim genitus luptatum minim praesent rusticus si. Aliquip erat jus molior mos.\r\n\r\nElit imputo olim populus tincidunt vindico. Abluo ea et olim os saluto sino sudo. At brevitas camur causa ideo pala persto. Aliquam quidne usitas. Jumentum metuo occuro populus torqueo ulciscor. Cogo et euismod ideo immitto quidne.\r\n\r\nDuis elit facilisis iustum pecus pneum roto sit te. Ibidem ludus tincidunt vero voco vulputate. Abigo decet distineo dolor genitus plaga refoveo. Distineo facilisis nunc os pneum quis si suscipere turpis. Distineo ea iaceo pneum uxor.\r\n\r\nComis eligo os saepius. Ad diam elit eum imputo nimis quadrum te validus wisi. Ex nobis populus validus. Abluo accumsan adipiscing conventio defui ea humo iriure metuo neque. Aliquam appellatio at luctus metuo neque. Acsi diam exputo. Damnum genitus lobortis magna usitas. Abico ad genitus hendrerit melior nisl nunc torqueo. Aptent distineo erat ideo letalis olim qui rusticus venio.\r\n\r\nEu genitus imputo nisl nulla populus secundum tation. Minim populus qui sino tego tum vindico. Commodo esse eum exputo facilisis lobortis metuo valetudo. Commoveo importunus in natu pecus roto vel. Fere incassum lobortis loquor natu pneum validus. Haero probo ullamcorper. Abico cogo genitus letalis olim paulatim quis vero.\r\n\r\n",
+            "format": "plain_text",
+            "processed": "<p>Iustum letalis lucidus nobis probo uxor velit. Aliquip augue ideo plaga rusticus scisco. Erat singularis sino wisi. Jugis meus molior proprius quidem sagaciter valde venio. Aliquip commodo damnum neque oppeto tamen tincidunt voco vulpes.<\/p>\n<p>Hendrerit iaceo paratus patria quae torqueo. Amet ea facilisis illum molior pneum populus torqueo. Exerci pertineo premo. Aliquam euismod ex gemino. Dolor esca illum ratis roto similis turpis utrum vulputate. Commodo iusto nibh praemitto similis vulpes.<\/p>\n<p>Abluo defui ea exputo importunus in luptatum nibh virtus. Gilvus nibh typicus vicis. Fere imputo probo quidne si sit. At augue hendrerit virtus vulputate.<\/p>\n<p>Conventio defui nisl ymo. Distineo et lobortis macto saluto usitas wisi. Aptent magna metuo molior neo wisi. Interdico quidne quis. Accumsan blandit ea ideo iustum macto pertineo plaga vulpes.<\/p>\n<p>Luptatum molior neque nostrud oppeto plaga pneum praesent ullamcorper. Cogo cui elit mauris molior paratus te turpis usitas vulpes. Ea iaceo ullamcorper. Cui lobortis meus neque persto saepius tamen voco.<\/p>\n<p>Appellatio humo interdico luptatum melior scisco tamen ullamcorper valde. Humo ideo nisl. Defui facilisi sudo vindico. Blandit ea occuro praemitto. Ad camur esse euismod patria tego veniam. Abico bene decet eu gemino lucidus pecus singularis wisi.<\/p>\n<p>Fere haero immitto nibh. Erat gilvus laoreet nobis patria praesent sino ullamcorper velit. Antehabeo consequat ludus nunc pala suscipere tego tincidunt validus. Cui dignissim loquor nibh olim ullamcorper zelus. Feugiat gilvus letalis plaga singularis.<\/p>\n<p>Capto in molior nutus patria uxor. Abluo amet nulla. Enim nulla quis venio. Dolor natu turpis. Autem cui qui. Camur dignissim genitus luptatum minim praesent rusticus si. Aliquip erat jus molior mos.<\/p>\n<p>Elit imputo olim populus tincidunt vindico. Abluo ea et olim os saluto sino sudo. At brevitas camur causa ideo pala persto. Aliquam quidne usitas. Jumentum metuo occuro populus torqueo ulciscor. Cogo et euismod ideo immitto quidne.<\/p>\n<p>Duis elit facilisis iustum pecus pneum roto sit te. Ibidem ludus tincidunt vero voco vulputate. Abigo decet distineo dolor genitus plaga refoveo. Distineo facilisis nunc os pneum quis si suscipere turpis. Distineo ea iaceo pneum uxor.<\/p>\n<p>Comis eligo os saepius. Ad diam elit eum imputo nimis quadrum te validus wisi. Ex nobis populus validus. Abluo accumsan adipiscing conventio defui ea humo iriure metuo neque. Aliquam appellatio at luctus metuo neque. Acsi diam exputo. Damnum genitus lobortis magna usitas. Abico ad genitus hendrerit melior nisl nunc torqueo. Aptent distineo erat ideo letalis olim qui rusticus venio.<\/p>\n<p>Eu genitus imputo nisl nulla populus secundum tation. Minim populus qui sino tego tum vindico. Commodo esse eum exputo facilisis lobortis metuo valetudo. Commoveo importunus in natu pecus roto vel. Fere incassum lobortis loquor natu pneum validus. Haero probo ullamcorper. Abico cogo genitus letalis olim paulatim quis vero.<\/p>\n",
+            "summary": "summary Augue",
+            "lang": "en"
+        }
+    ]
+}

@@ -1,0 +1,10 @@
+uuid: 8e7c2af7-9275-4091-af9d-870cdad6b18e
+langcode: en
+status: true
+dependencies: {  }
+id: clinical_trial_portal_logo_param
+label: 'Clinical Trial Portal logo params'
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

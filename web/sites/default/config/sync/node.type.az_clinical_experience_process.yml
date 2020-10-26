@@ -1,0 +1,18 @@
+uuid: e666b44e-9f0f-4219-92c4-c40aa9289ffa
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+name: 'AZ Clinical experience process'
+type: az_clinical_experience_process
+description: ''
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: false

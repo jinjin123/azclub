@@ -1,0 +1,34 @@
+uuid: 899fdd10-8286-439b-bd22-6fad7917f1dd
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_clinical_logo_info
+    - node.type.az_clinical_experience_process
+    - paragraphs.paragraphs_type.clinical_trial_portal_logo_param
+  module:
+    - entity_reference_revisions
+id: node.az_clinical_experience_process.field_clinical_logo_info
+field_name: field_clinical_logo_info
+entity_type: node
+bundle: az_clinical_experience_process
+label: 'Clinical logo info'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    negate: 0
+    target_bundles:
+      clinical_trial_portal_logo_param: clinical_trial_portal_logo_param
+    target_bundles_drag_drop:
+      clinical_trial_portal_logo_param:
+        enabled: true
+        weight: 3
+      medicine_shop_addr:
+        weight: 4
+        enabled: false
+field_type: entity_reference_revisions

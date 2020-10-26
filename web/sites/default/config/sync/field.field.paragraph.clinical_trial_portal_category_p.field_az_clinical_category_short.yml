@@ -1,0 +1,37 @@
+uuid: 652996aa-4106-43ea-b52d-f3fbd90abca7
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_az_clinical_category_short
+    - paragraphs.paragraphs_type.clinical_trial_portal_category_p
+    - paragraphs.paragraphs_type.clinical_trial_portal_logo_param
+  module:
+    - entity_reference_revisions
+id: paragraph.clinical_trial_portal_category_p.field_az_clinical_category_short
+field_name: field_az_clinical_category_short
+entity_type: paragraph
+bundle: clinical_trial_portal_category_p
+label: 'AZ Clinical Category short params'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    negate: 0
+    target_bundles:
+      clinical_trial_portal_logo_param: clinical_trial_portal_logo_param
+    target_bundles_drag_drop:
+      clinical_trial_portal_category_p:
+        weight: 4
+        enabled: false
+      clinical_trial_portal_logo_param:
+        enabled: true
+        weight: 5
+      medicine_shop_addr:
+        weight: 6
+        enabled: false
+field_type: entity_reference_revisions

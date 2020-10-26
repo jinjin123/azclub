@@ -1,0 +1,25 @@
+uuid: e4a51a79-8c57-4c19-be5e-8e92bd968331
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.clinical_trial_portal_category_p.field_az_clinical_category_short
+    - paragraphs.paragraphs_type.clinical_trial_portal_category_p
+  module:
+    - entity_reference_revisions
+id: paragraph.clinical_trial_portal_category_p.default
+targetEntityType: paragraph
+bundle: clinical_trial_portal_category_p
+mode: default
+content:
+  field_az_clinical_category_short:
+    type: entity_reference_revisions_entity_view
+    weight: 0
+    label: above
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    region: content
+hidden:
+  search_api_excerpt: true

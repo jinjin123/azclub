@@ -1,0 +1,18 @@
+uuid: dbf337f8-75db-4511-b6d2-1c9d75733204
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+name: 'AZ Medical Article & health tips'
+type: az_health_tips
+description: ''
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: false

@@ -1,0 +1,19 @@
+uuid: 2e8939fd-16be-4d04-bbea-46527f207b86
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_az_status
+    - paragraphs.paragraphs_type.clinical_trial_portal_logo_param
+id: paragraph.clinical_trial_portal_logo_param.field_az_status
+field_name: field_az_status
+entity_type: paragraph
+bundle: clinical_trial_portal_logo_param
+label: 'AZ status'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

@@ -1,0 +1,35 @@
+uuid: 5265304c-fdf0-4d42-be33-2d1522e5f638
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.az_latest_news.body
+    - field.field.node.az_latest_news.field_az_author_img
+    - field.field.node.az_latest_news.field_az_sub_title
+    - node.type.az_latest_news
+  module:
+    - text
+    - user
+id: node.az_latest_news.teaser
+targetEntityType: node
+bundle: az_latest_news
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  field_az_author_img: true
+  field_az_sub_title: true
+  search_api_excerpt: true

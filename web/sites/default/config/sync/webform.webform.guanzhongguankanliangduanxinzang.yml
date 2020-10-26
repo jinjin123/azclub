@@ -1,23 +1,18 @@
-uuid: e5ccc89b-bc1f-41c1-8eca-6265b50e53aa
+uuid: 1c942825-93d8-4dc2-9f3f-2331ecfeba3f
 langcode: en
 status: open
-dependencies:
-  enforced:
-    module:
-      - webform
-_core:
-  default_config_hash: Zdsrz0AOvwWoiSUBR8QppykLT3ote2PNjLJgkrRaoXA
+dependencies: {  }
 open: null
 close: null
 weight: 0
-uid: null
+uid: 1
 template: false
 archive: false
-id: contact
-title: Contact
-description: 'Basic email contact webform.'
+id: guanzhongguankanliangduanxinzang
+title: 觀眾觀看兩段心臟健康大使Bob的教育短片後，對此症的認識有否增加
+description: "<pre>\r\n急性冠状動脈综合症是全球常見死亡原因之ー・大眾須多加提防。本次問卷調查欲了解\r\n眾觀看兩段心健康大使Bob的教育短片後,對此症的認識有否增加,所得数據只作统計\r\n之用,並不會收集任何個人資料</pre>"
 category: ''
-elements: "name:\n  '#title': 'Your Name'\n  '#type': textfield\n  '#required': true\n  '#default_value': '[current-user:display-name]'\nemail:\n  '#title': 'Your Email'\n  '#type': email\n  '#required': true\n  '#default_value': '[current-user:mail]'\nsubject:\n  '#title': Subject\n  '#type': textfield\n  '#required': true\n  '#test': 'Testing contact webform from [site:name]'\nmessage:\n  '#title': Message\n  '#type': textarea\n  '#required': true\n  '#test': 'Please ignore this email.'\ncode:\n  '#type': textfield\n  '#title': code\n  '#size': 8\ntermcheck:\n  '#type': checkbox\n  '#title': termcheck\ntermcontent:\n  '#type': textarea\n  '#title': termcontent\n  '#disabled': true\n  '#readonly': true\n  '#default_value': |\n    本人已詳細閱讀網站的個人資料私隱政策聲明和法律聲明及使用條款，並確認本人完全明白及同意有關內容。\n    我同意「阿斯利康」和「康心摯友」使用以上個人資料聯絡我。\n    \nactions:\n  '#type': webform_actions\n  '#title': 'Submit button(s)'\n  '#submit__label': 發送查詢電郵"
+elements: "1_nirenweiyixialiangduanxinzangjiankangdashibobdejiaoyuduanpiand:\n  '#type': radios\n  '#title': 1.你認為以下兩段心臟健康大使Bob的教育短片對你有幫助嗎？（0為沒有幫助，5分為極有幫助）\n  '#title_display': inline\n  '#options':\n    - '0'\n    - '1'\n    - '2'\n    - '3'\n    - '4'\n    - '5'\n  '#options_display': side_by_side\nguanshangduanpianhou_nirenweitongbozihou_huanzhexufuyongshuangka:\n  '#type': radios\n  '#title': 2.觀賞短片後，你認為通波仔後，患者須服用雙抗血小板藥物多久呢？\n  '#options':\n    1: 1年\n    2: 2年\n    3: 3年\n    4: 4年\n  '#options_display': side_by_side\n3_nishifoucengjingtongbozi_:\n  '#type': radios\n  '#title': 3.你是否曾經通波仔？\n  '#options':\n    - 是\n    - 否\n  '#options_display': side_by_side\nactions:\n  '#type': webform_actions\n  '#title': 'Submit button(s)'\n  '#submit__label': 提交問卷"
 css: ''
 javascript: ''
 settings:
@@ -30,7 +25,7 @@ settings:
   page_submit_path: ''
   page_confirm_path: ''
   page_theme_name: ''
-  form_title: source_entity_webform
+  form_title: both
   form_submit_once: false
   form_exception_message: ''
   form_open_message: ''
@@ -59,7 +54,6 @@ settings:
   form_access_denied_message: ''
   form_access_denied_attributes: {  }
   form_file_limit: ''
-  form_elements_attributes: {  }
   share: false
   share_node: false
   share_theme_name: ''
@@ -69,13 +63,7 @@ settings:
   submission_log: false
   submission_views: {  }
   submission_views_replace: {  }
-  submission_user_columns:
-    - serial
-    - element__name
-    - element__email
-    - element__subject
-    - element__termcheck
-    - element__termcontent
+  submission_user_columns: {  }
   submission_user_duplicate: false
   submission_access_denied: default
   submission_access_denied_title: ''
@@ -124,16 +112,16 @@ settings:
   draft_loaded_message: ''
   draft_pending_single_message: ''
   draft_pending_multiple_message: ''
-  confirmation_type: url_message
+  confirmation_type: page
   confirmation_title: ''
-  confirmation_message: 'Your message has been sent.'
-  confirmation_url: 'https://www.baidu.com'
+  confirmation_message: ''
+  confirmation_url: ''
   confirmation_attributes: {  }
   confirmation_back: true
   confirmation_back_label: ''
   confirmation_back_attributes: {  }
-  confirmation_exclude_query: true
-  confirmation_exclude_token: true
+  confirmation_exclude_query: false
+  confirmation_exclude_token: false
   confirmation_update: false
   limit_total: null
   limit_total_interval: null
@@ -202,79 +190,5 @@ access:
     roles: {  }
     users: {  }
     permissions: {  }
-handlers:
-  email_confirmation:
-    id: email
-    label: 'Email confirmation'
-    notes: ''
-    handler_id: email_confirmation
-    status: true
-    conditions: {  }
-    weight: 1
-    settings:
-      states:
-        - completed
-      to_mail: '[webform_submission:values:email:raw]'
-      to_options: {  }
-      cc_mail: ''
-      cc_options: {  }
-      bcc_mail: ''
-      bcc_options: {  }
-      from_mail: _default
-      from_options: {  }
-      from_name: _default
-      subject: '[webform_submission:values:subject:raw]'
-      body: '[webform_submission:values:message:value]'
-      excluded_elements: {  }
-      ignore_access: false
-      exclude_empty: true
-      exclude_empty_checkbox: false
-      exclude_attachments: false
-      html: true
-      attachments: false
-      twig: false
-      theme_name: ''
-      parameters: {  }
-      debug: false
-      reply_to: ''
-      return_path: ''
-      sender_mail: ''
-      sender_name: ''
-  email_notification:
-    id: email
-    label: 'Email notification'
-    notes: ''
-    handler_id: email_notification
-    status: true
-    conditions: {  }
-    weight: 2
-    settings:
-      states:
-        - completed
-      to_mail: _default
-      to_options: {  }
-      cc_mail: ''
-      cc_options: {  }
-      bcc_mail: ''
-      bcc_options: {  }
-      from_mail: '[webform_submission:values:email:raw]'
-      from_options: {  }
-      from_name: '[webform_submission:values:name:raw]'
-      subject: '[webform_submission:values:subject:raw]'
-      body: '[webform_submission:values:message:value]'
-      excluded_elements: {  }
-      ignore_access: false
-      exclude_empty: true
-      exclude_empty_checkbox: false
-      exclude_attachments: false
-      html: true
-      attachments: false
-      twig: false
-      theme_name: ''
-      parameters: {  }
-      debug: false
-      reply_to: ''
-      return_path: ''
-      sender_mail: ''
-      sender_name: ''
+handlers: {  }
 variants: {  }

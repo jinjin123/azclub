@@ -1,0 +1,19 @@
+uuid: fe4da5af-44b3-4383-a056-656b03416ea3
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_az_sub_title
+    - node.type.az_latest_news
+id: node.az_latest_news.field_az_sub_title
+field_name: field_az_sub_title
+entity_type: node
+bundle: az_latest_news
+label: az_sub_title
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

@@ -1,0 +1,191 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/default\/health-tips\/19?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/default\/rest\/type\/node\/az_health_tips"
+        },
+        "http:\/\/default\/rest\/relation\/node\/az_health_tips\/revision_uid": [
+            {
+                "href": "http:\/\/default\/user\/1?_format=hal_json"
+            }
+        ],
+        "http:\/\/default\/rest\/relation\/node\/az_health_tips\/uid": [
+            {
+                "href": "http:\/\/default\/user\/1?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/default\/rest\/relation\/node\/az_health_tips\/field_az_health_img": [
+            {
+                "href": "http:\/\/default\/sites\/default\/files\/2020-10\/2020-10-26_13-52.png"
+            }
+        ],
+        "http:\/\/default\/rest\/relation\/node\/az_health_tips\/field_medical_tag": [
+            {
+                "href": "http:\/\/default\/taxonomy\/term\/8?_format=hal_json"
+            }
+        ]
+    },
+    "uuid": [
+        {
+            "value": "07e1df1e-79be-4654-a0c1-b75ec3974065"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "az_health_tips"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2020-10-26T06:46:45+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/default\/rest\/relation\/node\/az_health_tips\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/default\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "ad86f4f8-ab08-4ff1-be42-53e6179dd359"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/default\/rest\/relation\/node\/az_health_tips\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/default\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "ad86f4f8-ab08-4ff1-be42-53e6179dd359"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/default\/rest\/relation\/node\/az_health_tips\/field_az_health_img": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/sites\/default\/files\/2020-10\/2020-10-26_13-52.png"
+                    },
+                    "type": {
+                        "href": "http:\/\/default\/rest\/type\/file\/file"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "f41eb140-9b78-45fd-b9b0-31d01bd240bc"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/default\/rest\/relation\/node\/az_health_tips\/field_medical_tag": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/taxonomy\/term\/8?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/default\/rest\/type\/taxonomy_term\/medical_article_tag_"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "63608484-badc-4dec-b828-47152e4a75b3"
+                    }
+                ]
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "\u5e74\u8f15\u4eba\u5fc3\u81df\u75c5\u767c\u7387\u5e74\u98c6\u4e00\u6210 \u4e09\u5206\u4e00\u5e74\u8f15\u60a3\u8005\u7528\u85e5\u5f8c\u4ecd\u5fa9\u767c",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2020-10-26T05:50:19+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2020-10-26T06:46:45+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "path": [
+        {
+            "alias": "\/health-tips\/19",
+            "pid": 67,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "body": [
+        {
+            "value": "<p>\u53ef\u8a98\u5fc3\u75c5\u6b7b\u4ea1\u7684\u6025\u6027\u51a0\u72c0\u52d5\u8108\u75c7(ACS)\u6709\u5e74\u8f15\u5316\u8d85\u52e2!\u81ea2000\u5e74\u8d77\u768410\u5e74\u9593\u30fb15\u81f324\u6b73\u4eba\u58eb\u7684\u51a0\u5fc3\u75c5\u767c\u7387\u982d\u8457\u5347\u4e00\u6210;\u6709\u7814 \u7a76\u66f4\u9806\u793a,\u5e74\u8f15\u60a3\u8005\u7684\u6b7b\u4ea1\u7387\u9ad8\u4e09\u62101\u6709\u751f\u6307\u51fa,\u5e74\u8f15\u601d\u8005\u7684\u5178\u578b\u75c7\u72c0\u5982\u80f8\u75db\u672a\u5fc5\u660e\u982d,\u4ee5\u81f4\u75c5\u4eba\u53ef\u80fd\u5ef6\u5c31,\u66f4\u5f15\u8ff0\u7814\u7a76 \u6307,\u4e09\u5206\u4e00\u5e74\u8f15\u60a3\u8005\u5373\u4f7f\u6b63\u63a5\u53d7\u7269\u6cbb\u7642\u30fb\u4ecd\u6703\u5fa9\u30fb\u6700\u65b0\u570b\u969b\u6307\u5f15\u5efa\u8b70\u9ad8\u98a8\u969e\u601d\u8005\u53ef\u8003\u5ef6\u9577\u96d9\u6297\u8840\u5c0f\u677f\u85e5\u7269\u6cbb\u76423\u5e74,\u53ef\u964d\u4f4e \u5fc3\u8840\u7ba1\u6b7b\u4ea1\u98a8\u96aa219% \u5fc3\u79d1\u5c02\u79d1\u826f\u8cb4\u751f\u8868\u793a,ACS\u70ba\u51a0\u5fc3\u75c5\u7684\u4e00\u7a2e,\u60a3\u8005\u7684\u51a0\u72c0\u52d5\u8108\u5185\u58c1\u88fd\u7a7a\u30fb\u52a0\u4e0a\u7a4d\u5176\u4e2d\u7684\u5f17\u69d8\u6591\u584a\u8868\u9762\u7834\u88c2\u30fb\u4ee4\u9762\u5c0f\u677f\u5728\u5176\u8868\u9762\u5f62\u6210\u8840\u5883\u5835\u585e\u8840\u7ba1,\u8840 \u66f4\u53ef\u8131\u843d\u6d41\u81f3\u5176\u4ed6\u8840\u7ba1,\u9020\u6210\u6813\u585e,\u91cd\u53ef\u81f4\u6b7b\u30fb\u5e38\u898b\u72c0\u5305\u62ec\u9676\u30fb\u9676\u53e3\u75db\u30fb\u4e0b\u75db\u30fb\u5de6\u75db\u3001\u51b7\u6c57\u30fb\u6c1f\u4fc3\u547c\u5438\u56f0\u5468\u75db,\u751a\u81f3\u660f\u8ff0 \u5e74\u8f15\u60a3\u8005\u75c7\u72c0\u4e0d\u660e\u986f\u5fa9\u767c\u6a5f\u6703\u9ad8 \u5e74\u50c539\u6c92\u6709\u6162\u6027\u75c5\u4f46\u6709\u5438\u7159\u7fd2\u7684\u9673\u5148\u751f(\u5316\u540d)\u30fb\u5fc3\u75c5\u767c\u524d\u8d70\u8def\u6025\u4fbf\u80f8\u53e3\u30fb\u5750\u4e0b\u7a0d\u4f5c\u4f53\u606f\u75c7\u72c0\u53c8\u85cf\u9000\u30fb\u6545\u672b\u6709\u7406\u6703\u30fb\u5ba3\u6599\u4e00\u661f\u671f\u5f8c\u30fb\u7a81\u7136\u5728\u6253\u7403\u671f \u9593\u91cf\u5012,\u5e78\u7372\u65c1\u4eba\u5373\u6642\u65bd\u884c\u6025\u6551\u30fb\u81ea\u884c\u9192\u30fb\u9001\u9662\u5f8c\u7d93\u5fc3\u96fb\u56fe\u67e5\u78ba\u8a3aACS\u30fb\u66f4\u767c\u73fe\u5177\u4e2d\u4e00\u4fc2\u5fc3\u8840\u7ba1\u5b8c\u5168\u5835\u585e\u30fb\u8981\u99ac\u4e0a\u300c\u901a\u6ce2\u4ed4<\/p>\r\n\r\n<p>\u300c\u901a\u6ce2\u4ed4\u300d\u96d6\u53ef\u89e3\u9664\u5fc3\u808c\u6897\u585e\u60a3\u8005\u7684\u5373\u6642\u5371\u96aa \u4f46\u8853\u9ece\u4ecd\u6709\u5fa9\u53ca\u98a8\u96aa \u9673\u826f\u8cb4\u751f\u5f15\u84dd\u7814\u7a76\u89e3,\u8fd1\u4e03\u621045\u4ee5\u4e0b\u7684\u5fc3\u808c\u585e\u60a3\u8005\u75c5\u524d,\u5747\u672a\u66fe\u51fa \u73fe\u5178\u578b\u80f8\u75db,\u75c7\u72c0\u96c4\u6301\u4e0d\u8db3\u4e00\u661f\u671f\u30fb\u5bb9\u6613\u5ffd\u7565\u3002\u4e00\u9805\u8ddf20\u5e74\u7684\u7814\u7a76\u66f4\u6307\u51fa \u8fd1\u4e09\u5206\u4e00\u7684\u5e74\u51a0\u5fc3\u75c5\u8001\u5373\u4f7f\u6b63\u63a5\u53d7\u7269\u6cbb\u7642\u30fb\u4ecd\u6703\u5fa9,\u51fa\u73fe\u975e\u81f4\u547d\u6027\u5fc3 \u808c\u585e\u7b49\u8eca\u4e0d\u826f\u5fc3\u8840\u7ba1\u4e8b\u4ef6 \u671b\u6297\u8840\u5c0f\u677f\u52a9\u4f4e\u5fa9\u6a5f\u6703\u70ba\u4f4e\u5fa9\u6a5f\u6703,\u7f8e\u570b\u5fc3\u75c5\u5b78\u6703\u53ca\u6b27\u6d32\u5fc3 \u75c5\u5b78\u6703\u7684\u6307\u5f15\u5747\u8b70,ACS\u8005\u9898\u63a5\u53d7\u6700\u5c1112\u56fa\u6708\u7684\u6297\u8840\u5c0f\u677f\u85e5\u7269\u6cbb\u30fb\u5373 \u53ef\u58eb\u5339\u7ed3\u542b\u53e6\u4e00\u7a2e\u6297\u8840\u5c0f\u677f\u85e5\u7269 \u8fd1\u5e74,\u80de\u6765\u610f\u591a\u7814\u7a76\u4ea6\u793a,\u5fc3\u808c\u6897\u585e\u60a3\u8005\u5373\u4f7f\u5b8c\u62101\u5e74\u6297\u8840\u5c0f\u677f\u7269\u6cbb \u4f46\u9898\u5f8c3\u5e74,\u6bcf5\u4eba\u4e2d,\u4ecd\u67091\u4eba\u51fa\u73fe\u7efc\u5408\u5fc3\u8840\u7ba1\u4e8b\u4ef6\u3002\u7814\u7a76\u5be6,\u5ef6\u9577\u670d\u6642 \u9593\u53ef\u518d\u707e\u5fc3\u808c\u6897\u585e\u539816%,\u4e2d\u5398\u6a5f\u670325%\u00b0<\/p>\r\n",
+            "format": "basic_html",
+            "processed": "<p>\u53ef\u8a98\u5fc3\u75c5\u6b7b\u4ea1\u7684\u6025\u6027\u51a0\u72c0\u52d5\u8108\u75c7(ACS)\u6709\u5e74\u8f15\u5316\u8d85\u52e2!\u81ea2000\u5e74\u8d77\u768410\u5e74\u9593\u30fb15\u81f324\u6b73\u4eba\u58eb\u7684\u51a0\u5fc3\u75c5\u767c\u7387\u982d\u8457\u5347\u4e00\u6210;\u6709\u7814 \u7a76\u66f4\u9806\u793a,\u5e74\u8f15\u60a3\u8005\u7684\u6b7b\u4ea1\u7387\u9ad8\u4e09\u62101\u6709\u751f\u6307\u51fa,\u5e74\u8f15\u601d\u8005\u7684\u5178\u578b\u75c7\u72c0\u5982\u80f8\u75db\u672a\u5fc5\u660e\u982d,\u4ee5\u81f4\u75c5\u4eba\u53ef\u80fd\u5ef6\u5c31,\u66f4\u5f15\u8ff0\u7814\u7a76 \u6307,\u4e09\u5206\u4e00\u5e74\u8f15\u60a3\u8005\u5373\u4f7f\u6b63\u63a5\u53d7\u7269\u6cbb\u7642\u30fb\u4ecd\u6703\u5fa9\u30fb\u6700\u65b0\u570b\u969b\u6307\u5f15\u5efa\u8b70\u9ad8\u98a8\u969e\u601d\u8005\u53ef\u8003\u5ef6\u9577\u96d9\u6297\u8840\u5c0f\u677f\u85e5\u7269\u6cbb\u76423\u5e74,\u53ef\u964d\u4f4e \u5fc3\u8840\u7ba1\u6b7b\u4ea1\u98a8\u96aa219% \u5fc3\u79d1\u5c02\u79d1\u826f\u8cb4\u751f\u8868\u793a,ACS\u70ba\u51a0\u5fc3\u75c5\u7684\u4e00\u7a2e,\u60a3\u8005\u7684\u51a0\u72c0\u52d5\u8108\u5185\u58c1\u88fd\u7a7a\u30fb\u52a0\u4e0a\u7a4d\u5176\u4e2d\u7684\u5f17\u69d8\u6591\u584a\u8868\u9762\u7834\u88c2\u30fb\u4ee4\u9762\u5c0f\u677f\u5728\u5176\u8868\u9762\u5f62\u6210\u8840\u5883\u5835\u585e\u8840\u7ba1,\u8840 \u66f4\u53ef\u8131\u843d\u6d41\u81f3\u5176\u4ed6\u8840\u7ba1,\u9020\u6210\u6813\u585e,\u91cd\u53ef\u81f4\u6b7b\u30fb\u5e38\u898b\u72c0\u5305\u62ec\u9676\u30fb\u9676\u53e3\u75db\u30fb\u4e0b\u75db\u30fb\u5de6\u75db\u3001\u51b7\u6c57\u30fb\u6c1f\u4fc3\u547c\u5438\u56f0\u5468\u75db,\u751a\u81f3\u660f\u8ff0 \u5e74\u8f15\u60a3\u8005\u75c7\u72c0\u4e0d\u660e\u986f\u5fa9\u767c\u6a5f\u6703\u9ad8 \u5e74\u50c539\u6c92\u6709\u6162\u6027\u75c5\u4f46\u6709\u5438\u7159\u7fd2\u7684\u9673\u5148\u751f(\u5316\u540d)\u30fb\u5fc3\u75c5\u767c\u524d\u8d70\u8def\u6025\u4fbf\u80f8\u53e3\u30fb\u5750\u4e0b\u7a0d\u4f5c\u4f53\u606f\u75c7\u72c0\u53c8\u85cf\u9000\u30fb\u6545\u672b\u6709\u7406\u6703\u30fb\u5ba3\u6599\u4e00\u661f\u671f\u5f8c\u30fb\u7a81\u7136\u5728\u6253\u7403\u671f \u9593\u91cf\u5012,\u5e78\u7372\u65c1\u4eba\u5373\u6642\u65bd\u884c\u6025\u6551\u30fb\u81ea\u884c\u9192\u30fb\u9001\u9662\u5f8c\u7d93\u5fc3\u96fb\u56fe\u67e5\u78ba\u8a3aACS\u30fb\u66f4\u767c\u73fe\u5177\u4e2d\u4e00\u4fc2\u5fc3\u8840\u7ba1\u5b8c\u5168\u5835\u585e\u30fb\u8981\u99ac\u4e0a\u300c\u901a\u6ce2\u4ed4<\/p>\n\n<p>\u300c\u901a\u6ce2\u4ed4\u300d\u96d6\u53ef\u89e3\u9664\u5fc3\u808c\u6897\u585e\u60a3\u8005\u7684\u5373\u6642\u5371\u96aa \u4f46\u8853\u9ece\u4ecd\u6709\u5fa9\u53ca\u98a8\u96aa \u9673\u826f\u8cb4\u751f\u5f15\u84dd\u7814\u7a76\u89e3,\u8fd1\u4e03\u621045\u4ee5\u4e0b\u7684\u5fc3\u808c\u585e\u60a3\u8005\u75c5\u524d,\u5747\u672a\u66fe\u51fa \u73fe\u5178\u578b\u80f8\u75db,\u75c7\u72c0\u96c4\u6301\u4e0d\u8db3\u4e00\u661f\u671f\u30fb\u5bb9\u6613\u5ffd\u7565\u3002\u4e00\u9805\u8ddf20\u5e74\u7684\u7814\u7a76\u66f4\u6307\u51fa \u8fd1\u4e09\u5206\u4e00\u7684\u5e74\u51a0\u5fc3\u75c5\u8001\u5373\u4f7f\u6b63\u63a5\u53d7\u7269\u6cbb\u7642\u30fb\u4ecd\u6703\u5fa9,\u51fa\u73fe\u975e\u81f4\u547d\u6027\u5fc3 \u808c\u585e\u7b49\u8eca\u4e0d\u826f\u5fc3\u8840\u7ba1\u4e8b\u4ef6 \u671b\u6297\u8840\u5c0f\u677f\u52a9\u4f4e\u5fa9\u6a5f\u6703\u70ba\u4f4e\u5fa9\u6a5f\u6703,\u7f8e\u570b\u5fc3\u75c5\u5b78\u6703\u53ca\u6b27\u6d32\u5fc3 \u75c5\u5b78\u6703\u7684\u6307\u5f15\u5747\u8b70,ACS\u8005\u9898\u63a5\u53d7\u6700\u5c1112\u56fa\u6708\u7684\u6297\u8840\u5c0f\u677f\u85e5\u7269\u6cbb\u30fb\u5373 \u53ef\u58eb\u5339\u7ed3\u542b\u53e6\u4e00\u7a2e\u6297\u8840\u5c0f\u677f\u85e5\u7269 \u8fd1\u5e74,\u80de\u6765\u610f\u591a\u7814\u7a76\u4ea6\u793a,\u5fc3\u808c\u6897\u585e\u60a3\u8005\u5373\u4f7f\u5b8c\u62101\u5e74\u6297\u8840\u5c0f\u677f\u7269\u6cbb \u4f46\u9898\u5f8c3\u5e74,\u6bcf5\u4eba\u4e2d,\u4ecd\u67091\u4eba\u51fa\u73fe\u7efc\u5408\u5fc3\u8840\u7ba1\u4e8b\u4ef6\u3002\u7814\u7a76\u5be6,\u5ef6\u9577\u670d\u6642 \u9593\u53ef\u518d\u707e\u5fc3\u808c\u6897\u585e\u539816%,\u4e2d\u5398\u6a5f\u670325%\u00b0<\/p>",
+            "summary": "",
+            "lang": "en"
+        }
+    ]
+}

@@ -1,0 +1,23 @@
+uuid: 4f87147a-3351-4c9e-9406-939ecda54cfc
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.az_health_tips
+  module:
+    - text
+id: node.az_health_tips.body
+field_name: body
+entity_type: node
+bundle: az_health_tips
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+  required_summary: false
+field_type: text_with_summary

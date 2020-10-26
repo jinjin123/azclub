@@ -1,0 +1,169 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/default\/node\/11?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/default\/rest\/type\/node\/ta_articles"
+        },
+        "http:\/\/default\/rest\/relation\/node\/ta_articles\/revision_uid": [
+            {
+                "href": "http:\/\/default\/user\/1?_format=hal_json"
+            }
+        ],
+        "http:\/\/default\/rest\/relation\/node\/ta_articles\/uid": [
+            {
+                "href": "http:\/\/default\/user\/1?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/default\/rest\/relation\/node\/ta_articles\/field_ta_type": [
+            {
+                "href": "http:\/\/default\/taxonomy\/term\/1?_format=hal_json"
+            }
+        ]
+    },
+    "uuid": [
+        {
+            "value": "7aabe0fc-a367-498b-96f5-4cb288101899"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "ta_articles"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2020-10-21T07:07:16+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/default\/rest\/relation\/node\/ta_articles\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/default\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "ad86f4f8-ab08-4ff1-be42-53e6179dd359"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/default\/rest\/relation\/node\/ta_articles\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/default\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "ad86f4f8-ab08-4ff1-be42-53e6179dd359"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/default\/rest\/relation\/node\/ta_articles\/field_ta_type": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/taxonomy\/term\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/default\/rest\/type\/taxonomy_term\/ta_type"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "5f18a532-1234-4e3c-95d6-b3b4bad7ac98"
+                    }
+                ]
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "Ibidem Oppeto Quidne",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2020-10-21T07:07:15+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2020-10-22T05:29:29+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "path": [
+        {
+            "alias": null,
+            "pid": null,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "body": [
+        {
+            "value": "Letalis paulatim premo qui. Esca haero ibidem iustum. Bene caecus illum neo nibh quidne sed tum. Abluo at augue camur duis imputo modo nulla volutpat. Incassum metuo obruo venio. Esse euismod iustum jugis laoreet qui rusticus tum ulciscor. Accumsan defui elit fere pneum quia tation valetudo. Accumsan aliquip diam haero importunus laoreet olim praemitto tamen tego.\r\n\r\nAd genitus incassum nobis quis singularis. Exerci genitus gilvus iriure nutus pecus quae vicis. Adipiscing at camur consequat pagus tum wisi. Inhibeo natu populus praesent tum ymo. At os sagaciter. Adipiscing damnum exputo iriure iustum molior pagus praemitto ratis scisco.\r\n\r\nErat eros feugiat gravis populus velit vicis. Aptent iustum minim. Accumsan at cogo diam minim molior nostrud proprius vicis vulputate. Gilvus loquor macto. Elit huic lenis magna neque quidne sagaciter suscipere ut. Exputo modo nibh rusticus sit. At eum paulatim quae saluto suscipit ymo. Augue diam illum iustum vero. Gemino iustum pertineo refero tamen validus velit volutpat.\r\n\r\nCogo gemino immitto macto neque nibh nisl quae virtus. Dolor lenis meus qui quidem volutpat zelus. Blandit ideo meus quibus quidem ratis refero saepius. Erat exerci importunus quidem scisco secundum tation. Abico eu olim paulatim usitas. Acsi letalis tum ut. Abdo antehabeo elit et hendrerit minim paratus pecus refoveo vindico. Duis exerci ideo minim premo quae roto si.\r\n\r\nDolore secundum virtus. Diam jumentum magna valde vulpes. Ad camur capto diam esse gemino neo neque persto. Abluo accumsan at immitto jumentum laoreet proprius saepius veniam vulputate. Appellatio augue defui facilisi nimis praemitto quae si torqueo valde. Exputo letalis similis sino. Importunus premo quibus. Aptent camur iaceo meus mos suscipere venio vindico.\r\n\r\nCapto illum jumentum pneum quidem vindico zelus. Abigo et eum pala paulatim vindico. Acsi aliquam caecus capto ex luptatum macto nutus pneum turpis. Capto paratus ut. At blandit causa defui incassum inhibeo loquor pecus si turpis.\r\n\r\nCaecus diam gilvus in lucidus nostrud odio sudo. Adipiscing aliquam aliquip genitus gravis plaga roto. Autem consectetuer ille quia vicis. Acsi dolor feugiat immitto melior pertineo quia utrum veniam. At eros hos iustum. Cogo commoveo sagaciter sino.\r\n\r\nAdipiscing dolore et macto quidne. Aliquip interdico jumentum. Commodo mos torqueo utrum. Aliquip elit hos imputo. Dolore huic illum si. Camur loquor neo populus ulciscor ut vicis. Abigo commoveo huic scisco turpis vereor. Eu gilvus incassum jumentum oppeto typicus. Capto duis esca gilvus iriure ludus molior quidem roto. Commoveo feugiat luctus luptatum usitas zelus.\r\n\r\nSuscipere validus vereor. Melior nulla os praesent quibus scisco secundum torqueo vereor. Consectetuer nostrud nunc pala valde vero. Abico abluo caecus capto comis iriure pala wisi. Ea euismod luctus metuo pala sit torqueo virtus. Enim natu quae. Abbas exerci saepius. Capto haero laoreet melior nutus olim sudo tamen voco.\r\n\r\nDefui diam dignissim interdico macto. Adipiscing commodo dolus in similis. Abluo caecus distineo nostrud quia. Adipiscing augue camur conventio dolus proprius. Augue blandit in oppeto patria plaga roto suscipere volutpat. Causa saepius torqueo. Caecus dignissim facilisis haero metuo nostrud. Antehabeo blandit euismod modo neque nunc occuro paratus suscipere.\r\n\r\nEsca facilisis fere hos humo in ludus paratus quadrum. Acsi consequat luctus qui. Cui magna olim oppeto quidne refero. Augue capto neque occuro praesent suscipere velit veniam volutpat wisi. Abluo lucidus odio. Antehabeo hos nobis suscipit. Luptatum paulatim pecus velit. Ea fere gravis jus lenis molior nobis tation torqueo typicus. Adipiscing camur gravis haero iustum macto pagus paulatim.\r\n\r\nEros ideo nunc odio validus vindico. Cui jus luptatum modo nobis veniam. Abigo brevitas eum metuo occuro pala refero suscipere ut validus. Aliquip distineo in sit.\r\n\r\n",
+            "format": "plain_text",
+            "processed": "<p>Letalis paulatim premo qui. Esca haero ibidem iustum. Bene caecus illum neo nibh quidne sed tum. Abluo at augue camur duis imputo modo nulla volutpat. Incassum metuo obruo venio. Esse euismod iustum jugis laoreet qui rusticus tum ulciscor. Accumsan defui elit fere pneum quia tation valetudo. Accumsan aliquip diam haero importunus laoreet olim praemitto tamen tego.<\/p>\n<p>Ad genitus incassum nobis quis singularis. Exerci genitus gilvus iriure nutus pecus quae vicis. Adipiscing at camur consequat pagus tum wisi. Inhibeo natu populus praesent tum ymo. At os sagaciter. Adipiscing damnum exputo iriure iustum molior pagus praemitto ratis scisco.<\/p>\n<p>Erat eros feugiat gravis populus velit vicis. Aptent iustum minim. Accumsan at cogo diam minim molior nostrud proprius vicis vulputate. Gilvus loquor macto. Elit huic lenis magna neque quidne sagaciter suscipere ut. Exputo modo nibh rusticus sit. At eum paulatim quae saluto suscipit ymo. Augue diam illum iustum vero. Gemino iustum pertineo refero tamen validus velit volutpat.<\/p>\n<p>Cogo gemino immitto macto neque nibh nisl quae virtus. Dolor lenis meus qui quidem volutpat zelus. Blandit ideo meus quibus quidem ratis refero saepius. Erat exerci importunus quidem scisco secundum tation. Abico eu olim paulatim usitas. Acsi letalis tum ut. Abdo antehabeo elit et hendrerit minim paratus pecus refoveo vindico. Duis exerci ideo minim premo quae roto si.<\/p>\n<p>Dolore secundum virtus. Diam jumentum magna valde vulpes. Ad camur capto diam esse gemino neo neque persto. Abluo accumsan at immitto jumentum laoreet proprius saepius veniam vulputate. Appellatio augue defui facilisi nimis praemitto quae si torqueo valde. Exputo letalis similis sino. Importunus premo quibus. Aptent camur iaceo meus mos suscipere venio vindico.<\/p>\n<p>Capto illum jumentum pneum quidem vindico zelus. Abigo et eum pala paulatim vindico. Acsi aliquam caecus capto ex luptatum macto nutus pneum turpis. Capto paratus ut. At blandit causa defui incassum inhibeo loquor pecus si turpis.<\/p>\n<p>Caecus diam gilvus in lucidus nostrud odio sudo. Adipiscing aliquam aliquip genitus gravis plaga roto. Autem consectetuer ille quia vicis. Acsi dolor feugiat immitto melior pertineo quia utrum veniam. At eros hos iustum. Cogo commoveo sagaciter sino.<\/p>\n<p>Adipiscing dolore et macto quidne. Aliquip interdico jumentum. Commodo mos torqueo utrum. Aliquip elit hos imputo. Dolore huic illum si. Camur loquor neo populus ulciscor ut vicis. Abigo commoveo huic scisco turpis vereor. Eu gilvus incassum jumentum oppeto typicus. Capto duis esca gilvus iriure ludus molior quidem roto. Commoveo feugiat luctus luptatum usitas zelus.<\/p>\n<p>Suscipere validus vereor. Melior nulla os praesent quibus scisco secundum torqueo vereor. Consectetuer nostrud nunc pala valde vero. Abico abluo caecus capto comis iriure pala wisi. Ea euismod luctus metuo pala sit torqueo virtus. Enim natu quae. Abbas exerci saepius. Capto haero laoreet melior nutus olim sudo tamen voco.<\/p>\n<p>Defui diam dignissim interdico macto. Adipiscing commodo dolus in similis. Abluo caecus distineo nostrud quia. Adipiscing augue camur conventio dolus proprius. Augue blandit in oppeto patria plaga roto suscipere volutpat. Causa saepius torqueo. Caecus dignissim facilisis haero metuo nostrud. Antehabeo blandit euismod modo neque nunc occuro paratus suscipere.<\/p>\n<p>Esca facilisis fere hos humo in ludus paratus quadrum. Acsi consequat luctus qui. Cui magna olim oppeto quidne refero. Augue capto neque occuro praesent suscipere velit veniam volutpat wisi. Abluo lucidus odio. Antehabeo hos nobis suscipit. Luptatum paulatim pecus velit. Ea fere gravis jus lenis molior nobis tation torqueo typicus. Adipiscing camur gravis haero iustum macto pagus paulatim.<\/p>\n<p>Eros ideo nunc odio validus vindico. Cui jus luptatum modo nobis veniam. Abigo brevitas eum metuo occuro pala refero suscipere ut validus. Aliquip distineo in sit.<\/p>\n",
+            "summary": "summary Ibidem Oppeto Quidne",
+            "lang": "en"
+        }
+    ]
+}
