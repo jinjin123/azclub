@@ -1,7 +1,7 @@
 {
     "_links": {
         "self": {
-            "href": "http:\/\/default\/node\/19?_format=hal_json"
+            "href": "http:\/\/default\/health-tips\/19?_format=hal_json"
         },
         "type": {
             "href": "http:\/\/default\/rest\/type\/node\/az_health_tips"
@@ -20,6 +20,11 @@
         "http:\/\/default\/rest\/relation\/node\/az_health_tips\/field_az_health_img": [
             {
                 "href": "http:\/\/default\/sites\/default\/files\/2020-10\/2020-10-26_13-52.png"
+            }
+        ],
+        "http:\/\/default\/rest\/relation\/node\/az_health_tips\/field_medical_tag": [
+            {
+                "href": "http:\/\/default\/taxonomy\/term\/8?_format=hal_json"
             }
         ]
     },
@@ -41,7 +46,7 @@
     ],
     "revision_timestamp": [
         {
-            "value": "2020-10-26T05:55:52+00:00",
+            "value": "2020-10-26T06:46:45+00:00",
             "format": "Y-m-d\\TH:i:sP"
         }
     ],
@@ -97,6 +102,23 @@
                     }
                 ]
             }
+        ],
+        "http:\/\/default\/rest\/relation\/node\/az_health_tips\/field_medical_tag": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/taxonomy\/term\/8?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/default\/rest\/type\/taxonomy_term\/medical_article_tag_"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "63608484-badc-4dec-b828-47152e4a75b3"
+                    }
+                ]
+            }
         ]
     },
     "status": [
@@ -120,7 +142,7 @@
     ],
     "changed": [
         {
-            "value": "2020-10-26T05:55:52+00:00",
+            "value": "2020-10-26T06:46:45+00:00",
             "lang": "en",
             "format": "Y-m-d\\TH:i:sP"
         }
@@ -143,10 +165,16 @@
             "lang": "en"
         }
     ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
     "path": [
         {
-            "alias": null,
-            "pid": null,
+            "alias": "\/health-tips\/19",
+            "pid": 67,
             "langcode": "en",
             "lang": "en"
         }

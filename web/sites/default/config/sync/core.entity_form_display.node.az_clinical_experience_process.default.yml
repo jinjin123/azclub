@@ -1,20 +1,22 @@
-uuid: 65c94a94-9275-49d1-9062-759756ba2d29
+uuid: 795a8bf4-ecf8-475b-924d-b7b039a875a7
 langcode: en
 status: true
 dependencies:
   config:
-    - field.field.node.az_health_tips.body
-    - field.field.node.az_health_tips.field_az_health_img
-    - field.field.node.az_health_tips.field_medical_tag
+    - field.field.node.az_clinical_experience_process.body
+    - field.field.node.az_clinical_experience_process.field_az_clinical_page_image
+    - field.field.node.az_clinical_experience_process.field_az_clinical_short_desc
+    - field.field.node.az_clinical_experience_process.field_clinical_logo_info
     - image.style.thumbnail
-    - node.type.az_health_tips
+    - node.type.az_clinical_experience_process
   module:
     - image
+    - paragraphs
     - path
     - text
-id: node.az_health_tips.default
+id: node.az_clinical_experience_process.default
 targetEntityType: node
-bundle: az_health_tips
+bundle: az_clinical_experience_process
 mode: default
 content:
   body:
@@ -33,23 +35,37 @@ content:
     region: content
     settings: {  }
     third_party_settings: {  }
-  field_az_health_img:
-    weight: 122
+  field_az_clinical_page_image:
+    weight: 124
     settings:
       progress_indicator: throbber
       preview_image_style: thumbnail
     third_party_settings: {  }
     type: image_image
     region: content
-  field_medical_tag:
+  field_az_clinical_short_desc:
+    type: entity_reference_paragraphs
     weight: 123
     settings:
-      match_operator: CONTAINS
-      match_limit: 10
-      size: 60
-      placeholder: ''
+      title: Paragraph
+      title_plural: Paragraphs
+      edit_mode: open
+      add_mode: dropdown
+      form_display_mode: default
+      default_paragraph_type: ''
     third_party_settings: {  }
-    type: entity_reference_autocomplete
+    region: content
+  field_clinical_logo_info:
+    type: entity_reference_paragraphs
+    weight: 122
+    settings:
+      title: Paragraph
+      title_plural: Paragraphs
+      edit_mode: open
+      add_mode: dropdown
+      form_display_mode: default
+      default_paragraph_type: ''
+    third_party_settings: {  }
     region: content
   path:
     type: path

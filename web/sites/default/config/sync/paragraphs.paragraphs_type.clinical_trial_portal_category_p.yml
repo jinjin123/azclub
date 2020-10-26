@@ -1,0 +1,10 @@
+uuid: 599984a0-fa58-4a2d-8231-fab47fbb6e8c
+langcode: en
+status: true
+dependencies: {  }
+id: clinical_trial_portal_category_p
+label: 'Clinical Trial Portal category params'
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

@@ -398,11 +398,12 @@ display:
   offers:
     display_plugin: page
     id: offers
-    display_title: Page
+    display_title: 'Medicine offer '
     position: 1
     display_options:
       display_extenders: {  }
       path: offers
+      display_description: ''
     cache_metadata:
       max-age: -1
       contexts:

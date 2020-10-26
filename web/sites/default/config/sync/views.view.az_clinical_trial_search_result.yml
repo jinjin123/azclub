@@ -1,19 +1,24 @@
-uuid: 3a2391ca-21b6-44b4-b871-f96f442f3097
+uuid: c77311b0-9eb0-4059-abd9-0b11a25a12f3
 langcode: en
 status: true
 dependencies:
   config:
     - field.storage.node.body
-    - field.storage.node.field_az_author_img
-    - field.storage.node.field_az_sub_title
-    - node.type.az_latest_news
+    - field.storage.node.field_az_clinical_page_image
+    - node.type.az_clinical_experience_process
+    - taxonomy.vocabulary.tumor_tag
+  content:
+    - 'taxonomy_term:tumor_tag:ebee86ee-4c80-44e7-a7cb-dad13b614a71'
   module:
+    - better_exposed_filters
     - image_url_formatter
     - node
+    - paragraphs
+    - taxonomy
     - text
     - user
-id: az_latest_news
-label: 'AZ Latest News'
+id: az_clinical_trial_search_result
+label: 'AZ Clinical Trial Search Result'
 module: views
 description: ''
 tag: ''
@@ -42,7 +47,7 @@ display:
           query_comment: ''
           query_tags: {  }
       exposed_form:
-        type: basic
+        type: bef
         options:
           submit_button: Apply
           reset_button: false
@@ -51,24 +56,23 @@ display:
           expose_sort_order: true
           sort_asc_label: Asc
           sort_desc_label: Desc
+          text_input_required: 'Select any filter and click on Apply to see results'
+          text_input_required_format: basic_html
+          bef:
+            general:
+              autosubmit: false
+              autosubmit_exclude_textfield: false
+              autosubmit_textfield_delay: 500
+              autosubmit_hide: false
+              input_required: false
+              allow_secondary: false
+              secondary_label: 'Advanced options'
+              secondary_open: false
       pager:
-        type: mini
+        type: some
         options:
-          items_per_page: 9
+          items_per_page: 12
           offset: 0
-          id: 0
-          total_pages: null
-          expose:
-            items_per_page: false
-            items_per_page_label: 'Items per page'
-            items_per_page_options: '5, 10, 25, 50'
-            items_per_page_options_all: false
-            items_per_page_options_all_label: '- All -'
-            offset: false
-            offset_label: Offset
-          tags:
-            previous: ‹‹
-            next: ››
       style:
         type: default
       row:
@@ -144,10 +148,10 @@ display:
           entity_type: node
           entity_field: title
           plugin_id: field
-        field_az_author_img:
-          id: field_az_author_img
-          table: node__field_az_author_img
-          field: field_az_author_img
+        field_az_clinical_page_image:
+          id: field_az_clinical_page_image
+          table: node__field_az_clinical_page_image
+          field: field_az_clinical_page_image
           relationship: none
           group_type: group
           admin_label: ''
@@ -155,7 +159,7 @@ display:
           exclude: true
           alter:
             alter_text: false
-            text: ' <img src="{{ field_az_author_img }}"/>'
+            text: ''
             make_link: false
             path: ''
             absolute: false
@@ -209,63 +213,10 @@ display:
           separator: ', '
           field_api_classes: false
           plugin_id: field
-        view_node:
-          id: view_node
-          table: node
-          field: view_node
-          relationship: none
-          group_type: group
-          admin_label: ''
-          label: ''
-          exclude: true
-          alter:
-            alter_text: false
-            text: ''
-            make_link: false
-            path: ''
-            absolute: false
-            external: false
-            replace_spaces: false
-            path_case: none
-            trim_whitespace: false
-            alt: ''
-            rel: ''
-            link_class: ''
-            prefix: ''
-            suffix: ''
-            target: ''
-            nl2br: false
-            max_length: 0
-            word_boundary: true
-            ellipsis: true
-            more_link: false
-            more_link_text: ''
-            more_link_path: ''
-            strip_tags: false
-            trim: false
-            preserve_tags: ''
-            html: false
-          element_type: ''
-          element_class: ''
-          element_label_type: ''
-          element_label_class: ''
-          element_label_colon: false
-          element_wrapper_type: ''
-          element_wrapper_class: ''
-          element_default_classes: true
-          empty: ''
-          hide_empty: false
-          empty_zero: false
-          hide_alter_empty: true
-          text: view
-          output_url_as_text: true
-          absolute: false
-          entity_type: node
-          plugin_id: entity_link
-        field_az_sub_title:
-          id: field_az_sub_title
-          table: node__field_az_sub_title
-          field: field_az_sub_title
+        created:
+          id: created
+          table: node_field_data
+          field: created
           relationship: none
           group_type: group
           admin_label: ''
@@ -311,9 +262,11 @@ display:
           empty_zero: false
           hide_alter_empty: true
           click_sort_column: value
-          type: string
+          type: timestamp
           settings:
-            link_to_entity: false
+            date_format: custom
+            custom_date_format: d/m/Y
+            timezone: ''
           group_column: value
           group_columns: {  }
           group_rows: true
@@ -324,6 +277,8 @@ display:
           multi_type: separator
           separator: ', '
           field_api_classes: false
+          entity_type: node
+          entity_field: created
           plugin_id: field
         body:
           id: body
@@ -336,7 +291,7 @@ display:
           exclude: false
           alter:
             alter_text: true
-            text: "<div class=\"az-offer_box\">\r\n  <div class=\"az-offer_img col-md-6\">\r\n        <img src=\"{{ field_az_author_img }}\">\r\n  </div>\r\n  <div class=\"az-offer_body col-md-4\">\r\n     <div class=\"az-offer_body_title\">\r\n       {{ title }}\r\n    </div>\r\n    <div class=\"az-offer_sub_title\">\r\n      {{ field_az_sub_title }}\r\n    </div>\r\n  </div>\r\n   <div class=\"az-offer_click_bottom col-md-2\">\r\n     <a href=\"{{ view_node }}\">了解更多</span>\r\n  </div>\r\n</div>"
+            text: "<div class=\"az-clinical_box\">\r\n  <div class=\"az-clinical_img col-md-4\">\r\n        <img src=\"{{ field_az_clinical_page_image }}\" >\r\n  </div>\r\n  <div class=\"az-clinical_body col-md-4\">\r\n     <div class=\"az-clinical_body_title\">\r\n       {{ title }}\r\n    </div>\r\n    <div class=\"az-clinical_body_desc\">\r\n      {{ body}}\r\n    </div>\r\n  </div>\r\n   <div class=\"az-oclinical_time_bottom col-md-2\">\r\n     <span>{{ created }}</span>\r\n  </div>\r\n</div>"
             make_link: false
             path: ''
             absolute: false
@@ -406,13 +361,154 @@ display:
           table: node_field_data
           field: type
           value:
-            az_latest_news: az_latest_news
+            az_clinical_experience_process: az_clinical_experience_process
           entity_type: node
           entity_field: type
           plugin_id: bundle
           expose:
             operator_limit_selection: false
             operator_list: {  }
+        field_az_se_value:
+          id: field_az_se_value
+          table: paragraph__field_az_se
+          field: field_az_se_value
+          relationship: field_clinical_logo_info
+          group_type: group
+          admin_label: ''
+          operator: '='
+          value: ''
+          group: 1
+          exposed: true
+          expose:
+            operator_id: field_az_se_value_op
+            label: 'AZ Sex (field_az_se)'
+            description: null
+            use_operator: false
+            operator: field_az_se_value_op
+            operator_limit_selection: false
+            operator_list: {  }
+            identifier: field_az_se_value
+            required: false
+            remember: false
+            multiple: false
+            remember_roles:
+              authenticated: authenticated
+            placeholder: null
+          is_grouped: true
+          group_info:
+            label: 'AZ Sex (field_az_se)'
+            description: ''
+            identifier: field_az_se_value
+            optional: true
+            widget: select
+            multiple: false
+            remember: false
+            default_group: All
+            default_group_multiple: {  }
+            group_items:
+              1:
+                title: 男
+                operator: '='
+                value: 男
+              2:
+                title: 女
+                operator: '='
+                value: 女
+          plugin_id: string
+        field_az_conditions_term_target_id:
+          id: field_az_conditions_term_target_id
+          table: paragraph__field_az_conditions_term
+          field: field_az_conditions_term_target_id
+          relationship: field_clinical_logo_info
+          group_type: group
+          admin_label: ''
+          operator: or
+          value:
+            10: 10
+          group: 1
+          exposed: true
+          expose:
+            operator_id: field_az_conditions_term_target_id_op
+            label: 'AZ Conditions term (field_az_conditions_term)'
+            description: ''
+            use_operator: false
+            operator: field_az_conditions_term_target_id_op
+            operator_limit_selection: false
+            operator_list: {  }
+            identifier: field_az_conditions_term_target_id
+            required: false
+            remember: false
+            multiple: false
+            remember_roles:
+              authenticated: authenticated
+              anonymous: '0'
+              administrator: '0'
+              content_maintainer: '0'
+            reduce: false
+          is_grouped: false
+          group_info:
+            label: 'AZ Conditions term (field_az_conditions_term)'
+            description: null
+            identifier: field_az_conditions_term_target_id
+            optional: true
+            widget: select
+            multiple: false
+            remember: false
+            default_group: All
+            default_group_multiple: {  }
+            group_items:
+              1: {  }
+              2: {  }
+              3: {  }
+          reduce_duplicates: false
+          type: select
+          limit: true
+          vid: tumor_tag
+          hierarchy: false
+          error_message: true
+          plugin_id: taxonomy_index_tid
+        field_az_clinical_age_value:
+          id: field_az_clinical_age_value
+          table: paragraph__field_az_clinical_age
+          field: field_az_clinical_age_value
+          relationship: field_clinical_logo_info
+          group_type: group
+          admin_label: ''
+          operator: '='
+          value: ''
+          group: 1
+          exposed: true
+          expose:
+            operator_id: field_az_clinical_age_value_op
+            label: 'AZ Clinical age (field_az_clinical_age)'
+            description: ''
+            use_operator: false
+            operator: field_az_clinical_age_value_op
+            operator_limit_selection: false
+            operator_list: {  }
+            identifier: field_az_clinical_age_value
+            required: false
+            remember: false
+            multiple: false
+            remember_roles:
+              authenticated: authenticated
+              anonymous: '0'
+              administrator: '0'
+              content_maintainer: '0'
+            placeholder: ''
+          is_grouped: false
+          group_info:
+            label: ''
+            description: ''
+            identifier: ''
+            optional: true
+            widget: select
+            multiple: false
+            remember: false
+            default_group: All
+            default_group_multiple: {  }
+            group_items: {  }
+          plugin_id: string
       sorts:
         created:
           id: created
@@ -429,7 +525,7 @@ display:
           expose:
             label: ''
           granularity: second
-      title: 'AZ Latest News'
+      title: ''
       header:
         area_text_custom:
           id: area_text_custom
@@ -440,22 +536,20 @@ display:
           admin_label: ''
           empty: false
           tokenize: false
-          content: "<div class=\"az-product_head\">\r\n\t<div class=\"az-product_head__title1\">\r\n        <span>醫學講座及活動</span>\r\n    </div>\r\n    <div class=\"az-product_head__title2\">\r\n      <span>醫學講座及活動一覽</span>\r\n    </div>\r\n  \t<div class=\"az-product_head__body\">\r\n      <span>Lorem lpsum只是印刷和設置行業的偽文本。自500年代以來，Lorem lpsum一直是該行業的標準偽文本。當時，一個未知的打印機拿起一個廚房，將其打亂成一個類型。</span>\r\n    </div>\r\n</div>"
+          content: "<div class=\"az-clinical-search_box\">\r\n    <div class=\"col-md-8\">\r\n      <span>最新臨床試驗計劃</span>\r\n</div>\r\n<div  class=\"col-md-4\"> \r\n \r\n</div>\r\n</div>"
           plugin_id: text_custom
-      footer:
-        area_text_custom:
-          id: area_text_custom
-          table: views
-          field: area_text_custom
+      footer: {  }
+      empty: {  }
+      relationships:
+        field_clinical_logo_info:
+          id: field_clinical_logo_info
+          table: node__field_clinical_logo_info
+          field: field_clinical_logo_info
           relationship: none
           group_type: group
-          admin_label: ''
-          empty: false
-          tokenize: false
-          content: "<div class=\"az_loading\">\r\n   <a href=\"javascript;\">瀏覽更多</a>\r\n</div>"
-          plugin_id: text_custom
-      empty: {  }
-      relationships: {  }
+          admin_label: 'field_clinical_logo_info: Paragraph'
+          required: false
+          plugin_id: standard
       arguments: {  }
       display_extenders: {  }
     cache_metadata:
@@ -463,31 +557,31 @@ display:
       contexts:
         - 'languages:language_content'
         - 'languages:language_interface'
-        - url.query_args
+        - url
+        - user
         - 'user.node_grants:view'
         - user.permissions
       tags:
         - 'config:field.storage.node.body'
-        - 'config:field.storage.node.field_az_author_img'
-        - 'config:field.storage.node.field_az_sub_title'
+        - 'config:field.storage.node.field_az_clinical_page_image'
   page_1:
     display_plugin: page
     id: page_1
-    display_title: 'LATEST News'
+    display_title: 'Clinical Trial Portal Search Result'
     position: 1
     display_options:
       display_extenders: {  }
-      path: az-latest-news
+      path: Clinical/search-result
       display_description: ''
     cache_metadata:
       max-age: -1
       contexts:
         - 'languages:language_content'
         - 'languages:language_interface'
-        - url.query_args
+        - url
+        - user
         - 'user.node_grants:view'
         - user.permissions
       tags:
         - 'config:field.storage.node.body'
-        - 'config:field.storage.node.field_az_author_img'
-        - 'config:field.storage.node.field_az_sub_title'
+        - 'config:field.storage.node.field_az_clinical_page_image'

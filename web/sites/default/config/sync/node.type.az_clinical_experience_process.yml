@@ -1,4 +1,4 @@
-uuid: dbf337f8-75db-4511-b6d2-1c9d75733204
+uuid: e666b44e-9f0f-4219-92c4-c40aa9289ffa
 langcode: en
 status: true
 dependencies:
@@ -9,8 +9,8 @@ third_party_settings:
     available_menus:
       - main
     parent: 'main:'
-name: 'AZ Medical Article & health tips'
-type: az_health_tips
+name: 'AZ Clinical experience process'
+type: az_clinical_experience_process
 description: ''
 help: ''
 new_revision: true

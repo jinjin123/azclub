@@ -1,0 +1,61 @@
+uuid: 1b4a3474-2fcd-4de1-990c-99a8537810b2
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.az_clinical_experience_process.body
+    - field.field.node.az_clinical_experience_process.field_az_clinical_page_image
+    - field.field.node.az_clinical_experience_process.field_az_clinical_short_desc
+    - field.field.node.az_clinical_experience_process.field_clinical_logo_info
+    - node.type.az_clinical_experience_process
+  module:
+    - entity_reference_revisions
+    - image
+    - text
+    - user
+id: node.az_clinical_experience_process.default
+targetEntityType: node
+bundle: az_clinical_experience_process
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_az_clinical_page_image:
+    weight: 104
+    label: above
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+  field_az_clinical_short_desc:
+    type: entity_reference_revisions_entity_view
+    weight: 103
+    label: above
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    region: content
+  field_clinical_logo_info:
+    type: entity_reference_revisions_entity_view
+    weight: 102
+    label: above
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  search_api_excerpt: true

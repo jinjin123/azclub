@@ -35,5 +35,5 @@ visibility:
     block_visibility_group: ''
   request_path:
     id: request_path
-    pages: "/clinical-trial-portal\r\n/goverment_support\r\n/latest-news/*"
+    pages: "/clinical-trial-portal\r\n/goverment_support\r\n/latest-news/*\r\n/Clinical/result/*"
     negate: false
