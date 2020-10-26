@@ -43,4 +43,6 @@ web/sites/simpletest
 
 .idea
 *.sql.gz
+web/themes/custom/astrazeneca/node_modules
 web/sites/development.services.yml
+
