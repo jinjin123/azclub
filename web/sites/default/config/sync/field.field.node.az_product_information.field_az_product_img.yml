@@ -1,17 +1,17 @@
-uuid: e74fb032-1fcc-4ef1-aaaa-522df201d49e
+uuid: 398d12c0-4aba-4a91-b621-c2cac8bbf5e7
 langcode: en
 status: true
 dependencies:
   config:
-    - field.storage.paragraph.field_az_clinical_logo
-    - paragraphs.paragraphs_type.clinical_trial_portal_logo_param
+    - field.storage.node.field_az_product_img
+    - node.type.az_product_information
   module:
     - image
-id: paragraph.clinical_trial_portal_logo_param.field_az_clinical_logo
-field_name: field_az_clinical_logo
-entity_type: paragraph
-bundle: clinical_trial_portal_logo_param
-label: 'AZ Clinical logo'
+id: node.az_product_information.field_az_product_img
+field_name: field_az_product_img
+entity_type: node
+bundle: az_product_information
+label: az_product_img
 description: ''
 required: false
 translatable: false

@@ -1,0 +1,33 @@
+uuid: 03ba6ed0-23a2-4dc7-99d8-5b1c86921305
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.az_product_information.body
+    - field.field.node.az_product_information.field_az_product_img
+    - node.type.az_product_information
+  module:
+    - text
+    - user
+id: node.az_product_information.teaser
+targetEntityType: node
+bundle: az_product_information
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  field_az_product_img: true
+  search_api_excerpt: true
