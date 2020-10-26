@@ -23,6 +23,7 @@
         "drupal/core-composer-scaffold": "^9",
         "drupal/core-project-message": "^9",
         "drupal/core-recommended": "^9",
+        "drupal/default_content_deploy": "^1.0@beta",
         "drupal/devel": "^4.0",
         "drupal/metatag": "^1.14",
         "drupal/paragraphs": "^1.12",

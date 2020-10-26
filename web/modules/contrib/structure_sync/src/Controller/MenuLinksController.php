@@ -460,7 +460,7 @@ class MenuLinksController extends ControllerBase {
 
     StructureSyncHelper::logMessage('Successfully imported menu links');
 
-    $this->messenger()->addStatus(t('Successfully imported menu links'));
+    //$this->messenger()->addStatus(t('Successfully imported menu links'));
   }
 
 }

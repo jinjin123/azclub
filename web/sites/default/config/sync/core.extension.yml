@@ -24,6 +24,7 @@ module:
   ctools: 0
   datetime: 0
   dblog: 0
+  default_content_deploy: 0
   devel: 0
   devel_generate: 0
   dynamic_page_cache: 0
@@ -39,6 +40,7 @@ module:
   gavias_sliderlayer: 0
   gavias_view: 0
   gaviasthemer: 0
+  hal: 0
   help: 0
   history: 0
   image: 0
@@ -62,9 +64,8 @@ module:
   rdf: 0
   search: 0
   search_api: 0
-  shortcut: 0
-  simplenews: 0
   smtp: 0
+  serialization: 0
   structure_sync: 0
   system: 0
   taxonomy: 0
