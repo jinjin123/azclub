@@ -1,0 +1,41 @@
+uuid: b1332721-2964-4456-9c64-5f13fd6c91cc
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.profile.member.field_en_name
+    - field.field.profile.member.field_where
+    - field.field.profile.member.field_zh_name
+    - profile.type.member
+  module:
+    - options
+id: profile.member.default
+targetEntityType: profile
+bundle: member
+mode: default
+content:
+  field_en_name:
+    weight: 1
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_where:
+    weight: 2
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: list_default
+    region: content
+  field_zh_name:
+    weight: 0
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+hidden:
+  search_api_excerpt: true

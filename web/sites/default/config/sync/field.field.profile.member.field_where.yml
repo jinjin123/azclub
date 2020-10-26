@@ -1,0 +1,21 @@
+uuid: c27cdedb-09f6-41d3-99b2-5b03c80ab195
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.profile.field_where
+    - profile.type.member
+  module:
+    - options
+id: profile.member.field_where
+field_name: field_where
+entity_type: profile
+bundle: member
+label: where
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

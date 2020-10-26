@@ -1,34 +1,28 @@
-uuid: e9ab9b2c-65f9-4dcf-82b7-5019cb5282cc
+uuid: 7fe3f738-819c-48bc-82b4-74aaf8fcfc09
 langcode: en
 status: true
 dependencies:
   config:
+    - core.entity_form_mode.user.register
     - field.field.user.user.field_attention
     - field.field.user.user.user_picture
-    - image.style.thumbnail
   module:
-    - image
     - path
     - user
 _core:
   default_config_hash: K-1rBM8mTIkFp9RqOC2tMRUukOQ1xbRCfSKK8dEddnA
-id: user.user.default
+id: user.user.register
 targetEntityType: user
 bundle: user
-mode: default
+mode: register
 content:
   account:
     weight: 0
     region: content
     settings: {  }
     third_party_settings: {  }
-  contact:
-    weight: 5
-    region: content
-    settings: {  }
-    third_party_settings: {  }
   field_attention:
-    weight: 6
+    weight: 4
     settings: {  }
     third_party_settings: {  }
     type: options_buttons
@@ -49,13 +43,7 @@ content:
     region: content
     settings: {  }
     third_party_settings: {  }
-  user_picture:
-    type: image_image
-    weight: 4
-    region: content
-    settings:
-      progress_indicator: throbber
-      preview_image_style: thumbnail
-    third_party_settings: {  }
 hidden:
+  contact: true
   member_profiles: true
+  user_picture: true

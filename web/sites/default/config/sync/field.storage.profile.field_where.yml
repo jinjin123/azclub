@@ -1,0 +1,27 @@
+uuid: 2e2d8b8b-2d91-4e7c-9ddd-5de754dd722c
+langcode: en
+status: true
+dependencies:
+  module:
+    - options
+    - profile
+id: profile.field_where
+field_name: field_where
+entity_type: profile
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: '1'
+      label: '1'
+    -
+      value: '2'
+      label: '2'
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: -1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false
