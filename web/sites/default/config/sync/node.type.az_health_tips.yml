@@ -1,4 +1,4 @@
-uuid: 9fef2447-c284-400e-b03b-b424290cfdae
+uuid: dbf337f8-75db-4511-b6d2-1c9d75733204
 langcode: en
 status: true
 dependencies:
@@ -9,8 +9,8 @@ third_party_settings:
     available_menus:
       - main
     parent: 'main:'
-name: 'AZ Latest News Talk Event'
-type: az_latest_news
+name: 'AZ Health tips'
+type: az_health_tips
 description: ''
 help: ''
 new_revision: true

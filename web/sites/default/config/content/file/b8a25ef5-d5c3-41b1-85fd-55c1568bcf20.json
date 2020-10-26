@@ -1,0 +1,82 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/default\/sites\/default\/files\/2020-10\/2020-10-15_16-19_0.png"
+        },
+        "type": {
+            "href": "http:\/\/default\/rest\/type\/file\/file"
+        },
+        "http:\/\/default\/rest\/relation\/file\/file\/uid": [
+            {
+                "href": "http:\/\/default\/user\/1?_format=hal_json"
+            }
+        ]
+    },
+    "uuid": [
+        {
+            "value": "b8a25ef5-d5c3-41b1-85fd-55c1568bcf20"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/default\/rest\/relation\/file\/file\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/default\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "ad86f4f8-ab08-4ff1-be42-53e6179dd359"
+                    }
+                ]
+            }
+        ]
+    },
+    "filename": [
+        {
+            "value": "2020-10-15_16-19_0.png"
+        }
+    ],
+    "uri": [
+        {
+            "value": "public:\/\/2020-10\/2020-10-15_16-19_0.png",
+            "url": "\/sites\/default\/files\/2020-10\/2020-10-15_16-19_0.png"
+        }
+    ],
+    "filemime": [
+        {
+            "value": "image\/png"
+        }
+    ],
+    "filesize": [
+        {
+            "value": 11274
+        }
+    ],
+    "status": [
+        {
+            "value": true
+        }
+    ],
+    "created": [
+        {
+            "value": "2020-10-23T10:25:14+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2020-10-23T10:26:34+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ]
+}
