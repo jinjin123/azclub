@@ -7,6 +7,7 @@
 
 use Drupal\Core\Routing\RouteMatchInterface;
 use Drupal\views\ViewExecutable;
+use Drupal\Core\StringTranslation;
 
 /**
  * Implements hook_help().
@@ -54,11 +55,31 @@ function azhealthclub_modify_menu_local_tasks_alter(&$data, $route_name, \Drupal
  */
 function azhealthclub_modify_form_alter(&$form, \Drupal\Core\Form\FormStateInterface $form_state, $form_id) {
   if ($form_id == "user_login_form") {
+    $form['#prefix'] = '<div><div class="free-apply">免費申請加入 「康心摯友會」</div>';
+    $form['#suffix'] = '</div>';
+
     $form["name"]["#title"] = '';
     $form["name"]["#description"] = '';
     $form['name']['#attributes']['placeholder'] = '登入名稱';
     $form["pass"]["#title"] = '';
-    $form["pass"]["#description"] = '';
+
+    $urlGenerator = \Drupal::urlGenerator();
+    $url = $urlGenerator->generateFromRoute('user.pass');
+    $form["pass"]["#description"] = '<a href="' . $url . '">忘記密碼</a>';
     $form['pass']['#attributes']['placeholder'] = '密碼';
+  }
+}
+
+
+/**
+ * Implements hook_preprocess().
+ */
+function azhealthclub_modify_preprocess(&$variables, $hook) {
+  if ($hook == 'page_title') {
+    $current_url = \Drupal\Core\Url::fromRoute('<current>');
+    $url = $current_url->getInternalPath();
+    if($url == 'user/login') {
+      $variables['title'] = '登入/加入 康心摯友會';
+    }
   }
 }
