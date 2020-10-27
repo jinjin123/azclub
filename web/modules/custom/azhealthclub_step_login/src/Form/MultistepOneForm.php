@@ -30,9 +30,10 @@ class MultistepOneForm extends MultistepFormBase {
 「康心摯友」會定期送上會員通訊、電郵、或短訊等，為您提供最新醫學情報及健康小貼士。</div>',
     ];
     $form['phone'] = [
-      '#type' => 'textfield',
+      '#type' => 'tel',
       '#title' => '',
-      '#default_value' => $this->store->get('name') ? $this->store->get('name') : '',
+      '#pattern' => '[\d]*',
+      '#default_value' => $this->store->get('phone') ? $this->store->get('phone') : '',
       '#attributes' => ['placeholder' => '電話號碼*'],
     ];
 
@@ -74,13 +75,15 @@ class MultistepOneForm extends MultistepFormBase {
     ];
 
 
-    $form['field_attention']['attention1|'] = [
+    $form['field_attention']['account_attention1|'] = [
       '#type' => 'checkbox',
       '#title' => '本人願意接收有關阿斯利康健康講座/活動、藥物產品，會員優惠及健康醫學等資訊，並同意可為該目的使用本人個人資料。',
+      '#default_value' => $this->store->get('account_attention1') ? $this->store->get('account_attention1') : '',
     ];
-    $form['field_attention']['attention2|'] = [
+    $form['field_attention']['account_attention2|'] = [
       '#type' => 'checkbox',
       '#title' => '本人願意接收來自阿斯利康關聯保健或醫藥機構的資料，並同意可為該目的使用本人個人資料。',
+      '#default_value' => $this->store->get('account_attention2') ? $this->store->get('account_attention2') : '',
     ];
     $form['field_attention'] = [
       '#type' => 'details',
@@ -90,7 +93,7 @@ class MultistepOneForm extends MultistepFormBase {
     ];
 
     $form['notice'] = [
-      '#markup' => '（如以上方格沒有打鈎，阿斯利康未得到本人同意，申請將不被接納）',
+      '#markup' => '（如以上方格沒有打鉤，阿斯利康未得到本人同意，申請將不被接納）',
     ];
 
     $form['actions']['submit']['#value'] = '下一步';
@@ -101,8 +104,13 @@ class MultistepOneForm extends MultistepFormBase {
    * {@inheritdoc}
    */
   public function submitForm(array &$form, FormStateInterface $form_state) {
+    $this->store->set('phone', $form_state->getValue('phone'));
     $this->store->set('email', $form_state->getValue('email'));
-    $this->store->set('name', $form_state->getValue('name'));
+    $this->store->set('pass', $form_state->getValue('pass'));
+    $this->store->set('verify_code', $form_state->getValue('verify_code'));
+    $this->store->set('account_attention1', $form_state->getValue('account_attention1'));
+    $this->store->set('account_attention2', $form_state->getValue('account_attention2'));
+
     $form_state->setRedirect('azhealthclub_step_login.multistep_two');
   }
 }
