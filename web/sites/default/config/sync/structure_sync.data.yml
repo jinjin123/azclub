@@ -292,7 +292,7 @@ menus:
     menu_name: main
     title: 醫學講座及活動
     parent: 'menu_link_content:634a1ae5-fca6-48e1-ae65-b5efd7bb08c2'
-    uri: 'internal:#'
+    uri: 'internal:/az-latest-news'
     link_title: ''
     description: null
     enabled: '1'
@@ -304,7 +304,7 @@ menus:
     menu_name: main
     title: 健康小提示
     parent: 'menu_link_content:634a1ae5-fca6-48e1-ae65-b5efd7bb08c2'
-    uri: 'internal:#'
+    uri: 'entity:node/19'
     link_title: ''
     description: null
     enabled: '1'
@@ -316,7 +316,7 @@ menus:
     menu_name: main
     title: 康心摯友會活動
     parent: 'menu_link_content:634a1ae5-fca6-48e1-ae65-b5efd7bb08c2'
-    uri: 'internal:#'
+    uri: 'internal:/az-health-club'
     link_title: ''
     description: null
     enabled: '1'
