@@ -103,6 +103,6 @@ class MultistepThreeForm extends MultistepFormBase {
 
     // Save the data
     parent::saveData();
-    $form_state->setRedirect('some_route');
+    $form_state->setRedirect('<front>');
   }
 }

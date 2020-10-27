@@ -119,6 +119,6 @@ class MultistepTwoForm extends MultistepFormBase {
     $this->store->set('communication_mode.phone_text', $form_state->getValue('phone_text'));
     $this->store->set('communication_mode.email', $form_state->getValue('email'));
 
-    $form_state->setRedirect('some_route');
+    $form_state->setRedirect('azhealthclub_step_login.multistep_three');
   }
 }
