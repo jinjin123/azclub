@@ -74,22 +74,18 @@ class MultistepOneForm extends MultistepFormBase {
       '#open' => TRUE,
     ];
 
+    $entityFieldManager = \Drupal::service('entity_field.manager');
+    $memberFields = $entityFieldManager->getFieldDefinitions('profile', 'member');
+    $field_attention1_settings = $memberFields['field_attention1']->getSettings();
+    $allowed_values = $field_attention1_settings['allowed_values'];
 
-    $form['field_attention']['account_attention1|'] = [
-      '#type' => 'checkbox',
-      '#title' => '本人願意接收有關阿斯利康健康講座/活動、藥物產品，會員優惠及健康醫學等資訊，並同意可為該目的使用本人個人資料。',
-      '#default_value' => $this->store->get('account_attention1') ? $this->store->get('account_attention1') : '',
-    ];
-    $form['field_attention']['account_attention2|'] = [
-      '#type' => 'checkbox',
-      '#title' => '本人願意接收來自阿斯利康關聯保健或醫藥機構的資料，並同意可為該目的使用本人個人資料。',
-      '#default_value' => $this->store->get('account_attention2') ? $this->store->get('account_attention2') : '',
-    ];
-    $form['field_attention'] = [
-      '#type' => 'details',
+    $form['field_attention1'] = [
+      '#type' => 'checkboxes',
       '#title' => '重要事項',
-      '#description' => $form['field_attention'],
-      '#open' => TRUE,
+      '#options' => $allowed_values,
+      '#default_value' => $this->store->get('field_attention1') ? $this->store->get('field_attention1') : [],
+      '#collapsible' => TRUE,
+      '#collapsed' => TRUE,
     ];
 
     $form['notice'] = [
@@ -108,8 +104,7 @@ class MultistepOneForm extends MultistepFormBase {
     $this->store->set('email', $form_state->getValue('email'));
     $this->store->set('pass', $form_state->getValue('pass'));
     $this->store->set('verify_code', $form_state->getValue('verify_code'));
-    $this->store->set('account_attention1', $form_state->getValue('account_attention1'));
-    $this->store->set('account_attention2', $form_state->getValue('account_attention2'));
+    $this->store->set('field_attention1', $form_state->getValue('field_attention1'));
 
     $form_state->setRedirect('azhealthclub_step_login.multistep_two');
   }
