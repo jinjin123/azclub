@@ -1,19 +1,19 @@
-uuid: 23f3db5e-a1a0-491c-9192-9984fcedbcfe
+uuid: fe31ab1f-bd69-477a-b46c-ff31e725b764
 langcode: en
 status: true
 dependencies:
   config:
-    - field.field.node.az_latest_news.body
-    - field.field.node.az_latest_news.field_az_author_img
+    - field.field.node.az_health_club.body
+    - field.field.node.az_health_club.field_az_club_img
     - image.style.thumbnail
-    - node.type.az_latest_news
+    - node.type.az_health_club
   module:
     - image
     - path
     - text
-id: node.az_latest_news.default
+id: node.az_health_club.default
 targetEntityType: node
-bundle: az_latest_news
+bundle: az_health_club
 mode: default
 content:
   body:
@@ -32,7 +32,7 @@ content:
     region: content
     settings: {  }
     third_party_settings: {  }
-  field_az_author_img:
+  field_az_club_img:
     weight: 122
     settings:
       progress_indicator: throbber

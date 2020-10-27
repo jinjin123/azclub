@@ -1,18 +1,18 @@
-uuid: 3a2391ca-21b6-44b4-b871-f96f442f3097
+uuid: 075ecd3e-db3c-4449-8fe1-1b58704d69b7
 langcode: en
 status: true
 dependencies:
   config:
     - field.storage.node.body
-    - field.storage.node.field_az_author_img
-    - node.type.az_latest_news
+    - field.storage.node.field_az_club_img
+    - node.type.az_health_club
   module:
     - image_url_formatter
     - node
     - text
     - user
-id: az_latest_news
-label: 'AZ Latest News'
+id: az_health_club_
+label: 'AZ health club '
 module: views
 description: ''
 tag: ''
@@ -130,10 +130,10 @@ display:
           entity_type: node
           entity_field: title
           plugin_id: field
-        field_az_author_img:
-          id: field_az_author_img
-          table: node__field_az_author_img
-          field: field_az_author_img
+        field_az_club_img:
+          id: field_az_club_img
+          table: node__field_az_club_img
+          field: field_az_club_img
           relationship: none
           group_type: group
           admin_label: ''
@@ -141,7 +141,7 @@ display:
           exclude: true
           alter:
             alter_text: false
-            text: ' <img src="{{ field_az_author_img }}"/>'
+            text: ''
             make_link: false
             path: ''
             absolute: false
@@ -259,7 +259,7 @@ display:
           exclude: false
           alter:
             alter_text: true
-            text: "<div class=\"az-offer_box\">\r\n  <div class=\"az-offer_img col-md-6\">\r\n        <img src=\"{{ field_az_author_img }}\">\r\n  </div>\r\n  <div class=\"az-offer_body col-md-4\">\r\n     <div class=\"az-offer_body_title\">\r\n       {{ title }}\r\n    </div>\r\n    <div class=\"az-offer_sub_title\">\r\n      {{ body__summary }}\r\n    </div>\r\n  </div>\r\n   <div class=\"az-offer_click_bottom col-md-2\">\r\n     <a href=\"{{ view_node }}\">了解更多</a>\r\n  </div>\r\n</div>"
+            text: "<div class=\"az-offer_box\">\r\n  <div class=\"az-offer_img col-md-6\">\r\n        <img src=\"{{field_az_club_img}}\">\r\n  </div>\r\n  <div class=\"az-offer_body col-md-4\">\r\n     <div class=\"az-offer_body_title\">\r\n       {{ title }}\r\n    </div>\r\n    <div class=\"az-offer_sub_title\">\r\n      {{ body__summary }}\r\n    </div>\r\n  </div>\r\n   <div class=\"az-offer_click_bottom col-md-2\">\r\n     <a href=\"{{ view_node }}\">了解更多</a>\r\n  </div>\r\n</div>"
             make_link: false
             path: ''
             absolute: false
@@ -329,7 +329,7 @@ display:
           table: node_field_data
           field: type
           value:
-            az_latest_news: az_latest_news
+            az_health_club: az_health_club
           entity_type: node
           entity_field: type
           plugin_id: bundle
@@ -352,7 +352,7 @@ display:
           expose:
             label: ''
           granularity: second
-      title: 'AZ Latest News'
+      title: ''
       header:
         area_text_custom:
           id: area_text_custom
@@ -363,7 +363,7 @@ display:
           admin_label: ''
           empty: false
           tokenize: false
-          content: "<div class=\"az-product_head\">\r\n\t<div class=\"az-product_head__title1\">\r\n        <span>醫學講座及活動</span>\r\n    </div>\r\n    <div class=\"az-product_head__title2\">\r\n      <span>醫學講座及活動一覽</span>\r\n    </div>\r\n  \t<div class=\"az-product_head__body\">\r\n      <span>Lorem lpsum只是印刷和設置行業的偽文本。自500年代以來，Lorem lpsum一直是該行業的標準偽文本。當時，一個未知的打印機拿起一個廚房，將其打亂成一個類型。</span>\r\n    </div>\r\n</div>"
+          content: "<div class=\"az-product_head\">\r\n\t<div class=\"az-product_head__title1\">\r\n        <span>康心摯友會活動</span>\r\n    </div>\r\n    <div class=\"az-product_head__title2\">\r\n      <span>康心摯友會活動一覽</span>\r\n    </div>\r\n  \t<div class=\"az-product_head__body\">\r\n      <span>Lorem lpsum只是印刷和設置行業的偽文本。自500年代以來，Lorem lpsum一直是該行業的標準偽文本。當時，一個未知的打印機拿起一個廚房，將其打亂成一個類型。</span>\r\n    </div>\r\n</div>"
           plugin_id: text_custom
       footer:
         area_text_custom:
@@ -390,15 +390,15 @@ display:
         - user.permissions
       tags:
         - 'config:field.storage.node.body'
-        - 'config:field.storage.node.field_az_author_img'
+        - 'config:field.storage.node.field_az_club_img'
   page_1:
     display_plugin: page
     id: page_1
-    display_title: 'LATEST News'
+    display_title: 'az health club'
     position: 1
     display_options:
       display_extenders: {  }
-      path: az-latest-news
+      path: az-health-club
       display_description: ''
     cache_metadata:
       max-age: -1
@@ -409,4 +409,4 @@ display:
         - user.permissions
       tags:
         - 'config:field.storage.node.body'
-        - 'config:field.storage.node.field_az_author_img'
+        - 'config:field.storage.node.field_az_club_img'
