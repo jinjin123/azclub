@@ -2,13 +2,13 @@ azhealthclub_step_login.multistep_one:
   path: '/user/register/1'
   defaults:
     _form: '\Drupal\azhealthclub_step_login\Form\MultistepOneForm'
-    _title: 'First form'
+    _title: '加入康心摯友會'
   requirements:
     _permission: 'access content'
 azhealthclub_step_login.multistep_two:
   path: '/user/register/2'
   defaults:
     _form: '\Drupal\azhealthclub_step_login\Form\MultistepTwoForm'
-    _title: 'Second form'
+    _title: '加入康心摯友會'
   requirements:
     _permission: 'access content'
