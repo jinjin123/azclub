@@ -3,7 +3,6 @@ langcode: en
 status: true
 dependencies:
   config:
-    - field.field.user.user.field_attention
     - field.field.user.user.user_picture
     - image.style.thumbnail
   module:
@@ -27,12 +26,6 @@ content:
     region: content
     settings: {  }
     third_party_settings: {  }
-  field_attention:
-    weight: 6
-    settings: {  }
-    third_party_settings: {  }
-    type: options_buttons
-    region: content
   language:
     weight: 1
     region: content

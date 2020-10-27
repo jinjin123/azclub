@@ -1,0 +1,30 @@
+uuid: 82d64e32-e847-4b19-b4c2-51ba5a77e9ec
+langcode: en
+status: true
+dependencies:
+  module:
+    - options
+    - profile
+id: profile.field_communication_mode
+field_name: field_communication_mode
+entity_type: profile
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: phone
+      label: 電話
+    -
+      value: phone_text
+      label: 電話短訊
+    -
+      value: email
+      label: 電子郵件
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

@@ -3,15 +3,51 @@ langcode: en
 status: true
 dependencies:
   config:
+    - field.field.profile.member.field_attention1
+    - field.field.profile.member.field_attention2
+    - field.field.profile.member.field_birthday
+    - field.field.profile.member.field_communication_mode
     - field.field.profile.member.field_en_name
-    - field.field.profile.member.field_where
+    - field.field.profile.member.field_field_where1
+    - field.field.profile.member.field_field_where2
+    - field.field.profile.member.field_gender
+    - field.field.profile.member.field_identification_last4num
+    - field.field.profile.member.field_medicine_using
+    - field.field.profile.member.field_phone
+    - field.field.profile.member.field_ta_type
     - field.field.profile.member.field_zh_name
     - profile.type.member
+  module:
+    - datetime
 id: profile.member.default
 targetEntityType: profile
 bundle: member
 mode: default
 content:
+  field_attention1:
+    weight: 38
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+    region: content
+  field_attention2:
+    weight: 39
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+    region: content
+  field_birthday:
+    weight: 31
+    settings: {  }
+    third_party_settings: {  }
+    type: datetime_default
+    region: content
+  field_communication_mode:
+    weight: 33
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+    region: content
   field_en_name:
     weight: 27
     settings:
@@ -20,11 +56,52 @@ content:
     third_party_settings: {  }
     type: string_textfield
     region: content
-  field_where:
-    weight: 28
+  field_field_where1:
+    weight: 36
     settings: {  }
     third_party_settings: {  }
     type: options_select
+    region: content
+  field_field_where2:
+    weight: 37
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+    region: content
+  field_gender:
+    weight: 32
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+    region: content
+  field_identification_last4num:
+    weight: 30
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_medicine_using:
+    weight: 35
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+    region: content
+  field_phone:
+    weight: 40
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_ta_type:
+    weight: 34
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+    type: number
     region: content
   field_zh_name:
     weight: 26

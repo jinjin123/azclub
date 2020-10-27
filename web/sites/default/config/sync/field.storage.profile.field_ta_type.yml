@@ -1,0 +1,20 @@
+uuid: 15996da7-3528-485d-8e5d-e14e7ad4424b
+langcode: en
+status: true
+dependencies:
+  module:
+    - profile
+id: profile.field_ta_type
+field_name: field_ta_type
+entity_type: profile
+type: integer
+settings:
+  unsigned: false
+  size: normal
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

@@ -1,0 +1,21 @@
+uuid: 05fb07ea-a1dc-4831-b00e-beef4714041b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.profile.field_attention1
+    - profile.type.member
+  module:
+    - options
+id: profile.member.field_attention1
+field_name: field_attention1
+entity_type: profile
+bundle: member
+label: attention1
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_integer

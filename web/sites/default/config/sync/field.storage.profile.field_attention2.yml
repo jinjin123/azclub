@@ -1,0 +1,24 @@
+uuid: faf170bf-040b-49e7-8bba-215ee5910f01
+langcode: en
+status: true
+dependencies:
+  module:
+    - options
+    - profile
+id: profile.field_attention2
+field_name: field_attention2
+entity_type: profile
+type: list_integer
+settings:
+  allowed_values:
+    -
+      value: 1
+      label: 本人願意接收有關阿斯利康健康講座/活動、藥物產品，會員優惠發健康醫學等資訊，並同意可為該目的使用本人個人資料。
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

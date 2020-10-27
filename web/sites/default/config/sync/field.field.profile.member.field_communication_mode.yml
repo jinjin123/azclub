@@ -1,0 +1,21 @@
+uuid: bf265eab-7f60-454e-82a7-58cdef0757e1
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.profile.field_communication_mode
+    - profile.type.member
+  module:
+    - options
+id: profile.member.field_communication_mode
+field_name: field_communication_mode
+entity_type: profile
+bundle: member
+label: communication_mode
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string
