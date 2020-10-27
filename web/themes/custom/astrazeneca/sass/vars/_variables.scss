@@ -5,8 +5,16 @@ $bootstrap-sass-asset-helper: (twbs-font-path("") != unquote('twbs-font-path("")
 //
 // Variables
 // --------------------------------------------------
-
-
+$head-cus: green ;
+$head-left:left;
+$head-right:right;
+$color-gray:#b8b8b8;
+$color-red:#eb1484;
+%button{
+    color:white;
+    border-color: transparent;
+    border-radius: 5px;
+ }
 //== Colors
 //
 //## Gray and brand colors for use across Bootstrap.
