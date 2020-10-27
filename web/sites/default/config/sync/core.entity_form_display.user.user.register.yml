@@ -6,7 +6,9 @@ dependencies:
     - core.entity_form_mode.user.register
     - field.field.user.user.field_attention
     - field.field.user.user.user_picture
+    - image.style.thumbnail
   module:
+    - image
     - path
     - user
 _core:
@@ -21,8 +23,13 @@ content:
     region: content
     settings: {  }
     third_party_settings: {  }
-  field_attention:
+  contact:
     weight: 4
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_attention:
+    weight: 6
     settings: {  }
     third_party_settings: {  }
     type: options_buttons
@@ -34,7 +41,7 @@ content:
     third_party_settings: {  }
   path:
     type: path
-    weight: 3
+    weight: 5
     region: content
     settings: {  }
     third_party_settings: {  }
@@ -43,7 +50,13 @@ content:
     region: content
     settings: {  }
     third_party_settings: {  }
+  user_picture:
+    type: image_image
+    weight: 3
+    region: content
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
 hidden:
-  contact: true
   member_profiles: true
-  user_picture: true
