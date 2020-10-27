@@ -119,8 +119,6 @@ class MultistepTwoForm extends MultistepFormBase {
     $this->store->set('communication_mode.phone_text', $form_state->getValue('phone_text'));
     $this->store->set('communication_mode.email', $form_state->getValue('email'));
 
-    // Save the data
-    parent::saveData();
     $form_state->setRedirect('some_route');
   }
 }

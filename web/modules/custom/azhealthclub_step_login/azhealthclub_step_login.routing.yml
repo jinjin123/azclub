@@ -12,3 +12,10 @@ azhealthclub_step_login.multistep_two:
     _title: '加入康心摯友會'
   requirements:
     _permission: 'access content'
+azhealthclub_step_login.multistep_three:
+  path: '/user/register/3'
+  defaults:
+    _form: '\Drupal\azhealthclub_step_login\Form\MultistepThreeForm'
+    _title: '加入康心摯友會'
+  requirements:
+    _permission: 'access content'
