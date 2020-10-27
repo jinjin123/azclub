@@ -25,7 +25,7 @@ mode: default
 content:
   field_az_area:
     weight: 2
-    label: above
+    label: hidden
     settings:
       link_to_entity: false
     third_party_settings: {  }
@@ -33,14 +33,14 @@ content:
     region: content
   field_az_body:
     weight: 9
-    label: above
+    label: hidden
     settings: {  }
     third_party_settings: {  }
     type: basic_string
     region: content
   field_az_clinical_age:
     weight: 12
-    label: above
+    label: hidden
     settings:
       link_to_entity: false
     third_party_settings: {  }
@@ -48,14 +48,14 @@ content:
     region: content
   field_az_clinical_short_desc:
     weight: 1
-    label: above
+    label: hidden
     settings: {  }
     third_party_settings: {  }
     type: basic_string
     region: content
   field_az_clinical_title:
     weight: 0
-    label: above
+    label: hidden
     settings:
       link_to_entity: false
     third_party_settings: {  }
@@ -63,7 +63,7 @@ content:
     region: content
   field_az_conditions_term:
     weight: 11
-    label: above
+    label: hidden
     settings:
       link: true
     third_party_settings: {  }
@@ -71,7 +71,7 @@ content:
     region: content
   field_az_location:
     weight: 5
-    label: above
+    label: hidden
     settings:
       link_to_entity: false
     third_party_settings: {  }
@@ -79,7 +79,7 @@ content:
     region: content
   field_az_phase:
     weight: 8
-    label: above
+    label: hidden
     settings:
       link_to_entity: false
     third_party_settings: {  }
@@ -87,7 +87,7 @@ content:
     region: content
   field_az_se:
     weight: 3
-    label: above
+    label: hidden
     settings:
       link_to_entity: false
     third_party_settings: {  }
@@ -95,7 +95,7 @@ content:
     region: content
   field_az_status:
     weight: 4
-    label: above
+    label: hidden
     settings:
       link_to_entity: false
     third_party_settings: {  }
@@ -103,7 +103,7 @@ content:
     region: content
   field_az_trial_name:
     weight: 6
-    label: above
+    label: hidden
     settings:
       link_to_entity: false
     third_party_settings: {  }
@@ -111,7 +111,7 @@ content:
     region: content
   field_field_az_clinical_param_lo:
     weight: 13
-    label: above
+    label: hidden
     settings:
       image_style: ''
       image_link: ''

@@ -1,0 +1,10 @@
+uuid: 1302cd2b-71ce-4d32-8b58-72d50696955f
+langcode: en
+status: true
+dependencies: {  }
+id: clinical_trial_portal_pcpi
+label: 'Clinical Trial Portal category pcpi'
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

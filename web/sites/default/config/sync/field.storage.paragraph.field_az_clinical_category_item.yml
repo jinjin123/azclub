@@ -1,12 +1,12 @@
-uuid: 434c3f99-b088-48ed-b54b-71b70b27f71d
+uuid: 321cf5e4-a639-49d7-85fa-0b7d092702d3
 langcode: en
 status: true
 dependencies:
   module:
     - entity_reference_revisions
     - paragraphs
-id: paragraph.field_az_clinical_category_short
-field_name: field_az_clinical_category_short
+id: paragraph.field_az_clinical_category_item
+field_name: field_az_clinical_category_item
 entity_type: paragraph
 type: entity_reference_revisions
 settings:

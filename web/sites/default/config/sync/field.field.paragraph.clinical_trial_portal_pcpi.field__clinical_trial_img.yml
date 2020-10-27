@@ -1,0 +1,38 @@
+uuid: b336082e-a730-408a-9662-85641dcc7ff2
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field__clinical_trial_img
+    - paragraphs.paragraphs_type.clinical_trial_portal_pcpi
+  module:
+    - image
+id: paragraph.clinical_trial_portal_pcpi.field__clinical_trial_img
+field_name: field__clinical_trial_img
+entity_type: paragraph
+bundle: clinical_trial_portal_pcpi
+label: ' Clinical trial img'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  file_directory: '[date:custom:Y]-[date:custom:m]'
+  file_extensions: 'png gif jpg jpeg'
+  max_filesize: ''
+  max_resolution: ''
+  min_resolution: ''
+  alt_field: false
+  alt_field_required: true
+  title_field: false
+  title_field_required: false
+  default_image:
+    uuid: ''
+    alt: ''
+    title: ''
+    width: null
+    height: null
+  handler: 'default:file'
+  handler_settings: {  }
+field_type: image

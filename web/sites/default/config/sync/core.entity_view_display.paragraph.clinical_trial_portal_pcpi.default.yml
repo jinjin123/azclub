@@ -1,0 +1,42 @@
+uuid: 8e0cd3b9-287e-4032-bbb7-f0f8183dcee9
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.clinical_trial_portal_pcpi.field__clinical_trial_img
+    - field.field.paragraph.clinical_trial_portal_pcpi.field_clinical_name
+    - field.field.paragraph.clinical_trial_portal_pcpi.field_clinical_trial_description
+    - paragraphs.paragraphs_type.clinical_trial_portal_pcpi
+  module:
+    - image
+id: paragraph.clinical_trial_portal_pcpi.default
+targetEntityType: paragraph
+bundle: clinical_trial_portal_pcpi
+mode: default
+content:
+  field__clinical_trial_img:
+    weight: 2
+    label: above
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+  field_clinical_name:
+    weight: 0
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_clinical_trial_description:
+    weight: 1
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: basic_string
+    region: content
+hidden:
+  search_api_excerpt: true
