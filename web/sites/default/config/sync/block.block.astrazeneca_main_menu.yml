@@ -5,9 +5,14 @@ dependencies:
   config:
     - system.menu.main
   module:
+    - block_visibility_groups
+    - gaviasthemer
     - system
   theme:
     - astrazeneca
+third_party_settings:
+  gaviasthemer:
+    classes: ''
 _core:
   default_config_hash: ChCx7DYNUrPTt5uiRdQAPDKJQMc-_SyAQTrZh8H0o-c
 id: astrazeneca_main_menu
@@ -22,6 +27,10 @@ settings:
   provider: system
   label_display: '0'
   level: 1
-  depth: 1
-  expand_all_items: false
-visibility: {  }
+  depth: 0
+  expand_all_items: true
+visibility:
+  condition_group:
+    id: condition_group
+    negate: false
+    block_visibility_group: ''

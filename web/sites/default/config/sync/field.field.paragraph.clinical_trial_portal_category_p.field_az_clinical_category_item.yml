@@ -1,18 +1,18 @@
-uuid: 652996aa-4106-43ea-b52d-f3fbd90abca7
+uuid: d8b9f7fd-15a7-4ce2-86b6-187144594a06
 langcode: en
 status: true
 dependencies:
   config:
-    - field.storage.paragraph.field_az_clinical_category_short
+    - field.storage.paragraph.field_az_clinical_category_item
     - paragraphs.paragraphs_type.clinical_trial_portal_category_p
-    - paragraphs.paragraphs_type.clinical_trial_portal_logo_param
+    - paragraphs.paragraphs_type.clinical_trial_portal_pcpi
   module:
     - entity_reference_revisions
-id: paragraph.clinical_trial_portal_category_p.field_az_clinical_category_short
-field_name: field_az_clinical_category_short
+id: paragraph.clinical_trial_portal_category_p.field_az_clinical_category_item
+field_name: field_az_clinical_category_item
 entity_type: paragraph
 bundle: clinical_trial_portal_category_p
-label: 'AZ Clinical Category short params'
+label: 'AZ Clinical category item'
 description: ''
 required: false
 translatable: false
@@ -23,15 +23,18 @@ settings:
   handler_settings:
     negate: 0
     target_bundles:
-      clinical_trial_portal_logo_param: clinical_trial_portal_logo_param
+      clinical_trial_portal_pcpi: clinical_trial_portal_pcpi
     target_bundles_drag_drop:
       clinical_trial_portal_category_p:
-        weight: 4
+        weight: 5
         enabled: false
       clinical_trial_portal_logo_param:
-        enabled: true
-        weight: 5
-      medicine_shop_addr:
         weight: 6
+        enabled: false
+      clinical_trial_portal_pcpi:
+        enabled: true
+        weight: 7
+      medicine_shop_addr:
+        weight: 8
         enabled: false
 field_type: entity_reference_revisions

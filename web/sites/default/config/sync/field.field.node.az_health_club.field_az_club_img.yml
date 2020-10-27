@@ -1,17 +1,17 @@
-uuid: e74fb032-1fcc-4ef1-aaaa-522df201d49e
+uuid: ef8417c5-7413-4735-bd24-0247c46da310
 langcode: en
 status: true
 dependencies:
   config:
-    - field.storage.paragraph.field_az_clinical_logo
-    - paragraphs.paragraphs_type.clinical_trial_portal_logo_param
+    - field.storage.node.field_az_club_img
+    - node.type.az_health_club
   module:
     - image
-id: paragraph.clinical_trial_portal_logo_param.field_az_clinical_logo
-field_name: field_az_clinical_logo
-entity_type: paragraph
-bundle: clinical_trial_portal_logo_param
-label: 'AZ Clinical logo'
+id: node.az_health_club.field_az_club_img
+field_name: field_az_club_img
+entity_type: node
+bundle: az_health_club
+label: 'az club img'
 description: ''
 required: false
 translatable: false

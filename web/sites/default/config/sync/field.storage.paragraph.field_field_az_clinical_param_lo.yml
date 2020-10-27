@@ -1,4 +1,4 @@
-uuid: 3c54a877-0744-41dc-aa8d-cb255355f2f9
+uuid: 43d3a110-8af8-4c16-b7f7-c5ee81925260
 langcode: en
 status: true
 dependencies:
@@ -6,8 +6,8 @@ dependencies:
     - file
     - image
     - paragraphs
-id: paragraph.field_az_clinical_logo
-field_name: field_az_clinical_logo
+id: paragraph.field_field_az_clinical_param_lo
+field_name: field_field_az_clinical_param_lo
 entity_type: paragraph
 type: image
 settings:

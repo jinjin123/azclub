@@ -5,9 +5,17 @@ $bootstrap-sass-asset-helper: (twbs-font-path("") != unquote('twbs-font-path("")
 //
 // Variables
 // --------------------------------------------------
-
-
-//== Colors 
+$head-cus: green ;
+$head-left:left;
+$head-right:right;
+$color-gray:#b8b8b8;
+$color-red:#eb1484;
+%button{
+    color:white;
+    border-color: transparent;
+    border-radius: 5px;
+ }
+//== Colors
 //
 //## Gray and brand colors for use across Bootstrap.
 
@@ -21,9 +29,9 @@ $brand-primary:         #0099CC !default;
 $brand-success:         #5cb85c !default;
 $brand-info:            #5bc0de !default;
 $brand-warning:         #f0ad4e !default;
-$brand-danger:          #d9534f !default;  
+$brand-danger:          #d9534f !default;
 
-  
+
 //== Scaffolding
 //
 //## Settings for some of the most global styles.
@@ -31,10 +39,10 @@ $brand-danger:          #d9534f !default;
 //** Background color for `<body>`.
 $body-bg:               #fff !default;
 //** Global text color on `<body>`.
-$text-color:           #333333 !default;// #9b9b9b !default; 
+$text-color:           #333333 !default;// #9b9b9b !default;
 
-//** Global textual link color. 
-$link-color:            #222222 !default;  
+//** Global textual link color.
+$link-color:            #222222 !default;
 //** Link hover color set via `darken()` function.
 $link-hover-color:      #2B94E8 !default;
 
@@ -42,25 +50,25 @@ $link-hover-color:      #2B94E8 !default;
 //== Typography
 //
 //## Font, line-height, and color for body text, headings, and more.
- 
+
 $font-family-sans-serif:  "Open Sans", Arial, sans-serif !default;
 $font-family-serif:       Georgia, "Times New Roman", Times, serif !default;
 //** Default monospace fonts for `<code>`, `<kbd>`, and `<pre>`.
 $font-family-monospace:   Menlo, Monaco, Consolas, "Courier New", monospace !default;
 //$font-family-base:        $font-family-roboto !default;
-$font-family-base:        $font-family-sans-serif; 
- 
+$font-family-base:        $font-family-sans-serif;
+
 $font-size-base:          14px !default;
 $font-size-large:         ceil(($font-size-base * 1.25)) !default; // ~18px
 $font-size-small:         ceil(($font-size-base * 0.85)) !default; // ~12px
 
-$font-size-h1:            32px !default; 
-$font-size-h2:            28px !default; 
-$font-size-h3:            24px !default; 
-$font-size-h4:            20px !default; // ~18px 
+$font-size-h1:            32px !default;
+$font-size-h2:            28px !default;
+$font-size-h3:            24px !default;
+$font-size-h4:            20px !default; // ~18px
 $font-size-h5:            16px !default;
 $font-size-h6:            12px !default; // ~12px
- 
+
 //** Unit-less `line-height` for use in components like buttons.
 $line-height-base:        1.8 !default; // 20/14
 //** Computed "line-height" (`font-size` * `line-height`) for use with `margin`, `padding`, etc.
@@ -70,7 +78,7 @@ $line-height-computed:    floor(($font-size-base * $line-height-base)) !default;
 $headings-font-family:    "Raleway","Helvetica Neue",Helvetica,Arial,sans-serif !default;
 $headings-font-weight:    700 !default;
 $headings-line-height:    1.1 !default;
-$headings-color:          #3b3e43 !default; 
+$headings-color:          #3b3e43 !default;
 
 
 //== Iconography
@@ -104,7 +112,7 @@ $padding-xs-horizontal:     5px !default;
 $line-height-large:         1.33 !default;
 $line-height-small:         1.5 !default;
 
-$border-radius-base:        20px !default; 
+$border-radius-base:        20px !default;
 $border-radius-large:       10px !default;
 $border-radius-small:       5px !default;
 
@@ -330,7 +338,7 @@ $container-desktop:            ((940px + $grid-gutter-width)) !default;
 $container-md:                 $container-desktop !default;
 
 // Large screen / wide desktop
-$container-large-desktop:      ((1170px + $grid-gutter-width)) !default; 
+$container-large-desktop:      ((1170px + $grid-gutter-width)) !default;
 //** For `$screen-lg-min` and up.
 $container-lg:                 $container-large-desktop !default;
 

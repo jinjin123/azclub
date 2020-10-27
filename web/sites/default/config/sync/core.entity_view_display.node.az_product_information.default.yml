@@ -1,0 +1,40 @@
+uuid: 954daceb-dc8b-4d82-808f-e6026f763a32
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.az_product_information.body
+    - field.field.node.az_product_information.field_az_product_img
+    - node.type.az_product_information
+  module:
+    - image
+    - text
+    - user
+id: node.az_product_information.default
+targetEntityType: node
+bundle: az_product_information
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_az_product_img:
+    weight: 102
+    label: hidden
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+  links:
+    weight: 100
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  search_api_excerpt: true

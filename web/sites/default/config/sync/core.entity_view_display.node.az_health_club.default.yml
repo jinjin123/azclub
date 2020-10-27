@@ -1,0 +1,40 @@
+uuid: db126da7-6339-4b70-a15f-c3f9bd376b48
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.az_health_club.body
+    - field.field.node.az_health_club.field_az_club_img
+    - node.type.az_health_club
+  module:
+    - image
+    - text
+    - user
+id: node.az_health_club.default
+targetEntityType: node
+bundle: az_health_club
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_az_club_img:
+    weight: 102
+    label: hidden
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+  links:
+    weight: 100
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  search_api_excerpt: true
