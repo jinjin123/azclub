@@ -1,18 +1,18 @@
-uuid: a0523c12-b976-4c4d-a575-0f826725c07e
+uuid: db126da7-6339-4b70-a15f-c3f9bd376b48
 langcode: en
 status: true
 dependencies:
   config:
-    - field.field.node.az_latest_news.body
-    - field.field.node.az_latest_news.field_az_author_img
-    - node.type.az_latest_news
+    - field.field.node.az_health_club.body
+    - field.field.node.az_health_club.field_az_club_img
+    - node.type.az_health_club
   module:
     - image
     - text
     - user
-id: node.az_latest_news.default
+id: node.az_health_club.default
 targetEntityType: node
-bundle: az_latest_news
+bundle: az_health_club
 mode: default
 content:
   body:
@@ -22,7 +22,7 @@ content:
     settings: {  }
     third_party_settings: {  }
     region: content
-  field_az_author_img:
+  field_az_club_img:
     weight: 102
     label: hidden
     settings:
