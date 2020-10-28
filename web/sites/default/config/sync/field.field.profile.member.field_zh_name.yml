@@ -1,0 +1,19 @@
+uuid: 4c6805f5-7c0c-4b9e-b679-d3ac34bb249b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.profile.field_zh_name
+    - profile.type.member
+id: profile.member.field_zh_name
+field_name: field_zh_name
+entity_type: profile
+bundle: member
+label: zh_name
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

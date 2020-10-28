@@ -1,0 +1,17 @@
+uuid: 695f7b68-0983-4014-a180-85c47c1b2734
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: 'Health Information'
+type: health_information
+description: 'Health Information Content'
+help: ''
+new_revision: false
+preview_mode: 1
+display_submitted: false

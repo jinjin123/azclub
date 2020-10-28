@@ -1,0 +1,21 @@
+uuid: 8ec95ea8-e8ff-4f64-bccf-47e4ebb678d2
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_offer_img_description
+    - node.type.offers_details
+  module:
+    - text
+id: node.offers_details.field_offer_img_description
+field_name: field_offer_img_description
+entity_type: node
+bundle: offers_details
+label: offer_img_description
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

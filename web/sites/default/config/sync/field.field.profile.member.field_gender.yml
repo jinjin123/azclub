@@ -1,0 +1,21 @@
+uuid: d70b3d94-c6b4-4c74-af33-d7b23caf0922
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.profile.field_gender
+    - profile.type.member
+  module:
+    - options
+id: profile.member.field_gender
+field_name: field_gender
+entity_type: profile
+bundle: member
+label: gender
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

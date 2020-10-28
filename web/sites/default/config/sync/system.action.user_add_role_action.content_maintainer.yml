@@ -1,0 +1,14 @@
+uuid: cb698632-4e27-4405-85c6-5104e3c4dd40
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.content_maintainer
+  module:
+    - user
+id: user_add_role_action.content_maintainer
+label: 'Add the content maintainer role to the selected user(s)'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: content_maintainer

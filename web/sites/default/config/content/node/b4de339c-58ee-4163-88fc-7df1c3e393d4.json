@@ -1,0 +1,221 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/default\/node\/17?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/default\/rest\/type\/node\/offers_details"
+        },
+        "http:\/\/default\/rest\/relation\/node\/offers_details\/revision_uid": [
+            {
+                "href": "http:\/\/default\/user\/1?_format=hal_json"
+            }
+        ],
+        "http:\/\/default\/rest\/relation\/node\/offers_details\/uid": [
+            {
+                "href": "http:\/\/default\/user\/1?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/default\/rest\/relation\/node\/offers_details\/field_medicine_shop_img": [
+            {
+                "href": "http:\/\/default\/sites\/default\/files\/2020-10\/2020-10-15_16-19_0.png"
+            }
+        ],
+        "http:\/\/default\/rest\/relation\/node\/offers_details\/field_medicine_shop_params": [
+            {
+                "href": ""
+            }
+        ],
+        "http:\/\/default\/rest\/relation\/node\/offers_details\/field_offer_img": [
+            {
+                "href": "http:\/\/default\/sites\/default\/files\/2020-10\/images%20%281%29.jpeg"
+            }
+        ]
+    },
+    "uuid": [
+        {
+            "value": "b4de339c-58ee-4163-88fc-7df1c3e393d4"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "offers_details"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2020-10-23T10:25:12+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/default\/rest\/relation\/node\/offers_details\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/default\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "ad86f4f8-ab08-4ff1-be42-53e6179dd359"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/default\/rest\/relation\/node\/offers_details\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/default\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "ad86f4f8-ab08-4ff1-be42-53e6179dd359"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/default\/rest\/relation\/node\/offers_details\/field_medicine_shop_img": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/sites\/default\/files\/2020-10\/2020-10-15_16-19_0.png"
+                    },
+                    "type": {
+                        "href": "http:\/\/default\/rest\/type\/file\/file"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "b8a25ef5-d5c3-41b1-85fd-55c1568bcf20"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/default\/rest\/relation\/node\/offers_details\/field_medicine_shop_params": [
+            {
+                "_links": {
+                    "self": {
+                        "href": ""
+                    },
+                    "type": {
+                        "href": "http:\/\/default\/rest\/type\/paragraph\/medicine_shop_addr"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "3a399119-ff73-4435-8c78-cc5123282c5d"
+                    }
+                ],
+                "target_revision_id": "1"
+            }
+        ],
+        "http:\/\/default\/rest\/relation\/node\/offers_details\/field_offer_img": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/sites\/default\/files\/2020-10\/images%20%281%29.jpeg"
+                    },
+                    "type": {
+                        "href": "http:\/\/default\/rest\/type\/file\/file"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "85b517f9-81bc-49e2-8835-4b3f5a9d785a"
+                    }
+                ]
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "\u5169\u76d2\u88dd\u512a\u60e0\uff08\u9644\u7279\u9078\u85e5\u623f\u8cc7\u8a0a\uff09",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2020-10-23T10:24:18+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2020-10-23T10:26:34+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "path": [
+        {
+            "alias": null,
+            "pid": null,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "body": [
+        {
+            "value": "<p>Lorem ipsum\u80e1\u863f\u8514\uff0c\u589e\u52a0\u56de\u6263\uff0c\u70ba\u9577\u5c3eca\u63d0\u4f9b\u6d3b\u529b<br \/>\r\n\u52de\u52d5\u548c\u60b2\u50b7\uff0c<br \/>\r\n\u80a5\u80d6\u3002\u591a\u5e74\u4ee5\u4f86\uff0c\u90a3\u4e9b\u7cbe\u6253\u7d30\u7b97\u7684\u4eba\uff0c\u5b78\u5340\u53ef\u80fd\u7121\u6cd5\u6b63\u5e38\u5de5\u4f5c<br \/>\r\n\u88e1\u9762\u6709\u6771\u897f<br \/>\r\n\u4fbf\u5229\u7522\u54c1\u3002 Lorem ipsum\u80e1\u863f\u8514\uff0c\u589e\u52a0\u4e86\u8fd4\u5229\uff0c\u4f46\u5b83\u5011\u78ba\u5be6<br \/>\r\noccaecat tempol<br \/>\r\n\u591a\u5e74\u4ee5\u4f86\uff0c\u6211\u4ed8\u51fa\u4e86\u5de8\u5927\u7684\u52aa\u529b\u548c\u60b2\u50b7\uff1a\u548c\u6d3b\u529b\uff0c\u8b93\u6211\u4f86\u4e86\uff0c\u8ab0\u6703\u7d50\u8b58<br \/>\r\naliquip\u64fa\u812b\u4e86\u5979\u904b\u52d5\u7684\u512a\u52e2\uff0c\u4f7f\u5b78\u5340\u548c\u9577\u58fd\u7684\u523a\u6fc0\u52aa\u529b\u3002 Lorem ipsum\u80e1\u863f\u8514<br \/>\r\n\u863f\u8514\u3002\u660e\u5c3c\u963f\u6ce2\u5229\u65af<br \/>\r\n\u56de\u6263\u548c\u6d3b\u529b\uff0c\u4f7f\u52de\u52d5\u548c\u60b2\u50b7\uff0c\u4f46\u4e00\u4e9b\u91cd\u8981\u7684\u4e8b\u60c5\u8981\u505a\uff0c\u56e0\u70ba\u6211\u5011\u6709\u9577\u671f\u7684<br \/>\r\n\u5c07\u6703\u6709\u66f4\u591a\u4fe1\u606f\uff0c\u8ab0\u662f\u7cbe\u6253\u7d30\u7b97\u7684\u4eba\uff0c\u5b78\u5340<br \/>\r\naliquip\u525d\u596a\u4e86\u5979\u7684\u52de\u52d5\u512a\u52e2\uff0c\u4f46\u537b\u6210\u70ba\u4e00\u500b\u554f\u984c\u3002 Lorem ipsum dolor\u5750\u5728amet\uff0cconsectetur<br \/>\r\n\u8fd4\u5229\uff0c\u4f46\u5b83\u5011\u78ba\u5be6\u7d66\u5718\u968a\u7d93\u7406\u5e36\u4f86\u4e86\u6642\u9593\u548c\u6d3b\u529b\u3002<br \/>\r\n\u5949\u737b\u81ea\u5f37\u4e0d\u606f\uff0c\u585e\u5fb7\u7aed\u76e1\u5168\u529b\uff0c\u76e1\u5176\u6240\u80fd\uff0c\u4f7f\u751f\u547d\u9577\u5b58\uff0c<br \/>\r\nLorem ipsum\u80e1\u863f\u8514<br \/>\r\n\u56de\u6263\u548c\u6d3b\u529b\uff0c\u4f7f\u52de\u52d5\u548c\u60b2\u50b7\uff0c\u4f46\u4e00\u4e9b\u91cd\u8981\u7684\u4e8b\u60c5\u8981\u505a\uff0c\u56e0\u70ba\u6211\u5011\u6709\u9577\u671f\u7684<br \/>\r\n\u5c07\u6703\u6709\u66f4\u591a\u4fe1\u606f\uff0c\u8ab0\u662f\u7cbe\u6253\u7d30\u7b97\u7684\u4eba\uff0c\u5b78\u5340<br \/>\r\naliquip\u525d\u596a\u4e86\u5979\u7684\u52de\u52d5\u512a\u52e2\uff0c\u4f46\u537b\u6210\u70ba\u4e00\u500b\u554f\u984c\u3002 Lorem ipsum dolor\u5750\u5728amet\uff0cconsectetur<br \/>\r\n\u56de\u6263\uff0c\u4f46\u60a8\u61c9\u8a72\u52aa\u529b\u5de5\u4f5c\u4e26\u4fdd\u6301\u6d3b\u529b\uff0c<\/p>\r\n",
+            "format": "basic_html",
+            "processed": "<p>Lorem ipsum\u80e1\u863f\u8514\uff0c\u589e\u52a0\u56de\u6263\uff0c\u70ba\u9577\u5c3eca\u63d0\u4f9b\u6d3b\u529b<br \/>\n\u52de\u52d5\u548c\u60b2\u50b7\uff0c<br \/>\n\u80a5\u80d6\u3002\u591a\u5e74\u4ee5\u4f86\uff0c\u90a3\u4e9b\u7cbe\u6253\u7d30\u7b97\u7684\u4eba\uff0c\u5b78\u5340\u53ef\u80fd\u7121\u6cd5\u6b63\u5e38\u5de5\u4f5c<br \/>\n\u88e1\u9762\u6709\u6771\u897f<br \/>\n\u4fbf\u5229\u7522\u54c1\u3002 Lorem ipsum\u80e1\u863f\u8514\uff0c\u589e\u52a0\u4e86\u8fd4\u5229\uff0c\u4f46\u5b83\u5011\u78ba\u5be6<br \/>\noccaecat tempol<br \/>\n\u591a\u5e74\u4ee5\u4f86\uff0c\u6211\u4ed8\u51fa\u4e86\u5de8\u5927\u7684\u52aa\u529b\u548c\u60b2\u50b7\uff1a\u548c\u6d3b\u529b\uff0c\u8b93\u6211\u4f86\u4e86\uff0c\u8ab0\u6703\u7d50\u8b58<br \/>\naliquip\u64fa\u812b\u4e86\u5979\u904b\u52d5\u7684\u512a\u52e2\uff0c\u4f7f\u5b78\u5340\u548c\u9577\u58fd\u7684\u523a\u6fc0\u52aa\u529b\u3002 Lorem ipsum\u80e1\u863f\u8514<br \/>\n\u863f\u8514\u3002\u660e\u5c3c\u963f\u6ce2\u5229\u65af<br \/>\n\u56de\u6263\u548c\u6d3b\u529b\uff0c\u4f7f\u52de\u52d5\u548c\u60b2\u50b7\uff0c\u4f46\u4e00\u4e9b\u91cd\u8981\u7684\u4e8b\u60c5\u8981\u505a\uff0c\u56e0\u70ba\u6211\u5011\u6709\u9577\u671f\u7684<br \/>\n\u5c07\u6703\u6709\u66f4\u591a\u4fe1\u606f\uff0c\u8ab0\u662f\u7cbe\u6253\u7d30\u7b97\u7684\u4eba\uff0c\u5b78\u5340<br \/>\naliquip\u525d\u596a\u4e86\u5979\u7684\u52de\u52d5\u512a\u52e2\uff0c\u4f46\u537b\u6210\u70ba\u4e00\u500b\u554f\u984c\u3002 Lorem ipsum dolor\u5750\u5728amet\uff0cconsectetur<br \/>\n\u8fd4\u5229\uff0c\u4f46\u5b83\u5011\u78ba\u5be6\u7d66\u5718\u968a\u7d93\u7406\u5e36\u4f86\u4e86\u6642\u9593\u548c\u6d3b\u529b\u3002<br \/>\n\u5949\u737b\u81ea\u5f37\u4e0d\u606f\uff0c\u585e\u5fb7\u7aed\u76e1\u5168\u529b\uff0c\u76e1\u5176\u6240\u80fd\uff0c\u4f7f\u751f\u547d\u9577\u5b58\uff0c<br \/>\nLorem ipsum\u80e1\u863f\u8514<br \/>\n\u56de\u6263\u548c\u6d3b\u529b\uff0c\u4f7f\u52de\u52d5\u548c\u60b2\u50b7\uff0c\u4f46\u4e00\u4e9b\u91cd\u8981\u7684\u4e8b\u60c5\u8981\u505a\uff0c\u56e0\u70ba\u6211\u5011\u6709\u9577\u671f\u7684<br \/>\n\u5c07\u6703\u6709\u66f4\u591a\u4fe1\u606f\uff0c\u8ab0\u662f\u7cbe\u6253\u7d30\u7b97\u7684\u4eba\uff0c\u5b78\u5340<br \/>\naliquip\u525d\u596a\u4e86\u5979\u7684\u52de\u52d5\u512a\u52e2\uff0c\u4f46\u537b\u6210\u70ba\u4e00\u500b\u554f\u984c\u3002 Lorem ipsum dolor\u5750\u5728amet\uff0cconsectetur<br \/>\n\u56de\u6263\uff0c\u4f46\u60a8\u61c9\u8a72\u52aa\u529b\u5de5\u4f5c\u4e26\u4fdd\u6301\u6d3b\u529b\uff0c<\/p>",
+            "summary": "",
+            "lang": "en"
+        }
+    ],
+    "field_offer_img_description": [
+        {
+            "value": "<p>\u85e5\u54c1\u540d\u7a31<br \/>\r\nLorem ipsum\u80e1\u863f\u8514\uff1b<br \/>\r\n\u56de\u6263\u63d0\u9ad8\uff0c\u4f46\u662f<br \/>\r\ndoeiu\u200b\u200bsmod\u60a8\u61c9\u8a72\u52aa\u529b\u5de5\u4f5c\u4e26\u5145\u6eff\u6d3b\u529b\uff0c<br \/>\r\nLorem ipsum\u80e1\u863f\u8514<br \/>\r\n\u56de\u6263\u63d0\u9ad8\uff0c\u4f46\u662f<br \/>\r\ndoeiu\u200b\u200bsmod\u60a8\u61c9\u8a72\u52aa\u529b\u5de5\u4f5c\u4e26\u5145\u6eff\u6d3b\u529b\uff0c<\/p>\r\n",
+            "format": "basic_html",
+            "processed": "<p>\u85e5\u54c1\u540d\u7a31<br \/>\nLorem ipsum\u80e1\u863f\u8514\uff1b<br \/>\n\u56de\u6263\u63d0\u9ad8\uff0c\u4f46\u662f<br \/>\ndoeiu\u200b\u200bsmod\u60a8\u61c9\u8a72\u52aa\u529b\u5de5\u4f5c\u4e26\u5145\u6eff\u6d3b\u529b\uff0c<br \/>\nLorem ipsum\u80e1\u863f\u8514<br \/>\n\u56de\u6263\u63d0\u9ad8\uff0c\u4f46\u662f<br \/>\ndoeiu\u200b\u200bsmod\u60a8\u61c9\u8a72\u52aa\u529b\u5de5\u4f5c\u4e26\u5145\u6eff\u6d3b\u529b\uff0c<\/p>"
+        }
+    ]
+}

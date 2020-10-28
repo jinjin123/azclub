@@ -1,0 +1,29 @@
+uuid: eaad7690-c17b-4be8-ac81-70a91847b6ec
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.clinical_trial_portal_category_p.field_az_clinical_category_item
+    - paragraphs.paragraphs_type.clinical_trial_portal_category_p
+  module:
+    - paragraphs
+id: paragraph.clinical_trial_portal_category_p.default
+targetEntityType: paragraph
+bundle: clinical_trial_portal_category_p
+mode: default
+content:
+  field_az_clinical_category_item:
+    type: entity_reference_paragraphs
+    weight: 0
+    settings:
+      title: Paragraph
+      title_plural: Paragraphs
+      edit_mode: open
+      add_mode: dropdown
+      form_display_mode: default
+      default_paragraph_type: ''
+    third_party_settings: {  }
+    region: content
+hidden:
+  created: true
+  status: true

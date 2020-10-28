@@ -1,0 +1,29 @@
+uuid: 668038b9-3ed7-47fb-bd42-6d1ebce3a524
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_medical_tag
+    - node.type.az_health_tips
+    - taxonomy.vocabulary.medical_article_tag_
+id: node.az_health_tips.field_medical_tag
+field_name: field_medical_tag
+entity_type: node
+bundle: az_health_tips
+label: medical_tag
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      medical_article_tag_: medical_article_tag_
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

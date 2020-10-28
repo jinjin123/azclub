@@ -1,0 +1,8 @@
+uuid: 8495e51f-e65d-4994-8c2c-d74463c8aa60
+langcode: en
+status: true
+dependencies: {  }
+name: 'TA type'
+vid: ta_type
+description: 'Therapeutic Area Type'
+weight: 0

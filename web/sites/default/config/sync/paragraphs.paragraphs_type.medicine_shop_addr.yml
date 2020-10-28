@@ -1,0 +1,10 @@
+uuid: dc410a7e-54fe-46f0-9b77-5e5940f57de0
+langcode: en
+status: true
+dependencies: {  }
+id: medicine_shop_addr
+label: medicine_shop_addr
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

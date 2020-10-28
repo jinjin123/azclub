@@ -1,0 +1,22 @@
+uuid: f49b9f7d-4242-4762-89e8-beeb705e6b1c
+langcode: en
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - astrazeneca
+_core:
+  default_config_hash: 8I8iACSa0sKO3k3jlvUG1ge52rfcKX7USJAQYnzuBgg
+id: astrazeneca_help
+theme: astrazeneca
+region: help
+weight: -15
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  provider: help
+  label_display: '0'
+visibility: {  }

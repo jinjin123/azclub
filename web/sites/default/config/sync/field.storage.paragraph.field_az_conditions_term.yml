@@ -1,0 +1,20 @@
+uuid: 0c707866-34a1-4ed6-a955-ce349e7c249c
+langcode: en
+status: true
+dependencies:
+  module:
+    - paragraphs
+    - taxonomy
+id: paragraph.field_az_conditions_term
+field_name: field_az_conditions_term
+entity_type: paragraph
+type: entity_reference
+settings:
+  target_type: taxonomy_term
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

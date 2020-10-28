@@ -1,0 +1,30 @@
+uuid: 06722fbb-af52-436e-a0dc-a7f17ef37c9a
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.medical_article.body
+    - node.type.medical_article
+  module:
+    - text
+    - user
+id: node.medical_article.teaser
+targetEntityType: node
+bundle: medical_article
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden: {  }

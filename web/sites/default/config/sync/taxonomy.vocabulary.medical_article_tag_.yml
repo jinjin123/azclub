@@ -1,0 +1,8 @@
+uuid: 4258955f-3ccb-4180-a2d7-d21f012129f1
+langcode: en
+status: true
+dependencies: {  }
+name: 'Medical Article Tag'
+vid: medical_article_tag_
+description: ''
+weight: 0

@@ -1,0 +1,23 @@
+uuid: 5ef5f2e5-6b08-4213-95f4-e4dec4ae0b9f
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+_core:
+  default_config_hash: 8oXNfcmn6tgU6T2CuiieIPezCrOgYm3Mfv9sawGauUE
+id: node.field_team_linkedin
+field_name: field_team_linkedin
+entity_type: node
+type: string
+settings:
+  max_length: 255
+  is_ascii: false
+  case_sensitive: false
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

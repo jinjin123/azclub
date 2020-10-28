@@ -1,0 +1,17 @@
+uuid: b4e431fd-0ee6-489d-89dc-3067153cf6d6
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: 'TA Articles'
+type: ta_articles
+description: 'Therapeutic Area Articles'
+help: ''
+new_revision: false
+preview_mode: 1
+display_submitted: false

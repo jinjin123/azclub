@@ -1,0 +1,17 @@
+uuid: a0b8804c-b0a0-498f-be72-d56d79460c53
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: Cardiovascular
+type: ta_cardiovascular
+description: 'Therapeutic Area Content,  the category is Cardiovascular.'
+help: ''
+new_revision: false
+preview_mode: 1
+display_submitted: false

@@ -1,0 +1,32 @@
+uuid: dcaa9483-11ac-49e4-8305-694bf107339d
+langcode: en
+status: false
+dependencies:
+  config:
+    - contact.form.feedback
+  module:
+    - block_visibility_groups
+    - contact_block
+    - gaviasthemer
+  theme:
+    - astrazeneca
+third_party_settings:
+  gaviasthemer:
+    classes: ''
+id: contactblock
+theme: astrazeneca
+region: offcanvas
+weight: 0
+provider: null
+plugin: contact_block
+settings:
+  id: contact_block
+  label: 'Contact block'
+  provider: contact_block
+  label_display: '0'
+  contact_form: feedback
+visibility:
+  condition_group:
+    id: condition_group
+    negate: false
+    block_visibility_group: ''

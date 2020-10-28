@@ -1,0 +1,23 @@
+uuid: 92378306-6982-4c2e-8c72-bc8ac7e50d25
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.health_information
+  module:
+    - text
+id: node.health_information.body
+field_name: body
+entity_type: node
+bundle: health_information
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+  required_summary: false
+field_type: text_with_summary

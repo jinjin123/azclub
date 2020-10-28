@@ -1,0 +1,20 @@
+uuid: cdf3cee5-7908-406a-9cf9-33c5468c315b
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+_core:
+  default_config_hash: F2rCbKbx5FoL1VyIWzerDJV6-ZlH6Iz5B-DVvYZrB3s
+name: Gallery
+type: gallery
+description: ''
+help: ''
+new_revision: false
+preview_mode: 1
+display_submitted: true

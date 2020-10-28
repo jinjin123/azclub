@@ -1,0 +1,28 @@
+uuid: d102e92c-20ad-407e-b8da-eb94939f69f0
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.ta_infection.body
+    - node.type.ta_infection
+  module:
+    - text
+    - user
+id: node.ta_infection.default
+targetEntityType: node
+bundle: ta_infection
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden: {  }

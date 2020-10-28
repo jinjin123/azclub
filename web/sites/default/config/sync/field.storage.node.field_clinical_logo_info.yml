@@ -1,0 +1,21 @@
+uuid: 47de4d89-3d5b-4bca-b502-ab4a33ecd68c
+langcode: en
+status: true
+dependencies:
+  module:
+    - entity_reference_revisions
+    - node
+    - paragraphs
+id: node.field_clinical_logo_info
+field_name: field_clinical_logo_info
+entity_type: node
+type: entity_reference_revisions
+settings:
+  target_type: paragraph
+module: entity_reference_revisions
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

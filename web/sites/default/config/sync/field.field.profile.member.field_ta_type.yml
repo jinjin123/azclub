@@ -1,0 +1,23 @@
+uuid: 4445da47-7fe5-44ae-99f1-e5e1e34a6653
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.profile.field_ta_type
+    - profile.type.member
+id: profile.member.field_ta_type
+field_name: field_ta_type
+entity_type: profile
+bundle: member
+label: ta_type
+description: 'taxonomy term id in ta_type'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

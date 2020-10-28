@@ -1,0 +1,19 @@
+uuid: c0c192f6-7b2c-4505-8300-57b2e928856b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.profile.field_identification_last4num
+    - profile.type.member
+id: profile.member.field_identification_last4num
+field_name: field_identification_last4num
+entity_type: profile
+bundle: member
+label: identification_last4num
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

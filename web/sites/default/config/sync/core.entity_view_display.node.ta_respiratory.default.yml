@@ -1,0 +1,28 @@
+uuid: e1ae5e61-887f-4542-8893-8d01bf30f87e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.ta_respiratory.body
+    - node.type.ta_respiratory
+  module:
+    - text
+    - user
+id: node.ta_respiratory.default
+targetEntityType: node
+bundle: ta_respiratory
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden: {  }

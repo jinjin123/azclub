@@ -1,0 +1,27 @@
+uuid: 212a90db-395d-48f6-a221-54d495880050
+langcode: en
+status: true
+dependencies:
+  module:
+    - options
+    - profile
+id: profile.field_attention1
+field_name: field_attention1
+entity_type: profile
+type: list_integer
+settings:
+  allowed_values:
+    -
+      value: 1
+      label: 本人願意接收有關阿斯利康健康講座/活動、藥物產品，會員優惠及健康醫學等資訊，並同意可為該目的使用本人個人資料。
+    -
+      value: 2
+      label: 本人願意接收來自阿斯利康關聯保健或醫藥機構的資料，並同意可為該目的使用本人個人資料。
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: -1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

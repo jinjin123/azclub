@@ -1,0 +1,23 @@
+uuid: 01079d25-18a5-4a7b-83b3-d42c4a7d900a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.ta_infection
+  module:
+    - text
+id: node.ta_infection.body
+field_name: body
+entity_type: node
+bundle: ta_infection
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+  required_summary: false
+field_type: text_with_summary

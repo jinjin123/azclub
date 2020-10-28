@@ -1,0 +1,22 @@
+uuid: ade2b1cc-bf34-42bb-819c-e36fa97f53f9
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.ta_renal
+id: node.ta_renal.promote
+field_name: promote
+entity_type: node
+bundle: ta_renal
+label: 'Promoted to front page'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

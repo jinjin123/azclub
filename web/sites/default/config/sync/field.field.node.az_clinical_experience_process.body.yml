@@ -1,0 +1,23 @@
+uuid: a1b09b39-7511-4e49-bca7-6dabc2226a89
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.az_clinical_experience_process
+  module:
+    - text
+id: node.az_clinical_experience_process.body
+field_name: body
+entity_type: node
+bundle: az_clinical_experience_process
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+  required_summary: false
+field_type: text_with_summary

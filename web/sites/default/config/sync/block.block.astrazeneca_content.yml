@@ -1,0 +1,22 @@
+uuid: 3a153218-1bae-481f-b42b-3dfadcb8a304
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - astrazeneca
+_core:
+  default_config_hash: 9EoWV2Lot6FVSr50t4hoKgiz1LIXYWNG-IIPYsWxBqo
+id: astrazeneca_content
+theme: astrazeneca
+region: content
+weight: -17
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  provider: system
+  label_display: '0'
+visibility: {  }

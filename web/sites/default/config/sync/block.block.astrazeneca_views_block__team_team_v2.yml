@@ -1,0 +1,30 @@
+uuid: b3f7ab9d-5d9a-4179-b738-5d943c0db1df
+langcode: en
+status: false
+dependencies:
+  config:
+    - views.view.team
+  module:
+    - gaviasthemer
+    - views
+  theme:
+    - astrazeneca
+third_party_settings:
+  gaviasthemer:
+    classes: ''
+_core:
+  default_config_hash: DHK1WhcRgQFu8FF3-ZwbvN-gVCNrvBaZgifssNnSS4E
+id: astrazeneca_views_block__team_team_v2
+theme: astrazeneca
+region: offcanvas
+weight: -9
+provider: null
+plugin: 'views_block:team-team_v2'
+settings:
+  id: 'views_block:team-team_v2'
+  label: ''
+  provider: views
+  label_display: '0'
+  views_label: ''
+  items_per_page: none
+visibility: {  }

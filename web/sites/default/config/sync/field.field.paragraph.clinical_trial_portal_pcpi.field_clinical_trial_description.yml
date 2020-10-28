@@ -1,0 +1,19 @@
+uuid: d5b915d2-3148-4d4e-a51a-c7ffb25d4080
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_clinical_trial_description
+    - paragraphs.paragraphs_type.clinical_trial_portal_pcpi
+id: paragraph.clinical_trial_portal_pcpi.field_clinical_trial_description
+field_name: field_clinical_trial_description
+entity_type: paragraph
+bundle: clinical_trial_portal_pcpi
+label: 'Clinical trial description'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

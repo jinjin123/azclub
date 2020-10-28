@@ -1,0 +1,23 @@
+uuid: b2900cbd-6ca1-4cf9-aa72-b137b1328dd4
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.medical_article
+  module:
+    - text
+id: node.medical_article.body
+field_name: body
+entity_type: node
+bundle: medical_article
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+  required_summary: false
+field_type: text_with_summary

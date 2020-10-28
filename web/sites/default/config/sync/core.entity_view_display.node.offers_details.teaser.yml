@@ -1,0 +1,39 @@
+uuid: 86f1e689-7bbd-44ff-9ec3-0d3da868d8f5
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.offers_details.body
+    - field.field.node.offers_details.field_medicine_shop_img
+    - field.field.node.offers_details.field_medicine_shop_params
+    - field.field.node.offers_details.field_offer_img
+    - field.field.node.offers_details.field_offer_img_description
+    - node.type.offers_details
+  module:
+    - text
+    - user
+id: node.offers_details.teaser
+targetEntityType: node
+bundle: offers_details
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  field_medicine_shop_img: true
+  field_medicine_shop_params: true
+  field_offer_img: true
+  field_offer_img_description: true
+  search_api_excerpt: true

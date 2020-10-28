@@ -1,0 +1,22 @@
+uuid: 513b3086-cd69-4555-8998-c9f6b8a3c27a
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.ta_cardiovascular
+id: node.ta_cardiovascular.promote
+field_name: promote
+entity_type: node
+bundle: ta_cardiovascular
+label: 'Promoted to front page'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

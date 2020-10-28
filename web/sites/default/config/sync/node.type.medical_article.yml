@@ -1,0 +1,17 @@
+uuid: 1d734d1b-2710-4323-b7fa-88eb792fa73b
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: 'Medical Article'
+type: medical_article
+description: 'Medical Article Content'
+help: ''
+new_revision: false
+preview_mode: 1
+display_submitted: false

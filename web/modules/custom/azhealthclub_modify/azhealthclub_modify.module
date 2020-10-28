@@ -1,0 +1,96 @@
+<?php
+
+/**
+ * @file
+ * Contains azhealthclub_modify.module.
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+use Drupal\views\ViewExecutable;
+use Drupal\Core\StringTranslation;
+
+/**
+ * Implements hook_help().
+ */
+function azhealthclub_modify_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    // Main module help for the azhealthclub_modify module.
+    case 'help.page.azhealthclub_modify':
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('Some modify code for azhealthclub') . '</p>';
+      return $output;
+
+    default:
+  }
+}
+
+function azhealthclub_modify_theme()
+{
+ return [
+   'azhealthclub_contact'=> [
+     'variables' => [
+       'variables'=>[]
+     ]
+   ]
+ ];
+}
+
+/**
+ * Implements hook_menu_local_tasks_alter().
+ */
+function azhealthclub_modify_menu_local_tasks_alter(&$data, $route_name, \Drupal\Core\Cache\RefinableCacheableDependencyInterface &$cacheability) {
+  $user_pages = ['user.login', 'user.register', 'user.pass'];
+  if (in_array($route_name, $user_pages) && isset($data['tabs'][0])) {
+    // Remove all tabs from user login form.
+    foreach ($data['tabs'][0] as $key => $tab) {
+      $data['tabs'][0][$key]['#access'] = FALSE;
+    }
+  }
+}
+
+
+/**
+ * Implements hook_form_alter().
+ */
+function azhealthclub_modify_form_alter(&$form, \Drupal\Core\Form\FormStateInterface $form_state, $form_id) {
+  if ($form_id == "user_login_form") {
+    $form['#prefix'] = '<div><div class="free-apply">免費申請加入「康心摯友會」</div>';
+    $form['#suffix'] = '</div>';
+
+    $form["name"]["#title"] = '';
+    $form["name"]["#description"] = '';
+    $form['name']['#attributes']['placeholder'] = '登入名稱';
+    $form["pass"]["#title"] = '';
+
+    $urlGenerator = \Drupal::urlGenerator();
+    $url = $urlGenerator->generateFromRoute('user.pass');
+    $form["pass"]["#description"] = '<a href="' . $url . '">忘記密碼</a>';
+    $form['pass']['#attributes']['placeholder'] = '密碼';
+
+    $form["actions"]["submit"]["#value"] = '登入';
+    $form["actions"]["register"] = [
+      '#title' => '加入康心摯友會',
+      '#type' => 'link',
+      '#url' => \Drupal\Core\Url::fromRoute('user.register'),
+      '#attributes'=> [
+        'class' => ['btn'],
+      ],
+    ];
+
+  }
+}
+
+
+/**
+ * Implements hook_preprocess().
+ */
+function azhealthclub_modify_preprocess(&$variables, $hook) {
+  if ($hook == 'page_title') {
+    $current_url = \Drupal\Core\Url::fromRoute('<current>');
+    $url = $current_url->getInternalPath();
+    if($url == 'user/login') {
+      $variables['title'] = '登入/加入 康心摯友會';
+    }
+  }
+}

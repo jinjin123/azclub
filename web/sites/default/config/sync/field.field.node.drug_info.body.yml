@@ -1,0 +1,23 @@
+uuid: 99d9b60b-24c0-432d-946f-03afa70ccc6e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.drug_info
+  module:
+    - text
+id: node.drug_info.body
+field_name: body
+entity_type: node
+bundle: drug_info
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+  required_summary: false
+field_type: text_with_summary

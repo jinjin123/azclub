@@ -1,0 +1,28 @@
+uuid: a26499d9-7f1e-43d1-addd-f674e26786b9
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.drug_info.body
+    - node.type.drug_info
+  module:
+    - text
+    - user
+id: node.drug_info.default
+targetEntityType: node
+bundle: drug_info
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden: {  }

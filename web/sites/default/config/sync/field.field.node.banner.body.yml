@@ -1,0 +1,25 @@
+uuid: 54adf594-b6e0-4a99-bcdc-b233f694ec25
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.banner
+  module:
+    - text
+_core:
+  default_config_hash: dElbH0pGpjH0Md9fj86Vk_rswFCUqpYgUimg8Lj7HBM
+id: node.banner.body
+field_name: body
+entity_type: node
+bundle: banner
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+  required_summary: false
+field_type: text_with_summary

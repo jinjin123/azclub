@@ -1,0 +1,19 @@
+uuid: 17b1127c-6410-43ad-b749-836d1f3080f5
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_az_trial_name
+    - paragraphs.paragraphs_type.clinical_trial_portal_logo_param
+id: paragraph.clinical_trial_portal_logo_param.field_az_trial_name
+field_name: field_az_trial_name
+entity_type: paragraph
+bundle: clinical_trial_portal_logo_param
+label: 'AZ Trial Name'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

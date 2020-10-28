@@ -1,0 +1,17 @@
+uuid: e1a3a252-551a-4f75-b18c-a4939fa3a2de
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: Cancer
+type: ta_cancer
+description: 'Therapeutic Area Content,  the category is Cancer.'
+help: ''
+new_revision: false
+preview_mode: 1
+display_submitted: false

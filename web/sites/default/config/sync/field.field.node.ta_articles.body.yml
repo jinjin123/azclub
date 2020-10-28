@@ -1,0 +1,23 @@
+uuid: 76ae0544-3eab-4a0f-ad0a-a5d225d74b5c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.ta_articles
+  module:
+    - text
+id: node.ta_articles.body
+field_name: body
+entity_type: node
+bundle: ta_articles
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+  required_summary: false
+field_type: text_with_summary

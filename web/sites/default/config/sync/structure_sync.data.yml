@@ -1,0 +1,326 @@
+taxonomies:
+  category: {  }
+  medical_article_tag_:
+    -
+      vid: medical_article_tag_
+      tid: '8'
+      langcode: en
+      name: 心血管篇
+      description__value: null
+      description__format: null
+      weight: '0'
+      parent: '0'
+      uuid: 63608484-badc-4dec-b828-47152e4a75b3
+    -
+      vid: medical_article_tag_
+      tid: '9'
+      langcode: en
+      name: 糖尿篇
+      description__value: null
+      description__format: null
+      weight: '0'
+      parent: '0'
+      uuid: 9e31750e-4139-48cb-9a6b-8dcbf0b527fe
+  portfolio_tags: {  }
+  ta_type:
+    -
+      vid: ta_type
+      tid: '3'
+      langcode: en
+      name: 呼吸系統疾病
+      description__value: null
+      description__format: null
+      weight: '2'
+      parent: '0'
+      uuid: f14cffe2-b87c-494b-a13f-95101775f5a9
+    -
+      vid: ta_type
+      tid: '1'
+      langcode: en
+      name: 心血管疾病
+      description__value: null
+      description__format: null
+      weight: '0'
+      parent: '0'
+      uuid: 5f18a532-1234-4e3c-95d6-b3b4bad7ac98
+    -
+      vid: ta_type
+      tid: '7'
+      langcode: en
+      name: 感染/傳染病
+      description__value: null
+      description__format: null
+      weight: '6'
+      parent: '0'
+      uuid: 1d043716-51cb-465a-b745-1da9e794b125
+    -
+      vid: ta_type
+      tid: '5'
+      langcode: en
+      name: 癌症
+      description__value: null
+      description__format: null
+      weight: '4'
+      parent: '0'
+      uuid: dcd24d0f-62df-42f1-981b-66f5afab2bca
+    -
+      vid: ta_type
+      tid: '2'
+      langcode: en
+      name: 糖尿病
+      description__value: null
+      description__format: null
+      weight: '1'
+      parent: '0'
+      uuid: 8606a7c4-0c2a-4f64-aa2a-253cec094711
+    -
+      vid: ta_type
+      tid: '4'
+      langcode: en
+      name: 腎病
+      description__value: null
+      description__format: null
+      weight: '3'
+      parent: '0'
+      uuid: 9d8d9068-090a-4226-b703-f3ae0da33047
+    -
+      vid: ta_type
+      tid: '6'
+      langcode: en
+      name: 腸胃疾病
+      description__value: null
+      description__format: null
+      weight: '5'
+      parent: '0'
+      uuid: 9050c249-2e50-4275-8052-3fe321030213
+  tags: {  }
+  tumor_tag:
+    -
+      vid: tumor_tag
+      tid: '10'
+      langcode: en
+      name: 乳腺癌
+      description__value: null
+      description__format: null
+      weight: '0'
+      parent: '0'
+      uuid: ebee86ee-4c80-44e7-a7cb-dad13b614a71
+    -
+      vid: tumor_tag
+      tid: '11'
+      langcode: en
+      name: 心臟癌
+      description__value: null
+      description__format: null
+      weight: '0'
+      parent: '0'
+      uuid: c2ca4841-6516-4482-811d-68aa39ba708f
+blocks:
+  -
+    info: 'Footer left'
+    langcode: en
+    uuid: 072ea747-495b-499c-9347-1541f29a2e07
+    bundle: basic
+    revision_id: null
+    rev_id_current: null
+    fields:
+      body:
+        -
+          value: "<img src=\"/themes/custom/astrazeneca/logo.png\">\r\n\r\n<p><strong>免責聲明</strong><br />\r\n此網站為香港市民提供疾病資訊。<br />\r\n本網站內所提供之資料謹供學術或參考用途，並不能取代醫生及其他醫護專業人員的意見。雖然我們已盡力確保網站的資料準確，但不會保證該等資料的準確性，亦不會對任何資料上的錯誤或遺漏承擔法律責任。如有任何疑問或有關資訊，請向你的醫生查詢。</p>\r\n"
+          summary: ''
+          format: basic_html
+  -
+    info: 'Clinical middle block'
+    langcode: en
+    uuid: 250c78c1-5e57-44f5-aa86-6a4bc41299f8
+    bundle: basic
+    revision_id: null
+    rev_id_current: null
+    fields:
+      body:
+        -
+          value: "<div class=\"az_clinical_box\">\r\n<p>治療區域</p>\r\n\r\n<p>這裡治療什麼臨床類型？</p>\r\n\r\n<p>他們痛苦不堪。什麼東西。但是因為我必到最小的地方來。我們的軍隊是誰呢？除了最小的以外，我什麼都不勞苦。好的，洛琳考慮到這一點，他一定很痛苦。</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<div class=\"flex\"><img src=\"/theme/custom/astrazeneca/images/add.png\" /> <img src=\"/theme/custom/astrazeneca/images/add.png\" /> <img src=\"/theme/custom/astrazeneca/images/add.png\" /> <img src=\"/theme/custom/astrazeneca/images/add.png\" /> <img src=\"/theme/custom/astrazeneca/images/add.png\" /> <img src=\"/theme/custom/astrazeneca/images/add.png\" /></div>\r\n</div>\r\n\r\n<div class=\"az_clinical_bottom_box\">\r\n<div class=\"az__bottom_right_box\">\r\n<div class=\"az__bottom_right_box_title\">參加臨床飾演？</div>\r\n\r\n<div class=\"az__bottom_right_box_body\">他們痛苦不堪。什麼東西。但是因為我要追問，我們的軍兵是誰，除了使他們中的任何一個人可以佔便宜外，他們是誰？</div>\r\n</div>\r\n\r\n<div class=\"az__bottom_left_box\"><span>找到你的臨床試驗</span></div>\r\n</div>\r\n"
+          summary: ''
+          format: full_html
+  -
+    info: 'reference block'
+    langcode: en
+    uuid: 66d9cc7f-d1cb-4bf5-a977-5e18e750c8da
+    bundle: basic
+    revision_id: null
+    rev_id_current: null
+    fields:
+      body:
+        -
+          value: "<div class=\"az-ref-box\">\r\n<div class=\"az-ref__title \">參考</div>\r\n\r\n<div class=\"az-ref__body\">\r\n<p>香港衛生署衛生防衛中心.心臟病:引言&amp;本地情況&amp;高危因素.Available at https://www.chp.gov.hk/tc/content/9/25/57htmlAccessedon18-12-18</p>\r\n\r\n<p>醫院管理局 智友網 冠心病 Available at http://www21.ha.org.hk/smartpatient/SPW/zh-HK/Disease-Information/Disease/?guid=f9899bdc-ad84-460b-825a-6fdd85a079d6 Accessed on 18-12-18</p>\r\n\r\n<p>British Heart Foundation. Diabetes and your Heart. Available at https://www.bhf.org.uk/-/media/files/publications/large-print/bhf_his22_diabetes_and_your_heart_a4.pdf Accessed on 28-11-18 Accessed on 18-12-18</p>\r\n\r\n<p>香港衛生衛生防護中心 男性常見疾病 冠狀動脈心臟病. Available at https://www.chp.gov.hk/tc/static/80035.html Accessed on 18-12-18</p>\r\n\r\n<p>World Health Organization.Cardiovascular Diseases(CVDs).Available at http://wwww.who.int/mediacentre/factsheets/fs317/en/ Accessed on 18-12-18</p>\r\n\r\n<p>The telegraph.One In Three Heart Attacks Feel Like Indigestion, Warns British Heart Foundation.Available at https://www.telegraphcouk/science/2016/04/11/one-in-three-heart-attacks-feel-like-indigestion-warns-british-h/ Accessed on 18-12-18</p>\r\n\r\n<p>香港衛生衛生防護中心.口服抗心絞痛藥.Available at https://www.drugoffce.gov.hk/eps/do/tc/consumer/news_informations/dm_27.html#b Accessed on 18-12-18</p>\r\n\r\n<p>American Heart Association.CPR &amp; ECC Guidelines.Available at https://eccguidelines.heart.org/index.php/circulation/cpr-ecc-guidelines-2/executive-summaries/?strue=1&amp;id=3-5-2 Accesed on 18-12-18</p>\r\n\r\n<p>HK-2061 15/02/2019</p>\r\n</div>\r\n</div>\r\n"
+          summary: ''
+          format: full_html
+menus:
+  -
+    menu_name: footer
+    title: 隱私政策聲明
+    parent: null
+    uri: 'internal:/privacy'
+    link_title: ''
+    description: null
+    enabled: '1'
+    expanded: '0'
+    weight: '0'
+    langcode: en
+    uuid: 22b98993-8866-4c12-9295-cd54b0139030
+  -
+    menu_name: footer
+    title: 聯絡我們
+    parent: null
+    uri: 'internal:/contact'
+    link_title: ''
+    description: null
+    enabled: '1'
+    expanded: '0'
+    weight: '0'
+    langcode: en
+    uuid: f74338af-d327-46b9-b4de-6b5a6a559b65
+  -
+    menu_name: footer
+    title: 法律聲明及使用條款
+    parent: null
+    uri: 'internal:/terms'
+    link_title: ''
+    description: null
+    enabled: '1'
+    expanded: '0'
+    weight: '0'
+    langcode: en
+    uuid: e371a00d-fdc4-462f-bd80-0913aa2ead7a
+  -
+    menu_name: main
+    title: 康心摯友會
+    parent: null
+    uri: 'entity:node/7'
+    link_title: null
+    description: null
+    enabled: '1'
+    expanded: '0'
+    weight: '-49'
+    langcode: en
+    uuid: ce951dd1-5d2a-4382-9c76-91e470848b83
+  -
+    menu_name: main
+    title: 健康資訊
+    parent: null
+    uri: 'entity:node/14'
+    link_title: null
+    description: null
+    enabled: '1'
+    expanded: '0'
+    weight: '-48'
+    langcode: en
+    uuid: 3b8947d1-4888-4dc5-9962-2077323995c6
+  -
+    menu_name: main
+    title: 關注疾病
+    parent: null
+    uri: 'internal:#'
+    link_title: ''
+    description: null
+    enabled: '1'
+    expanded: '0'
+    weight: '0'
+    langcode: en
+    uuid: 5575a420-054e-4fee-9bb0-2d57008900ba
+  -
+    menu_name: main
+    title: 臨床實驗
+    parent: null
+    uri: 'entity:node/15'
+    link_title: ''
+    description: null
+    enabled: '1'
+    expanded: '0'
+    weight: '0'
+    langcode: en
+    uuid: 233aa97f-df59-4969-8ec4-fb18ab0f3073
+  -
+    menu_name: main
+    title: 產品資訊
+    parent: null
+    uri: 'internal:#'
+    link_title: ''
+    description: null
+    enabled: '1'
+    expanded: '0'
+    weight: '0'
+    langcode: en
+    uuid: c4017921-6a0f-4ada-9e81-a6b089f1cecc
+  -
+    menu_name: main
+    title: 病友支援
+    parent: null
+    uri: 'internal:#'
+    link_title: ''
+    description: null
+    enabled: '1'
+    expanded: '0'
+    weight: '0'
+    langcode: en
+    uuid: 7996e0f4-2810-4da7-ad8f-b857d7f76acb
+  -
+    menu_name: main
+    title: 會員資訊
+    parent: null
+    uri: 'internal:#'
+    link_title: ''
+    description: null
+    enabled: '1'
+    expanded: '1'
+    weight: '1'
+    langcode: en
+    uuid: 634a1ae5-fca6-48e1-ae65-b5efd7bb08c2
+  -
+    menu_name: main
+    title: 註冊/登陸
+    parent: null
+    uri: 'internal:#'
+    link_title: ''
+    description: null
+    enabled: '1'
+    expanded: '0'
+    weight: '0'
+    langcode: en
+    uuid: e97426f8-2594-4e97-a84b-fef353e5f433
+  -
+    menu_name: main
+    title: 醫學講座及活動
+    parent: 'menu_link_content:634a1ae5-fca6-48e1-ae65-b5efd7bb08c2'
+    uri: 'internal:/az-latest-news'
+    link_title: ''
+    description: null
+    enabled: '1'
+    expanded: '0'
+    weight: '-49'
+    langcode: en
+    uuid: 694bd965-c2d3-4034-8f6c-80124186e2ed
+  -
+    menu_name: main
+    title: 健康小提示
+    parent: 'menu_link_content:634a1ae5-fca6-48e1-ae65-b5efd7bb08c2'
+    uri: 'entity:node/19'
+    link_title: ''
+    description: null
+    enabled: '1'
+    expanded: '1'
+    weight: '-50'
+    langcode: en
+    uuid: 1d6ff10d-efcc-4fdb-9662-eb08153af251
+  -
+    menu_name: main
+    title: 康心摯友會活動
+    parent: 'menu_link_content:634a1ae5-fca6-48e1-ae65-b5efd7bb08c2'
+    uri: 'internal:/az-health-club'
+    link_title: ''
+    description: null
+    enabled: '1'
+    expanded: '0'
+    weight: '-48'
+    langcode: en
+    uuid: 200fdc7e-2624-4345-8524-0fed74fd7c7f

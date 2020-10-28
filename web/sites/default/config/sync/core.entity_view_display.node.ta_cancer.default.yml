@@ -1,0 +1,28 @@
+uuid: f8ee100b-826d-4206-8208-171c6611da73
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.ta_cancer.body
+    - node.type.ta_cancer
+  module:
+    - text
+    - user
+id: node.ta_cancer.default
+targetEntityType: node
+bundle: ta_cancer
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden: {  }

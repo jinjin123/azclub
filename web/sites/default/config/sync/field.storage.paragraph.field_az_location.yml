@@ -1,0 +1,21 @@
+uuid: faed51bb-42f6-4e50-950c-0a9462db9832
+langcode: en
+status: true
+dependencies:
+  module:
+    - paragraphs
+id: paragraph.field_az_location
+field_name: field_az_location
+entity_type: paragraph
+type: string
+settings:
+  max_length: 255
+  is_ascii: false
+  case_sensitive: false
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

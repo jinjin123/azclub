@@ -1,0 +1,28 @@
+uuid: 9443fa0b-e4ad-46e2-b139-3c22601b0818
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.health_information.body
+    - node.type.health_information
+  module:
+    - text
+    - user
+id: node.health_information.default
+targetEntityType: node
+bundle: health_information
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden: {  }

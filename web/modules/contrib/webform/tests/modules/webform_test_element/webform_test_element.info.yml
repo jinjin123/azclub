@@ -1,0 +1,7 @@
+name: 'Webform Element test'
+type: module
+description: 'Support module for webform element plugin testing.'
+package: 'Webform Testing'
+core_version_requirement: ^8.8 || ^9
+dependencies:
+  - 'webform:webform'

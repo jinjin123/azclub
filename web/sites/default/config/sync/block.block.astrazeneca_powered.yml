@@ -1,0 +1,22 @@
+uuid: 97b8e97a-0e61-45bf-b84f-fb4e8ab5dfbc
+langcode: en
+status: false
+dependencies:
+  module:
+    - system
+  theme:
+    - astrazeneca
+_core:
+  default_config_hash: jQQUUWN2Uxr5qZtc9zcJKBCxpKY8orN1u2HPqYYRQDI
+id: astrazeneca_powered
+theme: astrazeneca
+region: offcanvas
+weight: 10
+provider: null
+plugin: system_powered_by_block
+settings:
+  id: system_powered_by_block
+  label: 'Powered by Drupal'
+  provider: system
+  label_display: '0'
+visibility: {  }

@@ -1,0 +1,23 @@
+uuid: 96d69355-0d95-44a4-bdec-bb1ac29a52f1
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.ta_gastrointestinal
+  module:
+    - text
+id: node.ta_gastrointestinal.body
+field_name: body
+entity_type: node
+bundle: ta_gastrointestinal
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+  required_summary: false
+field_type: text_with_summary

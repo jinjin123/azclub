@@ -1,0 +1,40 @@
+uuid: a0523c12-b976-4c4d-a575-0f826725c07e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.az_latest_news.body
+    - field.field.node.az_latest_news.field_az_author_img
+    - node.type.az_latest_news
+  module:
+    - image
+    - text
+    - user
+id: node.az_latest_news.default
+targetEntityType: node
+bundle: az_latest_news
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_az_author_img:
+    weight: 102
+    label: hidden
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+  links:
+    weight: 100
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  search_api_excerpt: true

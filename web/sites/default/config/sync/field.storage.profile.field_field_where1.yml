@@ -1,0 +1,27 @@
+uuid: e1fb550d-8462-4cf8-a490-4025d63fa182
+langcode: en
+status: true
+dependencies:
+  module:
+    - options
+    - profile
+id: profile.field_field_where1
+field_name: field_field_where1
+entity_type: profile
+type: list_integer
+settings:
+  allowed_values:
+    -
+      value: 0
+      label: 私家醫院或診所
+    -
+      value: 1
+      label: 公立醫院或門診
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

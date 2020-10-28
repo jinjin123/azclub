@@ -1,0 +1,19 @@
+uuid: dbc7ebfb-8d63-4645-b387-61c60db2cd1b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_az_clinical_title
+    - paragraphs.paragraphs_type.clinical_trial_portal_logo_param
+id: paragraph.clinical_trial_portal_logo_param.field_az_clinical_title
+field_name: field_az_clinical_title
+entity_type: paragraph
+bundle: clinical_trial_portal_logo_param
+label: 'AZ clinical title'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

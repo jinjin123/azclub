@@ -1,0 +1,27 @@
+uuid: 36dc0af5-1488-4800-b726-f8b50fefc217
+langcode: en
+status: true
+dependencies:
+  module:
+    - options
+    - profile
+id: profile.field_gender
+field_name: field_gender
+entity_type: profile
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: male
+      label: 男
+    -
+      value: female
+      label: 女
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

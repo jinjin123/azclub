@@ -1,0 +1,19 @@
+uuid: 346c03e1-3258-45c7-b20d-de4fa92a8ab1
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_az_phase
+    - paragraphs.paragraphs_type.clinical_trial_portal_logo_param
+id: paragraph.clinical_trial_portal_logo_param.field_az_phase
+field_name: field_az_phase
+entity_type: paragraph
+bundle: clinical_trial_portal_logo_param
+label: 'AZ Phase'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

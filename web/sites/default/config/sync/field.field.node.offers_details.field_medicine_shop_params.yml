@@ -1,0 +1,31 @@
+uuid: 399138dd-a24e-4c41-a4d6-0893ff92d765
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_medicine_shop_params
+    - node.type.offers_details
+    - paragraphs.paragraphs_type.medicine_shop_addr
+  module:
+    - entity_reference_revisions
+id: node.offers_details.field_medicine_shop_params
+field_name: field_medicine_shop_params
+entity_type: node
+bundle: offers_details
+label: medicine_shop_params
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    negate: 0
+    target_bundles:
+      medicine_shop_addr: medicine_shop_addr
+    target_bundles_drag_drop:
+      medicine_shop_addr:
+        enabled: true
+        weight: 2
+field_type: entity_reference_revisions

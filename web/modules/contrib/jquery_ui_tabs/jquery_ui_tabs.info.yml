@@ -1,0 +1,9 @@
+name: jQuery UI Tabs
+type: module
+description: 'Provides jQuery UI Tabs library.'
+package: jQuery UI
+core: 8.x
+core_version_requirement: ^8 || ^9
+dependencies:
+  - jquery_ui:jquery_ui
+

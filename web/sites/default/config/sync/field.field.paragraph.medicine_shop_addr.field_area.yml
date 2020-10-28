@@ -1,0 +1,19 @@
+uuid: 86e47de1-7ec9-436e-931d-ff23b62084d1
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_area
+    - paragraphs.paragraphs_type.medicine_shop_addr
+id: paragraph.medicine_shop_addr.field_area
+field_name: field_area
+entity_type: paragraph
+bundle: medicine_shop_addr
+label: area
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

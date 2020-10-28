@@ -1,0 +1,122 @@
+uuid: f1e50e39-ad4d-47bd-af5e-98bab63e10f2
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.clinical_trial_portal_logo_param.field_az_area
+    - field.field.paragraph.clinical_trial_portal_logo_param.field_az_body
+    - field.field.paragraph.clinical_trial_portal_logo_param.field_az_clinical_age
+    - field.field.paragraph.clinical_trial_portal_logo_param.field_az_clinical_short_desc
+    - field.field.paragraph.clinical_trial_portal_logo_param.field_az_clinical_title
+    - field.field.paragraph.clinical_trial_portal_logo_param.field_az_conditions_term
+    - field.field.paragraph.clinical_trial_portal_logo_param.field_az_location
+    - field.field.paragraph.clinical_trial_portal_logo_param.field_az_phase
+    - field.field.paragraph.clinical_trial_portal_logo_param.field_az_se
+    - field.field.paragraph.clinical_trial_portal_logo_param.field_az_status
+    - field.field.paragraph.clinical_trial_portal_logo_param.field_az_trial_name
+    - field.field.paragraph.clinical_trial_portal_logo_param.field_field_az_clinical_param_lo
+    - paragraphs.paragraphs_type.clinical_trial_portal_logo_param
+  module:
+    - image
+id: paragraph.clinical_trial_portal_logo_param.default
+targetEntityType: paragraph
+bundle: clinical_trial_portal_logo_param
+mode: default
+content:
+  field_az_area:
+    weight: 2
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_az_body:
+    weight: 9
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: basic_string
+    region: content
+  field_az_clinical_age:
+    weight: 12
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_az_clinical_short_desc:
+    weight: 1
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: basic_string
+    region: content
+  field_az_clinical_title:
+    weight: 0
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_az_conditions_term:
+    weight: 11
+    label: hidden
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+  field_az_location:
+    weight: 5
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_az_phase:
+    weight: 8
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_az_se:
+    weight: 3
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_az_status:
+    weight: 4
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_az_trial_name:
+    weight: 6
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_field_az_clinical_param_lo:
+    weight: 13
+    label: hidden
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+hidden:
+  search_api_excerpt: true
