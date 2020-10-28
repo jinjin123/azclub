@@ -8,7 +8,7 @@ dependencies:
     - node.type.az_product_information
     - views.view.az_clinical_trial_search_result
   module:
-    - image_url_formatter
+    - image
     - node
     - text
     - user
@@ -197,9 +197,8 @@ display:
           empty_zero: false
           hide_alter_empty: true
           click_sort_column: target_id
-          type: image_url
+          type: image
           settings:
-            url_type: '1'
             image_style: ''
             image_link: ''
           group_column: ''
@@ -224,7 +223,7 @@ display:
           exclude: false
           alter:
             alter_text: true
-            text: "<div class=\"az-product_box\">\r\n  <div class=\"az-product_img col-md-4\">\r\n        <img src=\"{{ field_az_product_img }}\" >\r\n  </div>\r\n  <div class=\"az-product_body col-md-4\">\r\n     <div class=\"az-product_body_title\">\r\n       {{ title }}\r\n    </div>\r\n    <div class=\"az-product_body_desc\">\r\n      {{ body }}\r\n    </div>\r\n  </div>\r\n</div>"
+            text: "<div class=\"az-product_box\">\r\n  <div class=\"az-product_img col-md-4\">\r\n        {{ field_az_product_img }}\r\n  </div>\r\n  <div class=\"az-product_body col-md-4\">\r\n     <div class=\"az-product_body_title\">\r\n       {{ title }}\r\n    </div>\r\n    <div class=\"az-product_body_desc\">\r\n      {{ body }}\r\n    </div>\r\n  </div>\r\n</div>"
             make_link: false
             path: ''
             absolute: false
