@@ -5,7 +5,7 @@ var concat      = require('gulp-concat')
 var uglify      = require('gulp-uglify')
 
 var sass_dir  = './sass/**/*.scss'
-var js_dir    = './js/**/*.js'
+var js_dir    = './az/**/*.js'
 var fonts_dir = './fonts/**/*.*'
 
 gulp.task('js', () => {
