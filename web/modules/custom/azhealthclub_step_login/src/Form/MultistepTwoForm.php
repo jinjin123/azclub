@@ -108,6 +108,7 @@ class MultistepTwoForm extends MultistepFormBase {
     $this->store->set('en_name', $form_state->getValue('en_name'));
     $this->store->set('identification_last4num', $form_state->getValue('identification_last4num'));
     $this->store->set('birthday', $form_state->getValue('birthday'));
+    $this->store->set('gender', $form_state->getValue('gender'));
     $this->store->set('attention2', $form_state->getValue('attention2'));
     $this->store->set('communication_mode', $form_state->getValue('communication_mode'));
 

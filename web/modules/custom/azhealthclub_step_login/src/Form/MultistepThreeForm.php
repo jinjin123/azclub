@@ -47,14 +47,13 @@ class MultistepThreeForm extends MultistepFormBase {
       '#default_value' => $this->store->get('ta_type') ? $this->store->get('ta_type') : [],
     ];
 
-    // todo config this field
+    // todo add picture
+    $field_settings = $memberFields['field_medicine_using']->getSettings();
+    $allowed_values = $field_settings['allowed_values'];
     $form['medicine_using'] = [
       '#type' => 'radios',
       '#title' => '本人正服用「阿斯利康」以下藥物（請√閣下現在正服用「阿斯利康」藥物）',
-      '#options' => [
-        '1' => 'medicine1',
-        '2' => 'medicine2',
-      ],
+      '#options' => $allowed_values,
       '#default_value' => $this->store->get('medicine_using') ? $this->store->get('medicine_using') : [],
     ];
 
@@ -98,7 +97,7 @@ class MultistepThreeForm extends MultistepFormBase {
     $this->store->set('if_medicine_using', $form_state->getValue('if_medicine_using'));
     $this->store->set('ta_type', $form_state->getValue('ta_type'));
     $this->store->set('medicine_using', $form_state->getValue('medicine_using'));
-    $this->store->set('where1', $form_state->getValue('where2'));
+    $this->store->set('where1', $form_state->getValue('where1'));
     $this->store->set('where2', $form_state->getValue('where2'));
 
     // Save the data
