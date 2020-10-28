@@ -18,8 +18,8 @@
    <div class="header-main {{ class_sticky }}">
       <div class="container header-content-layout">
          <div class="header-main-inner p-relative">
-            <div class="row">
-              <div class="col-md-9 col-sm-6 col-xs-8 branding">
+            <div class="row az-header_top">
+              <div class="col-md-9 col-sm-6 col-xs-8 branding az-header_top_logo">
                 {% if page.branding %}
                   {{ page.branding }}
                 {% endif %}
@@ -39,13 +39,13 @@
                 </div>
               </div>
             </div>
-           <div class="row">
+           <div class="row az-header_bottom">
              <div class="col-md-9 col-sm-6 col-xs-4 p-static">
                <div class="header-inner clearfix">
                  <div class="main-menu">
                    <div class="area-main-menu">
                      <div class="area-inner">
-                       <div class="gva-offcanvas-mobile">
+                       <div class="gva-offcanvas-mobile az-header_bottom_menu">
                          <div class="close-offcanvas hidden"><i class="gv-icon-8"></i></div>
                          {% if page.main_menu %}
                            {{ page.main_menu }}
