@@ -1,12 +1,12 @@
-uuid: b87fb310-0f86-47e0-942e-485636a948d8
+uuid: 533ea586-d5dc-4222-965e-a3326dda8a44
 langcode: en
 status: true
 dependencies:
   module:
     - options
     - profile
-id: profile.field_field_where2
-field_name: field_field_where2
+id: profile.field_where2
+field_name: field_where2
 entity_type: profile
 type: list_integer
 settings:

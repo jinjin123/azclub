@@ -1,17 +1,17 @@
-uuid: 0472cb64-d6ff-4ec9-b2d9-c4f146b5c938
+uuid: 619c0d23-2cb0-44dd-9094-588af62c9398
 langcode: en
 status: true
 dependencies:
   config:
-    - field.storage.profile.field_field_where1
+    - field.storage.profile.field_where2
     - profile.type.member
   module:
     - options
-id: profile.member.field_field_where1
-field_name: field_field_where1
+id: profile.member.field_where2
+field_name: field_where2
 entity_type: profile
 bundle: member
-label: field_where1
+label: where2
 description: ''
 required: false
 translatable: false
