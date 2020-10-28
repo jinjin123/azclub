@@ -205,7 +205,7 @@ display:
           click_sort_column: target_id
           type: image_url
           settings:
-            url_type: '0'
+            url_type: '1'
             image_style: ''
             image_link: ''
           group_column: ''
@@ -297,7 +297,7 @@ display:
           exclude: false
           alter:
             alter_text: true
-            text: "<div class=\"az-clinical_box\">\r\n  <div class=\"az-clinical_img col-md-4\">\r\n        <img src=\"{{ field_az_clinical_page_image }}\" >\r\n  </div>\r\n  <div class=\"az-clinical_body col-md-4\">\r\n     <div class=\"az-clinical_body_title\">\r\n       {{ title }}\r\n    </div>\r\n    <div class=\"az-clinical_body_desc\">\r\n      {{ body}}\r\n    </div>\r\n  </div>\r\n   <div class=\"az-oclinical_time_bottom col-md-2\">\r\n     <span>{{ created }}</span>\r\n  </div>\r\n</div>"
+            text: "<div class=\"az-clinical_box\">\r\n  <div class=\"az-clinical_img col-md-4\">\r\n        <img src=\"{{field_az_clinical_page_image}}\">\r\n  </div>\r\n  <div class=\"az-clinical_body col-md-4\">\r\n     <div class=\"az-clinical_body_title\">\r\n       {{ title }}\r\n    </div>\r\n    <div class=\"az-clinical_body_desc\">\r\n      {{ body}}\r\n    </div>\r\n  </div>\r\n   <div class=\"az-oclinical_time_bottom col-md-2\">\r\n     <span>{{ created }}</span>\r\n  </div>\r\n</div>"
             make_link: false
             path: ''
             absolute: false
@@ -320,7 +320,7 @@ display:
             more_link_path: ''
             strip_tags: false
             trim: false
-            preserve_tags: ''
+            preserve_tags: '<img>'
             html: false
           element_type: ''
           element_class: ''
@@ -579,6 +579,31 @@ display:
       display_extenders: {  }
       path: Clinical/search-result
       display_description: ''
+      header:
+        area_text_custom_1:
+          id: area_text_custom_1
+          table: views
+          field: area_text_custom
+          relationship: none
+          group_type: group
+          admin_label: ''
+          empty: false
+          tokenize: false
+          content: "<div class=\"az-clinical__box\">\r\n      <div class=\"az-clinical__title\">治療區域</div>\r\n      <div class=\"az-clinical__subtitle\">什麼是臨床實驗</div>\r\n      <div class=\"az-clinical__body\">Lorem ipsum dolor坐了適時，從那裡開始就可以吃東西了，但是我同意，多年來，所有eiusmod都應該長壽並充滿活力，這樣，laboret doloremagna aliqua.Ut才會開始鍛煉，以便從eacommodo那裡得到的學費從中得到，而從eacommodo那裡得到的就算是適當的。 eiusmod的所有歲月都會使她受益於任何一項有節制的結實鍛煉的好處，以便在學區和長壽的情況下做出刺激性的努力。 Lorem ipsum dolor坐著不動，吃些辛辣的精油，但是辛苦勞作eiusmod和保持精力旺盛，這是一個長期的艱苦嘗試。這些年來，所有這些都將使她受益於任何一項alquip nostrud鍛煉（ullamcolaboris）的優勢，但這是一個問題。 Lorem非常胡蘿蔔，增加了回扣，但是它們確實很長一段時間並且具有生命力，例如Minneapolis的胡蘿蔔。</div>\r\n</div>"
+          plugin_id: text_custom
+        area_text_custom:
+          id: area_text_custom
+          table: views
+          field: area_text_custom
+          relationship: none
+          group_type: group
+          admin_label: ''
+          empty: false
+          tokenize: false
+          content: "<div class=\"az-clinical-search_box\">\r\n    <div class=\"col-md-8\">\r\n      <span>最新臨床試驗計劃</span>\r\n</div>\r\n<div  class=\"col-md-4\"> \r\n \r\n</div>\r\n</div>"
+          plugin_id: text_custom
+      defaults:
+        header: false
     cache_metadata:
       max-age: -1
       contexts:
