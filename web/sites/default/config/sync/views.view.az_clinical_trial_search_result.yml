@@ -205,7 +205,7 @@ display:
           click_sort_column: target_id
           type: image_url
           settings:
-            url_type: '0'
+            url_type: '1'
             image_style: ''
             image_link: ''
           group_column: ''
@@ -297,7 +297,7 @@ display:
           exclude: false
           alter:
             alter_text: true
-            text: "<div class=\"az-clinical_box\">\r\n  <div class=\"az-clinical_img col-md-4\">\r\n        <img src=\"{{ field_az_clinical_page_image }}\" >\r\n  </div>\r\n  <div class=\"az-clinical_body col-md-4\">\r\n     <div class=\"az-clinical_body_title\">\r\n       {{ title }}\r\n    </div>\r\n    <div class=\"az-clinical_body_desc\">\r\n      {{ body}}\r\n    </div>\r\n  </div>\r\n   <div class=\"az-oclinical_time_bottom col-md-2\">\r\n     <span>{{ created }}</span>\r\n  </div>\r\n</div>"
+            text: "<div class=\"az-clinical_box\">\r\n  <div class=\"az-clinical_img col-md-4\">\r\n        <img src=\"{{field_az_clinical_page_image}}\">\r\n  </div>\r\n  <div class=\"az-clinical_body col-md-4\">\r\n     <div class=\"az-clinical_body_title\">\r\n       {{ title }}\r\n    </div>\r\n    <div class=\"az-clinical_body_desc\">\r\n      {{ body}}\r\n    </div>\r\n  </div>\r\n   <div class=\"az-oclinical_time_bottom col-md-2\">\r\n     <span>{{ created }}</span>\r\n  </div>\r\n</div>"
             make_link: false
             path: ''
             absolute: false
@@ -320,7 +320,7 @@ display:
             more_link_path: ''
             strip_tags: false
             trim: false
-            preserve_tags: ''
+            preserve_tags: '<img>'
             html: false
           element_type: ''
           element_class: ''
