@@ -27,10 +27,13 @@ class MultistepThreeForm extends MultistepFormBase {
 
     $form = parent::buildForm($form, $form_state);
 
-    $form['field_attention']['member_attention2'] = [
+    $entityFieldManager = \Drupal::service('entity_field.manager');
+    $memberFields = $entityFieldManager->getFieldDefinitions('profile', 'member');
+
+    $form['if_medicine_using'] = [
       '#type' => 'checkbox',
       '#title' => '本人沒有服用「阿斯利康」以下藥物，但是有興趣收取「康心摯友會」健康資訊（請√閣下有興趣之範疇）',
-      '#default_value' => $this->store->get('member_attention2') ? $this->store->get('member_attention2') : '',
+      '#default_value' => $this->store->get('if_medicine_using') ? $this->store->get('if_medicine_using') : '',
     ];
     $taxonomy_terms = \Drupal::entityTypeManager()->getStorage('taxonomy_term')->loadTree('ta_type');
     $ta_type = [];
@@ -44,6 +47,7 @@ class MultistepThreeForm extends MultistepFormBase {
       '#default_value' => $this->store->get('ta_type') ? $this->store->get('ta_type') : [],
     ];
 
+    // todo config this field
     $form['medicine_using'] = [
       '#type' => 'radios',
       '#title' => '本人正服用「阿斯利康」以下藥物（請√閣下現在正服用「阿斯利康」藥物）',
@@ -53,24 +57,22 @@ class MultistepThreeForm extends MultistepFormBase {
       ],
       '#default_value' => $this->store->get('medicine_using') ? $this->store->get('medicine_using') : [],
     ];
+
+    $field_settings = $memberFields['field_where1']->getSettings();
+    $allowed_values = $field_settings['allowed_values'];
     $form['field_where1']= [
       '#type' => 'checkboxes',
       '#title' => '您在哪裡處方以上藥物',
-      '#options' => [
-        '1' => '私家醫院或診所',
-        '2' => '公立醫院或門診',
-      ],
+      '#options' =>$allowed_values,
       '#default_value' => $this->store->get('field_where1') ? $this->store->get('field_where1') : [],
     ];
+
+    $field_settings = $memberFields['field_where2']->getSettings();
+    $allowed_values = $field_settings['allowed_values'];
     $form['field_where2']= [
       '#type' => 'checkboxes',
       '#title' => '您在哪裡處方以上藥物',
-      '#options' => [
-        '1' => '私家醫院或診所',
-        '2' => '公立醫院或門診',
-        '3' => '萬寧 Mannings',
-        '4' => '屈臣氏 Watsons',
-      ],
+      '#options' => $allowed_values,
       '#default_value' => $this->store->get('field_where2') ? $this->store->get('field_where2') : [],
     ];
 
@@ -93,11 +95,9 @@ class MultistepThreeForm extends MultistepFormBase {
    * {@inheritdoc}
    */
   public function submitForm(array &$form, FormStateInterface $form_state) {
-    $this->store->set('member_attention2', $form_state->getValue('member_attention2'));
+    $this->store->set('if_medicine_using', $form_state->getValue('if_medicine_using'));
     $this->store->set('ta_type', $form_state->getValue('ta_type'));
     $this->store->set('medicine_using', $form_state->getValue('medicine_using'));
-    $this->store->set('birthday', $form_state->getValue('birthday'));
-    $this->store->set('member_attention1', $form_state->getValue('member_attention1'));
     $this->store->set('field_where1', $form_state->getValue('field_where1'));
     $this->store->set('field_where2', $form_state->getValue('field_where2'));
 

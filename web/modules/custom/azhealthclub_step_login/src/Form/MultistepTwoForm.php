@@ -58,25 +58,25 @@ class MultistepTwoForm extends MultistepFormBase {
       '#date_timezone' => 'Asia/Kolkata',
     ];
 
-    $field_attention1_settings = $memberFields['field_gender']->getSettings();
-    $gender_allowed_values = $field_attention1_settings['allowed_values'];
+    $field_settings = $memberFields['field_gender']->getSettings();
+    $allowed_values = $field_settings['allowed_values'];
     $form['gender'] = [
       '#type' => 'select',
       '#title' => '性別*',
-      '#options' => $gender_allowed_values,
+      '#options' => $allowed_values,
       '#default_value' => $this->store->get('gender') ? $this->store->get('gender') : '',
     ];
 
-    $field_attention1_settings = $memberFields['field_attention2']->getSettings();
-    $field_attention2_allowed_values = $field_attention1_settings['allowed_values'];
+    $field_settings = $memberFields['field_attention2']->getSettings();
+    $allowed_values = $field_settings['allowed_values'];
     $form['field_attention2'] = [
       '#type' => 'checkboxes',
-      '#options' => $field_attention2_allowed_values,
+      '#options' => $allowed_values,
       '#default_value' => $this->store->get('field_attention2') ? $this->store->get('field_attention2') : [],
     ];
 
-    $field_attention1_settings = $memberFields['field_communication_mode']->getSettings();
-    $allowed_values = $field_attention1_settings['allowed_values'];
+    $field_settings = $memberFields['field_communication_mode']->getSettings();
+    $allowed_values = $field_settings['allowed_values'];
     $form['communication_mode'] = [
       '#type' => 'checkboxes',
       '#title' => '如閣下同意我們使用您的個人資料，透過以下方式通知您關於本公司會員優惠/活動、藥物產品及健康資訊，請於以下空格內打鉤「」：

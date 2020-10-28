@@ -76,8 +76,8 @@ class MultistepOneForm extends MultistepFormBase {
 
     $entityFieldManager = \Drupal::service('entity_field.manager');
     $memberFields = $entityFieldManager->getFieldDefinitions('profile', 'member');
-    $field_attention1_settings = $memberFields['field_attention1']->getSettings();
-    $allowed_values = $field_attention1_settings['allowed_values'];
+    $field_settings = $memberFields['field_attention1']->getSettings();
+    $allowed_values = $field_settings['allowed_values'];
 
     $form['field_attention1'] = [
       '#type' => 'checkboxes',
