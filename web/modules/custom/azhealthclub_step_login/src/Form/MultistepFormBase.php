@@ -149,9 +149,11 @@ abstract class MultistepFormBase extends FormBase {
     $profile->set('field_where2', $where2_filter);
     $profile->save();
 
+    // auto login
+    user_login_finalize($user);
+
     $this->deleteStore();
     \Drupal::messenger()->addMessage($this->t('The form has been saved.'));
-
   }
 
   /**
