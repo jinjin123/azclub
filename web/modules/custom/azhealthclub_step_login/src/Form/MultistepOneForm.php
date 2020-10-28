@@ -32,7 +32,7 @@ class MultistepOneForm extends MultistepFormBase {
     $form['phone'] = [
       '#type' => 'tel',
       '#title' => '',
-      '#pattern' => '[\d]*',
+      //'#pattern' => '[\d]*',
       '#default_value' => $this->store->get('phone') ? $this->store->get('phone') : '',
       '#attributes' => ['placeholder' => '電話號碼*'],
     ];
@@ -79,11 +79,11 @@ class MultistepOneForm extends MultistepFormBase {
     $field_settings = $memberFields['field_attention1']->getSettings();
     $allowed_values = $field_settings['allowed_values'];
 
-    $form['field_attention1'] = [
+    $form['attention1'] = [
       '#type' => 'checkboxes',
       '#title' => '重要事項',
       '#options' => $allowed_values,
-      '#default_value' => $this->store->get('field_attention1') ? $this->store->get('field_attention1') : [],
+      '#default_value' => $this->store->get('attention1') ? $this->store->get('attention1') : [],
       '#collapsible' => TRUE,
       '#collapsed' => TRUE,
     ];
@@ -103,8 +103,8 @@ class MultistepOneForm extends MultistepFormBase {
     $this->store->set('phone', $form_state->getValue('phone'));
     $this->store->set('email', $form_state->getValue('email'));
     $this->store->set('pass', $form_state->getValue('pass'));
-    $this->store->set('verify_code', $form_state->getValue('verify_code'));
-    $this->store->set('field_attention1', $form_state->getValue('field_attention1'));
+    //$this->store->set('verify_code', $form_state->getValue('verify_code'));
+    $this->store->set('attention1', $form_state->getValue('attention1'));
 
     $form_state->setRedirect('azhealthclub_step_login.multistep_two');
   }

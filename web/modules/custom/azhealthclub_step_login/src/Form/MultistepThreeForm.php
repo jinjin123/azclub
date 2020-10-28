@@ -60,20 +60,20 @@ class MultistepThreeForm extends MultistepFormBase {
 
     $field_settings = $memberFields['field_where1']->getSettings();
     $allowed_values = $field_settings['allowed_values'];
-    $form['field_where1']= [
+    $form['where1']= [
       '#type' => 'checkboxes',
       '#title' => '您在哪裡處方以上藥物',
       '#options' =>$allowed_values,
-      '#default_value' => $this->store->get('field_where1') ? $this->store->get('field_where1') : [],
+      '#default_value' => $this->store->get('where1') ? $this->store->get('where1') : [],
     ];
 
     $field_settings = $memberFields['field_where2']->getSettings();
     $allowed_values = $field_settings['allowed_values'];
-    $form['field_where2']= [
+    $form['where2']= [
       '#type' => 'checkboxes',
       '#title' => '您在哪裡處方以上藥物',
       '#options' => $allowed_values,
-      '#default_value' => $this->store->get('field_where2') ? $this->store->get('field_where2') : [],
+      '#default_value' => $this->store->get('where2') ? $this->store->get('where2') : [],
     ];
 
     $form['actions']['previous'] = [
@@ -98,8 +98,8 @@ class MultistepThreeForm extends MultistepFormBase {
     $this->store->set('if_medicine_using', $form_state->getValue('if_medicine_using'));
     $this->store->set('ta_type', $form_state->getValue('ta_type'));
     $this->store->set('medicine_using', $form_state->getValue('medicine_using'));
-    $this->store->set('field_where1', $form_state->getValue('field_where1'));
-    $this->store->set('field_where2', $form_state->getValue('field_where2'));
+    $this->store->set('where1', $form_state->getValue('where2'));
+    $this->store->set('where2', $form_state->getValue('where2'));
 
     // Save the data
     parent::saveData();

@@ -69,10 +69,10 @@ class MultistepTwoForm extends MultistepFormBase {
 
     $field_settings = $memberFields['field_attention2']->getSettings();
     $allowed_values = $field_settings['allowed_values'];
-    $form['field_attention2'] = [
+    $form['attention2'] = [
       '#type' => 'checkboxes',
       '#options' => $allowed_values,
-      '#default_value' => $this->store->get('field_attention2') ? $this->store->get('field_attention2') : [],
+      '#default_value' => $this->store->get('attention2') ? $this->store->get('attention2') : [],
     ];
 
     $field_settings = $memberFields['field_communication_mode']->getSettings();
@@ -108,7 +108,7 @@ class MultistepTwoForm extends MultistepFormBase {
     $this->store->set('en_name', $form_state->getValue('en_name'));
     $this->store->set('identification_last4num', $form_state->getValue('identification_last4num'));
     $this->store->set('birthday', $form_state->getValue('birthday'));
-    $this->store->set('field_attention2', $form_state->getValue('field_attention2'));
+    $this->store->set('attention2', $form_state->getValue('attention2'));
     $this->store->set('communication_mode', $form_state->getValue('communication_mode'));
 
     $form_state->setRedirect('azhealthclub_step_login.multistep_three');
