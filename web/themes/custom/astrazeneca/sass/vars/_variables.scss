@@ -6,10 +6,11 @@ $bootstrap-sass-asset-helper: (twbs-font-path("") != unquote('twbs-font-path("")
 // Variables
 // --------------------------------------------------
 $head-cus: green ;
-$head-left:left;
-$head-right:right;
+$float-left:left;
+$float-right:right;
 $color-gray:#b8b8b8;
 $color-red:#eb1484;
+$color-orange:#fcaf17;
 %button{
     color:white;
     border-color: transparent;
