@@ -1,0 +1,169 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/default\/node\/22?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/default\/rest\/type\/node\/az_health_club"
+        },
+        "http:\/\/default\/rest\/relation\/node\/az_health_club\/revision_uid": [
+            {
+                "href": "http:\/\/default\/user\/1?_format=hal_json"
+            }
+        ],
+        "http:\/\/default\/rest\/relation\/node\/az_health_club\/uid": [
+            {
+                "href": "http:\/\/default\/user\/1?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/default\/rest\/relation\/node\/az_health_club\/field_az_club_img": [
+            {
+                "href": "http:\/\/default\/sites\/default\/files\/2020-10\/2020-10-27_16-26.png"
+            }
+        ]
+    },
+    "uuid": [
+        {
+            "value": "669b0524-6a24-418e-b2cf-a0ffa771dafb"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "az_health_club"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2020-10-27T08:27:39+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/default\/rest\/relation\/node\/az_health_club\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/default\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "ad86f4f8-ab08-4ff1-be42-53e6179dd359"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/default\/rest\/relation\/node\/az_health_club\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/default\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "ad86f4f8-ab08-4ff1-be42-53e6179dd359"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/default\/rest\/relation\/node\/az_health_club\/field_az_club_img": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/sites\/default\/files\/2020-10\/2020-10-27_16-26.png"
+                    },
+                    "type": {
+                        "href": "http:\/\/default\/rest\/type\/file\/file"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "7585d76b-da80-455c-8951-943d0452b02b"
+                    }
+                ]
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "\u6797\u76db\u658c\u30fb\u8210\u72a2\u60c5\u300c\u5fc3\u300d",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2020-10-27T08:16:44+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2020-10-27T08:27:39+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "path": [
+        {
+            "alias": null,
+            "pid": null,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "body": [
+        {
+            "value": "<p>Lorem ipsum dolor\u5750\u7acb\u4e0d\u5750\uff0c\u5949\u737b\u81ea\u82e5\uff0csed\u505a\u4e8b\u548c\u671d\u6c23\uff0c\u8b93\u9577\u4e45\u4ee5\u4f86\u7684\u52aa\u529b\u548c\u75db\u82e6<br \/>\r\n\u591a\u5e74\u4f86\uff0c\u4e00\u4e9b\u91cd\u8981\u7684\u4e8b\u60c5\u4f86\u4e86\uff0c\u4e00\u500b\u5de5\u4f5c\u7684\u4eba\uff0c\u4f46\u70ba\u4e86\u8b93Lamc\u7cbe\u6253\u7d30\u7b97\uff0c<br \/>\r\n\u6c61\u6f2c\u3002 Lorem ipsum\u75bc\u75db\u662f\u6b7b\u56e0<br \/>\r\nLorem ipsum dolor\u5750\u5728amet\uff0c\u4fdd\u59c6<br \/>\r\n\u56de\u6263\uff0c\u4f46\u4ed6\u5011\u505aeSmod\u6642\u9593ncididunt\u4f8b\u5982\u52de\u529b\u548c\u80a5\u80d6\u591a\u5e74\u4f86\uff0c\u8ab0\u7cbe\u6253\u7d30\u7b97\u5730\u7df4\u7fd2U<br \/>\r\n\u9b91\u91cc\u65af\u9664\u4e86\u5f9e\u4e2d\u7372\u5f97\u4e00\u4e9b\u597d\u8655\u3002 Lorem ipsum\u80e1\u863f\u8514\u3002 \u660e\u5c3c\u963f\u6ce2\u5229\u65af\u5927\u5b78\u751fELT\u3002 \u4f46\u662f\u505aeSmod\u7684\u6642\u9593\u548c\u7cbe\u529b\uff0c\u8b93aborelorem<br \/>\r\nipsum dolor amet\u5750\u93ae\uff0c\u5949\u737b\u7cbe\u82f1\uff0csed\u505aeSmod\u7684\u5de5\u4f5c\u548c\u60b2\u50b7\uff0c\u9019\u6a23\u9577\u4e45\u800c\u5145\u6eff\u6d3b\u529b\uff0c<\/p>\r\n\r\n<p>Lorem ipsum\u80e1\u863f\u8514<br \/>\r\n\u56de\u6263\u548c\u6d3b\u529b\uff0c\u4f7f\u5de5\u4f5c\u548c\u60b2\u50b7\u6210\u70ba\u73fe\u5be6\uff0c\u4f46\u5728\u505a\u4e00\u4e9b\u91cd\u8981\u7684\u4e8b\u60c5\u6642\uff0c\u6211\u6703\u4f86\uff0c\u6211\u6703\u7d2e\u6839\u935b\u7149\uff0cLamc<br \/>\r\naliquip\u525d\u596a\u4e86\u5979\u7684\u52de\u52d5\u512a\u52e2\uff0c\u4f46\u537b\u6210\u70ba\u4e00\u500b\u554f\u984c\u3002 Lorem ipsum dolor amet\uff0c\u60a8\u61c9\u8a72\u52aa\u529b\u5de5\u4f5c\u4e26\u4fdd\u6301\u7cbe\u529b\u65fa\u76db\uff0c\u4fdd\u6301\u6d3b\u529b\uff0c<\/p>\r\n\r\n<p>Lorem ipsum\u80e1\u863f\u8514<br \/>\r\n\u8fd4\u5229\uff0c\u662f\u500b\u597d\u4e3b\u610f\uff0c\u4f46\u8981\u505aeiusmod\uff0c\u60a8\u61c9\u8a72\u52aa\u529b\u4e26\u4fdd\u6301\u6d3b\u529b\uff0c<br \/>\r\n\u5c0d\u65bc\u67d0\u4e9b\u60f3\u53c3\u52a0\u904b\u52d5\u7684\u4eba\u4f86\u8aaa\uff0c\u4ed6\u5011\u662f\u904b\u52d5\uff0c\u5b78\u5340\uff0c\u4f46\u5de5\u4f5c<br \/>\r\n\u5f9e\u800c\u4f7f\u5979\u64fa\u812b\u4e86\u98df\u8b5c\u7684\u512a\u52e2\u3002 Lorem ipsum\u80e1\u863f\u8514\uff0c\u4fdd\u6fc3\u5291<br \/>\r\n\u56de\u6263\uff0c\u4f46\u60a8\u61c9\u8a72\u52aa\u529b\u5de5\u4f5c\u4e26\u4fdd\u6301\u6d3b\u529b\uff0c<br \/>\r\n\u8fd4\u5229\uff0c\u662f\u500b\u597d\u4e3b\u610f\uff0c\u4f46\u8981\u505aeiusmod\uff0c\u60a8\u61c9\u8a72\u52aa\u529b\u4e26\u4fdd\u6301\u6d3b\u529b\uff0c<br \/>\r\n\u5c0d\u65bc\u4e00\u4e9b\u60f3\u53c3\u52a0\u904b\u52d5\u7684\u4eba\u4f86\u8aaa\uff0c\u5b78\u5340<br \/>\r\naliquip\u525d\u596a\u4e86\u5979\u7684\u52de\u52d5\u512a\u52e2\uff0c\u4f46\u537b\u6210\u70ba\u4e00\u500b\u554f\u984c\u3002 Lorem ipsum\u80e1\u863f\u8514<br \/>\r\n\u656c\u696d\u5949\u737b\u7684\u7cbe\u82f1\uff0c\u60a8\u61c9\u8a72\u52aa\u529b\u5de5\u4f5c\u4e26\u4fdd\u6301\u6d3b\u529b\uff0c<br \/>\r\n&nbsp;<\/p>\r\n",
+            "format": "basic_html",
+            "processed": "<p>Lorem ipsum dolor\u5750\u7acb\u4e0d\u5750\uff0c\u5949\u737b\u81ea\u82e5\uff0csed\u505a\u4e8b\u548c\u671d\u6c23\uff0c\u8b93\u9577\u4e45\u4ee5\u4f86\u7684\u52aa\u529b\u548c\u75db\u82e6<br \/>\n\u591a\u5e74\u4f86\uff0c\u4e00\u4e9b\u91cd\u8981\u7684\u4e8b\u60c5\u4f86\u4e86\uff0c\u4e00\u500b\u5de5\u4f5c\u7684\u4eba\uff0c\u4f46\u70ba\u4e86\u8b93Lamc\u7cbe\u6253\u7d30\u7b97\uff0c<br \/>\n\u6c61\u6f2c\u3002 Lorem ipsum\u75bc\u75db\u662f\u6b7b\u56e0<br \/>\nLorem ipsum dolor\u5750\u5728amet\uff0c\u4fdd\u59c6<br \/>\n\u56de\u6263\uff0c\u4f46\u4ed6\u5011\u505aeSmod\u6642\u9593ncididunt\u4f8b\u5982\u52de\u529b\u548c\u80a5\u80d6\u591a\u5e74\u4f86\uff0c\u8ab0\u7cbe\u6253\u7d30\u7b97\u5730\u7df4\u7fd2U<br \/>\n\u9b91\u91cc\u65af\u9664\u4e86\u5f9e\u4e2d\u7372\u5f97\u4e00\u4e9b\u597d\u8655\u3002 Lorem ipsum\u80e1\u863f\u8514\u3002 \u660e\u5c3c\u963f\u6ce2\u5229\u65af\u5927\u5b78\u751fELT\u3002 \u4f46\u662f\u505aeSmod\u7684\u6642\u9593\u548c\u7cbe\u529b\uff0c\u8b93aborelorem<br \/>\nipsum dolor amet\u5750\u93ae\uff0c\u5949\u737b\u7cbe\u82f1\uff0csed\u505aeSmod\u7684\u5de5\u4f5c\u548c\u60b2\u50b7\uff0c\u9019\u6a23\u9577\u4e45\u800c\u5145\u6eff\u6d3b\u529b\uff0c<\/p>\n\n<p>Lorem ipsum\u80e1\u863f\u8514<br \/>\n\u56de\u6263\u548c\u6d3b\u529b\uff0c\u4f7f\u5de5\u4f5c\u548c\u60b2\u50b7\u6210\u70ba\u73fe\u5be6\uff0c\u4f46\u5728\u505a\u4e00\u4e9b\u91cd\u8981\u7684\u4e8b\u60c5\u6642\uff0c\u6211\u6703\u4f86\uff0c\u6211\u6703\u7d2e\u6839\u935b\u7149\uff0cLamc<br \/>\naliquip\u525d\u596a\u4e86\u5979\u7684\u52de\u52d5\u512a\u52e2\uff0c\u4f46\u537b\u6210\u70ba\u4e00\u500b\u554f\u984c\u3002 Lorem ipsum dolor amet\uff0c\u60a8\u61c9\u8a72\u52aa\u529b\u5de5\u4f5c\u4e26\u4fdd\u6301\u7cbe\u529b\u65fa\u76db\uff0c\u4fdd\u6301\u6d3b\u529b\uff0c<\/p>\n\n<p>Lorem ipsum\u80e1\u863f\u8514<br \/>\n\u8fd4\u5229\uff0c\u662f\u500b\u597d\u4e3b\u610f\uff0c\u4f46\u8981\u505aeiusmod\uff0c\u60a8\u61c9\u8a72\u52aa\u529b\u4e26\u4fdd\u6301\u6d3b\u529b\uff0c<br \/>\n\u5c0d\u65bc\u67d0\u4e9b\u60f3\u53c3\u52a0\u904b\u52d5\u7684\u4eba\u4f86\u8aaa\uff0c\u4ed6\u5011\u662f\u904b\u52d5\uff0c\u5b78\u5340\uff0c\u4f46\u5de5\u4f5c<br \/>\n\u5f9e\u800c\u4f7f\u5979\u64fa\u812b\u4e86\u98df\u8b5c\u7684\u512a\u52e2\u3002 Lorem ipsum\u80e1\u863f\u8514\uff0c\u4fdd\u6fc3\u5291<br \/>\n\u56de\u6263\uff0c\u4f46\u60a8\u61c9\u8a72\u52aa\u529b\u5de5\u4f5c\u4e26\u4fdd\u6301\u6d3b\u529b\uff0c<br \/>\n\u8fd4\u5229\uff0c\u662f\u500b\u597d\u4e3b\u610f\uff0c\u4f46\u8981\u505aeiusmod\uff0c\u60a8\u61c9\u8a72\u52aa\u529b\u4e26\u4fdd\u6301\u6d3b\u529b\uff0c<br \/>\n\u5c0d\u65bc\u4e00\u4e9b\u60f3\u53c3\u52a0\u904b\u52d5\u7684\u4eba\u4f86\u8aaa\uff0c\u5b78\u5340<br \/>\naliquip\u525d\u596a\u4e86\u5979\u7684\u52de\u52d5\u512a\u52e2\uff0c\u4f46\u537b\u6210\u70ba\u4e00\u500b\u554f\u984c\u3002 Lorem ipsum\u80e1\u863f\u8514<br \/>\n\u656c\u696d\u5949\u737b\u7684\u7cbe\u82f1\uff0c\u60a8\u61c9\u8a72\u52aa\u529b\u5de5\u4f5c\u4e26\u4fdd\u6301\u6d3b\u529b\uff0c<br \/>\n\u00a0<\/p>",
+            "summary": "\u9762\u5c0d\u6027\u51a0\u72c0\u52d5\u8108\u7efc\u5408\u75c7\u4f86\u8972,\u5e73\u65e5\u641e\u7b11\u963f\r\nBob\u77403\u771f\u8d77\u30fb\u7747\u5be6\u81ea\u5df1\u5fc3\u817f\u5065\u5eb7\u30fb\u70ba\u8eab\u908a",
+            "lang": "en"
+        }
+    ]
+}

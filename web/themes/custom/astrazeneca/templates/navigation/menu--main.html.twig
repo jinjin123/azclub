@@ -52,7 +52,8 @@
           item.is_expanded ? 'menu-item--expanded',
           item.is_collapsed ? 'menu-item--collapsed',
           item.in_active_trail ? 'menu-item--active-trail',
-          item.attributes.gva_class,
+          item.in_active_trail ? 'active',
+        item.attributes.gva_class,
           class_mega_menu,
           class_columns
         ]
