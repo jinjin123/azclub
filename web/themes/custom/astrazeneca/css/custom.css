@@ -35,6 +35,24 @@ body {
   line-height: 40px;
 }
 
+.az-header_bottom .az-header_bottom_menu .gva-navigation .gva_menu_main .active a {
+  color: #eb1484;
+}
+
 .az-header_bottom .container-inline {
   float: left;
+}
+
+.az-ref-box .az-ref__title {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.az-ref-box .az-ref_hr {
+  border-top: 1px solid #b8b8b8;
+}
+
+.az-ref-box .az-ref__body {
+  color: #b8b8b8;
+  font-size: 12px;
 }
