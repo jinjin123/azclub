@@ -4,11 +4,8 @@ status: true
 dependencies:
   config:
     - field.field.node.government_support.body
-    - field.field.node.government_support.field_sp_img
-    - image.style.thumbnail
     - node.type.government_support
   module:
-    - image
     - path
     - text
 id: node.government_support.default
@@ -32,14 +29,6 @@ content:
     region: content
     settings: {  }
     third_party_settings: {  }
-  field_sp_img:
-    weight: 122
-    settings:
-      progress_indicator: throbber
-      preview_image_style: thumbnail
-    third_party_settings: {  }
-    type: image_image
-    region: content
   path:
     type: path
     weight: 30
