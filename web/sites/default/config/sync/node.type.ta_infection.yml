@@ -8,7 +8,7 @@ third_party_settings:
   menu_ui:
     available_menus: {  }
     parent: ''
-name: Infection
+name: 'TA Infection 感染/傳染病'
 type: ta_infection
 description: 'Therapeutic Area Content,  the category is Infection.'
 help: ''
