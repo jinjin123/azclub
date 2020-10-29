@@ -13,7 +13,6 @@ drush ea; drush cex -y;then push code
 
 Export: drush dcder node
 Export alias path: drush dcder path_alias
-Import alias path: drush dcdia
 Import: drush dcdi --folder='sites/default/config/content/'
 
 https://github.com/HBFCrew/default_content_deploy/blob/8.x-1.x/README.md

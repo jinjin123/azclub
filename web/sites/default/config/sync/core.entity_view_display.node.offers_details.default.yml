@@ -4,6 +4,7 @@ status: true
 dependencies:
   config:
     - field.field.node.offers_details.body
+    - field.field.node.offers_details.field_az_offers_product_logo
     - field.field.node.offers_details.field_medicine_shop_img
     - field.field.node.offers_details.field_medicine_shop_params
     - field.field.node.offers_details.field_offer_img
@@ -25,6 +26,15 @@ content:
     weight: 101
     settings: {  }
     third_party_settings: {  }
+    region: content
+  field_az_offers_product_logo:
+    weight: 106
+    label: hidden
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
     region: content
   field_medicine_shop_img:
     weight: 103
