@@ -1,17 +1,15 @@
-uuid: d6f87213-63ca-434c-9436-fc8012e4a345
+uuid: 8386c7c1-d716-4e16-a847-4a46ffe6de90
 langcode: en
 status: true
 dependencies:
   module:
-    - datetime
     - profile
-id: profile.field_birthday
-field_name: field_birthday
+id: profile.field_if_medicine_using
+field_name: field_if_medicine_using
 entity_type: profile
-type: datetime
-settings:
-  datetime_type: date
-module: datetime
+type: boolean
+settings: {  }
+module: core
 locked: false
 cardinality: 1
 translatable: true

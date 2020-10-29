@@ -34,14 +34,12 @@ module:
   entity: 0
   entity_reference_revisions: 0
   features: 0
-  features_astrazeneca: 0
   field: 0
   field_ui: 0
   file: 0
   filter: 0
   gavias_blockbuilder: 0
   gavias_sliderlayer: 0
-  gavias_view: 0
   gaviasthemer: 0
   hal: 0
   help: 0
