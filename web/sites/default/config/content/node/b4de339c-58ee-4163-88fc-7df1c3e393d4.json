@@ -1,7 +1,7 @@
 {
     "_links": {
         "self": {
-            "href": "http:\/\/default\/node\/17?_format=hal_json"
+            "href": "http:\/\/default\/OffersDetail\/17?_format=hal_json"
         },
         "type": {
             "href": "http:\/\/default\/rest\/type\/node\/offers_details"
@@ -165,7 +165,7 @@
     ],
     "changed": [
         {
-            "value": "2020-10-23T10:26:34+00:00",
+            "value": "2020-10-29T01:40:42+00:00",
             "lang": "en",
             "format": "Y-m-d\\TH:i:sP"
         }
@@ -196,8 +196,8 @@
     ],
     "path": [
         {
-            "alias": null,
-            "pid": null,
+            "alias": "\/OffersDetail\/17",
+            "pid": 70,
             "langcode": "en",
             "lang": "en"
         }

@@ -28,7 +28,7 @@ content:
     region: content
   field_medicine_shop_img:
     weight: 103
-    label: above
+    label: hidden
     settings:
       image_style: ''
       image_link: ''
@@ -38,7 +38,7 @@ content:
   field_medicine_shop_params:
     type: entity_reference_revisions_entity_view
     weight: 105
-    label: above
+    label: hidden
     settings:
       view_mode: default
       link: ''
@@ -46,7 +46,7 @@ content:
     region: content
   field_offer_img:
     weight: 102
-    label: above
+    label: hidden
     settings:
       image_style: ''
       image_link: ''
@@ -55,15 +55,15 @@ content:
     region: content
   field_offer_img_description:
     weight: 104
-    label: above
+    label: hidden
     settings: {  }
     third_party_settings: {  }
     type: text_default
     region: content
   links:
     weight: 100
+    region: content
     settings: {  }
     third_party_settings: {  }
-    region: content
 hidden:
   search_api_excerpt: true

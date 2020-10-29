@@ -16,7 +16,7 @@ mode: default
 content:
   field__clinical_trial_img:
     weight: 2
-    label: above
+    label: hidden
     settings:
       image_style: ''
       image_link: ''
@@ -25,7 +25,7 @@ content:
     region: content
   field_clinical_name:
     weight: 0
-    label: above
+    label: hidden
     settings:
       link_to_entity: false
     third_party_settings: {  }
@@ -33,7 +33,7 @@ content:
     region: content
   field_clinical_trial_description:
     weight: 1
-    label: above
+    label: hidden
     settings: {  }
     third_party_settings: {  }
     type: basic_string
