@@ -3,6 +3,7 @@
 body {
     background-color:  $head-cus!important;
 } */
+
 .az-header_top{
     .az-header_top_logo{
         float: $float-left;
@@ -49,6 +50,65 @@ body {
         float: $float-left;
     }
 }
+.az_clinical_box{
+    background-color: $color-red;
+    padding-top: 20px;
+    p{
+        width: 50%;
+        margin: auto;
+        color: white;
+        text-align: center;
+        padding-top: 10px;;
+        font-size: 12px;
+        font-weight: lighter;
+    }
+}
+.az_clinical_box > p{
+    &:nth-child(2){
+        font-size: 20px;
+        font-weight: bold;
+    }
+}
+.az_clinical_box > p{
+    &:nth-child(4){
+        width: 80px;
+        height: 10px;
+        margin-top: 20px;
+        border-radius: 10px;
+        background-color: $color-orange;
+    }
+}
+.az_clinical_bottom_box{
+    background-color: $color-gray;
+    height: 200px;
+    color: white;
+    .az__bottom_right_box{
+        width: 40%;
+        float: left;
+        margin-top: 50px;
+        margin-left: 80px ;
+        .az__bottom_right_box_title{
+            font-weight: bold;
+            font-size: 20px;
+            margin-bottom: 20px;
+        }
+        .az__bottom_right_box_body{
+            font-weight: lighter;
+        }
+    }
+    .az__bottom_left_box{
+        float: right;
+        width: 180px;
+        height: 60px;
+        border-radius: 10px;
+        text-align: center;
+        line-height: 60px;
+        background-color: $color-orange;
+        margin-top: 80px;
+        margin-right: 160px;
+}
+}
+
 .az-ref-box{
     .az-ref__title{
         font-size: 20px;
@@ -61,4 +121,24 @@ body {
         color: $color-gray;
         font-size: 12px;
     }
+}
+//医学讲座及活动
+.az-product_head{
+    margin:auto;
+    text-align: center;
+    width: 50%;
+    .az-product_head__title2{
+        font-size: 30px;
+        font-weight: bold;
+    }
+    .az-product_head__title1{
+        color: $color-gray;
+    }
+    .az-product_head__body{
+        color: $color-gray;
+    }
+}
+.az-offer_box{
+    float: left;
+    border: 1px solid black;
 }
