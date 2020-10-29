@@ -1,0 +1,146 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/default\/node\/23?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/default\/rest\/type\/node\/page"
+        },
+        "http:\/\/default\/rest\/relation\/node\/page\/revision_uid": [
+            {
+                "href": "http:\/\/default\/user\/1?_format=hal_json"
+            }
+        ],
+        "http:\/\/default\/rest\/relation\/node\/page\/uid": [
+            {
+                "href": "http:\/\/default\/user\/1?_format=hal_json",
+                "lang": "en"
+            }
+        ]
+    },
+    "uuid": [
+        {
+            "value": "4ca26a2b-2fc3-414c-b4a3-b9460a03137f"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "page"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2020-10-29T08:46:33+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/default\/rest\/relation\/node\/page\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/default\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "ad86f4f8-ab08-4ff1-be42-53e6179dd359"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/default\/rest\/relation\/node\/page\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/default\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "ad86f4f8-ab08-4ff1-be42-53e6179dd359"
+                    }
+                ],
+                "lang": "en"
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "\u81e8\u5e8a\u5be6\u9a57",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2020-10-29T08:46:06+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2020-10-29T08:46:33+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": false
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "path": [
+        {
+            "alias": null,
+            "pid": null,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "body": [
+        {
+            "value": "<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; \u6cbb\u7642\u5340\u57df<\/p>\r\n\r\n<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;\u4ec0\u9ebc\u662f\u81e8\u5e8a\u5be6\u9a57<\/p>\r\n\r\n<p>Lorem ipsum dolor\u5750\u4e86\u9069\u6642\uff0c\u5f9e\u90a3\u88e1\u958b\u59cb\u5c31\u53ef\u4ee5\u5403\u6771\u897f\u4e86\uff0c\u4f46\u662f\u6211\u540c\u610f\uff0c\u591a\u5e74\u4f86\uff0c\u6240\u6709eiusmod\u90fd\u61c9\u8a72\u9577\u58fd\u4e26\u5145\u6eff\u6d3b\u529b\uff0c\u9019\u6a23\uff0claboret doloremagna aliqua.Ut\u624d\u6703\u958b\u59cb\u935b\u7149\uff0c\u4ee5\u4fbf\u5f9eeacommodo\u90a3\u88e1\u5f97\u5230\u7684\u5b78\u8cbb\u5f9e\u4e2d\u5f97\u5230\uff0c\u800c\u5f9eeacommodo\u90a3\u88e1\u5f97\u5230\u7684\u5c31\u7b97\u662f\u9069\u7576\u7684\u3002 eiusmod\u7684\u6240\u6709\u6b72\u6708\u90fd\u6703\u4f7f\u5979\u53d7\u76ca\u65bc\u4efb\u4f55\u4e00\u9805\u6709\u7bc0\u5236\u7684\u7d50\u5be6\u935b\u7149\u7684\u597d\u8655\uff0c\u4ee5\u4fbf\u5728\u5b78\u5340\u548c\u9577\u58fd\u7684\u60c5\u6cc1\u4e0b\u505a\u51fa\u523a\u6fc0\u6027\u7684\u52aa\u529b\u3002 Lorem ipsum dolor\u5750\u8457\u4e0d\u52d5\uff0c\u5403\u4e9b\u8f9b\u8fa3\u7684\u7cbe\u6cb9\uff0c\u4f46\u662f\u8f9b\u82e6\u52de\u4f5ceiusmod\u548c\u4fdd\u6301\u7cbe\u529b\u65fa\u76db\uff0c\u9019\u662f\u4e00\u500b\u9577\u671f\u7684\u8271\u82e6\u5617\u8a66\u3002\u9019\u4e9b\u5e74\u4f86\uff0c\u6240\u6709\u9019\u4e9b\u90fd\u5c07\u4f7f\u5979\u53d7\u76ca\u65bc\u4efb\u4f55\u4e00\u9805alquip nostrud\u935b\u7149\uff08ullamcolaboris\uff09\u7684\u512a\u52e2\uff0c\u4f46\u9019\u662f\u4e00\u500b\u554f\u984c\u3002 Lorem\u975e\u5e38\u80e1\u863f\u8514\uff0c\u589e\u52a0\u4e86\u56de\u6263\uff0c\u4f46\u662f\u5b83\u5011\u78ba\u5be6\u5f88\u9577\u4e00\u6bb5\u6642\u9593\u4e26\u4e14\u5177\u6709\u751f\u547d\u529b\uff0c\u4f8b\u5982Minneapolis\u7684\u80e1\u863f\u8514\u3002<\/p>\r\n",
+            "format": "basic_html",
+            "processed": "<p>\u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u6cbb\u7642\u5340\u57df<\/p>\n\n<p>\u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0\u4ec0\u9ebc\u662f\u81e8\u5e8a\u5be6\u9a57<\/p>\n\n<p>Lorem ipsum dolor\u5750\u4e86\u9069\u6642\uff0c\u5f9e\u90a3\u88e1\u958b\u59cb\u5c31\u53ef\u4ee5\u5403\u6771\u897f\u4e86\uff0c\u4f46\u662f\u6211\u540c\u610f\uff0c\u591a\u5e74\u4f86\uff0c\u6240\u6709eiusmod\u90fd\u61c9\u8a72\u9577\u58fd\u4e26\u5145\u6eff\u6d3b\u529b\uff0c\u9019\u6a23\uff0claboret doloremagna aliqua.Ut\u624d\u6703\u958b\u59cb\u935b\u7149\uff0c\u4ee5\u4fbf\u5f9eeacommodo\u90a3\u88e1\u5f97\u5230\u7684\u5b78\u8cbb\u5f9e\u4e2d\u5f97\u5230\uff0c\u800c\u5f9eeacommodo\u90a3\u88e1\u5f97\u5230\u7684\u5c31\u7b97\u662f\u9069\u7576\u7684\u3002 eiusmod\u7684\u6240\u6709\u6b72\u6708\u90fd\u6703\u4f7f\u5979\u53d7\u76ca\u65bc\u4efb\u4f55\u4e00\u9805\u6709\u7bc0\u5236\u7684\u7d50\u5be6\u935b\u7149\u7684\u597d\u8655\uff0c\u4ee5\u4fbf\u5728\u5b78\u5340\u548c\u9577\u58fd\u7684\u60c5\u6cc1\u4e0b\u505a\u51fa\u523a\u6fc0\u6027\u7684\u52aa\u529b\u3002 Lorem ipsum dolor\u5750\u8457\u4e0d\u52d5\uff0c\u5403\u4e9b\u8f9b\u8fa3\u7684\u7cbe\u6cb9\uff0c\u4f46\u662f\u8f9b\u82e6\u52de\u4f5ceiusmod\u548c\u4fdd\u6301\u7cbe\u529b\u65fa\u76db\uff0c\u9019\u662f\u4e00\u500b\u9577\u671f\u7684\u8271\u82e6\u5617\u8a66\u3002\u9019\u4e9b\u5e74\u4f86\uff0c\u6240\u6709\u9019\u4e9b\u90fd\u5c07\u4f7f\u5979\u53d7\u76ca\u65bc\u4efb\u4f55\u4e00\u9805alquip nostrud\u935b\u7149\uff08ullamcolaboris\uff09\u7684\u512a\u52e2\uff0c\u4f46\u9019\u662f\u4e00\u500b\u554f\u984c\u3002 Lorem\u975e\u5e38\u80e1\u863f\u8514\uff0c\u589e\u52a0\u4e86\u56de\u6263\uff0c\u4f46\u662f\u5b83\u5011\u78ba\u5be6\u5f88\u9577\u4e00\u6bb5\u6642\u9593\u4e26\u4e14\u5177\u6709\u751f\u547d\u529b\uff0c\u4f8b\u5982Minneapolis\u7684\u80e1\u863f\u8514\u3002<\/p>",
+            "summary": "",
+            "lang": "en"
+        }
+    ]
+}
