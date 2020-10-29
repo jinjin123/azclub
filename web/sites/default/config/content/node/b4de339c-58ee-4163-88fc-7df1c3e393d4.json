@@ -17,6 +17,11 @@
                 "lang": "en"
             }
         ],
+        "http:\/\/default\/rest\/relation\/node\/offers_details\/field_az_offers_product_logo": [
+            {
+                "href": "http:\/\/default\/sites\/default\/files\/2020-10\/2020-10-26_15-08_1_7.png"
+            }
+        ],
         "http:\/\/default\/rest\/relation\/node\/offers_details\/field_medicine_shop_img": [
             {
                 "href": "http:\/\/default\/sites\/default\/files\/2020-10\/2020-10-15_16-19_0.png"
@@ -91,6 +96,23 @@
                 "lang": "en"
             }
         ],
+        "http:\/\/default\/rest\/relation\/node\/offers_details\/field_az_offers_product_logo": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/sites\/default\/files\/2020-10\/2020-10-26_15-08_1_7.png"
+                    },
+                    "type": {
+                        "href": "http:\/\/default\/rest\/type\/file\/file"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "6e4dfe49-c8e6-40fc-992a-b22c9a39c8c4"
+                    }
+                ]
+            }
+        ],
         "http:\/\/default\/rest\/relation\/node\/offers_details\/field_medicine_shop_img": [
             {
                 "_links": {
@@ -152,7 +174,7 @@
     ],
     "title": [
         {
-            "value": "\u5169\u76d2\u88dd\u512a\u60e0\uff08\u9644\u7279\u9078\u85e5\u623f\u8cc7\u8a0a\uff09",
+            "value": "\u5169\u76d2\u88dd\u512a\u60e0  (\u9644\u7279\u9078\u85e5\u623f\u8cc7\u8a0a)",
             "lang": "en"
         }
     ],
@@ -165,7 +187,7 @@
     ],
     "changed": [
         {
-            "value": "2020-10-29T01:57:16+00:00",
+            "value": "2020-10-29T02:45:33+00:00",
             "lang": "en",
             "format": "Y-m-d\\TH:i:sP"
         }

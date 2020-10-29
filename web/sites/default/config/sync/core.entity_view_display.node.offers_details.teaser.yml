@@ -5,6 +5,7 @@ dependencies:
   config:
     - core.entity_view_mode.node.teaser
     - field.field.node.offers_details.body
+    - field.field.node.offers_details.field_az_offers_product_logo
     - field.field.node.offers_details.field_medicine_shop_img
     - field.field.node.offers_details.field_medicine_shop_params
     - field.field.node.offers_details.field_offer_img
@@ -32,6 +33,7 @@ content:
     third_party_settings: {  }
     region: content
 hidden:
+  field_az_offers_product_logo: true
   field_medicine_shop_img: true
   field_medicine_shop_params: true
   field_offer_img: true
