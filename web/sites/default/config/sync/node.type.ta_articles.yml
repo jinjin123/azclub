@@ -8,7 +8,7 @@ third_party_settings:
   menu_ui:
     available_menus: {  }
     parent: ''
-name: 'TA Articles'
+name: 'TA Articles （將要被刪除）'
 type: ta_articles
 description: 'Therapeutic Area Articles'
 help: ''

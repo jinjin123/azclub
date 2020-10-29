@@ -8,7 +8,7 @@ third_party_settings:
   menu_ui:
     available_menus: {  }
     parent: ''
-name: 'Health Information'
+name: 'Health Information 健康資訊'
 type: health_information
 description: 'Health Information Content'
 help: ''
