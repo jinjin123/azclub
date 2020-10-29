@@ -37,10 +37,28 @@ body {
                         }
                     }
                 }
+                .active{
+                    a{
+                        color: $color-red;
+                    }
+                }
             }
         }
     }
     .container-inline{
         float: $float-left;
+    }
+}
+.az-ref-box{
+    .az-ref__title{
+        font-size: 20px;
+        font-weight: bold;
+    }
+    .az-ref_hr{
+        border-top: 1px solid $color-gray;
+    }
+    .az-ref__body{
+        color: $color-gray;
+        font-size: 12px;
     }
 }

@@ -5,7 +5,6 @@ dependencies:
   config:
     - core.entity_view_mode.node.teaser
     - field.field.node.az_health_tips.body
-    - field.field.node.az_health_tips.field_az_health_img
     - field.field.node.az_health_tips.field_medical_tag
     - node.type.az_health_tips
   module:
@@ -30,6 +29,5 @@ content:
     third_party_settings: {  }
     region: content
 hidden:
-  field_az_health_img: true
   field_medical_tag: true
   search_api_excerpt: true

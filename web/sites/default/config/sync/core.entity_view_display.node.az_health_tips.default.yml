@@ -4,11 +4,9 @@ status: true
 dependencies:
   config:
     - field.field.node.az_health_tips.body
-    - field.field.node.az_health_tips.field_az_health_img
     - field.field.node.az_health_tips.field_medical_tag
     - node.type.az_health_tips
   module:
-    - image
     - text
     - user
 id: node.az_health_tips.default
@@ -22,15 +20,6 @@ content:
     weight: 101
     settings: {  }
     third_party_settings: {  }
-    region: content
-  field_az_health_img:
-    weight: 102
-    label: hidden
-    settings:
-      image_style: ''
-      image_link: ''
-    third_party_settings: {  }
-    type: image
     region: content
   field_medical_tag:
     weight: 103

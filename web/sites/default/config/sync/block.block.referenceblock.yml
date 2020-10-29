@@ -24,7 +24,7 @@ settings:
   id: 'block_content:66d9cc7f-d1cb-4bf5-a977-5e18e750c8da'
   label: 參考：
   provider: block_content
-  label_display: visible
+  label_display: '0'
   status: true
   info: ''
   view_mode: full
@@ -35,5 +35,5 @@ visibility:
     block_visibility_group: ''
   request_path:
     id: request_path
-    pages: "/clinical-trial-portal\r\n/goverment_support\r\n/latest-news/*\r\n/Clinical/search-result"
+    pages: "/clinical-trial-portal\r\n/goverment_support\r\n/latest-news/*\r\n/Clinical/search-result\r\n/az-health-club/*"
     negate: false

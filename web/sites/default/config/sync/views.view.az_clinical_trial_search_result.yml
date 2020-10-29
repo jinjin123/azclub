@@ -13,7 +13,7 @@ dependencies:
     - 'taxonomy_term:tumor_tag:ebee86ee-4c80-44e7-a7cb-dad13b614a71'
   module:
     - better_exposed_filters
-    - image_url_formatter
+    - image
     - node
     - paragraphs
     - taxonomy
@@ -203,9 +203,8 @@ display:
           empty_zero: false
           hide_alter_empty: true
           click_sort_column: target_id
-          type: image_url
+          type: image
           settings:
-            url_type: '1'
             image_style: ''
             image_link: ''
           group_column: ''
@@ -297,7 +296,7 @@ display:
           exclude: false
           alter:
             alter_text: true
-            text: "<div class=\"az-clinical_box\">\r\n  <div class=\"az-clinical_img col-md-4\">\r\n        <img src=\"{{field_az_clinical_page_image}}\">\r\n  </div>\r\n  <div class=\"az-clinical_body col-md-4\">\r\n     <div class=\"az-clinical_body_title\">\r\n       {{ title }}\r\n    </div>\r\n    <div class=\"az-clinical_body_desc\">\r\n      {{ body}}\r\n    </div>\r\n  </div>\r\n   <div class=\"az-oclinical_time_bottom col-md-2\">\r\n     <span>{{ created }}</span>\r\n  </div>\r\n</div>"
+            text: "<div class=\"az-clinical_box\">\r\n  <div class=\"az-clinical_img col-md-4\">\r\n        {{field_az_clinical_page_image}}\r\n  </div>\r\n  <div class=\"az-clinical_body col-md-4\">\r\n     <div class=\"az-clinical_body_title\">\r\n       {{ title }}\r\n    </div>\r\n    <div class=\"az-clinical_body_desc\">\r\n      {{ body}}\r\n    </div>\r\n  </div>\r\n   <div class=\"az-oclinical_time_bottom col-md-2\">\r\n     <span>{{ created }}</span>\r\n  </div>\r\n</div>"
             make_link: false
             path: ''
             absolute: false
@@ -699,7 +698,7 @@ display:
           exclude: false
           alter:
             alter_text: true
-            text: "<div class=\"az-product_term_box\">\r\n    <div class=\"az-product_term_img\"> \r\n        <img src=\"{{ field_field_az_clinical_param_lo }}\">\r\n</div>\r\n<div class=\"az-product_term_info\">\r\n     <span>{{field_az_conditions_term}}</span>\r\n</div>\r\n</div>"
+            text: "<div class=\"az-product_term_box\">\r\n    <div class=\"az-product_term_img\"> \r\n       {{ field_field_az_clinical_param_lo }}\r\n</div>\r\n<div class=\"az-product_term_info\">\r\n     <span>{{field_az_conditions_term}}</span>\r\n</div>\r\n</div>"
             make_link: false
             path: ''
             absolute: false
@@ -737,9 +736,8 @@ display:
           empty_zero: false
           hide_alter_empty: true
           click_sort_column: target_id
-          type: image_url
+          type: image
           settings:
-            url_type: '0'
             image_style: ''
             image_link: ''
           group_column: ''
