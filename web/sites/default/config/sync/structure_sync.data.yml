@@ -228,18 +228,6 @@ menus:
     uuid: 5575a420-054e-4fee-9bb0-2d57008900ba
   -
     menu_name: main
-    title: 臨床實驗
-    parent: null
-    uri: 'entity:node/15'
-    link_title: ''
-    description: null
-    enabled: '1'
-    expanded: '0'
-    weight: '-46'
-    langcode: en
-    uuid: 233aa97f-df59-4969-8ec4-fb18ab0f3073
-  -
-    menu_name: main
     title: 產品資訊
     parent: null
     uri: 'internal:#'

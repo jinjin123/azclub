@@ -1,7 +1,15 @@
 azhealthclub_modify.contact:
-  path: '/azhealthclub_modify/contact'
+  path: '/azhealthclub/contact'
   defaults:
     _controller: '\Drupal\azhealthclub_modify\Controller\ContactController::index'
+    _title: ''
+  requirements:
+    _permission: 'access content'
+
+azhealthclub_modify.clinicalsearch:
+  path: '/azhealthclub/clinical-search'
+  defaults:
+    _controller: '\Drupal\azhealthclub_modify\Controller\ClinicalSearchResultController::index'
     _title: ''
   requirements:
     _permission: 'access content'

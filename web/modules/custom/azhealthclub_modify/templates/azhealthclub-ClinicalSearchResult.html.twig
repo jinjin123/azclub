@@ -1,0 +1,7 @@
+<div class="az-clinical-result">
+  {{ drupal_entity('node',23) }}
+  {{ drupal_block("az_clinical_filter_block") }}
+  <div class="az-clinical-result-content">
+    {{ drupal_view('az_clinical_trial_search_result','clinical_search') }}
+  </div>
+</div>
