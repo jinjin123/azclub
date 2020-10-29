@@ -143,3 +143,7 @@ body {
   float: left;
   border: 1px solid black;
 }
+
+.az-offer_box .az-offer_body {
+  clear: both;
+}

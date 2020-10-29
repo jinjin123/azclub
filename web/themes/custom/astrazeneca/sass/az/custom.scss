@@ -141,4 +141,7 @@ body {
 .az-offer_box{
     float: left;
     border: 1px solid black;
+    .az-offer_body{
+        clear: both;
+    }
 }
