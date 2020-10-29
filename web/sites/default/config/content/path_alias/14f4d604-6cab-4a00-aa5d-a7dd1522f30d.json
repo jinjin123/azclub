@@ -1,0 +1,35 @@
+{
+    "_links": {
+        "self": {
+            "href": ""
+        },
+        "type": {
+            "href": "http:\/\/default\/rest\/type\/path_alias\/path_alias"
+        }
+    },
+    "uuid": [
+        {
+            "value": "14f4d604-6cab-4a00-aa5d-a7dd1522f30d"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en"
+        }
+    ],
+    "path": [
+        {
+            "value": "\/webform\/newsletter_subscription"
+        }
+    ],
+    "alias": [
+        {
+            "value": "\/form\/newsletter-subscription"
+        }
+    ],
+    "status": [
+        {
+            "value": true
+        }
+    ]
+}

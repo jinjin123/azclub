@@ -1,0 +1,35 @@
+{
+    "_links": {
+        "self": {
+            "href": ""
+        },
+        "type": {
+            "href": "http:\/\/default\/rest\/type\/path_alias\/path_alias"
+        }
+    },
+    "uuid": [
+        {
+            "value": "ce327224-ff76-4bf4-8e47-d5ff3cf25694"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "und"
+        }
+    ],
+    "path": [
+        {
+            "value": "\/webform\/guanzhongguankanliangduanxinzang"
+        }
+    ],
+    "alias": [
+        {
+            "value": "\/form\/guanzhongguankanliangduanxinzang"
+        }
+    ],
+    "status": [
+        {
+            "value": true
+        }
+    ]
+}

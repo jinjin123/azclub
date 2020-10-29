@@ -1,0 +1,35 @@
+{
+    "_links": {
+        "self": {
+            "href": ""
+        },
+        "type": {
+            "href": "http:\/\/default\/rest\/type\/path_alias\/path_alias"
+        }
+    },
+    "uuid": [
+        {
+            "value": "511f73f2-3788-480e-8490-7145a02ec4bd"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en"
+        }
+    ],
+    "path": [
+        {
+            "value": "\/node\/3"
+        }
+    ],
+    "alias": [
+        {
+            "value": "\/privacy"
+        }
+    ],
+    "status": [
+        {
+            "value": true
+        }
+    ]
+}

@@ -1,0 +1,35 @@
+{
+    "_links": {
+        "self": {
+            "href": ""
+        },
+        "type": {
+            "href": "http:\/\/default\/rest\/type\/path_alias\/path_alias"
+        }
+    },
+    "uuid": [
+        {
+            "value": "4b5498df-e618-4b3d-99aa-371998871e93"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "und"
+        }
+    ],
+    "path": [
+        {
+            "value": "\/webform\/contact"
+        }
+    ],
+    "alias": [
+        {
+            "value": "\/form\/contact"
+        }
+    ],
+    "status": [
+        {
+            "value": true
+        }
+    ]
+}
