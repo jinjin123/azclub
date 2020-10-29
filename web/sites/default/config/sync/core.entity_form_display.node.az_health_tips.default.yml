@@ -4,12 +4,9 @@ status: true
 dependencies:
   config:
     - field.field.node.az_health_tips.body
-    - field.field.node.az_health_tips.field_az_health_img
     - field.field.node.az_health_tips.field_medical_tag
-    - image.style.thumbnail
     - node.type.az_health_tips
   module:
-    - image
     - path
     - text
 id: node.az_health_tips.default
@@ -33,14 +30,6 @@ content:
     region: content
     settings: {  }
     third_party_settings: {  }
-  field_az_health_img:
-    weight: 122
-    settings:
-      progress_indicator: throbber
-      preview_image_style: thumbnail
-    third_party_settings: {  }
-    type: image_image
-    region: content
   field_medical_tag:
     weight: 123
     settings:
