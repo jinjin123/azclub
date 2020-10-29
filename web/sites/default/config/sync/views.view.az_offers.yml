@@ -3,8 +3,8 @@ langcode: en
 status: true
 dependencies:
   config:
+    - field.storage.node.body
     - field.storage.node.field_offer_img
-    - field.storage.node.field_offer_img_description
     - node.type.offers_details
   module:
     - image
@@ -251,10 +251,10 @@ display:
           absolute: false
           entity_type: node
           plugin_id: entity_link
-        field_offer_img_description:
-          id: field_offer_img_description
-          table: node__field_offer_img_description
-          field: field_offer_img_description
+        body:
+          id: body
+          table: node__body
+          field: body
           relationship: none
           group_type: group
           admin_label: ''
@@ -262,7 +262,7 @@ display:
           exclude: false
           alter:
             alter_text: true
-            text: "<div class=\"az-offer_box\">\r\n  <div class=\"az-offer_img col-md-6\">\r\n        {{ field_offer_img }}\r\n  </div>\r\n  <div class=\"az-offer_body col-md-4\">\r\n     <div class=\"az-offer_body_title\">\r\n       {{ title }}\r\n    </div>\r\n    <div class=\"az-offer_body_desc\">\r\n      {{ field_offer_img_description}}\r\n    </div>\r\n  </div>\r\n   <div class=\"az-offer_click_bottom col-md-2\">\r\n     <a href=\"{{ view_node }}\">了解更多</a>\r\n  </div>\r\n</div>"
+            text: "<div class=\"az-offer_box\">\r\n  <div class=\"az-offer_img col-md-6\">\r\n        {{ field_offer_img }}\r\n  </div>\r\n  <div class=\"az-offer_body col-md-4\">\r\n     <div class=\"az-offer_body_title\">\r\n       {{ title }}\r\n    </div>\r\n    <div class=\"az-offer_body_desc\">\r\n      {{ body__summary}}\r\n    </div>\r\n  </div>\r\n   <div class=\"az-offer_click_bottom col-md-2\">\r\n     <a href=\"{{ view_node }}\">了解更多</a>\r\n  </div>\r\n</div>"
             make_link: false
             path: ''
             absolute: false
@@ -277,9 +277,9 @@ display:
             suffix: ''
             target: ''
             nl2br: false
-            max_length: 100
+            max_length: 0
             word_boundary: true
-            ellipsis: false
+            ellipsis: true
             more_link: false
             more_link_text: ''
             more_link_path: ''
@@ -392,8 +392,8 @@ display:
         - 'user.node_grants:view'
         - user.permissions
       tags:
+        - 'config:field.storage.node.body'
         - 'config:field.storage.node.field_offer_img'
-        - 'config:field.storage.node.field_offer_img_description'
   offers:
     display_plugin: page
     id: offers
@@ -411,5 +411,5 @@ display:
         - 'user.node_grants:view'
         - user.permissions
       tags:
+        - 'config:field.storage.node.body'
         - 'config:field.storage.node.field_offer_img'
-        - 'config:field.storage.node.field_offer_img_description'
