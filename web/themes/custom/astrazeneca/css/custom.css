@@ -43,6 +43,16 @@ body {
   float: left;
 }
 
+.az_clinical_box {
+  background-color: #eb1484;
+}
+
+.az_clinical_box p {
+  color: white;
+  text-align: center;
+  padding-top: 10px;
+}
+
 .az-ref-box .az-ref__title {
   font-size: 20px;
   font-weight: bold;
