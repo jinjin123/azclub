@@ -7,7 +7,7 @@ dependencies:
     - field.storage.node.field_az_author_img
     - node.type.az_latest_news
   module:
-    - image_url_formatter
+    - image
     - node
     - text
     - user
@@ -179,9 +179,8 @@ display:
           empty_zero: false
           hide_alter_empty: true
           click_sort_column: target_id
-          type: image_url
+          type: image
           settings:
-            url_type: '1'
             image_style: ''
             image_link: ''
           group_column: ''
@@ -352,7 +351,7 @@ display:
           expose:
             label: ''
           granularity: second
-      title: 'AZ Latest News'
+      title: ''
       header:
         area_text_custom:
           id: area_text_custom
@@ -394,7 +393,7 @@ display:
   page_1:
     display_plugin: page
     id: page_1
-    display_title: 'LATEST News'
+    display_title: 'LATEST News Talk '
     position: 1
     display_options:
       display_extenders: {  }
