@@ -1,4 +1,4 @@
-uuid: b5933509-7bf7-48b4-a1de-69dbe018f65e
+uuid: 36e50369-1ae1-474c-b2c3-87b83afbdd64
 langcode: en
 status: true
 dependencies:
@@ -12,15 +12,15 @@ dependencies:
 third_party_settings:
   gaviasthemer:
     classes: ''
-id: quicktabstaarticles
+id: quicktabshealthinformation
 theme: astrazeneca
 region: content
-weight: -9
+weight: -8
 provider: null
-plugin: 'quicktabs_block:ta_articles'
+plugin: 'quicktabs_block:health_information'
 settings:
-  id: 'quicktabs_block:ta_articles'
-  label: 'QuickTabs - TA Articles'
+  id: 'quicktabs_block:health_information'
+  label: 'QuickTabs - Health Information'
   provider: quicktabs
   label_display: '0'
 visibility:
@@ -30,5 +30,5 @@ visibility:
     block_visibility_group: ''
   request_path:
     id: request_path
-    pages: '<front>'
+    pages: /health-information
     negate: false
