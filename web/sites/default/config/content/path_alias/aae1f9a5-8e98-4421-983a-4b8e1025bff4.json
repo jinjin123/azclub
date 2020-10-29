@@ -1,0 +1,35 @@
+{
+    "_links": {
+        "self": {
+            "href": ""
+        },
+        "type": {
+            "href": "http:\/\/default\/rest\/type\/path_alias\/path_alias"
+        }
+    },
+    "uuid": [
+        {
+            "value": "aae1f9a5-8e98-4421-983a-4b8e1025bff4"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en"
+        }
+    ],
+    "path": [
+        {
+            "value": "\/node\/20"
+        }
+    ],
+    "alias": [
+        {
+            "value": "\/Clinical\/result\/20"
+        }
+    ],
+    "status": [
+        {
+            "value": true
+        }
+    ]
+}

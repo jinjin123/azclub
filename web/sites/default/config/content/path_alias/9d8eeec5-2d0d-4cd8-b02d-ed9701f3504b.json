@@ -1,0 +1,35 @@
+{
+    "_links": {
+        "self": {
+            "href": ""
+        },
+        "type": {
+            "href": "http:\/\/default\/rest\/type\/path_alias\/path_alias"
+        }
+    },
+    "uuid": [
+        {
+            "value": "9d8eeec5-2d0d-4cd8-b02d-ed9701f3504b"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en"
+        }
+    ],
+    "path": [
+        {
+            "value": "\/node\/16"
+        }
+    ],
+    "alias": [
+        {
+            "value": "\/goverment_support"
+        }
+    ],
+    "status": [
+        {
+            "value": true
+        }
+    ]
+}

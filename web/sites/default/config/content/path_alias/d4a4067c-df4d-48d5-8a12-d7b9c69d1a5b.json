@@ -1,0 +1,35 @@
+{
+    "_links": {
+        "self": {
+            "href": ""
+        },
+        "type": {
+            "href": "http:\/\/default\/rest\/type\/path_alias\/path_alias"
+        }
+    },
+    "uuid": [
+        {
+            "value": "d4a4067c-df4d-48d5-8a12-d7b9c69d1a5b"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en"
+        }
+    ],
+    "path": [
+        {
+            "value": "\/node\/15"
+        }
+    ],
+    "alias": [
+        {
+            "value": "\/clinical-trial-portal"
+        }
+    ],
+    "status": [
+        {
+            "value": true
+        }
+    ]
+}

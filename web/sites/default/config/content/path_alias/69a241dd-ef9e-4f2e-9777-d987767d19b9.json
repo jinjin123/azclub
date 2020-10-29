@@ -1,0 +1,35 @@
+{
+    "_links": {
+        "self": {
+            "href": ""
+        },
+        "type": {
+            "href": "http:\/\/default\/rest\/type\/path_alias\/path_alias"
+        }
+    },
+    "uuid": [
+        {
+            "value": "69a241dd-ef9e-4f2e-9777-d987767d19b9"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en"
+        }
+    ],
+    "path": [
+        {
+            "value": "\/node\/17"
+        }
+    ],
+    "alias": [
+        {
+            "value": "\/OffersDetail\/17"
+        }
+    ],
+    "status": [
+        {
+            "value": true
+        }
+    ]
+}
