@@ -4,7 +4,6 @@ status: true
 dependencies:
   config:
     - field.field.node.az_health_tips.body
-    - field.field.node.az_health_tips.field_medical_tag
     - node.type.az_health_tips
   module:
     - text
@@ -20,14 +19,6 @@ content:
     weight: 101
     settings: {  }
     third_party_settings: {  }
-    region: content
-  field_medical_tag:
-    weight: 103
-    label: hidden
-    settings:
-      link: true
-    third_party_settings: {  }
-    type: entity_reference_label
     region: content
   links:
     weight: 100

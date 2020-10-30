@@ -4,7 +4,6 @@ status: true
 dependencies:
   config:
     - field.field.node.az_health_tips.body
-    - field.field.node.az_health_tips.field_medical_tag
     - node.type.az_health_tips
   module:
     - path
@@ -30,16 +29,6 @@ content:
     region: content
     settings: {  }
     third_party_settings: {  }
-  field_medical_tag:
-    weight: 123
-    settings:
-      match_operator: CONTAINS
-      match_limit: 10
-      size: 60
-      placeholder: ''
-    third_party_settings: {  }
-    type: entity_reference_autocomplete
-    region: content
   path:
     type: path
     weight: 30

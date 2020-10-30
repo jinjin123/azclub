@@ -6,13 +6,12 @@ dependencies:
     - menu_ui
 third_party_settings:
   menu_ui:
-    available_menus:
-      - main
-    parent: 'main:'
-name: 'AZ Medical Article & health tips'
+    available_menus: {  }
+    parent: ''
+name: 'AZ Health tips'
 type: az_health_tips
 description: ''
 help: ''
-new_revision: true
+new_revision: false
 preview_mode: 1
 display_submitted: false
