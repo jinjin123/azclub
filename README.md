@@ -20,6 +20,10 @@ dush dcde node
 ```
 dush dcder node
 ```
+>Export single node
+```
+drush dcde node --entity_id=1,2,3...
+```
 >Export all site content, except block_content,menu_link_content,taxonomy_term,user,
 and rmove the content not used in the site.
 ```
