@@ -5,7 +5,7 @@ dependencies:
   config:
     - field.storage.paragraph.field_az_conditions_term
     - paragraphs.paragraphs_type.clinical_trial_portal_logo_param
-    - taxonomy.vocabulary.tumor_tag
+    - taxonomy.vocabulary.ta_type
 id: paragraph.clinical_trial_portal_logo_param.field_az_conditions_term
 field_name: field_az_conditions_term
 entity_type: paragraph
@@ -20,7 +20,7 @@ settings:
   handler: 'default:taxonomy_term'
   handler_settings:
     target_bundles:
-      tumor_tag: tumor_tag
+      ta_type: ta_type
     sort:
       field: name
       direction: asc
