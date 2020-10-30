@@ -26892,6 +26892,36 @@ body {
     .az-offer_box .az-offer_click_bottom a {
       color: white; }
 
+.az-clinical-bgimg {
+  height: 200px;
+  background-color: #eb1484; }
+  .az-clinical-bgimg .az-clinical-bgfrontblock {
+    text-align: center; }
+  .az-clinical-bgimg .az-clinical-search-block {
+    display: block;
+    text-align: center;
+    background-color: white;
+    width: 80%;
+    position: relative;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 50px;
+    height: 200px;
+    box-shadow: 6px 6px 5px #d0c9c9;
+    border-radius: 8px; }
+    .az-clinical-bgimg .az-clinical-search-block .az-clinical__search_body .az-search-clinical-type {
+      width: 25%; }
+    .az-clinical-bgimg .az-clinical-search-block .az-clinical__search_body .az-search-clinical-age {
+      width: 20%; }
+    .az-clinical-bgimg .az-clinical-search-block .az-clinical__search_body .az-search-clinical-sex {
+      width: 20%; }
+    .az-clinical-bgimg .az-clinical-search-block .az-clinical__search_body .az-search-button {
+      width: 25%;
+      border-radius: 5px;
+      background-color: #eb1484;
+      border: 2px solid #eb1484;
+      margin-left: 10px; }
+
 @charset "UTF-8";
 /*!
  *  Font Awesome 4.7.0 by @davegandy - http://fontawesome.io - @fontawesome
@@ -30116,7 +30146,7 @@ a {
   color: #222222;
   text-decoration: none; }
   a:hover, a:focus {
-    color: #179BB2;
+    color: #01B6EF;
     text-decoration: none; }
 
 figure {
@@ -30304,10 +30334,10 @@ mark,
   color: #777777; }
 
 .text-primary {
-  color: #179BB2; }
+  color: #01B6EF; }
 
 a.text-primary:hover {
-  color: #117485; }
+  color: #018fbc; }
 
 .text-success {
   color: #468847; }
@@ -30337,10 +30367,10 @@ a.text-danger:hover {
   color: #fff; }
 
 .bg-primary {
-  background-color: #179BB2; }
+  background-color: #01B6EF; }
 
 a.bg-primary:hover {
-  background-color: #117485; }
+  background-color: #018fbc; }
 
 .bg-success {
   background-color: #dff0d8; }
@@ -31915,7 +31945,7 @@ fieldset[disabled] .btn {
   .btn-link, .btn-link:hover, .btn-link:focus, .btn-link:active {
     border-color: transparent; }
   .btn-link:hover, .btn-link:focus {
-    color: #179BB2;
+    color: #01B6EF;
     text-decoration: underline;
     background-color: transparent; }
   .btn-link[disabled]:hover, .btn-link[disabled]:focus,
