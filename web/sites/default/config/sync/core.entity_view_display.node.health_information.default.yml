@@ -4,6 +4,7 @@ status: true
 dependencies:
   config:
     - field.field.node.health_information.body
+    - field.field.node.health_information.field_refers
     - field.field.node.health_information.field_ta_type
     - node.type.health_information
   module:
@@ -20,6 +21,13 @@ content:
     weight: 1
     settings: {  }
     third_party_settings: {  }
+    region: content
+  field_refers:
+    weight: 2
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
     region: content
   links:
     weight: 0

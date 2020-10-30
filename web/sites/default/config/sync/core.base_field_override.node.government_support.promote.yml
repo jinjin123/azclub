@@ -1,0 +1,22 @@
+uuid: 67a375e9-bc84-4387-8e1e-c073234c5a94
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.government_support
+id: node.government_support.promote
+field_name: promote
+entity_type: node
+bundle: government_support
+label: 'Promoted to front page'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean
