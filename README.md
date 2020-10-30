@@ -10,13 +10,25 @@ drush ea; drush cex -y;then push code
 
 #we use default_content_deploy module sync some other entity content, like node...
 #the document about how to use default_content_deploy
-
-Export: drush dcder node
-Export alias path: drush dcder path_alias
-Import: drush dcdi --folder='sites/default/config/content/'
-
 https://github.com/HBFCrew/default_content_deploy/blob/8.x-1.x/README.md
 
+>Export node
+```
+dush dcde node
+```
+>Export node and its relation entity
+```
+dush dcder node
+```
+>Export all site content, except block_content,menu_link_content,taxonomy_term,user,
+and rmove the content not used in the site.
+```
+drush dcdes  --skip_entity_type=block_content,menu_link_content,taxonomy_term,user --force-update
+```
+>Import, if you want ovirride your site content, add the option --force-override
+```
+drush dcdi --folder='sites/default/config/content/'
+```
 
 #before you work
 
