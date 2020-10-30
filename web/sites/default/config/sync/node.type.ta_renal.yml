@@ -8,7 +8,7 @@ third_party_settings:
   menu_ui:
     available_menus: {  }
     parent: ''
-name: Renal
+name: 'TA Renal 腎病'
 type: ta_renal
 description: 'Therapeutic Area Content,  the category is Renal.'
 help: ''

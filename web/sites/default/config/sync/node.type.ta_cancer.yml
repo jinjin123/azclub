@@ -8,7 +8,7 @@ third_party_settings:
   menu_ui:
     available_menus: {  }
     parent: ''
-name: Cancer
+name: 'TA Cancer 癌症'
 type: ta_cancer
 description: 'Therapeutic Area Content,  the category is Cancer.'
 help: ''

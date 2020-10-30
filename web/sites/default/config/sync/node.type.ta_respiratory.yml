@@ -8,7 +8,7 @@ third_party_settings:
   menu_ui:
     available_menus: {  }
     parent: ''
-name: Respiratory
+name: 'TA Respiratory 呼吸系統疾病'
 type: ta_respiratory
 description: 'Therapeutic Area Content,  the category is Respiratory.'
 help: ''

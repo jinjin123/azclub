@@ -8,7 +8,7 @@ third_party_settings:
   menu_ui:
     available_menus: {  }
     parent: ''
-name: Diabetes
+name: 'TA Diabetes 糖尿病'
 type: ta_diabetes
 description: 'Therapeutic Area Content,  the category is Diabetes.'
 help: ''

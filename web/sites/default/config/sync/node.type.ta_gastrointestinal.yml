@@ -8,7 +8,7 @@ third_party_settings:
   menu_ui:
     available_menus: {  }
     parent: ''
-name: Gastrointestinal
+name: 'TA Gastrointestinal 腸胃疾病'
 type: ta_gastrointestinal
 description: 'Therapeutic Area Content,  the category is Gastrointestinal.'
 help: ''

@@ -8,13 +8,14 @@ dependencies:
     - field.field.profile.member.field_birthday
     - field.field.profile.member.field_communication_mode
     - field.field.profile.member.field_en_name
-    - field.field.profile.member.field_field_where1
-    - field.field.profile.member.field_field_where2
     - field.field.profile.member.field_gender
     - field.field.profile.member.field_identification_last4num
+    - field.field.profile.member.field_if_medicine_using
     - field.field.profile.member.field_medicine_using
     - field.field.profile.member.field_phone
     - field.field.profile.member.field_ta_type
+    - field.field.profile.member.field_where1
+    - field.field.profile.member.field_where2
     - field.field.profile.member.field_zh_name
     - profile.type.member
   module:
@@ -56,18 +57,6 @@ content:
     third_party_settings: {  }
     type: string_textfield
     region: content
-  field_field_where1:
-    weight: 36
-    settings: {  }
-    third_party_settings: {  }
-    type: options_select
-    region: content
-  field_field_where2:
-    weight: 37
-    settings: {  }
-    third_party_settings: {  }
-    type: options_select
-    region: content
   field_gender:
     weight: 32
     settings: {  }
@@ -81,6 +70,13 @@ content:
       placeholder: ''
     third_party_settings: {  }
     type: string_textfield
+    region: content
+  field_if_medicine_using:
+    weight: 41
+    settings:
+      display_label: true
+    third_party_settings: {  }
+    type: boolean_checkbox
     region: content
   field_medicine_using:
     weight: 35
@@ -102,6 +98,18 @@ content:
       placeholder: ''
     third_party_settings: {  }
     type: number
+    region: content
+  field_where1:
+    weight: 42
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+    region: content
+  field_where2:
+    weight: 43
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
     region: content
   field_zh_name:
     weight: 26

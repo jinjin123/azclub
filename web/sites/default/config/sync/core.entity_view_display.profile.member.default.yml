@@ -8,13 +8,14 @@ dependencies:
     - field.field.profile.member.field_birthday
     - field.field.profile.member.field_communication_mode
     - field.field.profile.member.field_en_name
-    - field.field.profile.member.field_field_where1
-    - field.field.profile.member.field_field_where2
     - field.field.profile.member.field_gender
     - field.field.profile.member.field_identification_last4num
+    - field.field.profile.member.field_if_medicine_using
     - field.field.profile.member.field_medicine_using
     - field.field.profile.member.field_phone
     - field.field.profile.member.field_ta_type
+    - field.field.profile.member.field_where1
+    - field.field.profile.member.field_where2
     - field.field.profile.member.field_zh_name
     - profile.type.member
   module:
@@ -63,20 +64,6 @@ content:
     third_party_settings: {  }
     type: string
     region: content
-  field_field_where1:
-    weight: 10
-    label: above
-    settings: {  }
-    third_party_settings: {  }
-    type: list_default
-    region: content
-  field_field_where2:
-    weight: 11
-    label: above
-    settings: {  }
-    third_party_settings: {  }
-    type: list_default
-    region: content
   field_gender:
     weight: 6
     label: above
@@ -91,6 +78,16 @@ content:
       link_to_entity: false
     third_party_settings: {  }
     type: string
+    region: content
+  field_if_medicine_using:
+    weight: 15
+    label: above
+    settings:
+      format: default
+      format_custom_false: ''
+      format_custom_true: ''
+    third_party_settings: {  }
+    type: boolean
     region: content
   field_medicine_using:
     weight: 9
@@ -115,6 +112,20 @@ content:
       prefix_suffix: true
     third_party_settings: {  }
     type: number_integer
+    region: content
+  field_where1:
+    weight: 16
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: list_default
+    region: content
+  field_where2:
+    weight: 17
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: list_default
     region: content
   field_zh_name:
     weight: 0
