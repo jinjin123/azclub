@@ -5,6 +5,7 @@ dependencies:
   config:
     - core.entity_view_mode.node.teaser
     - field.field.node.health_information.body
+    - field.field.node.health_information.field_ta_type
     - node.type.health_information
   module:
     - text
@@ -27,4 +28,6 @@ content:
     settings: {  }
     third_party_settings: {  }
     region: content
-hidden: {  }
+hidden:
+  field_ta_type: true
+  search_api_excerpt: true

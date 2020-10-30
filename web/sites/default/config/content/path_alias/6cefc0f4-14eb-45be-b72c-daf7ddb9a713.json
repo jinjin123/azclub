@@ -1,0 +1,35 @@
+{
+    "_links": {
+        "self": {
+            "href": ""
+        },
+        "type": {
+            "href": "http:\/\/default\/rest\/type\/path_alias\/path_alias"
+        }
+    },
+    "uuid": [
+        {
+            "value": "6cefc0f4-14eb-45be-b72c-daf7ddb9a713"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en"
+        }
+    ],
+    "path": [
+        {
+            "value": "\/node\/22"
+        }
+    ],
+    "alias": [
+        {
+            "value": "\/az-health-club\/22"
+        }
+    ],
+    "status": [
+        {
+            "value": true
+        }
+    ]
+}

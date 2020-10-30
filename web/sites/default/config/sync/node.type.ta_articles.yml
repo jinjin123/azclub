@@ -8,7 +8,7 @@ third_party_settings:
   menu_ui:
     available_menus: {  }
     parent: ''
-name: 'TA Articles'
+name: 'TA Articles 最新疾病文章（？需確定此類型是否是單獨的）'
 type: ta_articles
 description: 'Therapeutic Area Articles'
 help: ''

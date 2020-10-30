@@ -28,9 +28,19 @@ function azhealthclub_modify_help($route_name, RouteMatchInterface $route_match)
 function azhealthclub_modify_theme()
 {
  return [
+   'azhealthclub_ClinicalSearchResult'=> [
+     'variables' => [
+       'variables'=>[]
+     ]
+   ],
    'azhealthclub_contact'=> [
      'variables' => [
        'variables'=>[]
+     ]
+   ],
+   'az_clinical_filter_block'=>[
+     'variables' => [
+       'variables' => []
      ]
    ]
  ];

@@ -1,0 +1,35 @@
+{
+    "_links": {
+        "self": {
+            "href": ""
+        },
+        "type": {
+            "href": "http:\/\/default\/rest\/type\/path_alias\/path_alias"
+        }
+    },
+    "uuid": [
+        {
+            "value": "f7c9e752-12a8-4fe5-a52a-cad923118b1b"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en"
+        }
+    ],
+    "path": [
+        {
+            "value": "\/node\/6"
+        }
+    ],
+    "alias": [
+        {
+            "value": "\/home1"
+        }
+    ],
+    "status": [
+        {
+            "value": true
+        }
+    ]
+}

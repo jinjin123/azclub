@@ -1,0 +1,23 @@
+uuid: e51c997a-dc47-45e7-868e-4f82cc6558ed
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.profile.field_if_medicine_using
+    - profile.type.member
+id: profile.member.field_if_medicine_using
+field_name: field_if_medicine_using
+entity_type: profile
+bundle: member
+label: if_medicine_using
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

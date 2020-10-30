@@ -29,19 +29,18 @@ module:
   default_content_deploy: 0
   devel: 0
   devel_generate: 0
+  devel_php: 0
   dynamic_page_cache: 0
   editor: 0
   entity: 0
   entity_reference_revisions: 0
   features: 0
-  features_astrazeneca: 0
   field: 0
   field_ui: 0
   file: 0
   filter: 0
   gavias_blockbuilder: 0
   gavias_sliderlayer: 0
-  gavias_view: 0
   gaviasthemer: 0
   hal: 0
   help: 0
@@ -54,6 +53,8 @@ module:
   jquery_ui_slider: 0
   jquery_ui_tabs: 0
   jquery_ui_touch_punch: 0
+  layout_builder: 0
+  layout_discovery: 0
   link: 0
   menu_link_content: 0
   menu_ui: 0

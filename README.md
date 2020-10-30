@@ -12,6 +12,7 @@ drush ea; drush cex -y;then push code
 #the document about how to use default_content_deploy
 
 Export: drush dcder node
+Export alias path: drush dcder path_alias
 Import: drush dcdi --folder='sites/default/config/content/'
 
 https://github.com/HBFCrew/default_content_deploy/blob/8.x-1.x/README.md

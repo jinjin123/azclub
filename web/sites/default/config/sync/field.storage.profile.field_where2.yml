@@ -1,0 +1,33 @@
+uuid: 533ea586-d5dc-4222-965e-a3326dda8a44
+langcode: en
+status: true
+dependencies:
+  module:
+    - options
+    - profile
+id: profile.field_where2
+field_name: field_where2
+entity_type: profile
+type: list_integer
+settings:
+  allowed_values:
+    -
+      value: 1
+      label: 私家醫院或診所
+    -
+      value: 2
+      label: 公立醫院或門診
+    -
+      value: 3
+      label: '萬寧 Mannings'
+    -
+      value: 4
+      label: '屈臣氏 Watsons'
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: -1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

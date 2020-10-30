@@ -8,7 +8,7 @@ third_party_settings:
   menu_ui:
     available_menus: {  }
     parent: ''
-name: Cardiovascular
+name: 'TA Cardiovascular 心血管疾病'
 type: ta_cardiovascular
 description: 'Therapeutic Area Content,  the category is Cardiovascular.'
 help: ''

@@ -1,0 +1,35 @@
+{
+    "_links": {
+        "self": {
+            "href": ""
+        },
+        "type": {
+            "href": "http:\/\/default\/rest\/type\/path_alias\/path_alias"
+        }
+    },
+    "uuid": [
+        {
+            "value": "18d1a41d-e136-4f15-be0f-82878a86179d"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en"
+        }
+    ],
+    "path": [
+        {
+            "value": "\/node\/14"
+        }
+    ],
+    "alias": [
+        {
+            "value": "\/health-information"
+        }
+    ],
+    "status": [
+        {
+            "value": true
+        }
+    ]
+}
