@@ -11,7 +11,7 @@ id: node.health_information.field_refers
 field_name: field_refers
 entity_type: node
 bundle: health_information
-label: refers
+label: 參考：
 description: ''
 required: false
 translatable: false
