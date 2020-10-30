@@ -141,13 +141,14 @@ body {
 .az-offer_box{
     float: left;
     margin: 20px;
+    padding-bottom: 20px;
     border: 1px solid $color-gray;
     overflow: hidden;
     .az-offer_body{
         width: 50%;
         float: left;
         position: relative;
-        left: 20px;
+        left: 30px;
        
         .az-offer_body_title{
             font-weight: bold;
@@ -160,10 +161,10 @@ body {
     .az-offer_click_bottom{
         float: right;
         background-color: $color-red;
-        width: 80px;
+        width: 20%;
         position: relative;
         top:20px;
-        right: 40px;
+        right: 30px;
         height: 30px;
         text-align: center;
         border-radius: 5px;
