@@ -1,6 +1,6 @@
 uuid: 36541870-b8d7-4c35-bc1f-ce9ab1d0e797
 langcode: en
-status: true
+status: false
 dependencies:
   content:
     - 'block_content:basic:250c78c1-5e57-44f5-aa86-6a4bc41299f8'
@@ -22,7 +22,7 @@ provider: null
 plugin: 'block_content:250c78c1-5e57-44f5-aa86-6a4bc41299f8'
 settings:
   id: 'block_content:250c78c1-5e57-44f5-aa86-6a4bc41299f8'
-  label: 'Clinical middle block'
+  label: 'Clinical middle block 搜索臨床試驗'
   provider: block_content
   label_display: '0'
   status: true
