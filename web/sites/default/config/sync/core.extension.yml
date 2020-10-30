@@ -48,6 +48,7 @@ module:
   history: 0
   image: 0
   image_url_formatter: 0
+  imce: 0
   jquery_ui: 0
   jquery_ui_accordion: 0
   jquery_ui_datepicker: 0
