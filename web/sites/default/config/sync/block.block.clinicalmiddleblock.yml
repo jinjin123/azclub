@@ -1,6 +1,6 @@
 uuid: 36541870-b8d7-4c35-bc1f-ce9ab1d0e797
 langcode: en
-status: false
+status: true
 dependencies:
   content:
     - 'block_content:basic:250c78c1-5e57-44f5-aa86-6a4bc41299f8'
@@ -35,5 +35,5 @@ visibility:
     block_visibility_group: ''
   request_path:
     id: request_path
-    pages: "/clinical-trial-portal\r\n/azhealthclub/clinical-search"
+    pages: "/azhealthclub/clinical-search\r\n/Clinical/search-result"
     negate: false

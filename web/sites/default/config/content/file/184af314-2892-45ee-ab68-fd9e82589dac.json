@@ -1,0 +1,82 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/default\/sites\/default\/files\/inline-images\/test.png"
+        },
+        "type": {
+            "href": "http:\/\/default\/rest\/type\/file\/file"
+        },
+        "http:\/\/default\/rest\/relation\/file\/file\/uid": [
+            {
+                "href": "http:\/\/default\/user\/1?_format=hal_json"
+            }
+        ]
+    },
+    "uuid": [
+        {
+            "value": "184af314-2892-45ee-ab68-fd9e82589dac"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/default\/rest\/relation\/file\/file\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/default\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "ad86f4f8-ab08-4ff1-be42-53e6179dd359"
+                    }
+                ]
+            }
+        ]
+    },
+    "filename": [
+        {
+            "value": "test.png"
+        }
+    ],
+    "uri": [
+        {
+            "value": "public:\/\/inline-images\/test.png",
+            "url": "\/sites\/default\/files\/inline-images\/test.png"
+        }
+    ],
+    "filemime": [
+        {
+            "value": "image\/png"
+        }
+    ],
+    "filesize": [
+        {
+            "value": 109504
+        }
+    ],
+    "status": [
+        {
+            "value": true
+        }
+    ],
+    "created": [
+        {
+            "value": "2020-10-28T10:25:39+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2020-10-28T10:25:50+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ]
+}

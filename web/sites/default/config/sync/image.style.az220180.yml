@@ -1,0 +1,14 @@
+uuid: 9ec88673-4be0-4762-a997-b7a9115549ef
+langcode: en
+status: true
+dependencies: {  }
+name: az220180
+label: az220180
+effects:
+  739b233a-fb68-4bd8-8b6a-011314037199:
+    uuid: 739b233a-fb68-4bd8-8b6a-011314037199
+    id: image_resize
+    weight: 1
+    data:
+      width: 220
+      height: 180
