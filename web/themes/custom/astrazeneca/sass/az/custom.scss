@@ -143,9 +143,9 @@ body {
     margin: 20px;
     padding-bottom: 20px;
     border: 1px solid $color-gray;
-    overflow: hidden;
+    position: relative;
     .az-offer_body{
-        width: 50%;
+        width: 55%;
         float: left;
         position: relative;
         left: 30px;
@@ -166,10 +166,15 @@ body {
         top:20px;
         right: 30px;
         height: 30px;
+        line-height: 30px;
         text-align: center;
         border-radius: 5px;
         a{
             color: white;
         }
     }
+}
+.az_loading{
+    text-align: center;
+    width: 100%;
 }
