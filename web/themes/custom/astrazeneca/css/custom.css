@@ -141,9 +141,39 @@ body {
 
 .az-offer_box {
   float: left;
-  border: 1px solid black;
+  margin: 20px;
+  border: 1px solid #b8b8b8;
+  overflow: hidden;
 }
 
 .az-offer_box .az-offer_body {
-  clear: both;
+  width: 50%;
+  float: left;
+  position: relative;
+  left: 20px;
+}
+
+.az-offer_box .az-offer_body .az-offer_body_title {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.az-offer_box .az-offer_body .az-offer_sub_title {
+  color: #b8b8b8;
+}
+
+.az-offer_box .az-offer_click_bottom {
+  float: right;
+  background-color: #eb1484;
+  width: 80px;
+  position: relative;
+  top: 20px;
+  right: 40px;
+  height: 30px;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.az-offer_box .az-offer_click_bottom a {
+  color: white;
 }
