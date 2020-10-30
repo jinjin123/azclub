@@ -128,7 +128,7 @@ blocks:
           summary: ''
           format: basic_html
   -
-    info: 'Clinical middle block'
+    info: 'Clinical middle block 搜索臨床試驗'
     langcode: en
     uuid: 250c78c1-5e57-44f5-aa86-6a4bc41299f8
     bundle: basic
@@ -137,7 +137,7 @@ blocks:
     fields:
       body:
         -
-          value: "<div class=\"az_clinical_box\">\r\n<p><font style=\"vertical-align: inherit;\"><font style=\"vertical-align: inherit;\">治疗区域</font></font></p>\r\n\r\n<p><font style=\"vertical-align: inherit;\"><font style=\"vertical-align: inherit;\">这里治疗什么临床类型？</font></font></p>\r\n\r\n<p><font style=\"vertical-align: inherit;\"><font style=\"vertical-align: inherit;\">他们痛苦不堪。什么东西。但是因为我必到最小的地方来。我们的军队是谁呢？除了最小的以外，我什么都不劳苦。好的，洛琳考虑到这一点，他一定很痛苦。</font></font></p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<div class=\"flex\"><img alt=\"\" data-align=\"center\" data-entity-type=\"file\" data-entity-uuid=\"5a1d15c7-e5c3-4842-a43d-2a77164b11e6\" src=\"/sites/default/files/inline-images/Therapeutic.png\" />\r\n<p>&nbsp;</p>\r\n</div>\r\n</div>\r\n\r\n<div class=\"az_clinical_bottom_box\">\r\n<div class=\"az__bottom_right_box\">\r\n<div class=\"az__bottom_right_box_title\"><font style=\"vertical-align: inherit;\"><font style=\"vertical-align: inherit;\">参加临床饰演？</font></font></div>\r\n\r\n<div class=\"az__bottom_right_box_body\"><font style=\"vertical-align: inherit;\"><font style=\"vertical-align: inherit;\">他们痛苦不堪。什么东西。但是因为我要追问，我们的军兵是谁，除了使他们中的任何一个人可以占便宜外，他们是谁？</font></font></div>\r\n</div>\r\n\r\n<div class=\"az__bottom_left_box\"><span><font style=\"vertical-align: inherit;\"><font style=\"vertical-align: inherit;\">找到你的临床试验</font></font></span></div>\r\n</div>\r\n"
+          value: "<div class=\"az_clinical_box\">\r\n<p>治療區域</p>\r\n\r\n<p>這裡治療什麼臨床類型？</p>\r\n\r\n<p>他們痛苦不堪。什麼東西。但是因為我必到最小的地方來。我們的軍隊是誰呢？除了最小的以外，我什麼都不勞苦。好的，洛琳考慮到這一點，他一定很痛苦。</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<div class=\"flex\"><img src=\"/theme/custom/astrazeneca/images/add.png\" /> <img src=\"/theme/custom/astrazeneca/images/add.png\" /> <img src=\"/theme/custom/astrazeneca/images/add.png\" /> <img src=\"/theme/custom/astrazeneca/images/add.png\" /> <img src=\"/theme/custom/astrazeneca/images/add.png\" /> <img src=\"/theme/custom/astrazeneca/images/add.png\" /></div>\r\n</div>\r\n\r\n<div class=\"az_clinical_bottom_box\">\r\n<div class=\"az__bottom_right_box\">\r\n<div class=\"az__bottom_right_box_title\">參加臨床飾演？</div>\r\n\r\n<div class=\"az__bottom_right_box_body\">他們痛苦不堪。什麼東西。但是因為我要追問，我們的軍兵是誰，除了使他們中的任何一個人可以佔便宜外，他們是誰？</div>\r\n</div>\r\n\r\n<div class=\"az__bottom_left_box\"><span>找到你的臨床試驗</span></div>\r\n</div>\r\n"
           summary: ''
           format: full_html
   -
