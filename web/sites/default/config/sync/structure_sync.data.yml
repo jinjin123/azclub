@@ -1,25 +1,25 @@
 taxonomies:
-  medical_article_tag_:
+  medical_article_tag:
     -
-      vid: medical_article_tag_
-      tid: '8'
+      vid: medical_article_tag
+      tid: '12'
       langcode: en
       name: 心血管篇
       description__value: null
       description__format: null
       weight: '0'
       parent: '0'
-      uuid: 63608484-badc-4dec-b828-47152e4a75b3
+      uuid: fa9044e7-2925-4045-9504-37b654b893d2
     -
-      vid: medical_article_tag_
-      tid: '9'
+      vid: medical_article_tag
+      tid: '13'
       langcode: en
       name: 糖尿篇
       description__value: null
       description__format: null
       weight: '0'
       parent: '0'
-      uuid: 9e31750e-4139-48cb-9a6b-8dcbf0b527fe
+      uuid: da75778c-a9ce-4e46-98b2-6d398391ef26
   ta_type:
     -
       vid: ta_type
@@ -454,3 +454,15 @@ menus:
     weight: '2'
     langcode: en
     uuid: 85422588-2917-49a3-b18e-bb677d48c2cf
+  -
+    menu_name: main
+    title: 醫學文章
+    parent: 'menu_link_content:3b8947d1-4888-4dc5-9962-2077323995c6'
+    uri: 'internal:/medical-article'
+    link_title: ''
+    description: null
+    enabled: '1'
+    expanded: '0'
+    weight: '0'
+    langcode: en
+    uuid: bd932067-fa88-4bc1-aad9-e39067b0c0cd
