@@ -1,7 +1,7 @@
 {
     "_links": {
         "self": {
-            "href": "http:\/\/default\/node\/24?_format=hal_json"
+            "href": "http:\/\/default\/node\/26?_format=hal_json"
         },
         "type": {
             "href": "http:\/\/default\/rest\/type\/node\/health_information"

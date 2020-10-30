@@ -1,9 +1,37 @@
+<div class="">
+  {{ drupal_entity('node',23)  }}
+</div>
+
 <div class="az-clinical-product-search">
-    <div class="az-search-titile">搜尋適合您的臨床試驗計劃</div>
-    <div class="az-clinical__search_body">
-        <div></div>
-      <div></div>
-      <div></div>
-      <button>立即搜尋</button>
+  <div class="az-clinical-bgimg" >
+    <div class="az-clinical-bgfrontblock">
+      <div class="az-clinical-bgblock_firsttitle">FIND YOUR CLINICAL TRIAL PROTAL</div>
+      <div class="az-clinical-bgblock_secondtitle">搜尋臨床實驗</div>
     </div>
+    <div class="az-clinical-search-block">
+      <div class="az-search-titile" >搜尋適合您的臨床試驗計劃</div>
+      <div class="az-clinical__search_body">
+        <select id="" class="az-search-clinical-type" data-width="150px" style="">
+          <option value="" disabled selected>腫瘤類別</option>
+          {% for tr in variables["tumor"] %}
+            <option value="{{  tr.name }}">{{  tr.name }}</option>
+          {% endfor %}
+        </select>
+        <select id=""  class="az-search-clinical-age" data-width="150px" style="">
+          <option value="" disabled selected>年齡</option>
+          {% for ag in variables["age"] %}
+            <option value="{{ ag.field_az_clinical_age_value }}">{{ ag.field_az_clinical_age_value }}</option>
+          {% endfor %}
+        </select>
+        <select id=""  class="az-search-clinical-sex" data-width="150px" style="">
+          <option value="" disabled selected>性別</option>
+          {% for se in variables["sexx"] %}
+            <option value="{{ se.field_az_se_value }}">{{ se.field_az_se_value }}</optionva>
+          {% endfor %}
+        </select>
+        <button class="az-search-button">立即搜尋</button>
+      </div>
+    </div>
+  </div>
+
 </div>
