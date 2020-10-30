@@ -1,4 +1,4 @@
-uuid: 69b05beb-3779-4c8b-91bf-9d2fe9f38d40
+uuid: 6b14fea6-d059-4931-a222-d350dba6315a
 langcode: en
 status: true
 dependencies:
@@ -6,8 +6,8 @@ dependencies:
     - file
     - image
     - node
-id: node.field_sp_img
-field_name: field_sp_img
+id: node.field_az_offers_product_logo
+field_name: field_az_offers_product_logo
 entity_type: node
 type: image
 settings:

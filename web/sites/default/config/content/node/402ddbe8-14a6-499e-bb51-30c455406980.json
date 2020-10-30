@@ -16,11 +16,6 @@
                 "href": "http:\/\/default\/user\/1?_format=hal_json",
                 "lang": "en"
             }
-        ],
-        "http:\/\/default\/rest\/relation\/node\/government_support\/field_sp_img": [
-            {
-                "href": "http:\/\/default\/sites\/default\/files\/2020-10\/images%20%284%29.jpeg"
-            }
         ]
     },
     "uuid": [
@@ -79,23 +74,6 @@
                     }
                 ],
                 "lang": "en"
-            }
-        ],
-        "http:\/\/default\/rest\/relation\/node\/government_support\/field_sp_img": [
-            {
-                "_links": {
-                    "self": {
-                        "href": "http:\/\/default\/sites\/default\/files\/2020-10\/images%20%284%29.jpeg"
-                    },
-                    "type": {
-                        "href": "http:\/\/default\/rest\/type\/file\/file"
-                    }
-                },
-                "uuid": [
-                    {
-                        "value": "e1767626-6301-4108-badf-740838fd9842"
-                    }
-                ]
             }
         ]
     },

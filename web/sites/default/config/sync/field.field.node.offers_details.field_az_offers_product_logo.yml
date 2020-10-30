@@ -1,17 +1,17 @@
-uuid: 5b529d00-8d28-4c45-944d-1052ca1ccdef
+uuid: 2a246b83-6d8e-48f6-b066-8c249e2b63b0
 langcode: en
 status: true
 dependencies:
   config:
-    - field.storage.node.field_sp_img
-    - node.type.government_support
+    - field.storage.node.field_az_offers_product_logo
+    - node.type.offers_details
   module:
     - image
-id: node.government_support.field_sp_img
-field_name: field_sp_img
+id: node.offers_details.field_az_offers_product_logo
+field_name: field_az_offers_product_logo
 entity_type: node
-bundle: government_support
-label: sp_img
+bundle: offers_details
+label: 'az_offers product logo'
 description: ''
 required: false
 translatable: false
