@@ -4,6 +4,7 @@ status: true
 dependencies:
   config:
     - field.field.node.government_support.body
+    - field.field.node.government_support.field_refers
     - node.type.government_support
   module:
     - path
@@ -29,6 +30,14 @@ content:
     region: content
     settings: {  }
     third_party_settings: {  }
+  field_refers:
+    weight: 122
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+    type: text_textarea
+    region: content
   path:
     type: path
     weight: 30
