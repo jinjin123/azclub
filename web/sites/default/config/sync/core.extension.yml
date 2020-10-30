@@ -7,6 +7,7 @@ module:
   azhealthclub_modify: 0
   azhealthclub_step_login: 0
   better_exposed_filters: 0
+  better_normalizers: 0
   big_pipe: 0
   block: 0
   block_class: 0
