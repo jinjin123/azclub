@@ -46,3 +46,7 @@ web/sites/simpletest
 web/themes/custom/astrazeneca/node_modules
 web/sites/development.services.yml
 .DS_Store
+web/sites/default/config/content/paragraph
+web/sites/default/config/content/taxonomy_term
+web/sites/default/config/content/user
+

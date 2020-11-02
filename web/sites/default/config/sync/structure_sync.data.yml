@@ -128,7 +128,7 @@ blocks:
           summary: ''
           format: basic_html
   -
-    info: 'Clinical middle block'
+    info: 'Clinical middle block 搜索臨床試驗'
     langcode: en
     uuid: 250c78c1-5e57-44f5-aa86-6a4bc41299f8
     bundle: basic
@@ -223,7 +223,7 @@ menus:
     description: null
     enabled: '1'
     expanded: '0'
-    weight: '-47'
+    weight: '0'
     langcode: en
     uuid: 5575a420-054e-4fee-9bb0-2d57008900ba
   -
@@ -235,7 +235,7 @@ menus:
     description: null
     enabled: '1'
     expanded: '0'
-    weight: '-45'
+    weight: '0'
     langcode: en
     uuid: c4017921-6a0f-4ada-9e81-a6b089f1cecc
   -
@@ -247,7 +247,7 @@ menus:
     description: null
     enabled: '1'
     expanded: '0'
-    weight: '-44'
+    weight: '0'
     langcode: en
     uuid: 7996e0f4-2810-4da7-ad8f-b857d7f76acb
   -
@@ -259,7 +259,7 @@ menus:
     description: null
     enabled: '1'
     expanded: '1'
-    weight: '-43'
+    weight: '1'
     langcode: en
     uuid: 634a1ae5-fca6-48e1-ae65-b5efd7bb08c2
   -
@@ -271,7 +271,7 @@ menus:
     description: null
     enabled: '1'
     expanded: '0'
-    weight: '-42'
+    weight: '0'
     langcode: en
     uuid: e97426f8-2594-4e97-a84b-fef353e5f433
   -
@@ -283,7 +283,7 @@ menus:
     description: null
     enabled: '1'
     expanded: '0'
-    weight: '-50'
+    weight: '-49'
     langcode: en
     uuid: 694bd965-c2d3-4034-8f6c-80124186e2ed
   -
@@ -295,7 +295,7 @@ menus:
     description: null
     enabled: '1'
     expanded: '1'
-    weight: '-48'
+    weight: '-50'
     langcode: en
     uuid: 1d6ff10d-efcc-4fdb-9662-eb08153af251
   -
@@ -307,7 +307,7 @@ menus:
     description: null
     enabled: '1'
     expanded: '0'
-    weight: '-49'
+    weight: '-48'
     langcode: en
     uuid: 200fdc7e-2624-4345-8524-0fed74fd7c7f
   -

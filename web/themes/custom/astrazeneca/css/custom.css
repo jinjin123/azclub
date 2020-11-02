@@ -43,6 +43,69 @@ body {
   float: left;
 }
 
+.az_clinical_box {
+  background-color: #eb1484;
+  padding-top: 20px;
+}
+
+.az_clinical_box p {
+  width: 50%;
+  margin: auto;
+  color: white;
+  text-align: center;
+  padding-top: 10px;
+  font-size: 12px;
+  font-weight: lighter;
+}
+
+.az_clinical_box > p:nth-child(2) {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.az_clinical_box > p:nth-child(4) {
+  width: 80px;
+  height: 10px;
+  margin-top: 20px;
+  border-radius: 10px;
+  background-color: #fcaf17;
+}
+
+.az_clinical_bottom_box {
+  background-color: #b8b8b8;
+  height: 200px;
+  color: white;
+}
+
+.az_clinical_bottom_box .az__bottom_right_box {
+  width: 40%;
+  float: left;
+  margin-top: 50px;
+  margin-left: 80px;
+}
+
+.az_clinical_bottom_box .az__bottom_right_box .az__bottom_right_box_title {
+  font-weight: bold;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.az_clinical_bottom_box .az__bottom_right_box .az__bottom_right_box_body {
+  font-weight: lighter;
+}
+
+.az_clinical_bottom_box .az__bottom_left_box {
+  float: right;
+  width: 180px;
+  height: 60px;
+  border-radius: 10px;
+  text-align: center;
+  line-height: 60px;
+  background-color: #fcaf17;
+  margin-top: 80px;
+  margin-right: 160px;
+}
+
 .az-ref-box .az-ref__title {
   font-size: 20px;
   font-weight: bold;
@@ -55,4 +118,69 @@ body {
 .az-ref-box .az-ref__body {
   color: #b8b8b8;
   font-size: 12px;
+}
+
+.az-product_head {
+  margin: auto;
+  text-align: center;
+  width: 50%;
+}
+
+.az-product_head .az-product_head__title2 {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.az-product_head .az-product_head__title1 {
+  color: #b8b8b8;
+}
+
+.az-product_head .az-product_head__body {
+  color: #b8b8b8;
+}
+
+.az-offer_box {
+  float: left;
+  margin: 20px;
+  padding-bottom: 20px;
+  border: 1px solid #b8b8b8;
+  position: relative;
+}
+
+.az-offer_box .az-offer_body {
+  width: 55%;
+  float: left;
+  position: relative;
+  left: 30px;
+}
+
+.az-offer_box .az-offer_body .az-offer_body_title {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.az-offer_box .az-offer_body .az-offer_sub_title {
+  color: #b8b8b8;
+}
+
+.az-offer_box .az-offer_click_bottom {
+  float: right;
+  background-color: #eb1484;
+  width: 20%;
+  position: relative;
+  top: 20px;
+  right: 30px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.az-offer_box .az-offer_click_bottom a {
+  color: white;
+}
+
+.az_loading {
+  text-align: center;
+  width: 100%;
 }
