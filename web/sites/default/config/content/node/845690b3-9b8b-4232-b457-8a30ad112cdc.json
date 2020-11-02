@@ -1,7 +1,7 @@
 {
     "_links": {
         "self": {
-            "href": "http:\/\/default\/node\/25?_format=hal_json"
+            "href": "http:\/\/default\/node\/31?_format=hal_json"
         },
         "type": {
             "href": "http:\/\/default\/rest\/type\/node\/az_latest_news"
@@ -19,7 +19,7 @@
         ],
         "http:\/\/default\/rest\/relation\/node\/az_latest_news\/field_az_author_img": [
             {
-                "href": "http:\/\/default\/sites\/default\/files\/2020-10\/2020-10-26_10-41_0_2.png"
+                "href": ""
             }
         ]
     },
@@ -85,7 +85,7 @@
             {
                 "_links": {
                     "self": {
-                        "href": "http:\/\/default\/sites\/default\/files\/2020-10\/2020-10-26_10-41_0_2.png"
+                        "href": ""
                     },
                     "type": {
                         "href": "http:\/\/default\/rest\/type\/file\/file"
@@ -95,7 +95,11 @@
                     {
                         "value": "842c89f4-6ae2-4b4e-9e37-64d154ab7c6a"
                     }
-                ]
+                ],
+                "alt": null,
+                "title": null,
+                "width": null,
+                "height": null
             }
         ]
     },
