@@ -42,6 +42,16 @@ function azhealthclub_modify_theme()
      'variables' => [
        'variables' => []
      ]
+   ],
+   'azhealthclub_welcome'=>[
+     'variables' => [
+       'variables' => []
+     ]
+   ],
+   'azhealthclub_dashboard'=>[
+     'variables' => [
+       'variables' => []
+     ]
    ]
  ];
 }
@@ -82,7 +92,7 @@ function azhealthclub_modify_form_alter(&$form, \Drupal\Core\Form\FormStateInter
     $form["actions"]["register"] = [
       '#title' => '加入康心摯友會',
       '#type' => 'link',
-      '#url' => \Drupal\Core\Url::fromRoute('user.register'),
+      '#url' => \Drupal\Core\Url::fromRoute('azhealthclub_step_login.multistep_one'),
       '#attributes'=> [
         'class' => ['btn'],
       ],

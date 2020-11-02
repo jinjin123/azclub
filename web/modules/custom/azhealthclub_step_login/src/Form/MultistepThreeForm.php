@@ -102,6 +102,6 @@ class MultistepThreeForm extends MultistepFormBase {
 
     // Save the data
     parent::saveData();
-    $form_state->setRedirect('<front>');
+    $form_state->setRedirect('azhealthclub_modify.welcome');
   }
 }

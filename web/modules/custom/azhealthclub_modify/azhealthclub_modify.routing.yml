@@ -13,3 +13,18 @@ azhealthclub_modify.clinicalsearch:
     _title: ''
   requirements:
     _permission: 'access content'
+
+azhealthclub_modify.welcome:
+  path: '/welcome'
+  defaults:
+    _controller: '\Drupal\azhealthclub_modify\Controller\MemberController::index'
+    _title: ''
+  requirements:
+    _permission: 'access content'
+azhealthclub_modify.dashboard:
+  path: '/dashboard'
+  defaults:
+    _controller: '\Drupal\azhealthclub_modify\Controller\MemberController::dashboard'
+    _title: ''
+  requirements:
+    _permission: 'access content'
