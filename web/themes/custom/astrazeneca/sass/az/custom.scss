@@ -178,3 +178,45 @@ body {
     text-align: center;
     width: 100%;
 }
+//clinical search block
+.az-clinical-product-search {
+    margin-bottom: 200px;
+    .az-clinical-bgimg {
+      height:200px;
+      background-color: #eb1484;
+      .az-clinical-bgfrontblock {
+        text-align: center;
+      }
+      .az-clinical-search-block {
+        display: block;
+        text-align: center;
+        background-color: white;
+        width: 80%;
+        position: relative;
+        margin-right:auto;
+        margin-left:auto;
+        margin-top: 50px;
+        height: 200px;
+        box-shadow: 6px 6px 5px #d0c9c9;
+        border-radius: 8px;
+        .az-clinical__search_body {
+          .az-search-clinical-type {
+            width: 25%;
+          }
+          .az-search-clinical-age {
+            width: 20%;
+          }
+          .az-search-clinical-sex {
+            width: 20%;
+          }
+          .az-search-button {
+            width: 25%;
+            border-radius: 5px;
+            background-color: #eb1484;
+            border: 2px solid #eb1484;
+            margin-left: 10px;
+          }
+        }
+      }
+    }
+  }
