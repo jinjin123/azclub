@@ -459,3 +459,15 @@ menus:
     weight: '-46'
     langcode: en
     uuid: 8f5ca776-902f-4a86-bec6-b1d5576249bb
+  -
+    menu_name: main
+    title: 醫學文章
+    parent: 'menu_link_content:3b8947d1-4888-4dc5-9962-2077323995c6'
+    uri: 'internal:/medical-article'
+    link_title: ''
+    description: null
+    enabled: '1'
+    expanded: '1'
+    weight: '0'
+    langcode: en
+    uuid: cb9e1cc9-c586-4853-93e6-05aa70a366f8
