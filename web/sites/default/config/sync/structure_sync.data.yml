@@ -223,7 +223,7 @@ menus:
     menu_name: main
     title: 產品資訊
     parent: null
-    uri: 'internal:#'
+    uri: 'internal:/product'
     link_title: ''
     description: null
     enabled: '1'
