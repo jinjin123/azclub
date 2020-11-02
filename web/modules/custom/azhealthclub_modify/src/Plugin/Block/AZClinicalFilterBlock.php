@@ -52,7 +52,7 @@ class AZClinicalFilterBlock extends BlockBase
       ->fetchAll();
 
     $tumor = $database->select('taxonomy_term_field_data', 'p')
-      ->condition('vid','tumor_tag')
+      ->condition('vid','ta_type')
       ->fields('p', ['name'])
       ->execute()
       ->fetchAll();
