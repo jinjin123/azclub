@@ -1,0 +1,35 @@
+{
+    "_links": {
+        "self": {
+            "href": ""
+        },
+        "type": {
+            "href": "http:\/\/default\/rest\/type\/path_alias\/path_alias"
+        }
+    },
+    "uuid": [
+        {
+            "value": "8c7977cd-fa21-476f-a251-5653ff39fa98"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en"
+        }
+    ],
+    "path": [
+        {
+            "value": "\/node\/52"
+        }
+    ],
+    "alias": [
+        {
+            "value": "\/medical-article"
+        }
+    ],
+    "status": [
+        {
+            "value": true
+        }
+    ]
+}

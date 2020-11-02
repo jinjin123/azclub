@@ -1,0 +1,35 @@
+{
+    "_links": {
+        "self": {
+            "href": ""
+        },
+        "type": {
+            "href": "http:\/\/default\/rest\/type\/path_alias\/path_alias"
+        }
+    },
+    "uuid": [
+        {
+            "value": "5a979beb-3fdd-4187-b79f-4595f4d6d10b"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en"
+        }
+    ],
+    "path": [
+        {
+            "value": "\/node\/53"
+        }
+    ],
+    "alias": [
+        {
+            "value": "\/attention-disease"
+        }
+    ],
+    "status": [
+        {
+            "value": true
+        }
+    ]
+}
