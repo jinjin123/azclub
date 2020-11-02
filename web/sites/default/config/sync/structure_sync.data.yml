@@ -223,7 +223,7 @@ menus:
     description: null
     enabled: '1'
     expanded: '0'
-    weight: '0'
+    weight: '-47'
     langcode: en
     uuid: 5575a420-054e-4fee-9bb0-2d57008900ba
   -
@@ -235,7 +235,7 @@ menus:
     description: null
     enabled: '1'
     expanded: '0'
-    weight: '0'
+    weight: '-45'
     langcode: en
     uuid: c4017921-6a0f-4ada-9e81-a6b089f1cecc
   -
@@ -247,7 +247,7 @@ menus:
     description: null
     enabled: '1'
     expanded: '0'
-    weight: '0'
+    weight: '-44'
     langcode: en
     uuid: 7996e0f4-2810-4da7-ad8f-b857d7f76acb
   -
@@ -259,19 +259,19 @@ menus:
     description: null
     enabled: '1'
     expanded: '1'
-    weight: '1'
+    weight: '-43'
     langcode: en
     uuid: 634a1ae5-fca6-48e1-ae65-b5efd7bb08c2
   -
     menu_name: main
     title: 註冊/登陸
     parent: null
-    uri: 'internal:#'
+    uri: 'internal:/user/login'
     link_title: ''
     description: null
     enabled: '1'
     expanded: '0'
-    weight: '0'
+    weight: '-42'
     langcode: en
     uuid: e97426f8-2594-4e97-a84b-fef353e5f433
   -
@@ -466,3 +466,15 @@ menus:
     weight: '0'
     langcode: en
     uuid: bd932067-fa88-4bc1-aad9-e39067b0c0cd
+  -
+    menu_name: main
+    title: 臨床實驗
+    parent: null
+    uri: 'internal:#'
+    link_title: ''
+    description: null
+    enabled: '1'
+    expanded: '0'
+    weight: '-46'
+    langcode: en
+    uuid: dc4dddca-3f9a-4e42-b8ce-adde5474b96e
