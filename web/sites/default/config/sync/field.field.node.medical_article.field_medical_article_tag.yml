@@ -1,16 +1,16 @@
-uuid: 668038b9-3ed7-47fb-bd42-6d1ebce3a524
+uuid: fa95d709-b35f-46af-84e8-90b559161aee
 langcode: en
 status: true
 dependencies:
   config:
-    - field.storage.node.field_medical_tag
-    - node.type.az_health_tips
-    - taxonomy.vocabulary.medical_article_tag_
-id: node.az_health_tips.field_medical_tag
-field_name: field_medical_tag
+    - field.storage.node.field_medical_article_tag
+    - node.type.medical_article
+    - taxonomy.vocabulary.medical_article_tag
+id: node.medical_article.field_medical_article_tag
+field_name: field_medical_article_tag
 entity_type: node
-bundle: az_health_tips
-label: medical_tag
+bundle: medical_article
+label: 醫學文章分類
 description: ''
 required: false
 translatable: false
@@ -20,7 +20,7 @@ settings:
   handler: 'default:taxonomy_term'
   handler_settings:
     target_bundles:
-      medical_article_tag_: medical_article_tag_
+      medical_article_tag: medical_article_tag
     sort:
       field: name
       direction: asc

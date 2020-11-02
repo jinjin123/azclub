@@ -1,0 +1,20 @@
+uuid: 687550c2-7a6d-4f80-925b-ba40637797dc
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - taxonomy
+id: node.field_medical_article_tag
+field_name: field_medical_article_tag
+entity_type: node
+type: entity_reference
+settings:
+  target_type: taxonomy_term
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

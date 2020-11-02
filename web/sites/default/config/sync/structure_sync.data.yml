@@ -1,25 +1,25 @@
 taxonomies:
-  medical_article_tag_:
+  medical_article_tag:
     -
-      vid: medical_article_tag_
-      tid: '8'
+      vid: medical_article_tag
+      tid: '12'
       langcode: en
       name: 心血管篇
       description__value: null
       description__format: null
       weight: '0'
       parent: '0'
-      uuid: 63608484-badc-4dec-b828-47152e4a75b3
+      uuid: fa9044e7-2925-4045-9504-37b654b893d2
     -
-      vid: medical_article_tag_
-      tid: '9'
+      vid: medical_article_tag
+      tid: '13'
       langcode: en
       name: 糖尿篇
       description__value: null
       description__format: null
       weight: '0'
       parent: '0'
-      uuid: 9e31750e-4139-48cb-9a6b-8dcbf0b527fe
+      uuid: da75778c-a9ce-4e46-98b2-6d398391ef26
   ta_type:
     -
       vid: ta_type
@@ -310,3 +310,159 @@ menus:
     weight: '-48'
     langcode: en
     uuid: 200fdc7e-2624-4345-8524-0fed74fd7c7f
+  -
+    menu_name: main
+    title: 政府撥款計劃
+    parent: 'menu_link_content:7996e0f4-2810-4da7-ad8f-b857d7f76acb'
+    uri: 'entity:node/16'
+    link_title: ''
+    description: null
+    enabled: '1'
+    expanded: '0'
+    weight: '-49'
+    langcode: en
+    uuid: d9237a3c-0b09-4f69-85e0-9411c1aa429b
+  -
+    menu_name: main
+    title: 藥物優惠
+    parent: 'menu_link_content:7996e0f4-2810-4da7-ad8f-b857d7f76acb'
+    uri: 'internal:/offers'
+    link_title: ''
+    description: null
+    enabled: '1'
+    expanded: '0'
+    weight: '-50'
+    langcode: en
+    uuid: 07354c47-dd7d-47bb-8286-c1b07dbfbe84
+  -
+    menu_name: main
+    title: 心血管疾病
+    parent: 'menu_link_content:5575a420-054e-4fee-9bb0-2d57008900ba'
+    uri: 'internal:#'
+    link_title: ''
+    description: null
+    enabled: '1'
+    expanded: '0'
+    weight: '0'
+    langcode: en
+    uuid: 1658f9f2-6a68-4862-a9d5-54a6dafb9073
+  -
+    menu_name: main
+    title: 糖尿病
+    parent: 'menu_link_content:5575a420-054e-4fee-9bb0-2d57008900ba'
+    uri: 'internal:#'
+    link_title: ''
+    description: null
+    enabled: '1'
+    expanded: '0'
+    weight: '1'
+    langcode: en
+    uuid: 748ea0bf-b149-4ca2-8805-55ee6fb633dd
+  -
+    menu_name: main
+    title: 癌症
+    parent: 'menu_link_content:5575a420-054e-4fee-9bb0-2d57008900ba'
+    uri: 'internal:#'
+    link_title: ''
+    description: null
+    enabled: '1'
+    expanded: '0'
+    weight: '3'
+    langcode: en
+    uuid: b55248b0-64fa-41a3-a707-18e1dcf07117
+  -
+    menu_name: main
+    title: 腸胃疾病
+    parent: 'menu_link_content:5575a420-054e-4fee-9bb0-2d57008900ba'
+    uri: 'internal:#'
+    link_title: ''
+    description: null
+    enabled: '1'
+    expanded: '0'
+    weight: '4'
+    langcode: en
+    uuid: a490ccb8-dd67-43a3-aa8f-bc8e52c8b1d5
+  -
+    menu_name: main
+    title: 呼吸系統疾病
+    parent: 'menu_link_content:5575a420-054e-4fee-9bb0-2d57008900ba'
+    uri: 'internal:#'
+    link_title: ''
+    description: null
+    enabled: '1'
+    expanded: '0'
+    weight: '5'
+    langcode: en
+    uuid: 9ef77540-abf5-48b3-95e8-0c1c95f44474
+  -
+    menu_name: main
+    title: 腎臟
+    parent: 'menu_link_content:5575a420-054e-4fee-9bb0-2d57008900ba'
+    uri: 'internal:#'
+    link_title: ''
+    description: null
+    enabled: '1'
+    expanded: '0'
+    weight: '6'
+    langcode: en
+    uuid: f09154b9-2fe9-4cfc-be72-de8fce2eacc1
+  -
+    menu_name: main
+    title: 感染/傳染病
+    parent: 'menu_link_content:5575a420-054e-4fee-9bb0-2d57008900ba'
+    uri: 'internal:#'
+    link_title: ''
+    description: null
+    enabled: '1'
+    expanded: '0'
+    weight: '7'
+    langcode: en
+    uuid: 02d20f12-35b4-48bc-aded-52949f418125
+  -
+    menu_name: main
+    title: 冠心病
+    parent: 'menu_link_content:1658f9f2-6a68-4862-a9d5-54a6dafb9073'
+    uri: 'internal:#'
+    link_title: ''
+    description: null
+    enabled: '1'
+    expanded: '0'
+    weight: '0'
+    langcode: en
+    uuid: 978bdf77-f6e8-4713-a23f-83679677dcde
+  -
+    menu_name: main
+    title: 高膽固醇
+    parent: 'menu_link_content:1658f9f2-6a68-4862-a9d5-54a6dafb9073'
+    uri: 'internal:#'
+    link_title: ''
+    description: null
+    enabled: '1'
+    expanded: '0'
+    weight: '1'
+    langcode: en
+    uuid: c0ed1580-4cc0-43d1-8394-165b830dfa79
+  -
+    menu_name: main
+    title: 高血壓
+    parent: 'menu_link_content:1658f9f2-6a68-4862-a9d5-54a6dafb9073'
+    uri: 'internal:#'
+    link_title: ''
+    description: null
+    enabled: '1'
+    expanded: '0'
+    weight: '2'
+    langcode: en
+    uuid: 85422588-2917-49a3-b18e-bb677d48c2cf
+  -
+    menu_name: main
+    title: 醫學文章
+    parent: 'menu_link_content:3b8947d1-4888-4dc5-9962-2077323995c6'
+    uri: 'internal:/medical-article'
+    link_title: ''
+    description: null
+    enabled: '1'
+    expanded: '0'
+    weight: '0'
+    langcode: en
+    uuid: bd932067-fa88-4bc1-aad9-e39067b0c0cd

@@ -7,6 +7,7 @@ module:
   azhealthclub_modify: 0
   azhealthclub_step_login: 0
   better_exposed_filters: 0
+  better_normalizers: 0
   big_pipe: 0
   block: 0
   block_class: 0
@@ -28,7 +29,6 @@ module:
   default_content: 0
   default_content_deploy: 0
   devel: 0
-  devel_generate: 0
   devel_php: 0
   dynamic_page_cache: 0
   editor: 0
@@ -47,6 +47,7 @@ module:
   history: 0
   image: 0
   image_url_formatter: 0
+  imce: 0
   jquery_ui: 0
   jquery_ui_accordion: 0
   jquery_ui_datepicker: 0

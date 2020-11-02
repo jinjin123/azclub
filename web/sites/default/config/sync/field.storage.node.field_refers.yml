@@ -1,17 +1,16 @@
-uuid: 4603d742-75dc-407c-aafd-8fbc9d5a1926
+uuid: dee2cbfd-941c-4d81-8781-d773f8e45454
 langcode: en
 status: true
 dependencies:
   module:
     - node
-    - taxonomy
-id: node.field_medical_tag
-field_name: field_medical_tag
+    - text
+id: node.field_refers
+field_name: field_refers
 entity_type: node
-type: entity_reference
-settings:
-  target_type: taxonomy_term
-module: core
+type: text_long
+settings: {  }
+module: text
 locked: false
 cardinality: 1
 translatable: true

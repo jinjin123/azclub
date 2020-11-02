@@ -4,8 +4,12 @@ status: true
 dependencies:
   config:
     - field.field.node.medical_article.body
+    - field.field.node.medical_article.field_medical_article_img
+    - field.field.node.medical_article.field_medical_article_tag
+    - image.style.thumbnail
     - node.type.medical_article
   module:
+    - image
     - path
     - text
 id: node.medical_article.default
@@ -29,6 +33,20 @@ content:
     region: content
     settings: {  }
     third_party_settings: {  }
+  field_medical_article_img:
+    weight: 122
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+    type: image_image
+    region: content
+  field_medical_article_tag:
+    weight: 123
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+    region: content
   path:
     type: path
     weight: 30

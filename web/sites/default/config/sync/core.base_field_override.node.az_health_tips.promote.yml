@@ -1,0 +1,22 @@
+uuid: 02eab8bd-4efc-4714-b71b-c3c2e2ede216
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.az_health_tips
+id: node.az_health_tips.promote
+field_name: promote
+entity_type: node
+bundle: az_health_tips
+label: 'Promoted to front page'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

@@ -1,0 +1,21 @@
+uuid: ff2f7458-a286-43f5-8a50-d4dfc5c7deb4
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_refers
+    - node.type.government_support
+  module:
+    - text
+id: node.government_support.field_refers
+field_name: field_refers
+entity_type: node
+bundle: government_support
+label: 參考：
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

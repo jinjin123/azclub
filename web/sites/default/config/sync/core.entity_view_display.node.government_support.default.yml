@@ -4,6 +4,7 @@ status: true
 dependencies:
   config:
     - field.field.node.government_support.body
+    - field.field.node.government_support.field_refers
     - node.type.government_support
   module:
     - text
@@ -19,6 +20,13 @@ content:
     weight: 101
     settings: {  }
     third_party_settings: {  }
+    region: content
+  field_refers:
+    weight: 102
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
     region: content
   links:
     weight: 100

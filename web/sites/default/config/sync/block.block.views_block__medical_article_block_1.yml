@@ -1,0 +1,38 @@
+uuid: fe49e049-415b-4b15-84e6-77e9205c56e4
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.medical_article
+  module:
+    - block_visibility_groups
+    - gaviasthemer
+    - system
+    - views
+  theme:
+    - astrazeneca
+third_party_settings:
+  gaviasthemer:
+    classes: ''
+id: views_block__medical_article_block_1
+theme: astrazeneca
+region: content
+weight: 0
+provider: null
+plugin: 'views_block:medical_article-block_1'
+settings:
+  id: 'views_block:medical_article-block_1'
+  label: ''
+  provider: views
+  label_display: '0'
+  views_label: ''
+  items_per_page: none
+visibility:
+  condition_group:
+    id: condition_group
+    negate: false
+    block_visibility_group: ''
+  request_path:
+    id: request_path
+    pages: /medical-article
+    negate: false

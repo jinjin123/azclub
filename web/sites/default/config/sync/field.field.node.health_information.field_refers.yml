@@ -1,0 +1,21 @@
+uuid: 50a54a27-8219-4e29-a679-277a81c564d1
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_refers
+    - node.type.health_information
+  module:
+    - text
+id: node.health_information.field_refers
+field_name: field_refers
+entity_type: node
+bundle: health_information
+label: 參考：
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long
