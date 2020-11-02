@@ -1,25 +1,5 @@
 taxonomies:
-  medical_article_tag:
-    -
-      vid: medical_article_tag
-      tid: '12'
-      langcode: en
-      name: 心血管篇
-      description__value: null
-      description__format: null
-      weight: '0'
-      parent: '0'
-      uuid: fa9044e7-2925-4045-9504-37b654b893d2
-    -
-      vid: medical_article_tag
-      tid: '13'
-      langcode: en
-      name: 糖尿篇
-      description__value: null
-      description__format: null
-      weight: '0'
-      parent: '0'
-      uuid: da75778c-a9ce-4e46-98b2-6d398391ef26
+  medical_article_tag: {  }
   ta_type:
     -
       vid: ta_type
@@ -31,16 +11,24 @@ taxonomies:
       weight: '2'
       parent: '0'
       uuid: f14cffe2-b87c-494b-a13f-95101775f5a9
+      field_ta_img: {  }
     -
       vid: ta_type
       tid: '1'
       langcode: en
       name: 心血管疾病
-      description__value: null
-      description__format: null
+      description__value: "<p>Lorem ipsum胡蘿蔔，增加了返利，但給</p>\r\n"
+      description__format: basic_html
       weight: '0'
       parent: '0'
       uuid: 5f18a532-1234-4e3c-95d6-b3b4bad7ac98
+      field_ta_img:
+        -
+          target_id: '48'
+          alt: ''
+          title: ''
+          width: '90'
+          height: '72'
     -
       vid: ta_type
       tid: '7'
@@ -51,6 +39,7 @@ taxonomies:
       weight: '6'
       parent: '0'
       uuid: 1d043716-51cb-465a-b745-1da9e794b125
+      field_ta_img: {  }
     -
       vid: ta_type
       tid: '5'
@@ -61,6 +50,7 @@ taxonomies:
       weight: '4'
       parent: '0'
       uuid: dcd24d0f-62df-42f1-981b-66f5afab2bca
+      field_ta_img: {  }
     -
       vid: ta_type
       tid: '2'
@@ -71,6 +61,7 @@ taxonomies:
       weight: '1'
       parent: '0'
       uuid: 8606a7c4-0c2a-4f64-aa2a-253cec094711
+      field_ta_img: {  }
     -
       vid: ta_type
       tid: '4'
@@ -81,6 +72,7 @@ taxonomies:
       weight: '3'
       parent: '0'
       uuid: 9d8d9068-090a-4226-b703-f3ae0da33047
+      field_ta_img: {  }
     -
       vid: ta_type
       tid: '6'
@@ -91,6 +83,7 @@ taxonomies:
       weight: '5'
       parent: '0'
       uuid: 9050c249-2e50-4275-8052-3fe321030213
+      field_ta_img: {  }
   tags: {  }
   tumor_tag:
     -
@@ -223,7 +216,7 @@ menus:
     description: null
     enabled: '1'
     expanded: '0'
-    weight: '0'
+    weight: '-47'
     langcode: en
     uuid: 5575a420-054e-4fee-9bb0-2d57008900ba
   -
@@ -235,7 +228,7 @@ menus:
     description: null
     enabled: '1'
     expanded: '0'
-    weight: '0'
+    weight: '-45'
     langcode: en
     uuid: c4017921-6a0f-4ada-9e81-a6b089f1cecc
   -
@@ -247,7 +240,7 @@ menus:
     description: null
     enabled: '1'
     expanded: '0'
-    weight: '0'
+    weight: '-44'
     langcode: en
     uuid: 7996e0f4-2810-4da7-ad8f-b857d7f76acb
   -
@@ -259,7 +252,7 @@ menus:
     description: null
     enabled: '1'
     expanded: '1'
-    weight: '1'
+    weight: '-43'
     langcode: en
     uuid: 634a1ae5-fca6-48e1-ae65-b5efd7bb08c2
   -
@@ -271,7 +264,7 @@ menus:
     description: null
     enabled: '1'
     expanded: '0'
-    weight: '0'
+    weight: '-42'
     langcode: en
     uuid: e97426f8-2594-4e97-a84b-fef353e5f433
   -
@@ -283,7 +276,7 @@ menus:
     description: null
     enabled: '1'
     expanded: '0'
-    weight: '-49'
+    weight: '-50'
     langcode: en
     uuid: 694bd965-c2d3-4034-8f6c-80124186e2ed
   -
@@ -295,7 +288,7 @@ menus:
     description: null
     enabled: '1'
     expanded: '1'
-    weight: '-50'
+    weight: '-48'
     langcode: en
     uuid: 1d6ff10d-efcc-4fdb-9662-eb08153af251
   -
@@ -307,7 +300,7 @@ menus:
     description: null
     enabled: '1'
     expanded: '0'
-    weight: '-48'
+    weight: '-49'
     langcode: en
     uuid: 200fdc7e-2624-4345-8524-0fed74fd7c7f
   -
@@ -456,13 +449,13 @@ menus:
     uuid: 85422588-2917-49a3-b18e-bb677d48c2cf
   -
     menu_name: main
-    title: 醫學文章
-    parent: 'menu_link_content:3b8947d1-4888-4dc5-9962-2077323995c6'
-    uri: 'internal:/medical-article'
+    title: 臨床實驗
+    parent: null
+    uri: 'internal:/azhealthclub/clinical-search'
     link_title: ''
     description: null
     enabled: '1'
     expanded: '0'
-    weight: '0'
+    weight: '-46'
     langcode: en
-    uuid: bd932067-fa88-4bc1-aad9-e39067b0c0cd
+    uuid: 8f5ca776-902f-4a86-bec6-b1d5576249bb
