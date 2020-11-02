@@ -47,6 +47,11 @@ function azhealthclub_modify_theme()
      'variables' => [
        'variables' => []
      ]
+   ],
+   'azhealthclub_dashboard'=>[
+     'variables' => [
+       'variables' => []
+     ]
    ]
  ];
 }
