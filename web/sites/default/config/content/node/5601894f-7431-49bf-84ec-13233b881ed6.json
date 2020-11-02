@@ -19,7 +19,7 @@
         ],
         "http:\/\/default\/rest\/relation\/node\/az_product_information\/field_az_product_img": [
             {
-                "href": "http:\/\/default\/sites\/default\/files\/2020-10\/2020-10-26_15-56.png"
+                "href": ""
             }
         ]
     },
@@ -85,7 +85,7 @@
             {
                 "_links": {
                     "self": {
-                        "href": "http:\/\/default\/sites\/default\/files\/2020-10\/2020-10-26_15-56.png"
+                        "href": ""
                     },
                     "type": {
                         "href": "http:\/\/default\/rest\/type\/file\/file"
@@ -95,7 +95,11 @@
                     {
                         "value": "8cc7473c-7569-4aaf-bed6-0c50655b405b"
                     }
-                ]
+                ],
+                "alt": "",
+                "title": "",
+                "width": "253",
+                "height": "215"
             }
         ]
     },

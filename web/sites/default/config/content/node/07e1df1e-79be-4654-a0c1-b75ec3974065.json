@@ -16,11 +16,6 @@
                 "href": "http:\/\/default\/user\/1?_format=hal_json",
                 "lang": "en"
             }
-        ],
-        "http:\/\/default\/rest\/relation\/node\/az_health_tips\/field_medical_tag": [
-            {
-                "href": "http:\/\/default\/taxonomy\/term\/8?_format=hal_json"
-            }
         ]
     },
     "uuid": [
@@ -79,23 +74,6 @@
                     }
                 ],
                 "lang": "en"
-            }
-        ],
-        "http:\/\/default\/rest\/relation\/node\/az_health_tips\/field_medical_tag": [
-            {
-                "_links": {
-                    "self": {
-                        "href": "http:\/\/default\/taxonomy\/term\/8?_format=hal_json"
-                    },
-                    "type": {
-                        "href": "http:\/\/default\/rest\/type\/taxonomy_term\/medical_article_tag_"
-                    }
-                },
-                "uuid": [
-                    {
-                        "value": "63608484-badc-4dec-b828-47152e4a75b3"
-                    }
-                ]
             }
         ]
     },

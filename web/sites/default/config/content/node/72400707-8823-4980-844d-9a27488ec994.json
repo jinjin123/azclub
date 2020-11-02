@@ -19,7 +19,7 @@
         ],
         "http:\/\/default\/rest\/relation\/node\/az_latest_news\/field_az_author_img": [
             {
-                "href": "http:\/\/default\/sites\/default\/files\/2020-10\/2020-10-26_10-41_0.png"
+                "href": ""
             }
         ]
     },
@@ -85,7 +85,7 @@
             {
                 "_links": {
                     "self": {
-                        "href": "http:\/\/default\/sites\/default\/files\/2020-10\/2020-10-26_10-41_0.png"
+                        "href": ""
                     },
                     "type": {
                         "href": "http:\/\/default\/rest\/type\/file\/file"
@@ -95,7 +95,11 @@
                     {
                         "value": "886029e8-0905-44fa-81ee-9ebb55a08813"
                     }
-                ]
+                ],
+                "alt": null,
+                "title": null,
+                "width": null,
+                "height": null
             }
         ]
     },

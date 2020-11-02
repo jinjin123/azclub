@@ -1,7 +1,7 @@
 {
     "_links": {
         "self": {
-            "href": "http:\/\/default\/node\/31?_format=hal_json"
+            "href": "http:\/\/default\/node\/48?_format=hal_json"
         },
         "type": {
             "href": "http:\/\/default\/rest\/type\/node\/medical_article"
@@ -20,11 +20,6 @@
         "http:\/\/default\/rest\/relation\/node\/medical_article\/field_medical_article_img": [
             {
                 "href": ""
-            }
-        ],
-        "http:\/\/default\/rest\/relation\/node\/medical_article\/field_medical_article_tag": [
-            {
-                "href": "http:\/\/default\/taxonomy\/term\/13?_format=hal_json"
             }
         ]
     },
@@ -105,23 +100,6 @@
                 "title": "",
                 "width": "266",
                 "height": "258"
-            }
-        ],
-        "http:\/\/default\/rest\/relation\/node\/medical_article\/field_medical_article_tag": [
-            {
-                "_links": {
-                    "self": {
-                        "href": "http:\/\/default\/taxonomy\/term\/13?_format=hal_json"
-                    },
-                    "type": {
-                        "href": "http:\/\/default\/rest\/type\/taxonomy_term\/medical_article_tag"
-                    }
-                },
-                "uuid": [
-                    {
-                        "value": "da75778c-a9ce-4e46-98b2-6d398391ef26"
-                    }
-                ]
             }
         ]
     },

@@ -1,0 +1,33 @@
+uuid: d08c45b1-3d82-4a98-82ba-3abd0bed3e9f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.taxonomy_term.ta_type.field_ta_img
+    - taxonomy.vocabulary.ta_type
+  module:
+    - image
+    - text
+id: taxonomy_term.ta_type.default
+targetEntityType: taxonomy_term
+bundle: ta_type
+mode: default
+content:
+  description:
+    label: hidden
+    type: text_default
+    weight: 0
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_ta_img:
+    weight: 1
+    label: above
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+hidden:
+  search_api_excerpt: true

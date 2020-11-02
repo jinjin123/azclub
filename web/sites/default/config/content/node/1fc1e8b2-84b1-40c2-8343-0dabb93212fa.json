@@ -19,7 +19,7 @@
         ],
         "http:\/\/default\/rest\/relation\/node\/az_clinical_experience_process\/field_az_clinical_page_image": [
             {
-                "href": "http:\/\/default\/sites\/default\/files\/2020-10\/2020-10-26_15-10.png"
+                "href": ""
             }
         ],
         "http:\/\/default\/rest\/relation\/node\/az_clinical_experience_process\/field_az_clinical_short_desc": [
@@ -95,7 +95,7 @@
             {
                 "_links": {
                     "self": {
-                        "href": "http:\/\/default\/sites\/default\/files\/2020-10\/2020-10-26_15-10.png"
+                        "href": ""
                     },
                     "type": {
                         "href": "http:\/\/default\/rest\/type\/file\/file"
@@ -105,7 +105,11 @@
                     {
                         "value": "0c6c3c95-a69b-4243-9f92-f8187abff41a"
                     }
-                ]
+                ],
+                "alt": "",
+                "title": "",
+                "width": "187",
+                "height": "153"
             }
         ],
         "http:\/\/default\/rest\/relation\/node\/az_clinical_experience_process\/field_az_clinical_short_desc": [

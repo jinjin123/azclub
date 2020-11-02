@@ -1,7 +1,7 @@
 {
     "_links": {
         "self": {
-            "href": "http:\/\/default\/sites\/default\/files\/2020-10\/2020-10-26_10-41_0_0_0_1.png"
+            "href": ""
         },
         "type": {
             "href": "http:\/\/default\/rest\/type\/file\/file"
@@ -77,6 +77,11 @@
         {
             "value": "2020-10-30T08:36:44+00:00",
             "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "data": [
+        {
+            "value": ""
         }
     ]
 }
