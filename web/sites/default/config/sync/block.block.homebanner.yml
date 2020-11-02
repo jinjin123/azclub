@@ -1,10 +1,12 @@
-uuid: 8ecc4f0a-59c0-4464-a1f3-be318cdc2bb7
+uuid: d97d3331-9001-42c6-8b40-71abc81b5972
 langcode: en
-status: false
+status: true
 dependencies:
+  content:
+    - 'block_content:basic:6d5a61e7-6b20-47c9-b7c7-34e9b0c5892e'
   module:
+    - block_content
     - block_visibility_groups
-    - gavias_sliderlayer
     - gaviasthemer
     - system
   theme:
@@ -12,17 +14,20 @@ dependencies:
 third_party_settings:
   gaviasthemer:
     classes: ''
-id: gaviassliderlayerhomeslider
+id: homebanner
 theme: astrazeneca
-region: slideshow_content
-weight: -16
+region: content_top
+weight: 0
 provider: null
-plugin: 'gavias_sliderlayer_block:gavias_sliderlayer_block____1'
+plugin: 'block_content:6d5a61e7-6b20-47c9-b7c7-34e9b0c5892e'
 settings:
-  id: 'gavias_sliderlayer_block:gavias_sliderlayer_block____1'
-  label: 'Gavias SliderLayer - home slider'
-  provider: gavias_sliderlayer
+  id: 'block_content:6d5a61e7-6b20-47c9-b7c7-34e9b0c5892e'
+  label: 'home Banner'
+  provider: block_content
   label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
 visibility:
   condition_group:
     id: condition_group
