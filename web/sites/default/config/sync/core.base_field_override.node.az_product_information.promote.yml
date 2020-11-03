@@ -1,0 +1,22 @@
+uuid: b77ecd7e-10a3-4a06-895b-21fe5a07c644
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.az_product_information
+id: node.az_product_information.promote
+field_name: promote
+entity_type: node
+bundle: az_product_information
+label: 'Promoted to front page'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

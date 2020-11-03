@@ -1,26 +1,31 @@
 {
     "_links": {
         "self": {
-            "href": "http:\/\/default\/home?_format=hal_json"
+            "href": "http:\/\/default\/node\/62?_format=hal_json"
         },
         "type": {
-            "href": "http:\/\/default\/rest\/type\/node\/page_full"
+            "href": "http:\/\/default\/rest\/type\/node\/ta_campaign"
         },
-        "http:\/\/default\/rest\/relation\/node\/page_full\/revision_uid": [
+        "http:\/\/default\/rest\/relation\/node\/ta_campaign\/revision_uid": [
             {
                 "href": "http:\/\/default\/user\/1?_format=hal_json"
             }
         ],
-        "http:\/\/default\/rest\/relation\/node\/page_full\/uid": [
+        "http:\/\/default\/rest\/relation\/node\/ta_campaign\/uid": [
             {
                 "href": "http:\/\/default\/user\/1?_format=hal_json",
                 "lang": "en"
+            }
+        ],
+        "http:\/\/default\/rest\/relation\/node\/ta_campaign\/field_ta_campaign_parent_type": [
+            {
+                "href": "http:\/\/default\/taxonomy\/term\/1?_format=hal_json"
             }
         ]
     },
     "uuid": [
         {
-            "value": "82f3d476-46ff-48d1-b0c6-780b5a9df30b"
+            "value": "dd3b9657-3a1b-4533-a5a9-9aa6e0046168"
         }
     ],
     "langcode": [
@@ -31,17 +36,17 @@
     ],
     "type": [
         {
-            "target_id": "page_full"
+            "target_id": "ta_campaign"
         }
     ],
     "revision_timestamp": [
         {
-            "value": "2020-10-20T06:01:02+00:00",
+            "value": "2020-11-03T06:10:28+00:00",
             "format": "Y-m-d\\TH:i:sP"
         }
     ],
     "_embedded": {
-        "http:\/\/default\/rest\/relation\/node\/page_full\/revision_uid": [
+        "http:\/\/default\/rest\/relation\/node\/ta_campaign\/revision_uid": [
             {
                 "_links": {
                     "self": {
@@ -58,7 +63,7 @@
                 ]
             }
         ],
-        "http:\/\/default\/rest\/relation\/node\/page_full\/uid": [
+        "http:\/\/default\/rest\/relation\/node\/ta_campaign\/uid": [
             {
                 "_links": {
                     "self": {
@@ -75,37 +80,54 @@
                 ],
                 "lang": "en"
             }
+        ],
+        "http:\/\/default\/rest\/relation\/node\/ta_campaign\/field_ta_campaign_parent_type": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/taxonomy\/term\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/default\/rest\/type\/taxonomy_term\/ta_type"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "5f18a532-1234-4e3c-95d6-b3b4bad7ac98"
+                    }
+                ]
+            }
         ]
     },
     "status": [
         {
-            "value": true,
+            "value": false,
             "lang": "en"
         }
     ],
     "title": [
         {
-            "value": "Home",
+            "value": "\u9ad8\u81bd\u56fa\u9187",
             "lang": "en"
         }
     ],
     "created": [
         {
-            "value": "2020-10-20T06:00:42+00:00",
+            "value": "2020-11-03T06:10:04+00:00",
             "lang": "en",
             "format": "Y-m-d\\TH:i:sP"
         }
     ],
     "changed": [
         {
-            "value": "2020-11-03T07:31:53+00:00",
+            "value": "2020-11-03T06:12:59+00:00",
             "lang": "en",
             "format": "Y-m-d\\TH:i:sP"
         }
     ],
     "promote": [
         {
-            "value": true,
+            "value": false,
             "lang": "en"
         }
     ],
@@ -129,17 +151,17 @@
     ],
     "path": [
         {
-            "alias": "\/home",
-            "pid": 54,
+            "alias": null,
+            "pid": null,
             "langcode": "en",
             "lang": "en"
         }
     ],
     "body": [
         {
-            "value": "<p>&lt;div&gt;\u95dc\u6ce8\u75be\u75c5&lt;\/div&gt;<br \/>\r\n&lt;div&gt;\u95dc\u6ce8\u5404\u7a2e\u75be\u75c5&lt;\/div&gt;<br \/>\r\n&lt;p&gt;Lorem lpsum is simply dummy text of the printing and typesetting industry. Lorem lpsum has<br \/>\r\nbeen the indusry's standard dummy text ever sine the 1500s, when an unknow printer<br \/>\r\ntook a galley of type an scrambled it to make a type.&lt;\/p&gt;<\/p>\r\n",
+            "value": "<p>Lorem lpsum is simply dummy text of the printing and typesetting<\/p>\r\n",
             "format": "basic_html",
-            "processed": "<p>&lt;div&gt;\u95dc\u6ce8\u75be\u75c5&lt;\/div&gt;<br \/>\n&lt;div&gt;\u95dc\u6ce8\u5404\u7a2e\u75be\u75c5&lt;\/div&gt;<br \/>\n&lt;p&gt;Lorem lpsum is simply dummy text of the printing and typesetting industry. Lorem lpsum has<br \/>\nbeen the indusry's standard dummy text ever sine the 1500s, when an unknow printer<br \/>\ntook a galley of type an scrambled it to make a type.&lt;\/p&gt;<\/p>",
+            "processed": "<p>Lorem lpsum is simply dummy text of the printing and typesetting<\/p>",
             "summary": "",
             "lang": "en"
         }

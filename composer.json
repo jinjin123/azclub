@@ -39,6 +39,7 @@
         "drupal/structure_sync": "^2.0",
         "drupal/twig_tweak": "3.x-dev@dev",
         "drupal/webform": "^6.0",
+        "drupal/weight": "^3.2",
         "drush/drush": "^10.3"
     },
     "conflict": {

@@ -4,10 +4,17 @@ status: true
 dependencies:
   config:
     - field.field.node.ta_campaign.body
+    - field.field.node.ta_campaign.field_ta_campaign_img
+    - field.field.node.ta_campaign.field_ta_campaign_logo
+    - field.field.node.ta_campaign.field_ta_campaign_parent_type
+    - field.field.node.ta_campaign.field_weight
+    - image.style.thumbnail
     - node.type.ta_campaign
   module:
+    - image
     - path
     - text
+    - weight
 id: node.ta_campaign.default
 targetEntityType: node
 bundle: ta_campaign
@@ -29,6 +36,34 @@ content:
     region: content
     settings: {  }
     third_party_settings: {  }
+  field_ta_campaign_img:
+    weight: 122
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+    type: image_image
+    region: content
+  field_ta_campaign_logo:
+    weight: 123
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+    type: image_image
+    region: content
+  field_ta_campaign_parent_type:
+    weight: 124
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+    region: content
+  field_weight:
+    weight: 125
+    settings: {  }
+    third_party_settings: {  }
+    type: weight_selector
+    region: content
   path:
     type: path
     weight: 30
