@@ -1,32 +1,33 @@
-uuid: d9d6b8dd-86ff-4a92-8fbb-c561e88dd3f0
+uuid: 7aab57f8-c2c8-4ac6-8822-f421206dec3d
 langcode: en
 status: true
 dependencies:
-  config:
-    - views.view.ta_campaign
+  content:
+    - 'block_content:basic:23184360-44ce-48d9-9427-c959b46afa5f'
   module:
+    - block_content
     - block_visibility_groups
     - gaviasthemer
     - system
-    - views
   theme:
     - astrazeneca
 third_party_settings:
   gaviasthemer:
     classes: ''
-id: views_block__ta_campaign_block_1
+id: homerenshikangxinzhiyou
 theme: astrazeneca
 region: content
 weight: 0
 provider: null
-plugin: 'views_block:ta_campaign-block_1'
+plugin: 'block_content:23184360-44ce-48d9-9427-c959b46afa5f'
 settings:
-  id: 'views_block:ta_campaign-block_1'
-  label: ''
-  provider: views
+  id: 'block_content:23184360-44ce-48d9-9427-c959b46afa5f'
+  label: 'home  認識康心摯友'
+  provider: block_content
   label_display: '0'
-  views_label: ''
-  items_per_page: none
+  status: true
+  info: ''
+  view_mode: full
 visibility:
   condition_group:
     id: condition_group
@@ -34,5 +35,5 @@ visibility:
     block_visibility_group: ''
   request_path:
     id: request_path
-    pages: "/attention-disease\r\n<front>"
+    pages: '<front>'
     negate: false

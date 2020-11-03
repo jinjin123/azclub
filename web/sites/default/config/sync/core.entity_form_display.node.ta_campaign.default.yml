@@ -7,12 +7,14 @@ dependencies:
     - field.field.node.ta_campaign.field_ta_campaign_img
     - field.field.node.ta_campaign.field_ta_campaign_logo
     - field.field.node.ta_campaign.field_ta_campaign_parent_type
+    - field.field.node.ta_campaign.field_weight
     - image.style.thumbnail
     - node.type.ta_campaign
   module:
     - image
     - path
     - text
+    - weight
 id: node.ta_campaign.default
 targetEntityType: node
 bundle: ta_campaign
@@ -55,6 +57,12 @@ content:
     settings: {  }
     third_party_settings: {  }
     type: options_select
+    region: content
+  field_weight:
+    weight: 125
+    settings: {  }
+    third_party_settings: {  }
+    type: weight_selector
     region: content
   path:
     type: path

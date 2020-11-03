@@ -8,6 +8,7 @@ dependencies:
     - field.field.node.ta_campaign.field_ta_campaign_img
     - field.field.node.ta_campaign.field_ta_campaign_logo
     - field.field.node.ta_campaign.field_ta_campaign_parent_type
+    - field.field.node.ta_campaign.field_weight
     - node.type.ta_campaign
   module:
     - text
@@ -34,4 +35,5 @@ hidden:
   field_ta_campaign_img: true
   field_ta_campaign_logo: true
   field_ta_campaign_parent_type: true
+  field_weight: true
   search_api_excerpt: true
