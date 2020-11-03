@@ -281,3 +281,78 @@ body {
   height: 50px;
   color: white;
 }
+
+.col-sm-1-7 {
+  width: 14.28%;
+  float: left;
+}
+
+.col-sm-1-7, .col-md-1-7, .col-lg-1-7 {
+  min-height: 1px;
+  padding-left: 10px;
+  padding-right: 10px;
+  position: relative;
+}
+
+@media (min-width: 768px) {
+  .col-sm-1-7 {
+    width: 14.28%;
+    float: left;
+  }
+}
+
+@media (min-width: 992px) {
+  .col-md-1-7 {
+    width: 14.28%;
+    float: left;
+  }
+}
+
+@media (min-width: 1200px) {
+  .col-lg-1-7 {
+    width: 14.28%;
+    float: left;
+  }
+}
+
+.az-ta-clinical-type .az-ta-clinical_content .az-ta-clinical_img {
+  float: left;
+  width: 40px;
+  height: 40px;
+}
+
+.az-ta-clinical-type .az-ta-clinical_content .az-ta-clinical_name {
+  line-height: 40px;
+}
+
+.az-product_box {
+  float: left;
+  margin: 20px;
+  border-radius: 0px 5px 5px 0px;
+  box-shadow: 1px 1px 5px #b8b8b8;
+}
+
+.az-product_box .az-product_img {
+  float: left;
+  width: 40%;
+  display: block;
+}
+
+.az-product_box .az-product_body {
+  float: left;
+  width: 60%;
+  padding-left: 20px;
+  padding-top: 20px;
+}
+
+.az-product_box .az-product_body .az-product_body_desc {
+  color: #b8b8b8;
+}
+
+.az-product_box .az-product_body .az-product_body_icons {
+  float: right;
+  height: 24px;
+  padding-right: 40px;
+  width: 24px;
+  background: transparent url(../images/search-icon.png) no-repeat;
+}
