@@ -18,21 +18,21 @@
 <div class="body-page">
 	{% include directory ~ '/templates/page/parts/preloader.html.twig' %}
    {% include header_skin %}
-	
+
    {% if page.breadcrumbs %}
 		<div class="breadcrumbs">
 			{{ page.breadcrumbs }}
 		</div>
 	{% endif %}
-	
+
 	<div role="main" class="main main-page">
-	
+
 		<div class="clearfix"></div>
 		{% if page.slideshow_content %}
 			<div class="slideshow_content area">
 				{{ page.slideshow_content }}
 			</div>
-		{% endif %}	
+		{% endif %}
 
 		{% if page.help %}
 			<div class="help show">
@@ -50,7 +50,7 @@
 				{{ page.fw_before_content }}
 			</div>
 		{% endif %}
-		
+
 		<div class="clearfix"></div>
 		{% if page.before_content %}
 			<div class="before_content area">
@@ -63,9 +63,9 @@
 				</div>
 			</div>
 		{% endif %}
-		
+
 		<div class="clearfix"></div>
-		
+
 		<div id="content" class="content content-full">
 			<div class="container">
 				{% include directory ~ '/templates/page/main.html.twig' %}
@@ -89,7 +89,7 @@
         		</div>
 			</div>
 		{% endif %}
-		
+
 		{% if page.fw_after_content %}
 			<div class="fw-before-content area">
 				{{ page.fw_after_content }}
