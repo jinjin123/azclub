@@ -426,7 +426,7 @@ menus:
     menu_name: main
     title: 心血管疾病
     parent: 'menu_link_content:5575a420-054e-4fee-9bb0-2d57008900ba'
-    uri: 'internal:#'
+    uri: 'internal:/cardiovascualr'
     link_title: ''
     description: null
     enabled: '1'
@@ -510,7 +510,7 @@ menus:
     menu_name: main
     title: 冠心病
     parent: 'menu_link_content:1658f9f2-6a68-4862-a9d5-54a6dafb9073'
-    uri: 'internal:#'
+    uri: 'internal:/cardiovascualr/coronary-heart'
     link_title: ''
     description: null
     enabled: '1'
