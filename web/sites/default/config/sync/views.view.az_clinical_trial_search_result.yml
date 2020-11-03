@@ -9,9 +9,9 @@ dependencies:
     - field.storage.paragraph.field_field_az_clinical_param_lo
     - image.style.az220180
     - node.type.az_clinical_experience_process
-    - taxonomy.vocabulary.tumor_tag
+    - taxonomy.vocabulary.ta_type
   content:
-    - 'taxonomy_term:tumor_tag:ebee86ee-4c80-44e7-a7cb-dad13b614a71'
+    - 'taxonomy_term:ta_type:5f18a532-1234-4e3c-95d6-b3b4bad7ac98'
   module:
     - better_exposed_filters
     - image
@@ -406,7 +406,7 @@ display:
           admin_label: ''
           operator: or
           value:
-            10: 10
+            1: 1
           group: 1
           exposed: true
           expose:
@@ -446,7 +446,7 @@ display:
           reduce_duplicates: false
           type: select
           limit: true
-          vid: tumor_tag
+          vid: ta_type
           hierarchy: false
           error_message: true
           plugin_id: taxonomy_index_tid

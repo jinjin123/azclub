@@ -68,8 +68,6 @@ body {
         font-size: 20px;
         font-weight: bold;
     }
-}
-.az_clinical_box > p{
     &:nth-child(4){
         width: 80px;
         height: 10px;
@@ -177,4 +175,98 @@ body {
 .az_loading{
     text-align: center;
     width: 100%;
+}
+  .az-clinical-result{
+    article{
+        .node__content{
+            margin-bottom: 50px;
+            p{
+                width: 50%;
+                margin: auto;
+                text-align: center;
+                font-size: 12px;
+                color: $color-gray;
+                margin-bottom: 10px;
+            }
+        }
+        .field__item > p{
+            &:nth-child(2){
+                font-size: 20px;
+                font-weight: bold;
+                color: black;
+                margin-bottom: 20px;
+            }
+        }
+    }
+        
+    //clinical search block
+.az-clinical-product-search {
+    margin-bottom: 200px;
+    .az-clinical-bgimg {
+      height:200px;
+      background-color: #eb1484;
+      .az-clinical-bgfrontblock {
+        text-align: center;
+        color: white;
+        
+      }
+      .az-clinical-bgfrontblock >div{
+        &:nth-child(1){
+            padding-top: 40px;
+            font-size: 12px;
+            font-weight: lighter;
+        }
+        &:nth-child(2){
+            font-size: 20px;
+            margin-bottom: 20px;
+        }
+      }
+      
+      .az-clinical-search-block {
+        display: block;
+        background-color: white;
+        width: 80%;
+        position: relative;
+        margin-right:auto;
+        margin-left:auto;
+        margin-top: 50px;
+        height: 200px;
+        box-shadow: 6px 6px 5px #d0c9c9;
+        border-radius: 5px;
+        .az-search-titile{
+            padding: 20px;
+            font-weight: bold;
+            font-size: 18px;
+        }
+        .az-clinical__search_body {
+            margin-top: 20px;
+            color: $color-gray;
+            margin-left: 20px;
+          .az-search-clinical-type {
+            width: 25%;
+            border: 1px solid $color-gray;
+            height: 50px;
+          }
+          .az-search-clinical-age {
+            width: 20%;
+            border: 1px solid $color-gray;
+            height: 50px;
+          }
+          .az-search-clinical-sex {
+            width: 20%;
+            border: 1px solid $color-gray;
+            height: 50px;
+          }
+          .az-search-button {
+            width: 25%;
+            border-radius: 5px;
+            background-color: #eb1484;
+            margin-left: 10px;
+            height: 50px;
+            color: white;
+          }
+        }
+      }
+    }
+  }
 }
