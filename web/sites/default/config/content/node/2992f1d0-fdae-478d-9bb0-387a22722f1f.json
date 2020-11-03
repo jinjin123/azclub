@@ -1,0 +1,152 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/default\/node\/58?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/default\/rest\/type\/node\/ta_campaign"
+        },
+        "http:\/\/default\/rest\/relation\/node\/ta_campaign\/revision_uid": [
+            {
+                "href": "http:\/\/default\/user\/1?_format=hal_json"
+            }
+        ],
+        "http:\/\/default\/rest\/relation\/node\/ta_campaign\/uid": [
+            {
+                "href": "http:\/\/default\/user\/1?_format=hal_json",
+                "lang": "en"
+            }
+        ]
+    },
+    "uuid": [
+        {
+            "value": "2992f1d0-fdae-478d-9bb0-387a22722f1f"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "ta_campaign"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2020-11-03T05:50:35+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/default\/rest\/relation\/node\/ta_campaign\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/default\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "ad86f4f8-ab08-4ff1-be42-53e6179dd359"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/default\/rest\/relation\/node\/ta_campaign\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/default\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "ad86f4f8-ab08-4ff1-be42-53e6179dd359"
+                    }
+                ],
+                "lang": "en"
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "\u547c\u5438\u7cfb\u7d71\u75be\u75c5",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2020-11-03T05:50:23+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2020-11-03T07:20:19+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "path": [
+        {
+            "alias": null,
+            "pid": null,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "body": [
+        {
+            "value": "<p>Lorem lpsum is simply dummy text of the printing and typesetting<\/p>\r\n",
+            "format": "basic_html",
+            "processed": "<p>Lorem lpsum is simply dummy text of the printing and typesetting<\/p>",
+            "summary": "",
+            "lang": "en"
+        }
+    ],
+    "field_weight": [
+        {
+            "value": 4
+        }
+    ]
+}
