@@ -3,12 +3,23 @@ taxonomies:
   ta_type:
     -
       vid: ta_type
+      tid: '12'
+      langcode: en
+      name: 冠心病
+      description__value: null
+      description__format: null
+      weight: '0'
+      parent: '1'
+      uuid: 38ebce9b-1435-44f1-95f6-a3a0571db709
+      field_ta_img: {  }
+    -
+      vid: ta_type
       tid: '3'
       langcode: en
       name: 呼吸系統疾病
       description__value: null
       description__format: null
-      weight: '2'
+      weight: '5'
       parent: '0'
       uuid: f14cffe2-b87c-494b-a13f-95101775f5a9
       field_ta_img:
@@ -25,7 +36,7 @@ taxonomies:
       name: 心血管疾病
       description__value: "<p>Lorem ipsum胡萝卜，增加了返利，但给</p>\r\n"
       description__format: basic_html
-      weight: '0'
+      weight: '3'
       parent: '0'
       uuid: 5f18a532-1234-4e3c-95d6-b3b4bad7ac98
       field_ta_img:
@@ -42,7 +53,7 @@ taxonomies:
       name: 感染/傳染病
       description__value: null
       description__format: null
-      weight: '6'
+      weight: '9'
       parent: '0'
       uuid: 1d043716-51cb-465a-b745-1da9e794b125
       field_ta_img:
@@ -59,7 +70,7 @@ taxonomies:
       name: 癌症
       description__value: null
       description__format: null
-      weight: '4'
+      weight: '7'
       parent: '0'
       uuid: dcd24d0f-62df-42f1-981b-66f5afab2bca
       field_ta_img:
@@ -76,7 +87,7 @@ taxonomies:
       name: 糖尿病
       description__value: null
       description__format: null
-      weight: '1'
+      weight: '4'
       parent: '0'
       uuid: 8606a7c4-0c2a-4f64-aa2a-253cec094711
       field_ta_img:
@@ -93,7 +104,7 @@ taxonomies:
       name: 腎病
       description__value: null
       description__format: null
-      weight: '3'
+      weight: '6'
       parent: '0'
       uuid: 9d8d9068-090a-4226-b703-f3ae0da33047
       field_ta_img:
@@ -110,7 +121,7 @@ taxonomies:
       name: 腸胃疾病
       description__value: null
       description__format: null
-      weight: '5'
+      weight: '8'
       parent: '0'
       uuid: 9050c249-2e50-4275-8052-3fe321030213
       field_ta_img:
@@ -120,6 +131,28 @@ taxonomies:
           title: ''
           width: '82'
           height: '82'
+    -
+      vid: ta_type
+      tid: '13'
+      langcode: en
+      name: 高膽固醇
+      description__value: null
+      description__format: null
+      weight: '1'
+      parent: '1'
+      uuid: 5c3f337c-02b4-4d7e-b59e-3e5298c4409c
+      field_ta_img: {  }
+    -
+      vid: ta_type
+      tid: '14'
+      langcode: en
+      name: 高血壓
+      description__value: null
+      description__format: null
+      weight: '2'
+      parent: '1'
+      uuid: bdc71c61-2086-46b0-a370-421d4f96be48
+      field_ta_img: {  }
   tags: {  }
   tumor_tag:
     -
@@ -195,6 +228,19 @@ blocks:
           value: "<p><img alt=\"\" data-entity-type=\"file\" data-entity-uuid=\"8cd2c98c-8751-449f-8b47-b7eb41433c32\" height=\"400\" src=\"/sites/default/files/imce_upload/admin/home-banner.png\" width=\"1430\" /></p>\r\n\r\n<p><a href=\"/home\">Az Health Club</a></p>\r\n\r\n<h2>康心摯友</h2>\r\n\r\n<p>你的健康守護者</p>\r\n\r\n<p>無微不至的照顧，助你輕鬆管理身體狀況</p>\r\n"
           summary: ''
           format: basic_html
+  -
+    info: 'home 認識康心摯友'
+    langcode: en
+    uuid: 121544e5-1f04-4139-8968-494680cee452
+    bundle: basic
+    revision_id: null
+    rev_id_current: null
+    fields:
+      body:
+        -
+          value: "<div class=\"row\">\r\n<div class=\"left col-md-6\">\r\n<div>AZ Health Club</div>\r\n\r\n<h5>認識康心摯友</h5>\r\n\r\n<div>使命與信念 英國阿斯利康作為全球藥物研發的公司，一直將健康放於首位。我們不斷突破科學界限，提供改變生命的藥物，務求解決影響全球數百萬人的疾病而還未滿足的醫療需求。與此同時，我們希望給予病患者帶來最大獲益，為醫療系統及社會帶來價值。 阿斯利康本着「我們以病人為先」的宗旨，服務皆以病者的需要為中心。由疾病預防、診斷、治療到治療後管理，全程關顧健康道路上的需要。 因此，我們成立了「康心摯友」，希望藉着這平台提供更貼心的服務。</div>\r\n</div>\r\n\r\n<div class=\"right col-md-6\"><img alt=\"\" data-entity-type=\"file\" data-entity-uuid=\"66819f95-018b-4362-ab83-a53b9a6aadbd\" height=\"371\" src=\"/sites/default/files/imce_upload/admin/Screenshot%20from%202020-10-20%2016-12-39-wdbkv9.png\" width=\"479\" /></div>\r\n</div>\r\n"
+          summary: ''
+          format: full_html
 menus:
   -
     menu_name: footer
