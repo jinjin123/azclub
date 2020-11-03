@@ -7,6 +7,7 @@ dependencies:
     - field.field.node.ta_campaign.body
     - field.field.node.ta_campaign.field_ta_campaign_img
     - field.field.node.ta_campaign.field_ta_campaign_logo
+    - field.field.node.ta_campaign.field_ta_campaign_parent_type
     - node.type.ta_campaign
   module:
     - text
@@ -32,4 +33,5 @@ content:
 hidden:
   field_ta_campaign_img: true
   field_ta_campaign_logo: true
+  field_ta_campaign_parent_type: true
   search_api_excerpt: true
