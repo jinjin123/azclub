@@ -1,26 +1,31 @@
 {
     "_links": {
         "self": {
-            "href": "http:\/\/default\/attention-disease?_format=hal_json"
+            "href": "http:\/\/default\/node\/54?_format=hal_json"
         },
         "type": {
-            "href": "http:\/\/default\/rest\/type\/node\/page"
+            "href": "http:\/\/default\/rest\/type\/node\/az_product_information"
         },
-        "http:\/\/default\/rest\/relation\/node\/page\/revision_uid": [
+        "http:\/\/default\/rest\/relation\/node\/az_product_information\/revision_uid": [
             {
                 "href": "http:\/\/default\/user\/1?_format=hal_json"
             }
         ],
-        "http:\/\/default\/rest\/relation\/node\/page\/uid": [
+        "http:\/\/default\/rest\/relation\/node\/az_product_information\/uid": [
             {
                 "href": "http:\/\/default\/user\/1?_format=hal_json",
                 "lang": "en"
+            }
+        ],
+        "http:\/\/default\/rest\/relation\/node\/az_product_information\/field_az_product_img": [
+            {
+                "href": ""
             }
         ]
     },
     "uuid": [
         {
-            "value": "40f1c1dd-822d-460c-be29-5a68ab3a9982"
+            "value": "3d79ced2-ae77-4c50-8555-d1ec5a2d52d0"
         }
     ],
     "langcode": [
@@ -31,17 +36,17 @@
     ],
     "type": [
         {
-            "target_id": "page"
+            "target_id": "az_product_information"
         }
     ],
     "revision_timestamp": [
         {
-            "value": "2020-11-02T08:00:26+00:00",
+            "value": "2020-11-03T01:57:57+00:00",
             "format": "Y-m-d\\TH:i:sP"
         }
     ],
     "_embedded": {
-        "http:\/\/default\/rest\/relation\/node\/page\/revision_uid": [
+        "http:\/\/default\/rest\/relation\/node\/az_product_information\/revision_uid": [
             {
                 "_links": {
                     "self": {
@@ -58,7 +63,7 @@
                 ]
             }
         ],
-        "http:\/\/default\/rest\/relation\/node\/page\/uid": [
+        "http:\/\/default\/rest\/relation\/node\/az_product_information\/uid": [
             {
                 "_links": {
                     "self": {
@@ -75,6 +80,27 @@
                 ],
                 "lang": "en"
             }
+        ],
+        "http:\/\/default\/rest\/relation\/node\/az_product_information\/field_az_product_img": [
+            {
+                "_links": {
+                    "self": {
+                        "href": ""
+                    },
+                    "type": {
+                        "href": "http:\/\/default\/rest\/type\/file\/file"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "5e3ae958-1cb1-4791-b66d-3811d338da2b"
+                    }
+                ],
+                "alt": "",
+                "title": "",
+                "width": "253",
+                "height": "215"
+            }
         ]
     },
     "status": [
@@ -85,27 +111,28 @@
     ],
     "title": [
         {
-            "value": "\u95dc\u6ce8\u75be\u75c5",
+            "value": "\u85e5\u7269\u540d\u7a31",
             "lang": "en"
         }
     ],
     "created": [
         {
-            "value": "2020-11-02T07:59:15+00:00",
+            "value": "2020-11-03T01:51:11+00:00",
             "lang": "en",
             "format": "Y-m-d\\TH:i:sP"
         }
     ],
     "changed": [
         {
-            "value": "2020-11-02T08:02:37+00:00",
+            "value": "2020-11-03T01:57:57+00:00",
             "lang": "en",
             "format": "Y-m-d\\TH:i:sP"
         }
     ],
     "promote": [
         {
-            "value": false
+            "value": true,
+            "lang": "en"
         }
     ],
     "sticky": [
@@ -128,17 +155,17 @@
     ],
     "path": [
         {
-            "alias": "\/attention-disease",
-            "pid": 73,
+            "alias": null,
+            "pid": null,
             "langcode": "en",
             "lang": "en"
         }
     ],
     "body": [
         {
-            "value": "<p>\u95dc\u6ce8\u75be\u75c5<\/p>\r\n\r\n<h3>\u75be\u75c5\u985e\u5225<\/h3>\r\n\r\n<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type.<\/p>\r\n",
+            "value": "<p>Lorem ipsum dolor\u5750\u5728amet\uff0c\u79c1\u7acb\u6559\u80b2\u7cbe\u82f1<\/p>\r\n",
             "format": "basic_html",
-            "processed": "<p>\u95dc\u6ce8\u75be\u75c5<\/p>\n\n<h3>\u75be\u75c5\u985e\u5225<\/h3>\n\n<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type.<\/p>",
+            "processed": "<p>Lorem ipsum dolor\u5750\u5728amet\uff0c\u79c1\u7acb\u6559\u80b2\u7cbe\u82f1<\/p>",
             "summary": "",
             "lang": "en"
         }

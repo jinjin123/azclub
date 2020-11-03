@@ -270,3 +270,133 @@ body {
     }
   }
 }
+//1-7栅格
+.col-sm-1-7{
+    width: 14.28%; 
+    float: left;
+    }
+    .col-sm-1-7, .col-md-1-7, .col-lg-1-7{
+    min-height: 1px;
+    padding-left: 10px;
+    padding-right: 10px;
+    position: relative;
+    }
+    @media ( min-width : 768px) {
+    .col-sm-1-7 {
+    width: 14.28%; 
+    float: left;
+    }
+    }
+    @media ( min-width : 992px) {
+    .col-md-1-7 {
+    width: 14.28%; 
+    float: left;
+    }
+    }
+    @media ( min-width : 1200px) {
+    .col-lg-1-7 {
+    width: 14.28%;
+    float: left;
+    }
+    }
+//
+.az-ta-clinical-type{
+    .az-ta-clinical_content{
+        .az-ta-clinical_img{
+            float: left;
+            width: 40px;
+            height: 40px;
+        }
+        .az-ta-clinical_name{
+            line-height: 40px;
+        }
+    }
+}
+.az-product_box{
+    float: left;
+    margin: 20px;
+    border-radius: 0px 5px 5px 0px;
+    box-shadow:1px 1px 5px $color-gray;
+    .az-product_img{
+        float: left;
+        width: 40%;
+        display: block;
+    }
+    .az-product_body{
+        float: left;
+        width: 60%;
+        padding-left: 20px;
+        padding-top: 20px;
+
+        .az-product_body_desc{
+            color: $color-gray;
+        }
+        .az-product_body_icons{
+            float: right;
+            height: 24px;
+            padding-right: 40px;
+            width: 24px;background:transparent url(../images/search-icon.png) no-repeat;
+        }
+    }
+}
+.az-product_selectbox{
+    display: none;
+    .az-product_selectbox_content{
+        width: 400px;
+        height: 320px;
+        background-color: white;
+        border-radius: 5px;
+        border: 1px solid black;
+        margin: auto;
+        padding: 25px;
+        p{
+            font-weight: bold;
+            padding-bottom: 20px;
+        }
+        .az-product_selectbox_btn{
+            text-align: center;
+        }
+        button{
+            width: 160px;
+            height: 40px;
+            border-radius: 5px;
+            color: white;
+        }
+        .az-product_selectbox_btnyes{
+            margin-right: 10px;
+            border: 1px solid $color-red;
+            background-color: $color-red;
+        }
+        .az-product_selectbox_btnno{
+            margin-left: 10px;
+            background-color: $color-gray;
+            border: 1px solid $color-gray;
+        }
+    }
+
+    //black
+    .az-product_transbkg {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    opacity: 0.7;
+    background-color: black;
+    z-index: 1;
+   }
+}
+//product_content
+.az-product_duplicate_content{
+    display: none;
+    width: 50%;
+    height: 200px;
+    border: 1px solid black;
+    position: relative;
+    .az-product_duplicate_img{
+        float: left;
+    }
+    .az-product_content_close{
+        float: right;
+    }
+}
