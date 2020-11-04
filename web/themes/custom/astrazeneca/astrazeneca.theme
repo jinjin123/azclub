@@ -380,45 +380,10 @@ function astrazeneca_theme_suggestions_page_alter(array &$suggestions, array $va
  * Implements hook_theme_suggestions_HOOK_alter().
  */
 function astrazeneca_theme_suggestions_node_alter(array &$suggestions, array $variables) {
-  //  $test =1;
   // todo: save ta content types in config
   $ta_content_types = ['ta_cardiovascular', 'ta_cancle'];
   $type = $variables["elements"]["#node"]->getType();
   if (in_array($type, $ta_content_types)) {
-    $suggestions[] = 'astrazenca-ta-content-types';
-    //array_splice($suggestions, 1, 0, 'node--ta-content-types');
+    $suggestions[] = 'node__therapeutic_area';
   }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

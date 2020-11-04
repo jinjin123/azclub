@@ -1,0 +1,47 @@
+uuid: db7d7d9c-fa13-47dc-9b06-201fca12d079
+langcode: en
+status: false
+dependencies:
+  config:
+    - core.entity_view_mode.node.therapeutic_area
+    - field.field.node.ta_cardiovascular.body
+    - field.field.node.ta_cardiovascular.field_refers
+    - field.field.node.ta_cardiovascular.field_ta_img
+    - field.field.node.ta_cardiovascular.field_ta_type
+    - node.type.ta_cardiovascular
+  module:
+    - layout_builder
+    - text
+    - user
+third_party_settings:
+  layout_builder:
+    allow_custom: false
+    enabled: false
+id: node.ta_cardiovascular.therapeutic_area
+targetEntityType: node
+bundle: ta_cardiovascular
+mode: therapeutic_area
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 1
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_refers:
+    weight: 2
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  links:
+    weight: 0
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  field_ta_img: true
+  field_ta_type: true
+  search_api_excerpt: true
