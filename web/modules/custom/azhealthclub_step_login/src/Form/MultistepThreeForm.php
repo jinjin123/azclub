@@ -56,10 +56,17 @@ class MultistepThreeForm extends MultistepFormBase {
       ->execute()
       ->fetchAll();
     $pd_v = [];
+    $pd_t = [];
     foreach($pd_img as $key =>$v){
       $img_url = file_url_transform_relative(file_create_url(File::load($v->field_az_product_img_target_id)->getFileUri()));
       $imv = '<img src='.$img_url.' '.'img_id='.$v->entity_id.'/>';
+      array_push($pd_t,$v->entity_id);
       array_push($pd_v,$pd_v[$v->entity_id]=$imv);
+    }
+    foreach($pd_v as $kk => $vv){
+      if(!in_array($kk,$pd_t)){
+        unset($pd_v[$kk]) ;
+      }
     }
 
     $field_settings = $memberFields['field_medicine_using']->getSettings();
