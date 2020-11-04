@@ -373,7 +373,6 @@ body {
   height: 320px;
   background-color: white;
   border-radius: 5px;
-  border: 1px solid black;
   padding: 25px;
 }
 
@@ -405,7 +404,7 @@ body {
   border: 1px solid #b8b8b8;
 }
 
-.az-product_selectbox .az-product_transbkg {
+.az-product_transbkg {
   position: fixed;
   width: 100%;
   height: 100%;
@@ -416,18 +415,92 @@ body {
   z-index: 10;
 }
 
-.az-product_duplicate_content {
+.az-product_duplicate {
   display: none;
-  width: 50%;
-  height: 200px;
-  border: 1px solid black;
-  position: relative;
 }
 
-.az-product_duplicate_content .az-product_duplicate_img {
+.az-product_duplicate .az-product_duplicate_content {
+  background-color: white;
+  position: fixed;
+  margin: auto;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: 11;
+  width: 40%;
+  height: 230px;
+  border-radius: 0px 8px 8px 0px;
+}
+
+.az-product_duplicate .az-product_duplicate_content .az-product_duplicate_img {
   float: left;
 }
 
-.az-product_duplicate_content .az-product_content_close {
+.az-product_duplicate .az-product_duplicate_content .az-product_duplicate_img .icon {
+  position: absolute;
+  background-color: #eb1484;
+  width: 30px;
+  height: 30px;
+  border-radius: 30px;
+  bottom: 150px;
+  left: 235px;
+}
+
+.az-product_duplicate .az-product_duplicate_content .az-product_content_close {
+  position: absolute;
+  right: -15px;
+  top: -15px;
+  font-size: 30px;
+  background-color: black;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  line-height: 30px;
+  border-radius: 30px;
+  transform: rotate(45deg);
+}
+
+.az-product_duplicate .az-product_duplicate_content .az-product_duplicate_body {
+  float: left;
+  margin-left: 20px;
+  margin-top: 50px;
+  width: 40%;
+}
+
+.az-product_duplicate .az-product_duplicate_content .az-product_duplicate_body .az_duplicate_across {
+  width: 50px;
+  height: 5px;
+  background-color: #eb1484;
+  border-radius: 5px;
+}
+
+.az-product_duplicate .az-product_duplicate_content .az-product_duplicate_body a {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.az-product_duplicate .az-product_duplicate_content .az-product_duplicate_body p {
+  margin-top: 20px;
+  color: #b8b8b8;
+  width: 80%;
+}
+
+.az-article-header .az_article_crumbs {
+  font-size: 12px;
+  color: #b8b8b8;
+}
+
+.az-article-header .az-article_rightbutton {
   float: right;
+}
+
+.az-article-header .az-article_rightbutton button {
+  font-size: 15px;
+  width: 120px;
+  height: 40px;
+  background-color: #eb1484;
+  border: 1px solid #eb1484;
+  border-radius: 5px;
+  color: white;
 }

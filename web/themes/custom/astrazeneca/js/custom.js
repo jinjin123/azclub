@@ -1,15 +1,31 @@
 Drupal.behaviors.PharmaTheme = {
   attach: function(context, settings) {
     var $ = jQuery.noConflict();
-    // $(".az-search-button").click(function () {
-    //   console.log("aa")
-    // })
+    $(".az-search-button").click(function () {
+      var az_clinic_one_value=$("#az_clinic_select_type option:selected")[0].value;
+      var az_clinic_two_value=$("#az_clinic_select_age option:selected")[0].textContent;
+      var az_clinic_tqq_value=$("#az_clinic_select_sex option:selected")[0].value;
+      if (az_clinic_one_value=="腫瘤類別") {
+        az_clinic_one_value=""
+      }
+      if (az_clinic_two_value=="年齡") {
+        az_clinic_two_value=""
+      }
+      if (az_clinic_tqq_value=="性別") {
+        az_clinic_tqq_value=""
+      }
+      var redirct = '/Clinical/search-result?';
+      location.href=redirct+"field_az_conditions_term_target_id="+az_clinic_one_value+"&"+"field_az_se_value="+az_clinic_tqq_value+"&"+"field_az_clinical_age_value="+az_clinic_two_value;
+      // console.log(redirct+"field_az_conditions_term_target_id="+az_clinic_two_value+"&"+"field_az_se_value="+az_clinic_two_value+"&"+"field_az_clinical_age_value="+az_clinic_tqq_value)
+    })
+    
     $(".az-product_body_icons").on('click',function(e){
       e.stopPropagation();
       var target = $(this);
       var title = target.parent().children()[0].textContent.replace(/^\s+|\s+$/g,"");
       var cont = target.parent().children()[1].textContent.replace(/^\s+|\s+$/g,"");
       var imgUrl= target.parent().parent().children()[0].innerHTML.replace(/^\s+|\s+$/g,"");
+      $(".az-product_selectbox").css("display","block");
       // console.log(title);
 
       // var product_des
@@ -22,7 +38,23 @@ Drupal.behaviors.PharmaTheme = {
         //content
         var az_product_contparent= $(this).siblings(".az-product_body_desc");
         var az_product_cont=az_product_contparent.find("p").html(); */
+        $(".az-product_selectbox_btnyes").click(function(){
+      $(".az-product_selectbox").css("display","none");
+      $(".az-product_duplicate").css("display","block");
+      $(".az-product_duplicate_img").html(imgUrl)
+     $(".az-product_duplicate_body").children()[0].textContent=title;
+     $(".az-product_duplicate_body").children()[2].textContent=cont;
     })
+    //NO
+    $(".az-product_selectbox_btnno").click(function(){
+      $(".az-product_selectbox").css("display","none");
+    })
+    //close
+    $(".az-product_content_close").click(function(){
+      $(".az-product_duplicate").css("display","none");
+    })
+    })
+    
 
     // $(".az-product_selectbox_conth4").text("免責聲明：");
     // $(".az-product_selectbox_contp1").text("藥品咨詢只能適用於香港或澳門服用此藥物之人仕。");
