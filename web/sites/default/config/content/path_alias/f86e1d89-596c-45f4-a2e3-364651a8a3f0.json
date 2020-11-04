@@ -1,0 +1,35 @@
+{
+    "_links": {
+        "self": {
+            "href": ""
+        },
+        "type": {
+            "href": "http:\/\/default\/rest\/type\/path_alias\/path_alias"
+        }
+    },
+    "uuid": [
+        {
+            "value": "f86e1d89-596c-45f4-a2e3-364651a8a3f0"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en"
+        }
+    ],
+    "path": [
+        {
+            "value": "\/node\/78"
+        }
+    ],
+    "alias": [
+        {
+            "value": "\/respiratory"
+        }
+    ],
+    "status": [
+        {
+            "value": true
+        }
+    ]
+}

@@ -1,0 +1,35 @@
+{
+    "_links": {
+        "self": {
+            "href": ""
+        },
+        "type": {
+            "href": "http:\/\/default\/rest\/type\/path_alias\/path_alias"
+        }
+    },
+    "uuid": [
+        {
+            "value": "c9866160-4ea4-4812-9561-e4927f3d8715"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en"
+        }
+    ],
+    "path": [
+        {
+            "value": "\/node\/79"
+        }
+    ],
+    "alias": [
+        {
+            "value": "\/respiratory\/asthma"
+        }
+    ],
+    "status": [
+        {
+            "value": true
+        }
+    ]
+}

@@ -1,0 +1,146 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/default\/cardiovascualr\/coronary-heart?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/default\/rest\/type\/node\/page"
+        },
+        "http:\/\/default\/rest\/relation\/node\/page\/revision_uid": [
+            {
+                "href": "http:\/\/default\/user\/1?_format=hal_json"
+            }
+        ],
+        "http:\/\/default\/rest\/relation\/node\/page\/uid": [
+            {
+                "href": "http:\/\/default\/user\/1?_format=hal_json",
+                "lang": "en"
+            }
+        ]
+    },
+    "uuid": [
+        {
+            "value": "b4daf892-2981-455f-9265-b53b815b5f40"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "page"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2020-11-03T11:02:23+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/default\/rest\/relation\/node\/page\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/default\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "ad86f4f8-ab08-4ff1-be42-53e6179dd359"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/default\/rest\/relation\/node\/page\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/default\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "ad86f4f8-ab08-4ff1-be42-53e6179dd359"
+                    }
+                ],
+                "lang": "en"
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "\u51a0\u5fc3\u75c5",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2020-11-03T11:00:38+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2020-11-03T11:02:57+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": false
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "path": [
+        {
+            "alias": "\/cardiovascualr\/coronary-heart",
+            "pid": 74,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "body": [
+        {
+            "value": "<p>\u51a0\u5fc3\u75c5<\/p>\r\n\r\n<h3>\u76f8\u95dc\u6587\u7ae0<\/h3>\r\n\r\n<p>Lorem lpsum is simply dummy text of the printing and typesetting industry. Lorem lpsum has<br \/>\r\nbeen the indusry's standard dummy text ever sine the 1500s, when an unknow printer<br \/>\r\ntook a galley of type an scrambled it to make a type.<\/p>\r\n",
+            "format": "basic_html",
+            "processed": "<p>\u51a0\u5fc3\u75c5<\/p>\n\n<h3>\u76f8\u95dc\u6587\u7ae0<\/h3>\n\n<p>Lorem lpsum is simply dummy text of the printing and typesetting industry. Lorem lpsum has<br \/>\nbeen the indusry's standard dummy text ever sine the 1500s, when an unknow printer<br \/>\ntook a galley of type an scrambled it to make a type.<\/p>",
+            "summary": "",
+            "lang": "en"
+        }
+    ]
+}
