@@ -1,0 +1,35 @@
+{
+    "_links": {
+        "self": {
+            "href": ""
+        },
+        "type": {
+            "href": "http:\/\/default\/rest\/type\/path_alias\/path_alias"
+        }
+    },
+    "uuid": [
+        {
+            "value": "e2aec28a-959a-40f8-9def-944abc9c688b"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en"
+        }
+    ],
+    "path": [
+        {
+            "value": "\/node\/74"
+        }
+    ],
+    "alias": [
+        {
+            "value": "\/gastrointestinal"
+        }
+    ],
+    "status": [
+        {
+            "value": true
+        }
+    ]
+}

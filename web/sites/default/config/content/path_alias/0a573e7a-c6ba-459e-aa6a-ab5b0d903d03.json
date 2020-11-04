@@ -1,0 +1,35 @@
+{
+    "_links": {
+        "self": {
+            "href": ""
+        },
+        "type": {
+            "href": "http:\/\/default\/rest\/type\/path_alias\/path_alias"
+        }
+    },
+    "uuid": [
+        {
+            "value": "0a573e7a-c6ba-459e-aa6a-ab5b0d903d03"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en"
+        }
+    ],
+    "path": [
+        {
+            "value": "\/node\/76"
+        }
+    ],
+    "alias": [
+        {
+            "value": "\/gastrointestinal\/acid-reflux"
+        }
+    ],
+    "status": [
+        {
+            "value": true
+        }
+    ]
+}
