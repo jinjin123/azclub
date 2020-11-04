@@ -1,11 +1,18 @@
 Drupal.behaviors.PharmaTheme = {
   attach: function(context, settings) {
     var $ = jQuery.noConflict();
-    $(".az-search-button").click(function () {
-      console.log("aa")
-    })
-    
-    $(".az-product_body_icons").click(function(){
+    // $(".az-search-button").click(function () {
+    //   console.log("aa")
+    // })
+    $(".az-product_body_icons").on('click',function(e){
+      e.stopPropagation();
+      var target = $(this);
+      var title = target.parent().children()[0].textContent.replace(/^\s+|\s+$/g,"");
+      var cont = target.parent().children()[1].textContent.replace(/^\s+|\s+$/g,"");
+      var imgUrl= target.parent().parent().children()[0].innerHTML.replace(/^\s+|\s+$/g,"");
+      // console.log(title);
+
+      // var product_des
   /*       //img
         var az_product_repeimgparent=$(this).parent().siblings(".az-product_img");
         var az_product_repeimg=az_product_repeimgparent.find("img").attr('src');
@@ -16,7 +23,7 @@ Drupal.behaviors.PharmaTheme = {
         var az_product_contparent= $(this).siblings(".az-product_body_desc");
         var az_product_cont=az_product_contparent.find("p").html(); */
     })
-    
+
     // $(".az-product_selectbox_conth4").text("免責聲明：");
     // $(".az-product_selectbox_contp1").text("藥品咨詢只能適用於香港或澳門服用此藥物之人仕。");
     // $(".az-product_selectbox_contp2").text("如同意繼續瀏覽，你已聲明你正服用此藥物，並且了解所提供的質詢只作參考用途。如對以上藥物有任何疑問，請向您的醫生或藥劑師查詢。");
@@ -24,7 +31,7 @@ Drupal.behaviors.PharmaTheme = {
     // $(".az-product_selectbox_btnyes").html("是");
     // $(".az-product_selectbox_btnno").html("否");
 
-    
+
   }
 };
   //http://localhost:30000/Clinical/search-result?field_az_conditions_term_target_id=10&field_az_se_value=1&field_az_clinical_age_value=1
