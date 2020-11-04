@@ -4,9 +4,14 @@ Drupal.behaviors.PharmaTheme = {
     $(".az-search-button").click(function () {
       console.log("aa")
     })
-
+    var az_product_repeimg
+    var az_product_title;
+    var az_product_cont;
     $(".az-product_body_icons").click(function(){
-     
+      az_product_repeimg=$(".az-product_img").find("img").attr('src');
+      az_product_title=$(".az-product_body_title").find("a").html();
+      az_product_cont=$(".az-product_body_desc").find("p").html();
+      alert(az_product_repeimg);
     })
     // $(".az-product_selectbox_conth4").text("免責聲明：");
     // $(".az-product_selectbox_contp1").text("藥品咨詢只能適用於香港或澳門服用此藥物之人仕。");
