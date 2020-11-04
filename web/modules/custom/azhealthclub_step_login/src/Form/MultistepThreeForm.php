@@ -10,6 +10,7 @@ namespace Drupal\azhealthclub_step_login\Form;
 use Drupal\Core\Datetime\DrupalDateTime;
 use Drupal\Core\Form\FormStateInterface;
 use Drupal\Core\Url;
+use Drupal\file\Entity\File;
 
 class MultistepThreeForm extends MultistepFormBase {
 
@@ -48,12 +49,25 @@ class MultistepThreeForm extends MultistepFormBase {
     ];
 
     // todo add picture
+    $database = \Drupal::database();
+    $pd_img = $database->select('node__field_az_product_img', 'n')
+      ->condition("n.bundle","az_product_information","=")
+      ->fields("n",["field_az_product_img_target_id","entity_id"])
+      ->execute()
+      ->fetchAll();
+    $pd_v = [];
+    foreach($pd_img as $key =>$v){
+      $img_url = file_url_transform_relative(file_create_url(File::load($v->field_az_product_img_target_id)->getFileUri()));
+      $imv = '<img src='.$img_url.' '.'img_id='.$v->entity_id.'/>';
+      array_push($pd_v,$imv);
+    }
+
     $field_settings = $memberFields['field_medicine_using']->getSettings();
-    $allowed_values = $field_settings['allowed_values'];
+    //$allowed_values = $field_settings['allowed_values'];
     $form['medicine_using'] = [
       '#type' => 'radios',
       '#title' => '本人正服用「阿斯利康」以下藥物（請√閣下現在正服用「阿斯利康」藥物）',
-      '#options' => $allowed_values,
+      '#options' => $pd_v,
       '#default_value' => $this->store->get('medicine_using') ? $this->store->get('medicine_using') : [],
     ];
 
