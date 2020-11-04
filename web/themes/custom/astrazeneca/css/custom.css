@@ -362,12 +362,18 @@ body {
 }
 
 .az-product_selectbox .az-product_selectbox_content {
+  position: fixed;
+  margin: auto;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: 11;
   width: 400px;
   height: 320px;
   background-color: white;
   border-radius: 5px;
   border: 1px solid black;
-  margin: auto;
   padding: 25px;
 }
 
@@ -407,7 +413,7 @@ body {
   top: 0;
   opacity: 0.7;
   background-color: black;
-  z-index: 1;
+  z-index: 10;
 }
 
 .az-product_duplicate_content {
