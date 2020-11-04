@@ -4,10 +4,19 @@ Drupal.behaviors.PharmaTheme = {
     $(".az-search-button").click(function () {
       console.log("aa")
     })
-
+    
     $(".az-product_body_icons").click(function(){
-     
+  /*       //img
+        var az_product_repeimgparent=$(this).parent().siblings(".az-product_img");
+        var az_product_repeimg=az_product_repeimgparent.find("img").attr('src');
+        //title
+        var az_product_titleparent=$(this).siblings(".az-product_body_title");
+        var az_product_title=az_product_titleparent.find("a").html();
+        //content
+        var az_product_contparent= $(this).siblings(".az-product_body_desc");
+        var az_product_cont=az_product_contparent.find("p").html(); */
     })
+    
     // $(".az-product_selectbox_conth4").text("免責聲明：");
     // $(".az-product_selectbox_contp1").text("藥品咨詢只能適用於香港或澳門服用此藥物之人仕。");
     // $(".az-product_selectbox_contp2").text("如同意繼續瀏覽，你已聲明你正服用此藥物，並且了解所提供的質詢只作參考用途。如對以上藥物有任何疑問，請向您的醫生或藥劑師查詢。");
