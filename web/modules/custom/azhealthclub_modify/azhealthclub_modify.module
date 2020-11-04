@@ -25,6 +25,19 @@ function azhealthclub_modify_help($route_name, RouteMatchInterface $route_match)
   }
 }
 
+/**
+ * @param $key
+ * @param $message
+ * @param $params
+ *  hook_mail
+ */
+function azhealthclub_modify_mail($key, &$message, $params) {
+  if ($key == 'smtp-test') {
+    $message['subject'] = $params['subject'];
+    $message['body'][] = $params['body'];
+  }
+}
+
 function azhealthclub_modify_theme()
 {
  return [
