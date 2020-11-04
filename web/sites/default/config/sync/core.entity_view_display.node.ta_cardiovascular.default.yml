@@ -4,12 +4,18 @@ status: true
 dependencies:
   config:
     - field.field.node.ta_cardiovascular.body
+    - field.field.node.ta_cardiovascular.field_refers
     - field.field.node.ta_cardiovascular.field_ta_img
+    - field.field.node.ta_cardiovascular.field_ta_type
     - node.type.ta_cardiovascular
   module:
-    - image
+    - layout_builder
     - text
     - user
+third_party_settings:
+  layout_builder:
+    allow_custom: false
+    enabled: false
 id: node.ta_cardiovascular.default
 targetEntityType: node
 bundle: ta_cardiovascular
@@ -18,23 +24,23 @@ content:
   body:
     label: hidden
     type: text_default
-    weight: 101
+    weight: 1
     settings: {  }
     third_party_settings: {  }
     region: content
-  field_ta_img:
-    weight: 102
+  field_refers:
+    weight: 2
     label: above
-    settings:
-      image_style: ''
-      image_link: ''
+    settings: {  }
     third_party_settings: {  }
-    type: image
+    type: text_default
     region: content
   links:
-    weight: 100
+    weight: 0
+    region: content
     settings: {  }
     third_party_settings: {  }
-    region: content
 hidden:
+  field_ta_img: true
+  field_ta_type: true
   search_api_excerpt: true

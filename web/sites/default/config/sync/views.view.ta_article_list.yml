@@ -6,14 +6,19 @@ dependencies:
     - field.storage.node.body
     - field.storage.node.field_ta_img
     - node.type.ta_cardiovascular
+    - taxonomy.vocabulary.ta_type
+  content:
+    - 'block_content:basic:5eda6e96-b48f-4e47-b631-6467eeaaeecf'
+    - 'taxonomy_term:ta_type:38ebce9b-1435-44f1-95f6-a3a0571db709'
   module:
     - image
     - node
+    - taxonomy
     - text
     - user
     - views_infinite_scroll
 id: ta_article_list
-label: 'Therapeutic area article list'
+label: 'TA article list'
 module: views
 description: ''
 tag: ''
@@ -70,7 +75,7 @@ display:
             offset: false
             offset_label: Offset
           views_infinite_scroll:
-            button_text: 'Load More'
+            button_text: 瀏覽更多
             automatically_load_content: false
       style:
         type: default
@@ -360,6 +365,52 @@ display:
           entity_type: node
           entity_field: type
           plugin_id: bundle
+        field_ta_type_target_id:
+          id: field_ta_type_target_id
+          table: node__field_ta_type
+          field: field_ta_type_target_id
+          relationship: none
+          group_type: group
+          admin_label: ''
+          operator: or
+          value:
+            12: 12
+          group: 1
+          exposed: false
+          expose:
+            operator_id: ''
+            label: ''
+            description: ''
+            use_operator: false
+            operator: ''
+            operator_limit_selection: false
+            operator_list: {  }
+            identifier: ''
+            required: false
+            remember: false
+            multiple: false
+            remember_roles:
+              authenticated: authenticated
+            reduce: false
+          is_grouped: false
+          group_info:
+            label: ''
+            description: ''
+            identifier: ''
+            optional: true
+            widget: select
+            multiple: false
+            remember: false
+            default_group: All
+            default_group_multiple: {  }
+            group_items: {  }
+          reduce_duplicates: false
+          type: select
+          limit: true
+          vid: ta_type
+          hierarchy: true
+          error_message: true
+          plugin_id: taxonomy_index_tid
       sorts:
         created:
           id: created
@@ -396,12 +447,14 @@ display:
       relationships: {  }
       arguments: {  }
       display_extenders: {  }
+      use_ajax: true
     cache_metadata:
       max-age: -1
       contexts:
         - 'languages:language_content'
         - 'languages:language_interface'
         - url.query_args
+        - user
         - 'user.node_grants:view'
         - user.permissions
       tags:
@@ -415,12 +468,135 @@ display:
     display_options:
       display_extenders: {  }
       display_description: ''
+      defaults:
+        filters: false
+        filter_groups: false
+      filters:
+        status:
+          value: '1'
+          table: node_field_data
+          field: status
+          plugin_id: boolean
+          entity_type: node
+          entity_field: status
+          id: status
+          expose:
+            operator: ''
+            operator_limit_selection: false
+            operator_list: {  }
+          group: 1
+        type:
+          id: type
+          table: node_field_data
+          field: type
+          relationship: none
+          group_type: group
+          admin_label: ''
+          operator: in
+          value:
+            ta_cardiovascular: ta_cardiovascular
+          group: 1
+          exposed: false
+          expose:
+            operator_id: ''
+            label: ''
+            description: ''
+            use_operator: false
+            operator: ''
+            operator_limit_selection: false
+            operator_list: {  }
+            identifier: ''
+            required: false
+            remember: false
+            multiple: false
+            remember_roles:
+              authenticated: authenticated
+            reduce: false
+          is_grouped: false
+          group_info:
+            label: ''
+            description: ''
+            identifier: ''
+            optional: true
+            widget: select
+            multiple: false
+            remember: false
+            default_group: All
+            default_group_multiple: {  }
+            group_items: {  }
+          entity_type: node
+          entity_field: type
+          plugin_id: bundle
+      filter_groups:
+        operator: AND
+        groups:
+          1: AND
     cache_metadata:
       max-age: -1
       contexts:
         - 'languages:language_content'
         - 'languages:language_interface'
         - url.query_args
+        - 'user.node_grants:view'
+        - user.permissions
+      tags:
+        - 'config:field.storage.node.body'
+        - 'config:field.storage.node.field_ta_img'
+  block_2:
+    display_plugin: block
+    id: block_2
+    display_title: '冠心病 Block'
+    position: 2
+    display_options:
+      display_extenders: {  }
+      display_description: ''
+      pager:
+        type: infinite_scroll
+        options:
+          items_per_page: 3
+          offset: 0
+          id: 0
+          total_pages: null
+          tags:
+            previous: '‹ Previous'
+            next: 'Next ›'
+          expose:
+            items_per_page: false
+            items_per_page_label: 'Items per page'
+            items_per_page_options: '5, 10, 25, 50'
+            items_per_page_options_all: false
+            items_per_page_options_all_label: '- All -'
+            offset: false
+            offset_label: Offset
+          views_infinite_scroll:
+            button_text: 瀏覽更多
+            automatically_load_content: false
+      defaults:
+        pager: false
+        header: false
+        footer: false
+      header: {  }
+      footer:
+        entity_block_content:
+          id: entity_block_content
+          table: views
+          field: entity_block_content
+          relationship: none
+          group_type: group
+          admin_label: ''
+          empty: false
+          tokenize: true
+          target: 5eda6e96-b48f-4e47-b631-6467eeaaeecf
+          view_mode: default
+          bypass_access: false
+          plugin_id: entity
+    cache_metadata:
+      max-age: -1
+      contexts:
+        - 'languages:language_content'
+        - 'languages:language_interface'
+        - url.query_args
+        - user
         - 'user.node_grants:view'
         - user.permissions
       tags:

@@ -331,6 +331,19 @@ blocks:
           value: "<p>參加臨床飾演？</p>\r\n\r\n<p>他們痛苦不堪。什麼東西。但是因為我要追問，我們的軍兵是誰，除了使他們中的任何一個人可以佔便宜外，他們是誰？</p>\r\n\r\n<p><span>找到你的臨床試驗</span></p>\r\n"
           summary: ''
           format: full_html
+  -
+    info: 診斷冠心病
+    langcode: en
+    uuid: 5eda6e96-b48f-4e47-b631-6467eeaaeecf
+    bundle: basic
+    revision_id: null
+    rev_id_current: null
+    fields:
+      body:
+        -
+          value: "<p>診斷冠心病</p>\r\n\r\n<p>診斷及自我檢查</p>\r\n\r\n<p>心臟病檢查-高危人士或曾出現懷疑為症狀者，應盡快求診，諮詢醫生的專業意見，選擇最合適的檢查。 如運動心電圖及以下的檢查方法可評估患者的血管健康情況。</p>\r\n\r\n<p>臨床檢查 包括量血壓</p>\r\n\r\n<p>摘取病人病史</p>\r\n\r\n<p>血液檢驗，包括血糖發血脂</p>\r\n\r\n<p>了解治療方案.....</p>\r\n"
+          summary: ''
+          format: full_html
 menus:
   -
     menu_name: footer
