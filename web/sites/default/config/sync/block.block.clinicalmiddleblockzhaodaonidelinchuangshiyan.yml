@@ -1,9 +1,9 @@
-uuid: b7e6aa5f-7664-4441-872e-c85c0253ce0d
+uuid: b3e1e554-e88b-4faa-ae5b-d0db4f28f5a6
 langcode: en
-status: true
+status: false
 dependencies:
   content:
-    - 'block_content:basic:66d9cc7f-d1cb-4bf5-a977-5e18e750c8da'
+    - 'block_content:basic:dadc046f-b578-4b02-873b-4f22e94ee17d'
   module:
     - block_content
     - block_visibility_groups
@@ -14,17 +14,17 @@ dependencies:
 third_party_settings:
   gaviasthemer:
     classes: ''
-id: referenceblock
+id: clinicalmiddleblockzhaodaonidelinchuangshiyan
 theme: astrazeneca
-region: content_bottom
-weight: -13
+region: content
+weight: -9
 provider: null
-plugin: 'block_content:66d9cc7f-d1cb-4bf5-a977-5e18e750c8da'
+plugin: 'block_content:dadc046f-b578-4b02-873b-4f22e94ee17d'
 settings:
-  id: 'block_content:66d9cc7f-d1cb-4bf5-a977-5e18e750c8da'
-  label: 參考：
+  id: 'block_content:dadc046f-b578-4b02-873b-4f22e94ee17d'
+  label: 'Clinical middle block 找到你的臨床實驗'
   provider: block_content
-  label_display: '0'
+  label_display: visible
   status: true
   info: ''
   view_mode: full
@@ -35,5 +35,5 @@ visibility:
     block_visibility_group: ''
   request_path:
     id: request_path
-    pages: "/goverment_support\r\n/latest-news/*\r\n/azhealthclub/clinical-search\r\n/Clinical/search-result\r\n/az-health-club/*"
+    pages: /Clinical/search-result
     negate: false

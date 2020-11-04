@@ -1,6 +1,6 @@
 uuid: 36541870-b8d7-4c35-bc1f-ce9ab1d0e797
 langcode: en
-status: true
+status: false
 dependencies:
   content:
     - 'block_content:basic:250c78c1-5e57-44f5-aa86-6a4bc41299f8'
@@ -17,7 +17,7 @@ third_party_settings:
 id: clinicalmiddleblock
 theme: astrazeneca
 region: content
-weight: -6
+weight: -10
 provider: null
 plugin: 'block_content:250c78c1-5e57-44f5-aa86-6a4bc41299f8'
 settings:

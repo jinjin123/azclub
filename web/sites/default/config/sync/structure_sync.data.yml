@@ -190,7 +190,7 @@ blocks:
           summary: ''
           format: basic_html
   -
-    info: 'Clinical middle block 搜索臨床試驗'
+    info: 'Clinical middle block 臨床實驗相關文章'
     langcode: en
     uuid: 250c78c1-5e57-44f5-aa86-6a4bc41299f8
     bundle: basic
@@ -199,7 +199,7 @@ blocks:
     fields:
       body:
         -
-          value: "<div class=\"az_clinical_box\">\r\n<p>治療區域</p>\r\n\r\n<p>這裡治療什麼臨床類型？</p>\r\n\r\n<p>他們痛苦不堪。什麼東西。但是因為我必到最小的地方來。我們的軍隊是誰呢？除了最小的以外，我什麼都不勞苦。好的，洛琳考慮到這一點，他一定很痛苦。</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<div class=\"flex\"><img src=\"/theme/custom/astrazeneca/images/add.png\" /> <img src=\"/theme/custom/astrazeneca/images/add.png\" /> <img src=\"/theme/custom/astrazeneca/images/add.png\" /> <img src=\"/theme/custom/astrazeneca/images/add.png\" /> <img src=\"/theme/custom/astrazeneca/images/add.png\" /> <img src=\"/theme/custom/astrazeneca/images/add.png\" /></div>\r\n</div>\r\n\r\n<div class=\"az_clinical_bottom_box\">\r\n<div class=\"az__bottom_right_box\">\r\n<div class=\"az__bottom_right_box_title\">參加臨床飾演？</div>\r\n\r\n<div class=\"az__bottom_right_box_body\">他們痛苦不堪。什麼東西。但是因為我要追問，我們的軍兵是誰，除了使他們中的任何一個人可以佔便宜外，他們是誰？</div>\r\n</div>\r\n\r\n<div class=\"az__bottom_left_box\"><span>找到你的臨床試驗</span></div>\r\n</div>\r\n"
+          value: "<div class=\"az_clinical_box\">\r\n<p>臨床試驗文章</p>\r\n\r\n<p>臨床實驗相關文章</p>\r\n\r\n<p>他們痛苦不堪。什麼東西。但是因為我必到最小的地方來。我們的軍隊是誰呢？除了最小的以外，我什麼都不勞苦。好的，洛琳考慮到這一點，他一定很痛苦。</p>\r\n\r\n<p>&nbsp;</p>\r\n</div>\r\n"
           summary: ''
           format: full_html
   -
@@ -239,6 +239,19 @@ blocks:
       body:
         -
           value: "<div class=\"row\">\r\n<div class=\"left col-md-6\">\r\n<div>AZ Health Club</div>\r\n\r\n<h5>認識康心摯友</h5>\r\n\r\n<div>使命與信念 英國阿斯利康作為全球藥物研發的公司，一直將健康放於首位。我們不斷突破科學界限，提供改變生命的藥物，務求解決影響全球數百萬人的疾病而還未滿足的醫療需求。與此同時，我們希望給予病患者帶來最大獲益，為醫療系統及社會帶來價值。 阿斯利康本着「我們以病人為先」的宗旨，服務皆以病者的需要為中心。由疾病預防、診斷、治療到治療後管理，全程關顧健康道路上的需要。 因此，我們成立了「康心摯友」，希望藉着這平台提供更貼心的服務。</div>\r\n</div>\r\n\r\n<div class=\"right col-md-6\"><img alt=\"\" data-entity-type=\"file\" data-entity-uuid=\"66819f95-018b-4362-ab83-a53b9a6aadbd\" height=\"371\" src=\"/sites/default/files/imce_upload/admin/Screenshot%20from%202020-10-20%2016-12-39-wdbkv9.png\" width=\"479\" /></div>\r\n</div>\r\n"
+          summary: ''
+          format: full_html
+  -
+    info: 'Clinical middle block 找到你的臨床實驗'
+    langcode: en
+    uuid: dadc046f-b578-4b02-873b-4f22e94ee17d
+    bundle: basic
+    revision_id: null
+    rev_id_current: null
+    fields:
+      body:
+        -
+          value: "<p>參加臨床飾演？</p>\r\n\r\n<p>他們痛苦不堪。什麼東西。但是因為我要追問，我們的軍兵是誰，除了使他們中的任何一個人可以佔便宜外，他們是誰？</p>\r\n\r\n<p><span>找到你的臨床試驗</span></p>\r\n"
           summary: ''
           format: full_html
 menus:

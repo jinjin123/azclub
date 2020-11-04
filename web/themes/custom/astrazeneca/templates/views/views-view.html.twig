@@ -59,6 +59,22 @@
 
   {% if rows -%}
     {{ rows }}
+{#    {{ drupal_entity("block_content",2)  }}#}
+{#    <div class="az-panel-100">#}
+{#      <div class="az-search-article_bottom_1">#}
+{#        {{ drupal_entity("block_content",2)  }}#}
+{#      </div>#}
+{#      <div class="az-search-article_block">#}
+{#        {{ drupal_view("az_clinical_trial_search_result","clinical_article") }}#}
+{#      </div>#}
+{#    </div>#}
+
+{#    <div class="az-panel-100">#}
+{#      <div class="az-search-article_bottom_2">#}
+{#        {{ drupal_entity("block_content",6)  }}#}
+{#      </div>#}
+{#    </div>#}
+
   {% elseif empty -%}
     {{ empty }}
   {% endif %}

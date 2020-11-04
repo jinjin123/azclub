@@ -75,6 +75,7 @@ function astrazeneca_preprocess_image(&$variables) {
   }
 }
 
+
 /**
  * Implements hook_preprocess_HOOK() for HTML document templates.
  *

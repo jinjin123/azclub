@@ -17,7 +17,7 @@ third_party_settings:
 id: views_block__latest_offers_block_1
 theme: astrazeneca
 region: content_bottom
-weight: 0
+weight: -14
 provider: null
 plugin: 'views_block:latest_offers-block_1'
 settings:

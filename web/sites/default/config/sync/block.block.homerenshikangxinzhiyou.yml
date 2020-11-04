@@ -17,7 +17,7 @@ third_party_settings:
 id: homerenshikangxinzhiyou
 theme: astrazeneca
 region: content
-weight: 0
+weight: -6
 provider: null
 plugin: 'block_content:121544e5-1f04-4139-8968-494680cee452'
 settings:

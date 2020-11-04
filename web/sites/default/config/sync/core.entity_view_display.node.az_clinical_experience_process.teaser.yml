@@ -5,6 +5,7 @@ dependencies:
   config:
     - core.entity_view_mode.node.teaser
     - field.field.node.az_clinical_experience_process.body
+    - field.field.node.az_clinical_experience_process.field_az_clinical_article_page
     - field.field.node.az_clinical_experience_process.field_az_clinical_page_image
     - field.field.node.az_clinical_experience_process.field_az_clinical_short_desc
     - field.field.node.az_clinical_experience_process.field_clinical_logo_info
@@ -31,6 +32,7 @@ content:
     third_party_settings: {  }
     region: content
 hidden:
+  field_az_clinical_article_page: true
   field_az_clinical_page_image: true
   field_az_clinical_short_desc: true
   field_clinical_logo_info: true
