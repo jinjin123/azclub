@@ -16,6 +16,16 @@
                 "href": "http:\/\/default\/user\/1?_format=hal_json",
                 "lang": "en"
             }
+        ],
+        "http:\/\/default\/rest\/relation\/node\/ta_campaign\/field_ta_campaign_img": [
+            {
+                "href": ""
+            }
+        ],
+        "http:\/\/default\/rest\/relation\/node\/ta_campaign\/field_ta_campaign_logo": [
+            {
+                "href": ""
+            }
         ]
     },
     "uuid": [
@@ -75,11 +85,53 @@
                 ],
                 "lang": "en"
             }
+        ],
+        "http:\/\/default\/rest\/relation\/node\/ta_campaign\/field_ta_campaign_img": [
+            {
+                "_links": {
+                    "self": {
+                        "href": ""
+                    },
+                    "type": {
+                        "href": "http:\/\/default\/rest\/type\/file\/file"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "5c42e021-fe7c-4768-a7f7-75e8867247b0"
+                    }
+                ],
+                "alt": "''",
+                "title": "",
+                "width": "359",
+                "height": "182"
+            }
+        ],
+        "http:\/\/default\/rest\/relation\/node\/ta_campaign\/field_ta_campaign_logo": [
+            {
+                "_links": {
+                    "self": {
+                        "href": ""
+                    },
+                    "type": {
+                        "href": "http:\/\/default\/rest\/type\/file\/file"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "481fc813-9a96-4cf4-ab1c-64594cb3f60a"
+                    }
+                ],
+                "alt": "''",
+                "title": "",
+                "width": "74",
+                "height": "82"
+            }
         ]
     },
     "status": [
         {
-            "value": false,
+            "value": true,
             "lang": "en"
         }
     ],
@@ -98,7 +150,7 @@
     ],
     "changed": [
         {
-            "value": "2020-11-03T07:18:57+00:00",
+            "value": "2020-11-05T08:50:45+00:00",
             "lang": "en",
             "format": "Y-m-d\\TH:i:sP"
         }
@@ -142,6 +194,13 @@
             "processed": "<p>Lorem lpsum is simply dummy text of the printing and typesetting<\/p>",
             "summary": "",
             "lang": "en"
+        }
+    ],
+    "field_link": [
+        {
+            "uri": "internal:\/diabetes",
+            "title": "",
+            "options": []
         }
     ],
     "field_weight": [
