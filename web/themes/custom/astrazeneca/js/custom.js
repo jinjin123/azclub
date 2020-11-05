@@ -55,6 +55,7 @@ Drupal.behaviors.PharmaTheme = {
     })
     })
 
+
     var input =document.createElement("input");
     input.setAttribute("type","search");
     input.setAttribute("name","clincal");

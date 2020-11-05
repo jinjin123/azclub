@@ -191,7 +191,23 @@ body {
   border: 1px solid $color-gray;
   position: relative;
 
-  .az-offer_body {
+//医学讲座及活动
+.az-healthtips_head{
+  margin:auto;
+  text-align: center;
+  width: 50%;
+  .az-healthtips_head__title2{
+    font-size: 30px;
+    font-weight: bold;
+  }
+  .az-healthtips_head__title1{
+    color: $color-gray;
+  }
+  .az-healthtips_head__body{
+    color: $color-gray;
+  }
+}
+.az-offer_box{
     float: left;
     margin: 10px 20px 0px 20px;
 
@@ -1012,26 +1028,4 @@ body {
     }
   }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 

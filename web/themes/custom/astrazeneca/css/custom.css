@@ -125,13 +125,24 @@ body {
   padding-bottom: 20px;
   border: 1px solid #b8b8b8;
   position: relative; }
-  .az-offer_box .az-offer_body {
+  .az-offer_box .az-healthtips_head {
+    margin: auto;
+    text-align: center;
+    width: 50%; }
+    .az-offer_box .az-healthtips_head .az-healthtips_head__title2 {
+      font-size: 30px;
+      font-weight: bold; }
+    .az-offer_box .az-healthtips_head .az-healthtips_head__title1 {
+      color: #b8b8b8; }
+    .az-offer_box .az-healthtips_head .az-healthtips_head__body {
+      color: #b8b8b8; }
+  .az-offer_box .az-offer_box {
     float: left;
     margin: 10px 20px 0px 20px; }
-    .az-offer_box .az-offer_body .az-offer_body_title {
+    .az-offer_box .az-offer_box .az-offer_body_title {
       font-weight: bold;
       font-size: 20px; }
-    .az-offer_box .az-offer_body .az-offer_sub_title {
+    .az-offer_box .az-offer_box .az-offer_sub_title {
       color: #b8b8b8; }
   .az-offer_box .az-offer_click_bottom {
     float: right;
