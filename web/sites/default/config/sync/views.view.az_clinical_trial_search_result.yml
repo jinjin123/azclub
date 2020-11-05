@@ -949,7 +949,7 @@ display:
           admin_label: ''
           empty: false
           tokenize: false
-          content: "<div class=\"az-clinical-search_box\">\r\n    <div class=\"col-md-8\">\r\n      <span>最新臨床試驗計劃</span>\r\n</div>\r\n<div  class=\"col-md-4\"> \r\n<div class=\"az-clincal-search_button\">\r\n<div class=\"az-clincal-search_icon\"></div>\r\n</div>\r\n</div>\r\n<div class=\"az-clincal-seach_across\"></div>\r\n</div>"
+          content: "<div class=\"az-clinical-search_box\">\r\n    <div class=\"col-md-8\">\r\n      <span>最新臨床試驗計劃</span>\r\n</div>\r\n<div  class=\"col-md-4\"> \r\n<div class=\"az-clincal-searright\">\r\n<div class=\"az-clincal-search_button\"></div>\r\n<div class=\"az-clincal-search_icon\"></div>\r\n</div></div>\r\n<div class=\"az-clincal-seach_across\"></div>\r\n</div>"
           plugin_id: text_custom
       defaults:
         header: false

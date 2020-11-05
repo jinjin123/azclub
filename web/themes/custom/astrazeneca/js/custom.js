@@ -55,6 +55,11 @@ Drupal.behaviors.PharmaTheme = {
     })
     })
 
+    var input =document.createElement("input");
+    input.setAttribute("type","search");
+    input.setAttribute("name","clincal");
+    input.setAttribute("placeholder","Search");
+    $(".az-clincal-search_button").html(input);
 
     // $(".az-product_selectbox_conth4").text("免責聲明：");
     // $(".az-product_selectbox_contp1").text("藥品咨詢只能適用於香港或澳門服用此藥物之人仕。");

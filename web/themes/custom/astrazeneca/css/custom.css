@@ -26808,13 +26808,6 @@ body {
   font-size: 20px;
   font-weight: bold; }
 
-.az_clinical_box > p:nth-child(4) {
-  width: 80px;
-  height: 10px;
-  margin-top: 20px;
-  border-radius: 10px;
-  background-color: #fcaf17; }
-
 .az_clinical_bottom_box {
   background-color: #b8b8b8;
   height: 200px;
@@ -26985,7 +26978,9 @@ body {
   width: 14.28%;
   float: left; }
 
-.col-sm-1-7, .col-md-1-7, .col-lg-1-7 {
+.col-sm-1-7,
+.col-md-1-7,
+.col-lg-1-7 {
   min-height: 1px;
   padding-left: 10px;
   padding-right: 10px;
@@ -27070,19 +27065,27 @@ body {
       margin-left: 10px;
       background-color: #b8b8b8;
       border: 1px solid #b8b8b8; }
-
-.az-product_transbkg {
-  position: fixed;
-  width: 100%;
-  height: 100%;
-  left: 0;
-  top: 0;
-  opacity: 0.7;
-  background-color: black;
-  z-index: 10; }
+  .az-product_selectbox .az-product_transbkg {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    opacity: 0.8;
+    background-color: black;
+    z-index: 10; }
 
 .az-product_duplicate {
   display: none; }
+  .az-product_duplicate .az-product_transbkg {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    opacity: 0.4;
+    background-color: black;
+    z-index: 10; }
   .az-product_duplicate .az-product_duplicate_content {
     background-color: white;
     position: fixed;
@@ -27096,7 +27099,8 @@ body {
     height: 230px;
     border-radius: 0px 8px 8px 0px; }
     .az-product_duplicate .az-product_duplicate_content .az-product_duplicate_img {
-      float: left; }
+      float: left;
+      width: 40%; }
       .az-product_duplicate .az-product_duplicate_content .az-product_duplicate_img .icon {
         position: absolute;
         background-color: #eb1484;
@@ -27157,14 +27161,17 @@ body {
     font-weight: bold; }
 
 .az-clinical-search_box > div:nth-child(2) {
-  float: right; }
-  .az-clinical-search_box > div:nth-child(2) .az-clincal-search_button {
-    float: right;
-    border: 1px solid #b8b8b8;
-    width: 60%;
-    height: 40px; }
-    .az-clinical-search_box > div:nth-child(2) .az-clincal-search_button .az-clincal-search_icon {
-      float: right;
+  float: right;
+  height: 40px; }
+  .az-clinical-search_box > div:nth-child(2) .az-clincal-searright {
+    float: right; }
+    .az-clinical-search_box > div:nth-child(2) .az-clincal-searright .az-clincal-search_button {
+      float: left; }
+      .az-clinical-search_box > div:nth-child(2) .az-clincal-searright .az-clincal-search_button input {
+        height: 40px;
+        border: 1px solid #b8b8b8; }
+    .az-clinical-search_box > div:nth-child(2) .az-clincal-searright .az-clincal-search_icon {
+      float: left;
       background-color: black;
       width: 40px;
       height: 40px; }
@@ -30436,7 +30443,7 @@ a {
   color: #222222;
   text-decoration: none; }
   a:hover, a:focus {
-    color: #01B6EF;
+    color: #179BB2;
     text-decoration: none; }
 
 figure {
@@ -30624,10 +30631,10 @@ mark,
   color: #777777; }
 
 .text-primary {
-  color: #01B6EF; }
+  color: #179BB2; }
 
 a.text-primary:hover {
-  color: #018fbc; }
+  color: #117485; }
 
 .text-success {
   color: #468847; }
@@ -30657,10 +30664,10 @@ a.text-danger:hover {
   color: #fff; }
 
 .bg-primary {
-  background-color: #01B6EF; }
+  background-color: #179BB2; }
 
 a.bg-primary:hover {
-  background-color: #018fbc; }
+  background-color: #117485; }
 
 .bg-success {
   background-color: #dff0d8; }
@@ -32235,7 +32242,7 @@ fieldset[disabled] .btn {
   .btn-link, .btn-link:hover, .btn-link:focus, .btn-link:active {
     border-color: transparent; }
   .btn-link:hover, .btn-link:focus {
-    color: #01B6EF;
+    color: #179BB2;
     text-decoration: underline;
     background-color: transparent; }
   .btn-link[disabled]:hover, .btn-link[disabled]:focus,
