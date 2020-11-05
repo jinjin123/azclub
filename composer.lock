@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "a34dab8a6c2cb9f9b9783c9e179104ce",
+    "content-hash": "bf2782022cf066239c90c73931cdb31d",
     "packages": [
         {
             "name": "alchemy/zippy",
@@ -2166,6 +2166,67 @@
             "support": {
                 "source": "https://git.drupal.org/project/better_normalizers.git",
                 "issues": "https://www.drupal.org/project/issues/better_normalizers"
+            }
+        },
+        {
+            "name": "drupal/config_pages",
+            "version": "2.8.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/config_pages.git",
+                "reference": "8.x-2.8"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/config_pages-8.x-2.8.zip",
+                "reference": "8.x-2.8",
+                "shasum": "60c86c4c38596c2f3a684a0ba4f2a70294dfefe8"
+            },
+            "require": {
+                "drupal/core": "^8.5 | ^9"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "drupal": {
+                    "version": "8.x-2.8",
+                    "datestamp": "1594390067",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                },
+                "drush": {
+                    "services": {
+                        "drush.services.yml": "^9"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "Qwaygon",
+                    "homepage": "https://www.drupal.org/user/636624"
+                },
+                {
+                    "name": "claymor",
+                    "homepage": "https://www.drupal.org/user/3193903"
+                },
+                {
+                    "name": "shumer",
+                    "homepage": "https://www.drupal.org/user/2297432"
+                }
+            ],
+            "description": "ConfigPages module",
+            "homepage": "http://drupal.org/project/config_pages",
+            "keywords": [
+                "Drupal"
+            ],
+            "support": {
+                "source": "http://cgit.drupalcode.org/config_pages",
+                "issues": "http://drupal.org/project/issues/config_pages"
             }
         },
         {
