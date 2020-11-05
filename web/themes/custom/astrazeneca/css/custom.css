@@ -26864,6 +26864,18 @@ body {
   .az-product_head .az-product_head__body {
     color: #b8b8b8; }
 
+.az-healthtips_head {
+  margin: auto;
+  text-align: center;
+  width: 50%; }
+  .az-healthtips_head .az-healthtips_head__title2 {
+    font-size: 30px;
+    font-weight: bold; }
+  .az-healthtips_head .az-healthtips_head__title1 {
+    color: #b8b8b8; }
+  .az-healthtips_head .az-healthtips_head__body {
+    color: #b8b8b8; }
+
 .az-offer_box {
   float: left;
   margin: 20px;
@@ -27192,6 +27204,13 @@ body {
     box-shadow: 0 0px 10px #d0c9c9; }
     .az-contact-main_box .az-contact-form_body .az_contact_form {
       margin: 20px 20px; }
+
+.health-tips-orange {
+  background-color: #ffb425; }
+
+.webform-submission-contact-form .js-form-item-name {
+  float: left;
+  padding-right: 10px; }
 
 @charset "UTF-8";
 /*!
@@ -30417,7 +30436,7 @@ a {
   color: #222222;
   text-decoration: none; }
   a:hover, a:focus {
-    color: #179BB2;
+    color: #01B6EF;
     text-decoration: none; }
 
 figure {
@@ -30605,10 +30624,10 @@ mark,
   color: #777777; }
 
 .text-primary {
-  color: #179BB2; }
+  color: #01B6EF; }
 
 a.text-primary:hover {
-  color: #117485; }
+  color: #018fbc; }
 
 .text-success {
   color: #468847; }
@@ -30638,10 +30657,10 @@ a.text-danger:hover {
   color: #fff; }
 
 .bg-primary {
-  background-color: #179BB2; }
+  background-color: #01B6EF; }
 
 a.bg-primary:hover {
-  background-color: #117485; }
+  background-color: #018fbc; }
 
 .bg-success {
   background-color: #dff0d8; }
@@ -32216,7 +32235,7 @@ fieldset[disabled] .btn {
   .btn-link, .btn-link:hover, .btn-link:focus, .btn-link:active {
     border-color: transparent; }
   .btn-link:hover, .btn-link:focus {
-    color: #179BB2;
+    color: #01B6EF;
     text-decoration: underline;
     background-color: transparent; }
   .btn-link[disabled]:hover, .btn-link[disabled]:focus,
