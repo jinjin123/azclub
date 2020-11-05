@@ -277,6 +277,7 @@ body {
   width: 25%;
   border-radius: 5px;
   background-color: #eb1484;
+  border: 1px solid #eb1484;
   margin-left: 10px;
   height: 50px;
   color: white;
@@ -503,4 +504,64 @@ body {
   border: 1px solid #eb1484;
   border-radius: 5px;
   color: white;
+}
+
+.az-clinical-search_box > div:nth-child(1) {
+  float: left;
+}
+
+.az-clinical-search_box > div:nth-child(1) span {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.az-clinical-search_box > div:nth-child(2) {
+  float: right;
+}
+
+.az-clinical-search_box > div:nth-child(2) .az-clincal-search_button {
+  float: right;
+  border: 1px solid #b8b8b8;
+  width: 60%;
+  height: 40px;
+}
+
+.az-clinical-search_box > div:nth-child(2) .az-clincal-search_button .az-clincal-search_icon {
+  float: right;
+  background-color: black;
+  width: 40px;
+  height: 40px;
+}
+
+.az-clincal-seach_across {
+  width: 100%;
+  height: 60px;
+  border-bottom: 2px solid #b8b8b8;
+  margin-bottom: 50px;
+}
+
+.az-clinical_box .az-clinical_img {
+  float: left;
+  width: 50%;
+}
+
+.az-clinical_box .az-clinical_body {
+  float: left;
+  width: 50%;
+  padding-left: 20px;
+  padding-top: 20px;
+}
+
+.az-clinical_box .az-clinical_body .az-clinical_body_title a {
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.az-clinical_box .az-clinical_body .az-clinical_body_desc {
+  color: #b8b8b8;
+}
+
+.az-clinical_box .az-clinical_body .az-oclinical_time_bottom span {
+  float: right;
+  color: #b8b8b8;
 }

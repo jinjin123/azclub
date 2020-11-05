@@ -260,7 +260,8 @@ body {
           .az-search-button {
             width: 25%;
             border-radius: 5px;
-            background-color: #eb1484;
+            background-color: $color-red;
+            border: 1px solid $color-red;
             margin-left: 10px;
             height: 50px;
             color: white;
@@ -335,7 +336,8 @@ body {
             float: right;
             height: 24px;
             padding-right: 40px;
-            width: 24px;background:transparent url(../images/search-icon.png) no-repeat;
+            width: 24px;
+            background:transparent url(../images/search-icon.png) no-repeat;
         }
     }
 }
@@ -476,3 +478,63 @@ body {
     }
 
 }
+.az-clinical-search_box > div{
+    &:nth-child(1){
+        float: left;
+        span{
+            font-size: 20px;
+            font-weight: bold;
+        }
+    }
+    &:nth-child(2){
+        float: right;
+        .az-clincal-search_button{
+            float: right;
+            border: 1px solid $color-gray;
+            width: 60%;
+            height: 40px;
+            .az-clincal-search_icon{
+                float: right;
+                background-color: black;
+                width: 40px;
+                height: 40px;
+                //background:transparent url(../images/search-icon.png) no-repeat;
+            }
+        }
+    }
+    
+}
+.az-clincal-seach_across{
+        width: 100%;
+        height: 60px;
+        border-bottom: 2px solid $color-gray;
+        margin-bottom: 50px;
+    }
+    .az-clinical_box{
+        .az-clinical_img{
+            float: left;
+            width: 50%;
+        }
+        .az-clinical_body{
+            float: left;
+            width: 50%;
+            padding-left: 20px;
+            padding-top: 20px;
+            .az-clinical_body_title{
+                a{
+                    font-weight: bold;
+                    font-size: 15px;
+                }
+                
+            }
+            .az-clinical_body_desc{
+                    color: $color-gray;
+                }
+            .az-oclinical_time_bottom{
+                span{
+                    float: right;
+                    color: $color-gray;
+                }
+            }
+        }
+    }
