@@ -27164,6 +27164,10 @@ body {
 .health-tips-orange {
   background-color: #ffb425; }
 
+.webform-submission-contact-form .js-form-item-name {
+  float: left;
+  padding-right: 10px; }
+
 @charset "UTF-8";
 /*!
  *  Font Awesome 4.7.0 by @davegandy - http://fontawesome.io - @fontawesome
@@ -30388,7 +30392,7 @@ a {
   color: #222222;
   text-decoration: none; }
   a:hover, a:focus {
-    color: #179BB2;
+    color: #01B6EF;
     text-decoration: none; }
 
 figure {
@@ -30576,10 +30580,10 @@ mark,
   color: #777777; }
 
 .text-primary {
-  color: #179BB2; }
+  color: #01B6EF; }
 
 a.text-primary:hover {
-  color: #117485; }
+  color: #018fbc; }
 
 .text-success {
   color: #468847; }
@@ -30609,10 +30613,10 @@ a.text-danger:hover {
   color: #fff; }
 
 .bg-primary {
-  background-color: #179BB2; }
+  background-color: #01B6EF; }
 
 a.bg-primary:hover {
-  background-color: #117485; }
+  background-color: #018fbc; }
 
 .bg-success {
   background-color: #dff0d8; }
@@ -32187,7 +32191,7 @@ fieldset[disabled] .btn {
   .btn-link, .btn-link:hover, .btn-link:focus, .btn-link:active {
     border-color: transparent; }
   .btn-link:hover, .btn-link:focus {
-    color: #179BB2;
+    color: #01B6EF;
     text-decoration: underline;
     background-color: transparent; }
   .btn-link[disabled]:hover, .btn-link[disabled]:focus,
