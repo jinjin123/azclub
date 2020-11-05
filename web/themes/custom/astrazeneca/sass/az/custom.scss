@@ -3,7 +3,12 @@
 body {
     background-color:  $head-cus!important;
 } */
-
+#search-block-form{
+    input{
+        background: transparent url(../images/search-icon.png) no-repeat;
+        
+    }
+}
 .az-header_top {
   .az-header_top_logo {
     float: $float-left;
@@ -11,6 +16,9 @@ body {
 
   .top-box-img {
     float: $float-left;
+    width: 40px;
+    height: 40px;
+    background: transparent url(../images/iphone.png) no-repeat;
   }
 
   .top-box-info {
@@ -639,7 +647,6 @@ body {
       }
 
     }
-
     .az-clinical_body_desc {
       color: $color-gray;
     }
@@ -690,4 +697,3 @@ body {
 .az-header-bbox {
   display: flex;
 }
-

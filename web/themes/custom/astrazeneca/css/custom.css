@@ -26763,11 +26763,17 @@ body.logged-in.toolbar-tray-open .help.show {
 body {
     background-color:  $head-cus!important;
 } */
+#search-block-form input {
+  background: transparent url(../images/search-icon.png) no-repeat; }
+
 .az-header_top .az-header_top_logo {
   float: left; }
 
 .az-header_top .top-box-img {
-  float: left; }
+  float: left;
+  width: 40px;
+  height: 40px;
+  background: transparent url(../images/iphone.png) no-repeat; }
 
 .az-header_top .top-box-info h1 {
   font-size: 15px; }
