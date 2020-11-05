@@ -19,7 +19,6 @@
         "cweagans/composer-patches": "^1.6",
         "drupal/better_exposed_filters": "^5.0@beta",
         "drupal/better_normalizers": "^1.0@beta",
-        "drupal/config_pages": "^2.8",
         "drupal/console": "^1.9",
         "drupal/content_access": "^1.0",
         "drupal/core-composer-scaffold": "^9",
