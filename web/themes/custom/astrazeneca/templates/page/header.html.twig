@@ -40,8 +40,9 @@
               </div>
             </div>
            <div class="row az-header_bottom">
-             <div class="col-md-9 col-sm-6 col-xs-4 p-static">
-               <div class="header-inner clearfix">
+{#             <div class="col-md-9 col-sm-6 col-xs-4 p-static">#}
+              <div class="col-lg-12 p-static az-header-bbox">
+               <div class="header-inner clearfix col-lg-12">
                  <div class="main-menu">
                    <div class="area-main-menu">
                      <div class="area-inner">
@@ -49,7 +50,6 @@
                          <div class="close-offcanvas hidden"><i class="gv-icon-8"></i></div>
                          {% if page.main_menu %}
                            {{ page.main_menu }}
-
                          {% endif %}
                          {% if page.offcanvas %}
                            <div class="after-offcanvas hidden">
@@ -66,20 +66,24 @@
                        </div>
 
 {#                       {% if page.search %}#}
-                         <div class="gva-search-region search-region">
+{#                         <div class="gva-search-region search-region">#}
 {#                           <span class="icon"><i class="fa fa-search"></i></span>#}
 {#                           <div class="search-content">#}
 {#                             {{ page.search }}#}
-                           {{ drupal_entity("block","searchform",check_access=false)  }}
-                           <span class="icon"><i class="fa fa-search">
-                             </i></span>
+{#                           {{ drupal_entity("block","searchform",check_access=false)  }}#}
+{#                           <span class="icon"><i class="fa fa-search">#}
+{#                             </i></span>#}
 {#                           </div>#}
-                         </div>
+{#                         </div>#}
 {#                       {% endif %}#}
                      </div>
                    </div>
                  </div>
                </div>
+                <div class="az-header-search-box col-lg-2">
+                  <span class="icon"><i class="fa fa-search"></i>{{ drupal_entity("block","searchform",check_access=false)  }}</span>
+{#                  <span class="icon"><i class="fa fa-search"></i></span>#}
+                </div>
              </div>
            </div>
          </div>

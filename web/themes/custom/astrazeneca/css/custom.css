@@ -27168,6 +27168,9 @@ body {
   float: left;
   padding-right: 10px; }
 
+.az-header-bbox {
+  display: flex; }
+
 @charset "UTF-8";
 /*!
  *  Font Awesome 4.7.0 by @davegandy - http://fontawesome.io - @fontawesome
@@ -30392,7 +30395,7 @@ a {
   color: #222222;
   text-decoration: none; }
   a:hover, a:focus {
-    color: #01B6EF;
+    color: #179BB2;
     text-decoration: none; }
 
 figure {
@@ -30580,10 +30583,10 @@ mark,
   color: #777777; }
 
 .text-primary {
-  color: #01B6EF; }
+  color: #179BB2; }
 
 a.text-primary:hover {
-  color: #018fbc; }
+  color: #117485; }
 
 .text-success {
   color: #468847; }
@@ -30613,10 +30616,10 @@ a.text-danger:hover {
   color: #fff; }
 
 .bg-primary {
-  background-color: #01B6EF; }
+  background-color: #179BB2; }
 
 a.bg-primary:hover {
-  background-color: #018fbc; }
+  background-color: #117485; }
 
 .bg-success {
   background-color: #dff0d8; }
@@ -32191,7 +32194,7 @@ fieldset[disabled] .btn {
   .btn-link, .btn-link:hover, .btn-link:focus, .btn-link:active {
     border-color: transparent; }
   .btn-link:hover, .btn-link:focus {
-    color: #01B6EF;
+    color: #179BB2;
     text-decoration: underline;
     background-color: transparent; }
   .btn-link[disabled]:hover, .btn-link[disabled]:focus,
