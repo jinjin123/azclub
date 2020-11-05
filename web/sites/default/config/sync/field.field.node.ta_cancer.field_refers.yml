@@ -1,0 +1,21 @@
+uuid: 6872a737-d648-46c2-aded-fbee00e94c3f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_refers
+    - node.type.ta_cancer
+  module:
+    - text
+id: node.ta_cancer.field_refers
+field_name: field_refers
+entity_type: node
+bundle: ta_cancer
+label: 參考：
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

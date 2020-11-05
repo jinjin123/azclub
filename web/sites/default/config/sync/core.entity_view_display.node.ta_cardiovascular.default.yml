@@ -28,19 +28,13 @@ content:
     settings: {  }
     third_party_settings: {  }
     region: content
-  field_refers:
-    weight: 2
-    label: above
-    settings: {  }
-    third_party_settings: {  }
-    type: text_default
-    region: content
   links:
     weight: 0
     region: content
     settings: {  }
     third_party_settings: {  }
 hidden:
+  field_refers: true
   field_ta_img: true
   field_ta_type: true
   search_api_excerpt: true

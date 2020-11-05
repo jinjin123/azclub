@@ -1,6 +1,6 @@
 uuid: db7d7d9c-fa13-47dc-9b06-201fca12d079
 langcode: en
-status: false
+status: true
 dependencies:
   config:
     - core.entity_view_mode.node.therapeutic_area

@@ -1,0 +1,21 @@
+uuid: da82df51-4b53-45a7-8cc0-b39f6218e938
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_refers
+    - node.type.ta_gastrointestinal
+  module:
+    - text
+id: node.ta_gastrointestinal.field_refers
+field_name: field_refers
+entity_type: node
+bundle: ta_gastrointestinal
+label: 參考：
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

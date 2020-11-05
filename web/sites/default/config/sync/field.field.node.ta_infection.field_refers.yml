@@ -1,0 +1,21 @@
+uuid: 80ed7868-6d08-4517-a09d-2d3b9e84a92b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_refers
+    - node.type.ta_infection
+  module:
+    - text
+id: node.ta_infection.field_refers
+field_name: field_refers
+entity_type: node
+bundle: ta_infection
+label: 參考：
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

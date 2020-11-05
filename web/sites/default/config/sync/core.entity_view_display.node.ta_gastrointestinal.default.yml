@@ -4,7 +4,9 @@ status: true
 dependencies:
   config:
     - field.field.node.ta_gastrointestinal.body
+    - field.field.node.ta_gastrointestinal.field_refers
     - field.field.node.ta_gastrointestinal.field_ta_img
+    - field.field.node.ta_gastrointestinal.field_ta_type
     - node.type.ta_gastrointestinal
   module:
     - image
@@ -22,6 +24,13 @@ content:
     settings: {  }
     third_party_settings: {  }
     region: content
+  field_refers:
+    weight: 104
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
   field_ta_img:
     weight: 102
     label: above
@@ -30,6 +39,14 @@ content:
       image_link: ''
     third_party_settings: {  }
     type: image
+    region: content
+  field_ta_type:
+    weight: 103
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
     region: content
   links:
     weight: 100

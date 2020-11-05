@@ -1,0 +1,21 @@
+uuid: cb562542-ae1e-46c1-9089-5db2b6af557d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_refers
+    - node.type.ta_respiratory
+  module:
+    - text
+id: node.ta_respiratory.field_refers
+field_name: field_refers
+entity_type: node
+bundle: ta_respiratory
+label: 參考：
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long
