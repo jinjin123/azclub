@@ -1,19 +1,17 @@
-uuid: 3a2391ca-21b6-44b4-b871-f96f442f3097
+uuid: cf283ec0-cb3d-4308-b165-a67e758e06a7
 langcode: en
 status: true
 dependencies:
   config:
     - field.storage.node.body
-    - field.storage.node.field_az_author_img
-    - node.type.az_latest_news
+    - node.type.az_health_tips
   module:
-    - image
     - node
     - text
     - user
     - views_infinite_scroll
-id: az_latest_news
-label: 'AZ Latest News'
+id: az_health_tips
+label: 'AZ health tips'
 module: views
 description: ''
 tag: ''
@@ -54,7 +52,7 @@ display:
       pager:
         type: infinite_scroll
         options:
-          items_per_page: 6
+          items_per_page: 4
           offset: 0
           id: 0
           total_pages: null
@@ -74,17 +72,8 @@ display:
             automatically_load_content: false
       style:
         type: default
-        options:
-          grouping: {  }
-          row_class: 'col-sm-12 col-md-6 col-lg-4 portfolio-item filter-Packaging filter-Print portfolio item'
-          default_row_class: true
       row:
         type: fields
-        options:
-          default_field_elements: true
-          inline: {  }
-          separator: ''
-          hide_empty: false
       fields:
         title:
           id: title
@@ -113,8 +102,8 @@ display:
             target: ''
             nl2br: false
             max_length: 0
-            word_boundary: false
-            ellipsis: false
+            word_boundary: true
+            ellipsis: true
             more_link: false
             more_link_text: ''
             more_link_path: ''
@@ -151,123 +140,6 @@ display:
           entity_type: node
           entity_field: title
           plugin_id: field
-        field_az_author_img:
-          id: field_az_author_img
-          table: node__field_az_author_img
-          field: field_az_author_img
-          relationship: none
-          group_type: group
-          admin_label: ''
-          label: ''
-          exclude: true
-          alter:
-            alter_text: false
-            text: ' <img src="{{ field_az_author_img }}"/>'
-            make_link: false
-            path: ''
-            absolute: false
-            external: false
-            replace_spaces: false
-            path_case: none
-            trim_whitespace: false
-            alt: ''
-            rel: ''
-            link_class: ''
-            prefix: ''
-            suffix: ''
-            target: ''
-            nl2br: false
-            max_length: 0
-            word_boundary: true
-            ellipsis: true
-            more_link: false
-            more_link_text: ''
-            more_link_path: ''
-            strip_tags: false
-            trim: false
-            preserve_tags: ''
-            html: false
-          element_type: ''
-          element_class: ''
-          element_label_type: ''
-          element_label_class: ''
-          element_label_colon: false
-          element_wrapper_type: ''
-          element_wrapper_class: ''
-          element_default_classes: true
-          empty: ''
-          hide_empty: false
-          empty_zero: false
-          hide_alter_empty: true
-          click_sort_column: target_id
-          type: image
-          settings:
-            image_style: ''
-            image_link: ''
-          group_column: ''
-          group_columns: {  }
-          group_rows: true
-          delta_limit: 0
-          delta_offset: 0
-          delta_reversed: false
-          delta_first_last: false
-          multi_type: separator
-          separator: ', '
-          field_api_classes: false
-          plugin_id: field
-        view_node:
-          id: view_node
-          table: node
-          field: view_node
-          relationship: none
-          group_type: group
-          admin_label: ''
-          label: ''
-          exclude: true
-          alter:
-            alter_text: false
-            text: ''
-            make_link: false
-            path: ''
-            absolute: false
-            external: false
-            replace_spaces: false
-            path_case: none
-            trim_whitespace: false
-            alt: ''
-            rel: ''
-            link_class: ''
-            prefix: ''
-            suffix: ''
-            target: ''
-            nl2br: false
-            max_length: 0
-            word_boundary: true
-            ellipsis: true
-            more_link: false
-            more_link_text: ''
-            more_link_path: ''
-            strip_tags: false
-            trim: false
-            preserve_tags: ''
-            html: false
-          element_type: ''
-          element_class: ''
-          element_label_type: ''
-          element_label_class: ''
-          element_label_colon: false
-          element_wrapper_type: ''
-          element_wrapper_class: ''
-          element_default_classes: true
-          empty: ''
-          hide_empty: false
-          empty_zero: false
-          hide_alter_empty: true
-          text: view
-          output_url_as_text: true
-          absolute: false
-          entity_type: node
-          plugin_id: entity_link
         body:
           id: body
           table: node__body
@@ -279,7 +151,7 @@ display:
           exclude: false
           alter:
             alter_text: true
-            text: "<div class=\"az-offer_box\">\r\n  <div class=\"az-offer_img\">\r\n        {{field_az_author_img}}\r\n  </div>\r\n  <div class=\"az-offer_body\">\r\n     <div class=\"az-offer_body_title\">\r\n       {{ title }}\r\n    </div>\r\n    <div class=\"az-offer_sub_title\">\r\n      {{ body__summary }}\r\n    </div>\r\n  </div>\r\n   <div class=\"az-offer_click_bottom\">\r\n     <a href=\"{{ view_node }}\">了解更多</a>\r\n  </div>\r\n</div>"
+            text: "<div class=\"az-offer_box\">\r\n  <div class=\"az-offer_img\">\r\n        {{field_az_author_img}}\r\n  </div>\r\n  <div class=\"az-offer_body\">\r\n     <div class=\"az-offer_body_title\">\r\n       {{ title }}\r\n    </div>\r\n    <div class=\"az-offer_sub_title\">\r\n      {{ body__summary }}\r\n    </div>\r\n  </div>\r\n</div>"
             make_link: false
             path: ''
             absolute: false
@@ -349,7 +221,7 @@ display:
           table: node_field_data
           field: type
           value:
-            az_latest_news: az_latest_news
+            az_health_tips: az_health_tips
           entity_type: node
           entity_field: type
           plugin_id: bundle
@@ -372,7 +244,7 @@ display:
           expose:
             label: ''
           granularity: second
-      title: ''
+      title: 'AZ health tips'
       header:
         area_text_custom:
           id: area_text_custom
@@ -383,14 +255,14 @@ display:
           admin_label: ''
           empty: false
           tokenize: false
-          content: "<div class=\"az-product_head\">\r\n\t<div class=\"az-product_head__title1\">\r\n        <span>醫學講座及活動</span>\r\n    </div>\r\n    <div class=\"az-product_head__title2\">\r\n      <span>醫學講座及活動一覽</span>\r\n    </div>\r\n  \t<div class=\"az-product_head__body\">\r\n      <span>Lorem lpsum只是印刷和設置行業的偽文本。自500年代以來，Lorem lpsum一直是該行業的標準偽文本。當時，一個未知的打印機拿起一個廚房，將其打亂成一個類型。</span>\r\n    </div>\r\n</div>"
+          content: "<div class=\"az-healthtips_head\">\r\n\t<div class=\"az-healthtips_head__title1\">\r\n        <span>醫生提提您</span>\r\n    </div>\r\n    <div class=\"az-healthtips_head__title2\">\r\n      <span>小貼士/錦囊</span>\r\n    </div>\r\n  \t<div class=\"az-healthtips_head__body\">\r\n      <span>Lorem lpsum只是印刷和設置行業的偽文本。自500年代以來，Lorem lpsum一直是該行業的標準偽文本。當時，一個未知的打印機拿起一個廚房，將其打亂成一個類型。</span>\r\n    </div>\r\n</div>"
           plugin_id: text_custom
       footer: {  }
       empty: {  }
       relationships: {  }
       arguments: {  }
       display_extenders: {  }
-      use_ajax: true
+      css_class: health_tips_orange
     cache_metadata:
       max-age: -1
       contexts:
@@ -401,34 +273,13 @@ display:
         - user.permissions
       tags:
         - 'config:field.storage.node.body'
-        - 'config:field.storage.node.field_az_author_img'
-  doctor_talk:
+  health_tips_yellow:
     display_plugin: block
-    id: doctor_talk
-    display_title: 'doctor talk 醫學講座'
-    position: 2
-    display_options:
-      display_extenders: {  }
-      display_description: ''
-    cache_metadata:
-      max-age: -1
-      contexts:
-        - 'languages:language_content'
-        - 'languages:language_interface'
-        - url.query_args
-        - 'user.node_grants:view'
-        - user.permissions
-      tags:
-        - 'config:field.storage.node.body'
-        - 'config:field.storage.node.field_az_author_img'
-  page_1:
-    display_plugin: page
-    id: page_1
-    display_title: 'LATEST News Talk '
+    id: health_tips_yellow
+    display_title: 'health tips block  小貼士/錦囊'
     position: 1
     display_options:
       display_extenders: {  }
-      path: az-latest-news
       display_description: ''
     cache_metadata:
       max-age: -1
@@ -440,4 +291,3 @@ display:
         - user.permissions
       tags:
         - 'config:field.storage.node.body'
-        - 'config:field.storage.node.field_az_author_img'

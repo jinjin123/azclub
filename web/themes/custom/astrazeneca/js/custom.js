@@ -18,7 +18,7 @@ Drupal.behaviors.PharmaTheme = {
       location.href=redirct+"field_az_conditions_term_target_id="+az_clinic_one_value+"&"+"field_az_se_value="+az_clinic_tqq_value+"&"+"field_az_clinical_age_value="+az_clinic_two_value;
       // console.log(redirct+"field_az_conditions_term_target_id="+az_clinic_two_value+"&"+"field_az_se_value="+az_clinic_two_value+"&"+"field_az_clinical_age_value="+az_clinic_tqq_value)
     })
-    
+
     $(".az-product_body_icons").on('click',function(e){
       e.stopPropagation();
       var target = $(this);
@@ -54,7 +54,7 @@ Drupal.behaviors.PharmaTheme = {
       $(".az-product_duplicate").css("display","none");
     })
     })
-    
+
 
     // $(".az-product_selectbox_conth4").text("免責聲明：");
     // $(".az-product_selectbox_contp1").text("藥品咨詢只能適用於香港或澳門服用此藥物之人仕。");
@@ -63,7 +63,8 @@ Drupal.behaviors.PharmaTheme = {
     // $(".az-product_selectbox_btnyes").html("是");
     // $(".az-product_selectbox_btnno").html("否");
 
-
+    // health tips bg
+   // $(".az-healthtips_head").parent().parent().css("background-color","oranage");
   }
 };
   //http://localhost:30000/Clinical/search-result?field_az_conditions_term_target_id=10&field_az_se_value=1&field_az_clinical_age_value=1
