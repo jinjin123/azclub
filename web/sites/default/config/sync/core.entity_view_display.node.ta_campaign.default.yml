@@ -4,6 +4,7 @@ status: true
 dependencies:
   config:
     - field.field.node.ta_campaign.body
+    - field.field.node.ta_campaign.field_link
     - field.field.node.ta_campaign.field_ta_campaign_img
     - field.field.node.ta_campaign.field_ta_campaign_logo
     - field.field.node.ta_campaign.field_ta_campaign_parent_type
@@ -11,6 +12,7 @@ dependencies:
     - node.type.ta_campaign
   module:
     - image
+    - link
     - text
     - user
 id: node.ta_campaign.default
@@ -24,6 +26,18 @@ content:
     weight: 101
     settings: {  }
     third_party_settings: {  }
+    region: content
+  field_link:
+    weight: 106
+    label: above
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    type: link
     region: content
   field_ta_campaign_img:
     weight: 102

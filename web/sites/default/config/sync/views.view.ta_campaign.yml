@@ -4,6 +4,7 @@ status: true
 dependencies:
   config:
     - field.storage.node.body
+    - field.storage.node.field_link
     - field.storage.node.field_ta_campaign_img
     - field.storage.node.field_ta_campaign_logo
     - node.type.ta_campaign
@@ -12,6 +13,7 @@ dependencies:
     - 'taxonomy_term:ta_type:5f18a532-1234-4e3c-95d6-b3b4bad7ac98'
   module:
     - image
+    - link
     - node
     - taxonomy
     - text
@@ -323,10 +325,10 @@ display:
           entity_type: node
           entity_field: title
           plugin_id: field
-        view_node:
-          id: view_node
-          table: node
-          field: view_node
+        field_link:
+          id: field_link
+          table: node__field_link
+          field: field_link
           relationship: none
           group_type: group
           admin_label: ''
@@ -371,11 +373,25 @@ display:
           hide_empty: false
           empty_zero: false
           hide_alter_empty: true
-          text: 了解更多
-          output_url_as_text: false
-          absolute: false
-          entity_type: node
-          plugin_id: entity_link
+          click_sort_column: uri
+          type: link
+          settings:
+            trim_length: 80
+            url_only: true
+            url_plain: true
+            rel: '0'
+            target: '0'
+          group_column: ''
+          group_columns: {  }
+          group_rows: true
+          delta_limit: 0
+          delta_offset: 0
+          delta_reversed: false
+          delta_first_last: false
+          multi_type: separator
+          separator: ', '
+          field_api_classes: false
+          plugin_id: field
         body:
           id: body
           table: node__body
@@ -387,7 +403,7 @@ display:
           exclude: false
           alter:
             alter_text: true
-            text: "<div class=\"ta-campaign_box\">\r\n  <div class=\"ta-campaign-img col-md-4\">\r\n        {{field_ta_campaign_img}}\r\n  </div>\r\n<div class=\"ta-campaign-logo col-md-4\">\r\n        {{field_ta_campaign_logo}}\r\n  </div>\r\n  <div class=\"ta-body col-md-4\">\r\n     <div class=\"ta-body-title\">\r\n       {{ title }}\r\n    </div>\r\n    <div class=\"ta-body-desc\">\r\n      {{ body__summary}}\r\n    </div>\r\n  </div>\r\n   <div class=\"ta-campaign-bottom col-md-2\">\r\n     {{ view_node }} \r\n  </div>\r\n</div>"
+            text: "<div class=\"ta-campaign_box\">\r\n  <div class=\"ta-campaign-img col-md-4\">\r\n        {{field_ta_campaign_img}}\r\n  </div>\r\n<div class=\"ta-campaign-logo col-md-4\">\r\n        {{field_ta_campaign_logo}}\r\n  </div>\r\n  <div class=\"ta-body col-md-4\">\r\n     <div class=\"ta-body-title\">\r\n       {{ title }}\r\n    </div>\r\n    <div class=\"ta-body-desc\">\r\n      {{ body__summary}}\r\n    </div>\r\n  </div>\r\n   <div class=\"ta-campaign-bottom col-md-2\">\r\n     <a href=\"{{ field_link }}\">了解更多</a>\r\n  </div>\r\n</div>"
             make_link: false
             path: ''
             absolute: false
@@ -571,6 +587,7 @@ display:
         - user.permissions
       tags:
         - 'config:field.storage.node.body'
+        - 'config:field.storage.node.field_link'
         - 'config:field.storage.node.field_ta_campaign_img'
         - 'config:field.storage.node.field_ta_campaign_logo'
   block_1:
@@ -590,6 +607,7 @@ display:
         - user.permissions
       tags:
         - 'config:field.storage.node.body'
+        - 'config:field.storage.node.field_link'
         - 'config:field.storage.node.field_ta_campaign_img'
         - 'config:field.storage.node.field_ta_campaign_logo'
   block_2:
@@ -706,5 +724,6 @@ display:
         - user.permissions
       tags:
         - 'config:field.storage.node.body'
+        - 'config:field.storage.node.field_link'
         - 'config:field.storage.node.field_ta_campaign_img'
         - 'config:field.storage.node.field_ta_campaign_logo'
