@@ -1,0 +1,35 @@
+{
+    "_links": {
+        "self": {
+            "href": ""
+        },
+        "type": {
+            "href": "http:\/\/default\/rest\/type\/path_alias\/path_alias"
+        }
+    },
+    "uuid": [
+        {
+            "value": "ccd80701-11d4-4cbe-8e82-7328c4c1476f"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en"
+        }
+    ],
+    "path": [
+        {
+            "value": "\/node\/83"
+        }
+    ],
+    "alias": [
+        {
+            "value": "\/infection"
+        }
+    ],
+    "status": [
+        {
+            "value": true
+        }
+    ]
+}

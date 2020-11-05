@@ -1,0 +1,35 @@
+{
+    "_links": {
+        "self": {
+            "href": ""
+        },
+        "type": {
+            "href": "http:\/\/default\/rest\/type\/path_alias\/path_alias"
+        }
+    },
+    "uuid": [
+        {
+            "value": "0fd4690e-1523-4302-b4da-02061c23f416"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en"
+        }
+    ],
+    "path": [
+        {
+            "value": "\/node\/81"
+        }
+    ],
+    "alias": [
+        {
+            "value": "\/respiratory\/chronic-obstructive-pulmonary"
+        }
+    ],
+    "status": [
+        {
+            "value": true
+        }
+    ]
+}
