@@ -1,0 +1,5 @@
+azhealthclub_modify.settings:
+  title: 'Azhealthclub modify'
+  description: 'Custom config page for the site'
+  route_name: azhealthclub_modify.settings
+  parent: system.admin_config_system
