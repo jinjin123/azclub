@@ -147,7 +147,7 @@ body {
         float: left;
         position: relative;
         left: 30px;
-       
+
         .az-offer_body_title{
             font-weight: bold;
             font-size: 20px;
@@ -198,7 +198,7 @@ body {
             }
         }
     }
-        
+
     //clinical search block
 .az-clinical-product-search {
     margin-bottom: 200px;
@@ -208,7 +208,7 @@ body {
       .az-clinical-bgfrontblock {
         text-align: center;
         color: white;
-        
+
       }
       .az-clinical-bgfrontblock >div{
         &:nth-child(1){
@@ -221,7 +221,7 @@ body {
             margin-bottom: 20px;
         }
       }
-      
+
       .az-clinical-search-block {
         display: block;
         background-color: white;
@@ -272,7 +272,7 @@ body {
 }
 //1-7栅格
 .col-sm-1-7{
-    width: 14.28%; 
+    width: 14.28%;
     float: left;
     }
     .col-sm-1-7, .col-md-1-7, .col-lg-1-7{
@@ -283,13 +283,13 @@ body {
     }
     @media ( min-width : 768px) {
     .col-sm-1-7 {
-    width: 14.28%; 
+    width: 14.28%;
     float: left;
     }
     }
     @media ( min-width : 992px) {
     .col-md-1-7 {
-    width: 14.28%; 
+    width: 14.28%;
     float: left;
     }
     }
@@ -341,7 +341,7 @@ body {
 }
 .az-product_selectbox{
     display: none;
-    .az-product_selectbox_content{ 
+    .az-product_selectbox_content{
         position: fixed;
         margin:auto;
         left:0;
@@ -379,7 +379,7 @@ body {
         }
     }
 
-    
+
 }
 //black
     .az-product_transbkg {
@@ -464,7 +464,7 @@ body {
     .az-article_rightbutton{
         float: right;
         button{
-            
+
             font-size: 15px;
             width: 120px;
             height: 40px;
@@ -475,4 +475,24 @@ body {
         }
     }
 
+}
+
+.az-contact-main_box {
+  display: flex;
+  .az_contact_rg_box {
+    .az_body {
+      h5 {
+        color: $color-red;
+      }
+    }
+  }
+  .az-contact-form_body {
+    border: 1px solid #d0c9c9;
+    background-color: white;
+    width: 100%;
+    box-shadow:0 0px 10px #d0c9c9;
+    .az_contact_form {
+      margin: 20px 20px;
+    }
+  }
 }

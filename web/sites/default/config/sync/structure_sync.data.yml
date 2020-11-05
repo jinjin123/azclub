@@ -331,6 +331,19 @@ blocks:
           value: "<p>參加臨床飾演？</p>\r\n\r\n<p>他們痛苦不堪。什麼東西。但是因為我要追問，我們的軍兵是誰，除了使他們中的任何一個人可以佔便宜外，他們是誰？</p>\r\n\r\n<p><span>找到你的臨床試驗</span></p>\r\n"
           summary: ''
           format: full_html
+  -
+    info: 'contact us info right block'
+    langcode: en
+    uuid: fa11c501-5950-469f-93a6-f8b379274c52
+    bundle: basic
+    revision_id: null
+    rev_id_current: null
+    fields:
+      body:
+        -
+          value: "\t<div class=\"az_contact_rg_box\">\r\n\t\t<div class=\"az_head\">\r\n\t\t\t<h5>Contact Us</h5>\r\n\r\n\t\t\t<h1>聯絡我們</h1>\r\n\t\t</div>\r\n\r\n\t\t<div class=\"az_body\">\r\n\t\t<h5>康心摯友熱線</h5>\r\n\r\n\t\t<p><span class=\"p\">(852) 2941 5388</span></p>\r\n\r\n\t\t<p><span class=\"p\">星期一至五，上午9：00至下午5：00</span></p>\r\n\r\n\t\t<p><span class=\"p\">如有任何問題，請向您的醫生或藥劑師查詢</span></p>\r\n\t\t</div>\r\n\t</div>"
+          summary: ''
+          format: full_html
 menus:
   -
     menu_name: footer
