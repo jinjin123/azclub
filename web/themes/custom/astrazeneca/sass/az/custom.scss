@@ -353,7 +353,6 @@ body {
         height: 320px;
         background-color: white;
         border-radius: 5px;
-        border: 1px solid black;
         padding: 25px;
         p{
             font-weight: bold;
@@ -380,7 +379,9 @@ body {
         }
     }
 
-    //black
+    
+}
+//black
     .az-product_transbkg {
     position: fixed;
     width: 100%;
@@ -391,18 +392,87 @@ body {
     background-color: black;
     z-index: 10;
    }
-}
-//product_content
-.az-product_duplicate_content{
+//
+.az-product_duplicate{
     display: none;
-    width: 50%;
-    height: 200px;
-    border: 1px solid black;
-    position: relative;
+   .az-product_duplicate_content{
+       background-color: white;
+       position: fixed;
+       margin:auto;
+       left:0;
+       right:0;
+       top:0;
+       bottom:0;
+       z-index: 11;
+       width: 40%;
+       height: 230px;
+       border-radius: 0px 8px 8px 0px;
     .az-product_duplicate_img{
         float: left;
+        .icon{
+            position: absolute;
+            background-color:$color-red;
+            width: 30px;
+            height: 30px;
+            border-radius: 30px;
+            bottom: 150px;
+            left: 235px;
+        }
     }
     .az-product_content_close{
-        float: right;
+        position: absolute;
+        right: -15px;
+        top: -15px;
+        font-size: 30px;
+        background-color: black;
+        width: 30px;
+        height: 30px;
+        text-align: center;
+        line-height: 30px;
+        border-radius: 30px;
+        transform: rotate(45deg);
     }
+    .az-product_duplicate_body{
+        float: left;
+        margin-left: 20px;
+        margin-top: 50px;
+        width: 40%;
+        .az_duplicate_across{
+            width: 50px;
+            height: 5px;
+            background-color: $color-red;
+            border-radius: 5px;
+        }
+        a{
+            font-size: 20px;
+            font-weight: bold;
+        }
+        p{
+            margin-top: 20px;
+            color: $color-gray;
+            width: 80%;
+        }
+    }
+}
+}
+//
+.az-article-header{
+    .az_article_crumbs{
+        font-size: 12px;
+        color: $color-gray;
+    }
+    .az-article_rightbutton{
+        float: right;
+        button{
+            
+            font-size: 15px;
+            width: 120px;
+            height: 40px;
+            background-color: $color-red;
+            border:1px solid $color-red;
+            border-radius: 5px;
+            color: white;
+        }
+    }
+
 }
