@@ -99,6 +99,22 @@ Drupal.behaviors.PharmaTheme = {
         }
     })
 
+    $(".az-clincal-search_button").keydown(function(e){
+      // e.preventDefault();
+      if(e.keyCode == 13){
+        var _keydown = $(".az-clincal-search_button").children()[0].value;
+        var _search_result_item = $($(".az-clinical-result-content .view-content-wrap")[0]).children();
+        for(var xb=0;xb<_search_result_item.length;xb++){
+          if($($(_search_result_item[xb]).children().children().children().children()[1]).children().children()[0].textContent.trim() != _keydown && _keydown !=""){
+           $(_search_result_item[xb]).css("display","none")
+            // console.log(_search_result_item)
+          }else if(_keydown ==""){
+            $(_search_result_item[xb]).css("display","block")
+          }
+        }
+      }
+    })
+
     // $(".az-product_selectbox_conth4").text("免責聲明：");
     // $(".az-product_selectbox_contp1").text("藥品咨詢只能適用於香港或澳門服用此藥物之人仕。");
     // $(".az-product_selectbox_contp2").text("如同意繼續瀏覽，你已聲明你正服用此藥物，並且了解所提供的質詢只作參考用途。如對以上藥物有任何疑問，請向您的醫生或藥劑師查詢。");
@@ -119,5 +135,26 @@ Drupal.behaviors.PharmaTheme = {
   // $(".body-page").on('click',function (){
   //   console.log("fdsfsf")
   // })
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
