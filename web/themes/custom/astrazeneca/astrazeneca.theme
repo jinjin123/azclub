@@ -357,6 +357,15 @@ function astrazeneca_form_alter(&$form, \Drupal\Core\Form\FormStateInterface $fo
   }
 }
 
+function astrazeneca_form_search_block_form_alter(&$form, &$form_state, $form_id) {
+  //unset($form['keys']);
+  $form['keys']['#attributes']['placeholder'] = t('Search');
+  //$form['actions']['submit']['#disabled'] = TRUE;
+  unset($form['actions']);
+  //var_dump($form);
+}
+
+
 function astrazeneca_theme_suggestions_page_alter(array &$suggestions, array $variables) {
   if ($node = \Drupal::request()->attributes->get('node')) {
     if (is_object($node)) {
