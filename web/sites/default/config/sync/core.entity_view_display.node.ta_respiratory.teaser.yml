@@ -5,7 +5,9 @@ dependencies:
   config:
     - core.entity_view_mode.node.teaser
     - field.field.node.ta_respiratory.body
+    - field.field.node.ta_respiratory.field_refers
     - field.field.node.ta_respiratory.field_ta_img
+    - field.field.node.ta_respiratory.field_ta_type
     - node.type.ta_respiratory
   module:
     - text
@@ -29,5 +31,7 @@ content:
     third_party_settings: {  }
     region: content
 hidden:
+  field_refers: true
   field_ta_img: true
+  field_ta_type: true
   search_api_excerpt: true

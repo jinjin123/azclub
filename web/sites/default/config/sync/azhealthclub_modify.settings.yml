@@ -1,0 +1,8 @@
+ta_content_types:
+  ta_cancer: ta_cancer
+  ta_cardiovascular: ta_cardiovascular
+  ta_diabetes: ta_diabetes
+  ta_gastrointestinal: ta_gastrointestinal
+  ta_infection: ta_infection
+  ta_renal: ta_renal
+  ta_respiratory: ta_respiratory

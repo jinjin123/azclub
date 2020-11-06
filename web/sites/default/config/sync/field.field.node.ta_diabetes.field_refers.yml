@@ -1,0 +1,21 @@
+uuid: 4ed6f324-2ff1-4a57-958c-892fbb08ef0e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_refers
+    - node.type.ta_diabetes
+  module:
+    - text
+id: node.ta_diabetes.field_refers
+field_name: field_refers
+entity_type: node
+bundle: ta_diabetes
+label: 參考：
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

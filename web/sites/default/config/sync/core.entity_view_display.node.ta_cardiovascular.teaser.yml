@@ -1,11 +1,13 @@
 uuid: cd3cb3ec-bb60-49c2-8f6d-f047baf0e7c9
 langcode: en
-status: true
+status: false
 dependencies:
   config:
     - core.entity_view_mode.node.teaser
     - field.field.node.ta_cardiovascular.body
+    - field.field.node.ta_cardiovascular.field_refers
     - field.field.node.ta_cardiovascular.field_ta_img
+    - field.field.node.ta_cardiovascular.field_ta_type
     - node.type.ta_cardiovascular
   module:
     - text
@@ -29,5 +31,7 @@ content:
     third_party_settings: {  }
     region: content
 hidden:
+  field_refers: true
   field_ta_img: true
+  field_ta_type: true
   search_api_excerpt: true

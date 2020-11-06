@@ -1,0 +1,205 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/default\/node\/84?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/default\/rest\/type\/node\/ta_cardiovascular"
+        },
+        "http:\/\/default\/rest\/relation\/node\/ta_cardiovascular\/revision_uid": [
+            {
+                "href": "http:\/\/default\/user\/1?_format=hal_json"
+            }
+        ],
+        "http:\/\/default\/rest\/relation\/node\/ta_cardiovascular\/uid": [
+            {
+                "href": "http:\/\/default\/user\/1?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/default\/rest\/relation\/node\/ta_cardiovascular\/field_ta_img": [
+            {
+                "href": ""
+            }
+        ],
+        "http:\/\/default\/rest\/relation\/node\/ta_cardiovascular\/field_ta_type": [
+            {
+                "href": "http:\/\/default\/taxonomy\/term\/12?_format=hal_json",
+                "lang": "en"
+            }
+        ]
+    },
+    "uuid": [
+        {
+            "value": "831df720-a7af-4bee-b8c4-cafd17351fcf"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "ta_cardiovascular"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2020-11-04T08:05:51+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/default\/rest\/relation\/node\/ta_cardiovascular\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/default\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "ad86f4f8-ab08-4ff1-be42-53e6179dd359"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/default\/rest\/relation\/node\/ta_cardiovascular\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/default\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "ad86f4f8-ab08-4ff1-be42-53e6179dd359"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/default\/rest\/relation\/node\/ta_cardiovascular\/field_ta_img": [
+            {
+                "_links": {
+                    "self": {
+                        "href": ""
+                    },
+                    "type": {
+                        "href": "http:\/\/default\/rest\/type\/file\/file"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "b5a33352-b892-49c6-ac7f-07c37adfb485"
+                    }
+                ],
+                "alt": " 11",
+                "title": "",
+                "width": "74",
+                "height": "82"
+            }
+        ],
+        "http:\/\/default\/rest\/relation\/node\/ta_cardiovascular\/field_ta_type": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/taxonomy\/term\/12?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/default\/rest\/type\/taxonomy_term\/ta_type"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "38ebce9b-1435-44f1-95f6-a3a0571db709"
+                    }
+                ],
+                "lang": "en"
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "\u6797\u76db\u658c\u30fb\u8210\u72a2\u60c5\u300c\u5fc3\u300d \u5fc3\u81df\u5065\u5eb7\u5927\u4f7f ",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2020-11-04T08:04:32+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2020-11-04T09:56:44+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "path": [
+        {
+            "alias": null,
+            "pid": null,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "body": [
+        {
+            "value": "<p><br \/>\r\nLorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore<br \/>\r\nmagna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea<br \/>\r\ncommodo consequat. Lorem ipsum dolor sit amet. consectetur adipisicing elit. sed do eiusmod tempor<br \/>\r\nincididunt ut isbore et dolore magna aliqua.Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem<br \/>\r\nipsum dolor sit amet, consectetur<br \/>\r\nadipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna atiqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco<br \/>\r\nlaboris oisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut laboreLorem ipsum<br \/>\r\ndolor sit amet. consectetur adipisicing elrt. sed do eiusmod tempor incididunt ut labore et dolore<\/p>\r\n\r\n<h3>Lorem ipsum dolor sit amet<\/h3>\r\n\r\n<p>adipisicing elit. sed do eiusmod tempor incididunt ut labore et dolore magna atiqua. Ut enim ad minim veniam. quis nostrud exercitation ullamco<br \/>\r\nlaboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore<\/p>\r\n\r\n<p>&nbsp;<\/p>\r\n\r\n<h3>Lorem ipsum dolor sit amet<\/h3>\r\n\r\n<p><img alt=\"\" data-align=\"left\" data-entity-type=\"file\" data-entity-uuid=\"bb609574-88c3-41ff-9918-5c89f84412a5\" height=\"222\" src=\"\/sites\/default\/files\/imce_upload\/admin\/page-example.png\" width=\"411\" \/>adipisicing elit. sed do eiusmod tempor incididunt ut labore et dolore magna<br \/>\r\naliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco, laboris nisi<br \/>\r\nut aliquip ex ea commodo consequat Lorem ipsum dolor sit amet, consectetur<br \/>\r\nadipisicing elit sed do eiusmod tempor incididunt ut labore<br \/>\r\nadipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna<br \/>\r\naliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco<br \/>\r\nlaboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet.<br \/>\r\nconsectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore<\/p>\r\n",
+            "format": "basic_html",
+            "processed": "<p><br \/>\nLorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore<br \/>\nmagna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea<br \/>\ncommodo consequat. Lorem ipsum dolor sit amet. consectetur adipisicing elit. sed do eiusmod tempor<br \/>\nincididunt ut isbore et dolore magna aliqua.Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem<br \/>\nipsum dolor sit amet, consectetur<br \/>\nadipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna atiqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco<br \/>\nlaboris oisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut laboreLorem ipsum<br \/>\ndolor sit amet. consectetur adipisicing elrt. sed do eiusmod tempor incididunt ut labore et dolore<\/p>\n\n<h3>Lorem ipsum dolor sit amet<\/h3>\n\n<p>adipisicing elit. sed do eiusmod tempor incididunt ut labore et dolore magna atiqua. Ut enim ad minim veniam. quis nostrud exercitation ullamco<br \/>\nlaboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore<\/p>\n\n<p>\u00a0<\/p>\n\n<h3>Lorem ipsum dolor sit amet<\/h3>\n\n<p><img alt=\"\" data-entity-type=\"file\" data-entity-uuid=\"bb609574-88c3-41ff-9918-5c89f84412a5\" height=\"222\" src=\"\/sites\/default\/files\/imce_upload\/admin\/page-example.png\" width=\"411\" class=\"align-left\" \/>adipisicing elit. sed do eiusmod tempor incididunt ut labore et dolore magna<br \/>\naliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco, laboris nisi<br \/>\nut aliquip ex ea commodo consequat Lorem ipsum dolor sit amet, consectetur<br \/>\nadipisicing elit sed do eiusmod tempor incididunt ut labore<br \/>\nadipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna<br \/>\naliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco<br \/>\nlaboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet.<br \/>\nconsectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore<\/p>",
+            "summary": "",
+            "lang": "en"
+        }
+    ],
+    "field_refers": [
+        {
+            "value": "<p>\u9999\u6e2f\u885b\u751f\u7f72\u885b\u751f\u9632\u885b\u4e2d\u5fc3.\u5fc3\u81df\u75c5:\u5f15\u8a00&amp;\u672c\u5730\u60c5\u6cc1&amp;\u9ad8\u5371\u56e0\u7d20.Available at https:\/\/www.chp.gov.hk\/tc\/content\/9\/25\/57htmlAccessedon18-12-18<\/p>\r\n\r\n<p>\u91ab\u9662\u7ba1\u7406\u5c40 \u667a\u53cb\u7db2 \u51a0\u5fc3\u75c5 Available at http:\/\/www21.ha.org.hk\/smartpatient\/SPW\/zh-HK\/Disease-Information\/Disease\/?guid=f9899bdc-ad84-460b-825a-6fdd85a079d6 Accessed on 18-12-18<\/p>\r\n\r\n<p>British Heart Foundation. Diabetes and your Heart. Available at https:\/\/www.bhf.org.uk\/-\/media\/files\/publications\/large-print\/bhf_his22_diabetes_and_your_heart_a4.pdf Accessed on 28-11-18 Accessed on 18-12-18<\/p>\r\n\r\n<p>\u9999\u6e2f\u885b\u751f\u885b\u751f\u9632\u8b77\u4e2d\u5fc3 \u7537\u6027\u5e38\u898b\u75be\u75c5 \u51a0\u72c0\u52d5\u8108\u5fc3\u81df\u75c5. Available at https:\/\/www.chp.gov.hk\/tc\/static\/80035.html Accessed on 18-12-18<\/p>\r\n\r\n<p>World Health Organization.Cardiovascular Diseases(CVDs).Available at http:\/\/wwww.who.int\/mediacentre\/factsheets\/fs317\/en\/ Accessed on 18-12-18<\/p>\r\n\r\n<p>The telegraph.One In Three Heart Attacks Feel Like Indigestion, Warns British Heart Foundation.Available at https:\/\/www.telegraphcouk\/science\/2016\/04\/11\/one-in-three-heart-attacks-feel-like-indigestion-warns-british-h\/ Accessed on 18-12-18<\/p>\r\n\r\n<p>\u9999\u6e2f\u885b\u751f\u885b\u751f\u9632\u8b77\u4e2d\u5fc3.\u53e3\u670d\u6297\u5fc3\u7d5e\u75db\u85e5.Available at https:\/\/www.drugoffce.gov.hk\/eps\/do\/tc\/consumer\/news_informations\/dm_27.html#b Accessed on 18-12-18<\/p>\r\n\r\n<p>American Heart Association.CPR &amp; ECC Guidelines.Available at https:\/\/eccguidelines.heart.org\/index.php\/circulation\/cpr-ecc-guidelines-2\/executive-summaries\/?strue=1&amp;id=3-5-2 Accesed on 18-12-18<\/p>\r\n\r\n<p>&nbsp;<\/p>\r\n\r\n<p>HK-2061 15\/02\/2019<\/p>\r\n",
+            "format": "basic_html",
+            "processed": "<p>\u9999\u6e2f\u885b\u751f\u7f72\u885b\u751f\u9632\u885b\u4e2d\u5fc3.\u5fc3\u81df\u75c5:\u5f15\u8a00&amp;\u672c\u5730\u60c5\u6cc1&amp;\u9ad8\u5371\u56e0\u7d20.Available at https:\/\/www.chp.gov.hk\/tc\/content\/9\/25\/57htmlAccessedon18-12-18<\/p>\n\n<p>\u91ab\u9662\u7ba1\u7406\u5c40 \u667a\u53cb\u7db2 \u51a0\u5fc3\u75c5 Available at http:\/\/www21.ha.org.hk\/smartpatient\/SPW\/zh-HK\/Disease-Information\/Disease\/?guid=f9899bdc-ad84-460b-825a-6fdd85a079d6 Accessed on 18-12-18<\/p>\n\n<p>British Heart Foundation. Diabetes and your Heart. Available at https:\/\/www.bhf.org.uk\/-\/media\/files\/publications\/large-print\/bhf_his22_diabetes_and_your_heart_a4.pdf Accessed on 28-11-18 Accessed on 18-12-18<\/p>\n\n<p>\u9999\u6e2f\u885b\u751f\u885b\u751f\u9632\u8b77\u4e2d\u5fc3 \u7537\u6027\u5e38\u898b\u75be\u75c5 \u51a0\u72c0\u52d5\u8108\u5fc3\u81df\u75c5. Available at https:\/\/www.chp.gov.hk\/tc\/static\/80035.html Accessed on 18-12-18<\/p>\n\n<p>World Health Organization.Cardiovascular Diseases(CVDs).Available at http:\/\/wwww.who.int\/mediacentre\/factsheets\/fs317\/en\/ Accessed on 18-12-18<\/p>\n\n<p>The telegraph.One In Three Heart Attacks Feel Like Indigestion, Warns British Heart Foundation.Available at https:\/\/www.telegraphcouk\/science\/2016\/04\/11\/one-in-three-heart-attacks-feel-like-indigestion-warns-british-h\/ Accessed on 18-12-18<\/p>\n\n<p>\u9999\u6e2f\u885b\u751f\u885b\u751f\u9632\u8b77\u4e2d\u5fc3.\u53e3\u670d\u6297\u5fc3\u7d5e\u75db\u85e5.Available at https:\/\/www.drugoffce.gov.hk\/eps\/do\/tc\/consumer\/news_informations\/dm_27.html#b Accessed on 18-12-18<\/p>\n\n<p>American Heart Association.CPR &amp; ECC Guidelines.Available at https:\/\/eccguidelines.heart.org\/index.php\/circulation\/cpr-ecc-guidelines-2\/executive-summaries\/?strue=1&amp;id=3-5-2 Accesed on 18-12-18<\/p>\n\n<p>\u00a0<\/p>\n\n<p>HK-2061 15\/02\/2019<\/p>",
+            "lang": "en"
+        }
+    ]
+}

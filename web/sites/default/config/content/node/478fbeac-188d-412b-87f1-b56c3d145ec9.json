@@ -17,6 +17,16 @@
                 "lang": "en"
             }
         ],
+        "http:\/\/default\/rest\/relation\/node\/ta_campaign\/field_ta_campaign_img": [
+            {
+                "href": ""
+            }
+        ],
+        "http:\/\/default\/rest\/relation\/node\/ta_campaign\/field_ta_campaign_logo": [
+            {
+                "href": ""
+            }
+        ],
         "http:\/\/default\/rest\/relation\/node\/ta_campaign\/field_ta_campaign_parent_type": [
             {
                 "href": "http:\/\/default\/taxonomy\/term\/1?_format=hal_json"
@@ -81,6 +91,48 @@
                 "lang": "en"
             }
         ],
+        "http:\/\/default\/rest\/relation\/node\/ta_campaign\/field_ta_campaign_img": [
+            {
+                "_links": {
+                    "self": {
+                        "href": ""
+                    },
+                    "type": {
+                        "href": "http:\/\/default\/rest\/type\/file\/file"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "b5094b76-c41d-42ac-b9c1-5fa00e4a6ec5"
+                    }
+                ],
+                "alt": "''",
+                "title": "",
+                "width": "359",
+                "height": "182"
+            }
+        ],
+        "http:\/\/default\/rest\/relation\/node\/ta_campaign\/field_ta_campaign_logo": [
+            {
+                "_links": {
+                    "self": {
+                        "href": ""
+                    },
+                    "type": {
+                        "href": "http:\/\/default\/rest\/type\/file\/file"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "d114243a-e3b4-46a9-abd6-ddf1223f8a06"
+                    }
+                ],
+                "alt": "''",
+                "title": "",
+                "width": "74",
+                "height": "82"
+            }
+        ],
         "http:\/\/default\/rest\/relation\/node\/ta_campaign\/field_ta_campaign_parent_type": [
             {
                 "_links": {
@@ -101,7 +153,7 @@
     },
     "status": [
         {
-            "value": false,
+            "value": true,
             "lang": "en"
         }
     ],
@@ -120,7 +172,7 @@
     ],
     "changed": [
         {
-            "value": "2020-11-03T06:12:51+00:00",
+            "value": "2020-11-05T08:50:45+00:00",
             "lang": "en",
             "format": "Y-m-d\\TH:i:sP"
         }
@@ -164,6 +216,18 @@
             "processed": "<p>Lorem lpsum is simply dummy text of the printing and typesetting<\/p>",
             "summary": "",
             "lang": "en"
+        }
+    ],
+    "field_link": [
+        {
+            "uri": "internal:\/cardiovascualr\/coronary-heart",
+            "title": "",
+            "options": []
+        }
+    ],
+    "field_weight": [
+        {
+            "value": 0
         }
     ]
 }

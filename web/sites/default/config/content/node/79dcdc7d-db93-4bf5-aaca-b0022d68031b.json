@@ -16,6 +16,16 @@
                 "href": "http:\/\/default\/user\/1?_format=hal_json",
                 "lang": "en"
             }
+        ],
+        "http:\/\/default\/rest\/relation\/node\/ta_campaign\/field_ta_campaign_img": [
+            {
+                "href": ""
+            }
+        ],
+        "http:\/\/default\/rest\/relation\/node\/ta_campaign\/field_ta_campaign_logo": [
+            {
+                "href": ""
+            }
         ]
     },
     "uuid": [
@@ -75,11 +85,53 @@
                 ],
                 "lang": "en"
             }
+        ],
+        "http:\/\/default\/rest\/relation\/node\/ta_campaign\/field_ta_campaign_img": [
+            {
+                "_links": {
+                    "self": {
+                        "href": ""
+                    },
+                    "type": {
+                        "href": "http:\/\/default\/rest\/type\/file\/file"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "5c44fd0c-5eb7-4364-80f3-f1d973d55dbf"
+                    }
+                ],
+                "alt": "''",
+                "title": "",
+                "width": "359",
+                "height": "182"
+            }
+        ],
+        "http:\/\/default\/rest\/relation\/node\/ta_campaign\/field_ta_campaign_logo": [
+            {
+                "_links": {
+                    "self": {
+                        "href": ""
+                    },
+                    "type": {
+                        "href": "http:\/\/default\/rest\/type\/file\/file"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "f2ec228c-a539-47be-867e-029026bf3586"
+                    }
+                ],
+                "alt": "''",
+                "title": "",
+                "width": "74",
+                "height": "82"
+            }
         ]
     },
     "status": [
         {
-            "value": false,
+            "value": true,
             "lang": "en"
         }
     ],
@@ -98,7 +150,7 @@
     ],
     "changed": [
         {
-            "value": "2020-11-03T07:20:00+00:00",
+            "value": "2020-11-05T08:50:45+00:00",
             "lang": "en",
             "format": "Y-m-d\\TH:i:sP"
         }
@@ -142,6 +194,13 @@
             "processed": "<p>Lorem lpsum is simply dummy text of the printing and typesetting<\/p>",
             "summary": "",
             "lang": "en"
+        }
+    ],
+    "field_link": [
+        {
+            "uri": "internal:\/gastrointestinal",
+            "title": "",
+            "options": []
         }
     ],
     "field_weight": [
