@@ -14,11 +14,11 @@ https://github.com/HBFCrew/default_content_deploy/blob/8.x-1.x/README.md
 
 >Export node
 ```
-dush dcde node
+drush dcde node
 ```
 >Export node and its relation entity
 ```
-dush dcder node
+drush dcder node
 ```
 >Export single node
 ```
