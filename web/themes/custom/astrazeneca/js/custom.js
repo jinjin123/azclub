@@ -115,6 +115,22 @@ Drupal.behaviors.PharmaTheme = {
       }
     })
 
+    $(".az-valicodeshow").html('<input  id="az-contact_valid_code"  value="">')
+    $(".az-valicode_freash").html('<input  type="button" id="az-contact_freshbtn"  value="刷新">')
+
+    $("#az-contact_freshbtn").click(function(){
+       $("#az-contact_valid_code")[0].value = RndNum(5)
+      // console.log($("#az-contact_valid_code")[0].value)
+    })
+    if(($("#az-contact_valid_code").length > 0)){
+      $("#az-contact_valid_code")[0].value = RndNum(5)
+    }
+    function RndNum(n){
+      var rnd="";
+      for(var i=0;i<n;i++)
+        rnd+=Math.floor(Math.random()*10);
+      return rnd.split("").join(".");
+    }
     // $(".az-product_selectbox_conth4").text("免責聲明：");
     // $(".az-product_selectbox_contp1").text("藥品咨詢只能適用於香港或澳門服用此藥物之人仕。");
     // $(".az-product_selectbox_contp2").text("如同意繼續瀏覽，你已聲明你正服用此藥物，並且了解所提供的質詢只作參考用途。如對以上藥物有任何疑問，請向您的醫生或藥劑師查詢。");

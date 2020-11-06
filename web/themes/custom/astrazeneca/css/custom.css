@@ -465,7 +465,36 @@ body {
 
 .webform-submission-contact-form .js-form-item-name {
   float: left;
-  padding-right: 10px; }
+  padding-right: 16px;
+  padding-bottom: 10px; }
+
+.webform-submission-contact-form .js-form-item-subject {
+  padding-bottom: 10px; }
+
+.webform-submission-contact-form .js-form-item-message {
+  padding-bottom: 10px; }
+  .webform-submission-contact-form .js-form-item-message input {
+    height: 110px; }
+
+.webform-submission-contact-form .js-form-item-code {
+  display: flex;
+  padding-bottom: 20px; }
+  .webform-submission-contact-form .js-form-item-code .description {
+    padding-left: 10px; }
+    .webform-submission-contact-form .js-form-item-code .description .webform-element-description .az-validcode {
+      display: flex; }
+
+.webform-submission-contact-form .js-form-item-termcheck {
+  display: flex; }
+  .webform-submission-contact-form .js-form-item-termcheck .description {
+    padding-left: 10px;
+    padding-bottom: 50px; }
+
+.webform-submission-contact-form .webform-actions {
+  text-align: center; }
+  .webform-submission-contact-form .webform-actions input {
+    width: 200px;
+    background: #eb1484; }
 
 .az-header-bbox {
   display: flex; }
@@ -519,3 +548,17 @@ body {
   .az-offer-article .field--name-field-medicine-shop-params {
     position: relative;
     left: 180px; }
+
+#az-contact_valid_code {
+  height: 45px;
+  background-color: #d0cbcb;
+  text-align: center;
+  border: 0; }
+
+#az-contact_freshbtn {
+  color: white;
+  height: 45px;
+  background-color: black;
+  text-align: center;
+  margin-left: 10px;
+  width: 200px; }
