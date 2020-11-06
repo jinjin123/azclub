@@ -1,0 +1,24 @@
+{
+  "name": "drupal/mailgroup_amazonses",
+  "description": "Amazon SES connection plugin for Mail Group.",
+  "type": "drupal-module",
+  "homepage": "http://drupal.org/project/mailgroup_amazonses",
+  "authors": [
+      {
+          "name": "Ben Davis (davisben)",
+          "homepage": "https://www.drupal.org/u/davisben",
+          "role": "Maintainer"
+      }
+  ],
+  "support": {
+      "issues": "http://drupal.org/project/mailgroup_amazonses",
+      "source": "https://git.drupalcode.org/project/mailgroup_amazonses"
+  },
+  "license": "GPL-2.0+",
+  "minimum-stability": "dev",
+  "require": {
+      "aws/aws-php-sns-message-validator": "^1.6",
+      "aws/aws-sdk-php": "^3.130",
+      "zbateson/mail-mime-parser": "^1.2"
+  }
+}

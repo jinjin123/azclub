@@ -1,0 +1,13 @@
+name: Mail Group Amazon SES
+type: module
+description: Amazon SES connection plugin for Mail Group.
+core: 8.x
+core_version_requirement: ^8 || ^9
+dependencies:
+  - mailgroup:mailgroup
+  - aws_secrets_manager:aws_secrets_manager
+
+# Information added by Drupal.org packaging script on 2020-05-04
+version: '8.x-1.0'
+project: 'mailgroup_amazonses'
+datestamp: 1588552581
