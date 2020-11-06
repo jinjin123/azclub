@@ -8,6 +8,7 @@
 namespace Drupal\azhealthclub_step_login\Form;
 
 use Drupal\Core\Form\FormStateInterface;
+use Drupal\Core\Url;
 
 class MultistepOneForm extends MultistepFormBase {
 
@@ -49,9 +50,22 @@ class MultistepOneForm extends MultistepFormBase {
       '#size' => 25,
     ];
 
+    $form['send_code'] = [
+      '#type' => 'button',
+      '#value' => '發送驗證碼',
+      '#ajax' => [
+      'callback' => '::sendCodeAjax',
+      'disable-refocus' => FALSE,
+      'event' => 'click',
+      'progress' => [
+        'type' => 'throbber',
+        'message' => $this->t('Sending'),
+      ],
+    ]
+    ];
     $form['verify_code'] = [
       '#type' => 'textfield',
-      '#title' => '發送驗證碼',
+      '#title' => '',
       '#default_value' => $this->store->get('verify_code') ? $this->store->get('verify_code') : '',
       '#attributes' => ['placeholder' => '輸入驗證碼'],
     ];
@@ -107,5 +121,10 @@ class MultistepOneForm extends MultistepFormBase {
     $this->store->set('attention1', $form_state->getValue('attention1'));
 
     $form_state->setRedirect('azhealthclub_step_login.multistep_two');
+  }
+
+  public function sendCodeAjax(array &$form, FormStateInterface $form_state) {
+    //todo: send code
+    return $form['send_code'];
   }
 }
