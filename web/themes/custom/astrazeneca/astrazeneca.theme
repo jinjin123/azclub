@@ -385,36 +385,15 @@ function astrazeneca_theme_suggestions_page_alter(array &$suggestions, array $va
   }
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/**
+ * Implements hook_theme_suggestions_HOOK_alter().
+ */
+function astrazeneca_theme_suggestions_node_alter(array &$suggestions, array $variables) {
+//  $ta_content_types = ['ta_cardiovascular', 'ta_cancer', 'ta_diabetes', 'ta_gastrointestinal',
+//    'ta_infection', 'ta_renal', 'ta_respiratory'];
+  $ta_content_types = \Drupal::config('azhealthclub_modify.settings')->get('ta_content_types');
+  $type = $variables["elements"]["#node"]->getType();
+  if (in_array($type, $ta_content_types)) {
+    $suggestions[] = 'node__therapeutic_area';
+  }
+}

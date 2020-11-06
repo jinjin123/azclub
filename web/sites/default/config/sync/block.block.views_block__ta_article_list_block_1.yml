@@ -24,7 +24,7 @@ settings:
   id: 'views_block:ta_article_list-block_1'
   label: ''
   provider: views
-  label_display: visible
+  label_display: '0'
   views_label: ''
   items_per_page: none
 visibility:
