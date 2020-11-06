@@ -1,7 +1,7 @@
 {
     "_links": {
         "self": {
-            "href": "http:\/\/default\/node\/60?_format=hal_json"
+            "href": "http:\/\/default\/node\/89?_format=hal_json"
         },
         "type": {
             "href": "http:\/\/default\/rest\/type\/node\/ta_campaign"
@@ -26,11 +26,16 @@
             {
                 "href": ""
             }
+        ],
+        "http:\/\/default\/rest\/relation\/node\/ta_campaign\/field_ta_campaign_parent_type": [
+            {
+                "href": "http:\/\/default\/taxonomy\/term\/2?_format=hal_json"
+            }
         ]
     },
     "uuid": [
         {
-            "value": "6aa643d2-2214-4e6e-ad3c-20e5845f23bd"
+            "value": "42627198-b743-4156-88c7-0083268d9f6d"
         }
     ],
     "langcode": [
@@ -46,7 +51,7 @@
     ],
     "revision_timestamp": [
         {
-            "value": "2020-11-03T05:56:37+00:00",
+            "value": "2020-11-06T01:43:02+00:00",
             "format": "Y-m-d\\TH:i:sP"
         }
     ],
@@ -98,7 +103,7 @@
                 },
                 "uuid": [
                     {
-                        "value": "69caa737-928c-4b61-9918-8e5df79035e4"
+                        "value": "b0e9c757-3b2f-4b79-9cab-55aa613661f3"
                     }
                 ],
                 "alt": "''",
@@ -119,13 +124,30 @@
                 },
                 "uuid": [
                     {
-                        "value": "4476993e-8093-44a3-826d-a0bdec03e450"
+                        "value": "42faa8df-65f3-42c4-a4e7-b8cb1876cdad"
                     }
                 ],
                 "alt": "''",
                 "title": "",
                 "width": "74",
                 "height": "82"
+            }
+        ],
+        "http:\/\/default\/rest\/relation\/node\/ta_campaign\/field_ta_campaign_parent_type": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/taxonomy\/term\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/default\/rest\/type\/taxonomy_term\/ta_type"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "8606a7c4-0c2a-4f64-aa2a-253cec094711"
+                    }
+                ]
             }
         ]
     },
@@ -137,20 +159,20 @@
     ],
     "title": [
         {
-            "value": "\u611f\u67d3\/\u50b3\u67d3\u75c5",
+            "value": "\u4e8c\u578b\u7cd6\u5c3f\u75c5",
             "lang": "en"
         }
     ],
     "created": [
         {
-            "value": "2020-11-03T05:56:00+00:00",
+            "value": "2020-11-06T01:41:32+00:00",
             "lang": "en",
             "format": "Y-m-d\\TH:i:sP"
         }
     ],
     "changed": [
         {
-            "value": "2020-11-06T01:52:11+00:00",
+            "value": "2020-11-06T01:51:14+00:00",
             "lang": "en",
             "format": "Y-m-d\\TH:i:sP"
         }
@@ -198,14 +220,14 @@
     ],
     "field_link": [
         {
-            "uri": "internal:\/infection",
+            "uri": "internal:\/diabetes\/type2-diabetes",
             "title": "",
             "options": []
         }
     ],
     "field_weight": [
         {
-            "value": 6
+            "value": 0
         }
     ]
 }
