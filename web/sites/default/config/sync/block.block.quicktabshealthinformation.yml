@@ -15,7 +15,7 @@ third_party_settings:
 id: quicktabshealthinformation
 theme: astrazeneca
 region: content
-weight: -11
+weight: -15
 provider: null
 plugin: 'quicktabs_block:health_information'
 settings:
