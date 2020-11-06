@@ -6,14 +6,17 @@ body {
 #search-block-form{
     input{
         background: transparent url(../images/search-icon.png) no-repeat;
-        
+        background-position: 90px;
     }
 }
 .az-header_top {
   .az-header_top_logo {
     float: $float-left;
   }
-
+  .az-contact-right-box{
+    margin-top: 20px;
+    margin-left: 120px;
+  }
   .top-box-img {
     float: $float-left;
     width: 40px;
@@ -189,10 +192,8 @@ body {
   position: relative;
 
   .az-offer_body {
-    width: 55%;
     float: left;
-    position: relative;
-    left: 30px;
+    margin: 10px 20px 0px 20px;
 
     .az-offer_body_title {
       font-weight: bold;
@@ -208,14 +209,9 @@ body {
     float: right;
     background-color: $color-red;
     width: 20%;
-    position: relative;
-    top: 20px;
-    right: 30px;
-    height: 30px;
-    line-height: 30px;
     text-align: center;
     border-radius: 5px;
-
+    margin-right: 20px;
     a {
       color: white;
     }
@@ -583,6 +579,30 @@ body {
   }
 
 }
+.az-node__content{
+    .az-node__content_bottom_boder{
+        border-top: 1px solid $color-gray;
+        padding-top: 10px;
+        .row{
+            .col-md-9>span{
+                float: left;
+                
+                display: block;
+                width: 36px;
+                height: 36px;
+                &:nth-child(1){
+                    background: transparent url(../images/facebook.png) no-repeat;
+                }
+                &:nth-child(2){
+                    background: transparent url(../images/instagram.png) no-repeat;
+                }
+                &:nth-child(3){
+                    background: transparent url(../images/googleplus.png) no-repeat;
+                }
+            }
+        }
+    }
+}
 
 .az-clinical-search_box>div {
   &:nth-child(1) {
@@ -696,4 +716,72 @@ body {
 
 .az-header-bbox {
   display: flex;
+  .az-header-search-box{
+      margin-top: 25px;
+  }
+}
+#footer{
+    .footer-center{
+        display: none;
+    }
+    .after-footer:after{
+        content: " ";
+        width: 100%;
+        height: 40px;
+        background-color: black;
+        display: block;
+    }
+    .container{
+        margin-bottom: 40px;
+    }
+    .after-footer-inner{
+    .field--type-text-with-summary{
+        float: left;
+        width: 47%;
+        img{
+            float: left;
+            width: 20%;
+        }
+        p{
+            width: 70%;
+            float: right;
+            strong{
+                color: black;
+                font-weight: bold;
+            }
+        }
+    }
+    #block-webform{
+        float: left;
+        width: 47%;
+        margin-left: 6%;
+        .js-form-type-email{
+            float: left;
+            width: 35%;
+            input{
+                width: 100%;
+            }
+        }
+        .js-form-type-select{
+            float: left;
+            width: 35%;
+            margin-left: 2.5%;
+            select{
+                width: 100%;
+                height: 40px;
+            }
+        }
+        .form-actions{
+            float: right;
+            width: 25%;
+            margin-left: 2.5%;
+            input{
+                width: 100%;
+                height: 40px;
+                background-color: $color-red;
+                border-radius: 0px;
+            }
+        }
+    }
+}
 }

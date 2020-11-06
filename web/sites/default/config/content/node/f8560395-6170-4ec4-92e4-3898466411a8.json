@@ -1,7 +1,7 @@
 {
     "_links": {
         "self": {
-            "href": "http:\/\/default\/node\/85?_format=hal_json"
+            "href": "http:\/\/default\/node\/87?_format=hal_json"
         },
         "type": {
             "href": "http:\/\/default\/rest\/type\/node\/ta_cardiovascular"
@@ -15,11 +15,6 @@
             {
                 "href": "http:\/\/default\/user\/1?_format=hal_json",
                 "lang": "en"
-            }
-        ],
-        "http:\/\/default\/rest\/relation\/node\/ta_cardiovascular\/field_ta_img": [
-            {
-                "href": ""
             }
         ],
         "http:\/\/default\/rest\/relation\/node\/ta_cardiovascular\/field_ta_type": [
@@ -85,27 +80,6 @@
                     }
                 ],
                 "lang": "en"
-            }
-        ],
-        "http:\/\/default\/rest\/relation\/node\/ta_cardiovascular\/field_ta_img": [
-            {
-                "_links": {
-                    "self": {
-                        "href": ""
-                    },
-                    "type": {
-                        "href": "http:\/\/default\/rest\/type\/file\/file"
-                    }
-                },
-                "uuid": [
-                    {
-                        "value": "df27bb54-35b3-48b5-aab6-cd5795b4e303"
-                    }
-                ],
-                "alt": "11",
-                "title": "",
-                "width": "74",
-                "height": "82"
             }
         ],
         "http:\/\/default\/rest\/relation\/node\/ta_cardiovascular\/field_ta_type": [

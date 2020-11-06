@@ -1,7 +1,7 @@
 {
     "_links": {
         "self": {
-            "href": "http:\/\/default\/respiratory\/chronic-obstructive-pulmonary?_format=hal_json"
+            "href": "http:\/\/default\/gastrointestinal\/acid-reflux?_format=hal_json"
         },
         "type": {
             "href": "http:\/\/default\/rest\/type\/node\/page"
@@ -128,8 +128,8 @@
     ],
     "path": [
         {
-            "alias": "\/respiratory\/chronic-obstructive-pulmonary",
-            "pid": 82,
+            "alias": "\/gastrointestinal\/acid-reflux",
+            "pid": 92,
             "langcode": "en",
             "lang": "en"
         }
