@@ -1,7 +1,7 @@
 {
     "_links": {
         "self": {
-            "href": "http:\/\/default\/diabetes?_format=hal_json"
+            "href": "http:\/\/default\/gastrointestinal\/acid-reflux?_format=hal_json"
         },
         "type": {
             "href": "http:\/\/default\/rest\/type\/node\/page"
@@ -128,8 +128,8 @@
     ],
     "path": [
         {
-            "alias": "\/diabetes",
-            "pid": 89,
+            "alias": "\/gastrointestinal\/acid-reflux",
+            "pid": 105,
             "langcode": "en",
             "lang": "en"
         }

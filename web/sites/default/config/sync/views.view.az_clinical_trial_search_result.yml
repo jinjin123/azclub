@@ -957,15 +957,13 @@ display:
         row: false
         relationships: false
         footer: false
+        css_class: false
       style:
-        type: html_list
+        type: default
         options:
           grouping: {  }
-          row_class: 'col-sm-12 col-md-4 col-lg-12 portfolio-item filter-Packaging filter-Print portfolio'
+          row_class: ''
           default_row_class: true
-          type: ul
-          wrapper_class: item-list
-          class: ''
       row:
         type: fields
         options:
@@ -1021,6 +1019,7 @@ display:
           view_mode: default
           bypass_access: false
           plugin_id: entity
+      css_class: ''
     cache_metadata:
       max-age: -1
       contexts:

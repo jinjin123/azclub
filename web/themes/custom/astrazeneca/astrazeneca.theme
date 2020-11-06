@@ -398,6 +398,7 @@ function astrazeneca_theme_suggestions_node_alter(array &$suggestions, array $va
   }
 }
 
+/*
 function astrazeneca_preprocess_paragraph(&$variables) {
   //dd($variables);
   //dd($variables['content']['field_shopname'][0]['#text']);
@@ -421,3 +422,4 @@ function astrazeneca_preprocess_paragraph(&$variables) {
   $variables["shopArea"] = $variables['content']['field_area'][0]['#context']['value'];
   $variables["shopPhone"] = $variables['content']['field_phone'][0]['#context']['value'] ;
 }
+*/

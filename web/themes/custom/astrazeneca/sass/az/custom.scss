@@ -70,6 +70,7 @@ body {
 .az_clinical_box {
   background-color: $color-red;
   padding-top: 20px;
+  margin-top:500px;
 
   p {
     width: 50%;
@@ -562,6 +563,8 @@ body {
 
 //
 .az-article-header {
+   position: relative;
+   left:40%;
   .az_article_crumbs {
     font-size: 12px;
     color: $color-gray;
@@ -700,6 +703,8 @@ body {
 
 .az-offers_product_box {
   position: absolute;
+  clear: both;
+  left: 300px;
   top: -100px;
 }
 
@@ -732,4 +737,31 @@ body {
 
 .az-medicine-shop-header {
   display:flex
+}
+//.az-clinical-result-content {
+//  .view-content-wrap {
+//    margin-bottom:400px;
+//  }
+//}
+.az-offernode__content_body {
+  position: relative;
+  left: -180px;
+  top: 150px;
+}
+.az-offers_shop {
+  margin-bottom: 250px;
+  top: 200px;
+  left: 700px;
+}
+
+.az-medicine-shop-header {
+  left:700px;
+  position: relative;
+}
+.az-offer-article {
+  margin-bottom: 10px;
+  .field--name-field-medicine-shop-params {
+    position: relative;
+    left: 180px;
+  }
 }

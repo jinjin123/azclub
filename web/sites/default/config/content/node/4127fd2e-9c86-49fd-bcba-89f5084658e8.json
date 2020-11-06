@@ -1,7 +1,7 @@
 {
     "_links": {
         "self": {
-            "href": "http:\/\/default\/cardiovascualr\/hypertension?_format=hal_json"
+            "href": "http:\/\/default\/infection?_format=hal_json"
         },
         "type": {
             "href": "http:\/\/default\/rest\/type\/node\/page"
@@ -128,8 +128,8 @@
     ],
     "path": [
         {
-            "alias": "\/cardiovascualr\/hypertension",
-            "pid": 76,
+            "alias": "\/infection",
+            "pid": 93,
             "langcode": "en",
             "lang": "en"
         }

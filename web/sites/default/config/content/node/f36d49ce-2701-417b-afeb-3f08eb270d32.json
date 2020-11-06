@@ -1,7 +1,7 @@
 {
     "_links": {
         "self": {
-            "href": "http:\/\/default\/infection?_format=hal_json"
+            "href": "http:\/\/default\/cardiovascualr\/coronary-heart?_format=hal_json"
         },
         "type": {
             "href": "http:\/\/default\/rest\/type\/node\/page"
@@ -128,8 +128,8 @@
     ],
     "path": [
         {
-            "alias": "\/infection",
-            "pid": 77,
+            "alias": "\/cardiovascualr\/coronary-heart",
+            "pid": 107,
             "langcode": "en",
             "lang": "en"
         }
