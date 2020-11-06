@@ -11,7 +11,6 @@ dependencies:
     - image.style.az220180
     - node.type.az_clinical_experience_process
     - taxonomy.vocabulary.ta_type
-    - views.view.ta_campaign
   content:
     - 'block_content:basic:250c78c1-5e57-44f5-aa86-6a4bc41299f8'
     - 'block_content:basic:dadc046f-b578-4b02-873b-4f22e94ee17d'
@@ -949,7 +948,7 @@ display:
           admin_label: ''
           empty: false
           tokenize: false
-          content: "<div class=\"az-clinical-search_box\">\r\n    <div class=\"col-md-8\">\r\n      <span>最新臨床試驗計劃</span>\r\n</div>\r\n<div  class=\"col-md-4\"> \r\n<div class=\"az-clincal-searright\">\r\n<div class=\"az-clincal-search_button\"></div>\r\n<div class=\"az-clincal-search_icon\"></div>\r\n</div></div>\r\n<div class=\"az-clincal-seach_across\"></div>\r\n</div>"
+          content: "<div class=\"az-clinical-search_box\">\r\n    <div class=\"col-md-8\">\r\n      <span>最新臨床試驗計劃</span>\r\n</div>\r\n<div  class=\"col-md-4\"> \r\n <div class=\"az-clincal-searright\">\r\n<div class=\"az-clincal-search_button\"></div>\r\n<div class=\"az-clincal-search_icon\"></div>\r\n</div>\r\n</div>\r\n<div class=\"az-clincal-seach_across\"></div>\r\n</div>"
           plugin_id: text_custom
       defaults:
         header: false
@@ -1005,7 +1004,7 @@ display:
           group_type: group
           admin_label: ''
           empty: false
-          view_to_insert: 'ta_campaign:block_2'
+          view_to_insert: 'az_clinical_trial_search_result:clinical_article'
           inherit_arguments: false
           plugin_id: view
         entity_block_content_1:
