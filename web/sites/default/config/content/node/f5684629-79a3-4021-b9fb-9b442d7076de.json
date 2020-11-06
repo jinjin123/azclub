@@ -1,0 +1,233 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/default\/node\/90?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/default\/rest\/type\/node\/ta_campaign"
+        },
+        "http:\/\/default\/rest\/relation\/node\/ta_campaign\/revision_uid": [
+            {
+                "href": "http:\/\/default\/user\/1?_format=hal_json"
+            }
+        ],
+        "http:\/\/default\/rest\/relation\/node\/ta_campaign\/uid": [
+            {
+                "href": "http:\/\/default\/user\/1?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/default\/rest\/relation\/node\/ta_campaign\/field_ta_campaign_img": [
+            {
+                "href": ""
+            }
+        ],
+        "http:\/\/default\/rest\/relation\/node\/ta_campaign\/field_ta_campaign_logo": [
+            {
+                "href": ""
+            }
+        ],
+        "http:\/\/default\/rest\/relation\/node\/ta_campaign\/field_ta_campaign_parent_type": [
+            {
+                "href": "http:\/\/default\/taxonomy\/term\/6?_format=hal_json"
+            }
+        ]
+    },
+    "uuid": [
+        {
+            "value": "f5684629-79a3-4021-b9fb-9b442d7076de"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "ta_campaign"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2020-11-06T01:59:11+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/default\/rest\/relation\/node\/ta_campaign\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/default\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "ad86f4f8-ab08-4ff1-be42-53e6179dd359"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/default\/rest\/relation\/node\/ta_campaign\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/default\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "ad86f4f8-ab08-4ff1-be42-53e6179dd359"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/default\/rest\/relation\/node\/ta_campaign\/field_ta_campaign_img": [
+            {
+                "_links": {
+                    "self": {
+                        "href": ""
+                    },
+                    "type": {
+                        "href": "http:\/\/default\/rest\/type\/file\/file"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "6cffdc23-7ac7-4f50-a2b5-62976fbd64b6"
+                    }
+                ],
+                "alt": "''",
+                "title": "",
+                "width": "359",
+                "height": "182"
+            }
+        ],
+        "http:\/\/default\/rest\/relation\/node\/ta_campaign\/field_ta_campaign_logo": [
+            {
+                "_links": {
+                    "self": {
+                        "href": ""
+                    },
+                    "type": {
+                        "href": "http:\/\/default\/rest\/type\/file\/file"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "8f821960-5a64-4a64-8a12-117d605a2c92"
+                    }
+                ],
+                "alt": "''",
+                "title": "",
+                "width": "74",
+                "height": "82"
+            }
+        ],
+        "http:\/\/default\/rest\/relation\/node\/ta_campaign\/field_ta_campaign_parent_type": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/taxonomy\/term\/6?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/default\/rest\/type\/taxonomy_term\/ta_type"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "9050c249-2e50-4275-8052-3fe321030213"
+                    }
+                ]
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "\u8178\u6613\u6fc0\u7d9c\u5408\u75c7",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2020-11-06T01:57:35+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2020-11-06T02:00:15+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "path": [
+        {
+            "alias": null,
+            "pid": null,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "body": [
+        {
+            "value": "<p>Lorem lpsum is simply dummy text of the printing and typesetting<\/p>\r\n",
+            "format": "basic_html",
+            "processed": "<p>Lorem lpsum is simply dummy text of the printing and typesetting<\/p>",
+            "summary": "",
+            "lang": "en"
+        }
+    ],
+    "field_link": [
+        {
+            "uri": "internal:\/gastrointestinal\/irritable-bowel-syndrome",
+            "title": "",
+            "options": []
+        }
+    ],
+    "field_weight": [
+        {
+            "value": 0
+        }
+    ]
+}
