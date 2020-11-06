@@ -6,7 +6,7 @@ body {
 #search-block-form{
     input{
         background: transparent url(../images/search-icon.png) no-repeat;
-        
+
     }
 }
 .az-header_top {
@@ -696,4 +696,40 @@ body {
 
 .az-header-bbox {
   display: flex;
+}
+
+.az-offers_product_box {
+  position: absolute;
+  top: -100px;
+}
+
+.az-offers_logoimg {
+  float: left;
+  clear: both;
+  position: relative;
+  top: -30px;
+  left: 30px;
+}
+
+.az-offer-article {
+  .az-offerdetail {
+    position: relative;
+    margin-right: 400px;
+    margin-left: 530px;
+    display: flex;
+    .az-off-pp-params {
+      border-top: 1px solid #d9d8d8;
+      border-bottom: 1px solid #d9d8d8;
+      width: 25%;
+    }
+    .az-off-pp-area {
+      border-top: 1px solid #d9d8d8;
+      border-bottom: 1px solid #d9d8d8;
+      width: 25%;
+    }
+  }
+}
+
+.az-medicine-shop-header {
+  display:flex
 }

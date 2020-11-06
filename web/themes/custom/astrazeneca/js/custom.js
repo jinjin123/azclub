@@ -61,6 +61,44 @@ Drupal.behaviors.PharmaTheme = {
     input.setAttribute("placeholder","Search");
     $(".az-clincal-search_button").html(input);
 
+    // product shop search
+    var oldtmp=[]
+    if(($(".az-off-pp-area").length > 0)){
+      var ofselect = $(".az-off-pp-area")
+      $("#az-medicine-shoparea").children().remove();
+      $("#az-medicine-shoparea").append("<option>選擇地區</option>");
+      for(var i=0;i<ofselect.length;i++){
+        oldtmp.push(ofselect[i].textContent.trim())
+      }
+      var newtmp = unique(oldtmp);
+      for(var x=0;x<newtmp.length;x++){
+          $("#az-medicine-shoparea").append("<option  value='"+newtmp[x] +"'>"+newtmp[x]+"</option>")
+      }
+    }
+    function unique(arr){
+      var newArr = [];
+      for(var i = 0; i < arr.length; i++){
+        if(newArr.indexOf(arr[i]) == -1){
+          newArr.push(arr[i])
+        }
+      }
+      return newArr;
+    }
+    $("#az-medicine-shoparea").change(function(){
+       var chooseVal = $("#az-medicine-shoparea option:selected")[0].value
+         var newchoose = $(".az-offerdetail")
+         for(var xx =0; xx<newchoose.length;xx++){
+             if($(".az-offerdetail")[xx].childNodes[4].textContent.trim() != chooseVal){
+               $($(".az-offerdetail")[xx]).css("display","none")
+             }
+         }
+        if(chooseVal == "選擇地區"){
+          for(var xx =0; xx<newchoose.length;xx++){
+              $($(".az-offerdetail")[xx]).css("display","flex")
+          }
+        }
+    })
+
     // $(".az-product_selectbox_conth4").text("免責聲明：");
     // $(".az-product_selectbox_contp1").text("藥品咨詢只能適用於香港或澳門服用此藥物之人仕。");
     // $(".az-product_selectbox_contp2").text("如同意繼續瀏覽，你已聲明你正服用此藥物，並且了解所提供的質詢只作參考用途。如對以上藥物有任何疑問，請向您的醫生或藥劑師查詢。");

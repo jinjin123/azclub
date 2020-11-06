@@ -27228,6 +27228,34 @@ body {
 .az-header-bbox {
   display: flex; }
 
+.az-offers_product_box {
+  position: absolute;
+  top: -100px; }
+
+.az-offers_logoimg {
+  float: left;
+  clear: both;
+  position: relative;
+  top: -30px;
+  left: 30px; }
+
+.az-offer-article .az-offerdetail {
+  position: relative;
+  margin-right: 400px;
+  margin-left: 530px;
+  display: flex; }
+  .az-offer-article .az-offerdetail .az-off-pp-params {
+    border-top: 1px solid #d9d8d8;
+    border-bottom: 1px solid #d9d8d8;
+    width: 25%; }
+  .az-offer-article .az-offerdetail .az-off-pp-area {
+    border-top: 1px solid #d9d8d8;
+    border-bottom: 1px solid #d9d8d8;
+    width: 25%; }
+
+.az-medicine-shop-header {
+  display: flex; }
+
 @charset "UTF-8";
 /*!
  *  Font Awesome 4.7.0 by @davegandy - http://fontawesome.io - @fontawesome
