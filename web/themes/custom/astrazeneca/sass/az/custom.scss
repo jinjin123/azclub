@@ -15,7 +15,6 @@ body {
   }
   .az-contact-right-box{
     margin-top: 20px;
-    margin-left: 120px;
   }
   .top-box-img {
     float: $float-left;
@@ -66,7 +65,7 @@ body {
   }
 
   .container-inline {
-    float: $float-left;
+    float: right;
   }
 }
 
@@ -756,6 +755,12 @@ body {
 .az-header-bbox {
   display: flex;
   .az-header-search-box{
+      margin-top: 25px;
+  }
+   .menu-bar{
+       right: 30px;
+   }
+  .az-header-right{
       margin-top: 25px;
   }
 }

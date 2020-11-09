@@ -13,7 +13,6 @@ body {
 
 .az-header_top .az-contact-right-box {
   margin-top: 20px;
-  margin-left: 120px;
 }
 
 .az-header_top .top-box-img {
@@ -53,7 +52,7 @@ body {
 }
 
 .az-header_bottom .container-inline {
-  float: left;
+  float: right;
 }
 
 .az_clinical_box {
@@ -712,6 +711,14 @@ body {
 }
 
 .az-header-bbox .az-header-search-box {
+  margin-top: 25px;
+}
+
+.az-header-bbox .menu-bar {
+  right: 30px;
+}
+
+.az-header-bbox .az-header-right {
   margin-top: 25px;
 }
 
