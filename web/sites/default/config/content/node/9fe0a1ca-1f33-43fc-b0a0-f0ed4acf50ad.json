@@ -1,7 +1,7 @@
 {
     "_links": {
         "self": {
-            "href": "http:\/\/default\/diabetes\/type2-diabetes?_format=hal_json"
+            "href": "http:\/\/default\/respiratory?_format=hal_json"
         },
         "type": {
             "href": "http:\/\/default\/rest\/type\/node\/page"
@@ -128,8 +128,8 @@
     ],
     "path": [
         {
-            "alias": "\/diabetes\/type2-diabetes",
-            "pid": 102,
+            "alias": "\/respiratory",
+            "pid": 108,
             "langcode": "en",
             "lang": "en"
         }

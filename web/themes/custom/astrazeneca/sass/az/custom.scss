@@ -751,6 +751,47 @@ body {
     }
   }
 }
+.az-header-topimg{
+    position: relative;
+    img{
+        width: 100%;
+    }
+    .az-header-imgbody{
+        position: absolute;
+        top:80px;
+        left: 300px;
+    }
+    .az-header-imgbody>p{
+        &:nth-child(1) {
+            background-color: $color-red;
+        width: 200px;
+        height: 40px;
+        line-height: 40px;
+        text-align: center;
+        border-radius: 10px;
+        a{
+            color: white;
+            font-weight: bold;
+            font-size: 20px;
+        }
+        }
+        &:nth-child(2){
+            font-size: 80px;
+            color: white;
+            font-weight: bold;
+        }
+        &:nth-child(3){
+            color: $color-red;
+            font-size: 40px;
+            font-weight: 500;
+        }
+        &:nth-child(4){
+            color: white;
+            font-size: 18px;
+            font-weight: 200;
+        }
+    }
+}
 
 .az-header-bbox {
   display: flex;

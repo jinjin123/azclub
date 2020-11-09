@@ -302,9 +302,9 @@ blocks:
     fields:
       body:
         -
-          value: "<p><img alt=\"\" data-entity-type=\"file\" data-entity-uuid=\"8cd2c98c-8751-449f-8b47-b7eb41433c32\" height=\"400\" src=\"/sites/default/files/imce_upload/admin/home-banner.png\" width=\"1430\" /></p>\r\n\r\n<p><a href=\"/home\">Az Health Club</a></p>\r\n\r\n<h2>康心摯友</h2>\r\n\r\n<p>你的健康守護者</p>\r\n\r\n<p>無微不至的照顧，助你輕鬆管理身體狀況</p>\r\n"
+          value: "<div class=\"az-header-topimg\"><img alt=\"\" data-entity-type=\"file\" data-entity-uuid=\"8cd2c98c-8751-449f-8b47-b7eb41433c32\" height=\"400\" src=\"/sites/default/files/imce_upload/admin/home-banner.png\" width=\"1430\" />\r\n<div class=\"az-header-imgbody\">\r\n<p><a href=\"/home\">Az Health Club</a></p>\r\n\r\n<p>康心摯友</p>\r\n\r\n<p>你的健康守護者</p>\r\n\r\n<p>無微不至的照顧，助你輕鬆管理身體狀況</p>\r\n</div>\r\n</div>\r\n"
           summary: ''
-          format: basic_html
+          format: full_html
   -
     info: 'home 認識康心摯友'
     langcode: en
