@@ -66,7 +66,14 @@ function azhealthclub_modify_theme()
      'variables' => [
        'variables' => []
      ]
-   ]
+   ],
+   'az_header_right_block'=>[
+     'variables' => [
+       'variables' => []
+     ]
+   ],
+
+
  ];
 }
 
