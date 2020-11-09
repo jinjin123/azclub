@@ -8,7 +8,8 @@
 namespace Drupal\azhealthclub_step_login\Form;
 
 use Drupal\Core\Form\FormStateInterface;
-use Drupal\Core\Url;
+use Aws\Sns\SnsClient;
+use Aws\Exception\AwsException;
 
 class MultistepOneForm extends MultistepFormBase {
 
@@ -125,6 +126,35 @@ class MultistepOneForm extends MultistepFormBase {
 
   public function sendCodeAjax(array &$form, FormStateInterface $form_state) {
     //todo: send code
+    $configFactory = \Drupal::configFactory();
+    $settings = $configFactory->get('aws_secrets_manager.settings');
+
+    $awsRegion = $settings->get('aws_region');
+    $awsKey = $settings->get('aws_key');
+    $awsSecret = $settings->get('aws_secret');
+    $snsClient = new SnsClient([
+      'region'      => $awsRegion,
+      'credentials' => [
+        'key'         => $awsKey,
+        'secret'      => $awsSecret,
+      ],
+      'version'     => '2010-03-31',
+      'debug'       => false,
+    ]);
+    $args = [
+      'Message' => 'Hello, world!',
+      'PhoneNumber' => '+86xxxxxxxxxxx',
+    ];
+
+
+    try {
+      $result = $snsClient->publish($args);
+      \Drupal::logger('azhealthclub_step_login')->notice(print_r($result, TRUE));
+    } catch (AwsException $e) {
+      // output error message if fails
+      \Drupal::logger('azhealthclub_step_login')->error($e->getMessage());
+    }
+    $snsClient->Publish($args);
     return $form['send_code'];
   }
 }
