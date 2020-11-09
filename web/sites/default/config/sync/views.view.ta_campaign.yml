@@ -406,7 +406,7 @@ display:
           exclude: false
           alter:
             alter_text: true
-            text: "<div class=\"ta-campaign_box\">\r\n  <div class=\"ta-campaign-img col-md-4\">\r\n        {{field_ta_campaign_img}}\r\n  </div>\r\n<div class=\"ta-campaign-logo col-md-4\">\r\n        {{field_ta_campaign_logo}}\r\n  </div>\r\n  <div class=\"ta-body col-md-4\">\r\n     <div class=\"ta-body-title\">\r\n       {{ title }}\r\n    </div>\r\n    <div class=\"ta-body-desc\">\r\n      {{ body}}\r\n    </div>\r\n  </div>\r\n   <div class=\"ta-campaign-bottom col-md-2\">\r\n     <a href=\"{{ field_link }}\">了解更多</a>\r\n  </div>\r\n</div>"
+            text: "<div class=\"col-sm-12 col-md-6 col-lg-3\">\r\n <div class=\"az-cardtow_box\">\r\n  <div class=\"az-cardtow_img\"> <img></div>\r\n  <div class=\"az-cardtow_body\">\r\n     <h4 class=\"az-cardtow_body_title\"><a>{{ title }}</a></h4>\r\n    <div class=\"az-cardtow_sub_title\"><p>{{ body}}</p><p>2020年12月10日</p></div>\r\n<div class=\"az-cardtow_click_bottom\"> <a href=\"{{ field_link }}\">了解更多</a></div>\r\n  </div>\r\n</div></div>"
             make_link: false
             path: ''
             absolute: false
