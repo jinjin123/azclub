@@ -61,6 +61,76 @@ Drupal.behaviors.PharmaTheme = {
     input.setAttribute("placeholder","Search");
     $(".az-clincal-search_button").html(input);
 
+    // product shop search
+    var oldtmp=[]
+    if(($(".az-off-pp-area").length > 0)){
+      var ofselect = $(".az-off-pp-area")
+      $("#az-medicine-shoparea").children().remove();
+      $("#az-medicine-shoparea").append("<option>選擇地區</option>");
+      for(var i=0;i<ofselect.length;i++){
+        oldtmp.push(ofselect[i].textContent.trim())
+      }
+      var newtmp = unique(oldtmp);
+      for(var x=0;x<newtmp.length;x++){
+          $("#az-medicine-shoparea").append("<option  value='"+newtmp[x] +"'>"+newtmp[x]+"</option>")
+      }
+    }
+    function unique(arr){
+      var newArr = [];
+      for(var i = 0; i < arr.length; i++){
+        if(newArr.indexOf(arr[i]) == -1){
+          newArr.push(arr[i])
+        }
+      }
+      return newArr;
+    }
+    $("#az-medicine-shoparea").change(function(){
+       var chooseVal = $("#az-medicine-shoparea option:selected")[0].value
+         var newchoose = $(".az-offerdetail")
+         for(var xx =0; xx<newchoose.length;xx++){
+             if($(".az-offerdetail")[xx].childNodes[4].textContent.trim() != chooseVal){
+               $($(".az-offerdetail")[xx]).css("display","none")
+             }
+         }
+        if(chooseVal == "選擇地區"){
+          for(var xx =0; xx<newchoose.length;xx++){
+              $($(".az-offerdetail")[xx]).css("display","flex")
+          }
+        }
+    })
+
+    $(".az-clincal-search_button").keydown(function(e){
+      // e.preventDefault();
+      if(e.keyCode == 13){
+        var _keydown = $(".az-clincal-search_button").children()[0].value;
+        var _search_result_item = $($(".az-clinical-result-content .view-content-wrap")[0]).children();
+        for(var xb=0;xb<_search_result_item.length;xb++){
+          if($($(_search_result_item[xb]).children().children().children().children()[1]).children().children()[0].textContent.trim() != _keydown && _keydown !=""){
+           $(_search_result_item[xb]).css("display","none")
+            // console.log(_search_result_item)
+          }else if(_keydown ==""){
+            $(_search_result_item[xb]).css("display","block")
+          }
+        }
+      }
+    })
+
+
+    $("#az-contact_freshbtn").click(function(){
+       $("#az-contact_valid_code")[0].value = RndNum(5)
+      // console.log($("#az-contact_valid_code")[0].value)
+    })
+    if(($("#az-contact_valid_code").length > 0)){
+      $(".az-valicodeshow").html('<input  id="az-contact_valid_code"  value="">')
+      $(".az-valicode_freash").html('<input  type="button" id="az-contact_freshbtn"  value="刷新">')
+      $("#az-contact_valid_code")[0].value = RndNum(5)
+    }
+    function RndNum(n){
+      var rnd="";
+      for(var i=0;i<n;i++)
+        rnd+=Math.floor(Math.random()*10);
+      return rnd.split("").join(".");
+    }
     // $(".az-product_selectbox_conth4").text("免責聲明：");
     // $(".az-product_selectbox_contp1").text("藥品咨詢只能適用於香港或澳門服用此藥物之人仕。");
     // $(".az-product_selectbox_contp2").text("如同意繼續瀏覽，你已聲明你正服用此藥物，並且了解所提供的質詢只作參考用途。如對以上藥物有任何疑問，請向您的醫生或藥劑師查詢。");
@@ -81,5 +151,26 @@ Drupal.behaviors.PharmaTheme = {
   // $(".body-page").on('click',function (){
   //   console.log("fdsfsf")
   // })
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 

@@ -68,6 +68,7 @@
     not node.isPublished() ? 'node--unpublished',
     view_mode ? 'node--view-mode-' ~ view_mode|clean_class,
     'clearfix',
+    'az-offer-article',
   ]
 %}
 
@@ -92,25 +93,34 @@
     {% endif %}
   </header>
 
-  <div class="az-offers_product_box">
+  <div class="az-offers_product_box ">
       <div class="az-offers_bgimg">
         {{ content['field_offer_img'] }}
       </div>
     <div class="az-offers_logoimg">
       {{ content['field_az_offers_product_logo'] }}
     </div>
-    <div class="az-offers_logodes">
+    <div class="az-offers_logodes col-lg-12">
       {{ content['field_offer_img_description'] }}
     </div>
   </div>
-  <div{{ content_attributes.addClass('az-node__content', 'clearfix') }}>
-    <div {{ content_attributes.addClass('az-node__content_body', 'clearfix') }}>
+  <div{{ content_attributes.addClass('az-offernode__content_body', 'clearfix','col-lg-6') }}>
+{#    <div {{ content_attributes.addClass('az-node__content_body', 'clearfix') }}>#}
     {{ content['body'] }}
-    </div>
+{#    </div>#}
   </div>
-  <div class="az-offers_shop">
+  <div class="az-offers_shop col-lg-6 col-md-6">
     {{ content['field_medicine_shop_img'] }}
   </div>
-  <div class="">{{ content['field_medicine_shop_params'] }}</div>
+    <div class="az-medicine-shop-header col-lg-8">
+      <div class="az-medicinie-left col-lg-6">藥房銷售點</div>
+      <div class="az-medicinie-right col-lg-2">
+        <select id="az-medicine-shoparea" class="column_filter" data-column="0" style="width:160px;height:30px">
+          <option type="text"></option>
+        </select>
+      </div>
+    </div>
+  {{ content['field_medicine_shop_params'] }}
 </article>
+
 

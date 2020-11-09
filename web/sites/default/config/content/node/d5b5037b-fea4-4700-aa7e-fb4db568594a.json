@@ -1,7 +1,7 @@
 {
     "_links": {
         "self": {
-            "href": "http:\/\/default\/renal?_format=hal_json"
+            "href": "http:\/\/default\/cardiovascualr?_format=hal_json"
         },
         "type": {
             "href": "http:\/\/default\/rest\/type\/node\/page"
@@ -128,8 +128,8 @@
     ],
     "path": [
         {
-            "alias": "\/renal",
-            "pid": 78,
+            "alias": "\/cardiovascualr",
+            "pid": 98,
             "langcode": "en",
             "lang": "en"
         }

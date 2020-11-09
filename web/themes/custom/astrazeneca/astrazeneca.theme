@@ -397,3 +397,29 @@ function astrazeneca_theme_suggestions_node_alter(array &$suggestions, array $va
     $suggestions[] = 'node__therapeutic_area';
   }
 }
+
+/*
+function astrazeneca_preprocess_paragraph(&$variables) {
+  //dd($variables);
+  //dd($variables['content']['field_shopname'][0]['#text']);
+  //dd($variables['content']['field_shop_detail'][0]['#text']);
+  //dd($variables['content']['field_area'][0]['#context']['value']);
+  //dd($variables['content']['field_phone'][0]['#context']['value']);
+  $shopName=[];
+  $shopDetail=[];
+  $shopArea=[];
+  $shopPhone=[];
+ // array_push($shopName,$variables['content']['field_shopname'][0]['#text'] );
+  //array_push($shopDetail,$variables['content']['field_shop_detail'][0]['#text'] );
+  //array_push($shopArea,$variables['content']['field_area'][0]['#context']['value'] );
+  //array_push($shopPhone,$variables['content']['field_phone'][0]['#context']['value'] );
+ // $variables["shopName"] = $shopName;
+ // $variables["shopDetail"] = $shopDetail;
+ // $variables["shopArea"] = $shopArea;
+ // $variables["shopPhone"] = $shopPhone;
+  $variables["shopName"] = $variables['content']['field_shopname'][0]['#text'];
+  $variables["shopDetail"] = $variables['content']['field_shop_detail'][0]['#text'];
+  $variables["shopArea"] = $variables['content']['field_area'][0]['#context']['value'];
+  $variables["shopPhone"] = $variables['content']['field_phone'][0]['#context']['value'] ;
+}
+*/

@@ -6,7 +6,7 @@ body {
 #search-block-form{
     input{
         background: transparent url(../images/search-icon.png) no-repeat;
-        
+
     }
 }
 .az-header_top {
@@ -70,6 +70,7 @@ body {
 .az_clinical_box {
   background-color: $color-red;
   padding-top: 20px;
+  margin-top:500px;
 
   p {
     width: 50%;
@@ -562,6 +563,8 @@ body {
 
 //
 .az-article-header {
+   position: relative;
+   left:40%;
   .az_article_crumbs {
     font-size: 12px;
     color: $color-gray;
@@ -690,10 +693,127 @@ body {
 .webform-submission-contact-form {
   .js-form-item-name {
     float: left;
-    padding-right: 10px;
+    padding-right: 16px;
+    padding-bottom: 10px;
+  }
+  .js-form-item-subject {
+    padding-bottom: 10px;
+  }
+  .js-form-item-message {
+    padding-bottom: 10px;
+    input {
+      height: 110px;
+    }
+  }
+  .js-form-item-code {
+    display: flex;
+    padding-bottom: 20px;
+    .description {
+      padding-left: 10px;
+      .webform-element-description {
+         .az-validcode {
+           display: flex;
+         }
+      }
+    }
+  }
+  .js-form-item-termcheck {
+    display: flex;
+    .description {
+      padding-left: 10px;
+      padding-bottom: 50px;
+    }
+  }
+  .webform-actions {
+    text-align: center;
+    input {
+      width:200px;
+      background: #eb1484;
+    }
   }
 }
 
 .az-header-bbox {
   display: flex;
+}
+
+.az-offers_product_box {
+  position: absolute;
+  clear: both;
+  left: 300px;
+  top: -100px;
+}
+
+.az-offers_logoimg {
+  float: left;
+  clear: both;
+  position: relative;
+  top: -30px;
+  left: 30px;
+}
+
+.az-offer-article {
+  .az-offerdetail {
+    position: relative;
+    margin-right: 400px;
+    margin-left: 530px;
+    display: flex;
+    .az-off-pp-params {
+      border-top: 1px solid #d9d8d8;
+      border-bottom: 1px solid #d9d8d8;
+      width: 25%;
+    }
+    .az-off-pp-area {
+      border-top: 1px solid #d9d8d8;
+      border-bottom: 1px solid #d9d8d8;
+      width: 25%;
+    }
+  }
+}
+
+.az-medicine-shop-header {
+  display:flex
+}
+//.az-clinical-result-content {
+//  .view-content-wrap {
+//    margin-bottom:400px;
+//  }
+//}
+.az-offernode__content_body {
+  position: relative;
+  left: -180px;
+  top: 150px;
+}
+.az-offers_shop {
+  margin-bottom: 250px;
+  top: 200px;
+  left: 700px;
+}
+
+.az-medicine-shop-header {
+  left:700px;
+  position: relative;
+}
+.az-offer-article {
+  margin-bottom: 10px;
+  .field--name-field-medicine-shop-params {
+    position: relative;
+    left: 180px;
+  }
+}
+
+#az-contact_valid_code {
+  height:  45px;
+  background-color: #d0cbcb;
+  text-align: center;
+  border:0;
+}
+
+#az-contact_freshbtn {
+  color: white;
+  height: 45px;
+  background-color: black;
+  text-align: center;
+  margin-left: 10px;
+  width: 200px;
 }
