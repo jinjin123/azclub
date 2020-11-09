@@ -314,7 +314,7 @@ display:
           click_sort_column: value
           type: string
           settings:
-            link_to_entity: true
+            link_to_entity: false
           group_column: value
           group_columns: {  }
           group_rows: true
@@ -406,7 +406,7 @@ display:
           exclude: false
           alter:
             alter_text: true
-            text: "<div class=\"col-sm-12 col-md-6 col-lg-3\">\r\n <div class=\"az-cardtow_box\">\r\n  <div class=\"az-cardtow_img\"> <img></div>\r\n  <div class=\"az-cardtow_body\">\r\n     <h4 class=\"az-cardtow_body_title\"><a>{{ title }}</a></h4>\r\n    <div class=\"az-cardtow_sub_title\"><p>{{ body}}</p><p>2020年12月10日</p></div>\r\n<div class=\"az-cardtow_click_bottom\"> <a href=\"{{ field_link }}\">了解更多</a></div>\r\n  </div>\r\n</div></div>"
+            text: "<div class=\"col-sm-12 col-md-6 col-lg-4\">\r\n <div class=\"az-cardthree_box\">\r\n  <div class=\"az-cardthree_img\"> {{ field_ta_campaign_img }} </div>\r\n  <div class=\"az-cardthree_body\">\r\n<div class=\"az-cardthree_logoimg\"> {{ field_ta_campaign_logo }} </div>\r\n     <h4 class=\"az-cardthree_body_title\"><a href=\"{{ field_link }}\">{{ title }}</a></h4>\r\n    <div class=\"az-cardthree_sub_title\">{{body}}</div>\r\n<div class=\"az-cardthree_click_bottom\"><a href=\"{{ field_link }}\">了解更多</a></div>\r\n  </div>\r\n</div></div>"
             make_link: false
             path: ''
             absolute: false
