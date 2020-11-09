@@ -1,0 +1,20 @@
+entity.mailgroup.add_form:
+  route_name: entity.mailgroup.add_page
+  title: 'Add group'
+  appears_on:
+    - entity.mailgroup.collection
+entity.mailgroup_type.add_form:
+  route_name: entity.mailgroup_type.add_form
+  title: 'Add group type'
+  appears_on:
+    - entity.mailgroup_type.collection
+entity.mailgroup_membership.add_form:
+  route_name: entity.mailgroup_membership.add_form
+  title: 'Add member'
+  appears_on:
+    - entity.mailgroup_membership.collection
+entity.mailgroup_message.add_form:
+  route_name: entity.mailgroup_message.add_form
+  title: 'Add message'
+  appears_on:
+    - entity.mailgroup_message.collection

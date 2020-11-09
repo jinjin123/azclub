@@ -5,6 +5,7 @@ module:
   admin_toolbar_search: 0
   admin_toolbar_tools: 0
   automated_cron: 0
+  aws_secrets_manager: 0
   azhealthclub_modify: 0
   azhealthclub_step_login: 0
   better_exposed_filters: 0
@@ -55,9 +56,12 @@ module:
   jquery_ui_slider: 0
   jquery_ui_tabs: 0
   jquery_ui_touch_punch: 0
+  key: 0
   layout_builder: 0
   layout_discovery: 0
   link: 0
+  mailgroup: 0
+  mailgroup_amazonses: 0
   menu_link_content: 0
   menu_ui: 0
   node: 0

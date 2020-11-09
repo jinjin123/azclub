@@ -1,0 +1,11 @@
+administer mail groups:
+  title: 'Administer mail groups'
+  restrict access: true
+add mail groups:
+  title: 'Create new mail groups'
+edit mail groups:
+  title: 'Edit mail groups'
+delete mail groups:
+  title: 'Delete mail groups'
+view mail groups:
+  title: 'View mail groups'
