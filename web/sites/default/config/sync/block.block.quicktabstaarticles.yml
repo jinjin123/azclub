@@ -6,6 +6,7 @@ dependencies:
     - block_visibility_groups
     - gaviasthemer
     - quicktabs
+    - system
   theme:
     - astrazeneca
 third_party_settings:
@@ -27,3 +28,7 @@ visibility:
     id: condition_group
     negate: false
     block_visibility_group: ''
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
