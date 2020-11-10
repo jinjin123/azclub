@@ -1,7 +1,7 @@
 {
     "_links": {
         "self": {
-            "href": "http:\/\/default\/renal?_format=hal_json"
+            "href": "http:\/\/default\/gastrointestinal\/irritable-bowel-syndrome?_format=hal_json"
         },
         "type": {
             "href": "http:\/\/default\/rest\/type\/node\/page"
@@ -128,8 +128,8 @@
     ],
     "path": [
         {
-            "alias": "\/renal",
-            "pid": 97,
+            "alias": "\/gastrointestinal\/irritable-bowel-syndrome",
+            "pid": 104,
             "langcode": "en",
             "lang": "en"
         }

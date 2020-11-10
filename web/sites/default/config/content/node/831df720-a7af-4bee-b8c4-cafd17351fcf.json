@@ -1,7 +1,7 @@
 {
     "_links": {
         "self": {
-            "href": "http:\/\/default\/gastrointestinal\/irritable-bowel-syndrome?_format=hal_json"
+            "href": "http:\/\/default\/node\/85?_format=hal_json"
         },
         "type": {
             "href": "http:\/\/default\/rest\/type\/node\/ta_cardiovascular"
@@ -153,8 +153,8 @@
     ],
     "path": [
         {
-            "alias": "\/gastrointestinal\/irritable-bowel-syndrome",
-            "pid": 96,
+            "alias": null,
+            "pid": null,
             "langcode": "en",
             "lang": "en"
         }

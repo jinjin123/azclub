@@ -5,7 +5,6 @@ dependencies:
   config:
     - field.field.node.az_clinical_experience_process.body
     - field.field.node.az_clinical_experience_process.field_az_clinical_article_page
-    - field.field.node.az_clinical_experience_process.field_az_clinical_page_image
     - field.field.node.az_clinical_experience_process.field_az_clinical_short_desc
     - field.field.node.az_clinical_experience_process.field_clinical_logo_info
     - image.style.thumbnail
@@ -38,14 +37,6 @@ content:
     third_party_settings: {  }
   field_az_clinical_article_page:
     weight: 125
-    settings:
-      progress_indicator: throbber
-      preview_image_style: thumbnail
-    third_party_settings: {  }
-    type: image_image
-    region: content
-  field_az_clinical_page_image:
-    weight: 124
     settings:
       progress_indicator: throbber
       preview_image_style: thumbnail

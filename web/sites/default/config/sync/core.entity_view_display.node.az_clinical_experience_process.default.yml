@@ -5,7 +5,6 @@ dependencies:
   config:
     - field.field.node.az_clinical_experience_process.body
     - field.field.node.az_clinical_experience_process.field_az_clinical_article_page
-    - field.field.node.az_clinical_experience_process.field_az_clinical_page_image
     - field.field.node.az_clinical_experience_process.field_az_clinical_short_desc
     - field.field.node.az_clinical_experience_process.field_clinical_logo_info
     - node.type.az_clinical_experience_process
@@ -22,21 +21,12 @@ content:
   body:
     label: hidden
     type: text_default
-    weight: 101
+    weight: 2
     settings: {  }
     third_party_settings: {  }
     region: content
   field_az_clinical_article_page:
-    weight: 105
-    label: above
-    settings:
-      image_style: ''
-      image_link: ''
-    third_party_settings: {  }
-    type: image
-    region: content
-  field_az_clinical_page_image:
-    weight: 104
+    weight: 4
     label: hidden
     settings:
       image_style: ''
@@ -46,7 +36,7 @@ content:
     region: content
   field_az_clinical_short_desc:
     type: entity_reference_revisions_entity_view
-    weight: 103
+    weight: 3
     label: hidden
     settings:
       view_mode: default
@@ -55,7 +45,7 @@ content:
     region: content
   field_clinical_logo_info:
     type: entity_reference_revisions_entity_view
-    weight: 102
+    weight: 1
     label: hidden
     settings:
       view_mode: default
@@ -63,9 +53,10 @@ content:
     third_party_settings: {  }
     region: content
   links:
-    weight: 100
+    weight: 0
     region: content
     settings: {  }
     third_party_settings: {  }
 hidden:
+  addtoany: true
   search_api_excerpt: true

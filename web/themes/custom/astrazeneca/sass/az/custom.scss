@@ -588,7 +588,7 @@ body {
         .row{
             .col-md-9>span{
                 float: left;
-                
+
                 display: block;
                 width: 36px;
                 height: 36px;
@@ -951,3 +951,69 @@ body {
   margin-left: 10px;
   width: 200px;
 }
+
+.az-clinical-right-box {
+  position: relative;
+  top: -100px;
+  .az-clinical-rbx__boom {
+    display: flex;
+  }
+  .az-clinical-rbx_logo {
+    position: relative;
+    top: -35px;
+    left: 10px;
+  }
+}
+
+.az-middle-box {
+ .az-clinical-mid__boom {
+   display: flex
+ }
+}
+
+.paragraph--type--clinical-trial-portal-category-p {
+  .field--name-field-az-clinical-category-item {
+    display: flex;
+  }
+}
+
+.node--type-az-clinical-experience-process {
+  .node__content {
+   .field--name-body {
+     position: relative;
+     top: 150px;
+     margin-top: 10px;
+   }
+  }
+}
+
+.paragraph--type--clinical-trial-portal-category-p {
+  position: relative;
+  margin-top: 10px;
+  top: 150px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

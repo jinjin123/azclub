@@ -1,7 +1,7 @@
 {
     "_links": {
         "self": {
-            "href": "http:\/\/default\/node\/88?_format=hal_json"
+            "href": "http:\/\/default\/node\/89?_format=hal_json"
         },
         "type": {
             "href": "http:\/\/default\/rest\/type\/node\/az_clinical_experience_process"
@@ -22,7 +22,12 @@
                 "href": ""
             }
         ],
-        "http:\/\/default\/rest\/relation\/node\/az_clinical_experience_process\/field_az_clinical_page_image": [
+        "http:\/\/default\/rest\/relation\/node\/az_clinical_experience_process\/field_az_clinical_short_desc": [
+            {
+                "href": ""
+            }
+        ],
+        "http:\/\/default\/rest\/relation\/node\/az_clinical_experience_process\/field_clinical_logo_info": [
             {
                 "href": ""
             }
@@ -107,25 +112,40 @@
                 "height": "318"
             }
         ],
-        "http:\/\/default\/rest\/relation\/node\/az_clinical_experience_process\/field_az_clinical_page_image": [
+        "http:\/\/default\/rest\/relation\/node\/az_clinical_experience_process\/field_az_clinical_short_desc": [
             {
                 "_links": {
                     "self": {
                         "href": ""
                     },
                     "type": {
-                        "href": "http:\/\/default\/rest\/type\/file\/file"
+                        "href": "http:\/\/default\/rest\/type\/paragraph\/clinical_trial_portal_category_p"
                     }
                 },
                 "uuid": [
                     {
-                        "value": "5f4240dd-2079-4ec1-af07-6728407411b5"
+                        "value": "0903e03a-c473-4625-90db-010bf61e42d4"
                     }
                 ],
-                "alt": "",
-                "title": "",
-                "width": "187",
-                "height": "153"
+                "target_revision_id": "128"
+            }
+        ],
+        "http:\/\/default\/rest\/relation\/node\/az_clinical_experience_process\/field_clinical_logo_info": [
+            {
+                "_links": {
+                    "self": {
+                        "href": ""
+                    },
+                    "type": {
+                        "href": "http:\/\/default\/rest\/type\/paragraph\/clinical_trial_portal_logo_param"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "2a133ebf-7d35-4f6b-8231-bed77812f8a7"
+                    }
+                ],
+                "target_revision_id": "129"
             }
         ]
     },
@@ -150,7 +170,7 @@
     ],
     "changed": [
         {
-            "value": "2020-11-06T05:58:58+00:00",
+            "value": "2020-11-10T00:28:43+00:00",
             "lang": "en",
             "format": "Y-m-d\\TH:i:sP"
         }
