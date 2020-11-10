@@ -691,3 +691,17 @@ body {
   position: relative;
   margin-top: 10px;
   top: 150px; }
+
+.block-quicktabs {
+  border: none !important; }
+  .block-quicktabs .ui-widget.ui-widget-content {
+    border: none !important; }
+    .block-quicktabs .ui-widget.ui-widget-content .ui-tabs-nav {
+      border: none;
+      background: none; }
+      .block-quicktabs .ui-widget.ui-widget-content .ui-tabs-nav li {
+        border: none !important;
+        background: none !important; }
+        .block-quicktabs .ui-widget.ui-widget-content .ui-tabs-nav li a {
+          color: black;
+          display: grid; }

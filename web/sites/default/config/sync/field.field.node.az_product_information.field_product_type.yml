@@ -1,0 +1,29 @@
+uuid: 29169303-e478-4f6d-8776-644482e27438
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_product_type
+    - node.type.az_product_information
+    - taxonomy.vocabulary.ta_type
+id: node.az_product_information.field_product_type
+field_name: field_product_type
+entity_type: node
+bundle: az_product_information
+label: 'product type'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      ta_type: ta_type
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference
