@@ -1,0 +1,22 @@
+uuid: deba6a38-4839-47d3-8d9d-2f4f3baab814
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.page_full
+id: node.page_full.status
+field_name: status
+entity_type: node
+bundle: page_full
+label: Published
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean
