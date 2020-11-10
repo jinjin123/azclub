@@ -706,6 +706,53 @@ body {
   background: #eb1484;
 }
 
+.az-header-topimg {
+  position: relative;
+}
+
+.az-header-topimg img {
+  width: 100%;
+}
+
+.az-header-topimg .az-header-imgbody {
+  position: absolute;
+  top: 80px;
+  left: 300px;
+}
+
+.az-header-topimg .az-header-imgbody > p:nth-child(1) {
+  background-color: #eb1484;
+  width: 200px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.az-header-topimg .az-header-imgbody > p:nth-child(1) a {
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.az-header-topimg .az-header-imgbody > p:nth-child(2) {
+  font-size: 80px;
+  color: white;
+  font-weight: bold;
+}
+
+.az-header-topimg .az-header-imgbody > p:nth-child(3) {
+  color: #eb1484;
+  font-size: 40px;
+  font-weight: 500;
+}
+
+.az-header-topimg .az-header-imgbody > p:nth-child(4) {
+  color: white;
+  font-size: 18px;
+  font-weight: 200;
+}
+
 .az-header-bbox {
   display: flex;
 }
