@@ -41,7 +41,7 @@ configuration_data:
   -
     title: '<img src="sites/default/files/2020-11/Screenshot%20from%202020-11-03%2014-24-34_2.png" />糖尿病'
     weight: 0
-    type: view_content
+    type: block_content
     content:
       node_content:
         options:
