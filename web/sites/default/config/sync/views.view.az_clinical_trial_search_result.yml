@@ -642,6 +642,7 @@ display:
         filters: false
         filter_groups: false
         fields: false
+        use_ajax: false
       relationships: {  }
       filters:
         status:
@@ -918,6 +919,7 @@ display:
           separator: ', '
           field_api_classes: false
           plugin_id: field
+      use_ajax: true
     cache_metadata:
       max-age: -1
       contexts:
@@ -957,6 +959,8 @@ display:
         relationships: false
         footer: false
         css_class: false
+        pager: false
+        use_ajax: false
       style:
         type: default
         options:
@@ -1019,12 +1023,35 @@ display:
           bypass_access: false
           plugin_id: entity
       css_class: ''
+      pager:
+        type: infinite_scroll
+        options:
+          items_per_page: 12
+          offset: 0
+          id: 0
+          total_pages: null
+          tags:
+            previous: '‹ Previous'
+            next: 'Next ›'
+          expose:
+            items_per_page: false
+            items_per_page_label: 'Items per page'
+            items_per_page_options: '5, 10, 25, 50'
+            items_per_page_options_all: false
+            items_per_page_options_all_label: '- All -'
+            offset: false
+            offset_label: Offset
+          views_infinite_scroll:
+            button_text: 瀏覽更多
+            automatically_load_content: false
+      use_ajax: true
     cache_metadata:
       max-age: -1
       contexts:
         - 'languages:language_content'
         - 'languages:language_interface'
         - url
+        - url.query_args
         - user
         - 'user.node_grants:view'
         - user.permissions
