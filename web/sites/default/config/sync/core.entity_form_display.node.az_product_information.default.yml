@@ -5,6 +5,7 @@ dependencies:
   config:
     - field.field.node.az_product_information.body
     - field.field.node.az_product_information.field_az_product_img
+    - field.field.node.az_product_information.field_product_type
     - image.style.thumbnail
     - node.type.az_product_information
   module:
@@ -39,6 +40,16 @@ content:
       preview_image_style: thumbnail
     third_party_settings: {  }
     type: image_image
+    region: content
+  field_product_type:
+    weight: 123
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: entity_reference_autocomplete
     region: content
   path:
     type: path
