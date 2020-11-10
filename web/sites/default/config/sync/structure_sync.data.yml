@@ -1,5 +1,15 @@
 taxonomies:
-  medical_article_tag: {  }
+  medical_article_tag:
+    -
+      vid: medical_article_tag
+      tid: '22'
+      langcode: en
+      name: 心血管篇
+      description__value: null
+      description__format: null
+      weight: '0'
+      parent: '0'
+      uuid: 77cca909-a498-4af1-88ba-8a50a231f1d7
   ta_type:
     -
       vid: ta_type
@@ -332,19 +342,6 @@ blocks:
           summary: ''
           format: full_html
   -
-    info: 'contact us info right block'
-    langcode: en
-    uuid: fa11c501-5950-469f-93a6-f8b379274c52
-    bundle: basic
-    revision_id: null
-    rev_id_current: null
-    fields:
-      body:
-        -
-          value: "\t<div class=\"az_contact_rg_box\">\r\n\t\t<div class=\"az_head\">\r\n\t\t\t<h5>Contact Us</h5>\r\n\r\n\t\t\t<h1>聯絡我們</h1>\r\n\t\t</div>\r\n\r\n\t\t<div class=\"az_body\">\r\n\t\t<h5>康心摯友熱線</h5>\r\n\r\n\t\t<p><span class=\"p\">(852) 2941 5388</span></p>\r\n\r\n\t\t<p><span class=\"p\">星期一至五，上午9：00至下午5：00</span></p>\r\n\r\n\t\t<p><span class=\"p\">如有任何問題，請向您的醫生或藥劑師查詢</span></p>\r\n\t\t</div>\r\n\t</div>"
-          summary: ''
-          format: full_html
-  -
     info: 診斷冠心病
     langcode: en
     uuid: 5eda6e96-b48f-4e47-b631-6467eeaaeecf
@@ -355,6 +352,19 @@ blocks:
       body:
         -
           value: "<p>診斷冠心病</p>\r\n\r\n<p>診斷及自我檢查</p>\r\n\r\n<p>心臟病檢查-高危人士或曾出現懷疑為症狀者，應盡快求診，諮詢醫生的專業意見，選擇最合適的檢查。 如運動心電圖及以下的檢查方法可評估患者的血管健康情況。</p>\r\n\r\n<p>臨床檢查 包括量血壓</p>\r\n\r\n<p>摘取病人病史</p>\r\n\r\n<p>血液檢驗，包括血糖發血脂</p>\r\n\r\n<p>了解治療方案.....</p>\r\n"
+          summary: ''
+          format: full_html
+  -
+    info: 'contact us info right block'
+    langcode: en
+    uuid: fa11c501-5950-469f-93a6-f8b379274c52
+    bundle: basic
+    revision_id: null
+    rev_id_current: null
+    fields:
+      body:
+        -
+          value: "\t<div class=\"az_contact_rg_box\">\r\n\t\t<div class=\"az_head\">\r\n\t\t\t<h5>Contact Us</h5>\r\n\r\n\t\t\t<h1>聯絡我們</h1>\r\n\t\t</div>\r\n\r\n\t\t<div class=\"az_body\">\r\n\t\t<h5>康心摯友熱線</h5>\r\n\r\n\t\t<p><span class=\"p\">(852) 2941 5388</span></p>\r\n\r\n\t\t<p><span class=\"p\">星期一至五，上午9：00至下午5：00</span></p>\r\n\r\n\t\t<p><span class=\"p\">如有任何問題，請向您的醫生或藥劑師查詢</span></p>\r\n\t\t</div>\r\n\t</div>"
           summary: ''
           format: full_html
 menus:
