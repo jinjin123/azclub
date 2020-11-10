@@ -64,11 +64,11 @@
     {% block content %}
 {#      <div class="az-off-pp-params">{{ content['field_shopname']}}</div><div class="az-off-pp-params">{{ content['field_shop_detail']}}</div><div class="az-off-pp-params">#}
 {#      {{ content['field_phone']}}</div><div class="az-off-pp-area">{{ content['field_area']}}</div>#}
-      <div class="az-clinical-right-box">
+      <div class="az-clinical-right-box ">
         <div>{{ content["field_az_clinical_page_image"] }}</div>
         <div class="az-clinical-rbx_logo"> {{ content['field_field_az_clinical_param_lo'] }}</div>
-        <div>{{ content["field_az_clinical_title"] }}</div>
-        <div>{{ content["field_az_clinical_short_desc"] }}</div>
+        <div class="az-clinical-rbx_title">{{ content["field_az_clinical_title"] }}</div>
+        <div class="az-clinical-rbx_desc">{{ content["field_az_clinical_short_desc"] }}</div>
         <div class="az-clinical-rbx__boom"><label>Area:</label> {{ content["field_az_area"] }}</div>
         <div class="az-clinical-rbx__boom"><label>Sex:</label> {{ content["field_az_se"] }}</div>
         <div class="az-clinical-rbx__boom"><label>Status:</label> {{ content["field_az_status"] }}</div>

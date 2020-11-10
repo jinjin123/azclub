@@ -8,12 +8,6 @@ body {
   }
 }
 
-@media (min-width: 992px) {
-  #block-views-block-ta-campaign-block-1 .block-content {
-    width: 970px;
-  }
-}
-
 .az-cardthree_box {
   border: 1px solid #b8b8b8;
   padding-bottom: 30px;
@@ -1001,24 +995,22 @@ body {
 }
 
 .az-offers_product_box {
-  position: absolute;
+  position: relative;
   clear: both;
-  left: 300px;
-  top: -100px;
+  left: 15%;
+  top: -200px;
 }
 
 .az-offers_logoimg {
-  float: left;
   clear: both;
-  position: relative;
-  top: -30px;
-  left: 30px;
+  position: absolute;
+  top: 35%;
+  left: 30%;
 }
 
 .az-offer-article .az-offerdetail {
   position: relative;
-  margin-right: 400px;
-  margin-left: 530px;
+  margin-left: 29%;
   display: flex;
 }
 
@@ -1040,18 +1032,22 @@ body {
 
 .az-offernode__content_body {
   position: relative;
-  left: -180px;
-  top: 150px;
+  left: -10%;
+  top: 0px;
+}
+
+.az-offernode__content_body p {
+  color: #b8b8b8;
 }
 
 .az-offers_shop {
-  margin-bottom: 250px;
-  top: 200px;
-  left: 700px;
+  margin-bottom: 20px;
+  top: 0px;
+  left: 40%;
 }
 
 .az-medicine-shop-header {
-  left: 700px;
+  left: 39%;
   position: relative;
 }
 
@@ -1061,7 +1057,7 @@ body {
 
 .az-offer-article .field--name-field-medicine-shop-params {
   position: relative;
-  left: 180px;
+  left: 11%;
 }
 
 #az-contact_valid_code {
@@ -1081,8 +1077,19 @@ body {
 }
 
 .az-clinical-right-box {
+  border: 1px solid #b8b8b8;
   position: relative;
   top: -100px;
+}
+
+.az-clinical-right-box .az-clinical-rbx_title {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.az-clinical-right-box .az-clinical-rbx_desc {
+  margin-bottom: 20px;
+  margin-top: 20px;
 }
 
 .az-clinical-right-box .az-clinical-rbx__boom {
@@ -1093,6 +1100,11 @@ body {
   position: relative;
   top: -35px;
   left: 10px;
+}
+
+.az-clinical-right-box .az-clinical-bottom-box div button {
+  border: 0px;
+  background-color: #eb1484;
 }
 
 .az-middle-box .az-clinical-mid__boom {
@@ -1107,6 +1119,7 @@ body {
   position: relative;
   top: 150px;
   margin-top: 10px;
+  left: 2%;
 }
 
 .paragraph--type--clinical-trial-portal-category-p {

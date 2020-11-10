@@ -10,13 +10,7 @@ body {
         }
     }
 }
-@media (min-width: 992px){
-    #block-views-block-ta-campaign-block-1{
-        .block-content{
-            width: 970px;
-        }
-    }
-}
+
 //card
 .az-cardthree_box{
     border: 1px solid $color-gray;
@@ -1015,25 +1009,23 @@ body {
 }
 
 .az-offers_product_box {
-  position: absolute;
+  position: relative;
   clear: both;
-  left: 300px;
-  top: -100px;
+  left: 15%;
+  top: -200px;
 }
 
 .az-offers_logoimg {
-  float: left;
   clear: both;
-  position: relative;
-  top: -30px;
-  left: 30px;
+  position: absolute;
+  top: 35%;
+  left: 30%;
 }
 
 .az-offer-article {
   .az-offerdetail {
     position: relative;
-    margin-right: 400px;
-    margin-left: 530px;
+    margin-left: 29%;
     display: flex;
     .az-off-pp-params {
       border-top: 1px solid #d9d8d8;
@@ -1058,24 +1050,27 @@ body {
 //}
 .az-offernode__content_body {
   position: relative;
-  left: -180px;
-  top: 150px;
+  left: -10%;
+  top: 0px;
+  p{
+      color: $color-gray;
+  }
 }
 .az-offers_shop {
-  margin-bottom: 250px;
-  top: 200px;
-  left: 700px;
+    margin-bottom: 20px;
+    top: 0px;
+    left: 40%;
 }
 
 .az-medicine-shop-header {
-  left:700px;
+  left:39%;
   position: relative;
 }
 .az-offer-article {
   margin-bottom: 10px;
   .field--name-field-medicine-shop-params {
     position: relative;
-    left: 180px;
+    left: 11%;
   }
 }
 
@@ -1099,8 +1094,17 @@ body {
 
 
 .az-clinical-right-box {
+    border: 1px solid $color-gray;
   position: relative;
   top: -100px;
+  .az-clinical-rbx_title{
+      font-size: 20px;
+      font-weight: bold;
+  }
+  .az-clinical-rbx_desc{
+      margin-bottom: 20px;
+      margin-top: 20px;
+  }
   .az-clinical-rbx__boom {
     display: flex;
   }
@@ -1108,6 +1112,14 @@ body {
     position: relative;
     top: -35px;
     left: 10px;
+  }
+  .az-clinical-bottom-box{
+      div{
+          button{
+              border: 0px;
+              background-color: $color-red;
+          }
+      }
   }
 }
 
@@ -1129,6 +1141,7 @@ body {
      position: relative;
      top: 150px;
      margin-top: 10px;
+     left: 2%;
    }
   }
 }
