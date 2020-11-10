@@ -4,10 +4,13 @@ status: true
 dependencies:
   config:
     - field.field.node.health_information.body
+    - field.field.node.health_information.field_health_information_img
     - field.field.node.health_information.field_refers
     - field.field.node.health_information.field_ta_type
+    - image.style.thumbnail
     - node.type.health_information
   module:
+    - image
     - path
     - text
 id: node.health_information.default
@@ -31,6 +34,14 @@ content:
     region: content
     settings: {  }
     third_party_settings: {  }
+  field_health_information_img:
+    weight: 124
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+    type: image_image
+    region: content
   field_refers:
     weight: 123
     settings:
