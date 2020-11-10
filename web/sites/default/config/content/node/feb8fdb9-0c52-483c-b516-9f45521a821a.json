@@ -21,6 +21,11 @@
             {
                 "href": ""
             }
+        ],
+        "http:\/\/default\/rest\/relation\/node\/az_product_information\/field_product_type": [
+            {
+                "href": "http:\/\/default\/taxonomy\/term\/7?_format=hal_json"
+            }
         ]
     },
     "uuid": [
@@ -101,6 +106,23 @@
                 "width": "253",
                 "height": "215"
             }
+        ],
+        "http:\/\/default\/rest\/relation\/node\/az_product_information\/field_product_type": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/taxonomy\/term\/7?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/default\/rest\/type\/taxonomy_term\/ta_type"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "1d043716-51cb-465a-b745-1da9e794b125"
+                    }
+                ]
+            }
         ]
     },
     "status": [
@@ -124,7 +146,7 @@
     ],
     "changed": [
         {
-            "value": "2020-11-03T01:58:56+00:00",
+            "value": "2020-11-10T07:45:12+00:00",
             "lang": "en",
             "format": "Y-m-d\\TH:i:sP"
         }

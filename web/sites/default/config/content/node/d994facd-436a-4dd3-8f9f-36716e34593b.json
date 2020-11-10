@@ -1,0 +1,146 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/default\/product?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/default\/rest\/type\/node\/page"
+        },
+        "http:\/\/default\/rest\/relation\/node\/page\/revision_uid": [
+            {
+                "href": "http:\/\/default\/user\/1?_format=hal_json"
+            }
+        ],
+        "http:\/\/default\/rest\/relation\/node\/page\/uid": [
+            {
+                "href": "http:\/\/default\/user\/1?_format=hal_json",
+                "lang": "en"
+            }
+        ]
+    },
+    "uuid": [
+        {
+            "value": "d994facd-436a-4dd3-8f9f-36716e34593b"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "page"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2020-11-10T08:40:19+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/default\/rest\/relation\/node\/page\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/default\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "ad86f4f8-ab08-4ff1-be42-53e6179dd359"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/default\/rest\/relation\/node\/page\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/default\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "ad86f4f8-ab08-4ff1-be42-53e6179dd359"
+                    }
+                ],
+                "lang": "en"
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "\u7522\u54c1\u8cc7\u8a0a",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2020-11-10T08:39:19+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2020-11-10T08:41:01+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": false
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "path": [
+        {
+            "alias": "\/product",
+            "pid": 109,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "body": [
+        {
+            "value": "<div class=\"az-product_head\">\r\n<div class=\"az-product_head__title1\"><span>\u7522\u54c1\u8cc7\u8a0a<\/span><\/div>\r\n\r\n<div class=\"az-product_head__title2\"><span>\u85e5\u7269\u4e00\u89bd<\/span><\/div>\r\n\r\n<div class=\"az-product_head__body\"><span>Lorem Ipsum\u53ea\u662f\u5370\u5237\u548c\u6392\u7248\u884c\u696d\u7684\u507d\u6587\u672c\u3002 Lorem Ipsum\u6709 \u5f9e1500\u5e74\u4ee3\u958b\u59cb\uff0c\u7576\u4e00\u53f0\u4e0d\u77e5\u540d\u7684\u6253\u5370\u6a5f\u51fa\u73fe\u6642\uff0c\u5b83\u5c31\u4e00\u76f4\u662f\u696d\u754c\u7684\u6a19\u6e96\u507d\u6587\u672c\u3002 \u62ff\u4e86\u4e00\u500b\u985e\u578b\u7684\u5eda\u623f\uff0c\u7136\u5f8c\u628a\u5b83\u5f04\u6210\u4e00\u500b\u985e\u578b<\/span><\/div>\r\n<\/div>\r\n",
+            "format": "full_html",
+            "processed": "<div class=\"az-product_head\">\n<div class=\"az-product_head__title1\"><span>\u7522\u54c1\u8cc7\u8a0a<\/span><\/div>\n\n<div class=\"az-product_head__title2\"><span>\u85e5\u7269\u4e00\u89bd<\/span><\/div>\n\n<div class=\"az-product_head__body\"><span>Lorem Ipsum\u53ea\u662f\u5370\u5237\u548c\u6392\u7248\u884c\u696d\u7684\u507d\u6587\u672c\u3002 Lorem Ipsum\u6709 \u5f9e1500\u5e74\u4ee3\u958b\u59cb\uff0c\u7576\u4e00\u53f0\u4e0d\u77e5\u540d\u7684\u6253\u5370\u6a5f\u51fa\u73fe\u6642\uff0c\u5b83\u5c31\u4e00\u76f4\u662f\u696d\u754c\u7684\u6a19\u6e96\u507d\u6587\u672c\u3002 \u62ff\u4e86\u4e00\u500b\u985e\u578b\u7684\u5eda\u623f\uff0c\u7136\u5f8c\u628a\u5b83\u5f04\u6210\u4e00\u500b\u985e\u578b<\/span><\/div>\n<\/div>\n",
+            "summary": "",
+            "lang": "en"
+        }
+    ]
+}

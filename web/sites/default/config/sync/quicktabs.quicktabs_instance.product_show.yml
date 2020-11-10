@@ -1,0 +1,86 @@
+uuid: a0fce108-0808-4474-90cd-b507c5d863ef
+langcode: en
+status: true
+dependencies: {  }
+id: product_show
+label: 'product show'
+renderer: ui_tabs
+options:
+  quick_tabs:
+    ajax: false
+  accordion_tabs:
+    jquery_ui:
+      collapsible: false
+      heightStyle: auto
+hide_empty_tabs: false
+default_tab: 1
+configuration_data:
+  -
+    title: '<img src="sites/default/files/2020-11/Screenshot%20from%202020-11-03%2014-24-34_2.png" />心血管疾病'
+    weight: 0
+    type: block_content
+    content:
+      node_content:
+        options:
+          nid: ''
+          view_mode: full
+          hide_title: true
+      view_content:
+        options:
+          vid: az_clinical_trial_search_result
+          display: default
+          args: ''
+      qtabs_content:
+        options:
+          machine_name: health_information
+      block_content:
+        options:
+          bid: 'views_block:az_product_information-product_huxixitong'
+          block_title: ''
+          display_title: false
+  -
+    title: '<img src="sites/default/files/2020-11/Screenshot%20from%202020-11-03%2014-24-34_2.png" />糖尿病'
+    weight: 0
+    type: view_content
+    content:
+      node_content:
+        options:
+          nid: ''
+          view_mode: full
+          hide_title: true
+      view_content:
+        options:
+          vid: az_product_information
+          display: product_tangniaobing
+          args: ''
+      qtabs_content:
+        options:
+          machine_name: health_information
+      block_content:
+        options:
+          bid: 'views_block:az_product_information-product_tangniaobing'
+          block_title: ''
+          display_title: false
+  -
+    title: '<img src="sites/default/files/2020-11/Screenshot%20from%202020-11-03%2014-24-34_2.png" />呼吸系統疾病'
+    weight: 0
+    type: block_content
+    content:
+      node_content:
+        options:
+          nid: ''
+          view_mode: full
+          hide_title: true
+      view_content:
+        options:
+          vid: az_clinical_trial_search_result
+          display: default
+          args: ''
+      qtabs_content:
+        options:
+          machine_name: health_information
+      block_content:
+        options:
+          bid: 'views_block:az_product_information-product_huxixitong'
+          block_title: ''
+          display_title: false

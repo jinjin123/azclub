@@ -6,25 +6,20 @@ id: ta_articles
 label: 'TA Articles'
 renderer: ui_tabs
 options:
+  quick_tabs:
+    ajax: false
   accordion_tabs:
     jquery_ui:
       collapsible: false
       heightStyle: auto
-  quick_tabs:
-    ajax: false
 hide_empty_tabs: false
 default_tab: 0
 configuration_data:
   -
-    title: 心血管疾病
+    title: '<img src="sites/default/files/2020-11/Screenshot%20from%202020-11-03%2014-24-34_2.png" />心血管疾病'
     weight: 0
     type: block_content
     content:
-      block_content:
-        options:
-          bid: 'views_block:ta_articles-block_1'
-          block_title: ''
-          display_title: false
       node_content:
         options:
           nid: ''
@@ -32,22 +27,22 @@ configuration_data:
           hide_title: true
       view_content:
         options:
-          vid: banner
+          vid: az_clinical_trial_search_result
           display: default
           args: ''
       qtabs_content:
         options:
-          machine_name: ''
+          machine_name: health_information
+      block_content:
+        options:
+          bid: 'views_block:ta_articles-block_1'
+          block_title: ''
+          display_title: false
   -
     title: 糖尿病
     weight: 0
     type: block_content
     content:
-      block_content:
-        options:
-          bid: 'views_block:ta_articles-block_1'
-          block_title: ''
-          display_title: false
       node_content:
         options:
           nid: ''
@@ -55,22 +50,22 @@ configuration_data:
           hide_title: true
       view_content:
         options:
-          vid: banner
+          vid: az_clinical_trial_search_result
           display: default
           args: ''
       qtabs_content:
         options:
-          machine_name: ''
+          machine_name: health_information
+      block_content:
+        options:
+          bid: 'views_block:ta_articles-block_1'
+          block_title: ''
+          display_title: false
   -
     title: 呼吸系統疾病
     weight: 0
     type: block_content
     content:
-      block_content:
-        options:
-          bid: 'views_block:ta_articles-block_1'
-          block_title: ''
-          display_title: false
       node_content:
         options:
           nid: ''
@@ -78,22 +73,22 @@ configuration_data:
           hide_title: true
       view_content:
         options:
-          vid: banner
+          vid: az_clinical_trial_search_result
           display: default
           args: ''
       qtabs_content:
         options:
-          machine_name: ''
+          machine_name: health_information
+      block_content:
+        options:
+          bid: 'views_block:ta_articles-block_1'
+          block_title: ''
+          display_title: false
   -
     title: 腎病
     weight: 0
     type: block_content
     content:
-      block_content:
-        options:
-          bid: 'views_block:ta_articles-block_1'
-          block_title: ''
-          display_title: false
       node_content:
         options:
           nid: ''
@@ -101,22 +96,22 @@ configuration_data:
           hide_title: true
       view_content:
         options:
-          vid: banner
+          vid: az_clinical_trial_search_result
           display: default
           args: ''
       qtabs_content:
         options:
-          machine_name: ''
+          machine_name: health_information
+      block_content:
+        options:
+          bid: 'views_block:ta_articles-block_1'
+          block_title: ''
+          display_title: false
   -
     title: 癌症
     weight: 0
     type: block_content
     content:
-      block_content:
-        options:
-          bid: 'views_block:ta_articles-block_1'
-          block_title: ''
-          display_title: false
       node_content:
         options:
           nid: ''
@@ -124,22 +119,22 @@ configuration_data:
           hide_title: true
       view_content:
         options:
-          vid: banner
+          vid: az_clinical_trial_search_result
           display: default
           args: ''
       qtabs_content:
         options:
-          machine_name: ''
+          machine_name: health_information
+      block_content:
+        options:
+          bid: 'views_block:ta_articles-block_1'
+          block_title: ''
+          display_title: false
   -
     title: 感染/傳染病
     weight: 0
     type: block_content
     content:
-      block_content:
-        options:
-          bid: 'views_block:ta_articles-block_1'
-          block_title: ''
-          display_title: false
       node_content:
         options:
           nid: ''
@@ -147,9 +142,14 @@ configuration_data:
           hide_title: true
       view_content:
         options:
-          vid: banner
+          vid: az_clinical_trial_search_result
           display: default
           args: ''
       qtabs_content:
         options:
-          machine_name: ''
+          machine_name: health_information
+      block_content:
+        options:
+          bid: 'views_block:ta_articles-block_1'
+          block_title: ''
+          display_title: false
