@@ -49,7 +49,7 @@ body {
         }
         .az-cardthree_click_bottom{
             float: right;
-            
+
             text-align: center;
             a{
                 background-color: $color-red;
@@ -1093,4 +1093,8 @@ body {
   text-align: center;
   margin-left: 10px;
   width: 200px;
+}
+
+#block-views-block-ta-campaign-block-1 .view-content-wrap {
+  overflow: hidden;
 }
