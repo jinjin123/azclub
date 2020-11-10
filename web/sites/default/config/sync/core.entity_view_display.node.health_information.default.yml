@@ -6,6 +6,7 @@ dependencies:
     - field.field.node.health_information.body
     - field.field.node.health_information.field_health_information_img
     - field.field.node.health_information.field_refers
+    - field.field.node.health_information.field_sub_title
     - field.field.node.health_information.field_ta_type
     - node.type.health_information
   module:
@@ -39,6 +40,14 @@ content:
     settings: {  }
     third_party_settings: {  }
     type: text_default
+    region: content
+  field_sub_title:
+    weight: 4
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
     region: content
   links:
     weight: 0
