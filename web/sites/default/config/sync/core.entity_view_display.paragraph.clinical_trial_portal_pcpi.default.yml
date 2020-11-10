@@ -15,7 +15,7 @@ bundle: clinical_trial_portal_pcpi
 mode: default
 content:
   field__clinical_trial_img:
-    weight: 2
+    weight: 0
     label: hidden
     settings:
       image_style: ''
@@ -24,7 +24,7 @@ content:
     type: image
     region: content
   field_clinical_name:
-    weight: 0
+    weight: 1
     label: hidden
     settings:
       link_to_entity: false
@@ -32,7 +32,7 @@ content:
     type: string
     region: content
   field_clinical_trial_description:
-    weight: 1
+    weight: 2
     label: hidden
     settings: {  }
     third_party_settings: {  }

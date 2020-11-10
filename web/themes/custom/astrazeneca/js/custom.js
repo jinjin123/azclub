@@ -116,12 +116,13 @@ Drupal.behaviors.PharmaTheme = {
     })
 
 
-    $("#az-contact_freshbtn").click(function(){
+    $(".az-valicode_freash").click(function(){
        $("#az-contact_valid_code")[0].value = RndNum(5)
       // console.log($("#az-contact_valid_code")[0].value)
     })
-    if(($("#az-contact_valid_code").length > 0)){
-      $(".az-valicodeshow").html('<input  id="az-contact_valid_code"  value="">')
+    // console.log($(".az-contact-form_body").length)
+    if(($(".az-contact-form_body").length > 0)){
+      $(".az-valicodeshow").html('<input  id="az-contact_valid_code" disabled  value="">')
       $(".az-valicode_freash").html('<input  type="button" id="az-contact_freshbtn"  value="刷新">')
       $("#az-contact_valid_code")[0].value = RndNum(5)
     }

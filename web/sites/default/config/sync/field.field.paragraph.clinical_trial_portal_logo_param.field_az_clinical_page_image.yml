@@ -1,16 +1,16 @@
-uuid: 1152bb8a-71fc-4c99-a96b-afefbf719936
+uuid: e1f8a3e0-fbb9-424d-bf82-781605452fac
 langcode: en
 status: true
 dependencies:
   config:
-    - field.storage.node.field_az_clinical_page_image
-    - node.type.az_clinical_experience_process
+    - field.storage.paragraph.field_az_clinical_page_image
+    - paragraphs.paragraphs_type.clinical_trial_portal_logo_param
   module:
     - image
-id: node.az_clinical_experience_process.field_az_clinical_page_image
+id: paragraph.clinical_trial_portal_logo_param.field_az_clinical_page_image
 field_name: field_az_clinical_page_image
-entity_type: node
-bundle: az_clinical_experience_process
+entity_type: paragraph
+bundle: clinical_trial_portal_logo_param
 label: 'AZ Clinical page image'
 description: ''
 required: false

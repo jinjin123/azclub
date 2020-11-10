@@ -21,14 +21,19 @@
 #}
 {%
   set classes = [
-    'field',
-    'field--name-' ~ field_name|clean_class,
-    'field--type-' ~ field_type|clean_class,
-    'field--label-' ~ label_display,
-  ]
+  'field',
+  'field--name-' ~ field_name|clean_class,
+  'field--type-' ~ field_type|clean_class,
+  'field--label-' ~ label_display,
+  'az-healthtips-title'
+]
 %}
-<span{{ attributes.addClass(classes) }}>
-  {%- for item in items -%}
-      {{ item.content }}
-  {%- endfor -%}
-</span>
+<div class="az-article-header col-lg-3">
+  <div class="az-article-righticon"></div>
+  <span{{ attributes.addClass(classes) }}>
+    {%- for item in items -%}
+      <div>{{ item.content|e|replace({' ': '<br />'})|raw }}</div>
+    {%- endfor -%}
+  </span>
+</div>
+

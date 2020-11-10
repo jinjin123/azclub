@@ -1,7 +1,7 @@
 {
     "_links": {
         "self": {
-            "href": "http:\/\/default\/respiratory\/chronic-obstructive-pulmonary?_format=hal_json"
+            "href": "http:\/\/default\/respiratory\/severe-asthma?_format=hal_json"
         },
         "type": {
             "href": "http:\/\/default\/rest\/type\/node\/page"
@@ -128,8 +128,8 @@
     ],
     "path": [
         {
-            "alias": "\/respiratory\/chronic-obstructive-pulmonary",
-            "pid": 93,
+            "alias": "\/respiratory\/severe-asthma",
+            "pid": 101,
             "langcode": "en",
             "lang": "en"
         }
