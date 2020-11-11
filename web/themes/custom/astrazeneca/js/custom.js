@@ -54,13 +54,17 @@ Drupal.behaviors.PharmaTheme = {
       $(".az-product_duplicate").css("display","none");
     })
     })
+    var productinput =document.createElement("input");
+    productinput.setAttribute("type","search");
+    productinput.setAttribute("name","product");
+    productinput.setAttribute("placeholder","Search");
+    $(".az-product-search_button").html(productinput);
 
-
-    var input =document.createElement("input");
-    input.setAttribute("type","search");
-    input.setAttribute("name","clincal");
-    input.setAttribute("placeholder","Search");
-    $(".az-clincal-search_button").html(input);
+    var clincalinput =document.createElement("input");
+    clincalinput.setAttribute("type","search");
+    clincalinput.setAttribute("name","clincal");
+    clincalinput.setAttribute("placeholder","Search");
+    $(".az-clincal-search_button").html(clincalinput);
 
 
     $(".az-clinical-bbx-email").on('click',function(e){

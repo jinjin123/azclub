@@ -2,8 +2,15 @@ uuid: 0e2a53ee-7d46-4d1e-a3ad-236d0c62fe5f
 langcode: en
 status: true
 dependencies:
+  module:
+    - block_visibility_groups
+    - gaviasthemer
+    - system
   theme:
     - astrazeneca
+third_party_settings:
+  gaviasthemer:
+    classes: ''
 _core:
   default_config_hash: 7rR9chwXvdM2H8OYMAYx9Zj3GGlPMrZp_M3ZA4thYTk
 id: astrazeneca_page_title
@@ -17,4 +24,12 @@ settings:
   label: 'Page title'
   provider: core
   label_display: '0'
-visibility: {  }
+visibility:
+  condition_group:
+    id: condition_group
+    negate: false
+    block_visibility_group: ''
+  request_path:
+    id: request_path
+    pages: "<front>\r\n/health-information\r\n/medical-article\r\n/attention-disease\r\n/cardiovascualr\r\n/cardiovascualr/*\r\n/diabetes\r\n/diabetes/*\r\n/cancer\r\n/cancer/*\r\n/gastrointestinal\r\n/gastrointestinal/*\r\n/respiratory\r\n/respiratory/*\r\n/renal\r\n/renal/*\r\n/infection\r\n/infection/*"
+    negate: true

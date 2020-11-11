@@ -330,7 +330,18 @@ display:
             label: ''
           granularity: second
       title: ''
-      header: {  }
+      header:
+        area_text_custom:
+          id: area_text_custom
+          table: views
+          field: area_text_custom
+          relationship: none
+          group_type: group
+          admin_label: ''
+          empty: false
+          tokenize: false
+          content: "<div class=\"az-product-search_box\">\r\n    <div class=\"col-md-8\">\r\n      <span>藥物類別</span>\r\n</div>\r\n<div  class=\"col-md-4\"> \r\n <div class=\"az-product-searright\">\r\n<div class=\"az-product-search_button\"></div>\r\n<div class=\"az-product-search_icon\"></div>\r\n</div>\r\n</div>\r\n<div class=\"az-product-seach_across\"></div>\r\n</div>"
+          plugin_id: text_custom
       footer: {  }
       empty: {  }
       relationships: {  }
