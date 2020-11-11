@@ -462,22 +462,24 @@ body {
         color: #b8b8b8;
         width: 80%; }
 
+.az-kxin-article-header .az_article_crumbs {
+  font-size: 12px;
+  color: #b8b8b8; }
+
+.az-kxin-article-header .az-article_rightbutton {
+  float: right; }
+  .az-kxin-article-header .az-article_rightbutton button {
+    font-size: 15px;
+    width: 120px;
+    height: 40px;
+    background-color: #eb1484;
+    border: 1px solid #eb1484;
+    border-radius: 5px;
+    color: white; }
+
 .az-article-header {
   position: relative;
   left: 40%; }
-  .az-article-header .az_article_crumbs {
-    font-size: 12px;
-    color: #b8b8b8; }
-  .az-article-header .az-article_rightbutton {
-    float: right; }
-    .az-article-header .az-article_rightbutton button {
-      font-size: 15px;
-      width: 120px;
-      height: 40px;
-      background-color: #eb1484;
-      border: 1px solid #eb1484;
-      border-radius: 5px;
-      color: white; }
 
 .az-node__content .az-node__content_bottom_boder {
   border-top: 1px solid #b8b8b8;

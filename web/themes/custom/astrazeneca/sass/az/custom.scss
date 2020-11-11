@@ -668,9 +668,7 @@ body {
 }
 
 //
-.az-article-header {
-   position: relative;
-   left:40%;
+.az-kxin-article-header {
   .az_article_crumbs {
     font-size: 12px;
     color: $color-gray;
@@ -690,6 +688,10 @@ body {
     }
   }
 
+}
+.az-article-header {
+   position: relative;
+   left:40%;
 }
 .az-node__content{
     .az-node__content_bottom_boder{
