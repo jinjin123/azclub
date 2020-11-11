@@ -1214,3 +1214,16 @@ footer#footer::after {
   background: #EB1384;
   border-radius: 5px;
 }
+.node--type-health-information .az-hr {
+  border: 1px solid #979797;
+}
+.node--type-health-information .az-share-and-author {
+  margin-left: 0;
+  margin-right: 0;
+}
+.node--type-health-information .az-share-and-author .shares {
+  float: left;
+}
+.node--type-health-information .az-share-and-author .author-by {
+  float: right;
+}
