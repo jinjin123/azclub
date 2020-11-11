@@ -98,7 +98,7 @@
     ],
     "changed": [
         {
-            "value": "2020-10-30T08:13:49+00:00",
+            "value": "2020-11-10T07:48:39+00:00",
             "lang": "en",
             "format": "Y-m-d\\TH:i:sP"
         }
@@ -136,9 +136,9 @@
     ],
     "body": [
         {
-            "value": "<p>\ufeff\u91ab\u5b78\u6587\u97cb<\/p>\r\n\r\n<h2>\u5404\u985e\u91ab\u5b78\u6587\u7ae0<\/h2>\r\n\r\n<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type.<\/p>\r\n",
-            "format": "basic_html",
-            "processed": "<p>\ufeff\u91ab\u5b78\u6587\u97cb<\/p>\n\n<h2>\u5404\u985e\u91ab\u5b78\u6587\u7ae0<\/h2>\n\n<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type.<\/p>",
+            "value": "<p class=\"az-home_toptext1\">\ufeff\u91ab\u5b78\u6587\u97cb<\/p>\r\n\r\n<p class=\"az-home_toptext2\">\u5404\u985e\u91ab\u5b78\u6587\u7ae0<\/p>\r\n\r\n<p class=\"az-home_toptext3\">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type.<\/p>\r\n",
+            "format": "full_html",
+            "processed": "<p class=\"az-home_toptext1\">\ufeff\u91ab\u5b78\u6587\u97cb<\/p>\n\n<p class=\"az-home_toptext2\">\u5404\u985e\u91ab\u5b78\u6587\u7ae0<\/p>\n\n<p class=\"az-home_toptext3\">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type.<\/p>\n",
             "summary": "",
             "lang": "en"
         }

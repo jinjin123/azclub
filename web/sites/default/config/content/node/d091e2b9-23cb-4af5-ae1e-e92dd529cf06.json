@@ -21,16 +21,6 @@
             {
                 "href": ""
             }
-        ],
-        "http:\/\/default\/rest\/relation\/node\/az_clinical_experience_process\/field_az_clinical_short_desc": [
-            {
-                "href": ""
-            }
-        ],
-        "http:\/\/default\/rest\/relation\/node\/az_clinical_experience_process\/field_clinical_logo_info": [
-            {
-                "href": ""
-            }
         ]
     },
     "uuid": [
@@ -111,42 +101,6 @@
                 "width": "496",
                 "height": "318"
             }
-        ],
-        "http:\/\/default\/rest\/relation\/node\/az_clinical_experience_process\/field_az_clinical_short_desc": [
-            {
-                "_links": {
-                    "self": {
-                        "href": ""
-                    },
-                    "type": {
-                        "href": "http:\/\/default\/rest\/type\/paragraph\/clinical_trial_portal_category_p"
-                    }
-                },
-                "uuid": [
-                    {
-                        "value": "90b7543e-4c97-4f98-8a5d-e95842f97150"
-                    }
-                ],
-                "target_revision_id": "132"
-            }
-        ],
-        "http:\/\/default\/rest\/relation\/node\/az_clinical_experience_process\/field_clinical_logo_info": [
-            {
-                "_links": {
-                    "self": {
-                        "href": ""
-                    },
-                    "type": {
-                        "href": "http:\/\/default\/rest\/type\/paragraph\/clinical_trial_portal_logo_param"
-                    }
-                },
-                "uuid": [
-                    {
-                        "value": "e666bf4b-fb97-43de-affc-15e905f18c9a"
-                    }
-                ],
-                "target_revision_id": "133"
-            }
         ]
     },
     "status": [
@@ -170,7 +124,7 @@
     ],
     "changed": [
         {
-            "value": "2020-11-10T00:28:34+00:00",
+            "value": "2020-11-06T06:16:43+00:00",
             "lang": "en",
             "format": "Y-m-d\\TH:i:sP"
         }

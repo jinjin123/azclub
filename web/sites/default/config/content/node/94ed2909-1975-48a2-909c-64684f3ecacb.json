@@ -1,7 +1,7 @@
 {
     "_links": {
         "self": {
-            "href": "http:\/\/default\/node\/88?_format=hal_json"
+            "href": "http:\/\/default\/node\/89?_format=hal_json"
         },
         "type": {
             "href": "http:\/\/default\/rest\/type\/node\/az_clinical_experience_process"
@@ -18,16 +18,6 @@
             }
         ],
         "http:\/\/default\/rest\/relation\/node\/az_clinical_experience_process\/field_az_clinical_article_page": [
-            {
-                "href": ""
-            }
-        ],
-        "http:\/\/default\/rest\/relation\/node\/az_clinical_experience_process\/field_az_clinical_short_desc": [
-            {
-                "href": ""
-            }
-        ],
-        "http:\/\/default\/rest\/relation\/node\/az_clinical_experience_process\/field_clinical_logo_info": [
             {
                 "href": ""
             }
@@ -111,42 +101,6 @@
                 "width": "496",
                 "height": "318"
             }
-        ],
-        "http:\/\/default\/rest\/relation\/node\/az_clinical_experience_process\/field_az_clinical_short_desc": [
-            {
-                "_links": {
-                    "self": {
-                        "href": ""
-                    },
-                    "type": {
-                        "href": "http:\/\/default\/rest\/type\/paragraph\/clinical_trial_portal_category_p"
-                    }
-                },
-                "uuid": [
-                    {
-                        "value": "b6cd9915-e1d3-46bc-be4c-a44d4d691a48"
-                    }
-                ],
-                "target_revision_id": "124"
-            }
-        ],
-        "http:\/\/default\/rest\/relation\/node\/az_clinical_experience_process\/field_clinical_logo_info": [
-            {
-                "_links": {
-                    "self": {
-                        "href": ""
-                    },
-                    "type": {
-                        "href": "http:\/\/default\/rest\/type\/paragraph\/clinical_trial_portal_logo_param"
-                    }
-                },
-                "uuid": [
-                    {
-                        "value": "c5777590-1f65-4f13-ac22-bb8225040003"
-                    }
-                ],
-                "target_revision_id": "125"
-            }
         ]
     },
     "status": [
@@ -170,7 +124,7 @@
     ],
     "changed": [
         {
-            "value": "2020-11-10T00:30:38+00:00",
+            "value": "2020-11-06T05:45:05+00:00",
             "lang": "en",
             "format": "Y-m-d\\TH:i:sP"
         }

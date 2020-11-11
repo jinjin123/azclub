@@ -1,7 +1,7 @@
 {
     "_links": {
         "self": {
-            "href": "http:\/\/default\/node\/58?_format=hal_json"
+            "href": "http:\/\/default\/node\/56?_format=hal_json"
         },
         "type": {
             "href": "http:\/\/default\/rest\/type\/node\/az_product_information"
@@ -24,7 +24,7 @@
         ],
         "http:\/\/default\/rest\/relation\/node\/az_product_information\/field_product_type": [
             {
-                "href": "http:\/\/default\/taxonomy\/term\/4?_format=hal_json"
+                "href": "http:\/\/default\/taxonomy\/term\/1?_format=hal_json"
             }
         ]
     },
@@ -111,7 +111,7 @@
             {
                 "_links": {
                     "self": {
-                        "href": "http:\/\/default\/taxonomy\/term\/4?_format=hal_json"
+                        "href": "http:\/\/default\/taxonomy\/term\/1?_format=hal_json"
                     },
                     "type": {
                         "href": "http:\/\/default\/rest\/type\/taxonomy_term\/ta_type"
@@ -119,7 +119,7 @@
                 },
                 "uuid": [
                     {
-                        "value": "9d8d9068-090a-4226-b703-f3ae0da33047"
+                        "value": "5f18a532-1234-4e3c-95d6-b3b4bad7ac98"
                     }
                 ]
             }
@@ -146,7 +146,7 @@
     ],
     "changed": [
         {
-            "value": "2020-11-10T07:45:04+00:00",
+            "value": "2020-11-11T05:00:02+00:00",
             "lang": "en",
             "format": "Y-m-d\\TH:i:sP"
         }

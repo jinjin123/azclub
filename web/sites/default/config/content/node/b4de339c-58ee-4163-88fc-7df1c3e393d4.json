@@ -30,9 +30,6 @@
         "http:\/\/default\/rest\/relation\/node\/offers_details\/field_medicine_shop_params": [
             {
                 "href": ""
-            },
-            {
-                "href": ""
             }
         ],
         "http:\/\/default\/rest\/relation\/node\/offers_details\/field_offer_img": [
@@ -156,23 +153,7 @@
                         "value": "3a399119-ff73-4435-8c78-cc5123282c5d"
                     }
                 ],
-                "target_revision_id": "107"
-            },
-            {
-                "_links": {
-                    "self": {
-                        "href": ""
-                    },
-                    "type": {
-                        "href": "http:\/\/default\/rest\/type\/paragraph\/medicine_shop_addr"
-                    }
-                },
-                "uuid": [
-                    {
-                        "value": "96f6bb69-8961-470f-bd01-a5894217264a"
-                    }
-                ],
-                "target_revision_id": "121"
+                "target_revision_id": "122"
             }
         ],
         "http:\/\/default\/rest\/relation\/node\/offers_details\/field_offer_img": [

@@ -883,7 +883,58 @@ body {
 }
 
 .health-tips-orange {
+  height: 600px;
   background-color: #ffb425;
+}
+
+.health-tips-orange .az-healthtips_heads {
+  color: white;
+  text-align: center;
+}
+
+.health-tips-orange .az-healthtips_heads .az-healthtips_head__title1 {
+  font-weight: 100;
+}
+
+.health-tips-orange .az-healthtips_heads .az-healthtips_head__title2 {
+  font-size: 24px;
+}
+
+.health-tips-orange .az-healthtips_heads .az-healthtips_head__body {
+  width: 50%;
+  margin: 0 auto;
+  font-weight: 100;
+}
+
+.health-tips-orange .az-offertips_box {
+  background-color: white;
+  border-radius: 10px;
+  width: 45%;
+  margin: 50px;
+  height: 200px;
+}
+
+.health-tips-orange .az-offertips_box .az-offer_img {
+  background: transparent url(../images/cardiac.png) no-repeat;
+  width: 20%;
+  height: 100%;
+  float: left;
+  background-size: 100%;
+  background-position: center;
+}
+
+.health-tips-orange .az-offertips_box .az-offer_body {
+  width: 80%;
+  padding: 30px 0px 0px 10px;
+}
+
+.health-tips-orange .az-offertips_box .az-offer_body .az-offer_body_title {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.health-tips-orange .az-offertips_box .az-offer_body .az-offer_sub_title {
+  color: #b8b8b8;
 }
 
 .webform-submission-contact-form .js-form-item-name {
@@ -1396,12 +1447,29 @@ footer#footer::after {
   border: 1px solid #b8b8b8;
 }
 
-.block-astrazeneca-content footer header .az-product_head {
+.az-product-position .az-product_headtwo {
   height: 300px;
   background-color: #eb1484;
+  text-align: center;
+  color: white;
 }
 
-.block-astrazeneca-content footer .views-infinite-scroll-content-wrapper {
+.az-product-position .az-product_headtwo .az-product_head__title1 {
+  font-weight: 100;
+  padding-top: 50px;
+}
+
+.az-product-position .az-product_headtwo .az-product_head__title2 {
+  font-size: 24px;
+}
+
+.az-product-position .az-product_headtwo .az-product_head__body {
+  width: 50%;
+  margin: 0 auto;
+  font-weight: 100;
+}
+
+.az-product-position .clearfix {
   position: relative;
   bottom: 100px;
 }

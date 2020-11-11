@@ -383,7 +383,7 @@ display:
           admin_label: ''
           empty: false
           tokenize: false
-          content: "<div class=\"az-product_head\">\r\n\t<div class=\"az-product_head__title1\">\r\n        <span>醫學講座及活動</span>\r\n    </div>\r\n    <div class=\"az-product_head__title2\">\r\n      <span>醫學講座及活動一覽</span>\r\n    </div>\r\n  \t<div class=\"az-product_head__body\">\r\n      <span>Lorem lpsum只是印刷和設置行業的偽文本。自500年代以來，Lorem lpsum一直是該行業的標準偽文本。當時，一個未知的打印機拿起一個廚房，將其打亂成一個類型。</span>\r\n    </div>\r\n</div>"
+          content: "<div class=\"az-product_headtwo\">\r\n\t<div class=\"az-product_head__title1\">\r\n        <span>醫學講座及活動</span>\r\n    </div>\r\n    <div class=\"az-product_head__title2\">\r\n      <span>醫學講座及活動一覽</span>\r\n    </div>\r\n  \t<div class=\"az-product_head__body\">\r\n      <span>Lorem lpsum只是印刷和設置行業的偽文本。自500年代以來，Lorem lpsum一直是該行業的標準偽文本。當時，一個未知的打印機拿起一個廚房，將其打亂成一個類型。</span>\r\n    </div>\r\n</div>"
           plugin_id: text_custom
       footer: {  }
       empty: {  }
@@ -410,6 +410,9 @@ display:
     display_options:
       display_extenders: {  }
       display_description: ''
+      css_class: az-product-position
+      defaults:
+        css_class: false
     cache_metadata:
       max-age: -1
       contexts:
