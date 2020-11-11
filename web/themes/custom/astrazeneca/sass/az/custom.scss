@@ -2,7 +2,7 @@
 body {
     //background-color:  $head-cus!important;
     overflow: hidden;
-} 
+}
 //card
 .az-cardthree_box{
     border: 1px solid $color-gray;
@@ -233,29 +233,29 @@ body {
 .az-product-search_box>div {
     &:nth-child(1) {
       float: left;
-  
+
       span {
         font-size: 20px;
         font-weight: bold;
       }
     }
-  
+
     &:nth-child(2) {
       float: right;
       height: 40px;
-  
+
       .az-product-searright {
         float: right;
-  
+
         .az-product-search_button {
           float: left;
-  
+
           input {
             height: 40px;
             border: 1px solid $color-gray;
           }
         }
-  
+
         .az-product-search_icon {
           float: left;
           width: 40px;
@@ -265,7 +265,7 @@ body {
         }
       }
     }
-    
+
   }
   .az-product-seach_across {
     width: 100%;
@@ -273,7 +273,7 @@ body {
     border-bottom: 2px solid $color-gray;
     margin-bottom: 50px;
   }
-  
+
 //医学讲座及活动
 .az-product_head {
   margin: auto;
@@ -1383,6 +1383,34 @@ footer#footer::after {
     overflow: hidden;
     .view-content-wrap {
       overflow: hidden;
+    }
+  }
+}
+
+.node--type-page {
+  div.field--name-body {
+    text-align: center;
+
+    h3 {
+      font-size: 20px;
+      color: #b8b8b8;
+    }
+
+    p {
+      color: #b8b8b8;
+    }
+  }
+}
+
+.node--type-health-information {
+  #block-astrazeneca-page-title .page-title {
+    &::after {
+      content: '';
+      width: 68px;
+      height:7px;
+      display: block;
+      background: #EB1384;
+      border-radius: 5px;
     }
   }
 }

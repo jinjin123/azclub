@@ -8,41 +8,33 @@ body {
   float: left;
   margin-bottom: 20px;
 }
-
 .az-cardthree_box .az-cardthree_img img {
   width: 100%;
 }
-
 .az-cardthree_box .az-cardthree_body {
   margin-top: 15px;
   padding-left: 15px;
   position: relative;
 }
-
 .az-cardthree_box .az-cardthree_body .az-cardthree_logoimg {
   position: absolute;
   bottom: 10%;
   left: 70%;
 }
-
 .az-cardthree_box .az-cardthree_body .az-cardthree_body_title {
   font-weight: bold;
   font-size: 20px;
 }
-
 .az-cardthree_box .az-cardthree_body .az-cardthree_sub_title {
   color: #b8b8b8;
 }
-
 .az-cardthree_box .az-cardthree_body .az-cardthree_sub_title p {
   float: left;
 }
-
 .az-cardthree_box .az-cardthree_body .az-cardthree_click_bottom {
   float: right;
   text-align: center;
 }
-
 .az-cardthree_box .az-cardthree_body .az-cardthree_click_bottom a {
   background-color: #eb1484;
   border-radius: 5px;
@@ -50,7 +42,6 @@ body {
   width: 80px;
   color: white;
 }
-
 .az-cardthree_box .az-cardthree_body .az-cardthree_click_bottom a:hover {
   background-color: orange !important;
 }
@@ -59,37 +50,30 @@ body {
   box-shadow: 0px 0px 10px 5px #b8b8b8;
   padding-bottom: 30px;
 }
-
 .az-cardtow_box .az-cardtow_img img {
   width: 100%;
 }
-
 .az-cardtow_box .az-cardtow_body {
   margin-top: 15px;
   padding-left: 15px;
   position: relative;
   padding-bottom: 10px;
 }
-
 .az-cardtow_box .az-cardtow_body .az-cardtow_body_title {
   font-weight: bold;
   font-size: 20px;
 }
-
 .az-cardtow_box .az-cardtow_body .az-cardtow_sub_title {
   color: #b8b8b8;
 }
-
 .az-cardtow_box .az-cardtow_body .az-cardtow_sub_title p {
   float: left;
 }
-
 .az-cardtow_box .az-cardtow_body .az-cardtow_click_bottom {
   float: right;
   text-align: center;
   margin-right: 10px;
 }
-
 .az-cardtow_box .az-cardtow_body .az-cardtow_click_bottom a {
   background-color: #eb1484;
   border-radius: 5px;
@@ -97,7 +81,6 @@ body {
   width: 80px;
   color: white;
 }
-
 .az-cardtow_box .az-cardtow_body .az-cardtow_click_bottom a:hover {
   background-color: orange !important;
 }
@@ -110,22 +93,18 @@ body {
 .az-header_top .az-header_top_logo {
   float: left;
 }
-
 .az-header_top .az-contact-right-box {
   margin-top: 20px;
 }
-
 .az-header_top .top-box-img {
   float: left;
   width: 40px;
   height: 40px;
   background: transparent url(../images/iphone.png) no-repeat;
 }
-
 .az-header_top .top-box-info h1 {
   font-size: 15px;
 }
-
 .az-header_top .top-box-info p {
   font-size: 12px;
   color: #b8b8b8;
@@ -135,22 +114,18 @@ body {
   float: left;
   margin-left: -50px;
 }
-
 .az-header_bottom .az-header_bottom_menu .gva-navigation .gva_menu_main li ul {
   min-width: 160px;
   border-left: 2px solid #fcaf17;
   border-top: none;
 }
-
 .az-header_bottom .az-header_bottom_menu .gva-navigation .gva_menu_main li ul li {
   height: 40px;
   line-height: 40px;
 }
-
 .az-header_bottom .az-header_bottom_menu .gva-navigation .gva_menu_main .active a {
   color: #eb1484;
 }
-
 .az-header_bottom .container-inline {
   float: right;
 }
@@ -160,7 +135,6 @@ body {
   padding-top: 20px;
   margin-top: 500px;
 }
-
 .az_clinical_box p {
   width: 50%;
   margin: auto;
@@ -181,24 +155,20 @@ body {
   height: 200px;
   color: white;
 }
-
 .az_clinical_bottom_box .az__bottom_right_box {
   width: 40%;
   float: left;
   margin-top: 50px;
   margin-left: 80px;
 }
-
 .az_clinical_bottom_box .az__bottom_right_box .az__bottom_right_box_title {
   font-weight: bold;
   font-size: 20px;
   margin-bottom: 20px;
 }
-
 .az_clinical_bottom_box .az__bottom_right_box .az__bottom_right_box_body {
   font-weight: lighter;
 }
-
 .az_clinical_bottom_box .az__bottom_left_box {
   float: right;
   width: 180px;
@@ -215,11 +185,9 @@ body {
   font-size: 20px;
   font-weight: bold;
 }
-
 .az-ref-box .az-ref_hr {
   border-top: 1px solid #b8b8b8;
 }
-
 .az-ref-box .az-ref__body {
   color: #b8b8b8;
   font-size: 12px;
@@ -228,30 +196,24 @@ body {
 .az-product-search_box > div:nth-child(1) {
   float: left;
 }
-
 .az-product-search_box > div:nth-child(1) span {
   font-size: 20px;
   font-weight: bold;
 }
-
 .az-product-search_box > div:nth-child(2) {
   float: right;
   height: 40px;
 }
-
 .az-product-search_box > div:nth-child(2) .az-product-searright {
   float: right;
 }
-
 .az-product-search_box > div:nth-child(2) .az-product-searright .az-product-search_button {
   float: left;
 }
-
 .az-product-search_box > div:nth-child(2) .az-product-searright .az-product-search_button input {
   height: 40px;
   border: 1px solid #b8b8b8;
 }
-
 .az-product-search_box > div:nth-child(2) .az-product-searright .az-product-search_icon {
   float: left;
   width: 40px;
@@ -272,16 +234,13 @@ body {
   text-align: center;
   width: 50%;
 }
-
 .az-product_head .az-product_head__title2 {
   font-size: 30px;
   font-weight: bold;
 }
-
 .az-product_head .az-product_head__title1 {
   color: #b8b8b8;
 }
-
 .az-product_head .az-product_head__body {
   color: #b8b8b8;
 }
@@ -291,16 +250,13 @@ body {
   text-align: center;
   width: 50%;
 }
-
 .az-healthtips_head .az-healthtips_head__title2 {
   font-size: 30px;
   font-weight: bold;
 }
-
 .az-healthtips_head .az-healthtips_head__title1 {
   color: #b8b8b8;
 }
-
 .az-healthtips_head .az-healthtips_head__body {
   color: #b8b8b8;
 }
@@ -312,45 +268,36 @@ body {
   border: 1px solid #b8b8b8;
   position: relative;
 }
-
 .az-offer_box .az-healthtips_head {
   margin: auto;
   text-align: center;
   width: 50%;
 }
-
 .az-offer_box .az-healthtips_head .az-healthtips_head__title2 {
   font-size: 30px;
   font-weight: bold;
 }
-
 .az-offer_box .az-healthtips_head .az-healthtips_head__title1 {
   color: #b8b8b8;
 }
-
 .az-offer_box .az-healthtips_head .az-healthtips_head__body {
   color: #b8b8b8;
 }
-
 .az-offer_box .az-offer_body {
   margin: 0px 20px 0px 20px;
 }
-
 .az-offer_box .az-offer_body .az-offer_body_title {
   font-weight: bold;
   height: 40px;
 }
-
 .az-offer_box .az-offer_body .az-offer_sub_title {
   color: #b8b8b8;
 }
-
 .az-offer_box .az-offer_click_bottom {
   float: right;
   text-align: center;
   margin-top: 10px;
 }
-
 .az-offer_box .az-offer_click_bottom a {
   color: white;
   background-color: #eb1484;
@@ -359,7 +306,6 @@ body {
   width: 80px;
   color: white;
 }
-
 .az-offer_box .az-offer_click_bottom a:hover {
   background-color: orange;
 }
@@ -372,7 +318,6 @@ body {
 .az-clinical-result article .node__content {
   margin-bottom: 50px;
 }
-
 .az-clinical-result article .node__content p {
   width: 50%;
   margin: auto;
@@ -381,39 +326,32 @@ body {
   color: #b8b8b8;
   margin-bottom: 10px;
 }
-
 .az-clinical-result article .field__item > p:nth-child(2) {
   font-size: 20px;
   font-weight: bold;
   color: black;
   margin-bottom: 20px;
 }
-
 .az-clinical-result .az-clinical-product-search {
   margin-bottom: 200px;
 }
-
 .az-clinical-result .az-clinical-product-search .az-clinical-bgimg {
   height: 200px;
   background-color: #eb1484;
 }
-
 .az-clinical-result .az-clinical-product-search .az-clinical-bgimg .az-clinical-bgfrontblock {
   text-align: center;
   color: white;
 }
-
 .az-clinical-result .az-clinical-product-search .az-clinical-bgimg .az-clinical-bgfrontblock > div:nth-child(1) {
   padding-top: 40px;
   font-size: 12px;
   font-weight: lighter;
 }
-
 .az-clinical-result .az-clinical-product-search .az-clinical-bgimg .az-clinical-bgfrontblock > div:nth-child(2) {
   font-size: 20px;
   margin-bottom: 20px;
 }
-
 .az-clinical-result .az-clinical-product-search .az-clinical-bgimg .az-clinical-search-block {
   display: block;
   background-color: white;
@@ -426,37 +364,31 @@ body {
   box-shadow: 6px 6px 5px #d0c9c9;
   border-radius: 5px;
 }
-
 .az-clinical-result .az-clinical-product-search .az-clinical-bgimg .az-clinical-search-block .az-search-titile {
   padding: 20px;
   font-weight: bold;
   font-size: 18px;
 }
-
 .az-clinical-result .az-clinical-product-search .az-clinical-bgimg .az-clinical-search-block .az-clinical__search_body {
   margin-top: 20px;
   color: #b8b8b8;
   margin-left: 20px;
 }
-
 .az-clinical-result .az-clinical-product-search .az-clinical-bgimg .az-clinical-search-block .az-clinical__search_body .az-search-clinical-type {
   width: 25%;
   border: 1px solid #b8b8b8;
   height: 50px;
 }
-
 .az-clinical-result .az-clinical-product-search .az-clinical-bgimg .az-clinical-search-block .az-clinical__search_body .az-search-clinical-age {
   width: 20%;
   border: 1px solid #b8b8b8;
   height: 50px;
 }
-
 .az-clinical-result .az-clinical-product-search .az-clinical-bgimg .az-clinical-search-block .az-clinical__search_body .az-search-clinical-sex {
   width: 20%;
   border: 1px solid #b8b8b8;
   height: 50px;
 }
-
 .az-clinical-result .az-clinical-product-search .az-clinical-bgimg .az-clinical-search-block .az-clinical__search_body .az-search-button {
   width: 25%;
   border-radius: 5px;
@@ -487,27 +419,23 @@ body {
     float: left;
   }
 }
-
 @media (min-width: 992px) {
   .col-md-1-7 {
     width: 14.28%;
     float: left;
   }
 }
-
 @media (min-width: 1200px) {
   .col-lg-1-7 {
     width: 14.28%;
     float: left;
   }
 }
-
 .az-ta-clinical-type .az-ta-clinical_content .az-ta-clinical_img {
   float: left;
   width: 40px;
   height: 40px;
 }
-
 .az-ta-clinical-type .az-ta-clinical_content .az-ta-clinical_name {
   line-height: 40px;
 }
@@ -518,24 +446,20 @@ body {
   border-radius: 0px 5px 5px 0px;
   box-shadow: 1px 1px 5px #b8b8b8;
 }
-
 .az-product_box .az-product_img {
   float: left;
   width: 40%;
   display: block;
 }
-
 .az-product_box .az-product_body {
   float: left;
   width: 60%;
   padding-left: 20px;
   padding-top: 20px;
 }
-
 .az-product_box .az-product_body .az-product_body_desc {
   color: #b8b8b8;
 }
-
 .az-product_box .az-product_body .az-product_body_icons {
   float: right;
   height: 24px;
@@ -547,7 +471,6 @@ body {
 .az-product_selectbox {
   display: none;
 }
-
 .az-product_selectbox .az-product_selectbox_content {
   position: fixed;
   margin: auto;
@@ -562,35 +485,29 @@ body {
   border-radius: 5px;
   padding: 25px;
 }
-
 .az-product_selectbox .az-product_selectbox_content p {
   font-weight: bold;
   padding-bottom: 20px;
 }
-
 .az-product_selectbox .az-product_selectbox_content .az-product_selectbox_btn {
   text-align: center;
 }
-
 .az-product_selectbox .az-product_selectbox_content button {
   width: 160px;
   height: 40px;
   border-radius: 5px;
   color: white;
 }
-
 .az-product_selectbox .az-product_selectbox_content .az-product_selectbox_btnyes {
   margin-right: 10px;
   border: 1px solid #eb1484;
   background-color: #eb1484;
 }
-
 .az-product_selectbox .az-product_selectbox_content .az-product_selectbox_btnno {
   margin-left: 10px;
   background-color: #b8b8b8;
   border: 1px solid #b8b8b8;
 }
-
 .az-product_selectbox .az-product_transbkg {
   position: fixed;
   width: 100%;
@@ -605,7 +522,6 @@ body {
 .az-product_duplicate {
   display: none;
 }
-
 .az-product_duplicate .az-product_transbkg {
   position: fixed;
   width: 100%;
@@ -616,7 +532,6 @@ body {
   background-color: black;
   z-index: 10;
 }
-
 .az-product_duplicate .az-product_duplicate_content {
   background-color: white;
   position: fixed;
@@ -630,12 +545,10 @@ body {
   height: 230px;
   border-radius: 0px 8px 8px 0px;
 }
-
 .az-product_duplicate .az-product_duplicate_content .az-product_duplicate_img {
   float: left;
   width: 40%;
 }
-
 .az-product_duplicate .az-product_duplicate_content .az-product_duplicate_img .icon {
   position: absolute;
   background-color: #eb1484;
@@ -645,7 +558,6 @@ body {
   bottom: 150px;
   left: 235px;
 }
-
 .az-product_duplicate .az-product_duplicate_content .az-product_content_close {
   position: absolute;
   right: -15px;
@@ -659,26 +571,22 @@ body {
   border-radius: 30px;
   transform: rotate(45deg);
 }
-
 .az-product_duplicate .az-product_duplicate_content .az-product_duplicate_body {
   float: left;
   margin-left: 20px;
   margin-top: 50px;
   width: 40%;
 }
-
 .az-product_duplicate .az-product_duplicate_content .az-product_duplicate_body .az_duplicate_across {
   width: 50px;
   height: 5px;
   background-color: #eb1484;
   border-radius: 5px;
 }
-
 .az-product_duplicate .az-product_duplicate_content .az-product_duplicate_body a {
   font-size: 20px;
   font-weight: bold;
 }
-
 .az-product_duplicate .az-product_duplicate_content .az-product_duplicate_body p {
   margin-top: 20px;
   color: #b8b8b8;
@@ -689,11 +597,9 @@ body {
   font-size: 12px;
   color: #b8b8b8;
 }
-
 .az-kxin-article-header .az-article_rightbutton {
   float: right;
 }
-
 .az-kxin-article-header .az-article_rightbutton button {
   font-size: 15px;
   width: 120px;
@@ -713,22 +619,18 @@ body {
   border-top: 1px solid #b8b8b8;
   padding-top: 10px;
 }
-
 .az-node__content .az-node__content_bottom_boder .row .col-md-9 > span {
   float: left;
   display: block;
   width: 36px;
   height: 36px;
 }
-
 .az-node__content .az-node__content_bottom_boder .row .col-md-9 > span:nth-child(1) {
   background: transparent url(../images/facebook.png) no-repeat;
 }
-
 .az-node__content .az-node__content_bottom_boder .row .col-md-9 > span:nth-child(2) {
   background: transparent url(../images/instagram.png) no-repeat;
 }
-
 .az-node__content .az-node__content_bottom_boder .row .col-md-9 > span:nth-child(3) {
   background: transparent url(../images/googleplus.png) no-repeat;
 }
@@ -736,30 +638,24 @@ body {
 .az-clinical-search_box > div:nth-child(1) {
   float: left;
 }
-
 .az-clinical-search_box > div:nth-child(1) span {
   font-size: 20px;
   font-weight: bold;
 }
-
 .az-clinical-search_box > div:nth-child(2) {
   float: right;
   height: 40px;
 }
-
 .az-clinical-search_box > div:nth-child(2) .az-clincal-searright {
   float: right;
 }
-
 .az-clinical-search_box > div:nth-child(2) .az-clincal-searright .az-clincal-search_button {
   float: left;
 }
-
 .az-clinical-search_box > div:nth-child(2) .az-clincal-searright .az-clincal-search_button input {
   height: 40px;
   border: 1px solid #b8b8b8;
 }
-
 .az-clinical-search_box > div:nth-child(2) .az-clincal-searright .az-clincal-search_icon {
   float: left;
   width: 40px;
@@ -779,23 +675,19 @@ body {
   float: left;
   width: 50%;
 }
-
 .az-clinical_box .az-clinical_body {
   float: left;
   width: 50%;
   padding-left: 20px;
   padding-top: 20px;
 }
-
 .az-clinical_box .az-clinical_body .az-clinical_body_title a {
   font-weight: bold;
   font-size: 15px;
 }
-
 .az-clinical_box .az-clinical_body .az-clinical_body_desc {
   color: #b8b8b8;
 }
-
 .az-clinical_box .az-clinical_body .az-oclinical_time_bottom span {
   float: right;
   color: #b8b8b8;
@@ -805,21 +697,17 @@ body {
   display: flex;
   margin-bottom: 100px;
 }
-
 .az-contact-main_box .az_contact_rg_box .az_head h5 {
   color: #b8b8b8;
   font-size: 12px;
   font-weight: 500;
 }
-
 .az-contact-main_box .az_contact_rg_box .az_body h5 {
   color: #eb1484;
 }
-
 .az-contact-main_box .az_contact_rg_box .az_body p span {
   color: #b8b8b8;
 }
-
 .az-contact-main_box .az_contact_rg_box .az_body > p:nth-child(2) {
   background: transparent url(../images/blackphone.png) no-repeat;
   height: 60px;
@@ -828,7 +716,6 @@ body {
   background-position: 10px;
   background-size: 30px 30px;
 }
-
 .az-contact-main_box .az_contact_rg_box .az_body > p:nth-child(3) {
   background: transparent url(../images/time.png) no-repeat;
   height: 60px;
@@ -837,7 +724,6 @@ body {
   background-position: 10px;
   background-size: 30px 30px;
 }
-
 .az-contact-main_box .az_contact_rg_box .az_body > p:nth-child(4) {
   background: transparent url(../images/question.png) no-repeat;
   height: 60px;
@@ -846,14 +732,12 @@ body {
   background-position: 10px;
   background-size: 30px 30px;
 }
-
 .az-contact-main_box .az-contact-form_body {
   border: 1px solid #d0c9c9;
   background-color: white;
   width: 100%;
   box-shadow: -5px 5px 10px -7px grey, 5px 5px 10px -7px grey;
 }
-
 .az-contact-main_box .az-contact-form_body .az_title {
   font-weight: bold;
   font-size: 20px;
@@ -862,7 +746,6 @@ body {
   border-left: 5px solid #eb1484;
   border-radius: 5px;
 }
-
 .az-contact-main_box .az-contact-form_body .az_contact_form {
   margin: 20px 20px;
 }
@@ -876,49 +759,38 @@ body {
   padding-right: 16px;
   padding-bottom: 10px;
 }
-
 .webform-submission-contact-form .js-form-item-subject {
   padding-bottom: 10px;
 }
-
 .webform-submission-contact-form .js-form-item-message {
   padding-bottom: 10px;
 }
-
 .webform-submission-contact-form .js-form-item-message input {
   height: 110px;
 }
-
 .webform-submission-contact-form .js-form-item-code {
   display: flex;
   padding-bottom: 20px;
 }
-
 .webform-submission-contact-form .js-form-item-code input#edit-code {
   width: 20%;
 }
-
 .webform-submission-contact-form .js-form-item-code .description {
   padding-left: 10px;
 }
-
 .webform-submission-contact-form .js-form-item-code .description .webform-element-description .az-validcode {
   display: flex;
 }
-
 .webform-submission-contact-form .js-form-item-termcheck {
   display: flex;
 }
-
 .webform-submission-contact-form .js-form-item-termcheck .description {
   padding-left: 10px;
   padding-bottom: 50px;
 }
-
 .webform-submission-contact-form .webform-actions {
   text-align: center;
 }
-
 .webform-submission-contact-form .webform-actions input {
   width: 200px;
   background: #eb1484;
@@ -927,17 +799,14 @@ body {
 .az-header-topimg {
   position: relative;
 }
-
 .az-header-topimg img {
   width: 100%;
 }
-
 .az-header-topimg .az-header-imgbody {
   position: absolute;
   top: 10%;
   left: 20%;
 }
-
 .az-header-topimg .az-header-imgbody > p:nth-child(1) {
   background-color: #eb1484;
   height: 3vw;
@@ -945,25 +814,21 @@ body {
   text-align: center;
   border-radius: 10px;
 }
-
 .az-header-topimg .az-header-imgbody > p:nth-child(1) a {
   color: white;
   font-weight: bold;
   font-size: 1vw;
 }
-
 .az-header-topimg .az-header-imgbody > p:nth-child(2) {
   font-size: 5vw;
   color: white;
   font-weight: bold;
 }
-
 .az-header-topimg .az-header-imgbody > p:nth-child(3) {
   color: #eb1484;
   font-size: 2vw;
   font-weight: 500;
 }
-
 .az-header-topimg .az-header-imgbody > p:nth-child(4) {
   color: white;
   font-size: 1.2vw;
@@ -997,16 +862,13 @@ body {
   height: 496px;
   padding: 5% 10% 5% 10%;
 }
-
 .field--type-text-with-summary .row .left h5 {
   color: white;
   font-size: 40px;
 }
-
 .field--type-text-with-summary .row .right {
   padding-left: 0px !important;
 }
-
 .field--type-text-with-summary .row .right img {
   width: 100%;
 }
@@ -1014,15 +876,12 @@ body {
 .az-header-bbox {
   display: flex;
 }
-
 .az-header-bbox .az-header-search-box {
   margin-top: 25px;
 }
-
 .az-header-bbox .menu-bar {
   right: 30px;
 }
-
 .az-header-bbox .az-header-right {
   margin-top: 25px;
 }
@@ -1030,37 +889,31 @@ body {
 #footer .footer-center {
   background: unset;
 }
-
 #footer .footer-center #block-footerleft div.field--name-body {
   display: flex;
 }
-
 #footer .footer-center #block-webform .block-title span {
   color: #b8b8b8 !important;
 }
-
 #footer .footer-center #block-webform .block-content form {
   display: flex;
   justify-content: space-between;
 }
-
 #footer .footer-center #block-webform .block-content form #edit-email {
   max-width: 200px;
   height: 40px;
 }
-
 #footer .footer-center #block-webform .block-content form #edit-ta-type {
   max-width: 200px;
   height: 40px;
 }
-
 #footer .footer-center #block-webform .block-content form #edit-actions-submit {
   height: 40px;
   background: #EB1384;
 }
 
 footer#footer::after {
-  content: ' ';
+  content: " ";
   width: 100%;
   height: 40px;
   background-color: #0f0f0f;
@@ -1086,13 +939,11 @@ footer#footer::after {
   margin-left: 29%;
   display: flex;
 }
-
 .az-offer-article .az-offerdetail .az-off-pp-params {
   border-top: 1px solid #d9d8d8;
   border-bottom: 1px solid #d9d8d8;
   width: 25%;
 }
-
 .az-offer-article .az-offerdetail .az-off-pp-area {
   border-top: 1px solid #d9d8d8;
   border-bottom: 1px solid #d9d8d8;
@@ -1108,7 +959,6 @@ footer#footer::after {
   left: -10%;
   top: 0px;
 }
-
 .az-offernode__content_body p {
   color: #b8b8b8;
 }
@@ -1127,7 +977,6 @@ footer#footer::after {
 .az-offer-article {
   margin-bottom: 10px;
 }
-
 .az-offer-article .field--name-field-medicine-shop-params {
   position: relative;
   left: 11%;
@@ -1155,40 +1004,33 @@ footer#footer::after {
   position: relative;
   top: -100px;
 }
-
 .az-clinical-right-box .az-clinical-rbx_title {
   font-size: 20px;
   font-weight: bold;
   padding-left: 20px;
 }
-
 .az-clinical-right-box .az-clinical-rbx_desc {
   margin-bottom: 20px;
   margin-top: 20px;
   padding-left: 20px;
 }
-
 .az-clinical-right-box .az-clinical-rbx__boom {
   display: flex;
   padding-left: 20px;
 }
-
 .az-clinical-right-box .az-clinical-rbx_logo {
   position: relative;
   top: -35px;
   left: 10px;
 }
-
 .az-clinical-right-box .az-clinical-bottom-box {
   text-align: center;
   padding-bottom: 20px;
 }
-
 .az-clinical-right-box .az-clinical-bottom-box span {
   font-size: 15px;
   font-weight: bold;
 }
-
 .az-clinical-right-box .az-clinical-bottom-box div button {
   border: 0px;
   background-color: #eb1484;
@@ -1221,27 +1063,22 @@ footer#footer::after {
 .block-quicktabs {
   border: none;
 }
-
 .block-quicktabs .ui-widget.ui-widget-content {
   border: none;
 }
-
 .block-quicktabs .ui-widget.ui-widget-content .ui-tabs-nav {
   border: none;
   background: none;
 }
-
 .block-quicktabs .ui-widget.ui-widget-content .ui-tabs-nav li {
   border: none;
   background: none;
 }
-
 .block-quicktabs .ui-widget.ui-widget-content .ui-tabs-nav li a {
   color: black;
   display: flex;
   align-items: center;
 }
-
 .block-quicktabs .ui-widget.ui-widget-content .ui-tabs-nav li a img {
   margin-right: 10px;
 }
@@ -1249,7 +1086,6 @@ footer#footer::after {
 .az-clinical-subjest-email {
   display: none;
 }
-
 .az-clinical-subjest-email .az-clinical_transbkg {
   position: fixed;
   width: 100%;
@@ -1260,42 +1096,38 @@ footer#footer::after {
   background-color: black;
   z-index: 10;
 }
-
 .az-clinical-subjest-email .az-clinical-subjest-body > div {
   /*   &:nth-child(3) {
-            span{
-                margin-right: 20px;
-            }
-            input{
-                border:1px solid $color-gray;
-                width: 200px;
-                height: 40px;
-                margin-left: 20px;
-            }
+        span{
+            margin-right: 20px;
         }
-        &:nth-child(4) {
+        input{
             border:1px solid $color-gray;
             width: 200px;
-            line-height: 40px;
-            margin-left: 105px;
-            margin-bottom: 30px;
-            input{
-                margin-left: 20px;
-            }
-        } */
+            height: 40px;
+            margin-left: 20px;
+        }
+    }
+    &:nth-child(4) {
+        border:1px solid $color-gray;
+        width: 200px;
+        line-height: 40px;
+        margin-left: 105px;
+        margin-bottom: 30px;
+        input{
+            margin-left: 20px;
+        }
+    } */
 }
-
 .az-clinical-subjest-email .az-clinical-subjest-body > div:nth-child(2) span {
   margin-right: 60px;
 }
-
 .az-clinical-subjest-email .az-clinical-subjest-body > div:nth-child(2) input {
   border: 1px solid #b8b8b8;
   width: 200px;
   height: 40px;
   margin-left: 20px;
 }
-
 .az-clinical-subjest-email .az-clinical-subjest-body {
   position: fixed;
   margin: auto;
@@ -1310,44 +1142,36 @@ footer#footer::after {
   border-radius: 5px;
   padding: 25px;
 }
-
 .az-clinical-subjest-email .az-clinical-subjest-body p {
   font-weight: bold;
   padding-bottom: 20px;
 }
-
 .az-clinical-subjest-email .az-clinical-subjest-body p span {
   font-size: 12px;
   color: gray;
 }
-
 .az-clinical-subjest-email .az-clinical-subjest-body div {
   height: 40px;
   margin-bottom: 20px;
 }
-
 .az-clinical-subjest-email .az-clinical-subjest-body div span {
   font-size: 18px;
   font-weight: 500;
 }
-
 .az-clinical-subjest-email .az-clinical-subjest-body .az-clinical-subjest_btn {
   text-align: center;
 }
-
 .az-clinical-subjest-email .az-clinical-subjest-body button {
   width: 160px;
   height: 40px;
   border-radius: 5px;
   color: white;
 }
-
 .az-clinical-subjest-email .az-clinical-subjest-body .az-clinical-subjest_btnemail {
   margin-right: 10px;
   border: 1px solid #eb1484;
   background-color: #eb1484;
 }
-
 .az-clinical-subjest-email .az-clinical-subjest-body .az-clinical-subjest_btncancel {
   margin-left: 10px;
   background-color: #b8b8b8;
@@ -1357,20 +1181,36 @@ footer#footer::after {
 .page-node-7 div.field--name-body {
   text-align: center;
 }
-
 .page-node-7 div.field--name-body h3 {
   font-size: 20px;
   color: #b8b8b8;
 }
-
 .page-node-7 div.field--name-body p {
   color: #b8b8b8;
 }
-
 .page-node-7 #block-views-block-ta-campaign-block-1 {
   overflow: hidden;
 }
-
 .page-node-7 #block-views-block-ta-campaign-block-1 .view-content-wrap {
   overflow: hidden;
+}
+
+.node--type-page div.field--name-body {
+  text-align: center;
+}
+.node--type-page div.field--name-body h3 {
+  font-size: 20px;
+  color: #b8b8b8;
+}
+.node--type-page div.field--name-body p {
+  color: #b8b8b8;
+}
+
+.node--type-health-information #block-astrazeneca-page-title .page-title::after {
+  content: "";
+  width: 68px;
+  height: 7px;
+  display: block;
+  background: #EB1384;
+  border-radius: 5px;
 }
