@@ -1,0 +1,35 @@
+{
+    "_links": {
+        "self": {
+            "href": ""
+        },
+        "type": {
+            "href": "http:\/\/default\/rest\/type\/path_alias\/path_alias"
+        }
+    },
+    "uuid": [
+        {
+            "value": "ae927f7e-8e1c-4d59-9e6d-313bfaa3a6ce"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en"
+        }
+    ],
+    "path": [
+        {
+            "value": "\/node\/79"
+        }
+    ],
+    "alias": [
+        {
+            "value": "\/cardiovascualr\/high-cholesterol"
+        }
+    ],
+    "status": [
+        {
+            "value": true
+        }
+    ]
+}

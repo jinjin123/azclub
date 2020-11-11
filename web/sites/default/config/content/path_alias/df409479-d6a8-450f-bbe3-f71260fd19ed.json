@@ -1,0 +1,35 @@
+{
+    "_links": {
+        "self": {
+            "href": ""
+        },
+        "type": {
+            "href": "http:\/\/default\/rest\/type\/path_alias\/path_alias"
+        }
+    },
+    "uuid": [
+        {
+            "value": "df409479-d6a8-450f-bbe3-f71260fd19ed"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en"
+        }
+    ],
+    "path": [
+        {
+            "value": "\/node\/77"
+        }
+    ],
+    "alias": [
+        {
+            "value": "\/gastrointestinal\/helicobacter-pylori"
+        }
+    ],
+    "status": [
+        {
+            "value": true
+        }
+    ]
+}
