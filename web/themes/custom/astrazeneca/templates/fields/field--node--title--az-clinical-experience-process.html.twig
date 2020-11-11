@@ -32,7 +32,8 @@
   <div class="az-article-righticon"></div>
   <span{{ attributes.addClass(classes) }}>
     {%- for item in items -%}
-      <div>{{ item.content|e|replace({' ': '<br />'})|raw }}</div>
+{#      <div>{{ item.content|e|replace({' ': '<br />'})|raw }}</div>#}
+      <div>{{ item.content }} </div>
     {%- endfor -%}
   </span>
 </div>

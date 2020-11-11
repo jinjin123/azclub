@@ -477,9 +477,20 @@ body {
     border-radius: 5px;
     color: white; }
 
+.az-bottom-link-author {
+  text-align: right; }
+
 .az-article-header {
   position: relative;
-  left: 40%; }
+  left: 41.5%; }
+  .az-article-header .az-healthtips-title div {
+    font-size: 21px; }
+
+.az-offerdetail-article-header {
+  position: relative;
+  left: 37%; }
+  .az-offerdetail-article-header span div {
+    font-size: 21px; }
 
 .az-node__content .az-node__content_bottom_boder {
   border-top: 1px solid #b8b8b8;
@@ -746,19 +757,24 @@ body {
 
 .az-offers_product_box {
   position: relative;
-  clear: both;
-  left: 15%;
+  left: -30%;
   top: -200px; }
-
-.az-offers_logoimg {
-  clear: both;
-  position: absolute;
-  top: 35%;
-  left: 30%; }
+  .az-offers_product_box .az-offers_bgimg {
+    position: relative;
+    margin: 0 auto;
+    top: 50px; }
+  .az-offers_product_box .az-offers_logoimg {
+    position: relative;
+    top: 35%;
+    width: 40%;
+    margin-top: 0;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: auto; }
 
 .az-offer-article .az-offerdetail {
   position: relative;
-  margin-left: 29%;
+  margin-left: 25.5%;
   display: flex; }
   .az-offer-article .az-offerdetail .az-off-pp-params {
     border-top: 1px solid #d9d8d8;
@@ -767,25 +783,31 @@ body {
   .az-offer-article .az-offerdetail .az-off-pp-area {
     border-top: 1px solid #d9d8d8;
     border-bottom: 1px solid #d9d8d8;
-    width: 25%; }
-
-.az-medicine-shop-header {
-  display: flex; }
+    width: 25%;
+    text-align: right; }
 
 .az-offernode__content_body {
   position: relative;
-  left: -10%;
-  top: 0px; }
+  left: -29.5%;
+  top: 120px;
+  display: block; }
   .az-offernode__content_body p {
     color: #b8b8b8; }
 
 .az-offers_shop {
-  margin-bottom: 20px;
-  top: 0px;
-  left: 40%; }
+  display: block;
+  position: relative;
+  width: 40%;
+  margin-top: 8%;
+  margin-left: 36%;
+  margin-right: auto;
+  margin-bottom: 20px; }
+  .az-offers_shop div img {
+    width: 100%; }
 
 .az-medicine-shop-header {
-  left: 39%;
+  left: 35.8%;
+  display: flex;
   position: relative; }
 
 .az-offer-article {
@@ -823,6 +845,8 @@ body {
   .az-clinical-right-box .az-clinical-rbx__boom {
     display: flex;
     padding-left: 20px; }
+    .az-clinical-right-box .az-clinical-rbx__boom .field--name-field-az-body {
+      padding-bottom: 10px; }
   .az-clinical-right-box .az-clinical-rbx_logo {
     position: relative;
     top: -35px;
@@ -833,24 +857,56 @@ body {
     .az-clinical-right-box .az-clinical-bottom-box span {
       font-size: 15px;
       font-weight: bold; }
-    .az-clinical-right-box .az-clinical-bottom-box div button {
-      border: 0px;
-      background-color: #eb1484;
-      color: white;
-      border-radius: 5px;
-      width: 45%; }
+    .az-clinical-right-box .az-clinical-bottom-box div {
+      margin-top: 20px; }
+      .az-clinical-right-box .az-clinical-bottom-box div button {
+        border: 0px;
+        background-color: #eb1484;
+        color: white;
+        border-radius: 5px;
+        width: 45%; }
 
-.az-middle-box .az-clinical-mid__boom {
+.az-clinical-middle-kv .az-middle-box .az-clinical-mid__boom {
   display: flex; }
+  .az-clinical-middle-kv .az-middle-box .az-clinical-mid__boom .az-middle-rgx {
+    width: 100%; }
+
+.node--type-az-clinical-experience-process .field--name-field-refers {
+  display: block;
+  width: 50%;
+  margin-top: 190px;
+  margin-bottom: 0;
+  margin-left: 42%;
+  margin-right: auto; }
+
+.field--name-field-az-clinical-mid-params {
+  width: 50%;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 42%;
+  margin-right: auto; }
+  .field--name-field-az-clinical-mid-params .field__item .paragraph--type--clinical-trial-portal-category-p {
+    position: relative;
+    margin-top: 20px;
+    top: 150px;
+    display: block; }
 
 .paragraph--type--clinical-trial-portal-category-p .field--name-field-az-clinical-category-item {
-  display: flex; }
+  display: flex;
+  width: 70%;
+  flex-wrap: wrap; }
 
 .node--type-az-clinical-experience-process .node__content .field--name-body {
   position: relative;
-  top: 150px;
-  margin-top: 10px;
-  left: 2%; }
+  top: 120px;
+  /* margin-top: 10px; */
+  left: 2%;
+  display: block;
+  width: 50%;
+  /* margin-top: 190px; */
+  margin-bottom: 0;
+  margin-left: 40%;
+  margin-right: auto; }
 
 .paragraph--type--clinical-trial-portal-category-p {
   position: relative;
