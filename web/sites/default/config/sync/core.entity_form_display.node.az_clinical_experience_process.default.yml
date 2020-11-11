@@ -4,13 +4,11 @@ status: true
 dependencies:
   config:
     - field.field.node.az_clinical_experience_process.body
-    - field.field.node.az_clinical_experience_process.field_az_clinical_article_page
-    - field.field.node.az_clinical_experience_process.field_az_clinical_short_desc
+    - field.field.node.az_clinical_experience_process.field_az_clinical_mid_params
     - field.field.node.az_clinical_experience_process.field_clinical_logo_info
-    - image.style.thumbnail
+    - field.field.node.az_clinical_experience_process.field_refers
     - node.type.az_clinical_experience_process
   module:
-    - image
     - paragraphs
     - path
     - text
@@ -35,17 +33,9 @@ content:
     region: content
     settings: {  }
     third_party_settings: {  }
-  field_az_clinical_article_page:
-    weight: 125
-    settings:
-      progress_indicator: throbber
-      preview_image_style: thumbnail
-    third_party_settings: {  }
-    type: image_image
-    region: content
-  field_az_clinical_short_desc:
+  field_az_clinical_mid_params:
     type: entity_reference_paragraphs
-    weight: 123
+    weight: 121
     settings:
       title: Paragraph
       title_plural: Paragraphs
@@ -66,6 +56,14 @@ content:
       form_display_mode: default
       default_paragraph_type: ''
     third_party_settings: {  }
+    region: content
+  field_refers:
+    weight: 123
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+    type: text_textarea
     region: content
   path:
     type: path

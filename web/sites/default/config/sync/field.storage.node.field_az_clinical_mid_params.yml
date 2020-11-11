@@ -1,4 +1,4 @@
-uuid: 3991d558-d905-486d-866a-29665c9f7fe8
+uuid: 8cd730ad-12dd-449f-8ce2-404e73b2ca19
 langcode: en
 status: true
 dependencies:
@@ -6,8 +6,8 @@ dependencies:
     - entity_reference_revisions
     - node
     - paragraphs
-id: node.field_az_clinical_short_desc
-field_name: field_az_clinical_short_desc
+id: node.field_az_clinical_mid_params
+field_name: field_az_clinical_mid_params
 entity_type: node
 type: entity_reference_revisions
 settings:

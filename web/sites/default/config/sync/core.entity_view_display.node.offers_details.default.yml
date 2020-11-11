@@ -28,7 +28,7 @@ content:
     third_party_settings: {  }
     region: content
   field_az_offers_product_logo:
-    weight: 106
+    weight: 100
     label: hidden
     settings:
       image_style: ''
@@ -55,7 +55,7 @@ content:
     third_party_settings: {  }
     region: content
   field_offer_img:
-    weight: 102
+    weight: 99
     label: hidden
     settings:
       image_style: ''
@@ -64,7 +64,7 @@ content:
     type: image
     region: content
   field_offer_img_description:
-    weight: 104
+    weight: 101
     label: hidden
     settings: {  }
     third_party_settings: {  }
@@ -76,4 +76,5 @@ content:
     settings: {  }
     third_party_settings: {  }
 hidden:
+  addtoany: true
   search_api_excerpt: true
