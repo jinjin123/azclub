@@ -16,7 +16,7 @@ third_party_settings:
     classes: ''
 id: homerenshikangxinzhiyou
 theme: astrazeneca
-region: content
+region: fw_after_content
 weight: -8
 provider: null
 plugin: 'block_content:121544e5-1f04-4139-8968-494680cee452'
