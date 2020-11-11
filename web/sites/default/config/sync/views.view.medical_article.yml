@@ -75,6 +75,10 @@ display:
             automatically_load_content: false
       style:
         type: default
+        options:
+          grouping: {  }
+          row_class: 'col-sm-12 col-md-6 col-lg-3'
+          default_row_class: true
       row:
         type: fields
       fields:
@@ -401,7 +405,7 @@ display:
           exclude: false
           alter:
             alter_text: true
-            text: "<div class=\"col-sm-12 col-md-6 col-lg-3\">\r\n <div class=\"az-cardtow_box\">\r\n  <div class=\"az-cardtow_img\"> {{ field_medical_article_img }}</div>\r\n  <div class=\"az-cardtow_body\">\r\n     <h4 class=\"az-cardtow_body_title\">{{ title }}</h4>\r\n    <div class=\"az-cardtow_sub_title\"><p>{{ field_medical_article_tag }}</p><p>{{ created }}</p></div>\r\n<div class=\"az-cardtow_click_bottom\"><a href=\"{{ view_node }}\">了解更多</a></div>\r\n  </div>\r\n</div></div>"
+            text: " <div class=\"az-cardtow_box\">\r\n  <div class=\"az-cardtow_img\"> {{ field_medical_article_img }}</div>\r\n  <div class=\"az-cardtow_body\">\r\n     <h4 class=\"az-cardtow_body_title\">{{ title }}</h4>\r\n    <div class=\"az-cardtow_sub_title\"><p>{{ field_medical_article_tag }}</p><p>{{ created }}</p></div>\r\n<div class=\"az-cardtow_click_bottom\"><a href=\"{{ view_node }}\">了解更多</a></div>\r\n  </div>\r\n</div>"
             make_link: false
             path: ''
             absolute: false
@@ -531,6 +535,7 @@ display:
       relationships: {  }
       arguments: {  }
       display_extenders: {  }
+      use_ajax: true
     cache_metadata:
       max-age: -1
       contexts:

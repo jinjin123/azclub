@@ -66,6 +66,10 @@ display:
           offset: 0
       style:
         type: default
+        options:
+          grouping: {  }
+          row_class: 'col-sm-12 col-md-6 col-lg-4'
+          default_row_class: true
       row:
         type: fields
       fields:
@@ -406,7 +410,7 @@ display:
           exclude: false
           alter:
             alter_text: true
-            text: "<div class=\"col-sm-12 col-md-6 col-lg-4\">\r\n <div class=\"az-cardthree_box\">\r\n  <div class=\"az-cardthree_img\"> {{ field_ta_campaign_img }} </div>\r\n  <div class=\"az-cardthree_body\">\r\n<div class=\"az-cardthree_logoimg\"> {{ field_ta_campaign_logo }} </div>\r\n     <h4 class=\"az-cardthree_body_title\"><a href=\"{{ field_link }}\">{{ title }}</a></h4>\r\n    <div class=\"az-cardthree_sub_title\">{{body}}</div>\r\n<div class=\"az-cardthree_click_bottom\"><a href=\"{{ field_link }}\">了解更多</a></div>\r\n  </div>\r\n</div></div>"
+            text: "<div class=\"az-cardthree_box\">\r\n  <div class=\"az-cardthree_img\"> {{ field_ta_campaign_img }} </div>\r\n  <div class=\"az-cardthree_body\">\r\n<div class=\"az-cardthree_logoimg\"> {{ field_ta_campaign_logo }} </div>\r\n     <h4 class=\"az-cardthree_body_title\"><a href=\"{{ field_link }}\">{{ title }}</a></h4>\r\n    <div class=\"az-cardthree_sub_title\">{{body}}</div>\r\n<div class=\"az-cardthree_click_bottom\"><a href=\"{{ field_link }}\">了解更多</a></div>\r\n  </div>\r\n</div>"
             make_link: false
             path: ''
             absolute: false

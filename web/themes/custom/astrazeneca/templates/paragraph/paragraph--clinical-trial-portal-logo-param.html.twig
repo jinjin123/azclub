@@ -38,6 +38,19 @@
  * @ingroup themeable
  */
 #}
+<div class="az-clinical-subjest-email">
+<div class="az-clinical-subjest-body">
+<p>Subjest：<span>免費申請加入「康心摯友」計劃</span></p>
+<div><span>To:</span><input class="az-clinical-inputemil" type="seart"  placeholder="email@example.com" /></div>
+{# <div><span>Format:</span><input class="az-clinical-inputsummary" type="seart"  placeholder="Summary" /></div>
+<div><input class="az-clinical-inputrobot"  placeholder="I'm not a robot" type="radio" /></div> #}
+<div class="az-clinical-subjest_btn">
+<button type="button" class="az-clinical-subjest_btnemail">Send Email</button>
+<button type="button" class="az-clinical-subjest_btncancel">Cancel</button>
+</div>
+</div>
+<div class="az-clinical_transbkg"></div>
+</div>
 {%
   set classes = [
   'row',
@@ -64,11 +77,11 @@
     {% block content %}
 {#      <div class="az-off-pp-params">{{ content['field_shopname']}}</div><div class="az-off-pp-params">{{ content['field_shop_detail']}}</div><div class="az-off-pp-params">#}
 {#      {{ content['field_phone']}}</div><div class="az-off-pp-area">{{ content['field_area']}}</div>#}
-      <div class="az-clinical-right-box">
+      <div class="az-clinical-right-box ">
         <div>{{ content["field_az_clinical_page_image"] }}</div>
         <div class="az-clinical-rbx_logo"> {{ content['field_field_az_clinical_param_lo'] }}</div>
-        <div>{{ content["field_az_clinical_title"] }}</div>
-        <div>{{ content["field_az_clinical_short_desc"] }}</div>
+        <div class="az-clinical-rbx_title">{{ content["field_az_clinical_title"] }}</div>
+        <div class="az-clinical-rbx_desc">{{ content["field_az_clinical_short_desc"] }}</div>
         <div class="az-clinical-rbx__boom"><label>Area:</label> {{ content["field_az_area"] }}</div>
         <div class="az-clinical-rbx__boom"><label>Sex:</label> {{ content["field_az_se"] }}</div>
         <div class="az-clinical-rbx__boom"><label>Status:</label> {{ content["field_az_status"] }}</div>
@@ -82,7 +95,7 @@
         <div class="az-clinical-bottom-box">
             <span>Trial company logo</span>
             <div>
-              <button>Email</button>
+              <button class="az-clinical-bbx-email">Email</button>
               <button>Print</button>
             </div>
         </div>

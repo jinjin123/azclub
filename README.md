@@ -18,7 +18,7 @@ drush dcde node
 ```
 >Export node and its relation entity
 ```
-drush dcder node
+drush dcder node && drush dcder path_alias
 ```
 >Export single node
 ```

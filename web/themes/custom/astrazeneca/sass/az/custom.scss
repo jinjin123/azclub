@@ -3,6 +3,101 @@
 body {
     background-color:  $head-cus!important;
 } */
+@media (min-width: 1200px){
+    #block-views-block-ta-campaign-block-1{
+        .block-content{
+            width: 1200px;
+        }
+    }
+}
+
+//card
+.az-cardthree_box{
+    border: 1px solid $color-gray;
+    padding-bottom: 30px;
+    float: left;
+    margin-bottom: 20px;
+    .az-cardthree_img{
+        img{
+            width: 100%;
+        }
+    }
+    .az-cardthree_body{
+        margin-top: 15px;
+        padding-left: 15px;
+        position: relative;
+        .az-cardthree_logoimg{
+            position: absolute;
+            bottom: 10%;
+            left: 70%;
+        }
+        .az-cardthree_body_title{
+            font-weight: bold;
+            font-size: 20px;
+        }
+        .az-cardthree_sub_title{
+            color: $color-gray;
+            p{
+                float: left;
+            }
+        }
+        .az-cardthree_click_bottom{
+            float: right;
+
+            text-align: center;
+            a{
+                background-color: $color-red;
+                border-radius: 5px;
+                padding: 5px 10px;
+                width: 80px;
+                color: white;
+            }
+            a:hover{
+                background-color: orange!important;
+            }
+        }
+    }
+}
+.az-cardtow_box{
+    box-shadow:0px 0px  10px 5px $color-gray;
+    padding-bottom: 30px;
+    .az-cardtow_img{
+        img{
+            width: 100%;
+        }
+    }
+    .az-cardtow_body{
+        margin-top: 15px;
+        padding-left: 15px;
+        position: relative;
+        padding-bottom: 10px;
+        .az-cardtow_body_title{
+            font-weight: bold;
+            font-size: 20px;
+        }
+        .az-cardtow_sub_title{
+            color: $color-gray;
+            p{
+                float: left;
+            }
+        }
+        .az-cardtow_click_bottom{
+            float: right;
+            text-align: center;
+            margin-right: 10px;
+            a{
+                background-color: $color-red;
+                border-radius: 5px;
+                padding: 5px 10px;
+                width: 80px;
+                color: white;
+            }
+            a:hover{
+                background-color: orange!important;
+            }
+        }
+    }
+}
 #search-block-form{
     input{
         background: transparent url(../images/search-icon.png) no-repeat;
@@ -585,7 +680,6 @@ body {
     float: right;
 
     button {
-
       font-size: 15px;
       width: 120px;
       height: 40px;
@@ -604,7 +698,6 @@ body {
         .row{
             .col-md-9>span{
                 float: left;
-
                 display: block;
                 width: 36px;
                 height: 36px;
@@ -707,6 +800,32 @@ body {
         color: $color-red;
       }
     }
+    .az_body>p {
+        &:nth-child(2) {
+            background: transparent url(../images/blackphone.png) no-repeat;
+            height: 60px;
+            line-height: 60px;
+            padding-left: 50px;
+            background-position: 10px;
+            background-size: 30px 30px;
+        }
+        &:nth-child(3) {
+            background: transparent url(../images/time.png) no-repeat;
+            height: 60px;
+            line-height: 60px;
+            padding-left: 50px;
+            background-position: 10px;
+            background-size: 30px 30px;
+        }
+        &:nth-child(4) {
+            background: transparent url(../images/question.png) no-repeat;
+            height: 60px;
+            line-height: 60px;
+            padding-left: 50px;
+            background-position: 10px;
+            background-size: 30px 30px;
+        }
+      }
   }
 
   .az-contact-form_body {
@@ -714,7 +833,14 @@ body {
     background-color: white;
     width: 100%;
     box-shadow: 0 0px 10px #d0c9c9;
-
+    .az_title{
+        font-weight: bold;
+        font-size: 20px;
+        margin: 15px;
+        padding: 5px;
+        border-left: 5px solid $color-red;
+        border-radius: 5px;
+    }
     .az_contact_form {
       margin: 20px 20px;
     }
@@ -774,37 +900,81 @@ body {
     }
     .az-header-imgbody{
         position: absolute;
-        top:80px;
-        left: 300px;
+        top:10%;
+        left: 20%;
     }
     .az-header-imgbody>p{
         &:nth-child(1) {
             background-color: $color-red;
-        width: 200px;
-        height: 40px;
-        line-height: 40px;
-        text-align: center;
-        border-radius: 10px;
+            height: 3vw;
+            line-height: 3vw;
+            text-align: center;
+            border-radius: 10px;
         a{
             color: white;
             font-weight: bold;
-            font-size: 20px;
+            font-size: 1vw;
         }
         }
         &:nth-child(2){
-            font-size: 80px;
+            font-size: 5vw;
             color: white;
             font-weight: bold;
         }
         &:nth-child(3){
             color: $color-red;
-            font-size: 40px;
+            font-size: 2vw;
             font-weight: 500;
         }
         &:nth-child(4){
             color: white;
-            font-size: 18px;
+            font-size: 1.2vw;
             font-weight: 200;
+            width: 22vw;
+        }
+    }
+}
+
+    .az-home_toptext1{
+        color: $color-gray;
+        text-align: center;
+        margin-bottom: 15px;
+        margin-top: 60px;
+    }
+    .az-home_toptext2{
+        font-size: 20px;
+        font-weight: bold;
+        text-align: center;
+        margin-bottom: 15px!important;
+    }
+    .az-home_toptext3{
+        color: $color-gray;
+        text-align: center;
+        margin-bottom: 60px!important;
+    }
+#block-views-block-ta-campaign-block-1{
+    .block-content{
+        margin: auto;
+    }
+}
+
+.field--type-text-with-summary{
+    .row{
+        .left{
+            color: white;
+            background-color: $color-red;
+            height: 496px;
+            padding: 5% 10% 5% 10%;
+            h5{
+                color: white;
+                font-size: 40px;
+            }
+        }
+        .right{
+            padding-left:0px!important;
+            img{
+                width: 100%;
+            }
         }
     }
 }
@@ -888,25 +1058,23 @@ body {
 }
 
 .az-offers_product_box {
-  position: absolute;
+  position: relative;
   clear: both;
-  left: 300px;
-  top: -100px;
+  left: 15%;
+  top: -200px;
 }
 
 .az-offers_logoimg {
-  float: left;
   clear: both;
-  position: relative;
-  top: -30px;
-  left: 30px;
+  position: absolute;
+  top: 35%;
+  left: 30%;
 }
 
 .az-offer-article {
   .az-offerdetail {
     position: relative;
-    margin-right: 400px;
-    margin-left: 530px;
+    margin-left: 29%;
     display: flex;
     .az-off-pp-params {
       border-top: 1px solid #d9d8d8;
@@ -931,24 +1099,27 @@ body {
 //}
 .az-offernode__content_body {
   position: relative;
-  left: -180px;
-  top: 150px;
+  left: -10%;
+  top: 0px;
+  p{
+      color: $color-gray;
+  }
 }
 .az-offers_shop {
-  margin-bottom: 250px;
-  top: 200px;
-  left: 700px;
+    margin-bottom: 20px;
+    top: 0px;
+    left: 40%;
 }
 
 .az-medicine-shop-header {
-  left:700px;
+  left:39%;
   position: relative;
 }
 .az-offer-article {
   margin-bottom: 10px;
   .field--name-field-medicine-shop-params {
     position: relative;
-    left: 180px;
+    left: 11%;
   }
 }
 
@@ -966,11 +1137,23 @@ body {
   text-align: center;
   margin-left: 10px;
   width: 200px;
+
 }
 
+
+
 .az-clinical-right-box {
+    border: 1px solid $color-gray;
   position: relative;
   top: -100px;
+  .az-clinical-rbx_title{
+      font-size: 20px;
+      font-weight: bold;
+  }
+  .az-clinical-rbx_desc{
+      margin-bottom: 20px;
+      margin-top: 20px;
+  }
   .az-clinical-rbx__boom {
     display: flex;
   }
@@ -978,6 +1161,17 @@ body {
     position: relative;
     top: -35px;
     left: 10px;
+  }
+  .az-clinical-bottom-box{
+      div{
+          button{
+              border: 0px;
+              background-color: $color-red;
+              color: white;
+              border-radius: 5px;
+              width: 45%;
+          }
+      }
   }
 }
 
@@ -999,6 +1193,7 @@ body {
      position: relative;
      top: 150px;
      margin-top: 10px;
+     left: 2%;
    }
   }
 }
@@ -1029,3 +1224,105 @@ body {
   }
 }
 
+.az-clinical-subjest-email {
+    display: none;
+    .az-clinical_transbkg {
+      position: fixed;
+      width: 100%;
+      height: 100%;
+      left: 0;
+      top: 0;
+      opacity: 0.4;
+      background-color: black;
+      z-index: 10;
+    }
+    .az-clinical-subjest-body>div{
+        &:nth-child(2) {
+            span{
+                margin-right: 60px;
+            }
+            input{
+                border:1px solid $color-gray;
+                width: 200px;
+                height: 40px;
+                margin-left: 20px;
+            }
+        }
+      /*   &:nth-child(3) {
+            span{
+                margin-right: 20px;
+            }
+            input{
+                border:1px solid $color-gray;
+                width: 200px;
+                height: 40px;
+                margin-left: 20px;
+            }
+        }
+        &:nth-child(4) {
+            border:1px solid $color-gray;
+            width: 200px;
+            line-height: 40px;
+            margin-left: 105px;
+            margin-bottom: 30px;
+            input{
+                margin-left: 20px;
+            }
+        } */
+    }
+    .az-clinical-subjest-body {
+        position: fixed;
+        margin: auto;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        z-index: 11;
+        width: 200px;
+        height: 320px;
+        background-color: white;
+        border-radius: 5px;
+        padding: 25px;
+
+        p {
+          font-weight: bold;
+          padding-bottom: 20px;
+          span{
+              font-size: 12px;
+              color: gray;
+          }
+        }
+        div{
+            height: 40px;
+            margin-bottom: 20px;
+            span{
+                font-size: 18px;
+                font-weight: 500;
+            }
+        }
+
+        .az-clinical-subjest_btn {
+          text-align: center;
+        }
+
+        button {
+          width: 160px;
+          height: 40px;
+          border-radius: 5px;
+          color: white;
+        }
+
+        .az-clinical-subjest_btnemail {
+          margin-right: 10px;
+          border: 1px solid $color-red;
+          background-color: $color-red;
+        }
+
+        .az-clinical-subjest_btncancel {
+          margin-left: 10px;
+          background-color: $color-gray;
+          border: 1px solid $color-gray;
+        }
+      }
+
+}
