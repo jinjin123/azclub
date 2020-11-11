@@ -15,8 +15,7 @@ body {
         }
     }
     .az-cardthree_body{
-        margin-top: 15px;
-        padding-left: 15px;
+        margin: 0px 20px 0px 20px;
         position: relative;
         .az-cardthree_logoimg{
             position: absolute;
@@ -59,8 +58,7 @@ body {
         }
     }
     .az-cardtow_body{
-        margin-top: 15px;
-        padding-left: 15px;
+        margin: 0px 20px 0px 20px;
         position: relative;
         padding-bottom: 10px;
         .az-cardtow_body_title{
@@ -94,9 +92,12 @@ body {
     input{
         background: transparent url(../images/search-icon.png) no-repeat;
         background-position: 90px;
+        height: 40px;
+        border: 1px solid $color-gray;
     }
 }
 .az-header_top {
+    height: 100px;
   .az-header_top_logo {
     float: $float-left;
   }
@@ -123,13 +124,18 @@ body {
 }
 
 .az-header_bottom {
+    border:1px solid $color-gray;
+    height: 40px;
   .az-header_bottom_menu {
     .gva-navigation {
       .gva_menu_main {
         float: $float-left;
-        margin-left: -50px;
-
+        position: relative;
+        bottom: 25px;
         li {
+            a{
+                padding-bottom: 0 !important;
+            }
           ul {
             min-width: 160px;
             border-left: 2px solid $color-orange;
@@ -141,7 +147,6 @@ body {
             }
           }
         }
-
         .active {
           a {
             color: $color-red;
@@ -153,6 +158,7 @@ body {
 
   .container-inline {
     float: right;
+    margin-bottom: 0px;
   }
 }
 
@@ -1012,14 +1018,13 @@ body {
 //        margin: auto;
 //    }
 //}
-
-.field--type-text-with-summary{
+#block-homerenshikangxinzhiyou{
     .row{
         .left{
             color: white;
             background-color: $color-red;
-            height: 496px;
             padding: 5% 10% 5% 10%;
+            height: 500px;
             h5{
                 color: white;
                 font-size: 40px;
@@ -1029,6 +1034,7 @@ body {
             padding-left:0px!important;
             img{
                 width: 100%;
+                height: 500px;
             }
         }
     }
@@ -1036,14 +1042,17 @@ body {
 
 .az-header-bbox {
   display: flex;
-  .az-header-search-box{
-      margin-top: 25px;
-  }
+//   .az-header-search-box{
+
+//   }
    .menu-bar{
        right: 30px;
    }
   .az-header-right{
-      margin-top: 25px;
+      line-height: 40px;
+      .block{
+          margin-bottom: 0px;
+      }
   }
 }
 #footer {
@@ -1052,28 +1061,52 @@ body {
     #block-footerleft {
       div.field--name-body {
         display: flex;
+        img{
+            height: 104px;
+        }
+        p{
+            margin-left: 20px;
+            strong{
+                color: black;
+            }
+        }
       }
     }
     #block-webform {
       .block-title span{
-        color: #b8b8b8 !important;
+        color: black !important;
+        font-size: 15px;
       }
       .block-content {
+        form>div{
+            &:nth-child(1){
+                width: 35%;
+                #edit-email {
+                    width: 100%;
+                    height: 40px;
+                  }
+            }
+            &:nth-child(2){
+                width: 35%;
+                #edit-ta-type {
+            width: 100%;
+            height: 40px;
+          }
+            }
+            &:nth-child(3){
+                width: 25%;
+                #edit-actions-submit {
+            height: 40px;
+            width: 100%;
+            background: #EB1384;
+          }
+            }
+        }
         form {
           display: flex;
           justify-content: space-between;
-          #edit-email {
-            max-width: 200px;
-            height: 40px;
-          }
-          #edit-ta-type {
-            max-width: 200px;
-            height: 40px;
-          }
-          #edit-actions-submit {
-            height: 40px;
-            background: #EB1384;
-          }
+
+
         }
       }
     }
@@ -1368,23 +1401,27 @@ footer#footer::after {
       }
 }
 // front page
-.page-node-7 {
-  div.field--name-body {
-    text-align: center;
-    h3 {
-      font-size: 20px;
-      color: #b8b8b8;
+// .page-node-7 {
+//   #block-views-block-ta-campaign-block-1 {
+//     overflow: hidden;
+//     .view-content-wrap {
+//       overflow: hidden;
+//     }
+//   }
+// }
+.block-astrazeneca-content{
+    footer{
+        header{
+            .az-product_head{
+            height: 300px;
+            background-color: $color-red
+        }
+        }
+        .views-infinite-scroll-content-wrapper{
+            position: relative;
+            bottom: 100px;
+        }
     }
-    p {
-      color: #b8b8b8;
-    }
-  }
-  #block-views-block-ta-campaign-block-1 {
-    overflow: hidden;
-    .view-content-wrap {
-      overflow: hidden;
-    }
-  }
 }
 
 .node--type-page {
