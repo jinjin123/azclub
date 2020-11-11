@@ -1,17 +1,7 @@
-/*
 body {
-    background-color:  $head-cus!important;
-} */
-@media (min-width: 1200px) {
-  #block-views-block-ta-campaign-block-1 .block-content {
-    width: 1200px;
-  }
+  overflow: hidden;
 }
-@media (min-width: 992px) {
-  #block-views-block-ta-campaign-block-1 .block-content {
-    width: 970px;
-  }
-}
+
 .az-cardthree_box {
   border: 1px solid #b8b8b8;
   padding-bottom: 30px;
@@ -763,10 +753,6 @@ body {
   color: #b8b8b8;
   text-align: center;
   margin-bottom: 60px !important;
-}
-
-#block-views-block-ta-campaign-block-1 .block-content {
-  margin: auto;
 }
 
 .field--type-text-with-summary .row .left {
