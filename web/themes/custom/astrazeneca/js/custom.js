@@ -20,7 +20,6 @@ Drupal.behaviors.PharmaTheme = {
     })
 
     $(".az-product_body_icons").on('click',function(e){
-      e.stopPropagation();
       var target = $(this);
       var title = target.parent().children()[0].textContent.replace(/^\s+|\s+$/g,"");
       var cont = target.parent().children()[1].textContent.replace(/^\s+|\s+$/g,"");
@@ -68,7 +67,6 @@ Drupal.behaviors.PharmaTheme = {
 
 
     $(".az-clinical-bbx-email").on('click',function(e){
-      e.stopPropagation();
       $(".az-clinical-subjest-email").css("display","block");
         $(".az-clinical-subjest_btncancel").click(function(){
       $(".az-clinical-subjest-email").css("display","none");
@@ -114,14 +112,12 @@ Drupal.behaviors.PharmaTheme = {
     })
 
     $(".az-clincal-search_button").keydown(function(e){
-      // e.preventDefault();
       if(e.keyCode == 13){
         var _keydown = $(".az-clincal-search_button").children()[0].value;
         var _search_result_item = $($(".az-clinical-result-content .view-content-wrap")[0]).children();
         for(var xb=0;xb<_search_result_item.length;xb++){
           if($($(_search_result_item[xb]).children().children().children().children()[1]).children().children()[0].textContent.trim() != _keydown && _keydown !=""){
            $(_search_result_item[xb]).css("display","none")
-            // console.log(_search_result_item)
           }else if(_keydown ==""){
             $(_search_result_item[xb]).css("display","block")
           }
@@ -129,6 +125,20 @@ Drupal.behaviors.PharmaTheme = {
       }
     })
 
+    $(".az-product-search_button").keydown(function(e){
+      if(e.keyCode == 13){
+        var target = $(this)
+        var tmp = target.children()[0].value
+        var  _search_result_item = $($($(target).parent().parent().parent().parent().parent().children()[2]).children()[0]).children()
+        for(var xb=0;xb<_search_result_item.length;xb++){
+            if($($($(_search_result_item[xb]).children()).children().children().children().children()[1]).children()[0].textContent.trim() != tmp && tmp !=""){
+              $(_search_result_item[xb]).css("display","none")
+            }else {
+              $(_search_result_item[xb]).css("display","block")
+            }
+        }
+      }
+    })
 
     $(".az-valicode_freash").click(function(){
        $("#az-contact_valid_code")[0].value = RndNum(5)
@@ -146,7 +156,7 @@ Drupal.behaviors.PharmaTheme = {
         rnd+=Math.floor(Math.random()*10);
       return rnd.split("").join(".");
     }
-    
+
     // $(".az-product_selectbox_conth4").text("免責聲明：");
     // $(".az-product_selectbox_contp1").text("藥品咨詢只能適用於香港或澳門服用此藥物之人仕。");
     // $(".az-product_selectbox_contp2").text("如同意繼續瀏覽，你已聲明你正服用此藥物，並且了解所提供的質詢只作參考用途。如對以上藥物有任何疑問，請向您的醫生或藥劑師查詢。");
@@ -156,7 +166,7 @@ Drupal.behaviors.PharmaTheme = {
 
     // health tips bg
    // $(".az-healthtips_head").parent().parent().css("background-color","oranage");
-   
+
   }
 };
   //http://localhost:30000/Clinical/search-result?field_az_conditions_term_target_id=10&field_az_se_value=1&field_az_clinical_age_value=1
