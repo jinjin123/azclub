@@ -1206,7 +1206,7 @@ footer#footer::after {
   color: #b8b8b8;
 }
 
-.node--type-health-information #block-astrazeneca-page-title .page-title::after {
+.node--type-health-information #block-astrazeneca-page-title .page-title::after, .node--type-medical-article #block-astrazeneca-page-title .page-title::after {
   content: "";
   width: 68px;
   height: 7px;
@@ -1214,16 +1214,16 @@ footer#footer::after {
   background: #EB1384;
   border-radius: 5px;
 }
-.node--type-health-information .az-hr {
+.node--type-health-information .az-hr, .node--type-medical-article .az-hr {
   border: 1px solid #979797;
 }
-.node--type-health-information .az-share-and-author {
+.node--type-health-information .az-share-and-author, .node--type-medical-article .az-share-and-author {
   margin-left: 0;
   margin-right: 0;
 }
-.node--type-health-information .az-share-and-author .shares {
+.node--type-health-information .az-share-and-author .shares, .node--type-medical-article .az-share-and-author .shares {
   float: left;
 }
-.node--type-health-information .az-share-and-author .author-by {
+.node--type-health-information .az-share-and-author .author-by, .node--type-medical-article .az-share-and-author .author-by {
   float: right;
 }

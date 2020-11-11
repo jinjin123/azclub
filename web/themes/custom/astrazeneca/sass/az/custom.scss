@@ -1402,7 +1402,7 @@ footer#footer::after {
   }
 }
 
-.node--type-health-information {
+.node--type-health-information,.node--type-medical-article {
   #block-astrazeneca-page-title .page-title {
     &::after {
       content: '';
