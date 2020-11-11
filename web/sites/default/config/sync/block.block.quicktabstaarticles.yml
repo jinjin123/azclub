@@ -3,6 +3,7 @@ langcode: en
 status: true
 dependencies:
   module:
+    - block_class
     - block_visibility_groups
     - gaviasthemer
     - quicktabs
@@ -10,17 +11,19 @@ dependencies:
   theme:
     - astrazeneca
 third_party_settings:
+  block_class:
+    classes: container
   gaviasthemer:
     classes: ''
 id: quicktabstaarticles
 theme: astrazeneca
-region: content
+region: fw_after_content
 weight: -4
 provider: null
 plugin: 'quicktabs_block:ta_articles'
 settings:
   id: 'quicktabs_block:ta_articles'
-  label: 'QuickTabs - TA Articles'
+  label: 'QuickTabs - TA Articles Home page'
   provider: quicktabs
   label_display: '0'
 visibility:

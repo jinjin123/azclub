@@ -1,11 +1,5 @@
-/*
 body {
-    background-color:  $head-cus!important;
-} */
-@media (min-width: 1200px) {
-  #block-views-block-ta-campaign-block-1 .block-content {
-    width: 1200px;
-  }
+  overflow: hidden;
 }
 
 .az-cardthree_box {
@@ -997,10 +991,6 @@ body {
   margin-bottom: 60px !important;
 }
 
-#block-views-block-ta-campaign-block-1 .block-content {
-  margin: auto;
-}
-
 .field--type-text-with-summary .row .left {
   color: white;
   background-color: #eb1484;
@@ -1038,78 +1028,43 @@ body {
 }
 
 #footer .footer-center {
-  display: none;
+  background: unset;
 }
 
-#footer .after-footer:after {
-  content: " ";
+#footer .footer-center #block-footerleft div.field--name-body {
+  display: flex;
+}
+
+#footer .footer-center #block-webform .block-title span {
+  color: #b8b8b8 !important;
+}
+
+#footer .footer-center #block-webform .block-content form {
+  display: flex;
+  justify-content: space-between;
+}
+
+#footer .footer-center #block-webform .block-content form #edit-email {
+  max-width: 200px;
+  height: 40px;
+}
+
+#footer .footer-center #block-webform .block-content form #edit-ta-type {
+  max-width: 200px;
+  height: 40px;
+}
+
+#footer .footer-center #block-webform .block-content form #edit-actions-submit {
+  height: 40px;
+  background: #EB1384;
+}
+
+footer#footer::after {
+  content: ' ';
   width: 100%;
   height: 40px;
-  background-color: black;
+  background-color: #0f0f0f;
   display: block;
-}
-
-#footer .container {
-  margin-bottom: 40px;
-}
-
-#footer .after-footer-inner .field--type-text-with-summary {
-  float: left;
-  width: 47%;
-}
-
-#footer .after-footer-inner .field--type-text-with-summary img {
-  float: left;
-  width: 20%;
-}
-
-#footer .after-footer-inner .field--type-text-with-summary p {
-  width: 70%;
-  float: right;
-}
-
-#footer .after-footer-inner .field--type-text-with-summary p strong {
-  color: black;
-  font-weight: bold;
-}
-
-#footer .after-footer-inner #block-webform {
-  float: left;
-  width: 47%;
-  margin-left: 6%;
-}
-
-#footer .after-footer-inner #block-webform .js-form-type-email {
-  float: left;
-  width: 35%;
-}
-
-#footer .after-footer-inner #block-webform .js-form-type-email input {
-  width: 100%;
-}
-
-#footer .after-footer-inner #block-webform .js-form-type-select {
-  float: left;
-  width: 35%;
-  margin-left: 2.5%;
-}
-
-#footer .after-footer-inner #block-webform .js-form-type-select select {
-  width: 100%;
-  height: 40px;
-}
-
-#footer .after-footer-inner #block-webform .form-actions {
-  float: right;
-  width: 25%;
-  margin-left: 2.5%;
-}
-
-#footer .after-footer-inner #block-webform .form-actions input {
-  width: 100%;
-  height: 40px;
-  background-color: #eb1484;
-  border-radius: 0px;
 }
 
 .az-offers_product_box {
@@ -1264,11 +1219,11 @@ body {
 }
 
 .block-quicktabs {
-  border: none !important;
+  border: none;
 }
 
 .block-quicktabs .ui-widget.ui-widget-content {
-  border: none !important;
+  border: none;
 }
 
 .block-quicktabs .ui-widget.ui-widget-content .ui-tabs-nav {
@@ -1277,13 +1232,18 @@ body {
 }
 
 .block-quicktabs .ui-widget.ui-widget-content .ui-tabs-nav li {
-  border: none !important;
-  background: none !important;
+  border: none;
+  background: none;
 }
 
 .block-quicktabs .ui-widget.ui-widget-content .ui-tabs-nav li a {
   color: black;
-  display: grid;
+  display: flex;
+  align-items: center;
+}
+
+.block-quicktabs .ui-widget.ui-widget-content .ui-tabs-nav li a img {
+  margin-right: 10px;
 }
 
 .az-clinical-subjest-email {
@@ -1392,4 +1352,25 @@ body {
   margin-left: 10px;
   background-color: #b8b8b8;
   border: 1px solid #b8b8b8;
+}
+
+.page-node-7 div.field--name-body {
+  text-align: center;
+}
+
+.page-node-7 div.field--name-body h3 {
+  font-size: 20px;
+  color: #b8b8b8;
+}
+
+.page-node-7 div.field--name-body p {
+  color: #b8b8b8;
+}
+
+.page-node-7 #block-views-block-ta-campaign-block-1 {
+  overflow: hidden;
+}
+
+.page-node-7 #block-views-block-ta-campaign-block-1 .view-content-wrap {
+  overflow: hidden;
 }

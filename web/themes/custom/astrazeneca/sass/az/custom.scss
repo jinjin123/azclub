@@ -1,16 +1,8 @@
 @import "../vars/variables";
-/*
 body {
-    background-color:  $head-cus!important;
-} */
-@media (min-width: 1200px){
-    #block-views-block-ta-campaign-block-1{
-        .block-content{
-            width: 1200px;
-        }
-    }
-}
-
+    //background-color:  $head-cus!important;
+    overflow: hidden;
+} 
 //card
 .az-cardthree_box{
     border: 1px solid $color-gray;
@@ -1015,11 +1007,11 @@ body {
         text-align: center;
         margin-bottom: 60px!important;
     }
-#block-views-block-ta-campaign-block-1{
-    .block-content{
-        margin: auto;
-    }
-}
+//#block-views-block-ta-campaign-block-1{
+//    .block-content{
+//        margin: auto;
+//    }
+//}
 
 .field--type-text-with-summary{
     .row{
@@ -1054,70 +1046,45 @@ body {
       margin-top: 25px;
   }
 }
-#footer{
-    .footer-center{
-        display: none;
+#footer {
+  .footer-center {
+    background: unset;
+    #block-footerleft {
+      div.field--name-body {
+        display: flex;
+      }
     }
-    .after-footer:after{
-        content: " ";
-        width: 100%;
-        height: 40px;
-        background-color: black;
-        display: block;
+    #block-webform {
+      .block-title span{
+        color: #b8b8b8 !important;
+      }
+      .block-content {
+        form {
+          display: flex;
+          justify-content: space-between;
+          #edit-email {
+            max-width: 200px;
+            height: 40px;
+          }
+          #edit-ta-type {
+            max-width: 200px;
+            height: 40px;
+          }
+          #edit-actions-submit {
+            height: 40px;
+            background: #EB1384;
+          }
+        }
+      }
     }
-    .container{
-        margin-bottom: 40px;
-    }
-    .after-footer-inner{
-    .field--type-text-with-summary{
-        float: left;
-        width: 47%;
-        img{
-            float: left;
-            width: 20%;
-        }
-        p{
-            width: 70%;
-            float: right;
-            strong{
-                color: black;
-                font-weight: bold;
-            }
-        }
-    }
-    #block-webform{
-        float: left;
-        width: 47%;
-        margin-left: 6%;
-        .js-form-type-email{
-            float: left;
-            width: 35%;
-            input{
-                width: 100%;
-            }
-        }
-        .js-form-type-select{
-            float: left;
-            width: 35%;
-            margin-left: 2.5%;
-            select{
-                width: 100%;
-                height: 40px;
-            }
-        }
-        .form-actions{
-            float: right;
-            width: 25%;
-            margin-left: 2.5%;
-            input{
-                width: 100%;
-                height: 40px;
-                background-color: $color-red;
-                border-radius: 0px;
-            }
-        }
-    }
+  }
 }
+footer#footer::after {
+  content: ' ';
+  width: 100%;
+  height: 40px;
+  background-color: #0f0f0f;
+  display: block;
 }
 
 .az-offers_product_box {
@@ -1201,9 +1168,7 @@ body {
   text-align: center;
   margin-left: 10px;
   width: 120px;
-
 }
-
 
 
 .az-clinical-right-box {
@@ -1279,18 +1244,22 @@ body {
 
 //#block-quicktabstaarticles {
 .block-quicktabs {
-  border: none !important;
+  border: none;
   .ui-widget.ui-widget-content {
-    border: none !important;
+    border: none;
     .ui-tabs-nav {
       border: none;
       background: none;
       li {
-        border: none !important;
-        background: none !important;
+        border: none;
+        background: none;
         a {
           color:black;
-          display: grid;
+          display: flex;
+          align-items: center;
+          img {
+            margin-right:10px;
+          }
         }
       }
     }
@@ -1397,5 +1366,23 @@ body {
           border: 1px solid $color-gray;
         }
       }
-
+}
+// front page
+.page-node-7 {
+  div.field--name-body {
+    text-align: center;
+    h3 {
+      font-size: 20px;
+      color: #b8b8b8;
+    }
+    p {
+      color: #b8b8b8;
+    }
+  }
+  #block-views-block-ta-campaign-block-1 {
+    overflow: hidden;
+    .view-content-wrap {
+      overflow: hidden;
+    }
+  }
 }

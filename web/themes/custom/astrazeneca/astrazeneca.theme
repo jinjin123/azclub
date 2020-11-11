@@ -333,6 +333,17 @@ function astrazeneca_preprocess_page_title(&$variables) {
     // Make sure the shortcut link is the first item in title_suffix.
     $variables['title_suffix']['add_or_remove_shortcut']['#weight'] = -100;
   }
+
+  if ($node = \Drupal::request()->attributes->get('node')) {
+    if (is_object($node)) {
+      if ($node->hasField('field_sub_title')) {
+        $field_sub_title = $node->get('field_sub_title')->get(0)->getValue();
+        if (isset($field_sub_title['value'])) {
+          $variables['field_sub_title'] = $field_sub_title['value'];
+        }
+      }
+    }
+  }
 }
 
 /**
