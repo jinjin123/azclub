@@ -92,9 +92,12 @@ body {
     input{
         background: transparent url(../images/search-icon.png) no-repeat;
         background-position: 90px;
+        height: 40px;
+        border: 1px solid $color-gray;
     }
 }
 .az-header_top {
+    height: 100px;
   .az-header_top_logo {
     float: $float-left;
   }
@@ -121,13 +124,18 @@ body {
 }
 
 .az-header_bottom {
+    border:1px solid $color-gray;
+    height: 40px;
   .az-header_bottom_menu {
     .gva-navigation {
       .gva_menu_main {
         float: $float-left;
-        margin-left: -50px;
-
+        position: relative;
+        bottom: 25px;
         li {
+            a{
+                padding-bottom: 0 !important;
+            }
           ul {
             min-width: 160px;
             border-left: 2px solid $color-orange;
@@ -139,7 +147,6 @@ body {
             }
           }
         }
-
         .active {
           a {
             color: $color-red;
@@ -151,6 +158,7 @@ body {
 
   .container-inline {
     float: right;
+    margin-bottom: 0px;
   }
 }
 
@@ -1010,14 +1018,13 @@ body {
 //        margin: auto;
 //    }
 //}
-
-.field--type-text-with-summary{
+#block-homerenshikangxinzhiyou{
     .row{
         .left{
             color: white;
             background-color: $color-red;
-            height: 496px;
             padding: 5% 10% 5% 10%;
+            height: 500px;
             h5{
                 color: white;
                 font-size: 40px;
@@ -1027,6 +1034,7 @@ body {
             padding-left:0px!important;
             img{
                 width: 100%;
+                height: 500px;
             }
         }
     }
@@ -1034,14 +1042,17 @@ body {
 
 .az-header-bbox {
   display: flex;
-  .az-header-search-box{
-      margin-top: 25px;
-  }
+//   .az-header-search-box{
+
+//   }
    .menu-bar{
        right: 30px;
    }
   .az-header-right{
-      margin-top: 25px;
+      line-height: 40px;
+      .block{
+          margin-bottom: 0px;
+      }
   }
 }
 #footer {
@@ -1398,3 +1409,17 @@ footer#footer::after {
 //     }
 //   }
 // }
+.block-astrazeneca-content{
+    footer{
+        header{
+            .az-product_head{
+            height: 300px;
+            background-color: $color-red
+        }
+        }
+        .views-infinite-scroll-content-wrapper{
+            position: relative;
+            bottom: 100px;
+        }
+    }
+}
