@@ -786,65 +786,37 @@ body {
 }
 
 #footer .footer-center {
-  display: none;
+  background: unset;
 }
-#footer .after-footer:after {
+#footer .footer-center #block-footerleft div.field--name-body {
+  display: flex;
+}
+#footer .footer-center #block-webform .block-title span {
+  color: #b8b8b8 !important;
+}
+#footer .footer-center #block-webform .block-content form {
+  display: flex;
+  justify-content: space-between;
+}
+#footer .footer-center #block-webform .block-content form #edit-email {
+  max-width: 200px;
+  height: 40px;
+}
+#footer .footer-center #block-webform .block-content form #edit-ta-type {
+  max-width: 200px;
+  height: 40px;
+}
+#footer .footer-center #block-webform .block-content form #edit-actions-submit {
+  height: 40px;
+  background: #EB1384;
+}
+
+footer#footer::after {
   content: " ";
   width: 100%;
   height: 40px;
-  background-color: black;
+  background-color: #0f0f0f;
   display: block;
-}
-#footer .container {
-  margin-bottom: 40px;
-}
-#footer .after-footer-inner .field--type-text-with-summary {
-  float: left;
-  width: 47%;
-}
-#footer .after-footer-inner .field--type-text-with-summary img {
-  float: left;
-  width: 20%;
-}
-#footer .after-footer-inner .field--type-text-with-summary p {
-  width: 70%;
-  float: right;
-}
-#footer .after-footer-inner .field--type-text-with-summary p strong {
-  color: black;
-  font-weight: bold;
-}
-#footer .after-footer-inner #block-webform {
-  float: left;
-  width: 47%;
-  margin-left: 6%;
-}
-#footer .after-footer-inner #block-webform .js-form-type-email {
-  float: left;
-  width: 35%;
-}
-#footer .after-footer-inner #block-webform .js-form-type-email input {
-  width: 100%;
-}
-#footer .after-footer-inner #block-webform .js-form-type-select {
-  float: left;
-  width: 35%;
-  margin-left: 2.5%;
-}
-#footer .after-footer-inner #block-webform .js-form-type-select select {
-  width: 100%;
-  height: 40px;
-}
-#footer .after-footer-inner #block-webform .form-actions {
-  float: right;
-  width: 25%;
-  margin-left: 2.5%;
-}
-#footer .after-footer-inner #block-webform .form-actions input {
-  width: 100%;
-  height: 40px;
-  background-color: #eb1484;
-  border-radius: 0px;
 }
 
 .az-offers_product_box {
@@ -980,9 +952,19 @@ body {
   margin-right: 10px;
 }
 
-#block-views-block-ta-campaign-block-1 {
+.page-node-7 div.field--name-body {
+  text-align: center;
+}
+.page-node-7 div.field--name-body h3 {
+  font-size: 20px;
+  color: #b8b8b8;
+}
+.page-node-7 div.field--name-body p {
+  color: #b8b8b8;
+}
+.page-node-7 #block-views-block-ta-campaign-block-1 {
   overflow: hidden;
 }
-#block-views-block-ta-campaign-block-1 .view-content-wrap {
+.page-node-7 #block-views-block-ta-campaign-block-1 .view-content-wrap {
   overflow: hidden;
 }

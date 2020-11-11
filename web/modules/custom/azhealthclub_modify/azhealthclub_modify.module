@@ -118,7 +118,6 @@ function azhealthclub_modify_form_alter(&$form, \Drupal\Core\Form\FormStateInter
         'class' => ['btn'],
       ],
     ];
-
   }
 }
 
