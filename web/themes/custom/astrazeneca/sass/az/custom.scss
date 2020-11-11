@@ -15,8 +15,7 @@ body {
         }
     }
     .az-cardthree_body{
-        margin-top: 15px;
-        padding-left: 15px;
+        margin: 0px 20px 0px 20px;
         position: relative;
         .az-cardthree_logoimg{
             position: absolute;
@@ -59,8 +58,7 @@ body {
         }
     }
     .az-cardtow_body{
-        margin-top: 15px;
-        padding-left: 15px;
+        margin: 0px 20px 0px 20px;
         position: relative;
         padding-bottom: 10px;
         .az-cardtow_body_title{
@@ -1052,28 +1050,52 @@ body {
     #block-footerleft {
       div.field--name-body {
         display: flex;
+        img{
+            height: 104px;
+        }
+        p{
+            margin-left: 20px;
+            strong{
+                color: black;
+            }
+        }
       }
     }
     #block-webform {
       .block-title span{
-        color: #b8b8b8 !important;
+        color: black !important;
+        font-size: 15px;
       }
       .block-content {
+        form>div{
+            &:nth-child(1){
+                width: 35%;
+                #edit-email {
+                    width: 100%;
+                    height: 40px;
+                  }
+            }
+            &:nth-child(2){
+                width: 35%;
+                #edit-ta-type {
+            width: 100%;
+            height: 40px;
+          }
+            }
+            &:nth-child(3){
+                width: 25%;
+                #edit-actions-submit {
+            height: 40px;
+            width: 100%;
+            background: #EB1384;
+          }
+            }
+        }
         form {
           display: flex;
           justify-content: space-between;
-          #edit-email {
-            max-width: 200px;
-            height: 40px;
-          }
-          #edit-ta-type {
-            max-width: 200px;
-            height: 40px;
-          }
-          #edit-actions-submit {
-            height: 40px;
-            background: #EB1384;
-          }
+          
+          
         }
       }
     }
@@ -1368,21 +1390,11 @@ footer#footer::after {
       }
 }
 // front page
-.page-node-7 {
-  div.field--name-body {
-    text-align: center;
-    h3 {
-      font-size: 20px;
-      color: #b8b8b8;
-    }
-    p {
-      color: #b8b8b8;
-    }
-  }
-  #block-views-block-ta-campaign-block-1 {
-    overflow: hidden;
-    .view-content-wrap {
-      overflow: hidden;
-    }
-  }
-}
+// .page-node-7 {
+//   #block-views-block-ta-campaign-block-1 {
+//     overflow: hidden;
+//     .view-content-wrap {
+//       overflow: hidden;
+//     }
+//   }
+// }
