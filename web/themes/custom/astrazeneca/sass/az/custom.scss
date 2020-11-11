@@ -238,7 +238,50 @@ body {
     font-size: 12px;
   }
 }
-
+.az-product-search_box>div {
+    &:nth-child(1) {
+      float: left;
+  
+      span {
+        font-size: 20px;
+        font-weight: bold;
+      }
+    }
+  
+    &:nth-child(2) {
+      float: right;
+      height: 40px;
+  
+      .az-product-searright {
+        float: right;
+  
+        .az-product-search_button {
+          float: left;
+  
+          input {
+            height: 40px;
+            border: 1px solid $color-gray;
+          }
+        }
+  
+        .az-product-search_icon {
+          float: left;
+          width: 40px;
+          height: 40px;
+          background: black url(../images/search-icon.png) no-repeat;
+          background-position: center;
+        }
+      }
+    }
+    
+  }
+  .az-product-seach_across {
+    width: 100%;
+    height: 60px;
+    border-bottom: 2px solid $color-gray;
+    margin-bottom: 50px;
+  }
+  
 //医学讲座及活动
 .az-product_head {
   margin: auto;
@@ -302,13 +345,11 @@ body {
     color: $color-gray;
   }
 }
-.az-offer_box{
-    float: left;
-    margin: 10px 20px 0px 20px;
-
+.az-offer_body{
+    margin: 0px 20px 0px 20px;
     .az-offer_body_title {
       font-weight: bold;
-      font-size: 20px;
+      height: 40px;
     }
 
     .az-offer_sub_title {
@@ -318,13 +359,18 @@ body {
 
   .az-offer_click_bottom {
     float: right;
-    background-color: $color-red;
-    width: 20%;
     text-align: center;
-    border-radius: 5px;
-    margin-right: 20px;
+    margin-top: 10px;
     a {
       color: white;
+      background-color: $color-red;
+                border-radius: 5px;
+                padding: 5px 10px;
+                width: 80px;
+                color: white;
+    }
+    a:hover{
+        background-color: orange;
     }
   }
 }
@@ -745,10 +791,10 @@ body {
 
       .az-clincal-search_icon {
         float: left;
-        background-color: black;
         width: 40px;
         height: 40px;
-        //background:transparent url(../images/search-icon.png) no-repeat;
+        background: black url(../images/search-icon.png) no-repeat;
+        background-position: center;
       }
     }
   }
@@ -795,11 +841,23 @@ body {
 
 .az-contact-main_box {
   display: flex;
-
+  margin-bottom: 100px;
   .az_contact_rg_box {
+      .az_head{
+          h5{
+              color: $color-gray;
+              font-size: 12px;
+              font-weight: 500;
+          }
+      }
     .az_body {
       h5 {
         color: $color-red;
+      }
+      p{
+          span{
+              color: $color-gray;
+          }
       }
     }
     .az_body>p {
@@ -838,7 +896,8 @@ body {
     .az_title{
         font-weight: bold;
         font-size: 20px;
-        margin: 20px;
+        margin: 10px;
+        padding-left: 10px;
         border-left: 5px solid $color-red;
         border-radius: 5px;
     }
@@ -870,6 +929,9 @@ body {
   .js-form-item-code {
     display: flex;
     padding-bottom: 20px;
+    input#edit-code {
+        width: 20%;
+    }
     .description {
       padding-left: 10px;
       .webform-element-description {
@@ -1129,6 +1191,7 @@ body {
   background-color: #d0cbcb;
   text-align: center;
   border:0;
+  width: 120px;
 }
 
 #az-contact_freshbtn {
@@ -1137,7 +1200,7 @@ body {
   background-color: black;
   text-align: center;
   margin-left: 10px;
-  width: 200px;
+  width: 120px;
 
 }
 
