@@ -816,12 +816,11 @@ body {
     border: 1px solid #d0c9c9;
     background-color: white;
     width: 100%;
-    box-shadow: 0 0px 10px #d0c9c9;
+    box-shadow: -5px 5px 10px -7px grey, 5px 5px 10px -7px grey;
     .az_title{
         font-weight: bold;
         font-size: 20px;
-        margin: 15px;
-        padding: 5px;
+        margin: 20px;
         border-left: 5px solid $color-red;
         border-radius: 5px;
     }
@@ -1133,13 +1132,16 @@ body {
   .az-clinical-rbx_title{
       font-size: 20px;
       font-weight: bold;
+      padding-left: 20px;
   }
   .az-clinical-rbx_desc{
       margin-bottom: 20px;
       margin-top: 20px;
+      padding-left: 20px;
   }
   .az-clinical-rbx__boom {
     display: flex;
+    padding-left: 20px;
   }
   .az-clinical-rbx_logo {
     position: relative;
@@ -1147,6 +1149,12 @@ body {
     left: 10px;
   }
   .az-clinical-bottom-box{
+    text-align: center;
+    padding-bottom: 20px;
+      span{
+          font-size: 15px;
+          font-weight: bold;
+      }
       div{
           button{
               border: 0px;
@@ -1262,8 +1270,8 @@ body {
         top: 0;
         bottom: 0;
         z-index: 11;
-        width: 200px;
-        height: 320px;
+        width: 400px;
+        height: 200px;
         background-color: white;
         border-radius: 5px;
         padding: 25px;
