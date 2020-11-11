@@ -1139,25 +1139,32 @@ body {
 
 //#block-quicktabstaarticles {
 .block-quicktabs {
-  border: none !important;
+  border: none;
   .ui-widget.ui-widget-content {
-    border: none !important;
+    border: none;
     .ui-tabs-nav {
       border: none;
       background: none;
+      //display: flex;
       li {
-        border: none !important;
-        background: none !important;
+        border: none;
+        background: none;
         a {
           color:black;
-          display: grid;
+          display: flex;
+          align-items: center;
+          img {
+            margin-right:10px;
+          }
         }
       }
     }
   }
 }
 
-#block-views-block-ta-campaign-block-1,
-#block-views-block-ta-campaign-block-1 .view-content-wrap {
+#block-views-block-ta-campaign-block-1 {
   overflow: hidden;
+  .view-content-wrap {
+    overflow: hidden;
+  }
 }
