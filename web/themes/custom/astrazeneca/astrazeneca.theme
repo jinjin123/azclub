@@ -337,9 +337,9 @@ function astrazeneca_preprocess_page_title(&$variables) {
   if ($node = \Drupal::request()->attributes->get('node')) {
     if (is_object($node)) {
       if ($node->hasField('field_sub_title')) {
-        $field_sub_title = $node->get('field_sub_title')->get(0)->getValue();
-        if (isset($field_sub_title['value'])) {
-          $variables['field_sub_title'] = $field_sub_title['value'];
+        $field_sub_title = $node->get('field_sub_title')->getValue();
+        if (isset($field_sub_title[0]['value'])) {
+          $variables['field_sub_title'] = $field_sub_title[0]['value'];
         }
       }
     }
