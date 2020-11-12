@@ -98,7 +98,7 @@
     ],
     "changed": [
         {
-            "value": "2020-11-03T08:53:23+00:00",
+            "value": "2020-11-11T07:46:36+00:00",
             "lang": "en",
             "format": "Y-m-d\\TH:i:sP"
         }
@@ -137,9 +137,9 @@
     ],
     "body": [
         {
-            "value": "<p>\u95dc\u6ce8\u75be\u75c5<br \/>\r\n\u95dc\u6ce8\u5404\u7a2e\u75be\u75c5<br \/>\r\nLorem lpsum is simply dummy text of the printing and typesetting industry. Lorem lpsum has<br \/>\r\nbeen the indusry's standard dummy text ever sine the 1500s, when an unknow printer<br \/>\r\ntook a galley of type an scrambled it to make a type.<\/p>\r\n",
-            "format": "basic_html",
-            "processed": "<p>\u95dc\u6ce8\u75be\u75c5<br \/>\n\u95dc\u6ce8\u5404\u7a2e\u75be\u75c5<br \/>\nLorem lpsum is simply dummy text of the printing and typesetting industry. Lorem lpsum has<br \/>\nbeen the indusry's standard dummy text ever sine the 1500s, when an unknow printer<br \/>\ntook a galley of type an scrambled it to make a type.<\/p>",
+            "value": "<h3 class=\"az-home_toptext1\">\u95dc\u6ce8\u75be\u75c5<\/h3>\r\n\r\n<h2 class=\"az-home_toptext2\">\u95dc\u6ce8\u5404\u7a2e\u75be\u75c5<\/h2>\r\n\r\n<p class=\"az-home_toptext3\">Lorem lpsum is simply dummy text of the printing and typesetting industry. Lorem lpsum has<br \/>\r\nbeen the indusry's standard dummy text ever sine the 1500s, when an unknow printer<br \/>\r\ntook a galley of type an scrambled it to make a type.<\/p>\r\n",
+            "format": "full_html",
+            "processed": "<h3 class=\"az-home_toptext1\">\u95dc\u6ce8\u75be\u75c5<\/h3>\n\n<h2 class=\"az-home_toptext2\">\u95dc\u6ce8\u5404\u7a2e\u75be\u75c5<\/h2>\n\n<p class=\"az-home_toptext3\">Lorem lpsum is simply dummy text of the printing and typesetting industry. Lorem lpsum has<br \/>\nbeen the indusry's standard dummy text ever sine the 1500s, when an unknow printer<br \/>\ntook a galley of type an scrambled it to make a type.<\/p>\n",
             "summary": "",
             "lang": "en"
         }

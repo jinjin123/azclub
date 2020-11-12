@@ -1,7 +1,7 @@
 {
     "_links": {
         "self": {
-            "href": "http:\/\/default\/node\/89?_format=hal_json"
+            "href": "http:\/\/default\/node\/88?_format=hal_json"
         },
         "type": {
             "href": "http:\/\/default\/rest\/type\/node\/az_clinical_experience_process"
@@ -96,7 +96,11 @@
                         "value": "2a133ebf-7d35-4f6b-8231-bed77812f8a7"
                     }
                 ],
-                "target_revision_id": "129"
+                "target_revision_id": "129",
+                "alt": "",
+                "title": "",
+                "width": "496",
+                "height": "318"
             }
         ]
     },
@@ -121,7 +125,7 @@
     ],
     "changed": [
         {
-            "value": "2020-11-10T00:28:43+00:00",
+            "value": "2020-11-06T05:58:58+00:00",
             "lang": "en",
             "format": "Y-m-d\\TH:i:sP"
         }

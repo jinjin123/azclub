@@ -96,7 +96,11 @@
                         "value": "e666bf4b-fb97-43de-affc-15e905f18c9a"
                     }
                 ],
-                "target_revision_id": "133"
+                "target_revision_id": "133",
+                "alt": "",
+                "title": "",
+                "width": "496",
+                "height": "318"
             }
         ]
     },
@@ -121,7 +125,7 @@
     ],
     "changed": [
         {
-            "value": "2020-11-10T00:28:34+00:00",
+            "value": "2020-11-06T06:16:43+00:00",
             "lang": "en",
             "format": "Y-m-d\\TH:i:sP"
         }

@@ -151,7 +151,7 @@ display:
           exclude: false
           alter:
             alter_text: true
-            text: "<div class=\"az-offer_box\">\r\n  <div class=\"az-offer_img\">\r\n        {{field_az_author_img}}\r\n  </div>\r\n  <div class=\"az-offer_body\">\r\n     <div class=\"az-offer_body_title\">\r\n       {{ title }}\r\n    </div>\r\n    <div class=\"az-offer_sub_title\">\r\n      {{ body__summary }}\r\n    </div>\r\n  </div>\r\n</div>"
+            text: "<div class=\"az-offertips_box\">\r\n  <div class=\"az-offer_img\">\r\n        {{field_az_author_img}}\r\n  </div>\r\n  <div class=\"az-offer_body\">\r\n     <div class=\"az-offer_body_title\">\r\n       {{ title }}\r\n    </div>\r\n    <div class=\"az-offer_sub_title\">\r\n      {{ body__summary }}\r\n    </div>\r\n  </div>\r\n</div>"
             make_link: false
             path: ''
             absolute: false
@@ -255,7 +255,7 @@ display:
           admin_label: ''
           empty: false
           tokenize: false
-          content: "<div class=\"az-healthtips_head\">\r\n\t<div class=\"az-healthtips_head__title1\">\r\n        <span>醫生提提您</span>\r\n    </div>\r\n    <div class=\"az-healthtips_head__title2\">\r\n      <span>小貼士/錦囊</span>\r\n    </div>\r\n  \t<div class=\"az-healthtips_head__body\">\r\n      <span>Lorem lpsum只是印刷和設置行業的偽文本。自500年代以來，Lorem lpsum一直是該行業的標準偽文本。當時，一個未知的打印機拿起一個廚房，將其打亂成一個類型。</span>\r\n    </div>\r\n</div>"
+          content: "<div class=\"az-healthtips_heads\">\r\n\t<div class=\"az-healthtips_head__title1\">\r\n        <span>醫生提提您</span>\r\n    </div>\r\n    <div class=\"az-healthtips_head__title2\">\r\n      <span>小貼士/錦囊</span>\r\n    </div>\r\n  \t<div class=\"az-healthtips_head__body\">\r\n      <span>Lorem lpsum只是印刷和設置行業的偽文本。自500年代以來，Lorem lpsum一直是該行業的標準偽文本。當時，一個未知的打印機拿起一個廚房，將其打亂成一個類型。</span>\r\n    </div>\r\n</div>"
           plugin_id: text_custom
       footer: {  }
       empty: {  }

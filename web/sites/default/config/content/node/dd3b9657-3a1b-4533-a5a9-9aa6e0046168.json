@@ -1,7 +1,7 @@
 {
     "_links": {
         "self": {
-            "href": "http:\/\/default\/node\/56?_format=hal_json"
+            "href": "http:\/\/default\/node\/66?_format=hal_json"
         },
         "type": {
             "href": "http:\/\/default\/rest\/type\/node\/ta_campaign"
