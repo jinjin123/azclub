@@ -62,20 +62,6 @@
 {#  </div>#}
   <div{{ attributes.addClass(classes) }}>
     {% block content %}
-{#      <table class="table">#}
-{#        <tr>#}
-{#          {% for item in  shopName %}#}
-{#            <td>{{ content['field_shopname']}} </td>#}
-{#            <td>{{ content['field_shop_detail']}} </td>#}
-{#            <td>{{ content['field_phone']}} </td>#}
-{#            <td>{{ content['field_area']}} </td>#}
-{#          {% endfor %}#}
-
-{#            {{ dd(shopArea) }}#}
-{#          <td>{{ shopName }}</td>#}
-{#    {{ shopName }}#}
-{#        </tr>#}
-{#      </table>#}
       <div class="az-off-pp-params">{{ content['field_shopname']}}</div><div class="az-off-pp-params">{{ content['field_shop_detail']}}</div><div class="az-off-pp-params">
       {{ content['field_phone']}}</div><div class="az-off-pp-area">{{ content['field_area']}}</div>
     {% endblock %}

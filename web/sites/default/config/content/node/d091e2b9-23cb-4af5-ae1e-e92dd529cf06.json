@@ -17,7 +17,7 @@
                 "lang": "en"
             }
         ],
-        "http:\/\/default\/rest\/relation\/node\/az_clinical_experience_process\/field_az_clinical_article_page": [
+        "http:\/\/default\/rest\/relation\/node\/az_clinical_experience_process\/field_clinical_logo_info": [
             {
                 "href": ""
             }
@@ -81,21 +81,22 @@
                 "lang": "en"
             }
         ],
-        "http:\/\/default\/rest\/relation\/node\/az_clinical_experience_process\/field_az_clinical_article_page": [
+        "http:\/\/default\/rest\/relation\/node\/az_clinical_experience_process\/field_clinical_logo_info": [
             {
                 "_links": {
                     "self": {
                         "href": ""
                     },
                     "type": {
-                        "href": "http:\/\/default\/rest\/type\/file\/file"
+                        "href": "http:\/\/default\/rest\/type\/paragraph\/clinical_trial_portal_logo_param"
                     }
                 },
                 "uuid": [
                     {
-                        "value": "334ff051-cb23-4101-8bfe-83c03fd0d56d"
+                        "value": "e666bf4b-fb97-43de-affc-15e905f18c9a"
                     }
                 ],
+                "target_revision_id": "133",
                 "alt": "",
                 "title": "",
                 "width": "496",

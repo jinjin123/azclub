@@ -1,0 +1,21 @@
+uuid: a38e8713-c20c-42c4-9ca2-279144c01a48
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_refers
+    - node.type.az_clinical_experience_process
+  module:
+    - text
+id: node.az_clinical_experience_process.field_refers
+field_name: field_refers
+entity_type: node
+bundle: az_clinical_experience_process
+label: 參考：
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

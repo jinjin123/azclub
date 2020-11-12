@@ -735,9 +735,26 @@ body {
   color: white;
 }
 
+.az-bottom-link-author {
+  text-align: right;
+}
+
 .az-article-header {
   position: relative;
-  left: 40%;
+  left: 41.5%;
+}
+
+.az-article-header .az-healthtips-title div {
+  font-size: 21px;
+}
+
+.az-offerdetail-article-header {
+  position: relative;
+  left: 37%;
+}
+
+.az-offerdetail-article-header span div {
+  font-size: 21px;
 }
 
 .az-node__content .az-node__content_bottom_boder {
@@ -1162,21 +1179,29 @@ footer#footer::after {
 
 .az-offers_product_box {
   position: relative;
-  clear: both;
-  left: 15%;
+  left: -30%;
   top: -200px;
 }
 
-.az-offers_logoimg {
-  clear: both;
-  position: absolute;
+.az-offers_product_box .az-offers_bgimg {
+  position: relative;
+  margin: 0 auto;
+  top: 50px;
+}
+
+.az-offers_product_box .az-offers_logoimg {
+  position: relative;
   top: 35%;
-  left: 30%;
+  width: 40%;
+  margin-top: 0;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  margin-right: auto;
 }
 
 .az-offer-article .az-offerdetail {
   position: relative;
-  margin-left: 29%;
+  margin-left: 25.5%;
   display: flex;
 }
 
@@ -1190,16 +1215,14 @@ footer#footer::after {
   border-top: 1px solid #d9d8d8;
   border-bottom: 1px solid #d9d8d8;
   width: 25%;
-}
-
-.az-medicine-shop-header {
-  display: flex;
+  text-align: right;
 }
 
 .az-offernode__content_body {
   position: relative;
-  left: -10%;
-  top: 0px;
+  left: -29.5%;
+  top: 120px;
+  display: block;
 }
 
 .az-offernode__content_body p {
@@ -1207,13 +1230,22 @@ footer#footer::after {
 }
 
 .az-offers_shop {
+  display: block;
+  position: relative;
+  width: 40%;
+  margin-top: 8%;
+  margin-left: 36%;
+  margin-right: auto;
   margin-bottom: 20px;
-  top: 0px;
-  left: 40%;
+}
+
+.az-offers_shop div img {
+  width: 100%;
 }
 
 .az-medicine-shop-header {
-  left: 39%;
+  left: 35.8%;
+  display: flex;
   position: relative;
 }
 
@@ -1266,6 +1298,10 @@ footer#footer::after {
   padding-left: 20px;
 }
 
+.az-clinical-right-box .az-clinical-rbx__boom .field--name-field-az-body {
+  padding-bottom: 10px;
+}
+
 .az-clinical-right-box .az-clinical-rbx_logo {
   position: relative;
   top: -35px;
@@ -1282,6 +1318,10 @@ footer#footer::after {
   font-weight: bold;
 }
 
+.az-clinical-right-box .az-clinical-bottom-box div {
+  margin-top: 20px;
+}
+
 .az-clinical-right-box .az-clinical-bottom-box div button {
   border: 0px;
   background-color: #eb1484;
@@ -1290,19 +1330,55 @@ footer#footer::after {
   width: 45%;
 }
 
-.az-middle-box .az-clinical-mid__boom {
+.az-clinical-middle-kv .az-middle-box .az-clinical-mid__boom {
   display: flex;
+}
+
+.az-clinical-middle-kv .az-middle-box .az-clinical-mid__boom .az-middle-rgx {
+  width: 100%;
+}
+
+.node--type-az-clinical-experience-process .field--name-field-refers {
+  display: block;
+  width: 50%;
+  margin-top: 190px;
+  margin-bottom: 0;
+  margin-left: 42%;
+  margin-right: auto;
+}
+
+.field--name-field-az-clinical-mid-params {
+  width: 50%;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 42%;
+  margin-right: auto;
+}
+
+.field--name-field-az-clinical-mid-params .field__item .paragraph--type--clinical-trial-portal-category-p {
+  position: relative;
+  margin-top: 20px;
+  top: 150px;
+  display: block;
 }
 
 .paragraph--type--clinical-trial-portal-category-p .field--name-field-az-clinical-category-item {
   display: flex;
+  width: 70%;
+  flex-wrap: wrap;
 }
 
 .node--type-az-clinical-experience-process .node__content .field--name-body {
   position: relative;
-  top: 150px;
-  margin-top: 10px;
+  top: 120px;
+  /* margin-top: 10px; */
   left: 2%;
+  display: block;
+  width: 50%;
+  /* margin-top: 190px; */
+  margin-bottom: 0;
+  margin-left: 40%;
+  margin-right: auto;
 }
 
 .paragraph--type--clinical-trial-portal-category-p {
@@ -1469,7 +1545,41 @@ footer#footer::after {
   font-weight: 100;
 }
 
-.az-product-position .clearfix {
-  position: relative;
-  bottom: 100px;
+.node--type-page div.field--name-body {
+  text-align: center;
+}
+
+.node--type-page div.field--name-body h3 {
+  font-size: 20px;
+  color: #b8b8b8;
+}
+
+.node--type-page div.field--name-body p {
+  color: #b8b8b8;
+}
+
+.node--type-health-information #block-astrazeneca-page-title .page-title::after, .node--type-medical-article #block-astrazeneca-page-title .page-title::after {
+  content: '';
+  width: 68px;
+  height: 7px;
+  display: block;
+  background: #EB1384;
+  border-radius: 5px;
+}
+
+.node--type-health-information .az-hr, .node--type-medical-article .az-hr {
+  border: 1px solid #979797;
+}
+
+.node--type-health-information .az-share-and-author, .node--type-medical-article .az-share-and-author {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.node--type-health-information .az-share-and-author .shares, .node--type-medical-article .az-share-and-author .shares {
+  float: left;
+}
+
+.node--type-health-information .az-share-and-author .author-by, .node--type-medical-article .az-share-and-author .author-by {
+  float: right;
 }

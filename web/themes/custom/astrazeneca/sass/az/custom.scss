@@ -2,7 +2,7 @@
 body {
     //background-color:  $head-cus!important;
     overflow: hidden;
-} 
+}
 //card
 .az-cardthree_box{
     border: 1px solid $color-gray;
@@ -255,29 +255,29 @@ body {
 .az-product-search_box>div {
     &:nth-child(1) {
       float: left;
-  
+
       span {
         font-size: 20px;
         font-weight: bold;
       }
     }
-  
+
     &:nth-child(2) {
       float: right;
       height: 40px;
-  
+
       .az-product-searright {
         float: right;
-  
+
         .az-product-search_button {
           float: left;
-  
+
           input {
             height: 40px;
             border: 1px solid $color-gray;
           }
         }
-  
+
         .az-product-search_icon {
           float: left;
           width: 40px;
@@ -287,7 +287,7 @@ body {
         }
       }
     }
-    
+
   }
   .az-product-seach_across {
     width: 100%;
@@ -295,7 +295,7 @@ body {
     border-bottom: 2px solid $color-gray;
     margin-bottom: 50px;
   }
-  
+
 //医学讲座及活动
 .az-product_head {
   margin: auto;
@@ -747,11 +747,27 @@ body {
       color: white;
     }
   }
-
+}
+.az-bottom-link-author {
+  text-align: right;
 }
 .az-article-header {
    position: relative;
-   left:40%;
+   left:41.5%;
+  .az-healthtips-title {
+    div {
+      font-size: 21px;
+    }
+  }
+}
+.az-offerdetail-article-header  {
+  position: relative;
+  left: 37%;
+  span {
+    div {
+      font-size: 21px;
+    }
+  }
 }
 .az-node__content{
     .az-node__content_bottom_boder{
@@ -1148,8 +1164,8 @@ body {
         form {
           display: flex;
           justify-content: space-between;
-          
-          
+
+
         }
       }
     }
@@ -1165,22 +1181,36 @@ footer#footer::after {
 
 .az-offers_product_box {
   position: relative;
-  clear: both;
-  left: 15%;
+  //clear: both;
+  left: -30%;
   top: -200px;
+  .az-offers_bgimg {
+    position: relative;
+    margin: 0 auto;
+    top: 50px;
+  }
+  .az-offers_logoimg {
+    position: relative;
+    top: 35%;
+    width: 40%;
+    margin-top: 0;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: auto;
+  }
 }
 
-.az-offers_logoimg {
-  clear: both;
-  position: absolute;
-  top: 35%;
-  left: 30%;
-}
+//.az-offers_logoimg {
+//  //clear: both;
+//  position: relative;
+//  top: 35%;
+//  left: 20%;
+//}
 
 .az-offer-article {
   .az-offerdetail {
     position: relative;
-    margin-left: 29%;
+    margin-left: 25.5%;
     display: flex;
     .az-off-pp-params {
       border-top: 1px solid #d9d8d8;
@@ -1191,13 +1221,12 @@ footer#footer::after {
       border-top: 1px solid #d9d8d8;
       border-bottom: 1px solid #d9d8d8;
       width: 25%;
+      text-align: right;
     }
   }
 }
 
-.az-medicine-shop-header {
-  display:flex
-}
+
 //.az-clinical-result-content {
 //  .view-content-wrap {
 //    margin-bottom:400px;
@@ -1205,20 +1234,31 @@ footer#footer::after {
 //}
 .az-offernode__content_body {
   position: relative;
-  left: -10%;
-  top: 0px;
+  left: -29.5%;
+  top: 120px;
+  display: block;
   p{
       color: $color-gray;
   }
 }
 .az-offers_shop {
-    margin-bottom: 20px;
-    top: 0px;
-    left: 40%;
+  display: block;
+  position: relative;
+  width: 40%;
+  margin-top: 8%;
+  margin-left: 36%;
+  margin-right: auto;
+  margin-bottom: 20px;
+  div {
+    img {
+      width: 100%;
+    }
+  }
 }
 
 .az-medicine-shop-header {
-  left:39%;
+  left:35.8%;
+  display:flex;
   position: relative;
 }
 .az-offer-article {
@@ -1264,6 +1304,9 @@ footer#footer::after {
   .az-clinical-rbx__boom {
     display: flex;
     padding-left: 20px;
+    .field--name-field-az-body {
+      padding-bottom: 10px;
+    }
   }
   .az-clinical-rbx_logo {
     position: relative;
@@ -1278,6 +1321,7 @@ footer#footer::after {
           font-weight: bold;
       }
       div{
+        margin-top: 20px;
           button{
               border: 0px;
               background-color: $color-red;
@@ -1288,16 +1332,50 @@ footer#footer::after {
       }
   }
 }
-
-.az-middle-box {
- .az-clinical-mid__boom {
-   display: flex
- }
+.az-clinical-middle-kv {
+  //display: flex;
+  //flex-wrap: wrap;
+  .az-middle-box {
+    .az-clinical-mid__boom {
+      display: flex;
+      .az-middle-rgx {
+        width: 100%;
+      }
+    }
+  }
+}
+.node--type-az-clinical-experience-process {
+  .field--name-field-refers {
+    display: block;
+    //width: 45%;
+    width: 50%;
+    margin-top: 190px;
+    margin-bottom: 0;
+    margin-left: 42%;
+    margin-right: auto;
+  }
+}
+.field--name-field-az-clinical-mid-params{
+  width: 50%;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 42%;
+  margin-right:auto;
+  .field__item {
+    .paragraph--type--clinical-trial-portal-category-p {
+      position: relative;
+      margin-top: 20px;
+      top: 150px;
+      display: block;
+    }
+  }
 }
 
 .paragraph--type--clinical-trial-portal-category-p {
   .field--name-field-az-clinical-category-item {
     display: flex;
+    width:70%;
+    flex-wrap: wrap;
   }
 }
 
@@ -1305,9 +1383,15 @@ footer#footer::after {
   .node__content {
    .field--name-body {
      position: relative;
-     top: 150px;
-     margin-top: 10px;
+     top: 120px;
+     /* margin-top: 10px; */
      left: 2%;
+     display: block;
+     width: 50%;
+     /* margin-top: 190px; */
+     margin-bottom: 0;
+     margin-left: 40%;
+     margin-right: auto;
    }
   }
 }
@@ -1469,8 +1553,47 @@ footer#footer::after {
             font-weight: 100;
         }
     }
-    .clearfix{
-        position: relative;
-        bottom: 100px;
-    }
 }
+
+.node--type-page {
+  div.field--name-body {
+    text-align: center;
+
+    h3 {
+      font-size: 20px;
+      color: #b8b8b8;
+    }
+
+    p {
+      color: #b8b8b8;
+    }
+  }
+}
+
+.node--type-health-information,.node--type-medical-article {
+  #block-astrazeneca-page-title .page-title {
+    &::after {
+      content: '';
+      width: 68px;
+      height:7px;
+      display: block;
+      background: #EB1384;
+      border-radius: 5px;
+    }
+  }
+  .az-hr {
+    //margin: 10px 0 10px 0;
+    border: 1px solid #979797;
+  }
+  .az-share-and-author {
+    margin-left: 0;
+    margin-right: 0;
+    .shares {
+      float: left;
+    }
+    .author-by {
+      float: right;
+    }
+  }
+}
+
