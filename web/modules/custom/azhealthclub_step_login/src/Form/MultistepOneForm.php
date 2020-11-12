@@ -28,40 +28,72 @@ class MultistepOneForm extends MultistepFormBase {
     $form = parent::buildForm($form, $form_state);
 
     $form['tips'] = [
-      '#markup' => '<div class="tips">正服用阿斯利康藥物的人士，只要您想做好健康管理，都歡迎你加入成為「康心摯友」的會員（會用全免）。
-「康心摯友」會定期送上會員通訊、電郵、或短訊等，為您提供最新醫學情報及健康小貼士。</div>',
+      '#markup' => '<div class="tips"><span>*</span>為必填項</div>',
     ];
-    $form['phone'] = [
+
+    $form['line1'] = [
+      '#type' => 'fieldset',
+      '#prefix' => '<div id="az-phone-email">',
+      '#suffix' => '</div>',
+    ];
+
+    $form['line1']['phone'] = [
       '#type' => 'tel',
       '#title' => '',
       //'#pattern' => '[\d]*',
       '#default_value' => $this->store->get('phone') ? $this->store->get('phone') : '',
-      '#attributes' => ['placeholder' => '電話號碼*'],
+      '#attributes' => ['placeholder' => '*流動電話（用於接受驗證碼）'],
+      '#size' => 30,
+      '#prefix' => '<div class="col-md-6 col-xs-12">',
+      '#suffix' => '</div>',
     ];
 
-    $form['email'] = [
+    $form['line1']['email'] = [
       '#type' => 'email',
       '#title' => '',
       '#default_value' => $this->store->get('email') ? $this->store->get('email') : '',
-      '#attributes' => ['placeholder' => '電郵地址*'],
+      '#attributes' => ['placeholder' => '*電郵地址（用於接受驗證碼）'],
+      '#size' => 30,
+      '#prefix' => '<div class="col-md-6 col-xs-12">',
+      '#suffix' => '</div>',
     ];
 
-    $form['pass'] = [
-      '#type' => 'password_confirm',
-      '#size' => 25,
+    $form['line2'] = [
+      '#type' => 'fieldset',
+      '#prefix' => '<div id="az-pass-confirm-pass">',
+      '#suffix' => '</div>',
+    ];
+
+    $form['line2']['pass'] = [
+      '#type' => 'password',
+      '#attributes' => ['placeholder' => '*密碼設定'],
+      '#size' => 30,
+      '#prefix' => '<div class="col-md-6 col-xs-12">',
+      '#suffix' => '</div>',
+    ];
+    $form['line2']['confirm_pass'] = [
+      '#type' => 'password',
+      '#attributes' => ['placeholder' => '*確認密碼'],
+      '#size' => 30,
+      '#prefix' => '<div class="col-md-6 col-xs-12">',
+      '#suffix' => '</div>',
     ];
 
     $form['send_code'] = [
       '#type' => 'button',
+      '#name' => 'send_code',
       '#value' => '發送驗證碼',
+      '#prefix' => '<div class="col-md-2 col-xs-2">',
+      '#suffix' => '</div>',
       '#ajax' => [
       'callback' => '::sendCodeAjax',
       'disable-refocus' => FALSE,
       'event' => 'click',
-      'progress' => [
-        'type' => 'throbber',
-        'message' => $this->t('Sending'),
-      ],
+//      'progress' => [
+//        'type' => 'throbber',
+//        'message' => $this->t('Sending'),
+//      ],
+        'wrapper' => 'az-phone-email',
     ]
     ];
     $form['verify_code'] = [
@@ -69,15 +101,21 @@ class MultistepOneForm extends MultistepFormBase {
       '#title' => '',
       '#default_value' => $this->store->get('verify_code') ? $this->store->get('verify_code') : '',
       '#attributes' => ['placeholder' => '輸入驗證碼'],
+      '#size' => 15,
+      '#prefix' => '<div class="col-md-4 col-xs-4">',
+      '#suffix' => '</div><div class="clearfix"></div>',
+    ];
+    $form['send_code_tips'] = [
+      '#markup' => '<div class="send-code-tips">請按「發送驗證碼」，系統會發送驗證碼到你的電郵地址或流動電話</div>',
     ];
 
     $statement = '<div class="statement">
   <div>
-  顧客可自行決定是否參與本會員優惠計劃。申請人須填妥本申請表格，
-  並提供本表格所要求之資料，經確認登記成功後方可享受有關優惠。
+  1.顧客可自行決定是否參與本會員優惠計劃。申請人須填妥本申請表格，
+  並提供本表格所要求之資料，經確認登記成功後，方可享受有關優惠。
   </div>
   <div>
-  阿斯利康於本會員優惠計劃中收集個人資料將會用作（i）處理會員優惠計劃申請；（ii）醫療資料通訊；
+  2.阿斯利康於本會員優惠計劃中收集個人資料將會用作（i）處理會員優惠計劃申請；（ii）醫療資料通訊；
   （iii）市場分析；及（iv）於本人同意之情形下，開展市場推廣活動（具體資訊見下文），上述一切用途均需符合本公司私隱政策聲明，
   該聲明可透過向本公司寫信索取，並註明阿斯利康私隱專員收，郵寄地址：香港中央郵政信箱8717號。
   </div>
@@ -126,35 +164,25 @@ class MultistepOneForm extends MultistepFormBase {
 
   public function sendCodeAjax(array &$form, FormStateInterface $form_state) {
     //todo: send code
-    $configFactory = \Drupal::configFactory();
-    $settings = $configFactory->get('aws_secrets_manager.settings');
-
-    $awsRegion = $settings->get('aws_region');
-    $awsKey = $settings->get('aws_key');
-    $awsSecret = $settings->get('aws_secret');
-    $snsClient = new SnsClient([
-      'region'      => $awsRegion,
-      'credentials' => [
-        'key'         => $awsKey,
-        'secret'      => $awsSecret,
-      ],
-      'version'     => '2010-03-31',
-      'debug'       => false,
-    ]);
-    $args = [
-      'Message' => 'Hello, world!',
-      'PhoneNumber' => '+86xxxxxxxxxxx',
-    ];
-
-
-    try {
-      $result = $snsClient->publish($args);
-      \Drupal::logger('azhealthclub_step_login')->notice(print_r($result, TRUE));
-    } catch (AwsException $e) {
-      // output error message if fails
-      \Drupal::logger('azhealthclub_step_login')->error($e->getMessage());
-    }
-    $snsClient->Publish($args);
-    return $form['send_code'];
+    $form['line1']['phone']['#attributes']['class'][] = 'az-error';
+    return $form['line1'];
   }
+
+  public function validateForm(array &$form, FormStateInterface $form_state) {
+    parent::validateForm($form, $form_state);
+
+    $values = $form_state->getValues();
+    if ($form_state->getTriggeringElement()['#name'] == 'send_code') {
+      // do nothing
+    }
+    else {
+      if (empty($values['phone'])) {
+        $form_state->setErrorByName('line1][phone', '請輸入流動電話');
+        $form['line1']['phone']['#attributes']['class'][] = 'az-error';
+      }
+    }
+
+    //$form_state->setRebuild(TRUE);
+  }
+
 }
