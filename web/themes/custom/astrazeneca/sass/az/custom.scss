@@ -144,21 +144,28 @@ body {
                             padding-bottom: 0 !important;
                             line-height: 55px;
                         }
+                        a:hover{
+                            color: $color-red;
+                        }
                       ul {
-                        min-width: 160px;
-                        border-left: 2px solid $color-orange;
+                        min-width: 165px;
+                        border-left: 4px solid $color-orange;
                         border-top: none;
             
                         li {
-                          height: 40px;
-                          line-height: 40px;
+                          height: 36px;
+                          line-height: 36px;
+                          a{
+                              height: 36px;
+                              line-height: 36px;
+                          }
                         }
                       }
                     }
-                    .active {
-                      a {
-                        color: $color-red;
-                      }
+                    .active>a{
+                        &:nth-child(1){
+                            color: $color-red;
+                        }
                     }
                   }
                 }
@@ -1129,6 +1136,7 @@ body {
 }
 
 #footer {
+    background: #F4F4F4;
   .footer-center {
     background: unset;
     #block-footerleft {
@@ -1178,8 +1186,6 @@ body {
         form {
           display: flex;
           justify-content: space-between;
-
-
         }
       }
     }
