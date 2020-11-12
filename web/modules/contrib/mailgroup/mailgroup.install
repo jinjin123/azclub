@@ -1,0 +1,71 @@
+<?php
+
+/**
+ * @file
+ * Install, update and uninstall functions for the mailgroup module.
+ */
+
+/**
+ * Implements hook_schema().
+ */
+function mailgroup_schema() {
+  $schema['mailgroup_config'] = [
+    'description' => 'Stores mail group configuration data.',
+    'fields' => [
+      'id' => [
+        'description' => 'The mail group ID.',
+        'type' => 'int',
+        'unsigned' => TRUE,
+        'not null' => TRUE,
+        'default' => 0,
+      ],
+      'name' => [
+        'description' => 'The configuration key name.',
+        'type' => 'varchar_ascii',
+        'length' => 128,
+        'not null' => TRUE,
+        'default' => '',
+      ],
+      'value' => [
+        'description' => 'The configuration value.',
+        'type' => 'text',
+        'not null' => FALSE,
+        'size' => 'big',
+      ],
+    ],
+    'primary key' => ['id', 'name'],
+    'indexes' => [
+      'key' => ['name'],
+    ],
+    'foreign keys' => [
+      'id' => ['mailgroup' => 'id'],
+    ],
+  ];
+
+  return $schema;
+}
+
+/**
+ * Move some entity settings into config.
+ */
+function mailgroup_update_8101() {
+  $update_manager = \Drupal::entityDefinitionUpdateManager();
+  $config = \Drupal::service('mailgroup.config');
+  $database = \Drupal::database();
+
+  $groups = $database->select('mailgroup', 'm')
+    ->fields('m', ['id', 'prepend_name', 'reply_to'])
+    ->execute()
+    ->fetchAll();
+
+  foreach ($groups as $group) {
+    $config->set($group->id, 'prepend_name', $group->prepend_name);
+    $config->set($group->id, 'reply_to', $group->reply_to);
+  }
+
+  $definition = $update_manager->getFieldStorageDefinition('prepend_name', 'mailgroup');
+  $update_manager->uninstallFieldStorageDefinition($definition);
+
+  $definition = $update_manager->getFieldStorageDefinition('reply_to', 'mailgroup');
+  $update_manager->uninstallFieldStorageDefinition($definition);
+}

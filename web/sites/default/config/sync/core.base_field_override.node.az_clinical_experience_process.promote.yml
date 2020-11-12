@@ -1,0 +1,22 @@
+uuid: 5465017a-3262-4d3f-b798-e72ea559bde0
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.az_clinical_experience_process
+id: node.az_clinical_experience_process.promote
+field_name: promote
+entity_type: node
+bundle: az_clinical_experience_process
+label: 'Promoted to front page'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

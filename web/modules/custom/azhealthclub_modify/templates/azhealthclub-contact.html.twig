@@ -1,26 +1,25 @@
-<div class="az_main_box">
-  <div class="row">
-    <div class="col-md-3 col-sm-6 col-xs-8">
-      <div class="az_contact_rg_box">
-        <div class="az_head">
-          <h5>Contact Us</h5>
-          <h1>聯絡我們</h1>
-        </div>
-        <div class="az_body">
-          <h3>康心摯友熱線</h3>
-          <p><span class="az_contact_icon"></span><span class="p">(852) 2941 5388</span></p>
-          <p><span class="az_contact_icon"></span><span class="p">星期一至五，上午9：00至下午5：00</span></p>
-          <p><span class="az_contact_icon"></span><span class="p">如有任何問題，請向您的醫生或藥劑師查詢</span></p>
-        </div>
-      </div>
+<div class="az-contact-main_box">
+    <div class="col-lg-6">
+{#      <div class="az_contact_rg_box">#}
+{#        <div class="az_head">#}
+{#          <h5>Contact Us</h5>#}
+{#          <h1>聯絡我們</h1>#}
+{#        </div>#}
+{#        <div class="az_body">#}
+{#          <h3>康心摯友熱線</h3>#}
+{#          <p><span class="az_contact_icon"></span><span class="p">(852) 2941 5388</span></p>#}
+{#          <p><span class="az_contact_icon"></span><span class="p">星期一至五，上午9：00至下午5：00</span></p>#}
+{#          <p><span class="az_contact_icon"></span><span class="p">如有任何問題，請向您的醫生或藥劑師查詢</span></p>#}
+{#        </div>#}
+{#      </div>#}
+      {{ drupal_entity("block_content",8) }}
     </div>
-    <div class="col-md-3 col-sm-6 col-xs-8">
-      <div class="">
+    <div class="col-lg-6">
+      <div class="az-contact-form_body">
         <div class="az_title">電郵聯絡我們</div>
         <div class="az_contact_form">
           {{ drupal_entity('webform','contact') }}
         </div>
       </div>
     </div>
-  </div>
 </div>

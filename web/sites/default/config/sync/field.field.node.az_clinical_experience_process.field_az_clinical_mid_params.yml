@@ -1,0 +1,40 @@
+uuid: 9f93ef35-494a-48ad-b482-e09165b0f09e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_az_clinical_mid_params
+    - node.type.az_clinical_experience_process
+    - paragraphs.paragraphs_type.clinical_trial_portal_category_p
+  module:
+    - entity_reference_revisions
+id: node.az_clinical_experience_process.field_az_clinical_mid_params
+field_name: field_az_clinical_mid_params
+entity_type: node
+bundle: az_clinical_experience_process
+label: 'AZ Clinical mid params'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    negate: 0
+    target_bundles:
+      clinical_trial_portal_category_p: clinical_trial_portal_category_p
+    target_bundles_drag_drop:
+      clinical_trial_portal_category_p:
+        enabled: true
+        weight: 5
+      clinical_trial_portal_logo_param:
+        weight: 6
+        enabled: false
+      clinical_trial_portal_pcpi:
+        weight: 7
+        enabled: false
+      medicine_shop_addr:
+        weight: 8
+        enabled: false
+field_type: entity_reference_revisions

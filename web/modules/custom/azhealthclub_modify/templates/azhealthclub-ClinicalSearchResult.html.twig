@@ -1,7 +1,34 @@
+{#<div class="az-clinical-result">#}
+{#  {{ drupal_entity('node',23)  }}#}
+{#  {{ drupal_block("az_clinical_filter_block") }}#}
+{#  <div class="az-clinical-result-content">#}
+{#    {{ drupal_view('az_clinical_trial_search_result','page_1') }}#}
+{#  </div>#}
+{#  {{ drupal_view("az_clinical_trial_search_result","") }}#}
+{#</div>#}
+{#    {{ drupal_view('az_clinical_trial_search_result','page_1') }}#}
+
 <div class="az-clinical-result">
-  {{ drupal_entity('node',23)  }}
-  {{ drupal_block("az_clinical_filter_block") }}
-  <div class="az-clinical-result-content">
-    {{ drupal_view('az_clinical_trial_search_result','clinical_search') }}
-  </div>
+{#  {{ drupal_entity('node',23)  }}#}
+    {{ drupal_block("az_clinical_filter_block") }}
+    <div class="az-clinical-result-content">
+      {{ drupal_view('az_clinical_trial_search_result','clinical_search_default') }}
+  {#    {{ content }}#}
+    </div>
+  {#  {{ drupal_view("az_clinical_trial_search_result","") }}#}
 </div>
+
+{#<div class="az-panel-100">#}
+{#  <div class="az-search-article_bottom_1">#}
+{#    {{ drupal_entity("block_content",2)  }}#}
+{#  </div>#}
+{#  <div class="az-search-article_block">#}
+{#    {{ drupal_view("az_clinical_trial_search_result","clinical_article") }}#}
+{#  </div>#}
+{#</div>#}
+
+{#<div class="az-panel-100">#}
+{#  <div class="az-search-article_bottom_2">#}
+{#    {{ drupal_entity("block_content",6)  }}#}
+{#  </div>#}
+{#</div>#}

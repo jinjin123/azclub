@@ -1,0 +1,19 @@
+uuid: cf209410-4c53-4ff4-8611-7b4dc47ffa90
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_sub_title
+    - node.type.health_information
+id: node.health_information.field_sub_title
+field_name: field_sub_title
+entity_type: node
+bundle: health_information
+label: 'sub title'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

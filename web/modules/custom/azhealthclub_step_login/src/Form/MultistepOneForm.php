@@ -8,6 +8,8 @@
 namespace Drupal\azhealthclub_step_login\Form;
 
 use Drupal\Core\Form\FormStateInterface;
+use Aws\Sns\SnsClient;
+use Aws\Exception\AwsException;
 
 class MultistepOneForm extends MultistepFormBase {
 
@@ -49,9 +51,22 @@ class MultistepOneForm extends MultistepFormBase {
       '#size' => 25,
     ];
 
+    $form['send_code'] = [
+      '#type' => 'button',
+      '#value' => '發送驗證碼',
+      '#ajax' => [
+      'callback' => '::sendCodeAjax',
+      'disable-refocus' => FALSE,
+      'event' => 'click',
+      'progress' => [
+        'type' => 'throbber',
+        'message' => $this->t('Sending'),
+      ],
+    ]
+    ];
     $form['verify_code'] = [
       '#type' => 'textfield',
-      '#title' => '發送驗證碼',
+      '#title' => '',
       '#default_value' => $this->store->get('verify_code') ? $this->store->get('verify_code') : '',
       '#attributes' => ['placeholder' => '輸入驗證碼'],
     ];
@@ -107,5 +122,39 @@ class MultistepOneForm extends MultistepFormBase {
     $this->store->set('attention1', $form_state->getValue('attention1'));
 
     $form_state->setRedirect('azhealthclub_step_login.multistep_two');
+  }
+
+  public function sendCodeAjax(array &$form, FormStateInterface $form_state) {
+    //todo: send code
+    $configFactory = \Drupal::configFactory();
+    $settings = $configFactory->get('aws_secrets_manager.settings');
+
+    $awsRegion = $settings->get('aws_region');
+    $awsKey = $settings->get('aws_key');
+    $awsSecret = $settings->get('aws_secret');
+    $snsClient = new SnsClient([
+      'region'      => $awsRegion,
+      'credentials' => [
+        'key'         => $awsKey,
+        'secret'      => $awsSecret,
+      ],
+      'version'     => '2010-03-31',
+      'debug'       => false,
+    ]);
+    $args = [
+      'Message' => 'Hello, world!',
+      'PhoneNumber' => '+86xxxxxxxxxxx',
+    ];
+
+
+    try {
+      $result = $snsClient->publish($args);
+      \Drupal::logger('azhealthclub_step_login')->notice(print_r($result, TRUE));
+    } catch (AwsException $e) {
+      // output error message if fails
+      \Drupal::logger('azhealthclub_step_login')->error($e->getMessage());
+    }
+    $snsClient->Publish($args);
+    return $form['send_code'];
   }
 }

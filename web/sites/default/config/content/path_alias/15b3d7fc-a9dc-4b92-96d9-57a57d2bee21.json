@@ -1,0 +1,35 @@
+{
+    "_links": {
+        "self": {
+            "href": ""
+        },
+        "type": {
+            "href": "http:\/\/default\/rest\/type\/path_alias\/path_alias"
+        }
+    },
+    "uuid": [
+        {
+            "value": "15b3d7fc-a9dc-4b92-96d9-57a57d2bee21"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en"
+        }
+    ],
+    "path": [
+        {
+            "value": "\/node\/80"
+        }
+    ],
+    "alias": [
+        {
+            "value": "\/respiratory\/severe-asthma"
+        }
+    ],
+    "status": [
+        {
+            "value": true
+        }
+    ]
+}

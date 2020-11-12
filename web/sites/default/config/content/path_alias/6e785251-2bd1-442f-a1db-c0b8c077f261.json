@@ -1,0 +1,35 @@
+{
+    "_links": {
+        "self": {
+            "href": ""
+        },
+        "type": {
+            "href": "http:\/\/default\/rest\/type\/path_alias\/path_alias"
+        }
+    },
+    "uuid": [
+        {
+            "value": "6e785251-2bd1-442f-a1db-c0b8c077f261"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en"
+        }
+    ],
+    "path": [
+        {
+            "value": "\/node\/72"
+        }
+    ],
+    "alias": [
+        {
+            "value": "\/cancer"
+        }
+    ],
+    "status": [
+        {
+            "value": true
+        }
+    ]
+}

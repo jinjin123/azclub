@@ -1,0 +1,38 @@
+uuid: b6d97f13-38c5-4594-a42f-63a04a03807f
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.ta_campaign
+  module:
+    - block_visibility_groups
+    - gaviasthemer
+    - system
+    - views
+  theme:
+    - astrazeneca
+third_party_settings:
+  gaviasthemer:
+    classes: ''
+id: views_block__ta_campaign_block_4
+theme: astrazeneca
+region: content
+weight: -10
+provider: null
+plugin: 'views_block:ta_campaign-block_4'
+settings:
+  id: 'views_block:ta_campaign-block_4'
+  label: ''
+  provider: views
+  label_display: '0'
+  views_label: ''
+  items_per_page: none
+visibility:
+  condition_group:
+    id: condition_group
+    negate: false
+    block_visibility_group: ''
+  request_path:
+    id: request_path
+    pages: /gastrointestinal
+    negate: false

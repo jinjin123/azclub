@@ -1,0 +1,39 @@
+uuid: e853bccd-2334-4360-b865-8661be665594
+langcode: en
+status: false
+dependencies:
+  content:
+    - 'block_content:basic:fa11c501-5950-469f-93a6-f8b379274c52'
+  module:
+    - block_content
+    - block_visibility_groups
+    - gaviasthemer
+    - system
+  theme:
+    - astrazeneca
+third_party_settings:
+  gaviasthemer:
+    classes: ''
+id: contactusinforightblock
+theme: astrazeneca
+region: content
+weight: -3
+provider: null
+plugin: 'block_content:fa11c501-5950-469f-93a6-f8b379274c52'
+settings:
+  id: 'block_content:fa11c501-5950-469f-93a6-f8b379274c52'
+  label: 'contact us info right block'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  condition_group:
+    id: condition_group
+    negate: false
+    block_visibility_group: ''
+  request_path:
+    id: request_path
+    pages: /azhealthclub/contact
+    negate: false

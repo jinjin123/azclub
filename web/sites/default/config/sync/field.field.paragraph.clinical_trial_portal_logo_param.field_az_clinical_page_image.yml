@@ -1,0 +1,38 @@
+uuid: e1f8a3e0-fbb9-424d-bf82-781605452fac
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_az_clinical_page_image
+    - paragraphs.paragraphs_type.clinical_trial_portal_logo_param
+  module:
+    - image
+id: paragraph.clinical_trial_portal_logo_param.field_az_clinical_page_image
+field_name: field_az_clinical_page_image
+entity_type: paragraph
+bundle: clinical_trial_portal_logo_param
+label: 'AZ Clinical page image'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  file_directory: '[date:custom:Y]-[date:custom:m]'
+  file_extensions: 'png gif jpg jpeg'
+  max_filesize: ''
+  max_resolution: ''
+  min_resolution: ''
+  alt_field: false
+  alt_field_required: true
+  title_field: false
+  title_field_required: false
+  default_image:
+    uuid: ''
+    alt: ''
+    title: ''
+    width: null
+    height: null
+  handler: 'default:file'
+  handler_settings: {  }
+field_type: image

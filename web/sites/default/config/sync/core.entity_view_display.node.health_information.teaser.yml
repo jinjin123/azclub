@@ -5,7 +5,9 @@ dependencies:
   config:
     - core.entity_view_mode.node.teaser
     - field.field.node.health_information.body
+    - field.field.node.health_information.field_health_information_img
     - field.field.node.health_information.field_refers
+    - field.field.node.health_information.field_sub_title
     - field.field.node.health_information.field_ta_type
     - node.type.health_information
   module:
@@ -30,6 +32,9 @@ content:
     third_party_settings: {  }
     region: content
 hidden:
+  addtoany: true
+  field_health_information_img: true
   field_refers: true
+  field_sub_title: true
   field_ta_type: true
   search_api_excerpt: true

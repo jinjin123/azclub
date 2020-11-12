@@ -16,7 +16,7 @@ third_party_settings:
 id: webform
 theme: astrazeneca
 region: footer_third
-weight: 0
+weight: -18
 provider: null
 plugin: webform_block
 settings:

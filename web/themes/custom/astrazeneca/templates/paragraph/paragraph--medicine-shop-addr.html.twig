@@ -42,22 +42,28 @@
   set classes = [
   'row',
   'paragraph',
+  'az-offerdetail',
+  'col-lg-5',
+  'col-md-4',
   'paragraph--type--' ~ paragraph.bundle|clean_class,
   view_mode ? 'paragraph--view-mode--' ~ view_mode|clean_class,
   not paragraph.isPublished() ? 'paragraph--unpublished'
 ]
 %}
+{#            {{ dd(content["field_area"][0]["#context"]["value"]) }}#}
 {% block paragraph %}
+{#  <div class="az-medicine-shop-header">#}
+{#    <div class="az-medicinie-left">藥房銷售點</div>#}
+{#    <div class="az-medicinie-right">#}
+{#      <select>#}
+{#        #}{#            <option value="{{ content['field_area']}}">{{ content['field_area']}}</option>#}
+{#      </select>#}
+{#    </div>#}
+{#  </div>#}
   <div{{ attributes.addClass(classes) }}>
     {% block content %}
-      <table class="table">
-        <tr>
-          <td>{{ content['field_shopname']}} </td>
-          <td>{{ content['field_shop_detail']}} </td>
-          <td>{{ content['field_phone']}} </td>
-          <td>{{ content['field_area']}} </td>
-        </tr>
-      </table>
+      <div class="az-off-pp-params">{{ content['field_shopname']}}</div><div class="az-off-pp-params">{{ content['field_shop_detail']}}</div><div class="az-off-pp-params">
+      {{ content['field_phone']}}</div><div class="az-off-pp-area">{{ content['field_area']}}</div>
     {% endblock %}
   </div>
 {% endblock paragraph %}

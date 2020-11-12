@@ -6,6 +6,9 @@ dependencies:
     - field.storage.node.body
     - field.storage.node.field_az_club_img
     - node.type.az_health_club
+    - node.type.az_latest_news
+    - views.view.az_health_tips
+    - views.view.az_latest_news
   module:
     - image
     - node
@@ -54,7 +57,7 @@ display:
       pager:
         type: infinite_scroll
         options:
-          items_per_page: 9
+          items_per_page: 6
           offset: 0
           id: 0
           total_pages: null
@@ -279,7 +282,7 @@ display:
           exclude: false
           alter:
             alter_text: true
-            text: "<div class=\"az-offer_box\">\r\n  <div class=\"az-offer_img\">\r\n        {{field_az_club_img}}\r\n  </div>\r\n  <div class=\"az-offer_body\">\r\n     <div class=\"az-offer_body_title\">\r\n       {{ title }}\r\n    </div>\r\n    <div class=\"az-offer_sub_title\">\r\n      {{ body__summary }}\r\n    </div>\r\n  </div>\r\n   <div class=\"az-offer_click_bottom\">\r\n     <a href=\"{{ view_node }}\">了解更多</a>\r\n  </div>\r\n</div>"
+            text: "<div class=\"az-offer_box\">\r\n  <div class=\"az-offer_img\">\r\n        {{field_az_club_img}}\r\n  </div>\r\n  <div class=\"az-offer_body\">\r\n     <h4 class=\"az-offer_body_title\">\r\n       {{ title }}\r\n    </h4>\r\n    <div class=\"az-offer_sub_title\">\r\n      {{ body__summary }}\r\n    </div>\r\n<div class=\"az-offer_click_bottom\">\r\n     <a href=\"{{ view_node }}\">了解更多</a>\r\n  </div>\r\n  </div>\r\n</div>"
             make_link: false
             path: ''
             absolute: false
@@ -348,14 +351,44 @@ display:
           id: type
           table: node_field_data
           field: type
+          relationship: none
+          group_type: group
+          admin_label: ''
+          operator: in
           value:
-            az_health_club: az_health_club
+            az_latest_news: az_latest_news
+          group: 1
+          exposed: false
+          expose:
+            operator_id: ''
+            label: ''
+            description: ''
+            use_operator: false
+            operator: ''
+            operator_limit_selection: false
+            operator_list: {  }
+            identifier: ''
+            required: false
+            remember: false
+            multiple: false
+            remember_roles:
+              authenticated: authenticated
+            reduce: false
+          is_grouped: false
+          group_info:
+            label: ''
+            description: ''
+            identifier: ''
+            optional: true
+            widget: select
+            multiple: false
+            remember: false
+            default_group: All
+            default_group_multiple: {  }
+            group_items: {  }
           entity_type: node
           entity_field: type
           plugin_id: bundle
-          expose:
-            operator_limit_selection: false
-            operator_list: {  }
       sorts:
         created:
           id: created
@@ -385,7 +418,29 @@ display:
           tokenize: false
           content: "<div class=\"az-product_head\">\r\n\t<div class=\"az-product_head__title1\">\r\n        <span>康心摯友會活動</span>\r\n    </div>\r\n    <div class=\"az-product_head__title2\">\r\n      <span>康心摯友會活動一覽</span>\r\n    </div>\r\n  \t<div class=\"az-product_head__body\">\r\n      <span>Lorem lpsum只是印刷和設置行業的偽文本。自500年代以來，Lorem lpsum一直是該行業的標準偽文本。當時，一個未知的打印機拿起一個廚房，將其打亂成一個類型。</span>\r\n    </div>\r\n</div>"
           plugin_id: text_custom
-      footer: {  }
+      footer:
+        view:
+          id: view
+          table: views
+          field: view
+          relationship: none
+          group_type: group
+          admin_label: ''
+          empty: false
+          view_to_insert: 'az_latest_news:doctor_talk'
+          inherit_arguments: false
+          plugin_id: view
+        view_1:
+          id: view_1
+          table: views
+          field: view
+          relationship: none
+          group_type: group
+          admin_label: ''
+          empty: false
+          view_to_insert: 'az_health_tips:health_tips_yellow'
+          inherit_arguments: false
+          plugin_id: view
       empty: {  }
       relationships: {  }
       arguments: {  }
@@ -411,6 +466,69 @@ display:
       display_extenders: {  }
       path: az-health-club
       display_description: ''
+      filters:
+        status:
+          value: '1'
+          table: node_field_data
+          field: status
+          plugin_id: boolean
+          entity_type: node
+          entity_field: status
+          id: status
+          expose:
+            operator: ''
+            operator_limit_selection: false
+            operator_list: {  }
+          group: 1
+        type:
+          id: type
+          table: node_field_data
+          field: type
+          relationship: none
+          group_type: group
+          admin_label: ''
+          operator: in
+          value:
+            az_health_club: az_health_club
+          group: 1
+          exposed: false
+          expose:
+            operator_id: ''
+            label: ''
+            description: ''
+            use_operator: false
+            operator: ''
+            operator_limit_selection: false
+            operator_list: {  }
+            identifier: ''
+            required: false
+            remember: false
+            multiple: false
+            remember_roles:
+              authenticated: authenticated
+            reduce: false
+          is_grouped: false
+          group_info:
+            label: ''
+            description: ''
+            identifier: ''
+            optional: true
+            widget: select
+            multiple: false
+            remember: false
+            default_group: All
+            default_group_multiple: {  }
+            group_items: {  }
+          entity_type: node
+          entity_field: type
+          plugin_id: bundle
+      defaults:
+        filters: false
+        filter_groups: false
+      filter_groups:
+        operator: AND
+        groups:
+          1: AND
     cache_metadata:
       max-age: -1
       contexts:

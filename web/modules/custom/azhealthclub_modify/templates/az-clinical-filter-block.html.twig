@@ -14,7 +14,7 @@
         <select id="az_clinic_select_type" class="az-search-clinical-type" data-width="150px" style="">
           <option value="" disabled selected>腫瘤類別</option>
           {% for tr in variables["tumor"] %}
-            <option value="{{  tr.name }}">{{  tr.name }}</option>
+            <option value="{{  tr.tid }}">{{  tr.name }}</option>
           {% endfor %}
         </select>
         <select id="az_clinic_select_age"  class="az-search-clinical-age" data-width="150px" style="">
@@ -26,7 +26,11 @@
         <select id="az_clinic_select_sex"  class="az-search-clinical-sex" data-width="150px" style="">
           <option value="" disabled selected>性別</option>
           {% for se in variables["sexx"] %}
-            <option value="{{ se.field_az_se_value }}">{{ se.field_az_se_value }}</optionva>
+             {% if se.field_az_se_value =="男" %}
+            <option value="1">{{ se.field_az_se_value }}</option>
+             {% elseif se.field_az_se_value =="女" %}
+              <option value="2">{{ se.field_az_se_value }}</option>
+              {% endif %}
           {% endfor %}
         </select>
         <button class="az-search-button">立即搜尋</button>

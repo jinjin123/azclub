@@ -4,13 +4,16 @@ status: true
 dependencies:
   config:
     - field.storage.node.body
-    - field.storage.node.field_az_clinical_page_image
+    - field.storage.paragraph.field_az_clinical_page_image
     - field.storage.paragraph.field_az_conditions_term
     - field.storage.paragraph.field_field_az_clinical_param_lo
     - image.style.az220180
     - node.type.az_clinical_experience_process
     - taxonomy.vocabulary.ta_type
+    - views.view.ta_article_list
   content:
+    - 'block_content:basic:250c78c1-5e57-44f5-aa86-6a4bc41299f8'
+    - 'block_content:basic:dadc046f-b578-4b02-873b-4f22e94ee17d'
     - 'taxonomy_term:ta_type:5f18a532-1234-4e3c-95d6-b3b4bad7ac98'
   module:
     - better_exposed_filters
@@ -20,6 +23,7 @@ dependencies:
     - taxonomy
     - text
     - user
+    - views_infinite_scroll
 id: az_clinical_trial_search_result
 label: 'AZ Clinical Trial Search Result'
 module: views
@@ -177,70 +181,6 @@ display:
           entity_type: node
           entity_field: title
           plugin_id: field
-        field_az_clinical_page_image:
-          id: field_az_clinical_page_image
-          table: node__field_az_clinical_page_image
-          field: field_az_clinical_page_image
-          relationship: none
-          group_type: group
-          admin_label: ''
-          label: ''
-          exclude: true
-          alter:
-            alter_text: false
-            text: ''
-            make_link: false
-            path: ''
-            absolute: false
-            external: false
-            replace_spaces: false
-            path_case: none
-            trim_whitespace: false
-            alt: ''
-            rel: ''
-            link_class: ''
-            prefix: ''
-            suffix: ''
-            target: ''
-            nl2br: false
-            max_length: 0
-            word_boundary: true
-            ellipsis: true
-            more_link: false
-            more_link_text: ''
-            more_link_path: ''
-            strip_tags: false
-            trim: false
-            preserve_tags: ''
-            html: false
-          element_type: ''
-          element_class: ''
-          element_label_type: ''
-          element_label_class: ''
-          element_label_colon: false
-          element_wrapper_type: ''
-          element_wrapper_class: ''
-          element_default_classes: true
-          empty: ''
-          hide_empty: false
-          empty_zero: false
-          hide_alter_empty: true
-          click_sort_column: target_id
-          type: image
-          settings:
-            image_style: az220180
-            image_link: ''
-          group_column: ''
-          group_columns: {  }
-          group_rows: true
-          delta_limit: 0
-          delta_offset: 0
-          delta_reversed: false
-          delta_first_last: false
-          multi_type: separator
-          separator: ', '
-          field_api_classes: false
-          plugin_id: field
         created:
           id: created
           table: node_field_data
@@ -319,7 +259,7 @@ display:
           exclude: false
           alter:
             alter_text: true
-            text: "<div class=\"az-clinical_box\">\r\n  <div class=\"az-clinical_img col-md-4\">\r\n        {{field_az_clinical_page_image}}\r\n  </div>\r\n  <div class=\"az-clinical_body col-md-4\">\r\n     <div class=\"az-clinical_body_title\">\r\n       {{ title }}\r\n    </div>\r\n    <div class=\"az-clinical_body_desc\">\r\n      {{ body__summary}}\r\n    </div>\r\n  </div>\r\n   <div class=\"az-oclinical_time_bottom col-md-2\">\r\n     <span>{{ created }}</span>\r\n  </div>\r\n</div>"
+            text: "<div class=\"az-clinical_box col-sm-12 col-md-6 col-lg-4\">\r\n  <div class=\"az-clinical_img\">\r\n        {{field_az_clinical_page_image}}\r\n  </div>\r\n  <div class=\"az-clinical_body\">\r\n     <div class=\"az-clinical_body_title\">\r\n       {{ title }}\r\n    </div>\r\n    <div class=\"az-clinical_body_desc\">\r\n      {{ body__summary}}\r\n    </div>\r\n   <div class=\"az-oclinical_time_bottom\">\r\n     <span>{{ created }}</span>\r\n  </div>\r\n  </div>\r\n</div>"
             make_link: false
             path: ''
             absolute: false
@@ -407,7 +347,7 @@ display:
           operator: or
           value:
             1: 1
-          group: 1
+          group: 2
           exposed: true
           expose:
             operator_id: field_az_conditions_term_target_id_op
@@ -459,7 +399,7 @@ display:
           admin_label: ''
           operator: '='
           value: ''
-          group: 1
+          group: 3
           exposed: true
           expose:
             operator_id: field_az_se_value_op
@@ -506,7 +446,7 @@ display:
           admin_label: ''
           operator: '='
           value: ''
-          group: 1
+          group: 4
           exposed: true
           expose:
             operator_id: field_az_clinical_age_value_op
@@ -569,18 +509,7 @@ display:
             label: ''
           granularity: second
       title: ''
-      header:
-        area_text_custom:
-          id: area_text_custom
-          table: views
-          field: area_text_custom
-          relationship: none
-          group_type: group
-          admin_label: ''
-          empty: false
-          tokenize: false
-          content: "<div class=\"az-clinical-search_box\">\r\n    <div class=\"col-md-8\">\r\n      <span>最新臨床試驗計劃</span>\r\n</div>\r\n<div  class=\"col-md-4\"> \r\n \r\n</div>\r\n</div>"
-          plugin_id: text_custom
+      header: {  }
       footer: {  }
       empty: {  }
       relationships:
@@ -599,6 +528,9 @@ display:
         operator: AND
         groups:
           1: AND
+          2: AND
+          3: AND
+          4: AND
     cache_metadata:
       max-age: -1
       contexts:
@@ -610,25 +542,42 @@ display:
         - user.permissions
       tags:
         - 'config:field.storage.node.body'
-        - 'config:field.storage.node.field_az_clinical_page_image'
-  clinical_search:
+  clinical_article:
     display_plugin: block
-    id: clinical_search
-    display_title: 'Clinical Trial Portal Block'
+    id: clinical_article
+    display_title: 'Clinical Trial Article'
     position: 3
     display_options:
       display_extenders: {  }
       display_description: ''
       pager:
-        type: some
+        type: infinite_scroll
         options:
-          items_per_page: 9
+          items_per_page: 3
           offset: 0
+          id: 0
+          total_pages: null
+          tags:
+            previous: '‹ Previous'
+            next: 'Next ›'
+          expose:
+            items_per_page: false
+            items_per_page_label: 'Items per page'
+            items_per_page_options: '5, 10, 25, 50'
+            items_per_page_options_all: false
+            items_per_page_options_all_label: '- All -'
+            offset: false
+            offset_label: Offset
+          views_infinite_scroll:
+            button_text: 瀏覽更多
+            automatically_load_content: false
       defaults:
         pager: false
         relationships: false
         filters: false
         filter_groups: false
+        fields: false
+        use_ajax: false
       relationships: {  }
       filters:
         status:
@@ -660,19 +609,201 @@ display:
         operator: AND
         groups:
           1: AND
+      fields:
+        title:
+          id: title
+          table: node_field_data
+          field: title
+          relationship: none
+          group_type: group
+          admin_label: ''
+          label: ''
+          exclude: true
+          alter:
+            alter_text: false
+            text: ''
+            make_link: false
+            path: ''
+            absolute: false
+            external: false
+            replace_spaces: false
+            path_case: none
+            trim_whitespace: false
+            alt: ''
+            rel: ''
+            link_class: ''
+            prefix: ''
+            suffix: ''
+            target: ''
+            nl2br: false
+            max_length: 0
+            word_boundary: false
+            ellipsis: false
+            more_link: false
+            more_link_text: ''
+            more_link_path: ''
+            strip_tags: false
+            trim: false
+            preserve_tags: ''
+            html: false
+          element_type: ''
+          element_class: ''
+          element_label_type: ''
+          element_label_class: ''
+          element_label_colon: false
+          element_wrapper_type: ''
+          element_wrapper_class: ''
+          element_default_classes: true
+          empty: ''
+          hide_empty: false
+          empty_zero: false
+          hide_alter_empty: true
+          click_sort_column: value
+          type: string
+          settings:
+            link_to_entity: true
+          group_column: value
+          group_columns: {  }
+          group_rows: true
+          delta_limit: 0
+          delta_offset: 0
+          delta_reversed: false
+          delta_first_last: false
+          multi_type: separator
+          separator: ', '
+          field_api_classes: false
+          entity_type: node
+          entity_field: title
+          plugin_id: field
+        view_node:
+          id: view_node
+          table: node
+          field: view_node
+          relationship: none
+          group_type: group
+          admin_label: ''
+          label: ''
+          exclude: true
+          alter:
+            alter_text: false
+            text: ''
+            make_link: false
+            path: ''
+            absolute: false
+            external: false
+            replace_spaces: false
+            path_case: none
+            trim_whitespace: false
+            alt: ''
+            rel: ''
+            link_class: ''
+            prefix: ''
+            suffix: ''
+            target: ''
+            nl2br: false
+            max_length: 0
+            word_boundary: true
+            ellipsis: true
+            more_link: false
+            more_link_text: ''
+            more_link_path: ''
+            strip_tags: false
+            trim: false
+            preserve_tags: ''
+            html: false
+          element_type: ''
+          element_class: ''
+          element_label_type: ''
+          element_label_class: ''
+          element_label_colon: false
+          element_wrapper_type: ''
+          element_wrapper_class: ''
+          element_default_classes: true
+          empty: ''
+          hide_empty: false
+          empty_zero: false
+          hide_alter_empty: true
+          text: view
+          output_url_as_text: true
+          absolute: false
+          entity_type: node
+          plugin_id: entity_link
+        body:
+          id: body
+          table: node__body
+          field: body
+          relationship: none
+          group_type: group
+          admin_label: ''
+          label: ''
+          exclude: false
+          alter:
+            alter_text: true
+            text: "<div class=\"az-clinical_box\">\r\n  <div class=\"az-clinical_img col-md-4\">\r\n        {{field_az_clinical_article_page}}\r\n  </div>\r\n  <div class=\"az-clinical_body col-md-4\">\r\n     <div class=\"az-clinical_body_title\">\r\n       {{ title }}\r\n    </div>\r\n    <div class=\"az-clinical_body_desc\">\r\n      {{ body__summary}}\r\n    </div>\r\n  </div>\r\n   <div class=\"az-oclinical_time_bottom col-md-2\">\r\n     <span><a href=\"{{ view_node }}\">了解更多</a></span>\r\n  </div>\r\n</div>"
+            make_link: false
+            path: ''
+            absolute: false
+            external: false
+            replace_spaces: false
+            path_case: none
+            trim_whitespace: false
+            alt: ''
+            rel: ''
+            link_class: ''
+            prefix: ''
+            suffix: ''
+            target: ''
+            nl2br: false
+            max_length: 0
+            word_boundary: true
+            ellipsis: true
+            more_link: false
+            more_link_text: ''
+            more_link_path: ''
+            strip_tags: false
+            trim: false
+            preserve_tags: '<img>'
+            html: false
+          element_type: ''
+          element_class: ''
+          element_label_type: ''
+          element_label_class: ''
+          element_label_colon: false
+          element_wrapper_type: ''
+          element_wrapper_class: ''
+          element_default_classes: true
+          empty: ''
+          hide_empty: false
+          empty_zero: false
+          hide_alter_empty: true
+          click_sort_column: value
+          type: text_default
+          settings: {  }
+          group_column: value
+          group_columns: {  }
+          group_rows: true
+          delta_limit: 0
+          delta_offset: 0
+          delta_reversed: false
+          delta_first_last: false
+          multi_type: separator
+          separator: ', '
+          field_api_classes: false
+          plugin_id: field
+      use_ajax: true
     cache_metadata:
       max-age: -1
       contexts:
         - 'languages:language_content'
         - 'languages:language_interface'
+        - url.query_args
         - 'user.node_grants:view'
         - user.permissions
       tags:
         - 'config:field.storage.node.body'
-        - 'config:field.storage.node.field_az_clinical_page_image'
-  page_1:
+  clinical_search_default:
     display_plugin: page
-    id: page_1
+    id: clinical_search_default
     display_title: 'Clinical Trial Portal Search Result'
     position: 1
     display_options:
@@ -689,22 +820,24 @@ display:
           admin_label: ''
           empty: false
           tokenize: false
-          content: "<div class=\"az-clinical-search_box\">\r\n    <div class=\"col-md-8\">\r\n      <span>最新臨床試驗計劃</span>\r\n</div>\r\n<div  class=\"col-md-4\"> \r\n \r\n</div>\r\n</div>"
+          content: "<div class=\"az-clinical-search_box\">\r\n    <div class=\"col-md-8\">\r\n      <span>最新臨床試驗計劃</span>\r\n</div>\r\n<div  class=\"col-md-4\"> \r\n <div class=\"az-clincal-searright\">\r\n<div class=\"az-clincal-search_button\"></div>\r\n<div class=\"az-clincal-search_icon\"></div>\r\n</div>\r\n</div>\r\n<div class=\"az-clincal-seach_across\"></div>\r\n</div>"
           plugin_id: text_custom
       defaults:
         header: false
         style: false
         row: false
         relationships: false
+        footer: false
+        css_class: false
+        pager: false
+        use_ajax: false
+        fields: false
       style:
-        type: html_list
+        type: default
         options:
           grouping: {  }
-          row_class: 'col-sm-12 col-md-4 col-lg-12 portfolio-item filter-Packaging filter-Print portfolio'
+          row_class: ''
           default_row_class: true
-          type: ul
-          wrapper_class: item-list
-          class: ''
       row:
         type: fields
         options:
@@ -722,18 +855,339 @@ display:
           admin_label: 'field_clinical_logo_info: Paragraph'
           required: false
           plugin_id: standard
+      footer:
+        entity_block_content:
+          id: entity_block_content
+          table: views
+          field: entity_block_content
+          relationship: none
+          group_type: group
+          admin_label: ''
+          empty: false
+          tokenize: false
+          target: 250c78c1-5e57-44f5-aa86-6a4bc41299f8
+          view_mode: default
+          bypass_access: false
+          plugin_id: entity
+        view:
+          id: view
+          table: views
+          field: view
+          relationship: none
+          group_type: group
+          admin_label: ''
+          empty: false
+          view_to_insert: 'ta_article_list:block_1'
+          inherit_arguments: false
+          plugin_id: view
+        entity_block_content_1:
+          id: entity_block_content_1
+          table: views
+          field: entity_block_content
+          relationship: none
+          group_type: group
+          admin_label: ''
+          empty: false
+          tokenize: false
+          target: dadc046f-b578-4b02-873b-4f22e94ee17d
+          view_mode: default
+          bypass_access: false
+          plugin_id: entity
+      css_class: ''
+      pager:
+        type: infinite_scroll
+        options:
+          items_per_page: 12
+          offset: 0
+          id: 0
+          total_pages: null
+          tags:
+            previous: '‹ Previous'
+            next: 'Next ›'
+          expose:
+            items_per_page: false
+            items_per_page_label: 'Items per page'
+            items_per_page_options: '5, 10, 25, 50'
+            items_per_page_options_all: false
+            items_per_page_options_all_label: '- All -'
+            offset: false
+            offset_label: Offset
+          views_infinite_scroll:
+            button_text: 瀏覽更多
+            automatically_load_content: false
+      use_ajax: true
+      fields:
+        title:
+          id: title
+          table: node_field_data
+          field: title
+          relationship: none
+          group_type: group
+          admin_label: ''
+          label: ''
+          exclude: true
+          alter:
+            alter_text: false
+            text: ''
+            make_link: false
+            path: ''
+            absolute: false
+            external: false
+            replace_spaces: false
+            path_case: none
+            trim_whitespace: false
+            alt: ''
+            rel: ''
+            link_class: ''
+            prefix: ''
+            suffix: ''
+            target: ''
+            nl2br: false
+            max_length: 0
+            word_boundary: false
+            ellipsis: false
+            more_link: false
+            more_link_text: ''
+            more_link_path: ''
+            strip_tags: false
+            trim: false
+            preserve_tags: ''
+            html: false
+          element_type: ''
+          element_class: ''
+          element_label_type: ''
+          element_label_class: ''
+          element_label_colon: false
+          element_wrapper_type: ''
+          element_wrapper_class: ''
+          element_default_classes: true
+          empty: ''
+          hide_empty: false
+          empty_zero: false
+          hide_alter_empty: true
+          click_sort_column: value
+          type: string
+          settings:
+            link_to_entity: true
+          group_column: value
+          group_columns: {  }
+          group_rows: true
+          delta_limit: 0
+          delta_offset: 0
+          delta_reversed: false
+          delta_first_last: false
+          multi_type: separator
+          separator: ', '
+          field_api_classes: false
+          entity_type: node
+          entity_field: title
+          plugin_id: field
+        created:
+          id: created
+          table: node_field_data
+          field: created
+          relationship: none
+          group_type: group
+          admin_label: ''
+          label: ''
+          exclude: true
+          alter:
+            alter_text: false
+            text: ''
+            make_link: false
+            path: ''
+            absolute: false
+            external: false
+            replace_spaces: false
+            path_case: none
+            trim_whitespace: false
+            alt: ''
+            rel: ''
+            link_class: ''
+            prefix: ''
+            suffix: ''
+            target: ''
+            nl2br: false
+            max_length: 0
+            word_boundary: true
+            ellipsis: true
+            more_link: false
+            more_link_text: ''
+            more_link_path: ''
+            strip_tags: false
+            trim: false
+            preserve_tags: ''
+            html: false
+          element_type: ''
+          element_class: ''
+          element_label_type: ''
+          element_label_class: ''
+          element_label_colon: false
+          element_wrapper_type: ''
+          element_wrapper_class: ''
+          element_default_classes: true
+          empty: ''
+          hide_empty: false
+          empty_zero: false
+          hide_alter_empty: true
+          click_sort_column: value
+          type: timestamp
+          settings:
+            date_format: custom
+            custom_date_format: d/m/Y
+            timezone: ''
+          group_column: value
+          group_columns: {  }
+          group_rows: true
+          delta_limit: 0
+          delta_offset: 0
+          delta_reversed: false
+          delta_first_last: false
+          multi_type: separator
+          separator: ', '
+          field_api_classes: false
+          entity_type: node
+          entity_field: created
+          plugin_id: field
+        field_az_clinical_page_image:
+          id: field_az_clinical_page_image
+          table: paragraph__field_az_clinical_page_image
+          field: field_az_clinical_page_image
+          relationship: field_clinical_logo_info
+          group_type: group
+          admin_label: ''
+          label: ''
+          exclude: true
+          alter:
+            alter_text: false
+            text: ''
+            make_link: false
+            path: ''
+            absolute: false
+            external: false
+            replace_spaces: false
+            path_case: none
+            trim_whitespace: false
+            alt: ''
+            rel: ''
+            link_class: ''
+            prefix: ''
+            suffix: ''
+            target: ''
+            nl2br: false
+            max_length: 0
+            word_boundary: true
+            ellipsis: true
+            more_link: false
+            more_link_text: ''
+            more_link_path: ''
+            strip_tags: false
+            trim: false
+            preserve_tags: ''
+            html: false
+          element_type: ''
+          element_class: ''
+          element_label_type: ''
+          element_label_class: ''
+          element_label_colon: false
+          element_wrapper_type: ''
+          element_wrapper_class: ''
+          element_default_classes: true
+          empty: ''
+          hide_empty: false
+          empty_zero: false
+          hide_alter_empty: true
+          click_sort_column: target_id
+          type: image
+          settings:
+            image_style: az220180
+            image_link: ''
+          group_column: ''
+          group_columns: {  }
+          group_rows: true
+          delta_limit: 0
+          delta_offset: 0
+          delta_reversed: false
+          delta_first_last: false
+          multi_type: separator
+          separator: ', '
+          field_api_classes: false
+          plugin_id: field
+        body:
+          id: body
+          table: node__body
+          field: body
+          relationship: none
+          group_type: group
+          admin_label: ''
+          label: ''
+          exclude: false
+          alter:
+            alter_text: true
+            text: "<div class=\"az-clinical_box col-sm-12 col-md-6 col-lg-4\">\r\n  <div class=\"az-clinical_img\">\r\n        {{field_az_clinical_page_image}}\r\n  </div>\r\n  <div class=\"az-clinical_body\">\r\n     <div class=\"az-clinical_body_title\">\r\n       {{ title }}\r\n    </div>\r\n    <div class=\"az-clinical_body_desc\">\r\n      {{ body__summary}}\r\n    </div>\r\n   <div class=\"az-oclinical_time_bottom\">\r\n     <span>{{ created }}</span>\r\n  </div>\r\n  </div>\r\n</div>"
+            make_link: false
+            path: ''
+            absolute: false
+            external: false
+            replace_spaces: false
+            path_case: none
+            trim_whitespace: false
+            alt: ''
+            rel: ''
+            link_class: ''
+            prefix: ''
+            suffix: ''
+            target: ''
+            nl2br: false
+            max_length: 0
+            word_boundary: true
+            ellipsis: true
+            more_link: false
+            more_link_text: ''
+            more_link_path: ''
+            strip_tags: false
+            trim: false
+            preserve_tags: '<img>'
+            html: false
+          element_type: ''
+          element_class: ''
+          element_label_type: ''
+          element_label_class: ''
+          element_label_colon: false
+          element_wrapper_type: ''
+          element_wrapper_class: ''
+          element_default_classes: true
+          empty: ''
+          hide_empty: false
+          empty_zero: false
+          hide_alter_empty: true
+          click_sort_column: value
+          type: text_default
+          settings: {  }
+          group_column: value
+          group_columns: {  }
+          group_rows: true
+          delta_limit: 0
+          delta_offset: 0
+          delta_reversed: false
+          delta_first_last: false
+          multi_type: separator
+          separator: ', '
+          field_api_classes: false
+          plugin_id: field
     cache_metadata:
       max-age: -1
       contexts:
         - 'languages:language_content'
         - 'languages:language_interface'
         - url
+        - url.query_args
         - user
         - 'user.node_grants:view'
         - user.permissions
       tags:
         - 'config:field.storage.node.body'
-        - 'config:field.storage.node.field_az_clinical_page_image'
+        - 'config:field.storage.paragraph.field_az_clinical_page_image'
   product_term:
     display_plugin: block
     id: product_term

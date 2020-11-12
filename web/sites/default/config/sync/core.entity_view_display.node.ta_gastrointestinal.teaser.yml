@@ -5,6 +5,9 @@ dependencies:
   config:
     - core.entity_view_mode.node.teaser
     - field.field.node.ta_gastrointestinal.body
+    - field.field.node.ta_gastrointestinal.field_refers
+    - field.field.node.ta_gastrointestinal.field_ta_img
+    - field.field.node.ta_gastrointestinal.field_ta_type
     - node.type.ta_gastrointestinal
   module:
     - text
@@ -27,4 +30,8 @@ content:
     settings: {  }
     third_party_settings: {  }
     region: content
-hidden: {  }
+hidden:
+  field_refers: true
+  field_ta_img: true
+  field_ta_type: true
+  search_api_excerpt: true

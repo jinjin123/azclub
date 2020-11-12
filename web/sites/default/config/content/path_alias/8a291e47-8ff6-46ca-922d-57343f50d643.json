@@ -1,0 +1,35 @@
+{
+    "_links": {
+        "self": {
+            "href": ""
+        },
+        "type": {
+            "href": "http:\/\/default\/rest\/type\/path_alias\/path_alias"
+        }
+    },
+    "uuid": [
+        {
+            "value": "8a291e47-8ff6-46ca-922d-57343f50d643"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en"
+        }
+    ],
+    "path": [
+        {
+            "value": "\/node\/69"
+        }
+    ],
+    "alias": [
+        {
+            "value": "\/cardiovascualr\/coronary-heart"
+        }
+    ],
+    "status": [
+        {
+            "value": true
+        }
+    ]
+}

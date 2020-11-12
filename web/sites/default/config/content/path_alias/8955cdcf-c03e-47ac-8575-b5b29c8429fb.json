@@ -1,0 +1,35 @@
+{
+    "_links": {
+        "self": {
+            "href": ""
+        },
+        "type": {
+            "href": "http:\/\/default\/rest\/type\/path_alias\/path_alias"
+        }
+    },
+    "uuid": [
+        {
+            "value": "8955cdcf-c03e-47ac-8575-b5b29c8429fb"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en"
+        }
+    ],
+    "path": [
+        {
+            "value": "\/node\/82"
+        }
+    ],
+    "alias": [
+        {
+            "value": "\/renal"
+        }
+    ],
+    "status": [
+        {
+            "value": true
+        }
+    ]
+}

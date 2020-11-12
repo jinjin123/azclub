@@ -16,7 +16,7 @@ hide_empty_tabs: false
 default_tab: 0
 configuration_data:
   -
-    title: 心血管疾病
+    title: '<img src="sites/default/files/2020-11/Screenshot%20from%202020-11-03%2014-24-34_2.png" />心血管疾病'
     weight: 0
     type: block_content
     content:
@@ -25,6 +25,9 @@ configuration_data:
           bid: 'views_block:ta_articles-block_1'
           block_title: ''
           display_title: false
+      qtabs_content:
+        options:
+          machine_name: health_information
       node_content:
         options:
           nid: ''
@@ -32,14 +35,11 @@ configuration_data:
           hide_title: true
       view_content:
         options:
-          vid: banner
+          vid: az_clinical_trial_search_result
           display: default
           args: ''
-      qtabs_content:
-        options:
-          machine_name: ''
   -
-    title: 糖尿病
+    title: '<img src="sites/default/files/2020-11/Screenshot%20from%202020-11-03%2014-24-34_2.png" />糖尿病'
     weight: 0
     type: block_content
     content:
@@ -48,6 +48,9 @@ configuration_data:
           bid: 'views_block:ta_articles-block_1'
           block_title: ''
           display_title: false
+      qtabs_content:
+        options:
+          machine_name: health_information
       node_content:
         options:
           nid: ''
@@ -55,14 +58,11 @@ configuration_data:
           hide_title: true
       view_content:
         options:
-          vid: banner
+          vid: az_clinical_trial_search_result
           display: default
           args: ''
-      qtabs_content:
-        options:
-          machine_name: ''
   -
-    title: 呼吸系統疾病
+    title: '<img src="sites/default/files/2020-11/Screenshot%20from%202020-11-03%2014-24-34_2.png" />呼吸系統疾病'
     weight: 0
     type: block_content
     content:
@@ -71,6 +71,9 @@ configuration_data:
           bid: 'views_block:ta_articles-block_1'
           block_title: ''
           display_title: false
+      qtabs_content:
+        options:
+          machine_name: health_information
       node_content:
         options:
           nid: ''
@@ -78,14 +81,11 @@ configuration_data:
           hide_title: true
       view_content:
         options:
-          vid: banner
+          vid: az_clinical_trial_search_result
           display: default
           args: ''
-      qtabs_content:
-        options:
-          machine_name: ''
   -
-    title: 腎病
+    title: '<img src="sites/default/files/2020-11/Screenshot%20from%202020-11-03%2014-24-34_2.png" />腎病'
     weight: 0
     type: block_content
     content:
@@ -94,6 +94,9 @@ configuration_data:
           bid: 'views_block:ta_articles-block_1'
           block_title: ''
           display_title: false
+      qtabs_content:
+        options:
+          machine_name: health_information
       node_content:
         options:
           nid: ''
@@ -101,14 +104,11 @@ configuration_data:
           hide_title: true
       view_content:
         options:
-          vid: banner
+          vid: az_clinical_trial_search_result
           display: default
           args: ''
-      qtabs_content:
-        options:
-          machine_name: ''
   -
-    title: 癌症
+    title: '<img src="sites/default/files/2020-11/Screenshot%20from%202020-11-03%2014-24-34_2.png" />癌症'
     weight: 0
     type: block_content
     content:
@@ -117,6 +117,9 @@ configuration_data:
           bid: 'views_block:ta_articles-block_1'
           block_title: ''
           display_title: false
+      qtabs_content:
+        options:
+          machine_name: health_information
       node_content:
         options:
           nid: ''
@@ -124,14 +127,11 @@ configuration_data:
           hide_title: true
       view_content:
         options:
-          vid: banner
+          vid: az_clinical_trial_search_result
           display: default
           args: ''
-      qtabs_content:
-        options:
-          machine_name: ''
   -
-    title: 感染/傳染病
+    title: '<img src="sites/default/files/2020-11/Screenshot%20from%202020-11-03%2014-24-34_2.png" />感染/傳染病'
     weight: 0
     type: block_content
     content:
@@ -140,6 +140,9 @@ configuration_data:
           bid: 'views_block:ta_articles-block_1'
           block_title: ''
           display_title: false
+      qtabs_content:
+        options:
+          machine_name: health_information
       node_content:
         options:
           nid: ''
@@ -147,9 +150,6 @@ configuration_data:
           hide_title: true
       view_content:
         options:
-          vid: banner
+          vid: az_clinical_trial_search_result
           display: default
           args: ''
-      qtabs_content:
-        options:
-          machine_name: ''

@@ -25,6 +25,20 @@ function azhealthclub_modify_help($route_name, RouteMatchInterface $route_match)
   }
 }
 
+
+/**
+ * @param $key
+ * @param $message
+ * @param $params
+ *  hook_mail
+ */
+function azhealthclub_modify_mail($key, &$message, $params) {
+  if ($key == 'smtp-test') {
+    $message['subject'] = $params['subject'];
+    $message['body'][] = $params['body'];
+  }
+}
+
 function azhealthclub_modify_theme()
 {
  return [
@@ -52,7 +66,14 @@ function azhealthclub_modify_theme()
      'variables' => [
        'variables' => []
      ]
-   ]
+   ],
+   'az_header_right_block'=>[
+     'variables' => [
+       'variables' => []
+     ]
+   ],
+
+
  ];
 }
 
@@ -97,7 +118,6 @@ function azhealthclub_modify_form_alter(&$form, \Drupal\Core\Form\FormStateInter
         'class' => ['btn'],
       ],
     ];
-
   }
 }
 

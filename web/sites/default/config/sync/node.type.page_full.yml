@@ -6,9 +6,8 @@ dependencies:
     - menu_ui
 third_party_settings:
   menu_ui:
-    available_menus:
-      - main
-    parent: 'main:'
+    available_menus: {  }
+    parent: ''
 _core:
   default_config_hash: Y-ttg8TwgT9ARLN-yqO-yHhrn-BAaVqALjF2RMF-EVg
 name: 'Page Full'
@@ -17,4 +16,4 @@ description: "Page full width, no sidebar.\r\n"
 help: ''
 new_revision: false
 preview_mode: 1
-display_submitted: true
+display_submitted: false

@@ -1,0 +1,38 @@
+uuid: e7d1d1e6-13e6-4bf0-aa83-dec669934256
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_ta_img
+    - node.type.ta_diabetes
+  module:
+    - image
+id: node.ta_diabetes.field_ta_img
+field_name: field_ta_img
+entity_type: node
+bundle: ta_diabetes
+label: ta_img
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  file_directory: '[date:custom:Y]-[date:custom:m]'
+  file_extensions: 'png gif jpg jpeg'
+  max_filesize: ''
+  max_resolution: ''
+  min_resolution: ''
+  alt_field: true
+  alt_field_required: true
+  title_field: false
+  title_field_required: false
+  default_image:
+    uuid: ''
+    alt: ''
+    title: ''
+    width: null
+    height: null
+  handler: 'default:file'
+  handler_settings: {  }
+field_type: image

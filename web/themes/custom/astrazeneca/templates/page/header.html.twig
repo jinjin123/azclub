@@ -19,16 +19,16 @@
       <div class="container header-content-layout">
          <div class="header-main-inner p-relative">
             <div class="row az-header_top">
-              <div class="col-md-9 col-sm-6 col-xs-8 branding az-header_top_logo">
+              <div class="col-lg-10 col-md-10 col-sm-9 col-xs-7 branding az-header_top_logo">
                 {% if page.branding %}
                   {{ page.branding }}
                 {% endif %}
               </div>
 
-              <div class="col-md-3 col-sm-6 col-xs-8">
+              <div class="col-lg-2 col-md-2 col-sm-3 col-xs-5">
                 <div class="az-contact-right-box">
                   <div class="top-box-img">
-                    <img src="/themes/custom/astrazeneca/images/icon-play.png">
+
                   </div>
                   <div class="top-box-info">
                     <a href="/azhealthclub/contact">聯絡我們</a>
@@ -39,51 +39,58 @@
                 </div>
               </div>
             </div>
-           <div class="row az-header_bottom">
-             <div class="col-md-9 col-sm-6 col-xs-4 p-static">
-               <div class="header-inner clearfix">
-                 <div class="main-menu">
-                   <div class="area-main-menu">
-                     <div class="area-inner">
-                       <div class="gva-offcanvas-mobile az-header_bottom_menu">
-                         <div class="close-offcanvas hidden"><i class="gv-icon-8"></i></div>
-                         {% if page.main_menu %}
-                           {{ page.main_menu }}
-
-                         {% endif %}
-                         {% if page.offcanvas %}
-                           <div class="after-offcanvas hidden">
-                             {{ page.offcanvas }}
-                           </div>
-                         {% endif %}
-
-                       </div>
-
-                       <div id="menu-bar" class="menu-bar hidden-lg hidden-md">
-                         <span class="one"></span>
-                         <span class="two"></span>
-                         <span class="three"></span>
-                       </div>
-
-{#                       {% if page.search %}#}
-                         <div class="gva-search-region search-region">
-{#                           <span class="icon"><i class="fa fa-search"></i></span>#}
-{#                           <div class="search-content">#}
-{#                             {{ page.search }}#}
-                           {{ drupal_entity("block","searchform",check_access=false)  }}
-                           <span class="icon"><i class="fa fa-search">
-                             </i></span>
-{#                           </div>#}
-                         </div>
-{#                       {% endif %}#}
+         </div>
+      </div>
+     <div class="az-header_bottom">
+       <div class="container p-static az-header-bbox">
+         <div class="header-inner clearfix col-lg-9 col-md-9">
+           <div class="main-menu">
+             <div class="area-main-menu">
+               <div class="area-inner">
+                 <div class="gva-offcanvas-mobile az-header_bottom_menu">
+                   <div class="close-offcanvas hidden"><i class="gv-icon-8"></i></div>
+                   {% if page.main_menu %}
+                     {{ page.main_menu }}
+                   {% endif %}
+                   {% if page.offcanvas %}
+                     <div class="after-offcanvas hidden">
+                       {{ page.offcanvas }}
                      </div>
-                   </div>
+                   {% endif %}
+
                  </div>
+
+                 <div id="menu-bar" class="menu-bar hidden-lg hidden-md">
+                   <span class="one"></span>
+                   <span class="two"></span>
+                   <span class="three"></span>
+                 </div>
+
+                 {#                       {% if page.search %}#}
+                 {#                         <div class="gva-search-region search-region">#}
+                 {#                           <span class="icon"><i class="fa fa-search"></i></span>#}
+                 {#                           <div class="search-content">#}
+                 {#                             {{ page.search }}#}
+                 {#                           {{ drupal_entity("block","searchform",check_access=false)  }}#}
+                 {#                           <span class="icon"><i class="fa fa-search">#}
+                 {#                             </i></span>#}
+                 {#                           </div>#}
+                 {#                         </div>#}
+                 {#                       {% endif %}#}
                </div>
              </div>
            </div>
          </div>
-      </div>
+         <div class="az-header-search-box col-lg-2 col-md-2 col-sm-9 col-xs-11">
+           {#                  <span class="icon"><i class="fa fa-search"></i>{{ drupal_entity("block","searchform",check_access=false)  }}</span>#}
+           <span class="icon">{{ drupal_entity("block","searchform",check_access=false)  }}</span>
+           {#                  <span class="icon"><i class="fa fa-search"></i></span>#}
+         </div>
+         <div class="az-header-right col-lg-1 col-md-1 col-sm-1 col-xs-1 ">
+           <span class="sites">{{ drupal_block("az_header_right_block")  }}</span>
+         </div>
+       </div>
+     </div>
    </div>
 
 </header>

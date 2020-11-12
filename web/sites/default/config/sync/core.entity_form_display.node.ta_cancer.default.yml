@@ -4,8 +4,13 @@ status: true
 dependencies:
   config:
     - field.field.node.ta_cancer.body
+    - field.field.node.ta_cancer.field_refers
+    - field.field.node.ta_cancer.field_ta_img
+    - field.field.node.ta_cancer.field_ta_type
+    - image.style.thumbnail
     - node.type.ta_cancer
   module:
+    - image
     - path
     - text
 id: node.ta_cancer.default
@@ -29,6 +34,32 @@ content:
     region: content
     settings: {  }
     third_party_settings: {  }
+  field_refers:
+    weight: 124
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+    type: text_textarea
+    region: content
+  field_ta_img:
+    weight: 122
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+    type: image_image
+    region: content
+  field_ta_type:
+    weight: 123
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: entity_reference_autocomplete
+    region: content
   path:
     type: path
     weight: 30

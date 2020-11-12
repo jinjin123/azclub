@@ -1,0 +1,38 @@
+uuid: 45c4b7a7-67f0-4aa5-9e79-49a08843fc97
+langcode: en
+status: false
+dependencies:
+  config:
+    - views.view.latest_offers
+  module:
+    - block_visibility_groups
+    - gaviasthemer
+    - system
+    - views
+  theme:
+    - astrazeneca
+third_party_settings:
+  gaviasthemer:
+    classes: ''
+id: views_block__latest_offers_block_1
+theme: astrazeneca
+region: content_bottom
+weight: -14
+provider: null
+plugin: 'views_block:latest_offers-block_1'
+settings:
+  id: 'views_block:latest_offers-block_1'
+  label: ''
+  provider: views
+  label_display: '0'
+  views_label: ''
+  items_per_page: none
+visibility:
+  condition_group:
+    id: condition_group
+    negate: false
+    block_visibility_group: ''
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false

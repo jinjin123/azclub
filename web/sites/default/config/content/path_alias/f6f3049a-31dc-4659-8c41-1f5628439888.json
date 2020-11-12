@@ -1,0 +1,35 @@
+{
+    "_links": {
+        "self": {
+            "href": ""
+        },
+        "type": {
+            "href": "http:\/\/default\/rest\/type\/path_alias\/path_alias"
+        }
+    },
+    "uuid": [
+        {
+            "value": "f6f3049a-31dc-4659-8c41-1f5628439888"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en"
+        }
+    ],
+    "path": [
+        {
+            "value": "\/node\/70"
+        }
+    ],
+    "alias": [
+        {
+            "value": "\/cardiovascualr\/hypertension"
+        }
+    ],
+    "status": [
+        {
+            "value": true
+        }
+    ]
+}

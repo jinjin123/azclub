@@ -1,0 +1,35 @@
+{
+    "_links": {
+        "self": {
+            "href": ""
+        },
+        "type": {
+            "href": "http:\/\/default\/rest\/type\/path_alias\/path_alias"
+        }
+    },
+    "uuid": [
+        {
+            "value": "505e3279-81f9-4159-9aea-42cbda9ae93c"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en"
+        }
+    ],
+    "path": [
+        {
+            "value": "\/node\/70"
+        }
+    ],
+    "alias": [
+        {
+            "value": "\/cardiovascualr"
+        }
+    ],
+    "status": [
+        {
+            "value": true
+        }
+    ]
+}

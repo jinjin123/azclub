@@ -1,6 +1,38 @@
 taxonomies:
-  medical_article_tag: {  }
+  medical_article_tag:
+    -
+      vid: medical_article_tag
+      tid: '22'
+      langcode: en
+      name: 心血管篇
+      description__value: null
+      description__format: null
+      weight: '0'
+      parent: '0'
+      uuid: 77cca909-a498-4af1-88ba-8a50a231f1d7
   ta_type:
+    -
+      vid: ta_type
+      tid: '15'
+      langcode: en
+      name: 二型糖尿病
+      description__value: null
+      description__format: null
+      weight: '0'
+      parent: '2'
+      uuid: 2e4ee196-78a3-4b75-acdd-4b804c9029f4
+      field_ta_img: {  }
+    -
+      vid: ta_type
+      tid: '12'
+      langcode: en
+      name: 冠心病
+      description__value: null
+      description__format: null
+      weight: '0'
+      parent: '1'
+      uuid: 38ebce9b-1435-44f1-95f6-a3a0571db709
+      field_ta_img: {  }
     -
       vid: ta_type
       tid: '3'
@@ -8,27 +40,66 @@ taxonomies:
       name: 呼吸系統疾病
       description__value: null
       description__format: null
-      weight: '2'
+      weight: '12'
       parent: '0'
       uuid: f14cffe2-b87c-494b-a13f-95101775f5a9
+      field_ta_img:
+        -
+          target_id: '52'
+          alt: ''
+          title: ''
+          width: '82'
+          height: '82'
+    -
+      vid: ta_type
+      tid: '16'
+      langcode: en
+      name: 哮喘
+      description__value: null
+      description__format: null
+      weight: '0'
+      parent: '3'
+      uuid: df3d7b8e-e05e-48d5-ae0c-7b804b78d2a5
+      field_ta_img: {  }
+    -
+      vid: ta_type
+      tid: '17'
+      langcode: en
+      name: 嚴重哮喘
+      description__value: null
+      description__format: null
+      weight: '1'
+      parent: '3'
+      uuid: 00288196-fea0-4995-969b-46b0881af4c8
+      field_ta_img: {  }
+    -
+      vid: ta_type
+      tid: '21'
+      langcode: en
+      name: 幽門螺旋桿菌
+      description__value: null
+      description__format: null
+      weight: '2'
+      parent: '6'
+      uuid: 6f97efe3-5c6a-4950-a2fd-4fd8e32c1a15
       field_ta_img: {  }
     -
       vid: ta_type
       tid: '1'
       langcode: en
       name: 心血管疾病
-      description__value: "<p>Lorem ipsum胡蘿蔔，增加了返利，但給</p>\r\n"
+      description__value: "<p>Lorem ipsum胡萝卜，增加了返利，但给</p>\r\n"
       description__format: basic_html
-      weight: '0'
+      weight: '10'
       parent: '0'
       uuid: 5f18a532-1234-4e3c-95d6-b3b4bad7ac98
       field_ta_img:
         -
-          target_id: '48'
+          target_id: '50'
           alt: ''
           title: ''
-          width: '90'
-          height: '72'
+          width: '82'
+          height: '82'
     -
       vid: ta_type
       tid: '7'
@@ -36,9 +107,26 @@ taxonomies:
       name: 感染/傳染病
       description__value: null
       description__format: null
-      weight: '6'
+      weight: '16'
       parent: '0'
       uuid: 1d043716-51cb-465a-b745-1da9e794b125
+      field_ta_img:
+        -
+          target_id: '56'
+          alt: ''
+          title: ''
+          width: '82'
+          height: '82'
+    -
+      vid: ta_type
+      tid: '18'
+      langcode: en
+      name: 慢性阻塞性肺病
+      description__value: null
+      description__format: null
+      weight: '2'
+      parent: '3'
+      uuid: ef6f9fa7-f494-4dab-88de-f75801ec7d8f
       field_ta_img: {  }
     -
       vid: ta_type
@@ -47,10 +135,16 @@ taxonomies:
       name: 癌症
       description__value: null
       description__format: null
-      weight: '4'
+      weight: '14'
       parent: '0'
       uuid: dcd24d0f-62df-42f1-981b-66f5afab2bca
-      field_ta_img: {  }
+      field_ta_img:
+        -
+          target_id: '54'
+          alt: ''
+          title: ''
+          width: '82'
+          height: '82'
     -
       vid: ta_type
       tid: '2'
@@ -58,9 +152,26 @@ taxonomies:
       name: 糖尿病
       description__value: null
       description__format: null
-      weight: '1'
+      weight: '11'
       parent: '0'
       uuid: 8606a7c4-0c2a-4f64-aa2a-253cec094711
+      field_ta_img:
+        -
+          target_id: '51'
+          alt: ''
+          title: ''
+          width: '82'
+          height: '82'
+    -
+      vid: ta_type
+      tid: '20'
+      langcode: en
+      name: 胃酸倒流
+      description__value: null
+      description__format: null
+      weight: '1'
+      parent: '6'
+      uuid: c1c5d3f0-682d-40eb-b11f-f82675410fcd
       field_ta_img: {  }
     -
       vid: ta_type
@@ -69,9 +180,26 @@ taxonomies:
       name: 腎病
       description__value: null
       description__format: null
-      weight: '3'
+      weight: '13'
       parent: '0'
       uuid: 9d8d9068-090a-4226-b703-f3ae0da33047
+      field_ta_img:
+        -
+          target_id: '53'
+          alt: ''
+          title: ''
+          width: '82'
+          height: '82'
+    -
+      vid: ta_type
+      tid: '19'
+      langcode: en
+      name: 腸易激綜合症
+      description__value: null
+      description__format: null
+      weight: '0'
+      parent: '6'
+      uuid: 88d183f8-eff4-45b5-84ed-4875a8b5ec57
       field_ta_img: {  }
     -
       vid: ta_type
@@ -80,9 +208,37 @@ taxonomies:
       name: 腸胃疾病
       description__value: null
       description__format: null
-      weight: '5'
+      weight: '15'
       parent: '0'
       uuid: 9050c249-2e50-4275-8052-3fe321030213
+      field_ta_img:
+        -
+          target_id: '55'
+          alt: ''
+          title: ''
+          width: '82'
+          height: '82'
+    -
+      vid: ta_type
+      tid: '13'
+      langcode: en
+      name: 高膽固醇
+      description__value: null
+      description__format: null
+      weight: '1'
+      parent: '1'
+      uuid: 5c3f337c-02b4-4d7e-b59e-3e5298c4409c
+      field_ta_img: {  }
+    -
+      vid: ta_type
+      tid: '14'
+      langcode: en
+      name: 高血壓
+      description__value: null
+      description__format: null
+      weight: '2'
+      parent: '1'
+      uuid: bdc71c61-2086-46b0-a370-421d4f96be48
       field_ta_img: {  }
   tags: {  }
   tumor_tag:
@@ -121,7 +277,7 @@ blocks:
           summary: ''
           format: basic_html
   -
-    info: 'Clinical middle block 搜索臨床試驗'
+    info: 'Clinical middle block 臨床實驗相關文章'
     langcode: en
     uuid: 250c78c1-5e57-44f5-aa86-6a4bc41299f8
     bundle: basic
@@ -130,7 +286,7 @@ blocks:
     fields:
       body:
         -
-          value: "<div class=\"az_clinical_box\">\r\n<p>治療區域</p>\r\n\r\n<p>這裡治療什麼臨床類型？</p>\r\n\r\n<p>他們痛苦不堪。什麼東西。但是因為我必到最小的地方來。我們的軍隊是誰呢？除了最小的以外，我什麼都不勞苦。好的，洛琳考慮到這一點，他一定很痛苦。</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<div class=\"flex\"><img src=\"/theme/custom/astrazeneca/images/add.png\" /> <img src=\"/theme/custom/astrazeneca/images/add.png\" /> <img src=\"/theme/custom/astrazeneca/images/add.png\" /> <img src=\"/theme/custom/astrazeneca/images/add.png\" /> <img src=\"/theme/custom/astrazeneca/images/add.png\" /> <img src=\"/theme/custom/astrazeneca/images/add.png\" /></div>\r\n</div>\r\n\r\n<div class=\"az_clinical_bottom_box\">\r\n<div class=\"az__bottom_right_box\">\r\n<div class=\"az__bottom_right_box_title\">參加臨床飾演？</div>\r\n\r\n<div class=\"az__bottom_right_box_body\">他們痛苦不堪。什麼東西。但是因為我要追問，我們的軍兵是誰，除了使他們中的任何一個人可以佔便宜外，他們是誰？</div>\r\n</div>\r\n\r\n<div class=\"az__bottom_left_box\"><span>找到你的臨床試驗</span></div>\r\n</div>\r\n"
+          value: "<div class=\"az_clinical_box\">\r\n<p>臨床試驗文章</p>\r\n\r\n<p>臨床實驗相關文章</p>\r\n\r\n<p>他們痛苦不堪。什麼東西。但是因為我必到最小的地方來。我們的軍隊是誰呢？除了最小的以外，我什麼都不勞苦。好的，洛琳考慮到這一點，他一定很痛苦。</p>\r\n\r\n<p>&nbsp;</p>\r\n</div>\r\n"
           summary: ''
           format: full_html
   -
@@ -156,9 +312,61 @@ blocks:
     fields:
       body:
         -
-          value: "<p><img alt=\"\" data-entity-type=\"file\" data-entity-uuid=\"8cd2c98c-8751-449f-8b47-b7eb41433c32\" height=\"400\" src=\"/sites/default/files/imce_upload/admin/home-banner.png\" width=\"1430\" /></p>\r\n\r\n<p><a href=\"/home\">Az Health Club</a></p>\r\n\r\n<h2>康心摯友</h2>\r\n\r\n<p>你的健康守護者</p>\r\n\r\n<p>無微不至的照顧，助你輕鬆管理身體狀況</p>\r\n"
+          value: "<div class=\"az-header-topimg\"><img alt=\"\" data-entity-type=\"file\" data-entity-uuid=\"8cd2c98c-8751-449f-8b47-b7eb41433c32\" height=\"400\" src=\"/sites/default/files/imce_upload/admin/home-banner.png\" width=\"1430\" />\r\n<div class=\"az-header-imgbody\">\r\n<p><a href=\"/home\">Az Health Club</a></p>\r\n\r\n<p>康心摯友</p>\r\n\r\n<p>你的健康守護者</p>\r\n\r\n<p>無微不至的照顧，助你輕鬆管理身體狀況</p>\r\n</div>\r\n</div>\r\n"
           summary: ''
-          format: basic_html
+          format: full_html
+  -
+    info: 'home 認識康心摯友'
+    langcode: en
+    uuid: 121544e5-1f04-4139-8968-494680cee452
+    bundle: basic
+    revision_id: null
+    rev_id_current: null
+    fields:
+      body:
+        -
+          value: "<div class=\"row\">\r\n<div class=\"left col-md-6\">\r\n<div>AZ Health Club</div>\r\n\r\n<h5>認識康心摯友</h5>\r\n\r\n<div>使命與信念 英國阿斯利康作為全球藥物研發的公司，一直將健康放於首位。我們不斷突破科學界限，提供改變生命的藥物，務求解決影響全球數百萬人的疾病而還未滿足的醫療需求。與此同時，我們希望給予病患者帶來最大獲益，為醫療系統及社會帶來價值。 阿斯利康本着「我們以病人為先」的宗旨，服務皆以病者的需要為中心。由疾病預防、診斷、治療到治療後管理，全程關顧健康道路上的需要。 因此，我們成立了「康心摯友」，希望藉着這平台提供更貼心的服務。</div>\r\n</div>\r\n\r\n<div class=\"right col-md-6\"><img alt=\"\" data-entity-type=\"file\" data-entity-uuid=\"66819f95-018b-4362-ab83-a53b9a6aadbd\" height=\"371\" src=\"/sites/default/files/imce_upload/admin/Screenshot%20from%202020-10-20%2016-12-39-wdbkv9.png\" width=\"479\" /></div>\r\n</div>\r\n"
+          summary: ''
+          format: full_html
+  -
+    info: 'Clinical middle block 找到你的臨床實驗'
+    langcode: en
+    uuid: dadc046f-b578-4b02-873b-4f22e94ee17d
+    bundle: basic
+    revision_id: null
+    rev_id_current: null
+    fields:
+      body:
+        -
+          value: "<p>參加臨床飾演？</p>\r\n\r\n<p>他們痛苦不堪。什麼東西。但是因為我要追問，我們的軍兵是誰，除了使他們中的任何一個人可以佔便宜外，他們是誰？</p>\r\n\r\n<p><span>找到你的臨床試驗</span></p>\r\n"
+          summary: ''
+          format: full_html
+  -
+    info: 'contact us info right block'
+    langcode: en
+    uuid: fa11c501-5950-469f-93a6-f8b379274c52
+    bundle: basic
+    revision_id: null
+    rev_id_current: null
+    fields:
+      body:
+        -
+          value: "\t<div class=\"az_contact_rg_box\">\r\n\t\t<div class=\"az_head\">\r\n\t\t\t<h5>Contact Us</h5>\r\n\r\n\t\t\t<h1>聯絡我們</h1>\r\n\t\t</div>\r\n\r\n\t\t<div class=\"az_body\">\r\n\t\t<h5>康心摯友熱線</h5>\r\n\r\n\t\t<p><span class=\"p\">(852) 2941 5388</span></p>\r\n\r\n\t\t<p><span class=\"p\">星期一至五，上午9：00至下午5：00</span></p>\r\n\r\n\t\t<p><span class=\"p\">如有任何問題，請向您的醫生或藥劑師查詢</span></p>\r\n\t\t</div>\r\n\t</div>"
+          summary: ''
+          format: full_html
+  -
+    info: 診斷冠心病
+    langcode: en
+    uuid: 5eda6e96-b48f-4e47-b631-6467eeaaeecf
+    bundle: basic
+    revision_id: null
+    rev_id_current: null
+    fields:
+      body:
+        -
+          value: "<p>診斷冠心病</p>\r\n\r\n<p>診斷及自我檢查</p>\r\n\r\n<p>心臟病檢查-高危人士或曾出現懷疑為症狀者，應盡快求診，諮詢醫生的專業意見，選擇最合適的檢查。 如運動心電圖及以下的檢查方法可評估患者的血管健康情況。</p>\r\n\r\n<p>臨床檢查 包括量血壓</p>\r\n\r\n<p>摘取病人病史</p>\r\n\r\n<p>血液檢驗，包括血糖發血脂</p>\r\n\r\n<p>了解治療方案.....</p>\r\n"
+          summary: ''
+          format: full_html
 menus:
   -
     menu_name: footer
@@ -344,7 +552,7 @@ menus:
     menu_name: main
     title: 心血管疾病
     parent: 'menu_link_content:5575a420-054e-4fee-9bb0-2d57008900ba'
-    uri: 'internal:#'
+    uri: 'internal:/cardiovascualr'
     link_title: ''
     description: null
     enabled: '1'
@@ -356,11 +564,11 @@ menus:
     menu_name: main
     title: 糖尿病
     parent: 'menu_link_content:5575a420-054e-4fee-9bb0-2d57008900ba'
-    uri: 'internal:#'
+    uri: 'internal:/diabetes'
     link_title: ''
     description: null
     enabled: '1'
-    expanded: '0'
+    expanded: '1'
     weight: '1'
     langcode: en
     uuid: 748ea0bf-b149-4ca2-8805-55ee6fb633dd
@@ -368,7 +576,7 @@ menus:
     menu_name: main
     title: 癌症
     parent: 'menu_link_content:5575a420-054e-4fee-9bb0-2d57008900ba'
-    uri: 'internal:#'
+    uri: 'internal:/cancer'
     link_title: ''
     description: null
     enabled: '1'
@@ -380,11 +588,11 @@ menus:
     menu_name: main
     title: 腸胃疾病
     parent: 'menu_link_content:5575a420-054e-4fee-9bb0-2d57008900ba'
-    uri: 'internal:#'
+    uri: 'internal:/gastrointestinal'
     link_title: ''
     description: null
     enabled: '1'
-    expanded: '0'
+    expanded: '1'
     weight: '4'
     langcode: en
     uuid: a490ccb8-dd67-43a3-aa8f-bc8e52c8b1d5
@@ -392,19 +600,19 @@ menus:
     menu_name: main
     title: 呼吸系統疾病
     parent: 'menu_link_content:5575a420-054e-4fee-9bb0-2d57008900ba'
-    uri: 'internal:#'
+    uri: 'internal:/respiratory'
     link_title: ''
     description: null
     enabled: '1'
-    expanded: '0'
+    expanded: '1'
     weight: '5'
     langcode: en
     uuid: 9ef77540-abf5-48b3-95e8-0c1c95f44474
   -
     menu_name: main
-    title: 腎臟
+    title: 腎病
     parent: 'menu_link_content:5575a420-054e-4fee-9bb0-2d57008900ba'
-    uri: 'internal:#'
+    uri: 'internal:/renal'
     link_title: ''
     description: null
     enabled: '1'
@@ -416,7 +624,7 @@ menus:
     menu_name: main
     title: 感染/傳染病
     parent: 'menu_link_content:5575a420-054e-4fee-9bb0-2d57008900ba'
-    uri: 'internal:#'
+    uri: 'internal:/infection'
     link_title: ''
     description: null
     enabled: '1'
@@ -428,7 +636,7 @@ menus:
     menu_name: main
     title: 冠心病
     parent: 'menu_link_content:1658f9f2-6a68-4862-a9d5-54a6dafb9073'
-    uri: 'internal:#'
+    uri: 'internal:/cardiovascualr/coronary-heart'
     link_title: ''
     description: null
     enabled: '1'
@@ -440,7 +648,7 @@ menus:
     menu_name: main
     title: 高膽固醇
     parent: 'menu_link_content:1658f9f2-6a68-4862-a9d5-54a6dafb9073'
-    uri: 'internal:#'
+    uri: 'internal:/cardiovascualr/high-cholesterol'
     link_title: ''
     description: null
     enabled: '1'
@@ -452,7 +660,7 @@ menus:
     menu_name: main
     title: 高血壓
     parent: 'menu_link_content:1658f9f2-6a68-4862-a9d5-54a6dafb9073'
-    uri: 'internal:#'
+    uri: 'internal:/cardiovascualr/hypertension'
     link_title: ''
     description: null
     enabled: '1'
@@ -484,3 +692,87 @@ menus:
     weight: '0'
     langcode: en
     uuid: cb9e1cc9-c586-4853-93e6-05aa70a366f8
+  -
+    menu_name: main
+    title: 二型糖尿病
+    parent: 'menu_link_content:748ea0bf-b149-4ca2-8805-55ee6fb633dd'
+    uri: 'internal:/diabetes/type2-diabetes'
+    link_title: ''
+    description: null
+    enabled: '1'
+    expanded: '0'
+    weight: '0'
+    langcode: en
+    uuid: 25d3159e-0d26-4d6c-a196-ea8b17bcc0d4
+  -
+    menu_name: main
+    title: 哮喘
+    parent: 'menu_link_content:9ef77540-abf5-48b3-95e8-0c1c95f44474'
+    uri: 'internal:/respiratory/asthma'
+    link_title: ''
+    description: null
+    enabled: '1'
+    expanded: '0'
+    weight: '0'
+    langcode: en
+    uuid: 786170d2-1482-4fb4-8362-c7ec23b7b541
+  -
+    menu_name: main
+    title: 嚴重哮喘
+    parent: 'menu_link_content:9ef77540-abf5-48b3-95e8-0c1c95f44474'
+    uri: 'internal:/respiratory/severe-asthma'
+    link_title: ''
+    description: null
+    enabled: '1'
+    expanded: '0'
+    weight: '0'
+    langcode: en
+    uuid: e2b583b4-3211-4aef-a4d9-284e4e7d6886
+  -
+    menu_name: main
+    title: 慢性阻塞性肺病
+    parent: 'menu_link_content:9ef77540-abf5-48b3-95e8-0c1c95f44474'
+    uri: 'internal:/respiratory/chronic-obstructive-pulmonary'
+    link_title: ''
+    description: null
+    enabled: '1'
+    expanded: '0'
+    weight: '0'
+    langcode: en
+    uuid: 7bec1503-ca3b-4fa3-8520-3735fd52de86
+  -
+    menu_name: main
+    title: 腸易激綜合症
+    parent: 'menu_link_content:a490ccb8-dd67-43a3-aa8f-bc8e52c8b1d5'
+    uri: 'internal:/gastrointestinal/irritable-bowel-syndrome'
+    link_title: ''
+    description: null
+    enabled: '1'
+    expanded: '0'
+    weight: '-50'
+    langcode: en
+    uuid: 54b5144f-ef31-4a4f-84bc-9a512837cf11
+  -
+    menu_name: main
+    title: 胃酸倒流
+    parent: 'menu_link_content:a490ccb8-dd67-43a3-aa8f-bc8e52c8b1d5'
+    uri: 'internal:/gastrointestinal/acid-reflux'
+    link_title: ''
+    description: null
+    enabled: '1'
+    expanded: '0'
+    weight: '-49'
+    langcode: en
+    uuid: 9c254ee4-fd24-4aae-86a9-57713df65e7c
+  -
+    menu_name: main
+    title: 幽門螺旋桿菌
+    parent: 'menu_link_content:a490ccb8-dd67-43a3-aa8f-bc8e52c8b1d5'
+    uri: 'internal:/gastrointestinal/helicobacter-pylori'
+    link_title: ''
+    description: null
+    enabled: '1'
+    expanded: '0'
+    weight: '-48'
+    langcode: en
+    uuid: c998d156-b8fe-4d19-a72d-9d482972e15a

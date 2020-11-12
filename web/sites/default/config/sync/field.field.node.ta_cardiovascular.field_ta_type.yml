@@ -1,0 +1,29 @@
+uuid: ad1a0291-d712-4d09-9648-fa1264e893ca
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_ta_type
+    - node.type.ta_cardiovascular
+    - taxonomy.vocabulary.ta_type
+id: node.ta_cardiovascular.field_ta_type
+field_name: field_ta_type
+entity_type: node
+bundle: ta_cardiovascular
+label: ta_type
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      ta_type: ta_type
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

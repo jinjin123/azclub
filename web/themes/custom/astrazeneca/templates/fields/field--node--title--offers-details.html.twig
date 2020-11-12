@@ -28,8 +28,8 @@
     'az-healthtips-title'
   ]
 %}
-<div class="az-article-header">
-  <div class="az-article-righticon"></div>
+<div class="az-offerdetail-article-header col-lg-6">
+{#  <div class="az-article-righticon"></div>#}
   <span{{ attributes.addClass(classes) }}>
     {%- for item in items -%}
       <div>{{ item.content|e|replace({' ': '<br />'})|raw }}</div>

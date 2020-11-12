@@ -1,0 +1,10 @@
+uuid: 2773b7e5-d355-4466-8dbb-0756efa901f2
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.therapeutic_area
+label: 'Therapeutic Area'
+targetEntityType: node
+cache: true

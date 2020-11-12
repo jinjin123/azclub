@@ -4,24 +4,53 @@
  * Gavias's theme implementation to display a single Drupal page.
  */
 #}
+<div class="az-product_selectbox">
+<div class="az-product_selectbox_content">
+<h4>免責聲明：</h4>
+<p>藥品咨詢只能適用於香港或澳門服用此藥物之人仕。</p>
+<p>如同意繼續瀏覽，你已聲明你正服用此藥物，並且了解所提供的質詢只作參考用途。如對以上藥物有任何疑問，請向您的醫生或藥劑師查詢。</p>
+<p>請確認您是否服用此藥物。</p>
+<div class="az-product_selectbox_btn">
+<button type="button" class="az-product_selectbox_btnyes">是</button>
+<button type="button" class="az-product_selectbox_btnno">否</button>
+</div>
+</div>
+<div class="az-product_transbkg"></div>
+</div>
+
+<div class="az-product_duplicate">
+<div class="az-product_duplicate_content">
+<div class="az-product_duplicate_img">
+<div class="icon"></div>
+</div>
+<div class="az-product_content_close">+</div>
+<div class="az-product_duplicate_body">
+<a></a>
+<div class="az_duplicate_across"></div>
+<p></p>
+</div>
+</div>
+<div class="az-product_transbkg"></div>
+</div>
+
 <div class="body-page">
 	{% include directory ~ '/templates/page/parts/preloader.html.twig' %}
    {% include header_skin %}
-	
+
    {% if page.breadcrumbs %}
 		<div class="breadcrumbs">
 			{{ page.breadcrumbs }}
 		</div>
 	{% endif %}
-	
+
 	<div role="main" class="main main-page">
-	
+
 		<div class="clearfix"></div>
 		{% if page.slideshow_content %}
 			<div class="slideshow_content area">
 				{{ page.slideshow_content }}
 			</div>
-		{% endif %}	
+		{% endif %}
 
 		{% if page.help %}
 			<div class="help show">
@@ -39,7 +68,7 @@
 				{{ page.fw_before_content }}
 			</div>
 		{% endif %}
-		
+
 		<div class="clearfix"></div>
 		{% if page.before_content %}
 			<div class="before_content area">
@@ -52,9 +81,9 @@
 				</div>
 			</div>
 		{% endif %}
-		
+
 		<div class="clearfix"></div>
-		
+
 		<div id="content" class="content content-full">
 			<div class="container">
 				{% include directory ~ '/templates/page/main.html.twig' %}
@@ -78,7 +107,7 @@
         		</div>
 			</div>
 		{% endif %}
-		
+
 		{% if page.fw_after_content %}
 			<div class="fw-before-content area">
 				{{ page.fw_after_content }}

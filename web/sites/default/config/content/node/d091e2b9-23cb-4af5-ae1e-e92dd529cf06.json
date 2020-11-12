@@ -1,0 +1,174 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/default\/node\/90?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/default\/rest\/type\/node\/az_clinical_experience_process"
+        },
+        "http:\/\/default\/rest\/relation\/node\/az_clinical_experience_process\/revision_uid": [
+            {
+                "href": "http:\/\/default\/user\/1?_format=hal_json"
+            }
+        ],
+        "http:\/\/default\/rest\/relation\/node\/az_clinical_experience_process\/uid": [
+            {
+                "href": "http:\/\/default\/user\/1?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/default\/rest\/relation\/node\/az_clinical_experience_process\/field_clinical_logo_info": [
+            {
+                "href": ""
+            }
+        ]
+    },
+    "uuid": [
+        {
+            "value": "d091e2b9-23cb-4af5-ae1e-e92dd529cf06"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "az_clinical_experience_process"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2020-11-06T06:15:49+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/default\/rest\/relation\/node\/az_clinical_experience_process\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/default\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "ad86f4f8-ab08-4ff1-be42-53e6179dd359"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/default\/rest\/relation\/node\/az_clinical_experience_process\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/default\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "ad86f4f8-ab08-4ff1-be42-53e6179dd359"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/default\/rest\/relation\/node\/az_clinical_experience_process\/field_clinical_logo_info": [
+            {
+                "_links": {
+                    "self": {
+                        "href": ""
+                    },
+                    "type": {
+                        "href": "http:\/\/default\/rest\/type\/paragraph\/clinical_trial_portal_logo_param"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "e666bf4b-fb97-43de-affc-15e905f18c9a"
+                    }
+                ],
+                "target_revision_id": "133",
+                "alt": "",
+                "title": "",
+                "width": "496",
+                "height": "318"
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "\u7ea2\u841d\u535c",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2020-11-06T06:14:21+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2020-11-06T06:16:43+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "path": [
+        {
+            "alias": null,
+            "pid": null,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "body": [
+        {
+            "value": "<p>Lorem ipsum\u80e1\u863f\u8514\u3002 \u56de\u6263\u63d0\u9ad8\u4e86\uff0c\u4f46\u4ed6\u5011\u505a\u5230\u4e86<br \/>\r\n\u7169\u60f1\u548c\u75db\u82e6<br \/>\r\n\u9019\u4e9b\u5e74\u4f86\uff0c\u4e00\u4e9b\u91cd\u8981\u7684\u4e8b\u60c5\u4f86\u4e86\uff0c\u5982\u679c\u6c92\u6709\u5b78\u904e\u904b\u52d5\u7684\u5b78\u5340\uff0c\u4eba\u5011\u5c31\u6703\u505a\u51fa\u523a\u6fc0\u6027\u7684\u52aa\u529b\uff0c<br \/>\r\n\u88e1\u9762\u6709\u6771\u897f<br \/>\r\n\u591a\u5e74\u4ee5\u4f86\uff0c\u6211\u4ed8\u51fa\u4e86\u5de8\u5927\u7684\u52aa\u529b\u548c\u60b2\u50b7\uff1a\u548c\u6d3b\u529b\uff0c\u8b93\u6211\u4f86\u4e86\uff0c\u8ab0\u6703\u7d50\u8b58<br \/>\r\nn\u5b78\u5340\u53ef\u80fd\u7121\u6cd5\u6b63\u5e38\u5de5\u4f5c<br \/>\r\n\u4e00\u4e16\u3002 Lorem ipsum\u80e1\u863f\u8514<br \/>\r\n\u8fd4\u5229\uff0c\u52de\u529b\u548c\u75db\u82e6\uff0c\u4f46\u6211\u540c\u610feSmod\u64c1\u6709\u4e00\u4e9b\u91cd\u8981\u7684\u6771\u897f\uff0c\u4ee5\u4fbf\u9577\u671f\u78e8\u792a\u548c\u6d3b\u529b\uff0c<br \/>\r\n\u5de5\u4f5c\uff0c\u4f46\u70ba\u4e86\u5f9e\u5408\u4f5c\u4e2d\u6709\u6240\u4f5c\u70ba<br \/>\r\n\u7522\u54c1\u3002 Lorem ipsum dolor\u5750\u5728amet\uff0cconsectetur<br \/>\r\n\u56de\u6263\uff0c\u4f46\u4ed6\u5011\u78ba\u5be6\u5728occaecat lso<br \/>\r\n\u52de\u52d5\u8005\u89e3\u50f1<br \/>\r\n\u7a69\u5b9a\u7684\u8fd4\u5229\uff0c\u4f46\u662f\u505aoccaecat\u7684\u6642\u9593<br \/>\r\nNT as la<br \/>\r\nLorem ipsum\u75bc\u75db\u662f\u6b7b\u56e0<br \/>\r\n\uff0c\u4f46\u662f\u7d66\u4ed6<br \/>\r\n\u5de5\u4f5c\uff0c\u4f46\u8981\u5171\u540c\u52aa\u529b<br \/>\r\n\u4e00\u4e16\u3002 Lorem ipsum dolor\u5750\u5728amet\uff0cconsectetur<br \/>\r\n\u975b\u85cd\u7d20<br \/>\r\nDident\u8e29\u904eLahar<\/p>\r\n",
+            "format": "basic_html",
+            "processed": "<p>Lorem ipsum\u80e1\u863f\u8514\u3002 \u56de\u6263\u63d0\u9ad8\u4e86\uff0c\u4f46\u4ed6\u5011\u505a\u5230\u4e86<br \/>\n\u7169\u60f1\u548c\u75db\u82e6<br \/>\n\u9019\u4e9b\u5e74\u4f86\uff0c\u4e00\u4e9b\u91cd\u8981\u7684\u4e8b\u60c5\u4f86\u4e86\uff0c\u5982\u679c\u6c92\u6709\u5b78\u904e\u904b\u52d5\u7684\u5b78\u5340\uff0c\u4eba\u5011\u5c31\u6703\u505a\u51fa\u523a\u6fc0\u6027\u7684\u52aa\u529b\uff0c<br \/>\n\u88e1\u9762\u6709\u6771\u897f<br \/>\n\u591a\u5e74\u4ee5\u4f86\uff0c\u6211\u4ed8\u51fa\u4e86\u5de8\u5927\u7684\u52aa\u529b\u548c\u60b2\u50b7\uff1a\u548c\u6d3b\u529b\uff0c\u8b93\u6211\u4f86\u4e86\uff0c\u8ab0\u6703\u7d50\u8b58<br \/>\nn\u5b78\u5340\u53ef\u80fd\u7121\u6cd5\u6b63\u5e38\u5de5\u4f5c<br \/>\n\u4e00\u4e16\u3002 Lorem ipsum\u80e1\u863f\u8514<br \/>\n\u8fd4\u5229\uff0c\u52de\u529b\u548c\u75db\u82e6\uff0c\u4f46\u6211\u540c\u610feSmod\u64c1\u6709\u4e00\u4e9b\u91cd\u8981\u7684\u6771\u897f\uff0c\u4ee5\u4fbf\u9577\u671f\u78e8\u792a\u548c\u6d3b\u529b\uff0c<br \/>\n\u5de5\u4f5c\uff0c\u4f46\u70ba\u4e86\u5f9e\u5408\u4f5c\u4e2d\u6709\u6240\u4f5c\u70ba<br \/>\n\u7522\u54c1\u3002 Lorem ipsum dolor\u5750\u5728amet\uff0cconsectetur<br \/>\n\u56de\u6263\uff0c\u4f46\u4ed6\u5011\u78ba\u5be6\u5728occaecat lso<br \/>\n\u52de\u52d5\u8005\u89e3\u50f1<br \/>\n\u7a69\u5b9a\u7684\u8fd4\u5229\uff0c\u4f46\u662f\u505aoccaecat\u7684\u6642\u9593<br \/>\nNT as la<br \/>\nLorem ipsum\u75bc\u75db\u662f\u6b7b\u56e0<br \/>\n\uff0c\u4f46\u662f\u7d66\u4ed6<br \/>\n\u5de5\u4f5c\uff0c\u4f46\u8981\u5171\u540c\u52aa\u529b<br \/>\n\u4e00\u4e16\u3002 Lorem ipsum dolor\u5750\u5728amet\uff0cconsectetur<br \/>\n\u975b\u85cd\u7d20<br \/>\nDident\u8e29\u904eLahar<\/p>",
+            "summary": "lorem ipsum\u75bc\u75db\r\nLorem ipsum dolor\u5750\u5728amet\uff0c\u79c1\u7acb\u6559\u80b2\u7cbe\u82f1",
+            "lang": "en"
+        }
+    ]
+}

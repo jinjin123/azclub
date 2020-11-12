@@ -28,3 +28,11 @@ azhealthclub_modify.dashboard:
     _title: ''
   requirements:
     _permission: 'access content'
+
+azhealthclub_modify.settings:
+  path: '/admin/config/system/azhealthclub_modify/config'
+  defaults:
+    _form: '\Drupal\azhealthclub_modify\Form\SettingsForm'
+    _title: 'Azhealthclub Modify'
+  requirements:
+    _permission: 'administer site configuration'

@@ -56,6 +56,10 @@ display:
           offset: 0
       style:
         type: default
+        options:
+          grouping: {  }
+          row_class: 'col-sm-1-7 col-md-1-7 col-lg-1-7 portfolio-item filter-Packaging filter-Print portfolio item'
+          default_row_class: true
       row:
         type: fields
       fields:

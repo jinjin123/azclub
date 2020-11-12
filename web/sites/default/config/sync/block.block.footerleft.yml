@@ -16,7 +16,7 @@ third_party_settings:
 id: footerleft
 theme: astrazeneca
 region: footer_first
-weight: 0
+weight: -18
 provider: null
 plugin: 'block_content:072ea747-495b-499c-9347-1541f29a2e07'
 settings:

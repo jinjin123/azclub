@@ -1,0 +1,178 @@
+uuid: a0fce108-0808-4474-90cd-b507c5d863ef
+langcode: en
+status: true
+dependencies: {  }
+id: product_show
+label: 'product show'
+renderer: ui_tabs
+options:
+  accordion_tabs:
+    jquery_ui:
+      collapsible: false
+      heightStyle: auto
+  quick_tabs:
+    ajax: false
+hide_empty_tabs: false
+default_tab: 1
+configuration_data:
+  -
+    title: '<img src="sites/default/files/2020-11/Screenshot%20from%202020-11-03%2014-24-34_2.png" />心血管疾病'
+    weight: -10
+    type: block_content
+    content:
+      block_content:
+        options:
+          bid: 'views_block:az_product_information-product_xinxueguan'
+          block_title: ''
+          display_title: false
+      node_content:
+        options:
+          nid: ''
+          view_mode: full
+          hide_title: true
+      qtabs_content:
+        options:
+          machine_name: health_information
+      view_content:
+        options:
+          vid: az_clinical_trial_search_result
+          display: default
+          args: ''
+  -
+    title: '<img src="sites/default/files/2020-11/Screenshot%20from%202020-11-03%2014-24-34_2.png" />糖尿病'
+    weight: -9
+    type: block_content
+    content:
+      block_content:
+        options:
+          bid: 'views_block:az_product_information-product_tangniaobing'
+          block_title: ''
+          display_title: false
+      node_content:
+        options:
+          nid: ''
+          view_mode: full
+          hide_title: true
+      qtabs_content:
+        options:
+          machine_name: health_information
+      view_content:
+        options:
+          vid: az_product_information
+          display: product_tangniaobing
+          args: ''
+  -
+    title: '<img src="sites/default/files/2020-11/Screenshot%20from%202020-11-03%2014-24-34_2.png" />呼吸系統疾病'
+    weight: -8
+    type: block_content
+    content:
+      block_content:
+        options:
+          bid: 'views_block:az_product_information-product_huxixitong'
+          block_title: ''
+          display_title: false
+      node_content:
+        options:
+          nid: ''
+          view_mode: full
+          hide_title: true
+      qtabs_content:
+        options:
+          machine_name: health_information
+      view_content:
+        options:
+          vid: az_clinical_trial_search_result
+          display: default
+          args: ''
+  -
+    title: '<img src="sites/default/files/2020-11/Screenshot%20from%202020-11-03%2014-24-34_2.png" />腸胃疾病'
+    weight: 0
+    type: block_content
+    content:
+      block_content:
+        options:
+          bid: 'views_block:az_product_information-product_changweijibing'
+          block_title: ''
+          display_title: false
+      node_content:
+        options:
+          nid: ''
+          view_mode: full
+          hide_title: true
+      qtabs_content:
+        options:
+          machine_name: health_information
+      view_content:
+        options:
+          vid: az_clinical_trial_search_result
+          display: default
+          args: ''
+  -
+    title: '<img src="sites/default/files/2020-11/Screenshot%20from%202020-11-03%2014-24-34_2.png" />癌症'
+    weight: 0
+    type: block_content
+    content:
+      block_content:
+        options:
+          bid: 'views_block:az_product_information-product_aizheng'
+          block_title: ''
+          display_title: false
+      node_content:
+        options:
+          nid: ''
+          view_mode: full
+          hide_title: true
+      qtabs_content:
+        options:
+          machine_name: health_information
+      view_content:
+        options:
+          vid: az_clinical_trial_search_result
+          display: default
+          args: ''
+  -
+    title: '<img src="sites/default/files/2020-11/Screenshot%20from%202020-11-03%2014-24-34_2.png" />感染/傳染病'
+    weight: 0
+    type: block_content
+    content:
+      block_content:
+        options:
+          bid: 'views_block:az_product_information-product_chuanranbing'
+          block_title: ''
+          display_title: false
+      node_content:
+        options:
+          nid: ''
+          view_mode: full
+          hide_title: true
+      qtabs_content:
+        options:
+          machine_name: health_information
+      view_content:
+        options:
+          vid: az_clinical_trial_search_result
+          display: default
+          args: ''
+  -
+    title: '<img src="sites/default/files/2020-11/Screenshot%20from%202020-11-03%2014-24-34_2.png" />腎病'
+    weight: 0
+    type: block_content
+    content:
+      block_content:
+        options:
+          bid: 'views_block:az_product_information-product_shenbing'
+          block_title: ''
+          display_title: false
+      node_content:
+        options:
+          nid: ''
+          view_mode: full
+          hide_title: true
+      qtabs_content:
+        options:
+          machine_name: health_information
+      view_content:
+        options:
+          vid: az_clinical_trial_search_result
+          display: default
+          args: ''

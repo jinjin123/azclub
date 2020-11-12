@@ -1,0 +1,18 @@
+/**
+ * Admin menu icons.
+ */
+.toolbar-icon-system-admin-mailgroup:before {
+  background-image: url('../icons/787878/envelope.svg');
+}
+.toolbar-icon-system-admin-mailgroup:active:before,
+.toolbar-icon-system-admin-mailgroup.is-active:before {
+  background-image: url('../icons/000000/envelope.svg');
+}
+
+/**
+ * Icon for Adminimal theme.
+ */
+.adminimal .toolbar-icon-system-admin-mailgroup:active:before,
+.adminimal .toolbar-icon-system-admin-mailgroup.is-active:before {
+  background-image: url('../icons/787878/envelope.svg');
+}

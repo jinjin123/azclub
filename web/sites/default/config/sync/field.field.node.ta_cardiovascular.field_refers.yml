@@ -1,0 +1,21 @@
+uuid: 5a048901-9bf3-4419-b39c-4fc292920953
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_refers
+    - node.type.ta_cardiovascular
+  module:
+    - text
+id: node.ta_cardiovascular.field_refers
+field_name: field_refers
+entity_type: node
+bundle: ta_cardiovascular
+label: 參考：
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

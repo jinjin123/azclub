@@ -1,0 +1,35 @@
+{
+    "_links": {
+        "self": {
+            "href": ""
+        },
+        "type": {
+            "href": "http:\/\/default\/rest\/type\/path_alias\/path_alias"
+        }
+    },
+    "uuid": [
+        {
+            "value": "a8870e4d-1100-4613-a47a-36a4c0df6613"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en"
+        }
+    ],
+    "path": [
+        {
+            "value": "\/node\/76"
+        }
+    ],
+    "alias": [
+        {
+            "value": "\/diabetes"
+        }
+    ],
+    "status": [
+        {
+            "value": true
+        }
+    ]
+}

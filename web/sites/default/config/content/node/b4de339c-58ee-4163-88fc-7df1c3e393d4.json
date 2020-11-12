@@ -108,7 +108,7 @@
                 },
                 "uuid": [
                     {
-                        "value": "6e4dfe49-c8e6-40fc-992a-b22c9a39c8c4"
+                        "value": "43000fae-5132-422b-8f70-288cd13f6acd"
                     }
                 ],
                 "alt": "",
@@ -153,7 +153,7 @@
                         "value": "3a399119-ff73-4435-8c78-cc5123282c5d"
                     }
                 ],
-                "target_revision_id": "1"
+                "target_revision_id": "122"
             }
         ],
         "http:\/\/default\/rest\/relation\/node\/offers_details\/field_offer_img": [
@@ -199,7 +199,7 @@
     ],
     "changed": [
         {
-            "value": "2020-10-29T02:45:33+00:00",
+            "value": "2020-11-06T02:37:17+00:00",
             "lang": "en",
             "format": "Y-m-d\\TH:i:sP"
         }
