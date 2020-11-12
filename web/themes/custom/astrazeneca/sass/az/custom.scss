@@ -124,13 +124,15 @@ body {
 .az-header_bottom {
     border-top: 1px solid #b8b8b8;
     border-bottom: 1px solid #b8b8b8;
-    
     height: 55px;
     .az-header-bbox{
+        padding: 0px;
         .header-inner{
             padding: 0px;
             .area-inner{
                 padding: 0px;
+            }.menu-bar{
+                float: left;
             }
             .az-header_bottom_menu {
                 .gva-navigation {
@@ -162,13 +164,25 @@ body {
                 }
               } 
         }
-        #search-block-form{
-            input{
-                background: transparent url(../images/search-icon.png) no-repeat;
-                background-position: 90px;
-                height: 55px;
-                border: 1px solid $color-gray;
+        .az-header-search-box{
+            height: 55px;
+            pad: 0px;
+            #search-block-form{
+                margin: 0px;
+                input{
+                    background: transparent url(../images/search-icon.png) no-repeat;
+                    background-position: 90px;
+                    height: 55px;
+                    border: 1px solid $color-gray;
+                    border-top: none;
+                    border-bottom: none;
+                    text-indent: 10px;
+                }
             }
+        }
+        .az-header-right{
+            line-height: 55px;
+            height: 55px;
         }
     }
 

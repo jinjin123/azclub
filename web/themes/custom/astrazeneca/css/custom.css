@@ -146,12 +146,20 @@ body {
   } */
 }
 
+.az-header_bottom .az-header-bbox {
+  padding: 0px;
+}
+
 .az-header_bottom .az-header-bbox .header-inner {
   padding: 0px;
 }
 
 .az-header_bottom .az-header-bbox .header-inner .area-inner {
   padding: 0px;
+}
+
+.az-header_bottom .az-header-bbox .header-inner .menu-bar {
+  float: left;
 }
 
 .az-header_bottom .az-header-bbox .header-inner .az-header_bottom_menu .gva-navigation .gva_menu_main {
@@ -179,11 +187,28 @@ body {
   color: #eb1484;
 }
 
-.az-header_bottom .az-header-bbox #search-block-form input {
+.az-header_bottom .az-header-bbox .az-header-search-box {
+  height: 55px;
+  pad: 0px;
+}
+
+.az-header_bottom .az-header-bbox .az-header-search-box #search-block-form {
+  margin: 0px;
+}
+
+.az-header_bottom .az-header-bbox .az-header-search-box #search-block-form input {
   background: transparent url(../images/search-icon.png) no-repeat;
   background-position: 90px;
   height: 55px;
   border: 1px solid #b8b8b8;
+  border-top: none;
+  border-bottom: none;
+  text-indent: 10px;
+}
+
+.az-header_bottom .az-header-bbox .az-header-right {
+  line-height: 55px;
+  height: 55px;
 }
 
 .az_clinical_box {
