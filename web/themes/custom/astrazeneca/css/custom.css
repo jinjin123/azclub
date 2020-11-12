@@ -100,19 +100,20 @@ body {
   background-color: orange !important;
 }
 
-#search-block-form input {
-  background: transparent url(../images/search-icon.png) no-repeat;
-  background-position: 90px;
-  height: 40px;
-  border: 1px solid #b8b8b8;
-}
-
 .az-header_top {
   height: 100px;
 }
 
 .az-header_top .az-header_top_logo {
   float: left;
+}
+
+.az-header_top .az-header_top_logo .site-branding-logo {
+  padding-top: 13px;
+}
+
+.az-header_top .az-header_top_logo .site-branding-logo img {
+  height: 74px;
 }
 
 .az-header_top .az-contact-right-box {
@@ -136,38 +137,53 @@ body {
 }
 
 .az-header_bottom {
-  border: 1px solid #b8b8b8;
-  height: 40px;
+  border-top: 1px solid #b8b8b8;
+  border-bottom: 1px solid #b8b8b8;
+  height: 55px;
+  /*  .container-inline {
+    float: right;
+    margin-bottom: 0px;
+  } */
 }
 
-.az-header_bottom .az-header_bottom_menu .gva-navigation .gva_menu_main {
+.az-header_bottom .az-header-bbox .header-inner {
+  padding: 0px;
+}
+
+.az-header_bottom .az-header-bbox .header-inner .area-inner {
+  padding: 0px;
+}
+
+.az-header_bottom .az-header-bbox .header-inner .az-header_bottom_menu .gva-navigation .gva_menu_main {
   float: left;
-  position: relative;
-  bottom: 25px;
 }
 
-.az-header_bottom .az-header_bottom_menu .gva-navigation .gva_menu_main li a {
+.az-header_bottom .az-header-bbox .header-inner .az-header_bottom_menu .gva-navigation .gva_menu_main li a {
+  padding-top: 0 !important;
   padding-bottom: 0 !important;
+  line-height: 55px;
 }
 
-.az-header_bottom .az-header_bottom_menu .gva-navigation .gva_menu_main li ul {
+.az-header_bottom .az-header-bbox .header-inner .az-header_bottom_menu .gva-navigation .gva_menu_main li ul {
   min-width: 160px;
   border-left: 2px solid #fcaf17;
   border-top: none;
 }
 
-.az-header_bottom .az-header_bottom_menu .gva-navigation .gva_menu_main li ul li {
+.az-header_bottom .az-header-bbox .header-inner .az-header_bottom_menu .gva-navigation .gva_menu_main li ul li {
   height: 40px;
   line-height: 40px;
 }
 
-.az-header_bottom .az-header_bottom_menu .gva-navigation .gva_menu_main .active a {
+.az-header_bottom .az-header-bbox .header-inner .az-header_bottom_menu .gva-navigation .gva_menu_main .active a {
   color: #eb1484;
 }
 
-.az-header_bottom .container-inline {
-  float: right;
-  margin-bottom: 0px;
+.az-header_bottom .az-header-bbox #search-block-form input {
+  background: transparent url(../images/search-icon.png) no-repeat;
+  background-position: 90px;
+  height: 55px;
+  border: 1px solid #b8b8b8;
 }
 
 .az_clinical_box {
@@ -1076,22 +1092,6 @@ body {
 #block-homerenshikangxinzhiyou .row .right img {
   width: 100%;
   height: 500px;
-}
-
-.az-header-bbox {
-  display: flex;
-}
-
-.az-header-bbox .menu-bar {
-  right: 30px;
-}
-
-.az-header-bbox .az-header-right {
-  line-height: 40px;
-}
-
-.az-header-bbox .az-header-right .block {
-  margin-bottom: 0px;
 }
 
 #footer .footer-center {

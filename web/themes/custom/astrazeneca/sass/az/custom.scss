@@ -88,18 +88,16 @@ body {
         }
     }
 }
-#search-block-form{
-    input{
-        background: transparent url(../images/search-icon.png) no-repeat;
-        background-position: 90px;
-        height: 40px;
-        border: 1px solid $color-gray;
-    }
-}
 .az-header_top {
     height: 100px;
   .az-header_top_logo {
     float: $float-left;
+    .site-branding-logo{
+        padding-top: 13px;
+        img{
+            height: 74px;
+        }
+    }
   }
   .az-contact-right-box{
     margin-top: 20px;
@@ -124,42 +122,60 @@ body {
 }
 
 .az-header_bottom {
-    border:1px solid $color-gray;
-    height: 40px;
-  .az-header_bottom_menu {
-    .gva-navigation {
-      .gva_menu_main {
-        float: $float-left;
-        position: relative;
-        bottom: 25px;
-        li {
-            a{
-                padding-bottom: 0 !important;
+    border-top: 1px solid #b8b8b8;
+    border-bottom: 1px solid #b8b8b8;
+    
+    height: 55px;
+    .az-header-bbox{
+        .header-inner{
+            padding: 0px;
+            .area-inner{
+                padding: 0px;
             }
-          ul {
-            min-width: 160px;
-            border-left: 2px solid $color-orange;
-            border-top: none;
-
-            li {
-              height: 40px;
-              line-height: 40px;
+            .az-header_bottom_menu {
+                .gva-navigation {
+                  .gva_menu_main {
+                    float: $float-left;
+                    li {
+                        a{
+                            padding-top: 0 !important;
+                            padding-bottom: 0 !important;
+                            line-height: 55px;
+                        }
+                      ul {
+                        min-width: 160px;
+                        border-left: 2px solid $color-orange;
+                        border-top: none;
+            
+                        li {
+                          height: 40px;
+                          line-height: 40px;
+                        }
+                      }
+                    }
+                    .active {
+                      a {
+                        color: $color-red;
+                      }
+                    }
+                  }
+                }
+              } 
+        }
+        #search-block-form{
+            input{
+                background: transparent url(../images/search-icon.png) no-repeat;
+                background-position: 90px;
+                height: 55px;
+                border: 1px solid $color-gray;
             }
-          }
         }
-        .active {
-          a {
-            color: $color-red;
-          }
-        }
-      }
     }
-  }
 
-  .container-inline {
+ /*  .container-inline {
     float: right;
     margin-bottom: 0px;
-  }
+  } */
 }
 
 .az_clinical_box {
@@ -1082,21 +1098,6 @@ body {
     }
 }
 
-.az-header-bbox {
-  display: flex;
-//   .az-header-search-box{
-
-//   }
-   .menu-bar{
-       right: 30px;
-   }
-  .az-header-right{
-      line-height: 40px;
-      .block{
-          margin-bottom: 0px;
-      }
-  }
-}
 #footer {
   .footer-center {
     background: unset;
