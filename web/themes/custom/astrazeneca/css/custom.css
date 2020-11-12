@@ -1,3 +1,4 @@
+@charset "UTF-8";
 body {
   overflow: hidden;
 }
@@ -14,7 +15,7 @@ body {
 }
 
 .az-cardthree_box .az-cardthree_body {
-  margin: 0px 20px 0px 20px;
+  padding: 0px 20px 0px 20px;
   position: relative;
 }
 
@@ -64,7 +65,7 @@ body {
 }
 
 .az-cardtow_box .az-cardtow_body {
-  margin: 0px 20px 0px 20px;
+  padding: 0px 20px 0px 20px;
   position: relative;
   padding-bottom: 10px;
 }
@@ -332,88 +333,70 @@ body {
   margin-bottom: 50px;
 }
 
+/* //医学讲座及活动
 .az-product_head {
   margin: auto;
   text-align: center;
   width: 50%;
-}
 
-.az-product_head .az-product_head__title2 {
-  font-size: 30px;
-  font-weight: bold;
-}
+  .az-product_head__title2 {
+    font-size: 30px;
+    font-weight: bold;
+  }
 
-.az-product_head .az-product_head__title1 {
-  color: #b8b8b8;
-}
+  .az-product_head__title1 {
+    color: $color-gray;
+  }
 
-.az-product_head .az-product_head__body {
-  color: #b8b8b8;
-}
-
-.az-healthtips_head {
-  margin: auto;
-  text-align: center;
-  width: 50%;
-}
-
-.az-healthtips_head .az-healthtips_head__title2 {
-  font-size: 30px;
-  font-weight: bold;
-}
-
-.az-healthtips_head .az-healthtips_head__title1 {
-  color: #b8b8b8;
-}
-
-.az-healthtips_head .az-healthtips_head__body {
-  color: #b8b8b8;
-}
-
+  .az-product_head__body {
+    color: $color-gray;
+  }
+} */
 .az-offer_box {
   float: left;
   margin: 20px;
   padding-bottom: 20px;
   border: 1px solid #b8b8b8;
   position: relative;
+  width: 100%;
+  height: 420px;
 }
 
-.az-offer_box .az-healthtips_head {
-  margin: auto;
-  text-align: center;
-  width: 50%;
-}
-
-.az-offer_box .az-healthtips_head .az-healthtips_head__title2 {
-  font-size: 30px;
-  font-weight: bold;
-}
-
-.az-offer_box .az-healthtips_head .az-healthtips_head__title1 {
-  color: #b8b8b8;
-}
-
-.az-offer_box .az-healthtips_head .az-healthtips_head__body {
-  color: #b8b8b8;
+.az-offer_box .az-offer_img img {
+  width: 100%;
+  height: 230px;
 }
 
 .az-offer_box .az-offer_body {
-  margin: 0px 20px 0px 20px;
+  padding: 0px 20px 0px 20px;
 }
 
 .az-offer_box .az-offer_body .az-offer_body_title {
   font-weight: bold;
-  height: 40px;
+  word-break: break-all;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
 }
 
-.az-offer_box .az-offer_body .az-offer_sub_title {
+.az-offer_box .az-offer_body .az-offer_body_desc {
   color: #b8b8b8;
+  word-break: break-all;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
 }
 
 .az-offer_box .az-offer_click_bottom {
   float: right;
   text-align: center;
-  margin-top: 10px;
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
 }
 
 .az-offer_box .az-offer_click_bottom a {
