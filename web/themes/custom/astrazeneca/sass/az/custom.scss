@@ -1,107 +1,133 @@
 @import "../vars/variables";
-body {
-    //background-color:  $head-cus!important;
-    overflow: hidden;
-}
-//card
-.az-cardthree_box{
-    border: 1px solid $color-gray;
-    padding-bottom: 30px;
-    float: left;
-    margin-bottom: 20px;
-    .az-cardthree_img{
-        img{
-            width: 100%;
-        }
-    }
-    .az-cardthree_body{
-        padding: 0px 20px 0px 20px;
-        position: relative;
-        .az-cardthree_logoimg{
-            position: absolute;
-            bottom: 10%;
-            left: 70%;
-        }
-        .az-cardthree_body_title{
-            font-weight: bold;
-            font-size: 20px;
-        }
-        .az-cardthree_sub_title{
-            color: $color-gray;
-            p{
-                float: left;
-            }
-        }
-        .az-cardthree_click_bottom{
-            float: right;
 
-            text-align: center;
-            a{
-                background-color: $color-red;
-                border-radius: 5px;
-                padding: 5px 10px;
-                width: 80px;
-                color: white;
-            }
-            a:hover{
-                background-color: orange!important;
-            }
-        }
-    }
+body {
+  //background-color:  $head-cus!important;
+  overflow: hidden;
 }
-.az-cardtow_box{
-    box-shadow:0px 0px  10px 5px $color-gray;
-    padding-bottom: 30px;
-    .az-cardtow_img{
-        img{
-            width: 100%;
-        }
+
+//card
+.az-cardthree_box {
+  border: 1px solid $color-gray;
+  padding-bottom: 30px;
+  float: left;
+  margin-bottom: 20px;
+
+  .az-cardthree_img {
+    img {
+      width: 100%;
     }
-    .az-cardtow_body{
-        padding: 0px 20px 0px 20px;
-        position: relative;
-        padding-bottom: 10px;
-        .az-cardtow_body_title{
-            font-weight: bold;
-            font-size: 20px;
-        }
-        .az-cardtow_sub_title{
-            color: $color-gray;
-            p{
-                float: left;
-            }
-        }
-        .az-cardtow_click_bottom{
-            float: right;
-            text-align: center;
-            margin-right: 10px;
-            a{
-                background-color: $color-red;
-                border-radius: 5px;
-                padding: 5px 10px;
-                width: 80px;
-                color: white;
-            }
-            a:hover{
-                background-color: orange!important;
-            }
-        }
+  }
+
+  .az-cardthree_body {
+    padding: 0px 20px 0px 20px;
+    position: relative;
+
+    .az-cardthree_logoimg {
+      position: absolute;
+      bottom: 10%;
+      left: 70%;
     }
+
+    .az-cardthree_body_title {
+      font-weight: bold;
+      font-size: 20px;
+    }
+
+    .az-cardthree_sub_title {
+      color: $color-gray;
+
+      p {
+        float: left;
+      }
+    }
+
+    .az-cardthree_click_bottom {
+      float: right;
+
+      text-align: center;
+
+      a {
+        background-color: $color-red;
+        border-radius: 5px;
+        padding: 5px 10px;
+        width: 80px;
+        color: white;
+      }
+
+      a:hover {
+        background-color: orange !important;
+      }
+    }
+  }
 }
+
+.az-cardtow_box {
+  box-shadow: 0px 0px 10px 5px $color-gray;
+  padding-bottom: 30px;
+
+  .az-cardtow_img {
+    img {
+      width: 100%;
+    }
+  }
+
+  .az-cardtow_body {
+    padding: 0px 20px 0px 20px;
+    position: relative;
+    padding-bottom: 10px;
+
+    .az-cardtow_body_title {
+      font-weight: bold;
+      font-size: 20px;
+    }
+
+    .az-cardtow_sub_title {
+      color: $color-gray;
+
+      p {
+        float: left;
+      }
+    }
+
+    .az-cardtow_click_bottom {
+      float: right;
+      text-align: center;
+      margin-right: 10px;
+
+      a {
+        background-color: $color-red;
+        border-radius: 5px;
+        padding: 5px 10px;
+        width: 80px;
+        color: white;
+      }
+
+      a:hover {
+        background-color: orange !important;
+      }
+    }
+  }
+}
+
 .az-header_top {
-    height: 100px;
+  height: 100px;
+
   .az-header_top_logo {
     float: $float-left;
-    .site-branding-logo{
-        padding-top: 13px;
-        img{
-            height: 74px;
-        }
+
+    .site-branding-logo {
+      padding-top: 13px;
+
+      img {
+        height: 74px;
+      }
     }
   }
-  .az-contact-right-box{
+
+  .az-contact-right-box {
     margin-top: 20px;
   }
+
   .top-box-img {
     float: $float-left;
     width: 40px;
@@ -122,78 +148,93 @@ body {
 }
 
 .az-header_bottom {
-    border-top: 1px solid #b8b8b8;
-    border-bottom: 1px solid #b8b8b8;
-    height: 55px;
-    .az-header-bbox{
+  border-top: 1px solid #b8b8b8;
+  border-bottom: 1px solid #b8b8b8;
+  height: 55px;
+
+  .az-header-bbox {
+    padding: 0px;
+
+    .header-inner {
+      padding: 0px;
+
+      .area-inner {
         padding: 0px;
-        .header-inner{
-            padding: 0px;
-            .area-inner{
-                padding: 0px;
-            }.menu-bar{
-                float: left;
-            }
-            .az-header_bottom_menu {
-                .gva-navigation {
-                  .gva_menu_main {
-                    float: $float-left;
-                    li {
-                        a{
-                            padding-top: 0 !important;
-                            padding-bottom: 0 !important;
-                            line-height: 55px;
-                        }
-                        a:hover{
-                            color: $color-red;
-                        }
-                      ul {
-                        min-width: 165px;
-                        border-left: 4px solid $color-orange;
-                        border-top: none;
-            
-                        li {
-                          height: 36px;
-                          line-height: 36px;
-                          a{
-                              height: 36px;
-                              line-height: 36px;
-                          }
-                        }
-                      }
-                    }
-                    .active>a{
-                        &:nth-child(1){
-                            color: $color-red;
-                        }
-                    }
+      }
+
+      .menu-bar {
+        float: left;
+      }
+
+      .az-header_bottom_menu {
+        .gva-navigation {
+          .gva_menu_main {
+            float: $float-left;
+
+            li {
+              a {
+                padding-top: 0 !important;
+                padding-bottom: 0 !important;
+                line-height: 55px;
+              }
+
+              a:hover {
+                color: $color-red;
+              }
+
+              ul {
+                min-width: 165px;
+                border-left: 4px solid $color-orange;
+                border-top: none;
+
+                li {
+                  height: 36px;
+                  line-height: 36px;
+
+                  a {
+                    height: 36px;
+                    line-height: 36px;
                   }
                 }
-              } 
-        }
-        .az-header-search-box{
-            height: 55px;
-            pad: 0px;
-            #search-block-form{
-                margin: 0px;
-                input{
-                    background: transparent url(../images/search-icon.png) no-repeat;
-                    background-position: 90px;
-                    height: 55px;
-                    border: 1px solid $color-gray;
-                    border-top: none;
-                    border-bottom: none;
-                    text-indent: 10px;
-                }
+              }
             }
+
+            .active>a {
+              &:nth-child(1) {
+                color: $color-red;
+              }
+            }
+          }
         }
-        .az-header-right{
-            line-height: 55px;
-            height: 55px;
-        }
+      }
     }
 
- /*  .container-inline {
+    .az-header-search-box {
+      height: 55px;
+      pad: 0px;
+
+      #search-block-form {
+        margin: 0px;
+
+        input {
+          background: transparent url(../images/search-icon.png) no-repeat;
+          background-position: 90px;
+          height: 55px;
+          border: 1px solid $color-gray;
+          border-top: none;
+          border-bottom: none;
+          text-indent: 10px;
+        }
+      }
+    }
+
+    .az-header-right {
+      line-height: 55px;
+      height: 55px;
+    }
+  }
+
+  /*  .container-inline {
     float: right;
     margin-bottom: 0px;
   } */
@@ -202,7 +243,8 @@ body {
 .az_clinical_box {
   background-color: $color-red;
   padding-top: 20px;
-  margin-top:500px;
+  margin-top: 50px;
+  height: 260px;
 
   p {
     width: 50%;
@@ -273,51 +315,53 @@ body {
     font-size: 12px;
   }
 }
+
 .az-product-search_box>div {
-    &:nth-child(1) {
-      float: left;
+  &:nth-child(1) {
+    float: left;
 
-      span {
-        font-size: 20px;
-        font-weight: bold;
-      }
+    span {
+      font-size: 20px;
+      font-weight: bold;
     }
+  }
 
-    &:nth-child(2) {
+  &:nth-child(2) {
+    float: right;
+    height: 40px;
+
+    .az-product-searright {
       float: right;
-      height: 40px;
 
-      .az-product-searright {
-        float: right;
+      .az-product-search_button {
+        float: left;
 
-        .az-product-search_button {
-          float: left;
-
-          input {
-            height: 40px;
-            border: 1px solid $color-gray;
-          }
-        }
-
-        .az-product-search_icon {
-          float: left;
-          width: 40px;
+        input {
           height: 40px;
-          background: black url(../images/search-icon.png) no-repeat;
-          background-position: center;
+          border: 1px solid $color-gray;
         }
       }
+
+      .az-product-search_icon {
+        float: left;
+        width: 40px;
+        height: 40px;
+        background: black url(../images/search-icon.png) no-repeat;
+        background-position: center;
+      }
     }
-
-  }
-  .az-product-seach_across {
-    width: 100%;
-    height: 60px;
-    border-bottom: 2px solid $color-gray;
-    margin-bottom: 50px;
   }
 
-/* //医学讲座及活动
+}
+
+.az-product-seach_across {
+  width: 100%;
+  height: 60px;
+  border-bottom: 2px solid $color-gray;
+  margin-bottom: 50px;
+}
+
+//医学讲座及活动
 .az-product_head {
   margin: auto;
   text-align: center;
@@ -335,7 +379,7 @@ body {
   .az-product_head__body {
     color: $color-gray;
   }
-} */
+}
 
 
 .az-offer_box {
@@ -346,15 +390,18 @@ body {
   position: relative;
   width: 100%;
   height: 420px;
-.az-offer_img{
-    img{
-        width: 100%;
-        height: 230px;
+
+  .az-offer_img {
+    img {
+      width: 100%;
+      height: 230px;
     }
-    
-}
-.az-offer_body{
+
+  }
+
+  .az-offer_body {
     padding: 0px 20px 0px 20px;
+
     .az-offer_body_title {
       font-weight: bold;
       word-break: break-all;
@@ -368,11 +415,11 @@ body {
     .az-offer_body_desc {
       color: $color-gray;
       word-break: break-all;
-    text-overflow: ellipsis;
-    overflow: hidden;
-    display: -webkit-box;
-    -webkit-line-clamp: 2;
-    -webkit-box-orient: vertical;
+      text-overflow: ellipsis;
+      overflow: hidden;
+      display: -webkit-box;
+      -webkit-line-clamp: 2;
+      -webkit-box-orient: vertical;
     }
   }
 
@@ -382,16 +429,18 @@ body {
     position: absolute;
     bottom: 20px;
     right: 20px;
+
     a {
       color: white;
       background-color: $color-red;
-                border-radius: 5px;
-                padding: 5px 10px;
-                width: 80px;
-                color: white;
+      border-radius: 5px;
+      padding: 5px 10px;
+      width: 80px;
+      color: white;
     }
-    a:hover{
-        background-color: orange;
+
+    a:hover {
+      background-color: orange;
     }
   }
 }
@@ -755,49 +804,59 @@ body {
     }
   }
 }
+
 .az-bottom-link-author {
   text-align: right;
 }
+
 .az-article-header {
-   position: relative;
-   left:41.5%;
+  position: relative;
+  left: 41.5%;
+
   .az-healthtips-title {
     div {
       font-size: 21px;
     }
   }
 }
-.az-offerdetail-article-header  {
+
+.az-offerdetail-article-header {
   position: relative;
   left: 37%;
+
   span {
     div {
       font-size: 21px;
     }
   }
 }
-.az-node__content{
-    .az-node__content_bottom_boder{
-        border-top: 1px solid $color-gray;
-        padding-top: 10px;
-        .row{
-            .col-md-9>span{
-                float: left;
-                display: block;
-                width: 36px;
-                height: 36px;
-                &:nth-child(1){
-                    background: transparent url(../images/facebook.png) no-repeat;
-                }
-                &:nth-child(2){
-                    background: transparent url(../images/instagram.png) no-repeat;
-                }
-                &:nth-child(3){
-                    background: transparent url(../images/googleplus.png) no-repeat;
-                }
-            }
+
+.az-node__content {
+  .az-node__content_bottom_boder {
+    border-top: 1px solid $color-gray;
+    padding-top: 10px;
+
+    .row {
+      .col-md-9>span {
+        float: left;
+        display: block;
+        width: 36px;
+        height: 36px;
+
+        &:nth-child(1) {
+          background: transparent url(../images/facebook.png) no-repeat;
         }
+
+        &:nth-child(2) {
+          background: transparent url(../images/instagram.png) no-repeat;
+        }
+
+        &:nth-child(3) {
+          background: transparent url(../images/googleplus.png) no-repeat;
+        }
+      }
     }
+  }
 }
 
 .az-clinical-search_box>div {
@@ -863,6 +922,7 @@ body {
       }
 
     }
+
     .az-clinical_body_desc {
       color: $color-gray;
     }
@@ -879,50 +939,56 @@ body {
 .az-contact-main_box {
   display: flex;
   margin-bottom: 100px;
+
   .az_contact_rg_box {
-      .az_head{
-          h5{
-              color: $color-gray;
-              font-size: 12px;
-              font-weight: 500;
-          }
+    .az_head {
+      h5 {
+        color: $color-gray;
+        font-size: 12px;
+        font-weight: 500;
       }
+    }
+
     .az_body {
       h5 {
         color: $color-red;
       }
-      p{
-          span{
-              color: $color-gray;
-          }
+
+      p {
+        span {
+          color: $color-gray;
+        }
       }
     }
+
     .az_body>p {
-        &:nth-child(2) {
-            background: transparent url(../images/blackphone.png) no-repeat;
-            height: 60px;
-            line-height: 60px;
-            padding-left: 50px;
-            background-position: 10px;
-            background-size: 30px 30px;
-        }
-        &:nth-child(3) {
-            background: transparent url(../images/time.png) no-repeat;
-            height: 60px;
-            line-height: 60px;
-            padding-left: 50px;
-            background-position: 10px;
-            background-size: 30px 30px;
-        }
-        &:nth-child(4) {
-            background: transparent url(../images/question.png) no-repeat;
-            height: 60px;
-            line-height: 60px;
-            padding-left: 50px;
-            background-position: 10px;
-            background-size: 30px 30px;
-        }
+      &:nth-child(2) {
+        background: transparent url(../images/blackphone.png) no-repeat;
+        height: 60px;
+        line-height: 60px;
+        padding-left: 50px;
+        background-position: 10px;
+        background-size: 30px 30px;
       }
+
+      &:nth-child(3) {
+        background: transparent url(../images/time.png) no-repeat;
+        height: 60px;
+        line-height: 60px;
+        padding-left: 50px;
+        background-position: 10px;
+        background-size: 30px 30px;
+      }
+
+      &:nth-child(4) {
+        background: transparent url(../images/question.png) no-repeat;
+        height: 60px;
+        line-height: 60px;
+        padding-left: 50px;
+        background-position: 10px;
+        background-size: 30px 30px;
+      }
+    }
   }
 
   .az-contact-form_body {
@@ -930,14 +996,16 @@ body {
     background-color: white;
     width: 100%;
     box-shadow: -5px 5px 10px -7px grey, 5px 5px 10px -7px grey;
-    .az_title{
-        font-weight: bold;
-        font-size: 20px;
-        margin: 10px;
-        padding-left: 10px;
-        border-left: 5px solid $color-red;
-        border-radius: 5px;
+
+    .az_title {
+      font-weight: bold;
+      font-size: 20px;
+      margin: 10px;
+      padding-left: 10px;
+      border-left: 5px solid $color-red;
+      border-radius: 5px;
     }
+
     .az_contact_form {
       margin: 20px 20px;
     }
@@ -945,48 +1013,58 @@ body {
 }
 
 .health-tips-orange {
-    height: 600px;
+  height: 600px;
   background-color: #ffb425;
-  .az-healthtips_heads{
-      color: white;
-      text-align: center;
-      .az-healthtips_head__title1{
-        font-weight: 100;
+
+  .az-healthtips_heads {
+    color: white;
+    text-align: center;
+    height: 200px;
+
+    .az-healthtips_head__title1 {
+      font-weight: 100;
     }
-      .az-healthtips_head__title2{
-          font-size: 24px;
-      }
-      .az-healthtips_head__body{
-          width: 50%;
-          margin:0 auto;
-          font-weight: 100;
-      }
+
+    .az-healthtips_head__title2 {
+      font-size: 24px;
+    }
+
+    .az-healthtips_head__body {
+      width: 50%;
+      margin: 0 auto;
+      font-weight: 100;
+    }
   }
-  .az-offertips_box{
-      background-color: white;
-      border-radius: 10px;
-      width: 45%;
-      margin:50px;
-      height: 200px;
-      .az-offer_img{
-        background: transparent url(../images/cardiac.png) no-repeat;
-        width: 20%;
-    height: 100%;
-    float: left;
-    background-size: 100%;
-    background-position: center;
+
+  .az-offertips_box {
+    background-color: white;
+    border-radius: 10px;
+    width: 45%;
+    margin: 50px;
+    height: 200px;
+
+    .az-offer_img {
+      background: transparent url(../images/cardiac.png) no-repeat;
+      width: 20%;
+      height: 100%;
+      float: left;
+      background-size: 100%;
+      background-position: center;
+    }
+
+    .az-offer_body {
+      width: 80%;
+      padding: 30px 0px 0px 10px;
+
+      .az-offer_body_title {
+        font-size: 24px;
+        font-weight: bold;
       }
-      .az-offer_body{
-          width: 80%;
-          padding: 30px 0px 0px 10px;
-          .az-offer_body_title{
-              font-size: 24px;
-              font-weight: bold;
-          }
-          .az-offer_sub_title{
-              color: $color-gray
-          }
+
+      .az-offer_sub_title {
+        color: $color-gray
       }
+    }
   }
 }
 
@@ -996,179 +1074,218 @@ body {
     padding-right: 16px;
     padding-bottom: 10px;
   }
+
   .js-form-item-subject {
     padding-bottom: 10px;
   }
+
   .js-form-item-message {
     padding-bottom: 10px;
+
     input {
       height: 110px;
     }
   }
+
   .js-form-item-code {
     display: flex;
     padding-bottom: 20px;
+
     input#edit-code {
-        width: 20%;
+      width: 20%;
     }
+
     .description {
       padding-left: 10px;
+
       .webform-element-description {
-         .az-validcode {
-           display: flex;
-         }
+        .az-validcode {
+          display: flex;
+        }
       }
     }
   }
+
   .js-form-item-termcheck {
     display: flex;
+
     .description {
       padding-left: 10px;
       padding-bottom: 50px;
     }
   }
+
   .webform-actions {
     text-align: center;
+
     input {
-      width:200px;
+      width: 200px;
       background: #eb1484;
     }
   }
 }
-.az-header-topimg{
-    position: relative;
-    img{
-        width: 100%;
+
+.az-header-topimg {
+  position: relative;
+
+  img {
+    width: 100%;
+  }
+
+  .az-header-imgbody {
+    position: absolute;
+    top: 10%;
+    left: 20%;
+  }
+
+  .az-header-imgbody>p {
+    &:nth-child(1) {
+      background-color: $color-red;
+      height: 3vw;
+      line-height: 3vw;
+      text-align: center;
+      border-radius: 10px;
+
+      a {
+        color: white;
+        font-weight: bold;
+        font-size: 1vw;
+      }
     }
-    .az-header-imgbody{
-        position: absolute;
-        top:10%;
-        left: 20%;
+
+    &:nth-child(2) {
+      font-size: 5vw;
+      color: white;
+      font-weight: bold;
     }
-    .az-header-imgbody>p{
-        &:nth-child(1) {
-            background-color: $color-red;
-            height: 3vw;
-            line-height: 3vw;
-            text-align: center;
-            border-radius: 10px;
-        a{
-            color: white;
-            font-weight: bold;
-            font-size: 1vw;
-        }
-        }
-        &:nth-child(2){
-            font-size: 5vw;
-            color: white;
-            font-weight: bold;
-        }
-        &:nth-child(3){
-            color: $color-red;
-            font-size: 2vw;
-            font-weight: 500;
-        }
-        &:nth-child(4){
-            color: white;
-            font-size: 1.2vw;
-            font-weight: 200;
-            width: 22vw;
-        }
+
+    &:nth-child(3) {
+      color: $color-red;
+      font-size: 2vw;
+      font-weight: 500;
     }
+
+    &:nth-child(4) {
+      color: white;
+      font-size: 1.2vw;
+      font-weight: 200;
+      width: 22vw;
+    }
+  }
 }
 
-    .az-home_toptext1{
-        color: $color-gray;
-        text-align: center;
-        margin-bottom: 15px;
-        margin-top: 60px;
-    }
-    .az-home_toptext2{
-        font-size: 20px;
-        font-weight: bold;
-        text-align: center;
-        margin-bottom: 15px!important;
-    }
-    .az-home_toptext3{
-        color: $color-gray;
-        text-align: center;
-        margin-bottom: 60px!important;
-    }
+.az-home_toptext1 {
+  color: $color-gray;
+  text-align: center;
+  margin-bottom: 15px;
+  margin-top: 60px;
+}
+
+.az-home_toptext2 {
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 15px !important;
+}
+
+.az-home_toptext3 {
+  color: $color-gray;
+  text-align: center;
+  margin-bottom: 60px !important;
+}
+
 //#block-views-block-ta-campaign-block-1{
 //    .block-content{
 //        margin: auto;
 //    }
 //}
-#block-homerenshikangxinzhiyou{
-    .row{
-        .left{
-            color: white;
-            background-color: $color-red;
-            padding: 5% 10% 5% 10%;
-            height: 500px;
-            h5{
-                color: white;
-                font-size: 40px;
-            }
-        }
-        .right{
-            padding-left:0px!important;
-            img{
-                width: 100%;
-                height: 500px;
-            }
-        }
+#block-homerenshikangxinzhiyou {
+  .row {
+    .left {
+      color: white;
+      background-color: $color-red;
+      padding: 5% 10% 5% 10%;
+      height: 500px;
+
+      h5 {
+        color: white;
+        font-size: 40px;
+      }
     }
+
+    .right {
+      padding-left: 0px !important;
+
+      img {
+        width: 100%;
+        height: 500px;
+      }
+    }
+  }
 }
 
 #footer {
-    background: #F4F4F4;
+  background: #F4F4F4;
+  margin-top: 100px;
+
   .footer-center {
     background: unset;
+
     #block-footerleft {
       div.field--name-body {
         display: flex;
-        img{
-            height: 104px;
+
+        img {
+          height: 104px;
         }
-        p{
-            margin-left: 20px;
-            strong{
-                color: black;
-            }
+
+        p {
+          margin-left: 20px;
+
+          strong {
+            color: black;
+          }
         }
       }
     }
+
     #block-webform {
-      .block-title span{
+      .block-title span {
         color: black !important;
         font-size: 15px;
       }
+
       .block-content {
-        form>div{
-            &:nth-child(1){
-                width: 35%;
-                #edit-email {
-                    width: 100%;
-                    height: 40px;
-                  }
+        form>div {
+          &:nth-child(1) {
+            width: 35%;
+
+            input {
+              width: 100%;
+              height: 40px;
             }
-            &:nth-child(2){
-                width: 35%;
-                #edit-ta-type {
-            width: 100%;
-            height: 40px;
           }
+
+          &:nth-child(2) {
+            width: 35%;
+
+            input {
+              width: 100%;
+              height: 40px;
             }
-            &:nth-child(3){
-                width: 25%;
-                #edit-actions-submit {
-            height: 40px;
-            width: 100%;
-            background: #EB1384;
           }
+
+          &:nth-child(3) {
+            width: 25%;
+
+            input {
+              height: 40px;
+              width: 100%;
+              background: #EB1384;
             }
+          }
         }
+
         form {
           display: flex;
           justify-content: space-between;
@@ -1177,6 +1294,7 @@ body {
     }
   }
 }
+
 footer#footer::after {
   content: ' ';
   width: 100%;
@@ -1189,20 +1307,28 @@ footer#footer::after {
   position: relative;
   //clear: both;
   left: -30%;
-  top: -200px;
+  top: -150px;
+  border: 1px solid gray;
+  padding: 0px;
+
   .az-offers_bgimg {
     position: relative;
     margin: 0 auto;
-    top: 50px;
+
+    img {
+      width: 100%;
+    }
   }
+
   .az-offers_logoimg {
     position: relative;
-    top: 35%;
-    width: 40%;
-    margin-top: 0;
-    margin-bottom: 20px;
-    margin-left: 20px;
-    margin-right: auto;
+    bottom: 30px;
+    bottom: 30px;
+    left: 20px;
+  }
+
+  .az-offers_logodes {
+    padding-left: 10px;
   }
 }
 
@@ -1218,11 +1344,13 @@ footer#footer::after {
     position: relative;
     margin-left: 25.5%;
     display: flex;
+
     .az-off-pp-params {
       border-top: 1px solid #d9d8d8;
       border-bottom: 1px solid #d9d8d8;
       width: 25%;
     }
+
     .az-off-pp-area {
       border-top: 1px solid #d9d8d8;
       border-bottom: 1px solid #d9d8d8;
@@ -1243,10 +1371,12 @@ footer#footer::after {
   left: -29.5%;
   top: 120px;
   display: block;
-  p{
-      color: $color-gray;
+
+  p {
+    color: $color-gray;
   }
 }
+
 .az-offers_shop {
   display: block;
   position: relative;
@@ -1255,6 +1385,7 @@ footer#footer::after {
   margin-left: 36%;
   margin-right: auto;
   margin-bottom: 20px;
+
   div {
     img {
       width: 100%;
@@ -1263,12 +1394,14 @@ footer#footer::after {
 }
 
 .az-medicine-shop-header {
-  left:35.8%;
-  display:flex;
+  left: 35.8%;
+  display: flex;
   position: relative;
 }
+
 .az-offer-article {
   margin-bottom: 10px;
+
   .field--name-field-medicine-shop-params {
     position: relative;
     left: 11%;
@@ -1276,10 +1409,10 @@ footer#footer::after {
 }
 
 #az-contact_valid_code {
-  height:  45px;
+  height: 45px;
   background-color: #d0cbcb;
   text-align: center;
-  border:0;
+  border: 0;
   width: 120px;
 }
 
@@ -1294,62 +1427,75 @@ footer#footer::after {
 
 
 .az-clinical-right-box {
-    border: 1px solid $color-gray;
+  border: 1px solid $color-gray;
   position: relative;
   top: -100px;
-  .az-clinical-rbx_title{
-      font-size: 20px;
-      font-weight: bold;
-      padding-left: 20px;
+
+  .az-clinical-rbx_title {
+    font-size: 20px;
+    font-weight: bold;
+    padding-left: 20px;
   }
-  .az-clinical-rbx_desc{
-      margin-bottom: 20px;
-      margin-top: 20px;
-      padding-left: 20px;
+
+  .az-clinical-rbx_desc {
+    margin-bottom: 20px;
+    margin-top: 20px;
+    padding-left: 20px;
   }
+
   .az-clinical-rbx__boom {
     display: flex;
     padding-left: 20px;
+
     .field--name-field-az-body {
       padding-bottom: 10px;
     }
   }
+
   .az-clinical-rbx_logo {
     position: relative;
     top: -35px;
     left: 10px;
   }
-  .az-clinical-bottom-box{
+
+  .az-clinical-bottom-box {
     text-align: center;
     padding-bottom: 20px;
-      span{
-          font-size: 15px;
-          font-weight: bold;
+
+    span {
+      font-size: 15px;
+      font-weight: bold;
+    }
+
+    div {
+      margin-top: 20px;
+
+      button {
+        border: 0px;
+        background-color: $color-red;
+        color: white;
+        border-radius: 5px;
+        width: 45%;
       }
-      div{
-        margin-top: 20px;
-          button{
-              border: 0px;
-              background-color: $color-red;
-              color: white;
-              border-radius: 5px;
-              width: 45%;
-          }
-      }
+    }
   }
 }
+
 .az-clinical-middle-kv {
+
   //display: flex;
   //flex-wrap: wrap;
   .az-middle-box {
     .az-clinical-mid__boom {
       display: flex;
+
       .az-middle-rgx {
         width: 100%;
       }
     }
   }
 }
+
 .node--type-az-clinical-experience-process {
   .field--name-field-refers {
     display: block;
@@ -1359,14 +1505,25 @@ footer#footer::after {
     margin-bottom: 0;
     margin-left: 42%;
     margin-right: auto;
+
+    .field__label {
+      font-size: 20px;
+      font-weight: bold;
+    }
+
+    .field__item {
+      color: gray;
+    }
   }
 }
-.field--name-field-az-clinical-mid-params{
+
+.field--name-field-az-clinical-mid-params {
   width: 50%;
   margin-top: 0;
   margin-bottom: 0;
   margin-left: 42%;
-  margin-right:auto;
+  margin-right: auto;
+
   .field__item {
     .paragraph--type--clinical-trial-portal-category-p {
       position: relative;
@@ -1380,25 +1537,25 @@ footer#footer::after {
 .paragraph--type--clinical-trial-portal-category-p {
   .field--name-field-az-clinical-category-item {
     display: flex;
-    width:70%;
+    width: 70%;
     flex-wrap: wrap;
   }
 }
 
 .node--type-az-clinical-experience-process {
   .node__content {
-   .field--name-body {
-     position: relative;
-     top: 120px;
-     /* margin-top: 10px; */
-     left: 2%;
-     display: block;
-     width: 50%;
-     /* margin-top: 190px; */
-     margin-bottom: 0;
-     margin-left: 40%;
-     margin-right: auto;
-   }
+    .field--name-body {
+      position: relative;
+      top: 120px;
+      /* margin-top: 10px; */
+      left: 2%;
+      display: block;
+      width: 50%;
+      /* margin-top: 190px; */
+      margin-bottom: 0;
+      margin-left: 40%;
+      margin-right: auto;
+    }
   }
 }
 
@@ -1411,20 +1568,25 @@ footer#footer::after {
 //#block-quicktabstaarticles {
 .block-quicktabs {
   border: none;
+
   .ui-widget.ui-widget-content {
     border: none;
+
     .ui-tabs-nav {
       border: none;
       background: none;
+
       li {
         border: none;
         background: none;
+
         a {
-          color:black;
+          color: black;
           display: flex;
           align-items: center;
+
           img {
-            margin-right:10px;
+            margin-right: 10px;
           }
         }
       }
@@ -1433,30 +1595,34 @@ footer#footer::after {
 }
 
 .az-clinical-subjest-email {
-    display: none;
-    .az-clinical_transbkg {
-      position: fixed;
-      width: 100%;
-      height: 100%;
-      left: 0;
-      top: 0;
-      opacity: 0.4;
-      background-color: black;
-      z-index: 10;
+  display: none;
+
+  .az-clinical_transbkg {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    opacity: 0.4;
+    background-color: black;
+    z-index: 10;
+  }
+
+  .az-clinical-subjest-body>div {
+    &:nth-child(2) {
+      span {
+        margin-right: 60px;
+      }
+
+      input {
+        border: 1px solid $color-gray;
+        width: 200px;
+        height: 40px;
+        margin-left: 20px;
+      }
     }
-    .az-clinical-subjest-body>div{
-        &:nth-child(2) {
-            span{
-                margin-right: 60px;
-            }
-            input{
-                border:1px solid $color-gray;
-                width: 200px;
-                height: 40px;
-                margin-left: 20px;
-            }
-        }
-      /*   &:nth-child(3) {
+
+    /*   &:nth-child(3) {
             span{
                 margin-right: 20px;
             }
@@ -1477,62 +1643,67 @@ footer#footer::after {
                 margin-left: 20px;
             }
         } */
-    }
-    .az-clinical-subjest-body {
-        position: fixed;
-        margin: auto;
-        left: 0;
-        right: 0;
-        top: 0;
-        bottom: 0;
-        z-index: 11;
-        width: 400px;
-        height: 200px;
-        background-color: white;
-        border-radius: 5px;
-        padding: 25px;
+  }
 
-        p {
-          font-weight: bold;
-          padding-bottom: 20px;
-          span{
-              font-size: 12px;
-              color: gray;
-          }
-        }
-        div{
-            height: 40px;
-            margin-bottom: 20px;
-            span{
-                font-size: 18px;
-                font-weight: 500;
-            }
-        }
+  .az-clinical-subjest-body {
+    position: fixed;
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: 11;
+    width: 400px;
+    height: 200px;
+    background-color: white;
+    border-radius: 5px;
+    padding: 25px;
 
-        .az-clinical-subjest_btn {
-          text-align: center;
-        }
+    p {
+      font-weight: bold;
+      padding-bottom: 20px;
 
-        button {
-          width: 160px;
-          height: 40px;
-          border-radius: 5px;
-          color: white;
-        }
-
-        .az-clinical-subjest_btnemail {
-          margin-right: 10px;
-          border: 1px solid $color-red;
-          background-color: $color-red;
-        }
-
-        .az-clinical-subjest_btncancel {
-          margin-left: 10px;
-          background-color: $color-gray;
-          border: 1px solid $color-gray;
-        }
+      span {
+        font-size: 12px;
+        color: gray;
       }
+    }
+
+    div {
+      height: 40px;
+      margin-bottom: 20px;
+
+      span {
+        font-size: 18px;
+        font-weight: 500;
+      }
+    }
+
+    .az-clinical-subjest_btn {
+      text-align: center;
+    }
+
+    button {
+      width: 160px;
+      height: 40px;
+      border-radius: 5px;
+      color: white;
+    }
+
+    .az-clinical-subjest_btnemail {
+      margin-right: 10px;
+      border: 1px solid $color-red;
+      background-color: $color-red;
+    }
+
+    .az-clinical-subjest_btncancel {
+      margin-left: 10px;
+      background-color: $color-gray;
+      border: 1px solid $color-gray;
+    }
+  }
 }
+
 // front page
 // .page-node-7 {
 //   #block-views-block-ta-campaign-block-1 {
@@ -1542,64 +1713,75 @@ footer#footer::after {
 //     }
 //   }
 // }
-.az-product-position{
-    .az-product_headtwo{
-        height: 300px;
-        background-color: $color-red;
-        text-align: center;
-        color: white;
-        .az-product_head__title1{
-            font-weight: 100;
-            padding-top: 50px;
-        }.az-product_head__title2{
-            font-size: 24px;
-        }.az-product_head__body {
-            width: 50%;
-            margin: 0 auto;
-            font-weight: 100;
-        }
-    }
-}
-
-.node--type-page {
-  div.field--name-body {
+.az-product-position {
+  .az-product_headtwo {
+    height: 300px;
+    background-color: $color-red;
     text-align: center;
+    color: white;
 
-    h3 {
-      font-size: 20px;
-      color: #b8b8b8;
+    .az-product_head__title1 {
+      font-weight: 100;
+      padding-top: 50px;
     }
 
-    p {
-      color: #b8b8b8;
+    .az-product_head__title2 {
+      font-size: 24px;
+    }
+
+    .az-product_head__body {
+      width: 50%;
+      margin: 0 auto;
+      font-weight: 100;
     }
   }
 }
 
-.node--type-health-information,.node--type-medical-article {
+
+
+.node--type-health-information,
+.node--type-medical-article {
   #block-astrazeneca-page-title .page-title {
     &::after {
       content: '';
       width: 68px;
-      height:7px;
+      height: 7px;
       display: block;
       background: #EB1384;
       border-radius: 5px;
     }
   }
+
   .az-hr {
     //margin: 10px 0 10px 0;
     border: 1px solid #979797;
   }
+
   .az-share-and-author {
     margin-left: 0;
     margin-right: 0;
+
     .shares {
       float: left;
     }
+
     .author-by {
       float: right;
     }
   }
 }
 
+.path-az-health-club {
+  .views-infinite-scroll-content-wrapper {
+    margin: 0 auto;
+    margin: 0px 100px 0px 100px;
+  }
+}
+footer{
+.az-product-position{
+  .views-infinite-scroll-content-wrapper{
+    position: relative;
+    bottom: 100px;
+  }
+}
+}
