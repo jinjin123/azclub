@@ -6,6 +6,7 @@ dependencies:
     - field.field.node.az_product_information.body
     - field.field.node.az_product_information.field_az_product_img
     - field.field.node.az_product_information.field_product_type
+    - field.field.node.az_product_information.field_promote_to_register_form
     - node.type.az_product_information
   module:
     - image
@@ -39,6 +40,16 @@ content:
       link: true
     third_party_settings: {  }
     type: entity_reference_label
+    region: content
+  field_promote_to_register_form:
+    weight: 104
+    label: above
+    settings:
+      format: default
+      format_custom_false: ''
+      format_custom_true: ''
+    third_party_settings: {  }
+    type: boolean
     region: content
   links:
     weight: 100

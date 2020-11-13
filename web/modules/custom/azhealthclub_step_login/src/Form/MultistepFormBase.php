@@ -105,7 +105,7 @@ abstract class MultistepFormBase extends FormBase {
     $attention2 = $this->store->get('attention2');
     $communication_mode = $this->store->get('communication_mode');
 
-    $if_medicine_using = $this->store->get('if_medicine_using');
+    $no_medicine_using = $this->store->get('no_medicine_using');
     $ta_type = $this->store->get('ta_type');
     $medicine_using = $this->store->get('medicine_using');
     $where1 = $this->store->get('where1');
@@ -138,11 +138,11 @@ abstract class MultistepFormBase extends FormBase {
     $profile->set('field_zh_name', $zh_name);
     $profile->set('field_en_name', $en_name);
     $profile->set('field_identification_last4num', $identification_last4num);
-    $profile->set('field_birthday', $birthday->format('Y-m-d'));
+    $profile->set('field_birthday', $birthday);
     $profile->set('field_gender', $gender);
     $profile->set('field_attention2', $attention2_filter);
     $profile->set('field_communication_mode', $communication_mode_filter);
-    $profile->set('field_if_medicine_using', $if_medicine_using);
+    $profile->set('field_no_medicine_using', $no_medicine_using);
     $profile->set('field_ta_type', $ta_type_filter);
     $profile->set('field_medicine_using', $medicine_using);
     $profile->set('field_where1', $where1_filter);
@@ -163,7 +163,7 @@ abstract class MultistepFormBase extends FormBase {
   protected function deleteStore() {
     $keys = ['phone', 'email', 'pass', 'attention1',
       'zh_name', 'en_name', 'identification_last4num', 'birthday', 'gender', 'attention2', 'communication_mode',
-      'if_medicine_using', 'ta_type', 'medicine_using', 'where1', 'where2'
+      'no_medicine_using', 'ta_type', 'medicine_using', 'where1', 'where2'
     ];
     foreach ($keys as $key) {
       $this->store->delete($key);

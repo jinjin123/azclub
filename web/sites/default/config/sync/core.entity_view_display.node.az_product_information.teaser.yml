@@ -7,6 +7,7 @@ dependencies:
     - field.field.node.az_product_information.body
     - field.field.node.az_product_information.field_az_product_img
     - field.field.node.az_product_information.field_product_type
+    - field.field.node.az_product_information.field_promote_to_register_form
     - node.type.az_product_information
   module:
     - text
@@ -33,4 +34,5 @@ hidden:
   addtoany: true
   field_az_product_img: true
   field_product_type: true
+  field_promote_to_register_form: true
   search_api_excerpt: true

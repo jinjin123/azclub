@@ -1,15 +1,15 @@
-uuid: e51c997a-dc47-45e7-868e-4f82cc6558ed
+uuid: 5519b4ac-15f2-48d3-8c5a-cc7b7e6f221f
 langcode: en
 status: true
 dependencies:
   config:
-    - field.storage.profile.field_if_medicine_using
+    - field.storage.profile.field_no_medicine_using
     - profile.type.member
-id: profile.member.field_if_medicine_using
-field_name: field_if_medicine_using
+id: profile.member.field_no_medicine_using
+field_name: field_no_medicine_using
 entity_type: profile
 bundle: member
-label: if_medicine_using
+label: no_medicine_using
 description: ''
 required: false
 translatable: false

@@ -1,0 +1,23 @@
+uuid: 5da668e9-c963-4c80-bdb9-98d970079681
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_promote_to_register_form
+    - node.type.az_product_information
+id: node.az_product_information.field_promote_to_register_form
+field_name: field_promote_to_register_form
+entity_type: node
+bundle: az_product_information
+label: 推至註冊表單
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean
