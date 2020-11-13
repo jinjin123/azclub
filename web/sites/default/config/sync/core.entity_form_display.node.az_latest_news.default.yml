@@ -5,6 +5,7 @@ dependencies:
   config:
     - field.field.node.az_latest_news.body
     - field.field.node.az_latest_news.field_az_author_img
+    - field.field.node.az_latest_news.field_refers
     - image.style.thumbnail
     - node.type.az_latest_news
   module:
@@ -39,6 +40,14 @@ content:
       preview_image_style: thumbnail
     third_party_settings: {  }
     type: image_image
+    region: content
+  field_refers:
+    weight: 123
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+    type: text_textarea
     region: content
   path:
     type: path
