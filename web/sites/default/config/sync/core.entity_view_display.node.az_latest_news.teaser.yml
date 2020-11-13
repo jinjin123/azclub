@@ -6,6 +6,7 @@ dependencies:
     - core.entity_view_mode.node.teaser
     - field.field.node.az_latest_news.body
     - field.field.node.az_latest_news.field_az_author_img
+    - field.field.node.az_latest_news.field_refers
     - node.type.az_latest_news
   module:
     - text
@@ -29,5 +30,7 @@ content:
     third_party_settings: {  }
     region: content
 hidden:
+  addtoany: true
   field_az_author_img: true
+  field_refers: true
   search_api_excerpt: true

@@ -1,0 +1,21 @@
+uuid: 5dd02cef-978e-4dca-8390-99631f3474e9
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_refers
+    - node.type.az_latest_news
+  module:
+    - text
+id: node.az_latest_news.field_refers
+field_name: field_refers
+entity_type: node
+bundle: az_latest_news
+label: 參考：
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long
