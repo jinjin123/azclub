@@ -380,6 +380,19 @@ blocks:
           value: "<div class=\"az-product_head\">\r\n<div class=\"az-product_head__title1\"><span>臨床實驗</span></div>\r\n\r\n<div class=\"az-product_head__title2\"><span>What sre Clinical Trials</span></div>\r\n\r\n<div class=\"az-pipline-redbox\">\r\n<div><a href=\"javascript;\"><img src=\"/themes/custom/astrazeneca/logo.png\" /></a></div>\r\n\r\n<div><a href=\"javascript;\"><img src=\"/themes/custom/astrazeneca/logo.png\" /></a></div>\r\n\r\n<div><a href=\"javascript;\"><img src=\"/themes/custom/astrazeneca/logo.png\" /></a></div>\r\n\r\n<div><a href=\"javascript;\"><img src=\"/themes/custom/astrazeneca/logo.png\" /></a></div>\r\n\r\n<div><a href=\"javascript;\"><img src=\"/themes/custom/astrazeneca/logo.png\" /></a></div>\r\n</div>\r\n</div>\r\n"
           summary: ''
           format: full_html
+  -
+    info: 'Nurse On call  藥物儀器指導'
+    langcode: en
+    uuid: 1b0d06ea-27d7-46aa-bb87-709e0f19261b
+    bundle: basic
+    revision_id: null
+    rev_id_current: null
+    fields:
+      body:
+        -
+          value: "<div class=\"az-nurse-contentimg\"><img alt=\"\" data-entity-type=\"file\" data-entity-uuid=\"8cd2c98c-8751-449f-8b47-b7eb41433c32\" height=\"400\" src=\"/sites/default/files/imce_upload/admin/home-banner_0.png\" width=\"1430\" /></div>\r\n\r\n<div class=\"az-nurse-box\">\r\n<div class=\"az-nurse-left-icon\"><img src=\"/themes/custom/astrazeneca/logo.png\" /></div>\r\n\r\n<div class=\"az-nurse-right-box\">\r\n<div class=\"az-nurse-right-title\">護⼠熱線</div>\r\n\r\n<div class=\"az-nurse-right-body\">如會員在應⽤百達揚®Bydureon®注射筆 及信必可®Symbicort®吸入器時遇 到疑問,可致電 2941 5106 查詢有關註冊護⼠儀器應⽤指導安排。 *指導服務只適⽤於指定藥物儀器使⽤者。</div>\r\n</div>\r\n</div>\r\n"
+          summary: ''
+          format: full_html
 menus:
   -
     menu_name: footer

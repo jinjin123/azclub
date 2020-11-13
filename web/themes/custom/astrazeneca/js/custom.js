@@ -80,9 +80,19 @@ Drupal.behaviors.PharmaTheme = {
     $(".az-clinical-bbx-email").on('click',function(e){
       $(".az-clinical-subjest-email").css("display","block");
         $(".az-clinical-subjest_btncancel").click(function(){
-      $(".az-clinical-subjest-email").css("display","none");
+          $(".az-clinical-subjest-email").css("display","none");
+      })
+      $(".az-clinical-subjest_btnemail").click(function (){
+         if($(".az-clinical-ckb")[0].checked){
+           console.log("aa")
+         }else {
+           $(".az-clinical-ckb-box").css("border","1px solid red")
+         }
+      })
     })
-    })
+    // $(".az-clinical-subjest_btnemail").click(function (){
+    //   $(".az-clinical-ckb")[0].checked
+    // })
 
     // product shop search
     var oldtmp=[]
@@ -168,12 +178,6 @@ Drupal.behaviors.PharmaTheme = {
       return rnd.split("").join(".");
     }
 
-    // $(".az-product_selectbox_conth4").text("免責聲明：");
-    // $(".az-product_selectbox_contp1").text("藥品咨詢只能適用於香港或澳門服用此藥物之人仕。");
-    // $(".az-product_selectbox_contp2").text("如同意繼續瀏覽，你已聲明你正服用此藥物，並且了解所提供的質詢只作參考用途。如對以上藥物有任何疑問，請向您的醫生或藥劑師查詢。");
-    // $(".az-product_selectbox_contp3").text("請確認您是否服用此藥物。");
-    // $(".az-product_selectbox_btnyes").html("是");
-    // $(".az-product_selectbox_btnno").html("否");
 
     // health tips bg
    // $(".az-healthtips_head").parent().parent().css("background-color","oranage");

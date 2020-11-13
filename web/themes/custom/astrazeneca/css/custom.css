@@ -1,3 +1,4 @@
+@charset "UTF-8";
 body {
   overflow: hidden;
 }
@@ -1527,9 +1528,10 @@ footer#footer::after {
 
 .az-clinical-subjest-email .az-clinical-subjest-body > div:nth-child(2) input {
   border: 1px solid #979797;
-  width: 200px;
+  width: 240px;
   height: 40px;
   margin-left: 20px;
+  text-indent: 10px;
 }
 
 .az-clinical-subjest-email .az-clinical-subjest-body {
@@ -1541,7 +1543,7 @@ footer#footer::after {
   bottom: 0;
   z-index: 11;
   width: 400px;
-  height: 200px;
+  height: 260px;
   background-color: white;
   border-radius: 5px;
   padding: 25px;
@@ -1550,6 +1552,7 @@ footer#footer::after {
 .az-clinical-subjest-email .az-clinical-subjest-body p {
   font-weight: bold;
   padding-bottom: 20px;
+  color: #333333;
 }
 
 .az-clinical-subjest-email .az-clinical-subjest-body p span {
@@ -1569,6 +1572,54 @@ footer#footer::after {
 
 .az-clinical-subjest-email .az-clinical-subjest-body .az-clinical-subjest_btn {
   text-align: center;
+}
+
+.az-clinical-subjest-email .az-clinical-subjest-body .az-clinical-ckb-box {
+  background-color: #E0DEDEDE;
+  border: 1px solid #979797;
+  width: 240px;
+  height: 40px;
+  margin-left: 30%;
+  position: relative;
+}
+
+.az-clinical-subjest-email .az-clinical-subjest-body .az-clinical-ckb-box .az-clinical-inline-box {
+  padding: 5px 10px;
+}
+
+.az-clinical-subjest-email .az-clinical-subjest-body .az-clinical-ckb-box .az-clinical-inline-box input[type=checkbox] {
+  cursor: pointer;
+  position: relative;
+  width: 15px;
+  height: 15px;
+  font-size: 14px;
+}
+
+.az-clinical-subjest-email .az-clinical-subjest-body .az-clinical-ckb-box .az-clinical-inline-box input[type=checkbox]::after {
+  position: absolute;
+  top: 0;
+  background-color: #E0DEDEDE;
+  color: #000;
+  width: 15px;
+  height: 15px;
+  display: inline-block;
+  visibility: visible;
+  text-align: center;
+  content: ' ';
+}
+
+.az-clinical-subjest-email .az-clinical-subjest-body .az-clinical-ckb-box .az-clinical-inline-box input[type=checkbox]:checked::after {
+  content: "✓";
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.az-clinical-subjest-email .az-clinical-subjest-body .az-clinical-ckb-box .az-clinical-inline-box span {
+  padding: 0 10px;
+  color: #979797;
+  font-size: 5px;
+  font-weight: 100;
+  position: absolute;
 }
 
 .az-clinical-subjest-email .az-clinical-subjest-body button {
