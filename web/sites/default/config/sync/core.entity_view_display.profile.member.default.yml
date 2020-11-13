@@ -5,7 +5,6 @@ dependencies:
   config:
     - field.field.profile.member.field_attention1
     - field.field.profile.member.field_attention2
-    - field.field.profile.member.field_birthday
     - field.field.profile.member.field_communication_mode
     - field.field.profile.member.field_en_name
     - field.field.profile.member.field_gender
@@ -19,7 +18,6 @@ dependencies:
     - field.field.profile.member.field_zh_name
     - profile.type.member
   module:
-    - datetime
     - options
 id: profile.member.default
 targetEntityType: profile
@@ -39,15 +37,6 @@ content:
     settings: {  }
     third_party_settings: {  }
     type: list_default
-    region: content
-  field_birthday:
-    weight: 5
-    label: above
-    settings:
-      format_type: medium
-      timezone_override: ''
-    third_party_settings: {  }
-    type: datetime_default
     region: content
   field_communication_mode:
     weight: 7

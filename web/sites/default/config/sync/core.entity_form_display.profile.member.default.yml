@@ -5,7 +5,6 @@ dependencies:
   config:
     - field.field.profile.member.field_attention1
     - field.field.profile.member.field_attention2
-    - field.field.profile.member.field_birthday
     - field.field.profile.member.field_communication_mode
     - field.field.profile.member.field_en_name
     - field.field.profile.member.field_gender
@@ -18,8 +17,6 @@ dependencies:
     - field.field.profile.member.field_where2
     - field.field.profile.member.field_zh_name
     - profile.type.member
-  module:
-    - datetime
 id: profile.member.default
 targetEntityType: profile
 bundle: member
@@ -36,12 +33,6 @@ content:
     settings: {  }
     third_party_settings: {  }
     type: options_select
-    region: content
-  field_birthday:
-    weight: 31
-    settings: {  }
-    third_party_settings: {  }
-    type: datetime_default
     region: content
   field_communication_mode:
     weight: 33
