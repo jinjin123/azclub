@@ -1420,7 +1420,7 @@ html input[disabled] {
   background-color: grey;
 }
 
-#az-phone-email, #az-pass-confirm-pass {
+#az-phone-email, #az-pass-confirm-pass, .az-form-element-container {
   overflow: hidden;
 }
 

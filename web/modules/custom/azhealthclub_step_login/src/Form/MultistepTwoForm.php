@@ -32,39 +32,63 @@ class MultistepTwoForm extends MultistepFormBase {
 
     $form['zh_name'] = [
       '#type' => 'textfield',
-      '#title' => '中文名字*',
+      '#title' => '',
       '#default_value' => $this->store->get('zh_name') ? $this->store->get('zh_name') : '',
+      '#attributes' => ['placeholder' => '*中文名字'],
+      '#prefix' => '<div class="az-form-element-container"><div class="col-md-6 col-xs-12">',
+      '#suffix' => '</div>',
+      '#size' => 30,
     ];
 
     $form['en_name'] = [
       '#type' => 'textfield',
-      '#title' => '英文名字*',
+      '#title' => '',
       '#default_value' => $this->store->get('en_name') ? $this->store->get('en_name') : '',
+      '#attributes' => ['placeholder' => '*英文名字'],
+      '#prefix' => '<div class="col-md-6 col-xs-12">',
+      '#suffix' => '</div></div>',
+      '#size' => 30,
     ];
 
     $form['identification_last4num'] = [
       '#type' => 'textfield',
-      '#title' => '香港身份證號碼（頭4位數字）*',
+      '#title' => '',
       '#default_value' => $this->store->get('identification_last4num') ? $this->store->get('identification_last4num') : '',
+      '#attributes' => ['placeholder' => '*香港身份證號碼（頭4位數字）'],
+      '#prefix' => '<div class="az-form-element-container"><div class="col-md-6 col-xs-12">',
+      '#suffix' => '</div>',
+      '#size' => 30,
     ];
 
+    $bundle_fields = \Drupal::getContainer()->get('entity_field.manager')->getFieldDefinitions('profile', 'member');
+    $field_definition = $bundle_fields['field_birthday'];
+    $yearonly_from = $field_definition->getSetting('yearonly_from');
+    $yearonly_to = $field_definition->getSetting('yearonly_to');
+    if ($yearonly_to == 'now')  {
+      $yearonly_to = date('Y', time());
+    }
+    $years = [];
+    for ($year = intval($yearonly_from); $year <= intval($yearonly_to); $year++) {
+      $years[$year]= $year;
+    }
     $form['birthday'] = [
-      '#type' => 'datetime',
-      '#title' => '出生日萬期',
-      '#default_value' => $this->store->get('birthday') ? $this->store->get('birthday') : new DrupalDateTime('2000-01-01 00:00:00'),
-      '#date_date_element' => 'date',
-      '#date_time_element' => 'none',
-      '#date_year_range' => '2010:+3',
-      '#date_timezone' => 'Asia/Kolkata',
+      '#type' => 'select',
+      //'#title' => '*出生年份',
+      '#options' => [0=>'*出生年份'] + $years,
+      '#default_value' => $this->store->get('birthday') ? $this->store->get('birthday') : 0,
+      '#prefix' => '<div class="col-md-3 col-xs-12">',
+      '#suffix' => '</div>',
     ];
 
     $field_settings = $memberFields['field_gender']->getSettings();
     $allowed_values = $field_settings['allowed_values'];
     $form['gender'] = [
       '#type' => 'select',
-      '#title' => '性別*',
-      '#options' => $allowed_values,
+      //'#title' => '*性別',
+      '#options' => ['0' => '*性別' ] + $allowed_values,
       '#default_value' => $this->store->get('gender') ? $this->store->get('gender') : '',
+      '#prefix' => '<div class="col-md-3 col-xs-12">',
+      '#suffix' => '</div></div>',
     ];
 
     $field_settings = $memberFields['field_attention2']->getSettings();
@@ -114,4 +138,34 @@ class MultistepTwoForm extends MultistepFormBase {
 
     $form_state->setRedirect('azhealthclub_step_login.multistep_three');
   }
+
+  public function validateForm(array &$form, FormStateInterface $form_state) {
+    parent::validateForm($form, $form_state);
+
+    $values = $form_state->getValues();
+
+    if (empty($values['zh_name'])) {
+      $form_state->setErrorByName('zh_name', '請輸入中文名字');
+      $form['zh_name']['#attributes']['class'][] = 'az-error';
+    }
+    if (empty($values['en_name'])) {
+      $form_state->setErrorByName('en_name', '請輸入英文名字');
+      $form['en_name']['#attributes']['class'][] = 'az-error';
+    }
+    if (empty($values['identification_last4num'])) {
+      $form_state->setErrorByName('identification_last4num', '請填寫香港身份證號碼（頭4位數字）');
+      $form['identification_last4num']['#attributes']['class'][] = 'az-error';
+    }
+    if (empty($values['birthday'])) {
+      $form_state->setErrorByName('birthday', '請選擇出生年份');
+      $form['birthday']['#attributes']['class'][] = 'az-error';
+    }
+    if (empty($values['gender'])) {
+      $form_state->setErrorByName('gender', '請選擇性別');
+      $form['gender']['#attributes']['class'][] = 'az-error';
+    }
+
+  }
+
+
 }
