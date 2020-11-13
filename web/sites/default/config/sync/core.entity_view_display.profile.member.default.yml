@@ -5,6 +5,7 @@ dependencies:
   config:
     - field.field.profile.member.field_attention1
     - field.field.profile.member.field_attention2
+    - field.field.profile.member.field_birthday
     - field.field.profile.member.field_communication_mode
     - field.field.profile.member.field_en_name
     - field.field.profile.member.field_gender
@@ -19,6 +20,7 @@ dependencies:
     - profile.type.member
   module:
     - options
+    - yearonly
 id: profile.member.default
 targetEntityType: profile
 bundle: member
@@ -37,6 +39,13 @@ content:
     settings: {  }
     third_party_settings: {  }
     type: list_default
+    region: content
+  field_birthday:
+    weight: 18
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: yearonly_default
     region: content
   field_communication_mode:
     weight: 7

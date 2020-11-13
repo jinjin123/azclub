@@ -1,0 +1,19 @@
+uuid: f1e957ae-867e-4962-a9f5-08fe9898b9b8
+langcode: en
+status: true
+dependencies:
+  module:
+    - profile
+    - yearonly
+id: profile.field_birthday
+field_name: field_birthday
+entity_type: profile
+type: yearonly
+settings: {  }
+module: yearonly
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false
