@@ -17,7 +17,14 @@ body {
     color: $color-gray;
   }
 }
-
+//文章title线条
+.az_duplicate_across {
+  margin-top: 10px;
+  width: 50px;
+  height: 5px;
+  background-color: $color-red;
+  border-radius: 5px;
+}
 //浏览更多
 a.button {
   background: transparent !important;
