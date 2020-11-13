@@ -1,7 +1,7 @@
 {
     "_links": {
         "self": {
-            "href": "http:\/\/default\/cancer?_format=hal_json"
+            "href": "http:\/\/default\/gastrointestinal\/helicobacter-pylori?_format=hal_json"
         },
         "type": {
             "href": "http:\/\/default\/rest\/type\/node\/page"
@@ -128,8 +128,8 @@
     ],
     "path": [
         {
-            "alias": "\/cancer",
-            "pid": 106,
+            "alias": "\/gastrointestinal\/helicobacter-pylori",
+            "pid": 99,
             "langcode": "en",
             "lang": "en"
         }

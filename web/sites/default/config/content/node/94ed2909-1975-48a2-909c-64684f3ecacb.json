@@ -1,7 +1,7 @@
 {
     "_links": {
         "self": {
-            "href": "http:\/\/default\/node\/88?_format=hal_json"
+            "href": "http:\/\/default\/node\/89?_format=hal_json"
         },
         "type": {
             "href": "http:\/\/default\/rest\/type\/node\/az_clinical_experience_process"
@@ -119,7 +119,11 @@
                         "value": "c5777590-1f65-4f13-ac22-bb8225040003"
                     }
                 ],
-                "target_revision_id": "125"
+                "target_revision_id": "125",
+                "alt": "",
+                "title": "",
+                "width": "496",
+                "height": "318"
             }
         ]
     },

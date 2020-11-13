@@ -12,7 +12,7 @@ body {
   width: 100%;
 }
 .az-cardthree_box .az-cardthree_body {
-  margin: 0px 20px 0px 20px;
+  padding: 0px 20px 0px 20px;
   position: relative;
 }
 .az-cardthree_box .az-cardthree_body .az-cardthree_logoimg {
@@ -53,7 +53,7 @@ body {
   width: 100%;
 }
 .az-cardtow_box .az-cardtow_body {
-  margin: 0px 20px 0px 20px;
+  padding: 0px 20px 0px 20px;
   position: relative;
   padding-bottom: 10px;
 }
@@ -83,18 +83,17 @@ body {
   background-color: orange !important;
 }
 
-#search-block-form input {
-  background: transparent url(../images/search-icon.png) no-repeat;
-  background-position: 90px;
-  height: 40px;
-  border: 1px solid #b8b8b8;
-}
-
 .az-header_top {
   height: 100px;
 }
 .az-header_top .az-header_top_logo {
   float: left;
+}
+.az-header_top .az-header_top_logo .site-branding-logo {
+  padding-top: 13px;
+}
+.az-header_top .az-header_top_logo .site-branding-logo img {
+  height: 74px;
 }
 .az-header_top .az-contact-right-box {
   margin-top: 20px;
@@ -114,38 +113,79 @@ body {
 }
 
 .az-header_bottom {
-  border: 1px solid #b8b8b8;
-  height: 40px;
+  border-top: 1px solid #b8b8b8;
+  border-bottom: 1px solid #b8b8b8;
+  height: 55px;
+  /*  .container-inline {
+    float: right;
+    margin-bottom: 0px;
+  } */
 }
-.az-header_bottom .az-header_bottom_menu .gva-navigation .gva_menu_main {
+.az-header_bottom .az-header-bbox {
+  padding: 0px;
+}
+.az-header_bottom .az-header-bbox .header-inner {
+  padding: 0px;
+}
+.az-header_bottom .az-header-bbox .header-inner .area-inner {
+  padding: 0px;
+}
+.az-header_bottom .az-header-bbox .header-inner .menu-bar {
   float: left;
-  position: relative;
-  bottom: 25px;
 }
-.az-header_bottom .az-header_bottom_menu .gva-navigation .gva_menu_main li a {
+.az-header_bottom .az-header-bbox .header-inner .az-header_bottom_menu .gva-navigation .gva_menu_main {
+  float: left;
+}
+.az-header_bottom .az-header-bbox .header-inner .az-header_bottom_menu .gva-navigation .gva_menu_main li a {
+  padding-top: 0 !important;
   padding-bottom: 0 !important;
+  line-height: 55px;
 }
-.az-header_bottom .az-header_bottom_menu .gva-navigation .gva_menu_main li ul {
-  min-width: 160px;
-  border-left: 2px solid #fcaf17;
-  border-top: none;
-}
-.az-header_bottom .az-header_bottom_menu .gva-navigation .gva_menu_main li ul li {
-  height: 40px;
-  line-height: 40px;
-}
-.az-header_bottom .az-header_bottom_menu .gva-navigation .gva_menu_main .active a {
+.az-header_bottom .az-header-bbox .header-inner .az-header_bottom_menu .gva-navigation .gva_menu_main li a:hover {
   color: #eb1484;
 }
-.az-header_bottom .container-inline {
-  float: right;
-  margin-bottom: 0px;
+.az-header_bottom .az-header-bbox .header-inner .az-header_bottom_menu .gva-navigation .gva_menu_main li ul {
+  min-width: 165px;
+  border-left: 4px solid #fcaf17;
+  border-top: none;
+}
+.az-header_bottom .az-header-bbox .header-inner .az-header_bottom_menu .gva-navigation .gva_menu_main li ul li {
+  height: 36px;
+  line-height: 36px;
+}
+.az-header_bottom .az-header-bbox .header-inner .az-header_bottom_menu .gva-navigation .gva_menu_main li ul li a {
+  height: 36px;
+  line-height: 36px;
+}
+.az-header_bottom .az-header-bbox .header-inner .az-header_bottom_menu .gva-navigation .gva_menu_main .active > a:nth-child(1) {
+  color: #eb1484;
+}
+.az-header_bottom .az-header-bbox .az-header-search-box {
+  height: 55px;
+  pad: 0px;
+}
+.az-header_bottom .az-header-bbox .az-header-search-box #search-block-form {
+  margin: 0px;
+}
+.az-header_bottom .az-header-bbox .az-header-search-box #search-block-form input {
+  background: transparent url(../images/search-icon.png) no-repeat;
+  background-position: 90px;
+  height: 55px;
+  border: 1px solid #b8b8b8;
+  border-top: none;
+  border-bottom: none;
+  text-indent: 10px;
+}
+.az-header_bottom .az-header-bbox .az-header-right {
+  line-height: 55px;
+  height: 55px;
 }
 
 .az_clinical_box {
   background-color: #eb1484;
   padding-top: 20px;
-  margin-top: 500px;
+  margin-top: 50px;
+  height: 260px;
 }
 .az_clinical_box p {
   width: 50%;
@@ -257,58 +297,46 @@ body {
   color: #b8b8b8;
 }
 
-.az-healthtips_head {
-  margin: auto;
-  text-align: center;
-  width: 50%;
-}
-.az-healthtips_head .az-healthtips_head__title2 {
-  font-size: 30px;
-  font-weight: bold;
-}
-.az-healthtips_head .az-healthtips_head__title1 {
-  color: #b8b8b8;
-}
-.az-healthtips_head .az-healthtips_head__body {
-  color: #b8b8b8;
-}
-
 .az-offer_box {
   float: left;
   margin: 20px;
   padding-bottom: 20px;
   border: 1px solid #b8b8b8;
   position: relative;
+  width: 100%;
+  height: 420px;
 }
-.az-offer_box .az-healthtips_head {
-  margin: auto;
-  text-align: center;
-  width: 50%;
-}
-.az-offer_box .az-healthtips_head .az-healthtips_head__title2 {
-  font-size: 30px;
-  font-weight: bold;
-}
-.az-offer_box .az-healthtips_head .az-healthtips_head__title1 {
-  color: #b8b8b8;
-}
-.az-offer_box .az-healthtips_head .az-healthtips_head__body {
-  color: #b8b8b8;
+.az-offer_box .az-offer_img img {
+  width: 100%;
+  height: 230px;
 }
 .az-offer_box .az-offer_body {
-  margin: 0px 20px 0px 20px;
+  padding: 0px 20px 0px 20px;
 }
 .az-offer_box .az-offer_body .az-offer_body_title {
   font-weight: bold;
-  height: 40px;
+  word-break: break-all;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
 }
-.az-offer_box .az-offer_body .az-offer_sub_title {
+.az-offer_box .az-offer_body .az-offer_body_desc {
   color: #b8b8b8;
+  word-break: break-all;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
 }
 .az-offer_box .az-offer_click_bottom {
   float: right;
   text-align: center;
-  margin-top: 10px;
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
 }
 .az-offer_box .az-offer_click_bottom a {
   color: white;
@@ -778,7 +806,50 @@ body {
 }
 
 .health-tips-orange {
+  height: 600px;
   background-color: #ffb425;
+}
+.health-tips-orange .az-healthtips_heads {
+  color: white;
+  text-align: center;
+  height: 200px;
+}
+.health-tips-orange .az-healthtips_heads .az-healthtips_head__title1 {
+  font-weight: 100;
+}
+.health-tips-orange .az-healthtips_heads .az-healthtips_head__title2 {
+  font-size: 24px;
+}
+.health-tips-orange .az-healthtips_heads .az-healthtips_head__body {
+  width: 50%;
+  margin: 0 auto;
+  font-weight: 100;
+}
+.health-tips-orange .az-offertips_box {
+  background-color: white;
+  border-radius: 10px;
+  width: 45%;
+  margin: 50px;
+  height: 200px;
+}
+.health-tips-orange .az-offertips_box .az-offer_img {
+  background: transparent url(../images/cardiac.png) no-repeat;
+  width: 20%;
+  height: 100%;
+  float: left;
+  background-size: 100%;
+  background-position: center;
+}
+.health-tips-orange .az-offertips_box .az-offer_body {
+  width: 80%;
+  padding: 30px 0px 0px 10px;
+}
+.health-tips-orange .az-offertips_box .az-offer_body .az-offer_body_title {
+  font-size: 24px;
+  font-weight: bold;
+}
+.health-tips-orange .az-offertips_box .az-offer_body .az-offer_sub_title {
+  color: #b8b8b8;
 }
 
 .webform-submission-contact-form .js-form-item-name {
@@ -901,19 +972,10 @@ body {
   height: 500px;
 }
 
-.az-header-bbox {
-  display: flex;
+#footer {
+  background: #F4F4F4;
+  margin-top: 100px;
 }
-.az-header-bbox .menu-bar {
-  right: 30px;
-}
-.az-header-bbox .az-header-right {
-  line-height: 40px;
-}
-.az-header-bbox .az-header-right .block {
-  margin-bottom: 0px;
-}
-
 #footer .footer-center {
   background: unset;
 }
@@ -936,21 +998,21 @@ body {
 #footer .footer-center #block-webform .block-content form > div:nth-child(1) {
   width: 35%;
 }
-#footer .footer-center #block-webform .block-content form > div:nth-child(1) #edit-email {
+#footer .footer-center #block-webform .block-content form > div:nth-child(1) input {
   width: 100%;
   height: 40px;
 }
 #footer .footer-center #block-webform .block-content form > div:nth-child(2) {
   width: 35%;
 }
-#footer .footer-center #block-webform .block-content form > div:nth-child(2) #edit-ta-type {
+#footer .footer-center #block-webform .block-content form > div:nth-child(2) input {
   width: 100%;
   height: 40px;
 }
 #footer .footer-center #block-webform .block-content form > div:nth-child(3) {
   width: 25%;
 }
-#footer .footer-center #block-webform .block-content form > div:nth-child(3) #edit-actions-submit {
+#footer .footer-center #block-webform .block-content form > div:nth-child(3) input {
   height: 40px;
   width: 100%;
   background: #EB1384;
@@ -971,21 +1033,25 @@ footer#footer::after {
 .az-offers_product_box {
   position: relative;
   left: -30%;
-  top: -200px;
+  top: -150px;
+  border: 1px solid gray;
+  padding: 0px;
 }
 .az-offers_product_box .az-offers_bgimg {
   position: relative;
   margin: 0 auto;
-  top: 50px;
+}
+.az-offers_product_box .az-offers_bgimg img {
+  width: 100%;
 }
 .az-offers_product_box .az-offers_logoimg {
   position: relative;
-  top: 35%;
-  width: 40%;
-  margin-top: 0;
-  margin-bottom: 20px;
-  margin-left: 20px;
-  margin-right: auto;
+  bottom: 30px;
+  bottom: 30px;
+  left: 20px;
+}
+.az-offers_product_box .az-offers_logodes {
+  padding-left: 10px;
 }
 
 .az-offer-article .az-offerdetail {
@@ -1120,6 +1186,13 @@ footer#footer::after {
   margin-left: 42%;
   margin-right: auto;
 }
+.node--type-az-clinical-experience-process .field--name-field-refers .field__label {
+  font-size: 20px;
+  font-weight: bold;
+}
+.node--type-az-clinical-experience-process .field--name-field-refers .field__item {
+  color: gray;
+}
 
 .field--name-field-az-clinical-mid-params {
   width: 50%;
@@ -1198,26 +1271,26 @@ footer#footer::after {
 }
 .az-clinical-subjest-email .az-clinical-subjest-body > div {
   /*   &:nth-child(3) {
-        span{
-            margin-right: 20px;
-        }
-        input{
-            border:1px solid $color-gray;
-            width: 200px;
-            height: 40px;
-            margin-left: 20px;
-        }
-    }
-    &:nth-child(4) {
-        border:1px solid $color-gray;
-        width: 200px;
-        line-height: 40px;
-        margin-left: 105px;
-        margin-bottom: 30px;
-        input{
-            margin-left: 20px;
-        }
-    } */
+          span{
+              margin-right: 20px;
+          }
+          input{
+              border:1px solid $color-gray;
+              width: 200px;
+              height: 40px;
+              margin-left: 20px;
+          }
+      }
+      &:nth-child(4) {
+          border:1px solid $color-gray;
+          width: 200px;
+          line-height: 40px;
+          margin-left: 105px;
+          margin-bottom: 30px;
+          input{
+              margin-left: 20px;
+          }
+      } */
 }
 .az-clinical-subjest-email .az-clinical-subjest-body > div:nth-child(2) span {
   margin-right: 60px;
@@ -1278,27 +1351,27 @@ footer#footer::after {
   border: 1px solid #b8b8b8;
 }
 
-.block-astrazeneca-content footer header .az-product_head {
+.az-product-position .az-product_headtwo {
   height: 300px;
   background-color: #eb1484;
-}
-.block-astrazeneca-content footer .views-infinite-scroll-content-wrapper {
-  position: relative;
-  bottom: 100px;
-}
-
-.node--type-page div.field--name-body {
   text-align: center;
+  color: white;
 }
-.node--type-page div.field--name-body h3 {
-  font-size: 20px;
-  color: #b8b8b8;
+.az-product-position .az-product_headtwo .az-product_head__title1 {
+  font-weight: 100;
+  padding-top: 50px;
 }
-.node--type-page div.field--name-body p {
-  color: #b8b8b8;
+.az-product-position .az-product_headtwo .az-product_head__title2 {
+  font-size: 24px;
+}
+.az-product-position .az-product_headtwo .az-product_head__body {
+  width: 50%;
+  margin: 0 auto;
+  font-weight: 100;
 }
 
-.node--type-health-information #block-astrazeneca-page-title .page-title::after, .node--type-medical-article #block-astrazeneca-page-title .page-title::after {
+.node--type-health-information #block-astrazeneca-page-title .page-title::after,
+.node--type-medical-article #block-astrazeneca-page-title .page-title::after {
   content: "";
   width: 68px;
   height: 7px;
@@ -1306,17 +1379,21 @@ footer#footer::after {
   background: #EB1384;
   border-radius: 5px;
 }
-.node--type-health-information .az-hr, .node--type-medical-article .az-hr {
+.node--type-health-information .az-hr,
+.node--type-medical-article .az-hr {
   border: 1px solid #979797;
 }
-.node--type-health-information .az-share-and-author, .node--type-medical-article .az-share-and-author {
+.node--type-health-information .az-share-and-author,
+.node--type-medical-article .az-share-and-author {
   margin-left: 0;
   margin-right: 0;
 }
-.node--type-health-information .az-share-and-author .shares, .node--type-medical-article .az-share-and-author .shares {
+.node--type-health-information .az-share-and-author .shares,
+.node--type-medical-article .az-share-and-author .shares {
   float: left;
 }
-.node--type-health-information .az-share-and-author .author-by, .node--type-medical-article .az-share-and-author .author-by {
+.node--type-health-information .az-share-and-author .author-by,
+.node--type-medical-article .az-share-and-author .author-by {
   float: right;
 }
 
@@ -1337,4 +1414,14 @@ footer#footer::after {
 
 .az-error {
   border: solid 1px red !important;
+}
+
+.path-az-health-club .views-infinite-scroll-content-wrapper {
+  margin: 0 auto;
+  margin: 0px 100px 0px 100px;
+}
+
+footer .az-product-position .views-infinite-scroll-content-wrapper {
+  position: relative;
+  bottom: 100px;
 }

@@ -1,7 +1,7 @@
 {
     "_links": {
         "self": {
-            "href": "http:\/\/default\/node\/66?_format=hal_json"
+            "href": "http:\/\/default\/node\/54?_format=hal_json"
         },
         "type": {
             "href": "http:\/\/default\/rest\/type\/node\/az_product_information"
@@ -133,7 +133,7 @@
     ],
     "title": [
         {
-            "value": "\u85e5\u7269\u540d\u7a312",
+            "value": "\u85e5\u7269\u540d\u7a31",
             "lang": "en"
         }
     ],
@@ -146,7 +146,7 @@
     ],
     "changed": [
         {
-            "value": "2020-11-10T07:44:33+00:00",
+            "value": "2020-11-11T04:58:42+00:00",
             "lang": "en",
             "format": "Y-m-d\\TH:i:sP"
         }
@@ -185,9 +185,9 @@
     ],
     "body": [
         {
-            "value": "<p>Lorem ipsum dolor\u5750\u5728amet\uff0c\u79c1\u7acb\u6559\u80b2\u7cbe\u82f12<\/p>\r\n",
+            "value": "<p>Lorem ipsum dolor\u5750\u5728amet\uff0c\u79c1\u7acb\u6559\u80b2\u7cbe\u82f1<\/p>\r\n",
             "format": "basic_html",
-            "processed": "<p>Lorem ipsum dolor\u5750\u5728amet\uff0c\u79c1\u7acb\u6559\u80b2\u7cbe\u82f12<\/p>",
+            "processed": "<p>Lorem ipsum dolor\u5750\u5728amet\uff0c\u79c1\u7acb\u6559\u80b2\u7cbe\u82f1<\/p>",
             "summary": "",
             "lang": "en"
         }

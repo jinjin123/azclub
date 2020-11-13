@@ -10,6 +10,7 @@ dependencies:
     - image.style.az220180
     - node.type.az_clinical_experience_process
     - taxonomy.vocabulary.ta_type
+    - views.view.ta_article_list
   content:
     - 'block_content:basic:250c78c1-5e57-44f5-aa86-6a4bc41299f8'
     - 'block_content:basic:dadc046f-b578-4b02-873b-4f22e94ee17d'
@@ -876,7 +877,7 @@ display:
           group_type: group
           admin_label: ''
           empty: false
-          view_to_insert: 'az_clinical_trial_search_result:clinical_article'
+          view_to_insert: 'ta_article_list:block_1'
           inherit_arguments: false
           plugin_id: view
         entity_block_content_1:
