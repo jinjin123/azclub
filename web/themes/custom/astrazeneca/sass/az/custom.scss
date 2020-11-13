@@ -4,13 +4,15 @@ body {
   //background-color:  $head-cus!important;
   overflow: hidden;
 }
+
 //参考
-.az-gb-refer{
-  .az-gbrefer-title{
+.az-gb-refer {
+  .az-gbrefer-title {
     font-size: 20px;
-  font-weight: bold;
-  padding-top: 60px;
+    font-weight: bold;
+    padding-top: 60px;
   }
+
   p {
     color: $color-gray;
   }
@@ -486,12 +488,14 @@ a.button {
 }
 
 .az-clinical-result {
-  .az-product_head{
+  .az-product_head {
     height: 400px;
-    .az-pipline-redbox{
+
+    .az-pipline-redbox {
       margin-top: 50px;
     }
   }
+
   article {
     .node__content {
       margin-bottom: 50px;
@@ -772,7 +776,8 @@ a.button {
     .az-product_duplicate_img {
       float: left;
       width: 40%;
-      img{
+
+      img {
         height: 100%;
       }
     }
@@ -783,6 +788,7 @@ a.button {
       margin-left: -30px;
       margin-top: 30px;
     }
+
     .az-product_content_close {
       position: absolute;
       right: -15px;
@@ -796,11 +802,13 @@ a.button {
       border-radius: 42px;
       transform: rotate(45deg);
     }
+
     .az-product_duplicate_body {
       float: left;
       width: 40%;
       padding-top: 30px;
       padding-left: 20px;
+
       .az_duplicate_across {
         width: 50px;
         height: 5px;
@@ -1060,6 +1068,7 @@ a.button {
     text-align: center;
     height: 200px;
     padding-top: 50px;
+
     .az-healthtips_head__title1 {
       font-weight: 100;
     }
@@ -1091,6 +1100,7 @@ a.button {
 
     .az-offer_body {
       padding: 30px 21px 0px 0px;
+
       .az-offer_body_title {
         font-size: 24px;
         font-weight: bold;
@@ -1710,6 +1720,7 @@ footer#footer::after {
     .az-clinical-subjest_btn {
       text-align: center;
     }
+
     .az-clinical-ckb-box {
       background-color: #E0DEDEDE;
       border: 1px solid #979797;
@@ -1717,9 +1728,11 @@ footer#footer::after {
       height: 40px;
       margin-left: 30%;
       position: relative;
+
       .az-clinical-inline-box {
         padding: 5px 10px;
-        input[type=checkbox]{
+
+        input[type=checkbox] {
           cursor: pointer;
           position: relative;
           width: 15px;
@@ -1727,7 +1740,7 @@ footer#footer::after {
           font-size: 14px;
         }
 
-        input[type=checkbox]::after{
+        input[type=checkbox]::after {
           position: absolute;
           top: 0;
           background-color: #E0DEDEDE;
@@ -1740,11 +1753,12 @@ footer#footer::after {
           content: ' ';
         }
 
-        input[type=checkbox]:checked::after{
+        input[type=checkbox]:checked::after {
           content: "✓";
           font-size: 12px;
           font-weight: bold;
         }
+
         span {
           padding: 0 10px;
           color: $color-gray;
@@ -1939,7 +1953,8 @@ footer {
 
   }
 }
-.az-clinical-trial-aritcle{
+
+.az-clinical-trial-aritcle {
   position: relative;
   bottom: 80px;
 }

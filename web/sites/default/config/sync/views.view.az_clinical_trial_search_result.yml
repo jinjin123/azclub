@@ -580,6 +580,7 @@ display:
         filter_groups: false
         fields: false
         use_ajax: false
+        css_class: false
       relationships: {  }
       filters:
         status:
@@ -997,6 +998,7 @@ display:
           field_api_classes: false
           plugin_id: field
       use_ajax: true
+      css_class: az-clinical-trial-aritcle
     cache_metadata:
       max-age: -1
       contexts:
