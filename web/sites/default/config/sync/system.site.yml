@@ -1,11 +1,11 @@
 uuid: 9a6aa260-bdbe-46b0-ad1b-58e1d4f6c4f5
 name: azhealthclub
-mail: carlxjs@qq.com
+mail: peijin.wu@bootdev.com
 slogan: ''
 page:
   403: ''
   404: ''
-  front: /home
+  front: /node/7
 admin_compact_mode: false
 weight_select_max: 100
 langcode: en
