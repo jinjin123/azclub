@@ -4,7 +4,8 @@ body {
 
 .az-gb-refer .az-gbrefer-title {
   font-size: 20px;
-  font-weight: bold; }
+  font-weight: bold;
+  padding-top: 60px; }
 
 .az-gb-refer p {
   color: #979797; }
@@ -197,7 +198,7 @@ a.button {
     width: 40%;
     float: left;
     margin-top: 50px;
-    margin-left: 80px; }
+    margin-left: 18%; }
     .az_clinical_bottom_box .az__bottom_right_box .az__bottom_right_box_title {
       font-weight: bold;
       font-size: 20px;
@@ -206,14 +207,14 @@ a.button {
       font-weight: lighter; }
   .az_clinical_bottom_box .az__bottom_left_box {
     float: right;
-    width: 180px;
+    width: 16%;
     height: 60px;
     border-radius: 10px;
     text-align: center;
     line-height: 60px;
     background-color: #fcaf17;
     margin-top: 80px;
-    margin-right: 160px; }
+    margin-right: 18%; }
 
 .az-ref-box .az-ref__title {
   font-size: 20px;
@@ -315,6 +316,11 @@ a.button {
 .az_loading {
   text-align: center;
   width: 100%; }
+
+.az-clinical-result .az-product_head {
+  height: 400px; }
+  .az-clinical-result .az-product_head .az-pipline-redbox {
+    margin-top: 50px; }
 
 .az-clinical-result article .node__content {
   margin-bottom: 50px; }
@@ -697,7 +703,8 @@ a.button {
   .health-tips-orange .az-healthtips_heads {
     color: white;
     text-align: center;
-    height: 200px; }
+    height: 200px;
+    padding-top: 50px; }
     .health-tips-orange .az-healthtips_heads .az-healthtips_head__title1 {
       font-weight: 100; }
     .health-tips-orange .az-healthtips_heads .az-healthtips_head__title2 {
@@ -709,19 +716,16 @@ a.button {
   .health-tips-orange .az-offertips_box {
     background-color: white;
     border-radius: 10px;
-    width: 45%;
-    margin: 50px;
-    height: 200px; }
+    height: 230px; }
     .health-tips-orange .az-offertips_box .az-offer_img {
       background: transparent url(../images/cardiac.png) no-repeat;
       width: 20%;
       height: 100%;
       float: left;
-      background-size: 100%;
+      margin-right: 30px;
       background-position: center; }
     .health-tips-orange .az-offertips_box .az-offer_body {
-      width: 80%;
-      padding: 30px 0px 0px 10px; }
+      padding: 30px 21px 0px 0px; }
       .health-tips-orange .az-offertips_box .az-offer_body .az-offer_body_title {
         font-size: 24px;
         font-weight: bold; }
@@ -1254,3 +1258,7 @@ footer .az-product-position .views-infinite-scroll-content-wrapper {
     width: 1200px; }
   .az-clinical-result-content .views-element-container .views-infinite-scroll-content-wrapper {
     width: 1200px; } }
+
+.az-clinical-trial-aritcle {
+  position: relative;
+  bottom: 80px; }
