@@ -4,12 +4,18 @@ namespace Drupal\azhealthclub_modify\Controller;
 
 use Drupal\Core\Controller\ControllerBase;
 use Drupal\profile\Entity\Profile;
+use Symfony\Component\HttpFoundation\RedirectResponse;
 use function Webmozart\Assert\Tests\StaticAnalysis\inArray;
 
 class MemberController extends ControllerBase {
 
   public function index() {
     $member = \Drupal::currentUser();
+    if ($member->isAnonymous()) {
+      // todo redirect to 403 page
+      $response = new RedirectResponse('/home');
+      $response->send();
+    }
     $variables['memberId'] = $member->id();
     return [
       '#theme' => 'azhealthclub_welcome',
@@ -20,6 +26,11 @@ class MemberController extends ControllerBase {
 
   public function dashboard() {
     $member = \Drupal::currentUser();
+    if ($member->isAnonymous()) {
+      // todo redirect to 403 page
+      $response = new RedirectResponse('/home');
+      $response->send();
+    }
     $roles = $member->getRoles();
     if(!in_array('member', $roles)) {
       // todo: not has member role

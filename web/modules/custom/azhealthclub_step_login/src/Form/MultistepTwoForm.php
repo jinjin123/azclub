@@ -136,7 +136,13 @@ class MultistepTwoForm extends MultistepFormBase {
     $this->store->set('attention2', $form_state->getValue('attention2'));
     $this->store->set('communication_mode', $form_state->getValue('communication_mode'));
 
-    $form_state->setRedirect('azhealthclub_step_login.multistep_three');
+    $currentUser = \Drupal::currentUser();
+    if ($currentUser->isAnonymous()) {
+      $form_state->setRedirect('azhealthclub_step_login.multistep_three');
+    }
+    else {
+      $form_state->setRedirect('azhealthclub_modify.profile3');
+    }
   }
 
   public function validateForm(array &$form, FormStateInterface $form_state) {

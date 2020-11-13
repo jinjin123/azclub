@@ -140,7 +140,14 @@ class MultistepThreeForm extends MultistepFormBase {
 
     // Save the data
     parent::saveData();
-    $form_state->setRedirect('azhealthclub_modify.welcome');
+
+    $currentUser = \Drupal::currentUser();
+    if ($currentUser->isAnonymous()) {
+      $form_state->setRedirect('azhealthclub_modify.welcome');
+    }
+    else {
+      $form_state->setRedirect('azhealthclub_modify.dashboard');
+    }
   }
 
   public function validateForm(array &$form, FormStateInterface $form_state) {

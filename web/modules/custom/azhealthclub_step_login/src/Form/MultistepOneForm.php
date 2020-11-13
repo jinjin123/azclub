@@ -159,7 +159,13 @@ class MultistepOneForm extends MultistepFormBase {
     //$this->store->set('verify_code', $form_state->getValue('verify_code'));
     $this->store->set('attention1', $form_state->getValue('attention1'));
 
-    $form_state->setRedirect('azhealthclub_step_login.multistep_two');
+    $currentUser = \Drupal::currentUser();
+    if ($currentUser->isAnonymous()) {
+      $form_state->setRedirect('azhealthclub_step_login.multistep_two');
+    }
+    else {
+      $form_state->setRedirect('azhealthclub_modify.profile2');
+    }
   }
 
   public function sendCodeAjax(array &$form, FormStateInterface $form_state) {
