@@ -72,6 +72,10 @@ display:
             automatically_load_content: false
       style:
         type: default
+        options:
+          grouping: {  }
+          row_class: 'col-sm-12 col-md-6 col-lg-6'
+          default_row_class: true
       row:
         type: fields
       fields:

@@ -20,6 +20,16 @@ Drupal.behaviors.PharmaTheme = {
     })
 
     $(".az-product_body_icons").on('click',function(e){
+      // console.log($(".ui-widget-header").children()[0].classList)
+      var qktitle = $(".ui-widget-header").children()
+
+      for(var qb=0;qb<qktitle.length;qb++){
+           if(qktitle[qb].classList.contains("ui-tabs-active")){
+              inline_icon = $(qktitle[qb]).children().children()[0].outerHTML;
+           }
+
+        // console.log(qktitle[qb].classList)
+      }
       var target = $(this);
       var title = target.parent().children()[0].textContent.replace(/^\s+|\s+$/g,"");
       var cont = target.parent().children()[1].textContent.replace(/^\s+|\s+$/g,"");
@@ -38,20 +48,21 @@ Drupal.behaviors.PharmaTheme = {
         var az_product_contparent= $(this).siblings(".az-product_body_desc");
         var az_product_cont=az_product_contparent.find("p").html(); */
         $(".az-product_selectbox_btnyes").click(function(){
-      $(".az-product_selectbox").css("display","none");
-      $(".az-product_duplicate").css("display","block");
-      $(".az-product_duplicate_img").html(imgUrl)
-     $(".az-product_duplicate_body").children()[0].textContent=title;
-     $(".az-product_duplicate_body").children()[2].textContent=cont;
-    })
+          $(".az-product_selectbox").css("display","none");
+          $(".az-product_duplicate").css("display","block");
+          $(".az-product_duplicate_img").html(imgUrl)
+          $(".az-product-icon").html(inline_icon)
+          $(".az-product_duplicate_body").children()[0].textContent=title;
+          $(".az-product_duplicate_body").children()[2].textContent=cont;
+        })
     //NO
-    $(".az-product_selectbox_btnno").click(function(){
-      $(".az-product_selectbox").css("display","none");
-    })
-    //close
-    $(".az-product_content_close").click(function(){
-      $(".az-product_duplicate").css("display","none");
-    })
+      $(".az-product_selectbox_btnno").click(function(){
+        $(".az-product_selectbox").css("display","none");
+      })
+      //close
+      $(".az-product_content_close").click(function(){
+        $(".az-product_duplicate").css("display","none");
+      })
     })
     var productinput =document.createElement("input");
     productinput.setAttribute("type","search");
@@ -69,9 +80,19 @@ Drupal.behaviors.PharmaTheme = {
     $(".az-clinical-bbx-email").on('click',function(e){
       $(".az-clinical-subjest-email").css("display","block");
         $(".az-clinical-subjest_btncancel").click(function(){
-      $(".az-clinical-subjest-email").css("display","none");
+          $(".az-clinical-subjest-email").css("display","none");
+      })
+      $(".az-clinical-subjest_btnemail").click(function (){
+         if($(".az-clinical-ckb")[0].checked){
+           console.log("aa")
+         }else {
+           $(".az-clinical-ckb-box").css("border","1px solid red")
+         }
+      })
     })
-    })
+    // $(".az-clinical-subjest_btnemail").click(function (){
+    //   $(".az-clinical-ckb")[0].checked
+    // })
 
     // product shop search
     var oldtmp=[]
@@ -157,12 +178,6 @@ Drupal.behaviors.PharmaTheme = {
       return rnd.split("").join(".");
     }
 
-    // $(".az-product_selectbox_conth4").text("免責聲明：");
-    // $(".az-product_selectbox_contp1").text("藥品咨詢只能適用於香港或澳門服用此藥物之人仕。");
-    // $(".az-product_selectbox_contp2").text("如同意繼續瀏覽，你已聲明你正服用此藥物，並且了解所提供的質詢只作參考用途。如對以上藥物有任何疑問，請向您的醫生或藥劑師查詢。");
-    // $(".az-product_selectbox_contp3").text("請確認您是否服用此藥物。");
-    // $(".az-product_selectbox_btnyes").html("是");
-    // $(".az-product_selectbox_btnno").html("否");
 
     // health tips bg
    // $(".az-healthtips_head").parent().parent().css("background-color","oranage");

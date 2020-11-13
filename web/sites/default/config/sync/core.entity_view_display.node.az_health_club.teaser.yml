@@ -6,6 +6,7 @@ dependencies:
     - core.entity_view_mode.node.teaser
     - field.field.node.az_health_club.body
     - field.field.node.az_health_club.field_az_club_img
+    - field.field.node.az_health_club.field_refers
     - node.type.az_health_club
   module:
     - text
@@ -29,5 +30,7 @@ content:
     third_party_settings: {  }
     region: content
 hidden:
+  addtoany: true
   field_az_club_img: true
+  field_refers: true
   search_api_excerpt: true

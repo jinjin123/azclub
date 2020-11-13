@@ -49,4 +49,4 @@ web/sites/development.services.yml
 web/sites/default/config/content/paragraph
 web/sites/default/config/content/taxonomy_term
 web/sites/default/config/content/user
-
+.vscode
