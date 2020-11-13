@@ -730,6 +730,18 @@ a.button {
   left: 235px;
 }
 
+.az-product_duplicate .az-product_duplicate_content .az-product-icon {
+  position: relative;
+  width: 5%;
+  margin: 0 auto;
+  left: -10%;
+  top: 20%;
+}
+
+.az-product_duplicate .az-product_duplicate_content .az-product-icon img {
+  width: 100%;
+}
+
 .az-product_duplicate .az-product_duplicate_content .az-product_content_close {
   position: absolute;
   right: -15px;
