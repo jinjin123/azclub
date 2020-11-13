@@ -121,7 +121,7 @@ function azhealthclub_modify_form_alter(&$form, \Drupal\Core\Form\FormStateInter
   }
 
 }
-//webform auto send 
+//webform auto send
 //function azhealthclub_modify_webform_handler_invoke_post_save_alter(\Drupal\webform\Plugin\WebformHandlerInterface $handler, array &$args) {
 //  $webform = $handler->getWebform();
 //  $webform_id = $webform->id();
