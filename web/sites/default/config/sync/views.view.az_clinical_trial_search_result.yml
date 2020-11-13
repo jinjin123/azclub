@@ -4,13 +4,15 @@ status: true
 dependencies:
   config:
     - field.storage.node.body
+    - field.storage.node.field_ta_campaign_img
+    - field.storage.node.field_ta_campaign_logo
     - field.storage.paragraph.field_az_clinical_page_image
     - field.storage.paragraph.field_az_conditions_term
     - field.storage.paragraph.field_field_az_clinical_param_lo
     - image.style.az220180
     - node.type.az_clinical_experience_process
+    - node.type.ta_campaign
     - taxonomy.vocabulary.ta_type
-    - views.view.ta_article_list
   content:
     - 'block_content:basic:250c78c1-5e57-44f5-aa86-6a4bc41299f8'
     - 'block_content:basic:dadc046f-b578-4b02-873b-4f22e94ee17d'
@@ -106,7 +108,7 @@ display:
         type: default
         options:
           grouping: {  }
-          row_class: 'col-sm-12 col-md-4 col-lg-12 portfolio-item filter-Packaging filter-Print portfolio'
+          row_class: 'col-sm-12 col-md-6 col-lg-4'
           default_row_class: true
       row:
         type: fields
@@ -597,14 +599,90 @@ display:
           id: type
           table: node_field_data
           field: type
+          relationship: none
+          group_type: group
+          admin_label: ''
+          operator: in
           value:
-            az_clinical_experience_process: az_clinical_experience_process
+            ta_campaign: ta_campaign
+          group: 1
+          exposed: false
+          expose:
+            operator_id: ''
+            label: ''
+            description: ''
+            use_operator: false
+            operator: ''
+            operator_limit_selection: false
+            operator_list: {  }
+            identifier: ''
+            required: false
+            remember: false
+            multiple: false
+            remember_roles:
+              authenticated: authenticated
+            reduce: false
+          is_grouped: false
+          group_info:
+            label: ''
+            description: ''
+            identifier: ''
+            optional: true
+            widget: select
+            multiple: false
+            remember: false
+            default_group: All
+            default_group_multiple: {  }
+            group_items: {  }
           entity_type: node
           entity_field: type
           plugin_id: bundle
+        field_ta_campaign_parent_type_target_id:
+          id: field_ta_campaign_parent_type_target_id
+          table: node__field_ta_campaign_parent_type
+          field: field_ta_campaign_parent_type_target_id
+          relationship: none
+          group_type: group
+          admin_label: ''
+          operator: or
+          value:
+            1: 1
+          group: 1
+          exposed: false
           expose:
+            operator_id: ''
+            label: ''
+            description: ''
+            use_operator: false
+            operator: ''
             operator_limit_selection: false
             operator_list: {  }
+            identifier: ''
+            required: false
+            remember: false
+            multiple: false
+            remember_roles:
+              authenticated: authenticated
+            reduce: false
+          is_grouped: false
+          group_info:
+            label: ''
+            description: ''
+            identifier: ''
+            optional: true
+            widget: select
+            multiple: false
+            remember: false
+            default_group: All
+            default_group_multiple: {  }
+            group_items: {  }
+          reduce_duplicates: false
+          type: select
+          limit: true
+          vid: ta_type
+          hierarchy: false
+          error_message: true
+          plugin_id: taxonomy_index_tid
       filter_groups:
         operator: AND
         groups:
@@ -728,6 +806,134 @@ display:
           absolute: false
           entity_type: node
           plugin_id: entity_link
+        field_ta_campaign_img:
+          id: field_ta_campaign_img
+          table: node__field_ta_campaign_img
+          field: field_ta_campaign_img
+          relationship: none
+          group_type: group
+          admin_label: ''
+          label: ''
+          exclude: true
+          alter:
+            alter_text: false
+            text: ''
+            make_link: false
+            path: ''
+            absolute: false
+            external: false
+            replace_spaces: false
+            path_case: none
+            trim_whitespace: false
+            alt: ''
+            rel: ''
+            link_class: ''
+            prefix: ''
+            suffix: ''
+            target: ''
+            nl2br: false
+            max_length: 0
+            word_boundary: true
+            ellipsis: true
+            more_link: false
+            more_link_text: ''
+            more_link_path: ''
+            strip_tags: false
+            trim: false
+            preserve_tags: ''
+            html: false
+          element_type: ''
+          element_class: ''
+          element_label_type: ''
+          element_label_class: ''
+          element_label_colon: false
+          element_wrapper_type: ''
+          element_wrapper_class: ''
+          element_default_classes: true
+          empty: ''
+          hide_empty: false
+          empty_zero: false
+          hide_alter_empty: true
+          click_sort_column: target_id
+          type: image
+          settings:
+            image_style: ''
+            image_link: ''
+          group_column: ''
+          group_columns: {  }
+          group_rows: true
+          delta_limit: 0
+          delta_offset: 0
+          delta_reversed: false
+          delta_first_last: false
+          multi_type: separator
+          separator: ', '
+          field_api_classes: false
+          plugin_id: field
+        field_ta_campaign_logo:
+          id: field_ta_campaign_logo
+          table: node__field_ta_campaign_logo
+          field: field_ta_campaign_logo
+          relationship: none
+          group_type: group
+          admin_label: ''
+          label: ''
+          exclude: true
+          alter:
+            alter_text: false
+            text: ''
+            make_link: false
+            path: ''
+            absolute: false
+            external: false
+            replace_spaces: false
+            path_case: none
+            trim_whitespace: false
+            alt: ''
+            rel: ''
+            link_class: ''
+            prefix: ''
+            suffix: ''
+            target: ''
+            nl2br: false
+            max_length: 0
+            word_boundary: true
+            ellipsis: true
+            more_link: false
+            more_link_text: ''
+            more_link_path: ''
+            strip_tags: false
+            trim: false
+            preserve_tags: ''
+            html: false
+          element_type: ''
+          element_class: ''
+          element_label_type: ''
+          element_label_class: ''
+          element_label_colon: false
+          element_wrapper_type: ''
+          element_wrapper_class: ''
+          element_default_classes: true
+          empty: ''
+          hide_empty: false
+          empty_zero: false
+          hide_alter_empty: true
+          click_sort_column: target_id
+          type: image
+          settings:
+            image_style: ''
+            image_link: ''
+          group_column: ''
+          group_columns: {  }
+          group_rows: true
+          delta_limit: 0
+          delta_offset: 0
+          delta_reversed: false
+          delta_first_last: false
+          multi_type: separator
+          separator: ', '
+          field_api_classes: false
+          plugin_id: field
         body:
           id: body
           table: node__body
@@ -739,7 +945,7 @@ display:
           exclude: false
           alter:
             alter_text: true
-            text: "<div class=\"az-clinical_box\">\r\n  <div class=\"az-clinical_img col-md-4\">\r\n        {{field_az_clinical_article_page}}\r\n  </div>\r\n  <div class=\"az-clinical_body col-md-4\">\r\n     <div class=\"az-clinical_body_title\">\r\n       {{ title }}\r\n    </div>\r\n    <div class=\"az-clinical_body_desc\">\r\n      {{ body__summary}}\r\n    </div>\r\n  </div>\r\n   <div class=\"az-oclinical_time_bottom col-md-2\">\r\n     <span><a href=\"{{ view_node }}\">了解更多</a></span>\r\n  </div>\r\n</div>"
+            text: "<div class=\"az-cardthree_box\">\r\n  <div class=\"az-cardthree_img\"> {{ field_ta_campaign_img }} </div>\r\n  <div class=\"az-cardthree_body\">\r\n<div class=\"az-cardthree_logoimg\"> {{ field_ta_campaign_logo }} </div>\r\n     <h4 class=\"az-cardthree_body_title\"><a href=\"{{ field_link }}\">{{ title }}</a></h4>\r\n    <div class=\"az-cardthree_sub_title\">{{body}}</div>\r\n<div class=\"az-cardthree_click_bottom\"><a href=\"{{ view_node }}\">了解更多</a></div>\r\n  </div>\r\n</div>"
             make_link: false
             path: ''
             absolute: false
@@ -797,10 +1003,13 @@ display:
         - 'languages:language_content'
         - 'languages:language_interface'
         - url.query_args
+        - user
         - 'user.node_grants:view'
         - user.permissions
       tags:
         - 'config:field.storage.node.body'
+        - 'config:field.storage.node.field_ta_campaign_img'
+        - 'config:field.storage.node.field_ta_campaign_logo'
   clinical_search_default:
     display_plugin: page
     id: clinical_search_default
@@ -877,7 +1086,7 @@ display:
           group_type: group
           admin_label: ''
           empty: false
-          view_to_insert: 'ta_article_list:block_1'
+          view_to_insert: 'az_clinical_trial_search_result:clinical_article'
           inherit_arguments: false
           plugin_id: view
         entity_block_content_1:

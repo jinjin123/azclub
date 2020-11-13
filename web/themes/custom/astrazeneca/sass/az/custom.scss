@@ -379,6 +379,9 @@ body {
   .az-product_head__body {
     color: $color-gray;
   }
+  .az-pipline-redbox {
+    display: flex;
+  }
 }
 
 
@@ -1734,6 +1737,7 @@ footer#footer::after {
       margin: 0 auto;
       font-weight: 100;
     }
+
   }
 }
 
