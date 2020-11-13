@@ -744,6 +744,16 @@ body {
         left: 235px;
       }
     }
+    .az-product-icon {
+      position: relative;
+      width: 5%;
+      margin: 0 auto;
+      left: -10%;
+      top: 20%;
+      img {
+         width:100%;
+      }
+    }
 
     .az-product_content_close {
       position: absolute;

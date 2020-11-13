@@ -20,6 +20,16 @@ Drupal.behaviors.PharmaTheme = {
     })
 
     $(".az-product_body_icons").on('click',function(e){
+      // console.log($(".ui-widget-header").children()[0].classList)
+      var qktitle = $(".ui-widget-header").children()
+
+      for(var qb=0;qb<qktitle.length;qb++){
+           if(qktitle[qb].classList.contains("ui-tabs-active")){
+              inline_icon = $(qktitle[qb]).children().children()[0].outerHTML;
+           }
+
+        // console.log(qktitle[qb].classList)
+      }
       var target = $(this);
       var title = target.parent().children()[0].textContent.replace(/^\s+|\s+$/g,"");
       var cont = target.parent().children()[1].textContent.replace(/^\s+|\s+$/g,"");
@@ -38,20 +48,21 @@ Drupal.behaviors.PharmaTheme = {
         var az_product_contparent= $(this).siblings(".az-product_body_desc");
         var az_product_cont=az_product_contparent.find("p").html(); */
         $(".az-product_selectbox_btnyes").click(function(){
-      $(".az-product_selectbox").css("display","none");
-      $(".az-product_duplicate").css("display","block");
-      $(".az-product_duplicate_img").html(imgUrl)
-     $(".az-product_duplicate_body").children()[0].textContent=title;
-     $(".az-product_duplicate_body").children()[2].textContent=cont;
-    })
+          $(".az-product_selectbox").css("display","none");
+          $(".az-product_duplicate").css("display","block");
+          $(".az-product_duplicate_img").html(imgUrl)
+          $(".az-product-icon").html(inline_icon)
+          $(".az-product_duplicate_body").children()[0].textContent=title;
+          $(".az-product_duplicate_body").children()[2].textContent=cont;
+        })
     //NO
-    $(".az-product_selectbox_btnno").click(function(){
-      $(".az-product_selectbox").css("display","none");
-    })
-    //close
-    $(".az-product_content_close").click(function(){
-      $(".az-product_duplicate").css("display","none");
-    })
+      $(".az-product_selectbox_btnno").click(function(){
+        $(".az-product_selectbox").css("display","none");
+      })
+      //close
+      $(".az-product_content_close").click(function(){
+        $(".az-product_duplicate").css("display","none");
+      })
     })
     var productinput =document.createElement("input");
     productinput.setAttribute("type","search");
