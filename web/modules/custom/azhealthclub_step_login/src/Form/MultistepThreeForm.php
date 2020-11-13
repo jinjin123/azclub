@@ -142,4 +142,14 @@ class MultistepThreeForm extends MultistepFormBase {
     parent::saveData();
     $form_state->setRedirect('azhealthclub_modify.welcome');
   }
+
+  public function validateForm(array &$form, FormStateInterface $form_state) {
+    parent::validateForm($form, $form_state);
+    $values = $form_state->getValues();
+
+    if ($values['no_medicine_using']) {
+      $form_state->setValue('medicine_using', NULL);
+    }
+  }
+
 }
