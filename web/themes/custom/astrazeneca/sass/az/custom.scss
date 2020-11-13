@@ -1793,6 +1793,13 @@ footer#footer::after {
 .az-error {
   border: solid 1px red !important;
 }
+html input[disabled] {
+  background-color: grey;
+}
+
+#az-phone-email,#az-pass-confirm-pass {
+  overflow: hidden;
+}
 
 .path-az-health-club {
   .views-infinite-scroll-content-wrapper {
