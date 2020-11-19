@@ -1237,12 +1237,10 @@ footer#footer::after {
   border: solid 1px red !important; }
 
 html input[disabled] {
-  background-color: grey;
-}
+  background-color: grey; }
 
 #az-phone-email, #az-pass-confirm-pass, .az-form-element-container {
-  overflow: hidden;
-}
+  overflow: hidden; }
 
 .path-az-health-club .views-infinite-scroll-content-wrapper {
   margin: 0 auto; }
