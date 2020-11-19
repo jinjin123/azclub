@@ -21,20 +21,16 @@
 #}
 {%
   set classes = [
-    'field',
-    'field--name-' ~ field_name|clean_class,
-    'field--type-' ~ field_type|clean_class,
-    'field--label-' ~ label_display,
-    'az-healthtips-title'
-  ]
+  'field',
+  'az-gb-refer',
+  'field--name-' ~ field_name|clean_class,
+  'field--type-' ~ field_type|clean_class,
+  'field--label-' ~ label_display,
+]
 %}
-<div class="az-offerdetail-article-header col-lg-6">
-{#  <div class="az-article-righticon"></div>#}
-  <span{{ attributes.addClass(classes) }}>
-    {%- for item in items -%}
-      <div>{{ item.content|e|replace({' ': '<br />'})|raw }}</div>
-    {%- endfor -%}
-  </span>
-  <div class="az_duplicate_across"></div>
-</div>
-
+<span{{ attributes.addClass(classes) }}>
+  <div class="az-gbrefer-title"> 參考:</div>
+  {%- for item in items -%}
+    {{ item.content }}
+  {%- endfor -%}
+</span>

@@ -5,6 +5,7 @@ dependencies:
   config:
     - field.field.node.az_health_club.body
     - field.field.node.az_health_club.field_az_club_img
+    - field.field.node.az_health_club.field_refers
     - node.type.az_health_club
   module:
     - image
@@ -31,10 +32,18 @@ content:
     third_party_settings: {  }
     type: image
     region: content
+  field_refers:
+    weight: 103
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
   links:
     weight: 100
     region: content
     settings: {  }
     third_party_settings: {  }
 hidden:
+  addtoany: true
   search_api_excerpt: true

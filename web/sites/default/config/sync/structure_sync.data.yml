@@ -273,9 +273,9 @@ blocks:
     fields:
       body:
         -
-          value: "<img src=\"/themes/custom/astrazeneca/logo.png\">\r\n\r\n<p><strong>免責聲明</strong><br />\r\n此網站為香港市民提供疾病資訊。<br />\r\n本網站內所提供之資料謹供學術或參考用途，並不能取代醫生及其他醫護專業人員的意見。雖然我們已盡力確保網站的資料準確，但不會保證該等資料的準確性，亦不會對任何資料上的錯誤或遺漏承擔法律責任。如有任何疑問或有關資訊，請向你的醫生查詢。</p>\r\n"
+          value: "<div class=\"az-ft-fk\">\r\n<div class=\"az-ft-img\"><img src=\"/themes/custom/astrazeneca/logo.png\" /></div>\r\n\r\n<div class=\"az-ft-rg-bd\">\r\n<p><strong>免責聲明</strong><br />\r\n此網站為香港市民提供疾病資訊。<br />\r\n本網站內所提供之資料謹供學術或參考用途，並不能取代醫生及其他醫護專業人員的意見。雖然我們已盡力確保網站的資料準確，但不會保證該等資料的準確性，亦不會對任何資料上的錯誤或遺漏承擔法律責任。如有任何疑問或有關資訊，請向你的醫生查詢。</p>\r\n</div>\r\n</div>\r\n"
           summary: ''
-          format: basic_html
+          format: full_html
   -
     info: 'Clinical middle block 臨床實驗相關文章'
     langcode: en
@@ -338,7 +338,7 @@ blocks:
     fields:
       body:
         -
-          value: "<p>參加臨床飾演？</p>\r\n\r\n<p>他們痛苦不堪。什麼東西。但是因為我要追問，我們的軍兵是誰，除了使他們中的任何一個人可以佔便宜外，他們是誰？</p>\r\n\r\n<p><span>找到你的臨床試驗</span></p>\r\n"
+          value: "<div class=\"az_clinical_bottom_box\">\r\n   <div class=\"az__bottom_right_box\">\r\n       <div class=\"az__bottom_right_box_title\">參加臨床飾演？</div>\r\n       <div class=\"az__bottom_right_box_body\">他們痛苦不堪。什麼東西。但是因為我要追問，我們的軍兵是誰，除了使他們中的任何一個人可以佔便宜外，他們是誰？</div>\r\n   </div>\r\n   <div class=\"az__bottom_left_box\">找到你的臨床試驗</div>\r\n</div>"
           summary: ''
           format: full_html
   -
@@ -365,6 +365,32 @@ blocks:
       body:
         -
           value: "\t<div class=\"az_contact_rg_box\">\r\n\t\t<div class=\"az_head\">\r\n\t\t\t<h5>Contact Us</h5>\r\n\r\n\t\t\t<h1>聯絡我們</h1>\r\n\t\t</div>\r\n\r\n\t\t<div class=\"az_body\">\r\n\t\t<h5>康心摯友熱線</h5>\r\n\r\n\t\t<p><span class=\"p\">(852) 2941 5388</span></p>\r\n\r\n\t\t<p><span class=\"p\">星期一至五，上午9：00至下午5：00</span></p>\r\n\r\n\t\t<p><span class=\"p\">如有任何問題，請向您的醫生或藥劑師查詢</span></p>\r\n\t\t</div>\r\n\t</div>"
+          summary: ''
+          format: full_html
+  -
+    info: 'Clinical top block'
+    langcode: en
+    uuid: 970919fa-b9d4-4774-a634-c92dc0cb20b9
+    bundle: basic
+    revision_id: null
+    rev_id_current: null
+    fields:
+      body:
+        -
+          value: "<div class=\"az-product_head\">\r\n<div class=\"az-product_head__title1\"><span>臨床實驗</span></div>\r\n\r\n<div class=\"az-product_head__title2\"><span>What sre Clinical Trials</span></div>\r\n\r\n<div class=\"az-pipline-redbox\">\r\n<div><a href=\"javascript;\"><img src=\"/themes/custom/astrazeneca/logo.png\" /></a></div>\r\n\r\n<div><a href=\"javascript;\"><img src=\"/themes/custom/astrazeneca/logo.png\" /></a></div>\r\n\r\n<div><a href=\"javascript;\"><img src=\"/themes/custom/astrazeneca/logo.png\" /></a></div>\r\n\r\n<div><a href=\"javascript;\"><img src=\"/themes/custom/astrazeneca/logo.png\" /></a></div>\r\n\r\n<div><a href=\"javascript;\"><img src=\"/themes/custom/astrazeneca/logo.png\" /></a></div>\r\n</div>\r\n</div>\r\n"
+          summary: ''
+          format: full_html
+  -
+    info: 'Nurse On call  藥物儀器指導'
+    langcode: en
+    uuid: 1b0d06ea-27d7-46aa-bb87-709e0f19261b
+    bundle: basic
+    revision_id: null
+    rev_id_current: null
+    fields:
+      body:
+        -
+          value: "<div class=\"az-nurse-contentimg\"><img alt=\"\" data-entity-type=\"file\" data-entity-uuid=\"8cd2c98c-8751-449f-8b47-b7eb41433c32\" height=\"400\" src=\"/sites/default/files/imce_upload/admin/home-banner_0.png\" width=\"1430\" /></div>\r\n\r\n<div class=\"az-nurse-box\">\r\n<div class=\"az-nurse-left-icon\"><img src=\"/themes/custom/astrazeneca/logo.png\" /></div>\r\n\r\n<div class=\"az-nurse-right-box\">\r\n<div class=\"az-nurse-right-title\">護⼠熱線</div>\r\n\r\n<div class=\"az-nurse-right-body\">如會員在應⽤百達揚®Bydureon®注射筆 及信必可®Symbicort®吸入器時遇 到疑問,可致電 2941 5106 查詢有關註冊護⼠儀器應⽤指導安排。 *指導服務只適⽤於指定藥物儀器使⽤者。</div>\r\n</div>\r\n</div>\r\n"
           summary: ''
           format: full_html
 menus:
