@@ -1322,3 +1322,19 @@ footer .az-product-position .views-infinite-scroll-content-wrapper {
     border-radius: 5px;
     background: #898989 !important;
     padding-left: 90px; }
+
+@media (max-width: 375px) {
+  .path-user .main-content-inner .page-title {
+    font-size: 25px; }
+  .path-user .main-content-inner .form-actions input {
+    width: 100%;
+    margin-right: 20px;
+    background: #EB1384 !important;
+    margin-bottom: 10px; }
+  .path-user .main-content-inner .form-actions a {
+    border-radius: 5px;
+    background: #898989 !important;
+    padding-left: 90px;
+    width: 100%; }
+  .az-contact-right-box .top-box-img {
+    margin-right: 10px; } }
