@@ -31,11 +31,6 @@ class MultistepOneForm extends MultistepFormBase {
       '#markup' => '<div class="tips"><span>*</span>為必填項</div>',
     ];
 
-    $form['line1'] = [
-      '#type' => 'fieldset',
-      '#prefix' => '<div id="az-phone-email">',
-      '#suffix' => '</div>',
-    ];
 
     $form['line1']['phone'] = [
       '#type' => 'tel',
@@ -44,7 +39,7 @@ class MultistepOneForm extends MultistepFormBase {
       '#default_value' => $this->store->get('phone') ? $this->store->get('phone') : '',
       '#attributes' => ['placeholder' => '*流動電話（用於接受驗證碼）'],
       '#size' => 30,
-      '#prefix' => '<div class="col-md-6 col-xs-12">',
+      '#prefix' => '<div id="az-phone-email"><div class="col-md-6 col-xs-12">',
       '#suffix' => '</div>',
     ];
 
@@ -55,20 +50,18 @@ class MultistepOneForm extends MultistepFormBase {
       '#attributes' => ['placeholder' => '*電郵地址（用於接受驗證碼）'],
       '#size' => 30,
       '#prefix' => '<div class="col-md-6 col-xs-12">',
-      '#suffix' => '</div>',
+      '#suffix' => '</div></div>',
     ];
 
     $form['line2'] = [
-      '#type' => 'fieldset',
-      '#prefix' => '<div id="az-pass-confirm-pass">',
-      '#suffix' => '</div>',
+      '#type' => 'container',
+      //'#attributes' => ['style' => 'overflow:hidden;']
     ];
-
     $form['line2']['pass'] = [
       '#type' => 'password',
       '#attributes' => ['placeholder' => '*密碼設定'],
       '#size' => 30,
-      '#prefix' => '<div class="col-md-6 col-xs-12">',
+      '#prefix' => '<div id="az-pass-confirm-pass"><div class="col-md-6 col-xs-12">',
       '#suffix' => '</div>',
     ];
     $form['line2']['confirm_pass'] = [
@@ -76,7 +69,7 @@ class MultistepOneForm extends MultistepFormBase {
       '#attributes' => ['placeholder' => '*確認密碼'],
       '#size' => 30,
       '#prefix' => '<div class="col-md-6 col-xs-12">',
-      '#suffix' => '</div>',
+      '#suffix' => '</div></div>',
     ];
 
     $form['send_code'] = [
@@ -94,7 +87,7 @@ class MultistepOneForm extends MultistepFormBase {
 //        'message' => $this->t('Sending'),
 //      ],
         'wrapper' => 'az-phone-email',
-    ]
+      ]
     ];
     $form['verify_code'] = [
       '#type' => 'textfield',
@@ -146,6 +139,13 @@ class MultistepOneForm extends MultistepFormBase {
     ];
 
     $form['actions']['submit']['#value'] = '下一步';
+    $form['actions']['submit']['#name'] = 'az_submit';
+    $form['actions']['submit']['#states'] = [
+      'enabled' => [
+        ':input[name="attention1[1]"]' => ['checked' => TRUE],
+        ':input[name="attention1[2]"]' => ['checked' => TRUE],
+      ],
+    ];
     return $form;
   }
 
@@ -159,30 +159,69 @@ class MultistepOneForm extends MultistepFormBase {
     //$this->store->set('verify_code', $form_state->getValue('verify_code'));
     $this->store->set('attention1', $form_state->getValue('attention1'));
 
-    $form_state->setRedirect('azhealthclub_step_login.multistep_two');
+    $currentUser = \Drupal::currentUser();
+    if ($currentUser->isAnonymous()) {
+      $form_state->setRedirect('azhealthclub_step_login.multistep_two');
+    }
+    else {
+      $form_state->setRedirect('azhealthclub_modify.profile2');
+    }
   }
 
   public function sendCodeAjax(array &$form, FormStateInterface $form_state) {
-    //todo: send code
-    $form['line1']['phone']['#attributes']['class'][] = 'az-error';
+    $bool = TRUE;
+    $values = $form_state->getValues();
+    if (empty($values['phone'])) {
+      $bool = FALSE;
+      $form['line1']['phone']['#attributes']['class'][] = 'az-error';
+    }
+    if (empty($values['email'])) {
+      $bool = FALSE;
+      $form['line1']['email']['#attributes']['class'][] = 'az-error';
+    }
+
+    if ($bool) {
+      //todo: send code
+    }
     return $form['line1'];
+  }
+
+  public function atttention1CheckedAjax(array &$form, FormStateInterface $form_state) {
+    $values = $form_state->getValues();
+    $checked= $values['attention1'];
+    if ($checked[1] && $checked[2]) {
+      $form['actions']['submit']['#disabled'] = FALSE;
+    }
+    return $form['actions']['submit'];
   }
 
   public function validateForm(array &$form, FormStateInterface $form_state) {
     parent::validateForm($form, $form_state);
 
     $values = $form_state->getValues();
-    if ($form_state->getTriggeringElement()['#name'] == 'send_code') {
-      // do nothing
-    }
-    else {
+    if ($form_state->getTriggeringElement()['#name'] == 'az_submit') {
       if (empty($values['phone'])) {
         $form_state->setErrorByName('line1][phone', '請輸入流動電話');
         $form['line1']['phone']['#attributes']['class'][] = 'az-error';
       }
+      if (empty($values['email'])) {
+        $form_state->setErrorByName('line1][email', '請輸入電郵地址');
+        $form['line1']['email']['#attributes']['class'][] = 'az-error';
+      }
+      if (empty($values['pass'])) {
+        $form_state->setErrorByName('line2][pass', '請設定密碼');
+        $form['line2']['pass']['#attributes']['class'][] = 'az-error';
+      }
+      elseif (empty($values['confirm_pass'])) {
+        $form_state->setErrorByName('line2][confirm_pass', '請確認密碼');
+        $form['line2']['confirm_pass']['#attributes']['class'][] = 'az-error';
+      }
+      elseif ($values['pass'] != $values['confirm_pass']) {
+        $form_state->setErrorByName('line2', '兩次輸入的密碼不匹配，請重新輸入');
+        $form['line2']['#attributes']['class'][] = 'az-error';
+      }
     }
 
-    //$form_state->setRebuild(TRUE);
   }
 
 }

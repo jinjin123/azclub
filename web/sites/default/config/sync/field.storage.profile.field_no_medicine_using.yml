@@ -1,16 +1,14 @@
-uuid: 18f286cb-1655-4ce1-a465-1990dfb2f6ea
+uuid: 5b54a1e7-9d6f-48fa-9b74-3afd26a0968d
 langcode: en
 status: true
 dependencies:
   module:
-    - node
     - profile
-id: profile.field_medicine_using
-field_name: field_medicine_using
+id: profile.field_no_medicine_using
+field_name: field_no_medicine_using
 entity_type: profile
-type: entity_reference
-settings:
-  target_type: node
+type: boolean
+settings: {  }
 module: core
 locked: false
 cardinality: 1
