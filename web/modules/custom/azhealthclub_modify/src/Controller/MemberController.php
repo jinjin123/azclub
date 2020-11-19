@@ -2,7 +2,9 @@
 
 namespace Drupal\azhealthclub_modify\Controller;
 
+use Drupal\Core\Access\AccessResult;
 use Drupal\Core\Controller\ControllerBase;
+use Drupal\Core\Session\AccountInterface;
 use Symfony\Component\HttpFoundation\RedirectResponse;
 
 class MemberController extends ControllerBase {
@@ -49,12 +51,17 @@ class MemberController extends ControllerBase {
 
   }
 
-  public function access() {
-    $member = \Drupal::currentUser();
-    if ($member->isAnonymous()) {
-      // todo redirect to 403 page
-      $response = new RedirectResponse('/home');
-      $response->send();
+  public function access(AccountInterface $account) {
+    if ($account->isAnonymous()) {
+      // redirect page
+      //$response = new RedirectResponse('/home');
+      //$response->send();
+
+      // just forbidden it
+      return AccessResult::forbidden();
+    }
+    else {
+      return AccessResult::allowed();
     }
   }
 
