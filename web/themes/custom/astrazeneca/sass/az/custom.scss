@@ -441,7 +441,7 @@ a.button {
   height: 400px;
   .az-offer_img {
     border-bottom: 7px solid $color-orange;
-    
+
   }
 
   .az-offer_body {
@@ -1022,7 +1022,8 @@ a.button {
         height: 60px;
         line-height: 60px;
         padding-left: 50px;
-        background-position: 10px;
+        //background-position: 10px;
+        background-position: 0 40%;;
         background-size: 30px 30px;
       }
 
@@ -1031,7 +1032,8 @@ a.button {
         height: 60px;
         line-height: 60px;
         padding-left: 50px;
-        background-position: 10px;
+        background-position: 0 40%;;
+        //background-position: 10px;
         background-size: 30px 30px;
       }
 
@@ -1040,7 +1042,8 @@ a.button {
         height: 60px;
         line-height: 60px;
         padding-left: 50px;
-        background-position: 10px;
+        background-position: 0 40%;;
+        //background-position: 10px;
         background-size: 30px 30px;
       }
     }
@@ -1050,6 +1053,7 @@ a.button {
     border: 1px solid #d0c9c9;
     background-color: white;
     width: 100%;
+    padding:  35px;
     box-shadow: -5px 5px 10px -7px grey, 5px 5px 10px -7px grey;
 
     .az_title {
@@ -1124,10 +1128,18 @@ a.button {
 .webform-submission-contact-form {
   .js-form-item-name {
     float: left;
-    padding-right: 16px;
+    //padding-right: 16px;
     padding-bottom: 10px;
+    input {
+      width: 90%;
+    }
   }
-
+  .js-form-item-email {
+      display: flex;
+      input {
+        width: 100%;
+      }
+  }
   .js-form-item-subject {
     padding-bottom: 10px;
   }
@@ -1137,6 +1149,16 @@ a.button {
 
     input {
       height: 110px;
+    }
+  }
+  .form-item-subject {
+     input {
+       width: 100%;
+     }
+  }
+  .form-item-message {
+    input {
+      width: 100%;
     }
   }
 
@@ -1989,4 +2011,54 @@ footer {
 .az-clinical-trial-aritcle {
   position: relative;
   bottom: 80px;
+}
+
+.az-ft-fk {
+  display: flex;
+  .az-ft-img {
+    width: 100%;
+    img {
+      height: auto !important;
+    }
+  }
+  .az-ft-rg-bd {
+    p {
+        color: #767676;
+    }
+  }
+}
+
+//body {
+//  .path-user #page-main-content > .main-content-inner {
+//    max-width:  500px;
+//  }
+//}
+//
+.path-user {
+  .main-content-inner {
+    max-width: 500px !important;
+    .free-apply {
+       color: #898989;
+    }
+    #edit-pass--description {
+      text-align: right;
+      padding-bottom: 20px;
+      a {
+
+        color: #898989;
+      }
+    }
+    .form-actions {
+      input {
+        width: 45%;
+        margin-right: 20px;
+        background: #EB1384 !important;
+      }
+      a {
+        border-radius: 5px;
+        background: #898989 !important;
+        padding-left: 90px;
+      }
+    }
+  }
 }

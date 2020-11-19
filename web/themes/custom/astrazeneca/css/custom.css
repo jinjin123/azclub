@@ -674,26 +674,27 @@ a.button {
     height: 60px;
     line-height: 60px;
     padding-left: 50px;
-    background-position: 10px;
+    background-position: 0 40%;
     background-size: 30px 30px; }
   .az-contact-main_box .az_contact_rg_box .az_body > p:nth-child(3) {
     background: transparent url(../images/time.png) no-repeat;
     height: 60px;
     line-height: 60px;
     padding-left: 50px;
-    background-position: 10px;
+    background-position: 0 40%;
     background-size: 30px 30px; }
   .az-contact-main_box .az_contact_rg_box .az_body > p:nth-child(4) {
     background: transparent url(../images/question.png) no-repeat;
     height: 60px;
     line-height: 60px;
     padding-left: 50px;
-    background-position: 10px;
+    background-position: 0 40%;
     background-size: 30px 30px; }
   .az-contact-main_box .az-contact-form_body {
     border: 1px solid #d0c9c9;
     background-color: white;
     width: 100%;
+    padding: 35px;
     box-shadow: -5px 5px 10px -7px grey, 5px 5px 10px -7px grey; }
     .az-contact-main_box .az-contact-form_body .az_title {
       font-weight: bold;
@@ -742,8 +743,14 @@ a.button {
 
 .webform-submission-contact-form .js-form-item-name {
   float: left;
-  padding-right: 16px;
   padding-bottom: 10px; }
+  .webform-submission-contact-form .js-form-item-name input {
+    width: 90%; }
+
+.webform-submission-contact-form .js-form-item-email {
+  display: flex; }
+  .webform-submission-contact-form .js-form-item-email input {
+    width: 100%; }
 
 .webform-submission-contact-form .js-form-item-subject {
   padding-bottom: 10px; }
@@ -752,6 +759,12 @@ a.button {
   padding-bottom: 10px; }
   .webform-submission-contact-form .js-form-item-message input {
     height: 110px; }
+
+.webform-submission-contact-form .form-item-subject input {
+  width: 100%; }
+
+.webform-submission-contact-form .form-item-message input {
+  width: 100%; }
 
 .webform-submission-contact-form .js-form-item-code {
   display: flex;
@@ -1282,3 +1295,30 @@ footer .az-product-position .views-infinite-scroll-content-wrapper {
 .az-clinical-trial-aritcle {
   position: relative;
   bottom: 80px; }
+
+.az-ft-fk {
+  display: flex; }
+  .az-ft-fk .az-ft-img {
+    width: 100%; }
+    .az-ft-fk .az-ft-img img {
+      height: auto !important; }
+  .az-ft-fk .az-ft-rg-bd p {
+    color: #767676; }
+
+.path-user .main-content-inner {
+  max-width: 500px !important; }
+  .path-user .main-content-inner .free-apply {
+    color: #898989; }
+  .path-user .main-content-inner #edit-pass--description {
+    text-align: right;
+    padding-bottom: 20px; }
+    .path-user .main-content-inner #edit-pass--description a {
+      color: #898989; }
+  .path-user .main-content-inner .form-actions input {
+    width: 45%;
+    margin-right: 20px;
+    background: #EB1384 !important; }
+  .path-user .main-content-inner .form-actions a {
+    border-radius: 5px;
+    background: #898989 !important;
+    padding-left: 90px; }

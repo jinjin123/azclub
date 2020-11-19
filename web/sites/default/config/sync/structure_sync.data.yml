@@ -273,9 +273,9 @@ blocks:
     fields:
       body:
         -
-          value: "<img src=\"/themes/custom/astrazeneca/logo.png\">\r\n\r\n<p><strong>免責聲明</strong><br />\r\n此網站為香港市民提供疾病資訊。<br />\r\n本網站內所提供之資料謹供學術或參考用途，並不能取代醫生及其他醫護專業人員的意見。雖然我們已盡力確保網站的資料準確，但不會保證該等資料的準確性，亦不會對任何資料上的錯誤或遺漏承擔法律責任。如有任何疑問或有關資訊，請向你的醫生查詢。</p>\r\n"
+          value: "<div class=\"az-ft-fk\">\r\n<div class=\"az-ft-img\"><img src=\"/themes/custom/astrazeneca/logo.png\" /></div>\r\n\r\n<div class=\"az-ft-rg-bd\">\r\n<p><strong>免責聲明</strong><br />\r\n此網站為香港市民提供疾病資訊。<br />\r\n本網站內所提供之資料謹供學術或參考用途，並不能取代醫生及其他醫護專業人員的意見。雖然我們已盡力確保網站的資料準確，但不會保證該等資料的準確性，亦不會對任何資料上的錯誤或遺漏承擔法律責任。如有任何疑問或有關資訊，請向你的醫生查詢。</p>\r\n</div>\r\n</div>\r\n"
           summary: ''
-          format: basic_html
+          format: full_html
   -
     info: 'Clinical middle block 臨床實驗相關文章'
     langcode: en
