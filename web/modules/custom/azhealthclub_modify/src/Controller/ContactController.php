@@ -14,4 +14,8 @@ class ContactController extends ControllerBase {
       '#variables' => $variables
     ];
   }
+
+  public function health(){
+    return [];
+  }
 }

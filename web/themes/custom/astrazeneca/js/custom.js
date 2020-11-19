@@ -3,19 +3,20 @@ Drupal.behaviors.PharmaTheme = {
     var $ = jQuery.noConflict();
     $(".az-search-button").click(function () {
       var az_clinic_one_value=$("#az_clinic_select_type option:selected")[0].value;
-      var az_clinic_two_value=$("#az_clinic_select_age option:selected")[0].textContent;
+      // var az_clinic_two_value=$("#az_clinic_select_age option:selected")[0].textContent;
       var az_clinic_tqq_value=$("#az_clinic_select_sex option:selected")[0].value;
       if (az_clinic_one_value=="腫瘤類別") {
         az_clinic_one_value=""
       }
-      if (az_clinic_two_value=="年齡") {
-        az_clinic_two_value=""
-      }
+      // if (az_clinic_two_value=="年齡") {
+      //   az_clinic_two_value=""
+      // }
       if (az_clinic_tqq_value=="性別") {
         az_clinic_tqq_value=""
       }
       var redirct = '/Clinical/search-result?';
-      location.href=redirct+"field_az_conditions_term_target_id="+az_clinic_one_value+"&"+"field_az_se_value="+az_clinic_tqq_value+"&"+"field_az_clinical_age_value="+az_clinic_two_value;
+      // location.href=redirct+"field_az_conditions_term_target_id="+az_clinic_one_value+"&"+"field_az_se_value="+az_clinic_tqq_value+"&"+"field_az_clinical_age_value="+az_clinic_two_value;
+      location.href=redirct+"field_az_conditions_term_target_id="+az_clinic_one_value+"&"+"field_az_se_value="+az_clinic_tqq_value;
       // console.log(redirct+"field_az_conditions_term_target_id="+az_clinic_two_value+"&"+"field_az_se_value="+az_clinic_two_value+"&"+"field_az_clinical_age_value="+az_clinic_tqq_value)
     })
 

@@ -57,3 +57,12 @@ azhealthclub_modify.settings:
     _title: 'Azhealthclub Modify'
   requirements:
     _permission: 'administer site configuration'
+
+
+azhealthclub_modify.healthgui:
+  path: '/Healthcare-guidance'
+  defaults:
+    _controller: '\Drupal\azhealthclub_modify\Controller\ContactController::health'
+    _title: ''
+  requirements:
+    _permission: 'access content'

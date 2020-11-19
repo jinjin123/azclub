@@ -177,6 +177,7 @@ a.button {
     float: $float-left;
     width: 40px;
     height: 40px;
+    margin-right: 10px;
     background: transparent url(../images/iphone.png) no-repeat;
   }
 
@@ -349,6 +350,7 @@ a.button {
   .az-ref__title {
     font-size: 20px;
     font-weight: bold;
+    color:$gray-darker;
   }
 
   .az-ref_hr {
@@ -427,6 +429,12 @@ a.button {
 
   .az-pipline-redbox {
     display: flex;
+    div {
+      padding:10px ;
+      a:hover {
+        cursor: pointer;
+      }
+    }
   }
 }
 
@@ -558,7 +566,7 @@ a.button {
       .az-clinical-search-block {
         display: block;
         background-color: white;
-        width: 80%;
+        width: 70%;
         position: relative;
         margin-right: auto;
         margin-left: auto;
@@ -579,7 +587,7 @@ a.button {
           margin-left: 20px;
 
           .az-search-clinical-type {
-            width: 25%;
+            width: 50%;
             border: 1px solid $color-gray;
             height: 50px;
           }
@@ -1808,8 +1816,10 @@ footer#footer::after {
 
     .az-clinical-subjest_btnemail {
       margin-right: 10px;
-      border: 1px solid $color-red;
-      background-color: $color-red;
+      //border: 1px solid $color-red;
+      border: 1px solid $color-orange;
+      //background-color: $color-red;
+      background-color: $color-orange;
     }
 
     .az-clinical-subjest_btncancel {
@@ -2016,7 +2026,7 @@ footer {
 .az-ft-fk {
   display: flex;
   .az-ft-img {
-    width: 100%;
+    width: 50%;
     img {
       height: auto !important;
     }
@@ -2092,3 +2102,38 @@ footer {
   }
 }
 
+
+.az-nurse-contentimg {
+  display: flex;
+  margin: 0 500px;
+  img {
+    margin-right:150px;
+  }
+}
+.az-nurse-box {
+  display: flex;
+  height: 200px;
+  width: 100%;
+  background: $color-gray;
+  .container {
+    display: flex;
+    margin: 50px auto;
+    padding: 0 200px;
+  }
+  .az-nurse-left-icon {
+    margin-right:20px;
+    height: 100%;
+    img {
+      height: 80%;
+    }
+  }
+  .az-nurse-right-box {
+    .az-nurse-right-title {
+      font-size:23px;
+      color:$color-red;
+    }
+    .az-nurse-right-body {
+      width: 500px;
+    }
+  }
+}

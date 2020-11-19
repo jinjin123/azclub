@@ -119,6 +119,7 @@ a.button {
     float: left;
     width: 40px;
     height: 40px;
+    margin-right: 10px;
     background: transparent url(../images/iphone.png) no-repeat; }
   .az-header_top .top-box-info h1 {
     font-size: 15px; }
@@ -225,7 +226,8 @@ a.button {
 
 .az-ref-box .az-ref__title {
   font-size: 20px;
-  font-weight: bold; }
+  font-weight: bold;
+  color: #222222; }
 
 .az-ref-box .az-ref_hr {
   border-top: 1px solid #979797; }
@@ -276,6 +278,10 @@ a.button {
     color: #979797; }
   .az-product_head .az-pipline-redbox {
     display: flex; }
+    .az-product_head .az-pipline-redbox div {
+      padding: 10px; }
+      .az-product_head .az-pipline-redbox div a:hover {
+        cursor: pointer; }
 
 .az-offer_box {
   float: left;
@@ -364,7 +370,7 @@ a.button {
     .az-clinical-result .az-clinical-product-search .az-clinical-bgimg .az-clinical-search-block {
       display: block;
       background-color: white;
-      width: 80%;
+      width: 70%;
       position: relative;
       margin-right: auto;
       margin-left: auto;
@@ -381,7 +387,7 @@ a.button {
         color: #979797;
         margin-left: 20px; }
         .az-clinical-result .az-clinical-product-search .az-clinical-bgimg .az-clinical-search-block .az-clinical__search_body .az-search-clinical-type {
-          width: 25%;
+          width: 50%;
           border: 1px solid #979797;
           height: 50px; }
         .az-clinical-result .az-clinical-product-search .az-clinical-bgimg .az-clinical-search-block .az-clinical__search_body .az-search-clinical-age {
@@ -1185,8 +1191,8 @@ footer#footer::after {
       color: white; }
     .az-clinical-subjest-email .az-clinical-subjest-body .az-clinical-subjest_btnemail {
       margin-right: 10px;
-      border: 1px solid #eb1384;
-      background-color: #eb1384; }
+      border: 1px solid #fcaf17;
+      background-color: #fcaf17; }
     .az-clinical-subjest-email .az-clinical-subjest-body .az-clinical-subjest_btncancel {
       margin-left: 10px;
       background-color: #979797;
@@ -1299,7 +1305,7 @@ footer .az-product-position .views-infinite-scroll-content-wrapper {
 .az-ft-fk {
   display: flex; }
   .az-ft-fk .az-ft-img {
-    width: 100%; }
+    width: 50%; }
     .az-ft-fk .az-ft-img img {
       height: auto !important; }
   .az-ft-fk .az-ft-rg-bd p {
@@ -1338,3 +1344,29 @@ footer .az-product-position .views-infinite-scroll-content-wrapper {
     width: 100%; }
   .az-contact-right-box .top-box-img {
     margin-right: 10px; } }
+
+.az-nurse-contentimg {
+  display: flex;
+  margin: 0 500px; }
+  .az-nurse-contentimg img {
+    margin-right: 150px; }
+
+.az-nurse-box {
+  display: flex;
+  height: 200px;
+  width: 100%;
+  background: #979797; }
+  .az-nurse-box .container {
+    display: flex;
+    margin: 50px auto;
+    padding: 0 200px; }
+  .az-nurse-box .az-nurse-left-icon {
+    margin-right: 20px;
+    height: 100%; }
+    .az-nurse-box .az-nurse-left-icon img {
+      height: 80%; }
+  .az-nurse-box .az-nurse-right-box .az-nurse-right-title {
+    font-size: 23px;
+    color: #eb1384; }
+  .az-nurse-box .az-nurse-right-box .az-nurse-right-body {
+    width: 500px; }
