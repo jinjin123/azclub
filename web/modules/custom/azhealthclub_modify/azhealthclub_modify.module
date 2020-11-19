@@ -141,7 +141,9 @@ function azhealthclub_modify_preprocess(&$variables, $hook) {
  */
 function azhealthclub_modify_form_multistep_form_one_alter(&$form, \Drupal\Core\Form\FormStateInterface $form_state, $form_id) {
   $member = \Drupal::currentUser();
-  $variables['memberId'] = $member->id();
+  if ($member->isAnonymous()) {
+    return;
+  }
   $storage = \Drupal::entityTypeManager()->getStorage('profile');
   $profile = $storage->loadByUser($member, 'member');
   $phone = $profile->get('field_phone')->getValue()[0]['value'];
@@ -169,7 +171,9 @@ function azhealthclub_modify_form_multistep_form_one_alter(&$form, \Drupal\Core\
  */
 function azhealthclub_modify_form_multistep_form_two_alter(&$form, \Drupal\Core\Form\FormStateInterface $form_state, $form_id) {
   $member = \Drupal::currentUser();
-  $variables['memberId'] = $member->id();
+  if ($member->isAnonymous()) {
+    return;
+  }
   $storage = \Drupal::entityTypeManager()->getStorage('profile');
   $profile = $storage->loadByUser($member, 'member');
   $zh_name = $profile->get('field_zh_name')->getValue()[0]['value'];
@@ -195,7 +199,9 @@ function azhealthclub_modify_form_multistep_form_two_alter(&$form, \Drupal\Core\
  */
 function azhealthclub_modify_form_multistep_form_three_alter(&$form, \Drupal\Core\Form\FormStateInterface $form_state, $form_id) {
   $member = \Drupal::currentUser();
-  $variables['memberId'] = $member->id();
+  if ($member->isAnonymous()) {
+    return;
+  }
   $storage = \Drupal::entityTypeManager()->getStorage('profile');
   $profile = $storage->loadByUser($member, 'member');
   $no_medicine_using_values = $profile->get('field_no_medicine_using')->getValue();
@@ -204,7 +210,6 @@ function azhealthclub_modify_form_multistep_form_three_alter(&$form, \Drupal\Cor
   $medicine_using = array_column($profile->get('field_medicine_using')->getValue(), 'value');
   $where1 = array_column($profile->get('field_where1')->getValue(), 'value');
   $where2 = array_column($profile->get('field_where2')->getValue(), 'value');
-
 
   $form['no_medicine_using']['#default_value'] = $no_medicine_using;
   $form['ta_type']['#default_value'] = $ta_type;
