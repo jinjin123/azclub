@@ -224,8 +224,8 @@ class MultistepOneForm extends MultistepFormBase {
         $query = $database->query("SELECT id FROM users_field_data WHERE mail = :mail", [':mail' => $values['email']]);
         $result = $query->fetchField();
         if ($result) {
-          $form_state->setErrorByName('line1][phone', '該電郵地址已註冊過');
-          $form['line1']['phone']['#attributes']['class'][] = 'az-error';
+          $form_state->setErrorByName('line1][email', '該電郵地址已註冊過');
+          $form['line1']['email']['#attributes']['class'][] = 'az-error';
         }
       }
       if (empty($values['pass'])) {
