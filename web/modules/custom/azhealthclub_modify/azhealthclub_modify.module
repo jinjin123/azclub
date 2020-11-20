@@ -7,8 +7,10 @@
 
 use Drupal\Core\Routing\RouteMatchInterface;
 use Drupal\Core\Url;
+use Drupal\user\UserInterface;
 use Drupal\views\ViewExecutable;
 use Drupal\Core\StringTranslation;
+use Symfony\Component\HttpFoundation\RedirectResponse;
 
 /**
  * Implements hook_help().
@@ -257,5 +259,15 @@ function azhealthclub_modify_login_validate($form, &$form_state) {
       $form_state->setValueForElement($form['name'], $result);
     }
   }
-
 }
+
+/**
+ * Implements hook_user_login().
+ */
+function azhealthclub_modify_user_login(UserInterface $account) {
+  if ($account->hasRole('member')) {
+    $response = new RedirectResponse("/welcome");
+    $response->send();
+  }
+}
+
