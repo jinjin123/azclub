@@ -22,3 +22,54 @@ function azhealthclub_step_login_help($route_name, RouteMatchInterface $route_ma
     default:
   }
 }
+
+
+function azhealthclub_step_login_generate_verification_code($len) {
+  $vrf_code = '';
+  for($i=0; $i<$len; $i++) {
+    $vrf_code .= rand(0,9);
+  }
+  return $vrf_code;
+}
+
+/**
+ * Implements hook_mail().
+ */
+function azhealthclub_step_login_mail($key, &$message, $params) {
+  switch ($key) {
+    case 'vrf_code':
+      $message['subject'] = $params['subject'];
+      $message['body'][] = $params['message'];
+      break;
+  }
+}
+
+function azhealthclub_step_login_send_email($data) {
+  $mailManager = \Drupal::service('plugin.manager.mail');
+  $module = 'azhealthclub_step_login';
+  $key = 'vrf_code';
+  $to = $data['to'];
+  $params['message'] = $data['message'];
+  $params['subject'] = 'test';
+  $langcode = \Drupal::currentUser()->getPreferredLangcode();
+  $send = true;
+  $result = $mailManager->mail($module, $key, $to, $langcode, $params, NULL, $send);
+  if ($result['result'] !== true) {
+    \Drupal::logger('azhealthclub_step_login')->error('There was a problem sending verification code and it was not sent.');
+  }
+  else {
+    \Drupal::logger('azhealthclub_step_login')->notice('The verification has been sent.');
+  }
+}
+
+/**
+ * Implements hook_cron().
+ */
+function azhealthclub_step_login_cron() {
+  $database = \Drupal::database();
+  $query = $database->query("SELECT cid FROM cache_vrf_code WHERE expire < :time  AND expire != -1", [':time' => time()]);
+  $cids = $query->fetchAllKeyed(0,0);
+  $database->delete('cache_vrf_code')
+    ->condition('cid', $cids, 'IN')
+    ->execute();
+}
