@@ -85,7 +85,17 @@ Drupal.behaviors.PharmaTheme = {
       })
       $(".az-clinical-subjest_btnemail").click(function (){
          if($(".az-clinical-ckb")[0].checked){
-           console.log("aa")
+           // console.log("aa")
+           var mail = $(".az-clinical-inputemil")[0].value
+           var relnode = location.pathname
+           var dataser = {"mail":mail,"relnode":relnode}
+           $.post("/relateclinal", JSON.stringify(dataser), function (data) {
+             if(data=="ok"){
+               $(".az-clinical-subjest-email").css("display","none");
+             }
+           }).fail(function (){
+             alert("请登录");
+           })
          }else {
            $(".az-clinical-ckb-box").css("border","1px solid red")
          }
