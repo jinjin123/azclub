@@ -2065,7 +2065,13 @@ body.az-user-login-page.path-user #page-main-content  {
       a {
         border-radius: 5px;
         background: #898989 !important;
-        padding-left: 90px;
+        //padding-left: 90px;
+        margin-left: 10px;
+        width: 47%;
+        text-align: center;
+      }
+      a:after {
+         content:"";
       }
     }
   }
@@ -2089,6 +2095,8 @@ body.az-user-login-page.path-user #page-main-content  {
           background: #898989 !important;
           padding-left: 90px;
           width: 100%;
+          margin-left: 0;
+          text-align: left !important;
         }
       }
     }
@@ -2156,4 +2164,35 @@ body.az-user-login-page.path-user #page-main-content  {
 
 #block-astrazeneca-page-title {
   margin-left: 40px;
+}
+
+//user/1
+.field--name-field-relate-clinal {
+  display: none;
+}
+
+.breadcrumb-content-inner {
+  text-align: left;
+  margin-left: 280px;
+  .gva-breadcrumb-content {
+    .gva-block-breadcrumb {
+      .breadcrumb-style {
+        min-height: 0;
+      }
+    }
+  }
+}
+
+// top banner
+.az-top-banner {
+  position: relative;
+  top: -68px;
+  h1 {
+    position: relative;
+    text-align: center;
+    top: 200px;
+  }
+  img {
+    width: 100%;
+  }
 }

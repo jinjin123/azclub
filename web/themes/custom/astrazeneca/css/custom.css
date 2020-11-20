@@ -1332,7 +1332,12 @@ body.az-user-login-page.path-user #page-main-content .main-content-inner {
 .path-user .main-content-inner .form-actions a {
   border-radius: 5px;
   background: #898989 !important;
-  padding-left: 90px; }
+  margin-left: 10px;
+  width: 47%;
+  text-align: center; }
+
+.path-user .main-content-inner .form-actions a:after {
+  content: ""; }
 
 @media (max-width: 375px) {
   .path-user .main-content-inner .page-title {
@@ -1346,7 +1351,9 @@ body.az-user-login-page.path-user #page-main-content .main-content-inner {
     border-radius: 5px;
     background: #898989 !important;
     padding-left: 90px;
-    width: 100%; }
+    width: 100%;
+    margin-left: 0;
+    text-align: left !important; }
   .az-contact-right-box .top-box-img {
     margin-right: 10px; } }
 
@@ -1390,3 +1397,22 @@ body.az-user-login-page.path-user #page-main-content .main-content-inner {
 
 #block-astrazeneca-page-title {
   margin-left: 40px; }
+
+.field--name-field-relate-clinal {
+  display: none; }
+
+.breadcrumb-content-inner {
+  text-align: left;
+  margin-left: 280px; }
+  .breadcrumb-content-inner .gva-breadcrumb-content .gva-block-breadcrumb .breadcrumb-style {
+    min-height: 0; }
+
+.az-top-banner {
+  position: relative;
+  top: -68px; }
+  .az-top-banner h1 {
+    position: relative;
+    text-align: center;
+    top: 200px; }
+  .az-top-banner img {
+    width: 100%; }
