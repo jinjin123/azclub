@@ -199,6 +199,8 @@ Drupal.behaviors.PharmaTheme = {
   //   })
   //   var ttt = $(".breadcrumb")[0].innerText.split(" ")
   //   $(".az-top-banner h1")[0].textContent = ttt[1].replace("-","") + ttt[2].replace("-","/") + "\n" +ttt[3].replace("-","/") + ttt[4].replace("-","/") + ttt[5].replace("-","/")
-    $(".az-top-banner h1")[0].textContent =  $(".breadcrumb")[0].innerText
+    if($(".az-top-banner").length > 0){
+      $(".az-top-banner h1")[0].textContent =  $(".breadcrumb")[0].innerText
+    }
   }
 };

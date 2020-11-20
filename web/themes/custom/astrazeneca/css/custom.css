@@ -1416,3 +1416,69 @@ body.az-user-login-page.path-user #page-main-content .main-content-inner {
     top: 200px; }
   .az-top-banner img {
     width: 100%; }
+
+#block-registeroneblock {
+  text-align: center;
+  top: -60px;
+  position: relative; }
+
+.az-register-one .az-register-onebox img {
+  box-shadow: 0px 4px 5px #979797;
+  padding: 30px;
+  width: 800px;
+  margin: 0 auto;
+  background: white; }
+
+.az-user-register .main #content {
+  position: relative;
+  top: -120px; }
+
+.az-user-register .az-register-one-banner img {
+  width: 100%; }
+
+#multistep-form-one {
+  margin-left: 30px; }
+  #multistep-form-one div input {
+    margin: 10px 0; }
+  #multistep-form-one .tips {
+    margin-left: 15px; }
+  #multistep-form-one #edit-send-code {
+    border-radius: 0;
+    background-color: #333333; }
+  #multistep-form-one .js-form-item-verify-code {
+    position: relative;
+    left: -21px;
+    display: block; }
+  #multistep-form-one #edit-verify-code {
+    height: 41px; }
+  #multistep-form-one .send-code-tips {
+    padding-bottom: 15px;
+    margin-left: 15px; }
+  #multistep-form-one #edit-privacy-statement {
+    margin-left: 15px;
+    border: 1px solid grey;
+    margin-bottom: 10px; }
+    #multistep-form-one #edit-privacy-statement summary {
+      color: #fff;
+      background-color: #eb1384; }
+  #multistep-form-one #edit-attention1--wrapper {
+    margin-left: 15px;
+    margin-bottom: 30px; }
+    #multistep-form-one #edit-attention1--wrapper legend {
+      color: #fff;
+      background: #eb1384; }
+      #multistep-form-one #edit-attention1--wrapper legend span {
+        padding-left: 15px;
+        font-size: 16px; }
+  #multistep-form-one #edit-attention1 .js-form-item-attention1-1 {
+    display: flex; }
+  #multistep-form-one #edit-attention1 label {
+    padding-left: 10px; }
+  #multistep-form-one #edit-actions {
+    width: 30%;
+    float: right;
+    position: relative;
+    top: -30px; }
+    #multistep-form-one #edit-actions input {
+      width: 100%;
+      background: #eb1384; }

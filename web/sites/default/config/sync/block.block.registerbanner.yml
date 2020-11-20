@@ -1,9 +1,9 @@
-uuid: c6fb5f5d-2494-4722-a7c1-1400311b45df
+uuid: eb26716d-e194-4a87-9fbb-8603a41ec4f0
 langcode: en
 status: true
 dependencies:
   content:
-    - 'block_content:basic:b2019e4e-3d83-4be8-a6c4-b9bcf8cecddd'
+    - 'block_content:basic:a90d650d-d04a-44c9-b1a8-4b2d5a77a24e'
   module:
     - block_content
     - block_visibility_groups
@@ -14,15 +14,15 @@ dependencies:
 third_party_settings:
   gaviasthemer:
     classes: ''
-id: topbanner
+id: registerbanner
 theme: astrazeneca
 region: breadcrumbs
-weight: -21
+weight: -22
 provider: null
-plugin: 'block_content:b2019e4e-3d83-4be8-a6c4-b9bcf8cecddd'
+plugin: 'block_content:a90d650d-d04a-44c9-b1a8-4b2d5a77a24e'
 settings:
-  id: 'block_content:b2019e4e-3d83-4be8-a6c4-b9bcf8cecddd'
-  label: 'top banner '
+  id: 'block_content:a90d650d-d04a-44c9-b1a8-4b2d5a77a24e'
+  label: 'register one banner '
   provider: block_content
   label_display: '0'
   status: true
@@ -35,5 +35,5 @@ visibility:
     block_visibility_group: ''
   request_path:
     id: request_path
-    pages: "<front>\r\n/user/register/*"
-    negate: true
+    pages: /user/register/1
+    negate: false

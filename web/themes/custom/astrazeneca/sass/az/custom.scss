@@ -2196,3 +2196,102 @@ body.az-user-login-page.path-user #page-main-content  {
     width: 100%;
   }
 }
+
+#block-registeroneblock {
+  text-align: center;
+  top: -60px;
+  position: relative;
+}
+
+.az-register-one {
+  .az-register-onebox {
+    img {
+      box-shadow: 0px 4px 5px #979797;
+      padding: 30px;
+      width: 800px;
+      margin: 0 auto;
+      background: white;
+    }
+  }
+}
+.az-user-register {
+  .main {
+    #content {
+      position: relative;
+      top: -120px;
+    }
+  }
+  .az-register-one-banner {
+    img {
+     width: 100%;
+   }
+  }
+}
+
+#multistep-form-one {
+  margin-left: 30px;
+  div {
+    input {
+      margin: 10px 0;
+    }
+  }
+  .tips {
+    margin-left: 15px;
+  }
+  #edit-send-code {
+    border-radius: 0;
+    background-color: $gray-dark;
+  }
+  .js-form-item-verify-code  {
+    position: relative;
+    left: -21px;
+    display: block;
+  }
+  #edit-verify-code {
+    height: 41px;
+  }
+  .send-code-tips {
+    padding-bottom: 15px;
+    margin-left: 15px;
+  }
+  #edit-privacy-statement  {
+    margin-left: 15px;
+    border: 1px solid grey;
+    margin-bottom: 10px;
+    summary {
+      color:#fff;
+      background-color: $color-red;
+    }
+  }
+  #edit-attention1--wrapper {
+    margin-left: 15px;
+    margin-bottom: 30px;
+    legend {
+      color: #fff;
+      background: $color-red;
+      span {
+        padding-left: 15px;
+        font-size: 16px;
+      }
+    }
+  }
+  #edit-attention1  {
+    .js-form-item-attention1-1 {
+      display: flex;
+    }
+    label {
+      padding-left: 10px;
+    }
+  }
+  #edit-actions {
+    width: 30%;
+    float: right;
+    position: relative;
+    top: -30px;
+    input {
+      width: 100%;
+      background: $color-red;
+    }
+  }
+}
+

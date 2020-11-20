@@ -419,6 +419,32 @@ blocks:
           value: "<div class=\"az-top-banner\">\r\n<h1>&nbsp;</h1>\r\n<img alt=\"\" data-entity-type=\"file\" data-entity-uuid=\"\" height=\"400\" src=\"/sites/default/files/imce_upload/admin/home-banner.png\" width=\"1430\" /></div>\r\n"
           summary: ''
           format: full_html
+  -
+    info: 'register one block'
+    langcode: en
+    uuid: b7c8f079-4056-4465-8d91-7e8f7e61d54b
+    bundle: basic
+    revision_id: null
+    rev_id_current: null
+    fields:
+      body:
+        -
+          value: "<div class=\"az-register-one\">\r\n       <div class=\"az-register-onebox\">\r\n           <img alt=\"\" data-entity-type=\"file\" data-entity-uuid=\"08ee6784-d453-4257-9b4d-9cae5cf2b728\" height=\"344\" src=\"/sites/default/files/imce_upload/admin/image.png\" width=\"602\" />\r\n       </div>\r\n</div>\r\n"
+          summary: ''
+          format: full_html
+  -
+    info: 'register banner '
+    langcode: en
+    uuid: a90d650d-d04a-44c9-b1a8-4b2d5a77a24e
+    bundle: basic
+    revision_id: null
+    rev_id_current: null
+    fields:
+      body:
+        -
+          value: "<div class=\"az-register-one-banner\" >\r\n<img alt=\"\" data-entity-type=\"file\" data-entity-uuid=\"6df8e12b-1dd7-4587-bf99-1b37c3cc7854\" height=\"179\" src=\"/sites/default/files/imce_upload/admin/2020-11-20_16-33.png\" width=\"993\" />\r\n</div>\r\n"
+          summary: ''
+          format: full_html
 menus:
   -
     menu_name: footer
