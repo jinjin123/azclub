@@ -61,3 +61,15 @@ function azhealthclub_step_login_send_email($data) {
     \Drupal::logger('azhealthclub_step_login')->notice('The verification has been sent.');
   }
 }
+
+/**
+ * Implements hook_cron().
+ */
+function azhealthclub_step_login_cron() {
+  $database = \Drupal::database();
+  $query = $database->query("SELECT cid FROM cache_vrf_code WHERE expire < :time  AND expire != -1", [':time' => time()]);
+  $cids = $query->fetchAllKeyed(0,0);
+  $database->delete('cache_vrf_code')
+    ->condition('cid', $cids, 'IN')
+    ->execute();
+}
