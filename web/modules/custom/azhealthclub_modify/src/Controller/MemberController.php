@@ -2,20 +2,15 @@
 
 namespace Drupal\azhealthclub_modify\Controller;
 
+use Drupal\Core\Access\AccessResult;
 use Drupal\Core\Controller\ControllerBase;
-use Drupal\profile\Entity\Profile;
+use Drupal\Core\Session\AccountInterface;
 use Symfony\Component\HttpFoundation\RedirectResponse;
-use function Webmozart\Assert\Tests\StaticAnalysis\inArray;
 
 class MemberController extends ControllerBase {
 
   public function index() {
     $member = \Drupal::currentUser();
-    if ($member->isAnonymous()) {
-      // todo redirect to 403 page
-      $response = new RedirectResponse('/home');
-      $response->send();
-    }
     $variables['memberId'] = $member->id();
     return [
       '#theme' => 'azhealthclub_welcome',
@@ -26,11 +21,6 @@ class MemberController extends ControllerBase {
 
   public function dashboard() {
     $member = \Drupal::currentUser();
-    if ($member->isAnonymous()) {
-      // todo redirect to 403 page
-      $response = new RedirectResponse('/home');
-      $response->send();
-    }
     $roles = $member->getRoles();
     if(!in_array('member', $roles)) {
       // todo: not has member role
@@ -59,6 +49,20 @@ class MemberController extends ControllerBase {
       // todo: not has member profile
     }
 
+  }
+
+  public function access(AccountInterface $account) {
+    if ($account->isAnonymous()) {
+      // redirect page
+      //$response = new RedirectResponse('/home');
+      //$response->send();
+
+      // just forbidden it
+      return AccessResult::forbidden();
+    }
+    else {
+      return AccessResult::allowed();
+    }
   }
 
 }

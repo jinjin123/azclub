@@ -204,9 +204,29 @@ class MultistepOneForm extends MultistepFormBase {
         $form_state->setErrorByName('line1][phone', '請輸入流動電話');
         $form['line1']['phone']['#attributes']['class'][] = 'az-error';
       }
+      else {
+        // check if the phone is unique
+        $database = \Drupal::database();
+        $query = $database->query("SELECT id FROM users_field_data WHERE name = :name", [':name' => $values['phone']]);
+        $result = $query->fetchField();
+        if ($result) {
+          $form_state->setErrorByName('line1][phone', '該流動電話已註冊過');
+          $form['line1']['phone']['#attributes']['class'][] = 'az-error';
+        }
+      }
       if (empty($values['email'])) {
         $form_state->setErrorByName('line1][email', '請輸入電郵地址');
         $form['line1']['email']['#attributes']['class'][] = 'az-error';
+      }
+      else {
+        // check if the mail is unique
+        $database = \Drupal::database();
+        $query = $database->query("SELECT id FROM users_field_data WHERE mail = :mail", [':mail' => $values['email']]);
+        $result = $query->fetchField();
+        if ($result) {
+          $form_state->setErrorByName('line1][phone', '該電郵地址已註冊過');
+          $form['line1']['phone']['#attributes']['class'][] = 'az-error';
+        }
       }
       if (empty($values['pass'])) {
         $form_state->setErrorByName('line2][pass', '請設定密碼');
