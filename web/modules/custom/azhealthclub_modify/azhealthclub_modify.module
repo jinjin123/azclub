@@ -105,8 +105,8 @@ function azhealthclub_modify_form_alter(&$form, \Drupal\Core\Form\FormStateInter
     $form["name"]["#title"] = '';
     $form["name"]["#description"] = '';
     $form['name']['#attributes']['placeholder'] = '電郵地址 / 流動號碼';
-    $form["pass"]["#title"] = '';
 
+    $form["pass"]["#title"] = '';
     $urlGenerator = \Drupal::urlGenerator();
     $url = $urlGenerator->generateFromRoute('user.pass');
     $form["pass"]["#description"] = '<a href="' . $url . '">忘記密碼</a>';

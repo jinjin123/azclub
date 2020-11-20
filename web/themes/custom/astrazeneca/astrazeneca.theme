@@ -220,6 +220,11 @@ function astrazeneca_preprocess_html(&$variables) {
     $variables['attributes']['class'][] = 'boxed';
   }
 
+  // add special class in page by path
+  if ($current_path == '/user/login') {
+    $variables['attributes']['class'][] = 'az-user-login-page';
+  }
+
 }
 
 /**

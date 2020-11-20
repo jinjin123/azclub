@@ -1911,10 +1911,6 @@ footer#footer::after {
 .az-error {
   border: solid 1px red !important;
 }
-html input[disabled] {
-  background-color: grey;
-}
-
 #az-phone-email,#az-pass-confirm-pass,.az-form-element-container {
   overflow: hidden;
 }
@@ -2028,15 +2024,14 @@ footer {
   }
 }
 
-//body {
-//  .path-user #page-main-content > .main-content-inner {
-//    max-width:  500px;
-//  }
-//}
-//
+body.az-user-login-page.path-user #page-main-content  {
+  .main-content-inner {
+    max-width: 500px;
+  }
+}
+
 .path-user {
   .main-content-inner {
-    max-width: 500px !important;
     .free-apply {
        color: #898989;
     }
@@ -2044,7 +2039,6 @@ footer {
       text-align: right;
       padding-bottom: 20px;
       a {
-
         color: #898989;
       }
     }
@@ -2052,7 +2046,10 @@ footer {
       input {
         width: 45%;
         margin-right: 20px;
-        background: #EB1384 !important;
+        background: #EB1384;
+      }
+      input:disabled {
+        background: grey;
       }
       a {
         border-radius: 5px;
