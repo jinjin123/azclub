@@ -73,8 +73,11 @@ function azhealthclub_modify_theme()
        'variables' => []
      ]
    ],
-
-
+    'azhealthclub_memberclinal' =>[
+      'variables' => [
+        'variables' => []
+      ]
+    ]
  ];
 }
 

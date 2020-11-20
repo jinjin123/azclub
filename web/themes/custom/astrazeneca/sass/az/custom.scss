@@ -977,6 +977,7 @@ a.button {
     width: 50%;
     padding-left: 20px;
     padding-top: 20px;
+    font-size: 5px;
 
     .az-clinical_body_title {
       a {
@@ -2136,4 +2137,26 @@ footer {
       width: 500px;
     }
   }
+}
+
+.az-member-clinal {
+  .v-line {
+    border: 1px solid;
+    margin-bottom: 30px;
+    margin-left: 20px;
+  }
+  .az-clinical_box {
+    box-shadow: 5px 0px 5px #d0c9c9;
+    border-radius: 5px;
+    height: 146px;
+    .az-clinical_body {
+       .az-clinical_body_title {
+         font-weight: bold;
+       }
+    }
+  }
+}
+
+#block-astrazeneca-page-title {
+  margin-left: 40px;
 }

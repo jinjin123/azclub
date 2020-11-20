@@ -76,3 +76,14 @@ azhealthclub_modify.relateclinal:
   methods: [POST]
   requirements:
     _custom_access: '\Drupal\azhealthclub_modify\Controller\MemberController::access'
+
+
+azhealthclub_modify.:
+  path: '/memberclinal/{user}'
+  defaults:
+    _controller: '\Drupal\azhealthclub_modify\Controller\MemberController::customclinal'
+    _title: '我的臨床實驗'
+  requirements:
+    _permission: 'access content'
+  options:
+    user: \d+
