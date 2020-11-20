@@ -10,6 +10,7 @@ namespace Drupal\azhealthclub_step_login\Form;
 use Drupal\Core\Form\FormStateInterface;
 use Aws\Sns\SnsClient;
 use Aws\Exception\AwsException;
+use Drupal\views\Plugin\views\argument\NullArgument;
 
 class MultistepOneForm extends MultistepFormBase {
 
@@ -80,7 +81,7 @@ class MultistepOneForm extends MultistepFormBase {
       '#suffix' => '</div>',
       '#ajax' => [
       'callback' => '::sendCodeAjax',
-      'disable-refocus' => FALSE,
+      //'disable-refocus' => FALSE,
       'event' => 'click',
 //      'progress' => [
 //        'type' => 'throbber',
@@ -89,6 +90,7 @@ class MultistepOneForm extends MultistepFormBase {
         'wrapper' => 'az-phone-email',
       ]
     ];
+
     $form['verify_code'] = [
       '#type' => 'textfield',
       '#title' => '',
@@ -181,7 +183,18 @@ class MultistepOneForm extends MultistepFormBase {
     }
 
     if ($bool) {
-      //todo: send code
+      $vrf_code = azhealthclub_step_login_generate_verification_code(4);
+      $uuid_service = \Drupal::service('uuid');
+      $uuid = $uuid_service->generate();
+      $cid = 'vrf_code_' . time() . '_' . $uuid ;
+      \Drupal::cache('vrf_code')->set($cid, $vrf_code, time() + 10*60*1000);
+      $this->store->set('vrf_code_time_uuid', $cid);
+      //send to email
+      $data['to'] = $values['email'];
+      $data['message'] = $vrf_code;
+      azhealthclub_step_login_send_email($data);
+      // todo: send to phone
+
     }
     return $form['line1'];
   }
@@ -207,7 +220,7 @@ class MultistepOneForm extends MultistepFormBase {
       else {
         // check if the phone is unique
         $database = \Drupal::database();
-        $query = $database->query("SELECT id FROM users_field_data WHERE name = :name", [':name' => $values['phone']]);
+        $query = $database->query("SELECT uid FROM users_field_data WHERE name = :name", [':name' => $values['phone']]);
         $result = $query->fetchField();
         if ($result) {
           $form_state->setErrorByName('line1][phone', '該流動電話已註冊過');
@@ -221,7 +234,7 @@ class MultistepOneForm extends MultistepFormBase {
       else {
         // check if the mail is unique
         $database = \Drupal::database();
-        $query = $database->query("SELECT id FROM users_field_data WHERE mail = :mail", [':mail' => $values['email']]);
+        $query = $database->query("SELECT uid FROM users_field_data WHERE mail = :mail", [':mail' => $values['email']]);
         $result = $query->fetchField();
         if ($result) {
           $form_state->setErrorByName('line1][email', '該電郵地址已註冊過');
@@ -240,6 +253,24 @@ class MultistepOneForm extends MultistepFormBase {
         $form_state->setErrorByName('line2', '兩次輸入的密碼不匹配，請重新輸入');
         $form['line2']['#attributes']['class'][] = 'az-error';
       }
+      // check verification code
+      $cid = $this->store->get('vrf_code_time_uuid');
+      $cache = \Drupal::cache('vrf_code')->get($cid);
+      if (!$cache) {
+        $form_state->setErrorByName('verify_code', '無法對驗證碼進行驗證，請重新發送驗證碼');
+        $form['verify_code']['#attributes']['class'][] = 'az-error';
+      }
+      if($cache) {
+        if ($cache->data != $values['verify_code']) {
+          $form_state->setErrorByName('verify_code', '驗證碼錯誤');
+          $form['verify_code']['#attributes']['class'][] = 'az-error';
+        }
+        if (time() > $cache->expire) {
+          $form_state->setErrorByName('verify_code', '驗證碼超時，請重新發送');
+          $form['verify_code']['#attributes']['class'][] = 'az-error';
+        }
+      }
+
     }
 
   }
