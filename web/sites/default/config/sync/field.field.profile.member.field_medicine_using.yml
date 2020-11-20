@@ -1,12 +1,11 @@
-uuid: 12d4f3d3-17b7-4b4f-a3a0-a6349ae0d570
+uuid: 100862e0-0cef-4f3d-8f17-c708c7bf0172
 langcode: en
 status: true
 dependencies:
   config:
     - field.storage.profile.field_medicine_using
+    - node.type.az_product_information
     - profile.type.member
-  module:
-    - options
 id: profile.member.field_medicine_using
 field_name: field_medicine_using
 entity_type: profile
@@ -17,5 +16,13 @@ required: false
 translatable: false
 default_value: {  }
 default_value_callback: ''
-settings: {  }
-field_type: list_string
+settings:
+  handler: 'default:node'
+  handler_settings:
+    target_bundles:
+      az_product_information: az_product_information
+    sort:
+      field: _none
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

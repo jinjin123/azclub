@@ -1,4 +1,4 @@
-uuid: ddbb0a9a-4038-41d0-ad36-48305e5075ed
+uuid: 7318a165-ce01-4f2b-8321-39b4e5072504
 langcode: en
 status: true
 dependencies:
@@ -6,7 +6,7 @@ dependencies:
     - field.storage.profile.field_birthday
     - profile.type.member
   module:
-    - datetime
+    - yearonly
 id: profile.member.field_birthday
 field_name: field_birthday
 entity_type: profile
@@ -17,5 +17,7 @@ required: false
 translatable: false
 default_value: {  }
 default_value_callback: ''
-settings: {  }
-field_type: datetime
+settings:
+  yearonly_from: '1900'
+  yearonly_to: now
+field_type: yearonly

@@ -1,17 +1,16 @@
-uuid: d6f87213-63ca-434c-9436-fc8012e4a345
+uuid: f1e957ae-867e-4962-a9f5-08fe9898b9b8
 langcode: en
 status: true
 dependencies:
   module:
-    - datetime
     - profile
+    - yearonly
 id: profile.field_birthday
 field_name: field_birthday
 entity_type: profile
-type: datetime
-settings:
-  datetime_type: date
-module: datetime
+type: yearonly
+settings: {  }
+module: yearonly
 locked: false
 cardinality: 1
 translatable: true

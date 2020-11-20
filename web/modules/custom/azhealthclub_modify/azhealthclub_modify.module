@@ -6,6 +6,7 @@
  */
 
 use Drupal\Core\Routing\RouteMatchInterface;
+use Drupal\Core\Url;
 use Drupal\views\ViewExecutable;
 use Drupal\Core\StringTranslation;
 
@@ -157,4 +158,87 @@ function azhealthclub_modify_preprocess(&$variables, $hook) {
       $variables['title'] = '登入/加入 康心摯友會';
     }
   }
+}
+
+/**
+ * Implements hook_form_FORM_ID_alter().
+ */
+function azhealthclub_modify_form_multistep_form_one_alter(&$form, \Drupal\Core\Form\FormStateInterface $form_state, $form_id) {
+  $member = \Drupal::currentUser();
+  if ($member->isAnonymous()) {
+    return;
+  }
+  $storage = \Drupal::entityTypeManager()->getStorage('profile');
+  $profile = $storage->loadByUser($member, 'member');
+  $phone = $profile->get('field_phone')->getValue()[0]['value'];
+  $email = $member->getEmail();
+  $account = $member->getAccount();
+  $pass = $account->pass;
+  $attention1 = array_column($profile->get('field_attention1')->getValue(), 'value');
+
+  $form['line1']['phone']['#default_value'] = $phone;
+  $form['line1']['email']['#default_value'] = $email;
+  $form['line2']['pass'] = [
+    '#type' => 'value',
+    '#value' => $pass
+  ];
+  $form['line2']['confirm_pass'] = [
+    '#type' => 'value',
+    '#value' => $pass
+  ];
+  $form['attention1']['#default_value'] = $attention1;
+  $form['attention1']['#disabled'] = TRUE;
+}
+
+/**
+ * Implements hook_form_FORM_ID_alter().
+ */
+function azhealthclub_modify_form_multistep_form_two_alter(&$form, \Drupal\Core\Form\FormStateInterface $form_state, $form_id) {
+  $member = \Drupal::currentUser();
+  if ($member->isAnonymous()) {
+    return;
+  }
+  $storage = \Drupal::entityTypeManager()->getStorage('profile');
+  $profile = $storage->loadByUser($member, 'member');
+  $zh_name = $profile->get('field_zh_name')->getValue()[0]['value'];
+  $en_name = $profile->get('field_en_name')->getValue()[0]['value'];
+  $identification_last4num = $profile->get('field_identification_last4num')->getValue()[0]['value'];
+  $birthday = $profile->get('field_birthday')->getValue()[0]['value'];
+  $gender = $profile->get('field_gender')->getValue()[0]['value'];
+  $attention2 = array_column($profile->get('field_attention2')->getValue(), 'value');
+  $communication_mode = array_column($profile->get('field_communication_mode')->getValue(), 'value');
+
+  $form['zh_name']['#default_value'] = $zh_name;
+  $form['en_name']['#default_value'] = $en_name;
+  $form['identification_last4num']['#default_value'] = $identification_last4num;
+  $form['birthday']['#default_value'] = $birthday;
+  $form['gender']['#default_value'] = $gender;
+  $form['attention2']['#default_value'] = $attention2;
+  $form['communication_mode']['#default_value'] = $communication_mode;
+  $form['actions']['previous'] ['#url'] = Url::fromRoute('azhealthclub_modify.profile1');
+}
+
+/**
+ * Implements hook_form_FORM_ID_alter().
+ */
+function azhealthclub_modify_form_multistep_form_three_alter(&$form, \Drupal\Core\Form\FormStateInterface $form_state, $form_id) {
+  $member = \Drupal::currentUser();
+  if ($member->isAnonymous()) {
+    return;
+  }
+  $storage = \Drupal::entityTypeManager()->getStorage('profile');
+  $profile = $storage->loadByUser($member, 'member');
+  $no_medicine_using_values = $profile->get('field_no_medicine_using')->getValue();
+  $no_medicine_using = isset($no_medicine_using_values[0]['value']) ? $no_medicine_using_values[0]['value'] : '';
+  $ta_type = array_column($profile->get('field_ta_type')->getValue(), 'value');
+  $medicine_using = array_column($profile->get('field_medicine_using')->getValue(), 'value');
+  $where1 = array_column($profile->get('field_where1')->getValue(), 'value');
+  $where2 = array_column($profile->get('field_where2')->getValue(), 'value');
+
+  $form['no_medicine_using']['#default_value'] = $no_medicine_using;
+  $form['ta_type']['#default_value'] = $ta_type;
+  $form['medicine_using']['#default_value'] = $medicine_using;
+  $form['where1']['#default_value'] = $where1;
+  $form['where2']['#default_value'] = $where2;
+  $form['actions']['previous'] ['#url'] = Url::fromRoute('azhealthclub_modify.profile2');
 }

@@ -1,12 +1,12 @@
-uuid: 8386c7c1-d716-4e16-a847-4a46ffe6de90
+uuid: 29a86869-9d58-473a-8d3c-d928f93547d0
 langcode: en
 status: true
 dependencies:
   module:
-    - profile
-id: profile.field_if_medicine_using
-field_name: field_if_medicine_using
-entity_type: profile
+    - node
+id: node.field_promote_to_register_form
+field_name: field_promote_to_register_form
+entity_type: node
 type: boolean
 settings: {  }
 module: core

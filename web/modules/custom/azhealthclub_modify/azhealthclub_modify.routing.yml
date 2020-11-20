@@ -20,14 +20,35 @@ azhealthclub_modify.welcome:
     _controller: '\Drupal\azhealthclub_modify\Controller\MemberController::index'
     _title: ''
   requirements:
-    _permission: 'access content'
+    _custom_access: '\Drupal\azhealthclub_modify\Controller\MemberController::access'
 azhealthclub_modify.dashboard:
   path: '/dashboard'
   defaults:
     _controller: '\Drupal\azhealthclub_modify\Controller\MemberController::dashboard'
     _title: ''
   requirements:
-    _permission: 'access content'
+    _custom_access: '\Drupal\azhealthclub_modify\Controller\MemberController::access'
+azhealthclub_modify.profile1:
+  path: '/profile/1'
+  defaults:
+    _form: '\Drupal\azhealthclub_step_login\Form\MultistepOneForm'
+    _title: '<div class="profile-outline"><div class="profile-title">我的資料</div><div class="login-sub-title">「康心摯友」會</div></div>'
+  requirements:
+    _custom_access: '\Drupal\azhealthclub_modify\Controller\MemberController::access'
+azhealthclub_modify.profile2:
+  path: '/profile/2'
+  defaults:
+    _form: '\Drupal\azhealthclub_step_login\Form\MultistepTwoForm'
+    _title: '<div class="profile-outline"><div class="profile-title">我的資料</div><div class="login-sub-title">「康心摯友」會</div></div>'
+  requirements:
+    _custom_access: '\Drupal\azhealthclub_modify\Controller\MemberController::access'
+azhealthclub_modify.profile3:
+  path: '/profile/3'
+  defaults:
+    _form: '\Drupal\azhealthclub_step_login\Form\MultistepThreeForm'
+    _title: '<div class="profile-outline"><div class="profile-title">我的資料</div><div class="login-sub-title">「康心摯友」會</div></div>'
+  requirements:
+    _custom_access: '\Drupal\azhealthclub_modify\Controller\MemberController::access'
 
 azhealthclub_modify.settings:
   path: '/admin/config/system/azhealthclub_modify/config'
@@ -36,3 +57,12 @@ azhealthclub_modify.settings:
     _title: 'Azhealthclub Modify'
   requirements:
     _permission: 'administer site configuration'
+
+
+azhealthclub_modify.healthgui:
+  path: '/Healthcare-guidance'
+  defaults:
+    _controller: '\Drupal\azhealthclub_modify\Controller\ContactController::health'
+    _title: ''
+  requirements:
+    _permission: 'access content'

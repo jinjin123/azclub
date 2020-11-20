@@ -3,3 +3,5 @@ type: module
 description: 'Some modify code for azhealthclub'
 core_version_requirement: ^9
 package: 'Custom'
+dependencies:
+  - 'azhealthclub_step_login'

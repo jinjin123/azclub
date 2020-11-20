@@ -10,8 +10,8 @@ dependencies:
     - field.field.profile.member.field_en_name
     - field.field.profile.member.field_gender
     - field.field.profile.member.field_identification_last4num
-    - field.field.profile.member.field_if_medicine_using
     - field.field.profile.member.field_medicine_using
+    - field.field.profile.member.field_no_medicine_using
     - field.field.profile.member.field_phone
     - field.field.profile.member.field_ta_type
     - field.field.profile.member.field_where1
@@ -19,7 +19,7 @@ dependencies:
     - field.field.profile.member.field_zh_name
     - profile.type.member
   module:
-    - datetime
+    - yearonly
 id: profile.member.default
 targetEntityType: profile
 bundle: member
@@ -38,10 +38,10 @@ content:
     type: options_select
     region: content
   field_birthday:
-    weight: 31
+    weight: 44
     settings: {  }
     third_party_settings: {  }
-    type: datetime_default
+    type: yearonly_default
     region: content
   field_communication_mode:
     weight: 33
@@ -71,18 +71,22 @@ content:
     third_party_settings: {  }
     type: string_textfield
     region: content
-  field_if_medicine_using:
-    weight: 41
+  field_medicine_using:
+    weight: 45
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: entity_reference_autocomplete
+    region: content
+  field_no_medicine_using:
+    weight: 46
     settings:
       display_label: true
     third_party_settings: {  }
     type: boolean_checkbox
-    region: content
-  field_medicine_using:
-    weight: 35
-    settings: {  }
-    third_party_settings: {  }
-    type: options_select
     region: content
   field_phone:
     weight: 40

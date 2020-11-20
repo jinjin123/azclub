@@ -1,27 +1,17 @@
-uuid: 6540871a-109a-4533-8202-4cdb49c91447
+uuid: 18f286cb-1655-4ce1-a465-1990dfb2f6ea
 langcode: en
 status: true
 dependencies:
   module:
-    - options
+    - node
     - profile
 id: profile.field_medicine_using
 field_name: field_medicine_using
 entity_type: profile
-type: list_string
+type: entity_reference
 settings:
-  allowed_values:
-    -
-      value: '1'
-      label: medicine1
-    -
-      value: '2'
-      label: medicine2
-    -
-      value: '3'
-      label: medicine3
-  allowed_values_function: ''
-module: options
+  target_type: node
+module: core
 locked: false
 cardinality: 1
 translatable: true

@@ -10,8 +10,8 @@ dependencies:
     - field.field.profile.member.field_en_name
     - field.field.profile.member.field_gender
     - field.field.profile.member.field_identification_last4num
-    - field.field.profile.member.field_if_medicine_using
     - field.field.profile.member.field_medicine_using
+    - field.field.profile.member.field_no_medicine_using
     - field.field.profile.member.field_phone
     - field.field.profile.member.field_ta_type
     - field.field.profile.member.field_where1
@@ -19,8 +19,8 @@ dependencies:
     - field.field.profile.member.field_zh_name
     - profile.type.member
   module:
-    - datetime
     - options
+    - yearonly
 id: profile.member.default
 targetEntityType: profile
 bundle: member
@@ -41,13 +41,11 @@ content:
     type: list_default
     region: content
   field_birthday:
-    weight: 5
+    weight: 18
     label: above
-    settings:
-      format_type: medium
-      timezone_override: ''
+    settings: {  }
     third_party_settings: {  }
-    type: datetime_default
+    type: yearonly_default
     region: content
   field_communication_mode:
     weight: 7
@@ -79,8 +77,16 @@ content:
     third_party_settings: {  }
     type: string
     region: content
-  field_if_medicine_using:
-    weight: 15
+  field_medicine_using:
+    weight: 19
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+  field_no_medicine_using:
+    weight: 20
     label: above
     settings:
       format: default
@@ -88,13 +94,6 @@ content:
       format_custom_true: ''
     third_party_settings: {  }
     type: boolean
-    region: content
-  field_medicine_using:
-    weight: 9
-    label: above
-    settings: {  }
-    third_party_settings: {  }
-    type: list_default
     region: content
   field_phone:
     weight: 14

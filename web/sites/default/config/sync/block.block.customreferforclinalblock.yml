@@ -1,0 +1,39 @@
+uuid: ec8b635d-89f3-4769-986a-c2c424f6e509
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:5ec2cae4-6ec9-4714-ab42-4ab0c2903e3c'
+  module:
+    - block_content
+    - block_visibility_groups
+    - gaviasthemer
+    - system
+  theme:
+    - astrazeneca
+third_party_settings:
+  gaviasthemer:
+    classes: ''
+id: customreferforclinalblock
+theme: astrazeneca
+region: before_footer
+weight: 0
+provider: null
+plugin: 'block_content:5ec2cae4-6ec9-4714-ab42-4ab0c2903e3c'
+settings:
+  id: 'block_content:5ec2cae4-6ec9-4714-ab42-4ab0c2903e3c'
+  label: 'custom refer for clinal block'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  condition_group:
+    id: condition_group
+    negate: false
+    block_visibility_group: ''
+  request_path:
+    id: request_path
+    pages: /azhealthclub/clinical-search
+    negate: false

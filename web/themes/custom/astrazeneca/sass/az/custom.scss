@@ -177,6 +177,7 @@ a.button {
     float: $float-left;
     width: 40px;
     height: 40px;
+    margin-right: 10px;
     background: transparent url(../images/iphone.png) no-repeat;
   }
 
@@ -349,6 +350,7 @@ a.button {
   .az-ref__title {
     font-size: 20px;
     font-weight: bold;
+    color:$gray-darker;
   }
 
   .az-ref_hr {
@@ -427,6 +429,12 @@ a.button {
 
   .az-pipline-redbox {
     display: flex;
+    div {
+      padding:10px ;
+      a:hover {
+        cursor: pointer;
+      }
+    }
   }
 }
 
@@ -441,7 +449,7 @@ a.button {
   height: 400px;
   .az-offer_img {
     border-bottom: 7px solid $color-orange;
-    
+
   }
 
   .az-offer_body {
@@ -558,7 +566,7 @@ a.button {
       .az-clinical-search-block {
         display: block;
         background-color: white;
-        width: 80%;
+        width: 70%;
         position: relative;
         margin-right: auto;
         margin-left: auto;
@@ -579,7 +587,7 @@ a.button {
           margin-left: 20px;
 
           .az-search-clinical-type {
-            width: 25%;
+            width: 50%;
             border: 1px solid $color-gray;
             height: 50px;
           }
@@ -1022,7 +1030,8 @@ a.button {
         height: 60px;
         line-height: 60px;
         padding-left: 50px;
-        background-position: 10px;
+        //background-position: 10px;
+        background-position: 0 40%;;
         background-size: 30px 30px;
       }
 
@@ -1031,7 +1040,8 @@ a.button {
         height: 60px;
         line-height: 60px;
         padding-left: 50px;
-        background-position: 10px;
+        background-position: 0 40%;;
+        //background-position: 10px;
         background-size: 30px 30px;
       }
 
@@ -1040,7 +1050,8 @@ a.button {
         height: 60px;
         line-height: 60px;
         padding-left: 50px;
-        background-position: 10px;
+        background-position: 0 40%;;
+        //background-position: 10px;
         background-size: 30px 30px;
       }
     }
@@ -1050,6 +1061,7 @@ a.button {
     border: 1px solid #d0c9c9;
     background-color: white;
     width: 100%;
+    padding:  35px;
     box-shadow: -5px 5px 10px -7px grey, 5px 5px 10px -7px grey;
 
     .az_title {
@@ -1124,10 +1136,18 @@ a.button {
 .webform-submission-contact-form {
   .js-form-item-name {
     float: left;
-    padding-right: 16px;
+    //padding-right: 16px;
     padding-bottom: 10px;
+    input {
+      width: 90%;
+    }
   }
-
+  .js-form-item-email {
+      display: flex;
+      input {
+        width: 100%;
+      }
+  }
   .js-form-item-subject {
     padding-bottom: 10px;
   }
@@ -1137,6 +1157,16 @@ a.button {
 
     input {
       height: 110px;
+    }
+  }
+  .form-item-subject {
+     input {
+       width: 100%;
+     }
+  }
+  .form-item-message {
+    input {
+      width: 100%;
     }
   }
 
@@ -1786,8 +1816,10 @@ footer#footer::after {
 
     .az-clinical-subjest_btnemail {
       margin-right: 10px;
-      border: 1px solid $color-red;
-      background-color: $color-red;
+      //border: 1px solid $color-red;
+      border: 1px solid $color-orange;
+      //background-color: $color-red;
+      background-color: $color-orange;
     }
 
     .az-clinical-subjest_btncancel {
@@ -1889,6 +1921,13 @@ footer#footer::after {
 .az-error {
   border: solid 1px red !important;
 }
+html input[disabled] {
+  background-color: grey;
+}
+
+#az-phone-email,#az-pass-confirm-pass,.az-form-element-container {
+  overflow: hidden;
+}
 
 .path-az-health-club {
   .views-infinite-scroll-content-wrapper {
@@ -1982,4 +2021,119 @@ footer {
 .az-clinical-trial-aritcle {
   position: relative;
   bottom: 80px;
+}
+
+.az-ft-fk {
+  display: flex;
+  .az-ft-img {
+    width: 50%;
+    img {
+      height: auto !important;
+    }
+  }
+  .az-ft-rg-bd {
+    p {
+        color: #767676;
+    }
+  }
+}
+
+//body {
+//  .path-user #page-main-content > .main-content-inner {
+//    max-width:  500px;
+//  }
+//}
+//
+.path-user {
+  .main-content-inner {
+    max-width: 500px !important;
+    .free-apply {
+       color: #898989;
+    }
+    #edit-pass--description {
+      text-align: right;
+      padding-bottom: 20px;
+      a {
+
+        color: #898989;
+      }
+    }
+    .form-actions {
+      input {
+        width: 45%;
+        margin-right: 20px;
+        background: #EB1384 !important;
+      }
+      a {
+        border-radius: 5px;
+        background: #898989 !important;
+        padding-left: 90px;
+      }
+    }
+  }
+}
+
+@media (max-width : 375px) {
+  .path-user {
+    .main-content-inner {
+      .page-title {
+        font-size: 25px;
+      }
+      .form-actions {
+        input {
+          width: 100%;
+          margin-right: 20px;
+          background: #EB1384 !important;
+          margin-bottom: 10px;
+        }
+        a {
+          border-radius: 5px;
+          background: #898989 !important;
+          padding-left: 90px;
+          width: 100%;
+        }
+      }
+    }
+  }
+  .az-contact-right-box {
+    .top-box-img {
+      margin-right: 10px;
+    }
+  }
+}
+
+
+.az-nurse-contentimg {
+  display: flex;
+  margin: 0 500px;
+  img {
+    margin-right:150px;
+  }
+}
+.az-nurse-box {
+  display: flex;
+  height: 200px;
+  width: 100%;
+  background: $color-gray;
+  .container {
+    display: flex;
+    margin: 50px auto;
+    padding: 0 200px;
+  }
+  .az-nurse-left-icon {
+    margin-right:20px;
+    height: 100%;
+    img {
+      height: 80%;
+    }
+  }
+  .az-nurse-right-box {
+    .az-nurse-right-title {
+      font-size:23px;
+      color:$color-red;
+    }
+    .az-nurse-right-body {
+      width: 500px;
+    }
+  }
 }
