@@ -1256,9 +1256,6 @@ footer#footer::after {
 .az-error {
   border: solid 1px red !important; }
 
-html input[disabled] {
-  background-color: grey; }
-
 #az-phone-email, #az-pass-confirm-pass, .az-form-element-container {
   overflow: hidden; }
 
@@ -1312,23 +1309,30 @@ footer .az-product-position .views-infinite-scroll-content-wrapper {
   .az-ft-fk .az-ft-rg-bd p {
     color: #767676; }
 
-.path-user .main-content-inner {
-  max-width: 500px !important; }
-  .path-user .main-content-inner .free-apply {
+body.az-user-login-page.path-user #page-main-content .main-content-inner {
+  max-width: 500px; }
+
+.path-user .main-content-inner .free-apply {
+  color: #898989; }
+
+.path-user .main-content-inner #edit-pass--description {
+  text-align: right;
+  padding-bottom: 20px; }
+  .path-user .main-content-inner #edit-pass--description a {
     color: #898989; }
-  .path-user .main-content-inner #edit-pass--description {
-    text-align: right;
-    padding-bottom: 20px; }
-    .path-user .main-content-inner #edit-pass--description a {
-      color: #898989; }
-  .path-user .main-content-inner .form-actions input {
-    width: 45%;
-    margin-right: 20px;
-    background: #EB1384 !important; }
-  .path-user .main-content-inner .form-actions a {
-    border-radius: 5px;
-    background: #898989 !important;
-    padding-left: 90px; }
+
+.path-user .main-content-inner .form-actions input {
+  width: 45%;
+  margin-right: 20px;
+  background: #EB1384; }
+
+.path-user .main-content-inner .form-actions input:disabled {
+  background: grey; }
+
+.path-user .main-content-inner .form-actions a {
+  border-radius: 5px;
+  background: #898989 !important;
+  padding-left: 90px; }
 
 @media (max-width: 375px) {
   .path-user .main-content-inner .page-title {
