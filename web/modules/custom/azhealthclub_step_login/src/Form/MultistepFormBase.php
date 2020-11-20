@@ -69,7 +69,7 @@ abstract class MultistepFormBase extends FormBase {
   */
   public function buildForm(array $form, FormStateInterface $form_state) {
     // Start a manual session for anonymous users.
-    if ($this->currentUser->isAnonymous() && !isset($_SESSION['multistep_form_holds_session'])) {
+    if (\Drupal::currentUser()->isAnonymous() && !isset($_SESSION['multistep_form_holds_session'])) {
       $_SESSION['multistep_form_holds_session'] = true;
       $this->sessionManager->start();
     }
@@ -181,7 +181,7 @@ abstract class MultistepFormBase extends FormBase {
   * the multistep form.
   */
   protected function deleteStore() {
-    $keys = ['phone', 'email', 'pass', 'attention1',
+    $keys = ['phone', 'email', 'pass', 'attention1', 'vrf_code_time_uuid',
       'zh_name', 'en_name', 'identification_last4num', 'birthday', 'gender', 'attention2', 'communication_mode',
       'no_medicine_using', 'ta_type', 'medicine_using', 'where1', 'where2'
     ];

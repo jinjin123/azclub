@@ -1,0 +1,7 @@
+services:
+  cache.vrf_code:
+    class: Drupal\Core\Cache\CacheBackendInterface
+    tags:
+      - { name: cache.vrf_code }
+    factory: cache_factory:get
+    arguments: [vrf_code]
