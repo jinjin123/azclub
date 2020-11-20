@@ -2,20 +2,20 @@ azhealthclub_step_login.multistep_one:
   path: '/user/register/1'
   defaults:
     _form: '\Drupal\azhealthclub_step_login\Form\MultistepOneForm'
-    _title: '<div class="login-outline"><div class="login-title">加入康心摯友會</div><div class="login-sub-title">免費申請加入「康心摯<br/>友」計劃</div></div>'
+    _title: '<div class="login-outline"><div class="login-title">加入康心摯友會</div><div class="login-sub-title">免費申請加入「康心摯友」計劃</div></div>'
   requirements:
     _access: 'TRUE'
 azhealthclub_step_login.multistep_two:
   path: '/user/register/2'
   defaults:
     _form: '\Drupal\azhealthclub_step_login\Form\MultistepTwoForm'
-    _title: '<div class="login-outline"><div class="login-title">加入康心摯友會</div><div class="login-sub-title">免費申請加入「康心摯<br/>友」計劃</div></div>'
+    _title: '<div class="login-outline"><div class="login-title">加入康心摯友會</div><div class="login-sub-title">免費申請加入「康心摯友」計劃</div></div>'
   requirements:
     _access: 'TRUE'
 azhealthclub_step_login.multistep_three:
   path: '/user/register/3'
   defaults:
     _form: '\Drupal\azhealthclub_step_login\Form\MultistepThreeForm'
-    _title: '<div class="login-outline"><div class="login-title">加入康心摯友會</div><div class="login-sub-title">免費申請加入「康心摯<br/>友」計劃</div></div>'
+    _title: '<div class="login-outline"><div class="login-title">加入康心摯友會</div><div class="login-sub-title">免費申請加入「康心摯友」計劃</div></div>'
   requirements:
     _access: 'TRUE'

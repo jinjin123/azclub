@@ -85,7 +85,17 @@ Drupal.behaviors.PharmaTheme = {
       })
       $(".az-clinical-subjest_btnemail").click(function (){
          if($(".az-clinical-ckb")[0].checked){
-           console.log("aa")
+           // console.log("aa")
+           var mail = $(".az-clinical-inputemil")[0].value
+           var relnode = location.pathname
+           var dataser = {"mail":mail,"relnode":relnode}
+           $.post("/relateclinal", JSON.stringify(dataser), function (data) {
+             if(data=="ok"){
+               $(".az-clinical-subjest-email").css("display","none");
+             }
+           }).fail(function (){
+             alert("请登录");
+           })
          }else {
            $(".az-clinical-ckb-box").css("border","1px solid red")
          }
@@ -183,37 +193,14 @@ Drupal.behaviors.PharmaTheme = {
     // health tips bg
    // $(".az-healthtips_head").parent().parent().css("background-color","oranage");
 
+  //top banner
+  //   $("body").click(function(){
+  //     console.log($(".breadcrumb")[0].innerText)
+  //   })
+  //   var ttt = $(".breadcrumb")[0].innerText.split(" ")
+  //   $(".az-top-banner h1")[0].textContent = ttt[1].replace("-","") + ttt[2].replace("-","/") + "\n" +ttt[3].replace("-","/") + ttt[4].replace("-","/") + ttt[5].replace("-","/")
+    if($(".az-top-banner").length > 0){
+      $(".az-top-banner h1")[0].textContent =  $(".breadcrumb")[0].innerText
+    }
   }
 };
-  //http://localhost:30000/Clinical/search-result?field_az_conditions_term_target_id=10&field_az_se_value=1&field_az_clinical_age_value=1
-  // $(".az-search-button").click(function(){
-  //   var clinic_s_type=$("#az_clinic_select_type").val();
-  //   alert(clinic_s_type.val());  console.log();
-  // })
-  // console.log("fdsfsf")
-  // $(".body-page").on('click',function (){
-  //   console.log("fdsfsf")
-  // })
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

@@ -1,0 +1,39 @@
+uuid: c6fb5f5d-2494-4722-a7c1-1400311b45df
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:b2019e4e-3d83-4be8-a6c4-b9bcf8cecddd'
+  module:
+    - block_content
+    - block_visibility_groups
+    - gaviasthemer
+    - system
+  theme:
+    - astrazeneca
+third_party_settings:
+  gaviasthemer:
+    classes: ''
+id: topbanner
+theme: astrazeneca
+region: breadcrumbs
+weight: -21
+provider: null
+plugin: 'block_content:b2019e4e-3d83-4be8-a6c4-b9bcf8cecddd'
+settings:
+  id: 'block_content:b2019e4e-3d83-4be8-a6c4-b9bcf8cecddd'
+  label: 'top banner '
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  condition_group:
+    id: condition_group
+    negate: false
+    block_visibility_group: ''
+  request_path:
+    id: request_path
+    pages: "<front>\r\n/user/register/*"
+    negate: true

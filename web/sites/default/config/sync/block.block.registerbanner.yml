@@ -1,0 +1,39 @@
+uuid: eb26716d-e194-4a87-9fbb-8603a41ec4f0
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:a90d650d-d04a-44c9-b1a8-4b2d5a77a24e'
+  module:
+    - block_content
+    - block_visibility_groups
+    - gaviasthemer
+    - system
+  theme:
+    - astrazeneca
+third_party_settings:
+  gaviasthemer:
+    classes: ''
+id: registerbanner
+theme: astrazeneca
+region: breadcrumbs
+weight: -22
+provider: null
+plugin: 'block_content:a90d650d-d04a-44c9-b1a8-4b2d5a77a24e'
+settings:
+  id: 'block_content:a90d650d-d04a-44c9-b1a8-4b2d5a77a24e'
+  label: 'register one banner '
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  condition_group:
+    id: condition_group
+    negate: false
+    block_visibility_group: ''
+  request_path:
+    id: request_path
+    pages: /user/register/1
+    negate: false

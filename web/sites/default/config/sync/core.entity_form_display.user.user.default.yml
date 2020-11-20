@@ -3,6 +3,7 @@ langcode: en
 status: true
 dependencies:
   config:
+    - field.field.user.user.field_relate_clinal
     - field.field.user.user.user_picture
     - image.style.thumbnail
   module:
@@ -26,6 +27,12 @@ content:
     region: content
     settings: {  }
     third_party_settings: {  }
+  field_relate_clinal:
+    weight: 8
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+    region: content
   language:
     weight: 1
     region: content

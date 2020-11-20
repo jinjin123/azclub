@@ -1,0 +1,39 @@
+uuid: ead62dce-3dca-4498-9ae9-ee520ec61a06
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:b7c8f079-4056-4465-8d91-7e8f7e61d54b'
+  module:
+    - block_content
+    - block_visibility_groups
+    - gaviasthemer
+    - system
+  theme:
+    - astrazeneca
+third_party_settings:
+  gaviasthemer:
+    classes: ''
+id: registeroneblock
+theme: astrazeneca
+region: breadcrumbs
+weight: -19
+provider: null
+plugin: 'block_content:b7c8f079-4056-4465-8d91-7e8f7e61d54b'
+settings:
+  id: 'block_content:b7c8f079-4056-4465-8d91-7e8f7e61d54b'
+  label: 'register one block'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  condition_group:
+    id: condition_group
+    negate: false
+    block_visibility_group: ''
+  request_path:
+    id: request_path
+    pages: /user/register/1
+    negate: false

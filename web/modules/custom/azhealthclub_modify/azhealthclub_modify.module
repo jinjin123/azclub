@@ -7,8 +7,10 @@
 
 use Drupal\Core\Routing\RouteMatchInterface;
 use Drupal\Core\Url;
+use Drupal\user\UserInterface;
 use Drupal\views\ViewExecutable;
 use Drupal\Core\StringTranslation;
+use Symfony\Component\HttpFoundation\RedirectResponse;
 
 /**
  * Implements hook_help().
@@ -73,8 +75,11 @@ function azhealthclub_modify_theme()
        'variables' => []
      ]
    ],
-
-
+    'azhealthclub_memberclinal' =>[
+      'variables' => [
+        'variables' => []
+      ]
+    ]
  ];
 }
 
@@ -102,9 +107,9 @@ function azhealthclub_modify_form_alter(&$form, \Drupal\Core\Form\FormStateInter
 
     $form["name"]["#title"] = '';
     $form["name"]["#description"] = '';
-    $form['name']['#attributes']['placeholder'] = '登入名稱';
-    $form["pass"]["#title"] = '';
+    $form['name']['#attributes']['placeholder'] = '電郵地址 / 流動號碼';
 
+    $form["pass"]["#title"] = '';
     $urlGenerator = \Drupal::urlGenerator();
     $url = $urlGenerator->generateFromRoute('user.pass');
     $form["pass"]["#description"] = '<a href="' . $url . '">忘記密碼</a>';
@@ -114,11 +119,13 @@ function azhealthclub_modify_form_alter(&$form, \Drupal\Core\Form\FormStateInter
     $form["actions"]["register"] = [
       '#title' => '加入康心摯友會',
       '#type' => 'link',
-      '#url' => \Drupal\Core\Url::fromRoute('azhealthclub_step_login.multistep_one'),
+      '#url' => Url::fromRoute('azhealthclub_step_login.multistep_one'),
       '#attributes'=> [
         'class' => ['btn'],
       ],
     ];
+
+    array_unshift($form["#validate"], 'azhealthclub_modify_login_validate');
   }
 
 }
@@ -242,3 +249,28 @@ function azhealthclub_modify_form_multistep_form_three_alter(&$form, \Drupal\Cor
   $form['where2']['#default_value'] = $where2;
   $form['actions']['previous'] ['#url'] = Url::fromRoute('azhealthclub_modify.profile2');
 }
+
+function azhealthclub_modify_login_validate($form, &$form_state) {
+  // if the name value is email, replace it to be phone
+  $values= $form_state->getValues();
+  if (filter_var($values["name"], FILTER_VALIDATE_EMAIL)) {
+    $database = \Drupal::database();
+    $query = $database->query("SELECT name FROM users_field_data WHERE mail = :mail", [':mail' => $values['name']]);
+    $result = $query->fetchField();
+    if ($result) {
+      // change the email value to be phone value.
+      $form_state->setValueForElement($form['name'], $result);
+    }
+  }
+}
+
+/**
+ * Implements hook_user_login().
+ */
+function azhealthclub_modify_user_login(UserInterface $account) {
+  if ($account->hasRole('member')) {
+    $response = new RedirectResponse("/welcome");
+    $response->send();
+  }
+}
+

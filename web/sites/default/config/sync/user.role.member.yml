@@ -6,4 +6,9 @@ id: member
 label: member
 weight: 4
 is_admin: null
-permissions: {  }
+permissions:
+  - 'access profile overview'
+  - 'update own member profile'
+  - 'view own member profile'
+  - 'view own profile'
+  - 'view own unpublished profile'

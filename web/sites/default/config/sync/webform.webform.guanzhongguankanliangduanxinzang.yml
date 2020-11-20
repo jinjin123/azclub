@@ -10,9 +10,9 @@ template: false
 archive: false
 id: guanzhongguankanliangduanxinzang
 title: 觀眾觀看兩段心臟健康大使Bob的教育短片後，對此症的認識有否增加
-description: "<pre>\r\n急性冠状動脈综合症是全球常見死亡原因之ー・大眾須多加提防。本次問卷調查欲了解\r\n眾觀看兩段心健康大使Bob的教育短片後,對此症的認識有否增加,所得数據只作统計\r\n之用,並不會收集任何個人資料</pre>"
+description: ''
 category: ''
-elements: "1_nirenweiyixialiangduanxinzangjiankangdashibobdejiaoyuduanpiand:\n  '#type': radios\n  '#title': 1.你認為以下兩段心臟健康大使Bob的教育短片對你有幫助嗎？（0為沒有幫助，5分為極有幫助）\n  '#title_display': inline\n  '#options':\n    - '0'\n    - '1'\n    - '2'\n    - '3'\n    - '4'\n    - '5'\n  '#options_display': side_by_side\nguanshangduanpianhou_nirenweitongbozihou_huanzhexufuyongshuangka:\n  '#type': radios\n  '#title': 2.觀賞短片後，你認為通波仔後，患者須服用雙抗血小板藥物多久呢？\n  '#options':\n    1: 1年\n    2: 2年\n    3: 3年\n    4: 4年\n  '#options_display': side_by_side\n3_nishifoucengjingtongbozi_:\n  '#type': radios\n  '#title': 3.你是否曾經通波仔？\n  '#options':\n    - 是\n    - 否\n  '#options_display': side_by_side\nactions:\n  '#type': webform_actions\n  '#title': 'Submit button(s)'\n  '#submit__label': 提交問卷"
+elements: "markup:\n  '#type': webform_markup\n  '#markup': |\n    <pre>\n    急性冠状動脈综合症是全球常見死亡原因之ー・大眾須多加提防。本次問卷調查欲了解\n    眾觀看兩段心健康大使Bob的教育短片後,對此症的認識有否增加,所得数據只作统計\n    之用,並不會收集任何個人資料</pre>\n    \n1_nirenweiyixialiangduanxinzangjiankangdashibobdejiaoyuduanpiand:\n  '#type': radios\n  '#title': 1.你認為以下兩段心臟健康大使Bob的教育短片對你有幫助嗎？（0為沒有幫助，5分為極有幫助）\n  '#title_display': inline\n  '#options':\n    - '0'\n    - '1'\n    - '2'\n    - '3'\n    - '4'\n    - '5'\n  '#options_display': side_by_side\nguanshangduanpianhou_nirenweitongbozihou_huanzhexufuyongshuangka:\n  '#type': radios\n  '#title': 2.觀賞短片後，你認為通波仔後，患者須服用雙抗血小板藥物多久呢？\n  '#options':\n    1: 1年\n    2: 2年\n    3: 3年\n    4: 4年\n  '#options_display': side_by_side\n3_nishifoucengjingtongbozi_:\n  '#type': radios\n  '#title': 3.你是否曾經通波仔？\n  '#options':\n    - 是\n    - 否\n  '#options_display': side_by_side\nactions:\n  '#type': webform_actions\n  '#title': 'Submit button(s)'\n  '#submit__label': 提交問卷"
 css: ''
 javascript: ''
 settings:

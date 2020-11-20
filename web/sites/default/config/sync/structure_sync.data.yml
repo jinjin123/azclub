@@ -406,6 +406,45 @@ blocks:
           value: "<div class=\"az-ref-box\">\r\n<div class=\"az-ref__title\">參考：</div>\r\n\r\n<div class=\"az-ref_hr\">&nbsp;</div>\r\n\r\n<div class=\"az-ref__body\">\r\n<p>香港衛生署衛生防衛中心.心臟病:引言&amp;本地情況&amp;高危因素.Available at https://www.chp.gov.hk/tc/content/9/25/57htmlAccessedon18-12-18</p>\r\n\r\n<p>醫院管理局 智友網 冠心病 Available at http://www21.ha.org.hk/smartpatient/SPW/zh-HK/Disease-Information/Disease/?guid=f9899bdc-ad84-460b-825a-6fdd85a079d6 Accessed on 18-12-18</p>\r\n\r\n<p>British Heart Foundation. Diabetes and your Heart. Available at https://www.bhf.org.uk/-/media/files/publications/large-print/bhf_his22_diabetes_and_your_heart_a4.pdf Accessed on 28-11-18 Accessed on 18-12-18</p>\r\n\r\n<p>香港衛生衛生防護中心 男性常見疾病 冠狀動脈心臟病. Available at https://www.chp.gov.hk/tc/static/80035.html Accessed on 18-12-18</p>\r\n\r\n<p>World Health Organization.Cardiovascular Diseases(CVDs).Available at http://wwww.who.int/mediacentre/factsheets/fs317/en/ Accessed on 18-12-18</p>\r\n\r\n<p>The telegraph.One In Three Heart Attacks Feel Like Indigestion, Warns British Heart Foundation.Available at https://www.telegraphcouk/science/2016/04/11/one-in-three-heart-attacks-feel-like-indigestion-warns-british-h/ Accessed on 18-12-18</p>\r\n\r\n<p>香港衛生衛生防護中心.口服抗心絞痛藥.Available at https://www.drugoffce.gov.hk/eps/do/tc/consumer/news_informations/dm_27.html#b Accessed on 18-12-18</p>\r\n\r\n<p>American Heart Association.CPR &amp; ECC Guidelines.Available at https://eccguidelines.heart.org/index.php/circulation/cpr-ecc-guidelines-2/executive-summaries/?strue=1&amp;id=3-5-2 Accesed on 18-12-18</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p>HK-2061 15/02/2019</p>\r\n</div>\r\n</div>\r\n"
           summary: ''
           format: full_html
+  -
+    info: 'top banner '
+    langcode: en
+    uuid: b2019e4e-3d83-4be8-a6c4-b9bcf8cecddd
+    bundle: basic
+    revision_id: null
+    rev_id_current: null
+    fields:
+      body:
+        -
+          value: "<div class=\"az-top-banner\">\r\n<h1>&nbsp;</h1>\r\n<img alt=\"\" data-entity-type=\"file\" data-entity-uuid=\"\" height=\"400\" src=\"/sites/default/files/imce_upload/admin/home-banner.png\" width=\"1430\" /></div>\r\n"
+          summary: ''
+          format: full_html
+  -
+    info: 'register one block'
+    langcode: en
+    uuid: b7c8f079-4056-4465-8d91-7e8f7e61d54b
+    bundle: basic
+    revision_id: null
+    rev_id_current: null
+    fields:
+      body:
+        -
+          value: "<div class=\"az-register-one\">\r\n       <div class=\"az-register-onebox\">\r\n           <img alt=\"\" data-entity-type=\"file\" data-entity-uuid=\"08ee6784-d453-4257-9b4d-9cae5cf2b728\" height=\"344\" src=\"/sites/default/files/imce_upload/admin/image.png\" width=\"602\" />\r\n       </div>\r\n</div>\r\n"
+          summary: ''
+          format: full_html
+  -
+    info: 'register banner '
+    langcode: en
+    uuid: a90d650d-d04a-44c9-b1a8-4b2d5a77a24e
+    bundle: basic
+    revision_id: null
+    rev_id_current: null
+    fields:
+      body:
+        -
+          value: "<div class=\"az-register-one-banner\" >\r\n<img alt=\"\" data-entity-type=\"file\" data-entity-uuid=\"6df8e12b-1dd7-4587-bf99-1b37c3cc7854\" height=\"179\" src=\"/sites/default/files/imce_upload/admin/2020-11-20_16-33.png\" width=\"993\" />\r\n</div>\r\n"
+          summary: ''
+          format: full_html
 menus:
   -
     menu_name: footer

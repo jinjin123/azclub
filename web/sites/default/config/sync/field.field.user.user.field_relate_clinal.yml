@@ -1,0 +1,21 @@
+uuid: 0dcbc53e-6f48-4c3c-99dc-3ba495df1446
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.user.field_relate_clinal
+  module:
+    - options
+    - user
+id: user.user.field_relate_clinal
+field_name: field_relate_clinal
+entity_type: user
+bundle: user
+label: 'relate clinal'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

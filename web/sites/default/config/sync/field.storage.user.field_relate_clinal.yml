@@ -1,0 +1,21 @@
+uuid: efdb573e-5208-418f-a8b4-511a27c1b3b9
+langcode: en
+status: true
+dependencies:
+  module:
+    - options
+    - user
+id: user.field_relate_clinal
+field_name: field_relate_clinal
+entity_type: user
+type: list_string
+settings:
+  allowed_values: {  }
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

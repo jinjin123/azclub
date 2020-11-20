@@ -220,6 +220,13 @@ function astrazeneca_preprocess_html(&$variables) {
     $variables['attributes']['class'][] = 'boxed';
   }
 
+  // add special class in page by path
+  if ($current_path == '/user/login') {
+    $variables['attributes']['class'][] = 'az-user-login-page';
+  }
+  if (strpos($current_path,'register')  !== false) {
+    $variables['attributes']['class'][] = 'az-user-register';
+  }
 }
 
 /**
@@ -244,7 +251,7 @@ function astrazeneca_preprocess_block(&$variables) {
   }
 }
 
-function astrazeneca_preprocess_block__system_breadcrumb_block(&$variables){
+/*function astrazeneca_preprocess_block__system_breadcrumb_block(&$variables){
   $variables['#cache']['max-age'] = 0;
   $styles = array();
   $bg_image = base_path() . drupal_get_path('theme', 'astrazeneca') . '/images/breadcrumb.jpg';
@@ -310,7 +317,7 @@ function astrazeneca_preprocess_block__system_breadcrumb_block(&$variables){
       $variables['custom_classes'] = 'hidden-breadcrumb-links';
    }
   }
-}
+}*/
 
 
 /**
