@@ -43,12 +43,22 @@
       </div>
      <div class="az-header_bottom">
        <div class="container p-static az-header-bbox">
-         <div class="header-inner clearfix col-lg-9 col-md-9">
+         <div class="header-inner clearfix col-lg-9 col-md-9 col-xs-2">
            <div class="main-menu">
              <div class="area-main-menu">
                <div class="area-inner">
                  <div class="gva-offcanvas-mobile az-header_bottom_menu">
-                   <div class="close-offcanvas hidden"><i class="gv-icon-8"></i></div>
+{#                   <div class="close-offcanvas hidden"><i class="gv-icon-8"></i></div>#}
+{#                   <div class="close-offcanvas hidden">#}
+{#                     <div >#}
+{#                       <a href="/" title="Home" rel="home" class="site-branding-logo col-xs-12">#}
+{#                         <img src="/themes/custom/astrazeneca/logo.png" alt="Home">#}
+{#                       </a>#}
+{#                       <button type="button" class="close" data-dismiss="modal" aria-label="Close">#}
+{#                         <span aria-hidden="true">×</span>#}
+{#                       </button>#}
+{#                     </div>#}
+{#                   </div>#}
                    {% if page.main_menu %}
                      {{ page.main_menu }}
                    {% endif %}
@@ -81,7 +91,7 @@
              </div>
            </div>
          </div>
-         <div class="az-header-search-box col-lg-2 col-md-2 col-sm-9 col-xs-11">
+         <div class="az-header-search-box col-lg-2 col-md-2 col-sm-9 col-xs-8">
            {#                  <span class="icon"><i class="fa fa-search"></i>{{ drupal_entity("block","searchform",check_access=false)  }}</span>#}
            <span class="icon">{{ drupal_entity("block","searchform",check_access=false)  }}</span>
            {#                  <span class="icon"><i class="fa fa-search"></i></span>#}

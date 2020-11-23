@@ -2,7 +2,8 @@
 
 body {
   //background-color:  $head-cus!important;
-  overflow: hidden;
+  //overflow: hidden;
+  overflow: auto;
 }
 
 //参考
@@ -441,7 +442,7 @@ a.button {
 
 .az-offer_box {
   float: left;
-  margin: 20px;
+  margin-bottom: 20px;
   padding-bottom: 20px;
   border: 1px solid $color-gray;
   position: relative;
@@ -1650,18 +1651,22 @@ footer#footer::after {
     .ui-tabs-nav {
       border: none;
       background: none;
+      text-align: center;
 
       li {
         border: none;
         background: none;
+        margin: 0;
+        display: inline-block;
+        float: unset;
 
         a {
           color: black;
-          display: flex;
-          align-items: center;
+          text-align: center;
+          font-weight: bolder;
 
           img {
-            margin-right: 10px;
+            margin-bottom: 5px;
           }
         }
       }
@@ -1832,14 +1837,15 @@ footer#footer::after {
 }
 
 // front page
-// .page-node-7 {
-//   #block-views-block-ta-campaign-block-1 {
-//     overflow: hidden;
-//     .view-content-wrap {
-//       overflow: hidden;
-//     }
-//   }
-// }
+.page-node_7 {
+  .content-main {
+    text-align: center;
+    p {
+      color:#898989;
+    }
+  }
+}
+
 .az-product-position {
   .az-product_headtwo {
     height: 300px;
@@ -2106,8 +2112,349 @@ body.az-user-login-page.path-user #page-main-content  {
       margin-right: 10px;
     }
   }
+  #az_clinic_select_type {
+    width: 95%;
+    margin-bottom: 10px;
+  }
+  #az_clinic_select_sex {
+    width: 50%;
+  }
+  .az-clinical__search_body {
+    .az-search-button {
+      width: 40% !important;
+    }
+  }
+  .az-clinical-search-block {
+    height: 220px !important;
+    box-shadow:0px 0px 0px #d0c9c9 !important;
+    width: 80%;
+  }
+  .az-clinical-search_box {
+    .az-clincal-searright {
+      display: flex;
+      position: relative;
+      top: -40px;
+      .az-clincal-search_button {
+        input {
+          width: 100% !important;
+        }
+      }
+      .az-clincal-search_icon {
+        width: 50px !important;
+      }
+    }
+  }
+  .az-clinical_box {
+    padding-bottom: 20px;
+    .az-clinical_img {
+      height: 185px;
+      img {
+        height: 100%;
+      }
+    }
+  }
+  .az-clinical-trial-aritcle {
+    margin-top: 40px;
+  }
+  .az_clinical_bottom_box {
+    height: 300px !important;
+    margin-bottom: 50px;
+    .az__bottom_right_box {
+      float: none;
+      position: relative;
+      top: 60px;
+      width: 100% !important;
+      margin: 0 !important;
+      .az__bottom_right_box_title {
+        text-align: center;
+      }
+    }
+    .az__bottom_left_box {
+      width: 100%;
+      float: none;
+    }
+  }
+  .az-ref-box {
+    width: 100%;
+    word-break: break-all;
+  }
+  .webform-submission-newsletter-subscription-form {
+    display: block !important;
+    div {
+      width: 100% !important;
+      margin-bottom: 10px;
+    }
+  }
+  .az-product_head {
+    .az-pipline-redbox {
+      display: block;
+    }
+  }
+  .az-clinical-product-search {
+    margin-top: 800px;
+  }
+  .az-clinical-right-box {
+    margin: 0 15px;
+    padding: 0;
+    div {
+      .field--name-field-az-clinical-page-image {
+        img {
+          width: 100%;
+        }
+      }
+      label {
+        padding-right: 10px;
+      }
+    }
+    .az-clinical-rbx_logo {
+      left:30px !important;
+    }
+  }
+  .az-clinical-subjest-email {
+    .az-clinical-subjest-body {
+       width: 350px !important;
+        div {
+            span {
+               margin:0 !important;
+            }
+          }
+        .az-clinical-ckb-box {
+          margin-left: 15%;
+        }
+        .az-clinical-ckb-box {
+          margin-left: 15% !important;
+        }
+        .az-clinical-subjest_btn {
+          display: flex;
+        }
+    }
+  }
+  .az-clinical-right-kv {
+    .row {
+     .shares {
+       float: right;
+       text-align: right;
+       top: -90px;
+     }
+    }
+  }
+  #block-astrazeneca-page-title {
+    top: 1030px !important;
+    margin-left: 15px !important;
+    float: left;
+    position: relative;
+    word-break: break-all;
+    div {
+      .page-title {
+        .az-article-header {
+          word-break: break-all;
+          left: 0 !important;
+        }
+      }
+    }
+  }
+  .node--type-az-clinical-experience-process {
+    .node__content {
+      .field--name-body {
+        width: 100%;
+        left: 0 !important;
+        word-break: break-all;
+        top: 0 !important;
+        padding: 20px;
+        margin: 0 10px!important;
+        margin-bottom: 30px !important;
+      }
+      .field--name-field-az-clinical-mid-params {
+        width: 100%;
+        display: block;
+        position: relative;
+        margin: 10px 20px !important;
+        top: -150px;
+      }
+    }
+  }
+  .field--name-field-az-clinical-category-item {
+    width: 100% !important;
+    .field__item {
+      margin-bottom: 30px;
+      .az-clinical-middle-kv {
+        .az-middle-box {
+          .az-clinical-mid__boom {
+            .az-middle-trialimg {
+              width: 100%;
+              .field--name-field__clinical-trial-img {
+                height: 100%;
+                img {
+                  height: 100%;
+                }
+              }
+            }
+            .az-middle-rgx {
+              margin-left: 20px;
+              .field--name-field-clinical-name {
+                color:$color-orange;
+                font-weight: bold;
+                font-size: 15px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  .az-gb-refer {
+    margin: 0 20px !important;
+    word-break: break-all;
+    width: 90%;
+  }
+  .az-product_head {
+    position: relative;
+    top: -40px;
+    display: block;
+    width: 100% !important;
+    .az-product_head__title1 {
+      font-size: 10px;
+      text-align: center;
+    }
+    .az-product_head__title2 {
+      font-size: 30px;
+      font-weight: bold;
+    }
+  }
+  .block-quicktabs {
+    .quicktabs-ui-wrapper {
+      .ui-tabs-nav {
+        display: flex;
+        flex-wrap: wrap;
+        .ui-tabs-tab {
+          margin-right: 30px;
+          width: 15%;
+          .ui-tabs-anchor {
+            display: grid;
+            font-size:5px !important;
+            img {
+              width: 35px;
+              height: 35px;
+            }
+          }
+        }
+      }
+    }
+  }
+  .az-product-searright {
+    display: flex;
+    .az-product-search_button {
+      input {
+        width: 100%;
+      }
+    }
+    .az-product-search_icon {
+      width: 50px !important;
+    }
+  }
+  .az-product_box {
+    margin: 0 !important;
+    .az-product_img {
+      height: 100%;
+      img {
+        height: 100%;
+      }
+    }
+    .az-product_body {
+      position: relative;
+      top: 20px;
+    }
+  }
+  .az-qk-tab {
+    margin-bottom: 15px;
+  }
+  .az-product_selectbox {
+    .az-product_selectbox_content {
+      width: 350px;
+      height: 350px;
+      .az-product_selectbox_btn {
+        display: flex;
+      }
+    }
+  }
+  .az-product_duplicate {
+    .az-product_duplicate_content {
+      background-color: $color-thingrey ;
+      width: 90% !important;
+      height: 630px !important;
+      .az-product_duplicate_img {
+        width: 100%;
+        img {
+          width: 100%;
+        }
+      }
+      .az-product-icon {
+        margin: 0 !important;
+        margin-left: 30px !important;
+        top: -25px;
+        position: relative;
+      }
+      .az-product_duplicate_body {
+        padding: 20px !important;
+        width: 80%;
+      }
+    }
+  }
+  .az-offer-mobile {
+    padding: 20px !important;
+    margin-bottom: 20px;
+    .views-field-body {
+      .field-content{
+        .az-offer_box {
+          margin: 0 !important;
+          .az-offer_img {
+            img {
+              width: 100%;
+            }
+          }
+        }
+      }
+    }
+  }
+  .az-offers_product_box {
+    margin: 0 30px;
+    left:0 !important;
+    top: -280px !important;
+  }
+  .az-offer-detail {
+    position: relative;
+    top: -980px;
+    .shares {
+      left: 380px;
+    }
+  }
+  .az-offerdetail-article-header {
+    text-align: left;
+    left: 0 !important;
+    top: -520px !important;
+  }
+  .az-offernode__content_body {
+    left: 0 !important;
+    top: -60px !important;
+    margin: 0 30px;
+  }
+  .az-offers_shop{
+    width: 100%;
+    top: -60px;
+    margin: 0 !important;
+  }
+  .az-medicine-shop-header {
+    left: 0 !important;
+  }
+  .field--name-field-medicine-shop-params {
+    left: -60px !important;
+    position: relative;
+  }
 }
 
+.az-offer-detail {
+  display: flex;
+}
 
 .az-nurse-contentimg {
   display: flex;
@@ -2186,7 +2533,7 @@ body.az-user-login-page.path-user #page-main-content  {
 // top banner
 .az-top-banner {
   position: relative;
-  top: -68px;
+  top: -18px;
   h1 {
     position: relative;
     text-align: center;
@@ -2295,3 +2642,110 @@ body.az-user-login-page.path-user #page-main-content  {
   }
 }
 
+
+//@media(max-width: 991px) {
+// .gva-offcanvas-mobile {
+//   margin-left: 100%;
+//   //left:200px !important;
+//   max-width: 991px;
+//   .close-offcanvas {
+//     //text-align: right;
+//     padding: 15px 15px;
+//     div {
+//       display: flex;
+//       .close {
+//         float: right;
+//         font-size: 50px;
+//         font-weight: 100;
+//         line-height: 1;
+//         color: #000;
+//         text-shadow: 0 1px 0 #fff;
+//         opacity: .2;
+//         position: relative;
+//         //top: -15px;
+//       }
+//     }
+//   }
+// }
+//}
+@media only screen and (min-width: 767px) {
+  #sidebar-wrapper {
+    display: none;
+  }
+}
+@media only screen and (max-width: 767px) {
+  #sidebar-wrapper {
+    background: white;
+    height: 100%;
+    overflow: auto;
+    .mobile-header-menu {
+      margin-bottom: 20px;
+      //margin-top: 15px;
+      //padding-top: 10px;
+      padding: 10px;
+      box-shadow: 0px 0px 0px 1px #eeeeee;
+      div {
+        text-align: center;
+        display: flex;
+         .close {
+           float: right;
+           font-size: 50px;
+           font-weight: 100;
+           line-height: 1;
+           color: #000;
+           text-shadow: 0 1px 0 #fff;
+           opacity: .2;
+           position: relative;
+           left: -20px;
+           //top: -15px;
+         }
+      }
+    }
+  }
+  #search-block-form {
+    div {
+      width: 100%;
+      input {
+        background-position: 180px !important;
+      }
+    }
+  }
+  #menu-bar {
+    top: -16px;
+    left: 20px;
+  }
+}
+
+.sidebar-nav {
+  .sub-sidebar-nav {
+    li {
+      a {
+        border-left: 3px solid $color-orange;
+        padding-left: 10px;
+        margin-top: 0;
+        margin-bottom: 0;
+        font-size: 14px;
+      }
+    }
+  }
+  .menu_btn_line {
+    margin: 0 10px;
+  }
+  li {
+    a {
+      width: 130px;
+    }
+    &.parent:before{
+      right: 30px;
+    }
+  }
+}
+
+#search-block-form {
+  div {
+    width: 100%;
+    input {
+      width: 100%;
+    }
+  }
+}

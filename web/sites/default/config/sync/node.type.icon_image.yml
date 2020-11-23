@@ -1,4 +1,4 @@
-uuid: b4e431fd-0ee6-489d-89dc-3067153cf6d6
+uuid: d640fcb7-5e46-4ebb-9293-700cf29924c5
 langcode: en
 status: true
 dependencies:
@@ -8,9 +8,9 @@ third_party_settings:
   menu_ui:
     available_menus: {  }
     parent: ''
-name: 'TA Articles 最新疾病文章（？需確定此類型是否是單獨的）'
-type: ta_articles
-description: 'Therapeutic Area Articles'
+name: 'Icon Image'
+type: icon_image
+description: 'The icon image upload by customer.'
 help: ''
 new_revision: false
 preview_mode: 1

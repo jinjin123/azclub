@@ -1,0 +1,22 @@
+uuid: b989eca5-1279-4f33-b54d-e7d70001b444
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.icon_image
+id: node.icon_image.status
+field_name: status
+entity_type: node
+bundle: icon_image
+label: Published
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

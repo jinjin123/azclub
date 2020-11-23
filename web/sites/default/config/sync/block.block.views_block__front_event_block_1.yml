@@ -1,9 +1,9 @@
-uuid: d9d6b8dd-86ff-4a92-8fbb-c561e88dd3f0
+uuid: d0427157-6024-4b18-ae8c-6afd8a21949a
 langcode: en
 status: true
 dependencies:
   config:
-    - views.view.ta_campaign
+    - views.view.front_event
   module:
     - block_visibility_groups
     - gaviasthemer
@@ -14,14 +14,14 @@ dependencies:
 third_party_settings:
   gaviasthemer:
     classes: ''
-id: views_block__ta_campaign_block_1
+id: views_block__front_event_block_1
 theme: astrazeneca
 region: content
-weight: -13
+weight: 0
 provider: null
-plugin: 'views_block:ta_campaign-block_1'
+plugin: 'views_block:front_event-block_1'
 settings:
-  id: 'views_block:ta_campaign-block_1'
+  id: 'views_block:front_event-block_1'
   label: ''
   provider: views
   label_display: '0'
@@ -34,5 +34,5 @@ visibility:
     block_visibility_group: ''
   request_path:
     id: request_path
-    pages: /attention-disease
+    pages: '<front>'
     negate: false

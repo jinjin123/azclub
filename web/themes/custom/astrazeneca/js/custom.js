@@ -189,6 +189,36 @@ Drupal.behaviors.PharmaTheme = {
       return rnd.split("").join(".");
     }
 
+    //mobile menu
+    $(".close").click(function() {
+      $("nav").css("display","none")
+    });
+    $("#menu-bar").click(function() {
+      $("nav").css("display","block")
+    });
+
+    $('.sidebar-nav > li', context).click(function() {
+      if (!$(this).hasClass('parent')) {
+        $('.sidebar-nav > li').each(function() {
+          $(this).removeClass('active');
+        });
+        $(this).addClass('active');
+      }
+    });
+    $('.sidebar-nav > li.parent', context).click(function() {
+      $('.sidebar-nav > li.parent').find('.sub-sidebar-nav').hide();
+      if ($(this).hasClass('show-sub')) {
+        $(this).removeClass('show-sub');
+      } else {
+        $(this).addClass('show-sub ');
+      }
+      $(this).find('.sub-sidebar-nav').slideToggle();
+    });
+    // Remove first existant
+    $('.sidebar-nav > li.parent', context).each(function() {
+      $(this).find('li').first().remove();
+    });
+    /*sidebar*/
 
     // health tips bg
    // $(".az-healthtips_head").parent().parent().css("background-color","oranage");
@@ -199,8 +229,9 @@ Drupal.behaviors.PharmaTheme = {
   //   })
   //   var ttt = $(".breadcrumb")[0].innerText.split(" ")
   //   $(".az-top-banner h1")[0].textContent = ttt[1].replace("-","") + ttt[2].replace("-","/") + "\n" +ttt[3].replace("-","/") + ttt[4].replace("-","/") + ttt[5].replace("-","/")
-    if($(".az-top-banner").length > 0){
-      $(".az-top-banner h1")[0].textContent =  $(".breadcrumb")[0].innerText
-    }
+
+    // if($(".az-top-banner").length > 0){
+    //   $(".az-top-banner h1")[0].textContent =  $(".breadcrumb")[0].innerText
+    // }
   }
 };

@@ -35,5 +35,5 @@ visibility:
     block_visibility_group: ''
   request_path:
     id: request_path
-    pages: /user/register/1
+    pages: '/user/register/*'
     negate: false
