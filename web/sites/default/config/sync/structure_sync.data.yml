@@ -273,7 +273,7 @@ blocks:
     fields:
       body:
         -
-          value: "<div class=\"az-ft-fk\">\r\n<div class=\"az-ft-img\"><img src=\"/themes/custom/astrazeneca/logo.png\" /></div>\r\n\r\n<div class=\"az-ft-rg-bd\">\r\n<p><strong>免責聲明</strong><br />\r\n此網站為香港市民提供疾病資訊。<br />\r\n本網站內所提供之資料謹供學術或參考用途，並不能取代醫生及其他醫護專業人員的意見。雖然我們已盡力確保網站的資料準確，但不會保證該等資料的準確性，亦不會對任何資料上的錯誤或遺漏承擔法律責任。如有任何疑問或有關資訊，請向你的醫生查詢。</p>\r\n</div>\r\n</div>\r\n"
+          value: "<div class=\"az-ft-fk\">\r\n<div class=\"az-ft-img\"><img src=\"/themes/custom/astrazeneca/logo.png\" /></div>\r\n\r\n<div class=\"az-ft-rg-bd col-xs-12\">\r\n<p><strong>免責聲明</strong><br />\r\n此網站為香港市民提供疾病資訊。<br />\r\n本網站內所提供之資料謹供學術或參考用途，並不能取代醫生及其他醫護專業人員的意見。雖然我們已盡力確保網站的資料準確，但不會保證該等資料的準確性，亦不會對任何資料上的錯誤或遺漏承擔法律責任。如有任何疑問或有關資訊，請向你的醫生查詢。</p>\r\n</div>\r\n</div>\r\n"
           summary: ''
           format: full_html
   -
@@ -338,7 +338,7 @@ blocks:
     fields:
       body:
         -
-          value: "<div class=\"az_clinical_bottom_box\">\r\n   <div class=\"az__bottom_right_box\">\r\n       <div class=\"az__bottom_right_box_title\">參加臨床飾演？</div>\r\n       <div class=\"az__bottom_right_box_body\">他們痛苦不堪。什麼東西。但是因為我要追問，我們的軍兵是誰，除了使他們中的任何一個人可以佔便宜外，他們是誰？</div>\r\n   </div>\r\n   <div class=\"az__bottom_left_box\">找到你的臨床試驗</div>\r\n</div>"
+          value: "<div class=\"az_clinical_bottom_box col-xs-12\">\r\n<div class=\"az__bottom_right_box\">\r\n<div class=\"az__bottom_right_box_title\">參加臨床飾演？</div>\r\n\r\n<div class=\"az__bottom_right_box_body\">他們痛苦不堪。什麼東西。但是因為我要追問，我們的軍兵是誰，除了使他們中的任何一個人可以佔便宜外，他們是誰？</div>\r\n</div>\r\n\r\n<div class=\"az__bottom_left_box col-xs-12\">找到你的臨床試驗</div>\r\n</div>\r\n"
           summary: ''
           format: full_html
   -
@@ -403,7 +403,7 @@ blocks:
     fields:
       body:
         -
-          value: "<div class=\"az-ref-box\">\r\n<div class=\"az-ref__title\">參考：</div>\r\n\r\n<div class=\"az-ref_hr\">&nbsp;</div>\r\n\r\n<div class=\"az-ref__body\">\r\n<p>香港衛生署衛生防衛中心.心臟病:引言&amp;本地情況&amp;高危因素.Available at https://www.chp.gov.hk/tc/content/9/25/57htmlAccessedon18-12-18</p>\r\n\r\n<p>醫院管理局 智友網 冠心病 Available at http://www21.ha.org.hk/smartpatient/SPW/zh-HK/Disease-Information/Disease/?guid=f9899bdc-ad84-460b-825a-6fdd85a079d6 Accessed on 18-12-18</p>\r\n\r\n<p>British Heart Foundation. Diabetes and your Heart. Available at https://www.bhf.org.uk/-/media/files/publications/large-print/bhf_his22_diabetes_and_your_heart_a4.pdf Accessed on 28-11-18 Accessed on 18-12-18</p>\r\n\r\n<p>香港衛生衛生防護中心 男性常見疾病 冠狀動脈心臟病. Available at https://www.chp.gov.hk/tc/static/80035.html Accessed on 18-12-18</p>\r\n\r\n<p>World Health Organization.Cardiovascular Diseases(CVDs).Available at http://wwww.who.int/mediacentre/factsheets/fs317/en/ Accessed on 18-12-18</p>\r\n\r\n<p>The telegraph.One In Three Heart Attacks Feel Like Indigestion, Warns British Heart Foundation.Available at https://www.telegraphcouk/science/2016/04/11/one-in-three-heart-attacks-feel-like-indigestion-warns-british-h/ Accessed on 18-12-18</p>\r\n\r\n<p>香港衛生衛生防護中心.口服抗心絞痛藥.Available at https://www.drugoffce.gov.hk/eps/do/tc/consumer/news_informations/dm_27.html#b Accessed on 18-12-18</p>\r\n\r\n<p>American Heart Association.CPR &amp; ECC Guidelines.Available at https://eccguidelines.heart.org/index.php/circulation/cpr-ecc-guidelines-2/executive-summaries/?strue=1&amp;id=3-5-2 Accesed on 18-12-18</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p>HK-2061 15/02/2019</p>\r\n</div>\r\n</div>\r\n"
+          value: "<div class=\"az-ref-box col-xs-12\">\r\n<div class=\"az-ref__title\">參考：</div>\r\n\r\n<div class=\"az-ref_hr\">&nbsp;</div>\r\n\r\n<div class=\"az-ref__body\">\r\n<p>香港衛生署衛生防衛中心.心臟病:引言&amp;本地情況&amp;高危因素.Available at https://www.chp.gov.hk/tc/content/9/25/57htmlAccessedon18-12-18</p>\r\n\r\n<p>醫院管理局 智友網 冠心病 Available at http://www21.ha.org.hk/smartpatient/SPW/zh-HK/Disease-Information/Disease/?guid=f9899bdc-ad84-460b-825a-6fdd85a079d6 Accessed on 18-12-18</p>\r\n\r\n<p>British Heart Foundation. Diabetes and your Heart. Available at https://www.bhf.org.uk/-/media/files/publications/large-print/bhf_his22_diabetes_and_your_heart_a4.pdf Accessed on 28-11-18 Accessed on 18-12-18</p>\r\n\r\n<p>香港衛生衛生防護中心 男性常見疾病 冠狀動脈心臟病. Available at https://www.chp.gov.hk/tc/static/80035.html Accessed on 18-12-18</p>\r\n\r\n<p>World Health Organization.Cardiovascular Diseases(CVDs).Available at http://wwww.who.int/mediacentre/factsheets/fs317/en/ Accessed on 18-12-18</p>\r\n\r\n<p>The telegraph.One In Three Heart Attacks Feel Like Indigestion, Warns British Heart Foundation.Available at https://www.telegraphcouk/science/2016/04/11/one-in-three-heart-attacks-feel-like-indigestion-warns-british-h/ Accessed on 18-12-18</p>\r\n\r\n<p>香港衛生衛生防護中心.口服抗心絞痛藥.Available at https://www.drugoffce.gov.hk/eps/do/tc/consumer/news_informations/dm_27.html#b Accessed on 18-12-18</p>\r\n\r\n<p>American Heart Association.CPR &amp; ECC Guidelines.Available at https://eccguidelines.heart.org/index.php/circulation/cpr-ecc-guidelines-2/executive-summaries/?strue=1&amp;id=3-5-2 Accesed on 18-12-18</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p>HK-2061 15/02/2019</p>\r\n</div>\r\n</div>\r\n"
           summary: ''
           format: full_html
   -

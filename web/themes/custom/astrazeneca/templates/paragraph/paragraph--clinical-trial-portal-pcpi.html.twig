@@ -42,6 +42,7 @@
   set classes = [
   'row',
   'paragraph',
+  'col-xs-12',
   'az-clinical-middle-kv',
   'paragraph--type--' ~ paragraph.bundle|clean_class,
   view_mode ? 'paragraph--view-mode--' ~ view_mode|clean_class,
@@ -62,9 +63,9 @@
     {% block content %}
       {#      <div class="az-off-pp-params">{{ content['field_shopname']}}</div><div class="az-off-pp-params">{{ content['field_shop_detail']}}</div><div class="az-off-pp-params">#}
       {#      {{ content['field_phone']}}</div><div class="az-off-pp-area">{{ content['field_area']}}</div>#}
-      <div class="az-middle-box col-lg-10">
+      <div class="az-middle-box col-lg-10 col-xs-12">
         <div class="az-clinical-mid__boom">
-          <div>{{ content["field__clinical_trial_img"] }}</div>
+          <div class="az-middle-trialimg">{{ content["field__clinical_trial_img"] }}</div>
           <div class="az-middle-rgx">
             {{ content["field_clinical_name"] }}
             {{ content["field_clinical_trial_description"] }}
