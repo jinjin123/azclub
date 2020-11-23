@@ -16,7 +16,7 @@ hide_empty_tabs: false
 default_tab: 0
 configuration_data:
   -
-    title: '<img src="sites/default/files/imce_upload/admin/Cat-All.svg" /><br/>全部文章'
+    title: '<img src="/sites/default/files/imce_upload/admin/Cat-All.svg" /><br/>全部文章'
     weight: 0
     type: block_content
     content:
@@ -39,7 +39,7 @@ configuration_data:
           display: default
           args: ''
   -
-    title: '<img src="sites/default/files/imce_upload/admin/Cat-Heart.svg" /><br/>心血管疾病'
+    title: '<img src="/sites/default/files/imce_upload/admin/Cat-Heart.svg" /><br/>心血管疾病'
     weight: 0
     type: block_content
     content:
@@ -62,7 +62,7 @@ configuration_data:
           display: default
           args: ''
   -
-    title: '<img src="sites/default/files/imce_upload/admin/Cat-diabetes.svg" /><br/>糖尿病'
+    title: '<img src="/sites/default/files/imce_upload/admin/Cat-diabetes.svg" /><br/>糖尿病'
     weight: 0
     type: block_content
     content:
@@ -85,7 +85,7 @@ configuration_data:
           display: default
           args: ''
   -
-    title: '<img src="sites/default/files/imce_upload/admin/Cat-Lung.svg" /><br/>呼吸系統疾病'
+    title: '<img src="/sites/default/files/imce_upload/admin/Cat-Lung.svg" /><br/>呼吸系統疾病'
     weight: 0
     type: block_content
     content:
@@ -108,7 +108,7 @@ configuration_data:
           display: default
           args: ''
   -
-    title: '<img src="sites/default/files/imce_upload/admin/Cat-Gastrointestinal%20disease.svg" /><br/>腸胃疾病'
+    title: '<img src="/sites/default/files/imce_upload/admin/Cat-Gastrointestinal%20disease.svg" /><br/>腸胃疾病'
     weight: 0
     type: block_content
     content:
@@ -131,7 +131,7 @@ configuration_data:
           display: default
           args: ''
   -
-    title: '<img src="sites/default/files/imce_upload/admin/cancer.svg" /><br/>癌症'
+    title: '<img src="/sites/default/files/imce_upload/admin/cancer.svg" /><br/>癌症'
     weight: 0
     type: block_content
     content:
@@ -154,7 +154,7 @@ configuration_data:
           display: default
           args: ''
   -
-    title: '<img src="sites/default/files/imce_upload/admin/Cat-infection.svg" /><br/>感染/傳染病'
+    title: '<img src="/sites/default/files/imce_upload/admin/Cat-infection.svg" /><br/>感染/傳染病'
     weight: 0
     type: block_content
     content:

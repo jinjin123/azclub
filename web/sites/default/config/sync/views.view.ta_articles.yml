@@ -280,7 +280,7 @@ display:
           exclude: false
           alter:
             alter_text: true
-            text: "<div class=\"az-offer_box\">\r\n  <div class=\"az-offer_img\"> {{ field_ta_img }}</div>\r\n  <div class=\"az-offer_body\">\r\n     <h4 class=\"az-offer_body_title\">{{ title }} </h4>\r\n    <div class=\"az-offer_sub_title\">{{ body }}</div>\r\n<div class=\"az-offer_click_bottom\"><a>了解更多</a></div>\r\n  </div>\r\n</div>"
+            text: "<div class=\"az-offer_box\">\r\n  <div class=\"az-offer_img\"> {{ field_ta_img }}</div>\r\n  <div class=\"az-offer_body\">\r\n     <h4 class=\"az-offer_body_title\">{{ title }} </h4>\r\n    <div class=\"az-offer_sub_title\">{{ body }}</div>\r\n<div class=\"az-offer_click_bottom\">{{ view_node }}</div>\r\n  </div>\r\n</div>"
             make_link: false
             path: ''
             absolute: false
