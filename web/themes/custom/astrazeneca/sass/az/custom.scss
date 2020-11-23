@@ -441,7 +441,7 @@ a.button {
 
 .az-offer_box {
   float: left;
-  margin: 20px;
+  margin-bottom: 20px;
   padding-bottom: 20px;
   border: 1px solid $color-gray;
   position: relative;
@@ -1650,18 +1650,22 @@ footer#footer::after {
     .ui-tabs-nav {
       border: none;
       background: none;
+      text-align: center;
 
       li {
         border: none;
         background: none;
+        margin: 0;
+        display: inline-block;
+        float: unset;
 
         a {
           color: black;
-          display: flex;
-          align-items: center;
+          text-align: center;
+          font-weight: bolder;
 
           img {
-            margin-right: 10px;
+            margin-bottom: 5px;
           }
         }
       }
@@ -1832,14 +1836,15 @@ footer#footer::after {
 }
 
 // front page
-// .page-node-7 {
-//   #block-views-block-ta-campaign-block-1 {
-//     overflow: hidden;
-//     .view-content-wrap {
-//       overflow: hidden;
-//     }
-//   }
-// }
+.page-node_7 {
+  .content-main {
+    text-align: center;
+    p {
+      color:#898989;
+    }
+  }
+}
+
 .az-product-position {
   .az-product_headtwo {
     height: 300px;
