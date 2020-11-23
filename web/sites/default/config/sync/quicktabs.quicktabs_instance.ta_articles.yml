@@ -176,3 +176,49 @@ configuration_data:
           vid: az_clinical_trial_search_result
           display: default
           args: ''
+  -
+    title: '<img src="/sites/default/files/imce_upload/admin/Cat-Kidney%20disease.svg" /><br/>腎病'
+    weight: 0
+    type: block_content
+    content:
+      block_content:
+        options:
+          bid: 'views_block:ta_articles-block_7'
+          block_title: ''
+          display_title: false
+      qtabs_content:
+        options:
+          machine_name: health_information
+      node_content:
+        options:
+          nid: ''
+          view_mode: full
+          hide_title: true
+      view_content:
+        options:
+          vid: az_clinical_trial_search_result
+          display: default
+          args: ''
+  -
+    title: '<img src="/sites/default/files/imce_upload/admin/Cat-Health%20Tips.svg" /><br/>健康小提示'
+    weight: 0
+    type: block_content
+    content:
+      block_content:
+        options:
+          bid: addtoany_block
+          block_title: ''
+          display_title: false
+      qtabs_content:
+        options:
+          machine_name: health_information
+      node_content:
+        options:
+          nid: ''
+          view_mode: full
+          hide_title: true
+      view_content:
+        options:
+          vid: az_clinical_trial_search_result
+          display: default
+          args: ''
