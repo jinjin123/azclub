@@ -2,7 +2,8 @@
 
 body {
   //background-color:  $head-cus!important;
-  overflow: hidden;
+  //overflow: hidden;
+  overflow: auto;
 }
 
 //参考
@@ -2106,6 +2107,201 @@ body.az-user-login-page.path-user #page-main-content  {
       margin-right: 10px;
     }
   }
+  #az_clinic_select_type {
+    width: 95%;
+    margin-bottom: 10px;
+  }
+  #az_clinic_select_sex {
+    width: 50%;
+  }
+  .az-clinical__search_body {
+    .az-search-button {
+      width: 40% !important;
+    }
+  }
+  .az-clinical-search-block {
+    height: 220px !important;
+    box-shadow:0px 0px 0px #d0c9c9 !important;
+    width: 80%;
+  }
+  .az-clinical-search_box {
+    .az-clincal-searright {
+      display: flex;
+      position: relative;
+      top: -40px;
+      .az-clincal-search_button {
+        input {
+          width: 100% !important;
+        }
+      }
+      .az-clincal-search_icon {
+        width: 50px !important;
+      }
+    }
+  }
+  .az-clinical_box {
+    padding-bottom: 20px;
+    .az-clinical_img {
+      height: 185px;
+      img {
+        height: 100%;
+      }
+    }
+  }
+  .az-clinical-trial-aritcle {
+    margin-top: 40px;
+  }
+  .az_clinical_bottom_box {
+    height: 300px !important;
+    margin-bottom: 50px;
+    .az__bottom_right_box {
+      float: none;
+      position: relative;
+      top: 60px;
+      width: 100% !important;
+      margin: 0 !important;
+      .az__bottom_right_box_title {
+        text-align: center;
+      }
+    }
+    .az__bottom_left_box {
+      width: 100%;
+      float: none;
+    }
+  }
+  .az-ref-box {
+    width: 100%;
+    word-break: break-all;
+  }
+  .webform-submission-newsletter-subscription-form {
+    display: block !important;
+    div {
+      width: 100% !important;
+      margin-bottom: 10px;
+    }
+  }
+  .az-product_head {
+    .az-pipline-redbox {
+      display: block;
+    }
+  }
+  .az-clinical-product-search {
+    margin-top: 800px;
+  }
+  .az-clinical-right-box {
+    margin: 0 15px;
+    padding: 0;
+    div {
+      .field--name-field-az-clinical-page-image {
+        img {
+          width: 100%;
+        }
+      }
+      label {
+        padding-right: 10px;
+      }
+    }
+    .az-clinical-rbx_logo {
+      left:30px !important;
+    }
+  }
+  .az-clinical-subjest-email {
+    .az-clinical-subjest-body {
+       width: 350px !important;
+        div {
+            span {
+               margin:0 !important;
+            }
+          }
+        .az-clinical-ckb-box {
+          margin-left: 15%;
+        }
+        .az-clinical-ckb-box {
+          margin-left: 15% !important;
+        }
+        .az-clinical-subjest_btn {
+          display: flex;
+        }
+    }
+  }
+  .az-clinical-right-kv {
+    .row {
+     .shares {
+       float: right;
+       text-align: right;
+       top: -90px;
+     }
+    }
+  }
+  #block-astrazeneca-page-title {
+    top: 1030px !important;
+    margin-left: 15px !important;
+    float: left;
+    position: relative;
+    word-break: break-all;
+    div {
+      .page-title {
+        .az-article-header {
+          word-break: break-all;
+          left: 0 !important;
+        }
+      }
+    }
+  }
+  .node--type-az-clinical-experience-process {
+    .node__content {
+      .field--name-body {
+        width: 100%;
+        left: 0 !important;
+        word-break: break-all;
+        top: 0 !important;
+        padding: 20px;
+        margin: 0 10px!important;
+        margin-bottom: 30px !important;
+      }
+      .field--name-field-az-clinical-mid-params {
+        width: 100%;
+        display: block;
+        position: relative;
+        margin: 10px 20px !important;
+        top: -150px;
+      }
+    }
+  }
+  .field--name-field-az-clinical-category-item {
+    width: 100% !important;
+    .field__item {
+      margin-bottom: 30px;
+      .az-clinical-middle-kv {
+        .az-middle-box {
+          .az-clinical-mid__boom {
+            .az-middle-trialimg {
+              width: 100%;
+              .field--name-field__clinical-trial-img {
+                height: 100%;
+                img {
+                  height: 100%;
+                }
+              }
+            }
+            .az-middle-rgx {
+              margin-left: 20px;
+              .field--name-field-clinical-name {
+                color:$color-orange;
+                font-weight: bold;
+                font-size: 15px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  .az-gb-refer {
+    margin: 0 20px !important;
+    word-break: break-all;
+    width: 90%;
+  }
 }
 
 
@@ -2355,6 +2551,18 @@ body.az-user-login-page.path-user #page-main-content  {
       }
     }
   }
+  #search-block-form {
+    div {
+      width: 100%;
+      input {
+        background-position: 180px !important;
+      }
+    }
+  }
+  #menu-bar {
+    top: -16px;
+    left: 20px;
+  }
 }
 
 .sidebar-nav {
@@ -2378,6 +2586,15 @@ body.az-user-login-page.path-user #page-main-content  {
     }
     &.parent:before{
       right: 30px;
+    }
+  }
+}
+
+#search-block-form {
+  div {
+    width: 100%;
+    input {
+      width: 100%;
     }
   }
 }
