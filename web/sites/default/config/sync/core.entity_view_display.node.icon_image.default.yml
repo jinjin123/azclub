@@ -1,0 +1,30 @@
+uuid: 1c127a9a-caba-479d-8a5d-7dbc49a0c0d4
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.icon_image.body
+    - node.type.icon_image
+  module:
+    - text
+    - user
+id: node.icon_image.default
+targetEntityType: node
+bundle: icon_image
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  addtoany: true
+  search_api_excerpt: true

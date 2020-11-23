@@ -1,0 +1,32 @@
+uuid: 413ae397-f51e-4500-a387-a317c8bef28c
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.icon_image.body
+    - node.type.icon_image
+  module:
+    - text
+    - user
+id: node.icon_image.teaser
+targetEntityType: node
+bundle: icon_image
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  addtoany: true
+  search_api_excerpt: true

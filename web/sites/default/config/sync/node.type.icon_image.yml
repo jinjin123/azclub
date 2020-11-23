@@ -1,0 +1,17 @@
+uuid: d640fcb7-5e46-4ebb-9293-700cf29924c5
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: 'Icon Image'
+type: icon_image
+description: 'The icon image upload by customer.'
+help: ''
+new_revision: false
+preview_mode: 1
+display_submitted: false
