@@ -1,32 +1,36 @@
-uuid: 301802ad-6773-4783-bb5e-fd2d4b1c96ab
+uuid: 00481dfd-c884-4b05-94eb-0484a69e5752
 langcode: en
 status: true
 dependencies:
-  config:
-    - views.view.ta_article_list
+  content:
+    - 'block_content:basic:5eda6e96-b48f-4e47-b631-6467eeaaeecf'
   module:
+    - block_class
+    - block_content
     - block_visibility_groups
     - gaviasthemer
     - system
-    - views
   theme:
     - astrazeneca
 third_party_settings:
+  block_class:
+    classes: ta-articles-list-header
   gaviasthemer:
     classes: ''
-id: views_block__ta_article_list_block_2
+id: zhenduanguanxinbing
 theme: astrazeneca
 region: after_content
-weight: -7
+weight: 0
 provider: null
-plugin: 'views_block:ta_article_list-block_2'
+plugin: 'block_content:5eda6e96-b48f-4e47-b631-6467eeaaeecf'
 settings:
-  id: 'views_block:ta_article_list-block_2'
-  label: ''
-  provider: views
+  id: 'block_content:5eda6e96-b48f-4e47-b631-6467eeaaeecf'
+  label: 診斷冠心病
+  provider: block_content
   label_display: '0'
-  views_label: ''
-  items_per_page: none
+  status: true
+  info: ''
+  view_mode: full
 visibility:
   condition_group:
     id: condition_group
