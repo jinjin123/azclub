@@ -1,17 +1,16 @@
-uuid: 7313957c-0607-428d-9fc4-21f6a2ac8a48
+uuid: 16c132a8-5f10-47a9-9850-7e295a7a264f
 langcode: en
 status: true
 dependencies:
   config:
-    - field.field.node.ta_articles.body
-    - field.field.node.ta_articles.field_ta_type
-    - node.type.ta_articles
+    - field.field.node.icon_image.body
+    - node.type.icon_image
   module:
     - path
     - text
-id: node.ta_articles.default
+id: node.icon_image.default
 targetEntityType: node
-bundle: ta_articles
+bundle: icon_image
 mode: default
 content:
   body:
@@ -30,12 +29,6 @@ content:
     region: content
     settings: {  }
     third_party_settings: {  }
-  field_ta_type:
-    weight: 122
-    settings: {  }
-    third_party_settings: {  }
-    type: options_select
-    region: content
   path:
     type: path
     weight: 30

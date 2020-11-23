@@ -1,18 +1,17 @@
-uuid: 01001b59-a55a-4e3c-8234-854afb9ad09b
+uuid: 413ae397-f51e-4500-a387-a317c8bef28c
 langcode: en
 status: true
 dependencies:
   config:
     - core.entity_view_mode.node.teaser
-    - field.field.node.ta_articles.body
-    - field.field.node.ta_articles.field_ta_type
-    - node.type.ta_articles
+    - field.field.node.icon_image.body
+    - node.type.icon_image
   module:
     - text
     - user
-id: node.ta_articles.teaser
+id: node.icon_image.teaser
 targetEntityType: node
-bundle: ta_articles
+bundle: icon_image
 mode: teaser
 content:
   body:
@@ -29,4 +28,5 @@ content:
     third_party_settings: {  }
     region: content
 hidden:
-  field_ta_type: true
+  addtoany: true
+  search_api_excerpt: true

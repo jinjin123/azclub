@@ -1,16 +1,16 @@
-uuid: 76ae0544-3eab-4a0f-ad0a-a5d225d74b5c
+uuid: 8824136b-024d-48a4-ba34-6d760c6e0ff5
 langcode: en
 status: true
 dependencies:
   config:
     - field.storage.node.body
-    - node.type.ta_articles
+    - node.type.icon_image
   module:
     - text
-id: node.ta_articles.body
+id: node.icon_image.body
 field_name: body
 entity_type: node
-bundle: ta_articles
+bundle: icon_image
 label: Body
 description: ''
 required: false

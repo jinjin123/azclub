@@ -285,7 +285,7 @@ a.button {
 
 .az-offer_box {
   float: left;
-  margin: 20px;
+  margin-bottom: 20px;
   padding-bottom: 20px;
   border: 1px solid #979797;
   position: relative;
@@ -1069,16 +1069,20 @@ footer#footer::after {
     border: none; }
     .block-quicktabs .ui-widget.ui-widget-content .ui-tabs-nav {
       border: none;
-      background: none; }
+      background: none;
+      text-align: center; }
       .block-quicktabs .ui-widget.ui-widget-content .ui-tabs-nav li {
         border: none;
-        background: none; }
+        background: none;
+        margin: 0;
+        display: inline-block;
+        float: unset; }
         .block-quicktabs .ui-widget.ui-widget-content .ui-tabs-nav li a {
           color: black;
-          display: flex;
-          align-items: center; }
+          text-align: center;
+          font-weight: bolder; }
           .block-quicktabs .ui-widget.ui-widget-content .ui-tabs-nav li a img {
-            margin-right: 10px; }
+            margin-bottom: 5px; }
 
 .az-clinical-subjest-email {
   display: none; }
@@ -1198,6 +1202,11 @@ footer#footer::after {
       margin-left: 10px;
       background-color: #979797;
       border: 1px solid #979797; }
+
+.page-node_7 .content-main {
+  text-align: center; }
+  .page-node_7 .content-main p {
+    color: #898989; }
 
 .az-product-position .az-product_headtwo {
   height: 300px;
