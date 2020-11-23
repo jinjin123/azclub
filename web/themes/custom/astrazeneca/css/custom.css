@@ -1736,7 +1736,7 @@ body.az-user-login-page.path-user #page-main-content .main-content-inner {
 
 .az-top-banner {
   position: relative;
-  top: -68px;
+  top: -18px;
 }
 .az-top-banner h1 {
   position: relative;
@@ -1830,4 +1830,53 @@ body.az-user-login-page.path-user #page-main-content .main-content-inner {
 #multistep-form-one #edit-actions input {
   width: 100%;
   background: #eb1384;
+}
+
+@media only screen and (min-width: 767px) {
+  #sidebar-wrapper {
+    display: none;
+  }
+}
+@media only screen and (max-width: 767px) {
+  #sidebar-wrapper {
+    background: white;
+    height: 100%;
+    overflow: auto;
+  }
+  #sidebar-wrapper .mobile-header-menu {
+    margin-bottom: 20px;
+    padding: 10px;
+    box-shadow: 0px 0px 0px 1px #eeeeee;
+  }
+  #sidebar-wrapper .mobile-header-menu div {
+    text-align: center;
+    display: flex;
+  }
+  #sidebar-wrapper .mobile-header-menu div .close {
+    float: right;
+    font-size: 50px;
+    font-weight: 100;
+    line-height: 1;
+    color: #000;
+    text-shadow: 0 1px 0 #fff;
+    opacity: 0.2;
+    position: relative;
+    left: -20px;
+  }
+}
+.sidebar-nav .sub-sidebar-nav li a {
+  border-left: 3px solid #fcaf17;
+  padding-left: 10px;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 14px;
+}
+.sidebar-nav .menu_btn_line {
+  margin: 0 10px;
+}
+.sidebar-nav li a {
+  width: 130px;
+}
+.sidebar-nav li.parent:before {
+  right: 30px;
 }
