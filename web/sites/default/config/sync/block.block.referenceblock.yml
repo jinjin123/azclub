@@ -17,7 +17,7 @@ third_party_settings:
 id: referenceblock
 theme: astrazeneca
 region: content_bottom
-weight: -13
+weight: -23
 provider: null
 plugin: 'block_content:66d9cc7f-d1cb-4bf5-a977-5e18e750c8da'
 settings:

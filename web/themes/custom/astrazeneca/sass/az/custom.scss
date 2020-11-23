@@ -258,7 +258,7 @@ a.button {
 
     .az-header-search-box {
       height: 55px;
-      pad: 0px;
+      padding: 0px;
 
       #search-block-form {
         margin: 0px;
@@ -1836,14 +1836,34 @@ footer#footer::after {
   }
 }
 
-// front page
-.page-node_7 {
-  .content-main {
+.content-main {
+  #block-astrazeneca-content {
     text-align: center;
     p {
       color:#898989;
     }
   }
+}
+.view-content-wrap {
+  display: table;
+}
+
+.ta-articles-list-header {
+  text-align: center;
+  background: #EB1384;
+  height: 400px;
+  margin: 0;
+  .block-content {
+    color: white;
+    padding-top: 100px;
+    h3 {
+      color: white;
+    }
+  }
+}
+.ta-articles-list {
+  position: relative;
+  top: -100px;
 }
 
 .az-product-position {

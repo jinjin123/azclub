@@ -79,6 +79,10 @@ display:
             automatically_load_content: false
       style:
         type: default
+        options:
+          grouping: {  }
+          row_class: 'col-sm-12 col-md-6 col-lg-4'
+          default_row_class: true
       row:
         type: fields
       fields:
@@ -446,26 +450,14 @@ display:
             label: ''
           granularity: second
       title: 'Therapeutic area article list'
-      header:
-        area:
-          id: area
-          table: views
-          field: area
-          relationship: none
-          group_type: group
-          admin_label: ''
-          empty: false
-          tokenize: false
-          content:
-            value: "心血管疾病\r\n相關資訊\r\nLorem lpsum is simply dummy text of the printing and typesetting industry. "
-            format: full_html
-          plugin_id: text
+      header: {  }
       footer: {  }
       empty: {  }
       relationships: {  }
       arguments: {  }
       display_extenders: {  }
       use_ajax: true
+      css_class: 'container ta-articles-list'
     cache_metadata:
       max-age: -1
       contexts:

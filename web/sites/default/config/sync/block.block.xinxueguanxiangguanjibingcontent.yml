@@ -1,10 +1,11 @@
-uuid: ef219070-5119-4a0e-9f85-7331e73baedd
+uuid: 15c40c54-4aab-41cb-9e33-f61ee4468dda
 langcode: en
 status: true
 dependencies:
   content:
-    - 'block_content:basic:1b0d06ea-27d7-46aa-bb87-709e0f19261b'
+    - 'block_content:basic:c268f7d2-2f77-4dc7-82ad-49df4ae1f9f8'
   module:
+    - block_class
     - block_content
     - block_visibility_groups
     - gaviasthemer
@@ -12,17 +13,19 @@ dependencies:
   theme:
     - astrazeneca
 third_party_settings:
+  block_class:
+    classes: ta-articles-list-header
   gaviasthemer:
     classes: ''
-id: nurseoncallyaowuyiqizhidao_2
+id: xinxueguanxiangguanjibingcontent
 theme: astrazeneca
 region: after_content
-weight: -21
+weight: -23
 provider: null
-plugin: 'block_content:1b0d06ea-27d7-46aa-bb87-709e0f19261b'
+plugin: 'block_content:c268f7d2-2f77-4dc7-82ad-49df4ae1f9f8'
 settings:
-  id: 'block_content:1b0d06ea-27d7-46aa-bb87-709e0f19261b'
-  label: 'Nurse On call  藥物儀器指導'
+  id: 'block_content:c268f7d2-2f77-4dc7-82ad-49df4ae1f9f8'
+  label: 心血管相關疾病--content
   provider: block_content
   label_display: '0'
   status: true
@@ -35,5 +38,5 @@ visibility:
     block_visibility_group: ''
   request_path:
     id: request_path
-    pages: /Healthcare-guidance
+    pages: /cardiovascualr
     negate: false

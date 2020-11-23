@@ -207,7 +207,7 @@ a.button {
 }
 .az-header_bottom .az-header-bbox .az-header-search-box {
   height: 55px;
-  pad: 0px;
+  padding: 0px;
 }
 .az-header_bottom .az-header-bbox .az-header-search-box #search-block-form {
   margin: 0px;
@@ -1467,11 +1467,34 @@ footer#footer::after {
   border: 1px solid #979797;
 }
 
-.page-node_7 .content-main {
+.content-main #block-astrazeneca-content {
   text-align: center;
 }
-.page-node_7 .content-main p {
+.content-main #block-astrazeneca-content p {
   color: #898989;
+}
+
+.view-content-wrap {
+  display: table;
+}
+
+.ta-articles-list-header {
+  text-align: center;
+  background: #EB1384;
+  height: 400px;
+  margin: 0;
+}
+.ta-articles-list-header .block-content {
+  color: white;
+  padding-top: 100px;
+}
+.ta-articles-list-header .block-content h3 {
+  color: white;
+}
+
+.ta-articles-list {
+  position: relative;
+  top: -100px;
 }
 
 .az-product-position .az-product_headtwo {
