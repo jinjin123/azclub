@@ -206,7 +206,7 @@ configuration_data:
     content:
       block_content:
         options:
-          bid: addtoany_block
+          bid: 'views_block:ta_articles-block_9'
           block_title: ''
           display_title: false
       qtabs_content:
