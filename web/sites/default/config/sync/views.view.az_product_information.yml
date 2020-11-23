@@ -86,7 +86,7 @@ display:
         type: default
         options:
           grouping: {  }
-          row_class: 'col-sm-12 col-md-6 col-lg-4 portfolio-item filter-Packaging filter-Print portfolio'
+          row_class: 'col-sm-12 col-md-6 col-lg-4 col-xs-12 portfolio-item filter-Packaging az-qk-tab'
           default_row_class: true
       row:
         type: fields
@@ -340,7 +340,7 @@ display:
           admin_label: ''
           empty: false
           tokenize: false
-          content: "<div class=\"az-product-search_box\">\r\n    <div class=\"col-md-8\">\r\n      <span>藥物類別</span>\r\n</div>\r\n<div  class=\"col-md-4\"> \r\n <div class=\"az-product-searright\">\r\n<div class=\"az-product-search_button\"></div>\r\n<div class=\"az-product-search_icon\"></div>\r\n</div>\r\n</div>\r\n<div class=\"az-product-seach_across\"></div>\r\n</div>"
+          content: "<div class=\"az-product-search_box\">\r\n    <div class=\"col-md-8\">\r\n      <span>藥物類別</span>\r\n</div>\r\n<div  class=\"col-md-4 col-xs-7\"> \r\n <div class=\"az-product-searright\">\r\n<div class=\"az-product-search_button\"></div>\r\n<div class=\"az-product-search_icon\"></div>\r\n</div>\r\n</div>\r\n<div class=\"az-product-seach_across\"></div>\r\n</div>"
           plugin_id: text_custom
       footer: {  }
       empty: {  }
