@@ -1866,6 +1866,26 @@ footer#footer::after {
   top: -100px;
 }
 
+//診斷冠心病
+#block-zhenduanguanxinbing {
+  ul {
+    //white-space:nowrap;
+    padding: 0;
+    margin:0;
+   li {
+     display: inline-block;
+     background: #FCAF17;
+     border-radius: 5px;
+     img {
+       margin-bottom: 10px;
+     }
+     span {
+       
+     }
+   }
+  }
+}
+
 .az-product-position {
   .az-product_headtwo {
     height: 300px;
