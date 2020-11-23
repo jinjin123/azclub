@@ -2186,7 +2186,7 @@ body.az-user-login-page.path-user #page-main-content  {
 // top banner
 .az-top-banner {
   position: relative;
-  top: -68px;
+  top: -18px;
   h1 {
     position: relative;
     text-align: center;
@@ -2295,3 +2295,47 @@ body.az-user-login-page.path-user #page-main-content  {
   }
 }
 
+
+@media(max-width: 991px) {
+ .gva-offcanvas-mobile {
+   margin-left: 100%;
+   //left:200px !important;
+   max-width: 991px;
+   .close-offcanvas {
+     //text-align: right;
+     padding: 15px 15px;
+     div {
+       display: flex;
+       .close {
+         float: right;
+         font-size: 50px;
+         font-weight: 100;
+         line-height: 1;
+         color: #000;
+         text-shadow: 0 1px 0 #fff;
+         opacity: .2;
+         position: relative;
+         //top: -15px;
+       }
+     }
+
+     //i {
+     //  padding: 20px;
+     //  display: inline-block;
+     //  width: 30px;
+     //  height: 4px;
+     //  background: #333;
+     //  transform: rotate(45deg);
+     //   &::after {
+     //     //content: "\2716";
+     //     content: '';
+     //     display: block;
+     //     width: 30px;
+     //     height: 4px;
+     //     background: #333;
+     //     transform: rotate(-90deg);
+     //   }
+     //}
+   }
+ }
+}

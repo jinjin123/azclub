@@ -1409,7 +1409,7 @@ body.az-user-login-page.path-user #page-main-content .main-content-inner {
 
 .az-top-banner {
   position: relative;
-  top: -68px; }
+  top: -18px; }
   .az-top-banner h1 {
     position: relative;
     text-align: center;
@@ -1482,3 +1482,21 @@ body.az-user-login-page.path-user #page-main-content .main-content-inner {
     #multistep-form-one #edit-actions input {
       width: 100%;
       background: #eb1384; }
+
+@media (max-width: 991px) {
+  .gva-offcanvas-mobile {
+    margin-left: 100%;
+    max-width: 991px; }
+    .gva-offcanvas-mobile .close-offcanvas {
+      padding: 15px 15px; }
+      .gva-offcanvas-mobile .close-offcanvas div {
+        display: flex; }
+        .gva-offcanvas-mobile .close-offcanvas div .close {
+          float: right;
+          font-size: 50px;
+          font-weight: 100;
+          line-height: 1;
+          color: #000;
+          text-shadow: 0 1px 0 #fff;
+          opacity: .2;
+          position: relative; } }
