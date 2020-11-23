@@ -1474,7 +1474,104 @@ body.az-user-login-page.path-user #page-main-content .main-content-inner {
   .az-gb-refer {
     margin: 0 20px !important;
     word-break: break-all;
-    width: 90%; } }
+    width: 90%; }
+  .az-product_head {
+    position: relative;
+    top: -40px;
+    display: block;
+    width: 100% !important; }
+    .az-product_head .az-product_head__title1 {
+      font-size: 10px;
+      text-align: center; }
+    .az-product_head .az-product_head__title2 {
+      font-size: 30px;
+      font-weight: bold; }
+  .block-quicktabs .quicktabs-ui-wrapper .ui-tabs-nav {
+    display: flex;
+    flex-wrap: wrap; }
+    .block-quicktabs .quicktabs-ui-wrapper .ui-tabs-nav .ui-tabs-tab {
+      margin-right: 30px;
+      width: 15%; }
+      .block-quicktabs .quicktabs-ui-wrapper .ui-tabs-nav .ui-tabs-tab .ui-tabs-anchor {
+        display: grid;
+        font-size: 5px !important; }
+        .block-quicktabs .quicktabs-ui-wrapper .ui-tabs-nav .ui-tabs-tab .ui-tabs-anchor img {
+          width: 35px;
+          height: 35px; }
+  .az-product-searright {
+    display: flex; }
+    .az-product-searright .az-product-search_button input {
+      width: 100%; }
+    .az-product-searright .az-product-search_icon {
+      width: 50px !important; }
+  .az-product_box {
+    margin: 0 !important; }
+    .az-product_box .az-product_img {
+      height: 100%; }
+      .az-product_box .az-product_img img {
+        height: 100%; }
+    .az-product_box .az-product_body {
+      position: relative;
+      top: 20px; }
+  .az-qk-tab {
+    margin-bottom: 15px; }
+  .az-product_selectbox .az-product_selectbox_content {
+    width: 350px;
+    height: 350px; }
+    .az-product_selectbox .az-product_selectbox_content .az-product_selectbox_btn {
+      display: flex; }
+  .az-product_duplicate .az-product_duplicate_content {
+    background-color: #d7d7d7;
+    width: 90% !important;
+    height: 630px !important; }
+    .az-product_duplicate .az-product_duplicate_content .az-product_duplicate_img {
+      width: 100%; }
+      .az-product_duplicate .az-product_duplicate_content .az-product_duplicate_img img {
+        width: 100%; }
+    .az-product_duplicate .az-product_duplicate_content .az-product-icon {
+      margin: 0 !important;
+      margin-left: 30px !important;
+      top: -25px;
+      position: relative; }
+    .az-product_duplicate .az-product_duplicate_content .az-product_duplicate_body {
+      padding: 20px !important;
+      width: 80%; }
+  .az-offer-mobile {
+    padding: 20px !important;
+    margin-bottom: 20px; }
+    .az-offer-mobile .views-field-body .field-content .az-offer_box {
+      margin: 0 !important; }
+      .az-offer-mobile .views-field-body .field-content .az-offer_box .az-offer_img img {
+        width: 100%; }
+  .az-offers_product_box {
+    margin: 0 30px;
+    left: 0 !important;
+    top: -280px !important; }
+  .az-offer-detail {
+    position: relative;
+    top: -980px; }
+    .az-offer-detail .shares {
+      left: 380px; }
+  .az-offerdetail-article-header {
+    text-align: left;
+    left: 0 !important;
+    top: -520px !important; }
+  .az-offernode__content_body {
+    left: 0 !important;
+    top: -60px !important;
+    margin: 0 30px; }
+  .az-offers_shop {
+    width: 100%;
+    top: -60px;
+    margin: 0 !important; }
+  .az-medicine-shop-header {
+    left: 0 !important; }
+  .field--name-field-medicine-shop-params {
+    left: -60px !important;
+    position: relative; } }
+
+.az-offer-detail {
+  display: flex; }
 
 .az-nurse-contentimg {
   display: flex;
