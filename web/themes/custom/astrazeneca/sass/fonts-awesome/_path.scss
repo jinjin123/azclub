@@ -13,3 +13,8 @@
   font-weight: normal;
   font-style: normal;
 }
+
+@font-face {
+  font-family: 'PingFangTC';
+  src: url('#{$fa-font-path}/PingFangTC-Semibold.ttf') format('truetype');
+}
