@@ -77,7 +77,7 @@ class MultistepOneForm extends MultistepFormBase {
       '#type' => 'button',
       '#name' => 'send_code',
       '#value' => '發送驗證碼',
-      '#prefix' => '<div class="col-md-2 col-xs-2">',
+      '#prefix' => '<div class="col-md-2 col-xs-6 az-reg-s1">',
       '#suffix' => '</div>',
       '#ajax' => [
       'callback' => '::sendCodeAjax',
@@ -97,7 +97,7 @@ class MultistepOneForm extends MultistepFormBase {
       '#default_value' => $this->store->get('verify_code') ? $this->store->get('verify_code') : '',
       '#attributes' => ['placeholder' => '輸入驗證碼'],
       '#size' => 15,
-      '#prefix' => '<div class="col-md-4 col-xs-4">',
+      '#prefix' => '<div class="col-md-4 col-xs-6 az-reg-s1-send">',
       '#suffix' => '</div><div class="clearfix"></div>',
     ];
     $form['send_code_tips'] = [
@@ -137,11 +137,13 @@ class MultistepOneForm extends MultistepFormBase {
     ];
 
     $form['notice'] = [
+      '#prefix' => '<div class="col-lg-12 col-md-8 col-xs-12 az-reg1-des">',
       '#markup' => '（如以上方格沒有打鉤，阿斯利康未得到本人同意，申請將不被接納）',
     ];
 
     $form['actions']['submit']['#value'] = '下一步';
     $form['actions']['submit']['#name'] = 'az_submit';
+    $form['actions']['submit']['#prefix'] = '<div class="col-lg-12 col-md-4 col-xs-12 az-reg1-next">';
     $form['actions']['submit']['#states'] = [
       'enabled' => [
         ':input[name="attention1[1]"]' => ['checked' => TRUE],

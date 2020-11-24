@@ -35,5 +35,5 @@ visibility:
     block_visibility_group: ''
   request_path:
     id: request_path
-    pages: "/goverment_support\r\n/latest-news/*\r\n/azhealthclub/clinical-search\r\n/Clinical/search-result\r\n/az-health-club/*"
+    pages: "/latest-news/*\r\n/azhealthclub/clinical-search\r\n/Clinical/search-result\r\n/az-health-club/*"
     negate: false

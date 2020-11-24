@@ -1,0 +1,32 @@
+{#
+/**
+ * @file
+ * Gavias's theme implementation to display a single Drupal page.
+ */
+#}
+
+<div class="body-page  az-register-three-bd">
+  {% include directory ~ '/templates/page/parts/preloader.html.twig' %}
+  {% include header_skin %}
+  {% if page.breadcrumbs %}
+    <div class="breadcrumbs">
+      {{ page.breadcrumbs }}
+      <div class="az-reg-three-cc">
+        <div class="container">
+           {{ page.content }}
+        </div>
+      </div>
+    </div>
+  {% endif %}
+
+  {% if page.fw_after_content %}
+    <div class="fw-before-content area">
+      {{ page.fw_after_content }}
+    </div>
+  {% endif %}
+
+  {#  </div>#}
+  {% include directory ~ '/templates/page/footer.html.twig' %}
+
+</div>
+

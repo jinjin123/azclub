@@ -74,7 +74,7 @@ display:
         type: default
         options:
           grouping: {  }
-          row_class: 'col-sm-12 col-md-6 col-lg-6'
+          row_class: 'col-sm-12 col-md-6 col-lg-6 col-xs-12'
           default_row_class: true
       row:
         type: fields
