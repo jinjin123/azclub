@@ -1,6 +1,11 @@
 @charset "UTF-8";
 body {
   overflow: auto;
+  font-family: "PingFang TC - Semibold", "PingFang TC - Regular";
+}
+
+input, a, button, select, textarea {
+  font-family: "PingFang TC - Semibold", "PingFang TC - Regular";
 }
 
 .az-gb-refer .az-gbrefer-title {
