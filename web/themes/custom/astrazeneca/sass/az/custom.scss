@@ -1868,23 +1868,142 @@ footer#footer::after {
 
 //診斷冠心病
 #block-zhenduanguanxinbing {
-  ul {
-    //white-space:nowrap;
-    padding: 0;
-    margin:0;
-   li {
-     display: inline-block;
-     background: #FCAF17;
-     border-radius: 5px;
-     img {
-       margin-bottom: 10px;
-     }
-     span {
-
-     }
-   }
+  margin-bottom: 140px;
+  .block-content{
+    p {
+      margin: auto 20%;
+    }
+    ul {
+      //white-space:nowrap;
+      padding: 0;
+      margin:0;
+      li {
+        display: inline-block;
+        background: #FC8917;
+        border-radius: 5px;
+        padding:30px;
+        margin: 20px;
+        width: 215px;
+        img {
+          padding: 20px;
+        }
+        span {
+          width: 100px;
+          display: inline-block;
+        }
+      }
+      li:nth-child(2) {
+        background: #FCAF17;
+        position: relative;
+        top: -24px;
+        padding-bottom: 55px;
+      }
+    }
   }
 }
+
+//冠心病治療方案
+#block-guanxinbingzhiliaofangan {
+  .block-content {
+    text-align: center;
+    hr {
+      width: 80%;
+      border: 1px solid #979797
+    }
+    ul {
+      height: 300px;
+      padding: 0;
+      margin: auto 14%;
+      display: table;
+      li {
+        list-style: none;
+        width: 31%;
+        float: left;
+        margin: 1%;
+        div{
+          border-radius: 50%;
+          border: 1px solid #FCAF17;
+          width: 225px;
+          height: 225px;
+          margin: auto;
+          span {
+            width: 190px;
+            height: 190px;
+            border-radius: 50%;
+            display: block;
+            background: #EB1384;
+            margin: 0 auto;
+            position: relative;
+            top: 17.5px;
+          }
+          img {
+            margin-top:40px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 770px) and (max-width: 990px) {
+  //冠心病治療方案
+  #block-guanxinbingzhiliaofangan {
+    .block-content {
+      padding-top: 20px;
+      ul {
+        li {
+          margin: 0 10%;
+          float: unset;
+          width: auto;
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 513px) and (max-width: 770px)  {
+  //冠心病治療方案
+  #block-guanxinbingzhiliaofangan {
+    .block-content {
+      padding-top: 350px;
+      ul {
+        li {
+          margin: 0 10%;
+          float: unset;
+          width: auto;
+        }
+      }
+    }
+  }
+}
+
+@media  (max-width: 513px) {
+  //診斷冠心病
+  #block-zhenduanguanxinbing {
+    .block-content {
+      ul {
+        li:nth-child(2) {
+          position: unset;
+        }
+      }
+    }
+  }
+  //冠心病治療方案
+  #block-guanxinbingzhiliaofangan {
+    .block-content {
+      padding-top: 670px;
+      ul {
+        li {
+          margin: 0 10%;
+          float: unset;
+          width: auto;
+        }
+      }
+    }
+  }
+}
+
+
 
 .az-product-position {
   .az-product_headtwo {

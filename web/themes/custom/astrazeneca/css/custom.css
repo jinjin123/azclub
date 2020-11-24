@@ -1497,17 +1497,111 @@ footer#footer::after {
   top: -100px;
 }
 
-#block-zhenduanguanxinbing ul {
+#block-zhenduanguanxinbing {
+  margin-bottom: 140px;
+}
+#block-zhenduanguanxinbing .block-content p {
+  margin: auto 20%;
+}
+#block-zhenduanguanxinbing .block-content ul {
   padding: 0;
   margin: 0;
 }
-#block-zhenduanguanxinbing ul li {
+#block-zhenduanguanxinbing .block-content ul li {
   display: inline-block;
-  background: #FCAF17;
+  background: #FC8917;
   border-radius: 5px;
+  padding: 30px;
+  margin: 20px;
+  width: 215px;
 }
-#block-zhenduanguanxinbing ul li img {
-  margin-bottom: 10px;
+#block-zhenduanguanxinbing .block-content ul li img {
+  padding: 20px;
+}
+#block-zhenduanguanxinbing .block-content ul li span {
+  width: 100px;
+  display: inline-block;
+}
+#block-zhenduanguanxinbing .block-content ul li:nth-child(2) {
+  background: #FCAF17;
+  position: relative;
+  top: -24px;
+  padding-bottom: 55px;
+}
+
+#block-guanxinbingzhiliaofangan .block-content {
+  text-align: center;
+}
+#block-guanxinbingzhiliaofangan .block-content hr {
+  width: 80%;
+  border: 1px solid #979797;
+}
+#block-guanxinbingzhiliaofangan .block-content ul {
+  height: 300px;
+  padding: 0;
+  margin: auto 14%;
+  display: table;
+}
+#block-guanxinbingzhiliaofangan .block-content ul li {
+  list-style: none;
+  width: 31%;
+  float: left;
+  margin: 1%;
+}
+#block-guanxinbingzhiliaofangan .block-content ul li div {
+  border-radius: 50%;
+  border: 1px solid #FCAF17;
+  width: 225px;
+  height: 225px;
+  margin: auto;
+}
+#block-guanxinbingzhiliaofangan .block-content ul li div span {
+  width: 190px;
+  height: 190px;
+  border-radius: 50%;
+  display: block;
+  background: #EB1384;
+  margin: 0 auto;
+  position: relative;
+  top: 17.5px;
+}
+#block-guanxinbingzhiliaofangan .block-content ul li div img {
+  margin-top: 40px;
+}
+
+@media (min-width: 770px) and (max-width: 990px) {
+  #block-guanxinbingzhiliaofangan .block-content {
+    padding-top: 20px;
+  }
+  #block-guanxinbingzhiliaofangan .block-content ul li {
+    margin: 0 10%;
+    float: unset;
+    width: auto;
+  }
+}
+@media (min-width: 513px) and (max-width: 770px) {
+  #block-guanxinbingzhiliaofangan .block-content {
+    padding-top: 350px;
+  }
+  #block-guanxinbingzhiliaofangan .block-content ul li {
+    margin: 0 10%;
+    float: unset;
+    width: auto;
+  }
+}
+@media (max-width: 513px) {
+  #block-zhenduanguanxinbing .block-content ul li:nth-child(2) {
+    position: unset;
+  }
+
+  #block-guanxinbingzhiliaofangan .block-content {
+    padding-top: 670px;
+  }
+  #block-guanxinbingzhiliaofangan .block-content ul li {
+    margin: 0 10%;
+    float: unset;
+    width: auto;
+  }
 }
 .az-product-position .az-product_headtwo {
   height: 300px;
