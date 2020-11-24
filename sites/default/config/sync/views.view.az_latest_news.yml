@@ -76,7 +76,7 @@ display:
         type: default
         options:
           grouping: {  }
-          row_class: 'col-sm-12 col-md-6 col-lg-4 portfolio-item filter-Packaging filter-Print portfolio item'
+          row_class: 'col-sm-12 col-md-6 col-lg-4  portfolio-item filter-Packaging filter-Print portfolio item'
           default_row_class: true
       row:
         type: fields
@@ -413,6 +413,21 @@ display:
       css_class: az-product-position
       defaults:
         css_class: false
+        style: false
+        row: false
+      style:
+        type: default
+        options:
+          grouping: {  }
+          row_class: 'col-sm-12 col-md-6 col-lg-4 col-xs-6 az-doc-talk portfolio-item filter-Packaging filter-Print portfolio item'
+          default_row_class: true
+      row:
+        type: fields
+        options:
+          default_field_elements: true
+          inline: {  }
+          separator: ''
+          hide_empty: false
     cache_metadata:
       max-age: -1
       contexts:
@@ -433,6 +448,22 @@ display:
       display_extenders: {  }
       path: az-latest-news
       display_description: ''
+      style:
+        type: default
+        options:
+          grouping: {  }
+          row_class: 'col-sm-12 col-md-6 col-lg-4  portfolio-item filter-Packaging filter-Print portfolio item'
+          default_row_class: true
+      defaults:
+        style: false
+        row: false
+      row:
+        type: fields
+        options:
+          default_field_elements: true
+          inline: {  }
+          separator: ''
+          hide_empty: false
     cache_metadata:
       max-age: -1
       contexts:

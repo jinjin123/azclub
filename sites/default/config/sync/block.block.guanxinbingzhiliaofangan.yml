@@ -1,9 +1,9 @@
-uuid: b7e6aa5f-7664-4441-872e-c85c0253ce0d
+uuid: c5e10156-5eba-4bca-a2ff-1afb72cc3d76
 langcode: en
 status: true
 dependencies:
   content:
-    - 'block_content:basic:66d9cc7f-d1cb-4bf5-a977-5e18e750c8da'
+    - 'block_content:basic:862d6d69-6c75-4bab-8f84-ae2889aaa31e'
   module:
     - block_content
     - block_visibility_groups
@@ -14,15 +14,15 @@ dependencies:
 third_party_settings:
   gaviasthemer:
     classes: ''
-id: referenceblock
+id: guanxinbingzhiliaofangan
 theme: astrazeneca
-region: content_bottom
-weight: -23
+region: after_content
+weight: -19
 provider: null
-plugin: 'block_content:66d9cc7f-d1cb-4bf5-a977-5e18e750c8da'
+plugin: 'block_content:862d6d69-6c75-4bab-8f84-ae2889aaa31e'
 settings:
-  id: 'block_content:66d9cc7f-d1cb-4bf5-a977-5e18e750c8da'
-  label: 參考：
+  id: 'block_content:862d6d69-6c75-4bab-8f84-ae2889aaa31e'
+  label: 冠心病治療方案
   provider: block_content
   label_display: '0'
   status: true
@@ -35,5 +35,5 @@ visibility:
     block_visibility_group: ''
   request_path:
     id: request_path
-    pages: "/latest-news/*\r\n/azhealthclub/clinical-search\r\n/Clinical/search-result\r\n/az-health-club/*"
+    pages: /cardiovascualr/coronary-heart
     negate: false

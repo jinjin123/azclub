@@ -1,6 +1,6 @@
 uuid: 45c4b7a7-67f0-4aa5-9e79-49a08843fc97
 langcode: en
-status: false
+status: true
 dependencies:
   config:
     - views.view.latest_offers
@@ -34,5 +34,5 @@ visibility:
     block_visibility_group: ''
   request_path:
     id: request_path
-    pages: '<front>'
+    pages: /dashboard
     negate: false

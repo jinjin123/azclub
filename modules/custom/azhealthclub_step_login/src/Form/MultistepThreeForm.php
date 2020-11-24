@@ -62,13 +62,19 @@ class MultistepThreeForm extends MultistepFormBase {
       ->condition('status', 1)
       ->condition('field_promote_to_register_form', TRUE)
       ->execute();
-    $database = \Drupal::database();
-    $pd_img = $database->select('node__field_az_product_img', 'n')
-      ->fields("n",["field_az_product_img_target_id","entity_id"])
-      ->condition("n.bundle","az_product_information","=")
-      ->condition("n.entity_id",$ids,"IN")
-      ->execute()
-      ->fetchAll();
+    if (!empty($ids)) {
+      $database = \Drupal::database();
+      $pd_img = $database->select('node__field_az_product_img', 'n')
+        ->fields("n",["field_az_product_img_target_id","entity_id"])
+        ->condition("n.bundle","az_product_information","=")
+        ->condition("n.entity_id",$ids,"IN")
+        ->execute()
+        ->fetchAll();
+    }
+    else {
+      $pd_img = [];
+    }
+
     $pd_v = [];
     $pd_t = [];
     foreach($pd_img as $key =>$v){

@@ -76,7 +76,7 @@ class MultistepTwoForm extends MultistepFormBase {
       //'#title' => '*出生年份',
       '#options' => [0=>'*出生年份'] + $years,
       '#default_value' => $this->store->get('birthday') ? $this->store->get('birthday') : 0,
-      '#prefix' => '<div class="col-md-3 col-xs-12">',
+      '#prefix' => '<div class="col-lg-3 col-md-3 col-xs-6 az-reg-brith">',
       '#suffix' => '</div>',
     ];
 
@@ -87,7 +87,7 @@ class MultistepTwoForm extends MultistepFormBase {
       //'#title' => '*性別',
       '#options' => ['0' => '*性別' ] + $allowed_values,
       '#default_value' => $this->store->get('gender') ? $this->store->get('gender') : '',
-      '#prefix' => '<div class="col-md-3 col-xs-12">',
+      '#prefix' => '<div class="col-lg-3 col-md-3 col-xs-6">',
       '#suffix' => '</div></div>',
     ];
 

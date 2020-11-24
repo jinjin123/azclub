@@ -351,7 +351,7 @@ blocks:
     fields:
       body:
         -
-          value: "<p>診斷冠心病</p>\r\n\r\n<h3>診斷及自我檢查</h3>\r\n\r\n<p>心臟病檢查-高危人士或曾出現懷疑為症狀者，應盡快求診，諮詢醫生的專業意見，選擇最合適的檢查。 如運動心電圖及以下的檢查方法可評估患者的血管健康情況。</p>\r\n\r\n<ul class=\"zdgxb\">\r\n\t<li><img src=\"/sites/default/files/imce_upload/admin/Diagnosis-Heart%20rate.png\" /><br />\r\n\t<span>臨床檢查 包括量血壓</span></li>\r\n\t<li><img src=\"/sites/default/files/imce_upload/admin/Diagnosis-Heart%20rate.png\" /><br />\r\n\t<span>摘取病人病史</span></li>\r\n\t<li><img src=\"/sites/default/files/imce_upload/admin/Diagnosis-Heart%20rate.png\" /><br />\r\n\t<span>血液檢驗，包括血糖發血脂</span></li>\r\n</ul>\r\n\r\n<p>了解治療方案.....</p>\r\n"
+          value: "<p>診斷冠心病</p>\r\n\r\n<h3>診斷及自我檢查</h3>\r\n\r\n<p>心臟病檢查-高危人士或曾出現懷疑為症狀者，應盡快求診，諮詢醫生的專業意見，選擇最合適的檢查。 如運動心電圖及以下的檢查方法可評估患者的血管健康情況。</p>\r\n\r\n<ul class=\"zdgxb\">\r\n\t<li><img src=\"/sites/default/files/imce_upload/admin/Diagnosis-Heart%20rate.png\" /><br />\r\n\t<span>臨床檢查 包括量血壓</span></li>\r\n\t<li><img src=\"/sites/default/files/imce_upload/admin/Diagnosis-medical-book.png\" /><br />\r\n\t<span>摘取病人病史</span></li>\r\n\t<li><img src=\"/sites/default/files/imce_upload/admin/Diagnosis-blood%20test.png\" /><br />\r\n\t<span>血液檢驗，包括血糖發血脂</span></li>\r\n</ul>\r\n"
           summary: ''
           format: full_html
   -
@@ -458,6 +458,19 @@ blocks:
           value: "<p>心血管疾病</p>\r\n\r\n<h3>相關資訊</h3>\r\n\r\n<p>Lorem lpsum is simply dummy text of the printing and typesetting industry.</p>\r\n"
           summary: ''
           format: basic_html
+  -
+    info: 冠心病治療方案
+    langcode: en
+    uuid: 862d6d69-6c75-4bab-8f84-ae2889aaa31e
+    bundle: basic
+    revision_id: null
+    rev_id_current: null
+    fields:
+      body:
+        -
+          value: "<hr />\r\n<p>了解冠心病</p>\r\n\r\n<h3>冠心病治療方案</h3>\r\n\r\n<p>治療冠心病一般可分為三種</p>\r\n\r\n<ul>\r\n\t<li>\r\n\t<div><span><img src=\"/sites/default/files/imce_upload/admin/Trestment-catheter.png\" /></span></div>\r\n\r\n\t<h4>藥物治療</h4>\r\n\r\n\t<p>阿士匹靈、B受體阻斷劑、血管擴張劑、血管緊張素轉換酵素抑制劑(ACEI)、鈣離子拮抗劑。</p>\r\n\t</li>\r\n\t<li>\r\n\t<div><span><img src=\"/sites/default/files/imce_upload/admin/Trestment-drugs.png\" />﻿</span></div>\r\n\r\n\t<h4>介入導管治療</h4>\r\n\r\n\t<p>醫生會以特製氣襄搌張血管，放入合適支架，以改 善心臟血管暢通，減少心絞痛。此方法為俗稱「通 波仔」的「冠狀動脈介入治療術」。此治療的併發 症可包括出血過多、心嫌病發、中風等。</p>\r\n\t</li>\r\n\t<li>\r\n\t<div><span><img src=\"/sites/default/files/imce_upload/admin/Trestment-surgery-tools.png\" /></span></div>\r\n\r\n\t<h4>心臟手術治療</h4>\r\n\r\n\t<p>醫生利用從病人體內其他血管接駁成橋樑，讓血液避過阻塞部位，以流向受損的心肌。此為俗稱搭橋 手術的血萤規道手術。此手術可引致嚴重的倂發 症，應跟翳生誶细商討。</p>\r\n\t</li>\r\n</ul>\r\n"
+          summary: ''
+          format: full_html
 menus:
   -
     menu_name: footer

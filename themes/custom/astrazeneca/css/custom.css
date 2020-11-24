@@ -1,6 +1,58 @@
 @charset "UTF-8";
 body {
   overflow: auto;
+  font-family: "PingFang TC - Semibold", "PingFang TC - Regular";
+}
+
+input, a, button, select, textarea, span, label {
+  font-family: "PingFang TC - Semibold", "PingFang TC - Regular";
+}
+
+.az-dashboard .az-das-bd .az-das-head {
+  display: flex;
+  margin-bottom: 30px;
+}
+.az-dashboard .az-das-bd .az-das-head .az-das-title {
+  text-align: left;
+}
+.az-dashboard .az-das-bd .az-das-head .az-das-title .dashboard-1 {
+  font-family: "PingFang TC - Semibold";
+  color: #444444;
+  font-size: 25px;
+}
+.az-dashboard .az-das-bd .az-das-head .az-das-title .dashboard-2 {
+  font-size: 18px;
+  color: #d7d7d7;
+}
+.az-dashboard .az-das-bd .az-das-head .az-dasrg-button a {
+  width: 60%;
+  background: #eb1384;
+  border-radius: 8px;
+  text-align: center;
+}
+.az-dashboard .az-das-bd .az-das-head .az-dasrg-button a::after {
+  content: "";
+}
+.az-dashboard .az-das-bd .az-das-icon {
+  display: flex;
+  margin-bottom: 50px;
+}
+.az-dashboard .az-das-bd .az-das-icon .az-das-cc-box {
+  border: 1px solid #eb1384;
+  padding: 20px;
+  margin-right: 40px;
+  width: 165px;
+  border-radius: 10px;
+}
+.az-dashboard .az-das-bd .az-das-icon .az-das-cc-box img {
+  margin-bottom: 18px;
+}
+.az-dashboard .az-das-bd .az-das-icon .az-das-cc-box a {
+  color: #eb1384;
+}
+
+#header {
+  z-index: 100;
 }
 
 .az-gb-refer .az-gbrefer-title {
@@ -79,6 +131,206 @@ a.button {
 }
 .az-cardthree_box .az-cardthree_body .az-cardthree_click_bottom a:hover {
   background-color: #fcaf17 !important;
+}
+
+.az-welcome .az-wel-bd {
+  position: relative;
+  top: -130px;
+  max-width: 35% !important;
+  box-shadow: 0px 0px 10px 0px #979797;
+  background: white;
+}
+.az-welcome .az-wel-bd .welcome {
+  margin: 0 100px;
+  padding: 30px;
+  height: 300px;
+}
+.az-welcome .az-wel-bd .welcome .welcome-1 {
+  font-size: 25px;
+  font-family: "PingFang TC - Semibold";
+  text-align: center;
+}
+.az-welcome .az-wel-bd .welcome .welcome-2 {
+  color: #d7d7d7;
+  text-align: center;
+}
+.az-welcome .az-wel-bd .welcome .az-wel-btn {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 50px;
+}
+.az-welcome .az-wel-bd .welcome .az-wel-btn > a::after {
+  content: "";
+}
+.az-welcome .az-wel-bd .welcome .az-wel-btn > a:nth-child(1) {
+  background: #eb1384;
+  text-align: center;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  width: 100%;
+}
+.az-welcome .az-wel-bd .welcome .az-wel-btn > a:nth-child(2) {
+  background: #d7d7d7;
+  text-align: center;
+  border-radius: 8px;
+  width: 100%;
+}
+
+.az-reg-three-cc .container {
+  position: relative;
+  top: -100px;
+  max-width: 50% !important;
+  box-shadow: 0px 0px 10px 0px #979797;
+}
+.az-reg-three-cc .container > div {
+  padding: 50px;
+}
+.az-reg-three-cc .container .login-outline {
+  border-left: 5px solid #eb1384;
+}
+.az-reg-three-cc .container .login-outline .login-title {
+  padding-left: 30px;
+}
+.az-reg-three-cc .container .login-outline .login-sub-title {
+  padding-left: 30px;
+  font-size: 10px;
+  color: #d7d7d7;
+}
+.az-reg-three-cc .container #multistep-form-three .form-item-no-medicine-using {
+  display: flex;
+}
+.az-reg-three-cc .container #multistep-form-three .form-item-no-medicine-using input {
+  margin-right: 10px;
+}
+.az-reg-three-cc .container #multistep-form-three #edit-medicine-using--wrapper {
+  margin-top: 20px;
+}
+.az-reg-three-cc .container #multistep-form-three #edit-medicine-using--wrapper #edit-medicine-using {
+  display: flex;
+  flex-wrap: wrap;
+}
+.az-reg-three-cc .container #multistep-form-three #edit-medicine-using--wrapper #edit-medicine-using .js-form-type-radio {
+  width: 30%;
+  margin-right: 20px;
+}
+.az-reg-three-cc .container #multistep-form-three #edit-medicine-using--wrapper #edit-medicine-using .js-form-type-radio input {
+  position: relative;
+  top: 220px;
+  left: 220px;
+}
+.az-reg-three-cc .container #multistep-form-three #edit-medicine-using--wrapper #edit-medicine-using .js-form-type-radio label {
+  width: 100%;
+}
+.az-reg-three-cc .container #multistep-form-three #edit-medicine-using--wrapper #edit-medicine-using .js-form-type-radio label img {
+  width: 100%;
+}
+.az-reg-three-cc .container #multistep-form-three #edit-where1--wrapper legend {
+  border-bottom: 0 !important;
+}
+.az-reg-three-cc .container #multistep-form-three #edit-where1--wrapper #edit-where1 {
+  display: flex;
+}
+.az-reg-three-cc .container #multistep-form-three #edit-where1--wrapper #edit-where1 .js-form-type-checkbox {
+  margin-right: 10px;
+}
+.az-reg-three-cc .container #multistep-form-three #edit-where1--wrapper #edit-where1 .js-form-type-checkbox input {
+  margin-right: 10px;
+}
+.az-reg-three-cc .container #multistep-form-three #edit-where2--wrapper {
+  margin-bottom: 10px;
+}
+.az-reg-three-cc .container #multistep-form-three #edit-where2--wrapper legend {
+  border-bottom: 0 !important;
+}
+.az-reg-three-cc .container #multistep-form-three #edit-where2--wrapper #edit-where2 {
+  display: flex;
+  flex-wrap: wrap;
+}
+.az-reg-three-cc .container #multistep-form-three #edit-where2--wrapper #edit-where2 .js-form-type-checkbox {
+  margin-right: 10px;
+}
+.az-reg-three-cc .container #multistep-form-three #edit-where2--wrapper #edit-where2 .js-form-type-checkbox input {
+  margin-right: 10px;
+}
+.az-reg-three-cc .container #multistep-form-three #edit-actions a {
+  background: #d7d7d7;
+  border-radius: 5px;
+  width: 200px;
+  text-align: center;
+}
+.az-reg-three-cc .container #multistep-form-three #edit-actions input {
+  float: right;
+  width: 200px;
+  background: #eb1384;
+}
+
+.az-reg-two-cc .container {
+  position: relative;
+  top: -100px;
+  max-width: 40% !important;
+  box-shadow: 0px 0px 10px 0px #979797;
+}
+.az-reg-two-cc .container > div {
+  padding: 50px;
+}
+.az-reg-two-cc .container .login-outline {
+  border-left: 5px solid #eb1384;
+}
+.az-reg-two-cc .container .login-outline .login-title {
+  padding-left: 30px;
+}
+.az-reg-two-cc .container .login-outline .login-sub-title {
+  padding-left: 30px;
+  font-size: 10px;
+  color: #d7d7d7;
+}
+.az-reg-two-cc .container #multistep-form-two .az-form-element-container {
+  margin-bottom: 10px;
+}
+.az-reg-two-cc .container #multistep-form-two .az-form-element-container div select {
+  width: 84% !important;
+}
+.az-reg-two-cc .container #multistep-form-two #edit-actions {
+  margin-top: 30px;
+  margin-left: 20px;
+}
+.az-reg-two-cc .container #multistep-form-two #edit-actions a {
+  border-radius: 6px !important;
+  background: #d7d7d7;
+  width: 200px;
+  text-align: center;
+}
+.az-reg-two-cc .container #multistep-form-two #edit-submit {
+  background: #eb1384;
+  text-align: center;
+  float: right;
+  width: 200px;
+}
+.az-reg-two-cc .container #edit-attention2 {
+  margin-left: 15px;
+  margin-top: 40px;
+  color: #eb1384;
+  margin-bottom: 30px;
+}
+.az-reg-two-cc .container #edit-attention2 .js-form-item-attention2-1 {
+  display: flex;
+}
+.az-reg-two-cc .container #edit-attention2 .js-form-item-attention2-1 input {
+  margin-right: 10px;
+}
+.az-reg-two-cc .container #edit-communication-mode--wrapper legend {
+  font-size: 18px !important;
+  margin-left: 20px;
+  color: #eb1384;
+}
+.az-reg-two-cc .container #edit-communication-mode--wrapper .fieldset-wrapper {
+  margin-left: 20px;
+}
+.az-reg-two-cc .container #edit-communication-mode--wrapper .fieldset-wrapper #edit-communication-mode {
+  display: flex;
+}
+.az-reg-two-cc .container #edit-communication-mode--wrapper .fieldset-wrapper #edit-communication-mode div {
+  margin-right: 30px;
 }
 
 .az-cardtow_box {
@@ -1474,10 +1726,6 @@ footer#footer::after {
   color: #898989;
 }
 
-.view-content-wrap {
-  display: table;
-}
-
 .ta-articles-list-header {
   text-align: center;
   background: #EB1384;
@@ -1497,17 +1745,111 @@ footer#footer::after {
   top: -100px;
 }
 
-#block-zhenduanguanxinbing ul {
+#block-zhenduanguanxinbing {
+  margin-bottom: 140px;
+}
+#block-zhenduanguanxinbing .block-content p {
+  margin: auto 20%;
+}
+#block-zhenduanguanxinbing .block-content ul {
   padding: 0;
   margin: 0;
 }
-#block-zhenduanguanxinbing ul li {
+#block-zhenduanguanxinbing .block-content ul li {
   display: inline-block;
-  background: #FCAF17;
+  background: #FC8917;
   border-radius: 5px;
+  padding: 30px;
+  margin: 20px;
+  width: 215px;
 }
-#block-zhenduanguanxinbing ul li img {
-  margin-bottom: 10px;
+#block-zhenduanguanxinbing .block-content ul li img {
+  padding: 20px;
+}
+#block-zhenduanguanxinbing .block-content ul li span {
+  width: 100px;
+  display: inline-block;
+}
+#block-zhenduanguanxinbing .block-content ul li:nth-child(2) {
+  background: #FCAF17;
+  position: relative;
+  top: -24px;
+  padding-bottom: 55px;
+}
+
+#block-guanxinbingzhiliaofangan .block-content {
+  text-align: center;
+}
+#block-guanxinbingzhiliaofangan .block-content hr {
+  width: 80%;
+  border: 1px solid #979797;
+}
+#block-guanxinbingzhiliaofangan .block-content ul {
+  height: 300px;
+  padding: 0;
+  margin: auto 14%;
+  display: table;
+}
+#block-guanxinbingzhiliaofangan .block-content ul li {
+  list-style: none;
+  width: 31%;
+  float: left;
+  margin: 1%;
+}
+#block-guanxinbingzhiliaofangan .block-content ul li div {
+  border-radius: 50%;
+  border: 1px solid #FCAF17;
+  width: 225px;
+  height: 225px;
+  margin: auto;
+}
+#block-guanxinbingzhiliaofangan .block-content ul li div span {
+  width: 190px;
+  height: 190px;
+  border-radius: 50%;
+  display: block;
+  background: #EB1384;
+  margin: 0 auto;
+  position: relative;
+  top: 17.5px;
+}
+#block-guanxinbingzhiliaofangan .block-content ul li div img {
+  margin-top: 40px;
+}
+
+@media (min-width: 770px) and (max-width: 990px) {
+  #block-guanxinbingzhiliaofangan .block-content {
+    padding-top: 20px;
+  }
+  #block-guanxinbingzhiliaofangan .block-content ul li {
+    margin: 0 10%;
+    float: unset;
+    width: auto;
+  }
+}
+@media (min-width: 513px) and (max-width: 770px) {
+  #block-guanxinbingzhiliaofangan .block-content {
+    padding-top: 350px;
+  }
+  #block-guanxinbingzhiliaofangan .block-content ul li {
+    margin: 0 10%;
+    float: unset;
+    width: auto;
+  }
+}
+@media (max-width: 513px) {
+  #block-zhenduanguanxinbing .block-content ul li:nth-child(2) {
+    position: unset;
+  }
+
+  #block-guanxinbingzhiliaofangan .block-content {
+    padding-top: 670px;
+  }
+  #block-guanxinbingzhiliaofangan .block-content ul li {
+    margin: 0 10%;
+    float: unset;
+    width: auto;
+  }
 }
 .az-product-position .az-product_headtwo {
   height: 300px;
@@ -1683,6 +2025,191 @@ body.az-user-login-page.path-user #page-main-content .main-content-inner {
 }
 
 @media (max-width: 375px) {
+  .az-top-banner h1 {
+    top: 0 !important;
+  }
+
+  .path-dashboard .main {
+    position: relative;
+    top: -100px;
+  }
+  .path-dashboard .az-dashboard .az-das-bd .az-das-head {
+    display: block !important;
+  }
+  .path-dashboard .az-dashboard .az-das-bd .az-das-head .az-das-title {
+    text-align: left;
+  }
+  .path-dashboard .az-dashboard .az-das-bd .az-das-head .az-das-title .dashboard-2 {
+    font-size: 10px !important;
+  }
+  .path-dashboard .az-dashboard .az-das-bd .az-das-head .az-dasrg-button {
+    margin-top: 10px !important;
+  }
+  .path-dashboard .az-dashboard .az-das-bd .az-das-head .az-dasrg-button a {
+    width: 100% !important;
+  }
+  .path-dashboard .az-dashboard .az-das-bd .az-das-icon {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .path-dashboard .az-dashboard .az-das-bd .az-das-icon .az-das-cc-box {
+    width: 42% !important;
+    margin-right: 0 !important;
+    height: 158px;
+    margin: 5px 15px;
+  }
+
+  .az-welcome .az-wel-bd {
+    position: relative;
+    top: -100px;
+    max-width: 90% !important;
+    box-shadow: 0px 0px 10px 0px #979797;
+    background: white;
+  }
+  .az-welcome .az-wel-bd .welcome {
+    margin: 0 !important;
+    padding: 10px !important;
+    height: 300px;
+  }
+  .az-welcome .az-wel-bd .welcome .welcome-1 {
+    font-size: 19px;
+    font-family: "PingFang TC - Semibold";
+    text-align: center;
+  }
+  .az-welcome .az-wel-bd .welcome .welcome-2 {
+    color: #d7d7d7;
+    text-align: center;
+  }
+  .az-welcome .az-wel-bd .welcome .az-wel-btn {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 50px;
+  }
+  .az-welcome .az-wel-bd .welcome .az-wel-btn > a::after {
+    content: "";
+  }
+  .az-welcome .az-wel-bd .welcome .az-wel-btn > a:nth-child(1) {
+    background: #eb1384;
+    text-align: center;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    width: 100%;
+  }
+  .az-welcome .az-wel-bd .welcome .az-wel-btn > a:nth-child(2) {
+    background: #d7d7d7;
+    text-align: center;
+    border-radius: 8px;
+    width: 100%;
+  }
+
+  .az-reg-three-cc .container {
+    max-width: 90% !important;
+    top: -50px !important;
+    background: white;
+  }
+  .az-reg-three-cc .container > div {
+    padding: 10px !important;
+  }
+  .az-reg-three-cc .container .page-title .login-title {
+    font-size: 20px;
+    padding-left: 10px;
+  }
+  .az-reg-three-cc .container .page-title .login-sub-title {
+    padding-left: 10px;
+  }
+  .az-reg-three-cc .container #edit-medicine-using--wrapper legend {
+    border-bottom: 0 !important;
+    margin-bottom: 0 !important;
+  }
+  .az-reg-three-cc .container #edit-medicine-using--wrapper legend span {
+    font-size: 10px;
+  }
+  .az-reg-three-cc .container #edit-medicine-using .js-form-type-radio {
+    width: 45% !important;
+    margin-right: 10px !important;
+  }
+  .az-reg-three-cc .container #edit-medicine-using .js-form-type-radio input {
+    top: 110px !important;
+    left: 100px !important;
+  }
+  .az-reg-three-cc .container #edit-where1--wrapper legend {
+    margin-bottom: 0 !important;
+    font-size: 10px !important;
+  }
+  .az-reg-three-cc .container #edit-where1--wrapper #edit-where1 label {
+    font-size: 10px;
+    font-weight: 100;
+  }
+  .az-reg-three-cc .container #edit-where2--wrapper legend {
+    margin-bottom: 0 !important;
+    font-size: 10px !important;
+  }
+  .az-reg-three-cc .container #edit-where2--wrapper #edit-where2 label {
+    font-size: 10px;
+    font-weight: 100;
+  }
+  .az-reg-three-cc .container #edit-actions a {
+    width: 100% !important;
+    margin-bottom: 10px;
+  }
+  .az-reg-three-cc .container #edit-actions #edit-submit {
+    float: none !important;
+    width: 100% !important;
+  }
+
+  .az-reg-two-cc .container {
+    max-width: 90% !important;
+    top: -50px !important;
+    background: white;
+  }
+  .az-reg-two-cc .container .page-title .login-title {
+    font-size: 20px;
+    padding-left: 10px;
+  }
+  .az-reg-two-cc .container .page-title .login-sub-title {
+    padding-left: 10px;
+  }
+  .az-reg-two-cc .container #multistep-form-two {
+    left: -10px;
+    position: relative;
+  }
+  .az-reg-two-cc .container #multistep-form-two #edit-attention2 {
+    margin-left: 0 !important;
+    font-size: 10px;
+  }
+  .az-reg-two-cc .container #multistep-form-two #edit-attention2 .js-form-item-attention2-1 input {
+    margin-right: 0 !important;
+  }
+  .az-reg-two-cc .container #multistep-form-two #edit-communication-mode--wrapper {
+    font-size: 10px !important;
+  }
+  .az-reg-two-cc .container #multistep-form-two #edit-communication-mode--wrapper legend {
+    font-size: 10px !important;
+    font-weight: unset;
+    border: 0 !important;
+    width: 90% !important;
+  }
+  .az-reg-two-cc .container #multistep-form-two #edit-communication-mode--wrapper .fieldset-wrapper #edit-communication-mode .js-form-item input {
+    margin-right: 10px;
+  }
+  .az-reg-two-cc .container #multistep-form-two #edit-communication-mode--wrapper .fieldset-wrapper #edit-communication-mode .js-form-item label {
+    font-weight: unset !important;
+  }
+  .az-reg-two-cc .container #multistep-form-two #edit-actions a {
+    height: 42px;
+    margin-bottom: 10px;
+  }
+  .az-reg-two-cc .container #multistep-form-two #edit-actions input {
+    float: none;
+  }
+  .az-reg-two-cc .container #block-astrazeneca-content div input {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  .az-reg-two-cc .container #block-astrazeneca-content .az-form-element-container div select {
+    width: 100% !important;
+  }
+
   .path-user .main-content-inner .page-title {
     font-size: 25px;
   }
@@ -1699,6 +2226,15 @@ body.az-user-login-page.path-user #page-main-content .main-content-inner {
     width: 100%;
     margin-left: 0;
     text-align: left !important;
+  }
+
+  .az-user-register .main-content-inner {
+    height: 1130px;
+  }
+  .az-user-register #edit-actions {
+    float: none;
+    width: 100% !important;
+    top: 0 !important;
   }
 
   .az-contact-right-box .top-box-img {
@@ -1826,18 +2362,6 @@ body.az-user-login-page.path-user #page-main-content .main-content-inner {
     top: -90px;
   }
 
-  #block-astrazeneca-page-title {
-    top: 1030px !important;
-    margin-left: 15px !important;
-    float: left;
-    position: relative;
-    word-break: break-all;
-  }
-  #block-astrazeneca-page-title div .page-title .az-article-header {
-    word-break: break-all;
-    left: 0 !important;
-  }
-
   .node--type-az-clinical-experience-process .node__content .field--name-body {
     width: 100%;
     left: 0 !important;
@@ -1882,14 +2406,15 @@ body.az-user-login-page.path-user #page-main-content .main-content-inner {
   .az-gb-refer {
     margin: 0 20px !important;
     word-break: break-all;
-    width: 90%;
+    width: 90% !important;
+    text-align: left !important;
   }
 
   .az-product_head {
     position: relative;
     top: -40px;
     display: block;
-    width: 100% !important;
+    width: 80% !important;
   }
   .az-product_head .az-product_head__title1 {
     font-size: 10px;
@@ -1994,10 +2519,10 @@ body.az-user-login-page.path-user #page-main-content .main-content-inner {
 
   .az-offer-detail {
     position: relative;
-    top: -980px;
+    top: -830px;
   }
   .az-offer-detail .shares {
-    left: 380px;
+    text-align: right;
   }
 
   .az-offerdetail-article-header {
@@ -2025,6 +2550,140 @@ body.az-user-login-page.path-user #page-main-content .main-content-inner {
   .field--name-field-medicine-shop-params {
     left: -60px !important;
     position: relative;
+  }
+
+  .az-offer-article .az-offerdetail {
+    margin: 10px 60px !important;
+  }
+
+  .az-health-cb-mobile .az-offer_box {
+    height: 300px !important;
+  }
+  .az-health-cb-mobile .az-offer_box .az-offer_body .az-offer_body_title {
+    font-size: 15px;
+  }
+  .az-health-cb-mobile .az-offer_box .az-offer_body .az-offer_sub_title {
+    font-size: 10px;
+  }
+
+  .az-product_headtwo {
+    height: 420px !important;
+  }
+
+  .az-doc-talk .az-offer_box {
+    height: 300px !important;
+  }
+  .az-doc-talk .az-offer_box .az-offer_body .az-offer_body_title {
+    font-size: 15px;
+  }
+
+  .az-healthtips_heads {
+    margin-bottom: 80px !important;
+  }
+
+  .az-offertips_box {
+    height: 160px !important;
+  }
+  .az-offertips_box .az-offer_img {
+    width: 30% !important;
+  }
+  .az-offertips_box .az-offer_body .az-offer_body_title {
+    font-size: 10px !important;
+    font-weight: unset !important;
+  }
+  .az-offertips_box .az-offer_body .az-offer_sub_title {
+    font-size: 5px !important;
+  }
+
+  .az-contact-main_box {
+    display: block !important;
+  }
+  .az-contact-main_box .az_contact_rg_box .az_head {
+    text-align: left !important;
+  }
+  .az-contact-main_box .az_contact_rg_box .az_body {
+    text-align: left !important;
+  }
+
+  .az-contact-form_body .az_title {
+    text-align: left !important;
+  }
+
+  .az_contact_form .js-form-item-name {
+    float: none !important;
+  }
+  .az_contact_form .js-form-item-name input {
+    width: 100% !important;
+  }
+  .az_contact_form .js-form-item-email input {
+    margin-bottom: 10px !important;
+  }
+  .az_contact_form .js-form-item-code {
+    display: block !important;
+  }
+  .az_contact_form .js-form-item-code input {
+    width: 100% !important;
+    margin-bottom: 10px;
+  }
+  .az_contact_form .az-validcode .az-valicodeshow {
+    position: relative;
+    left: -10px;
+  }
+  .az_contact_form .az-validcode .az-valicodeshow input {
+    width: 100px !important;
+  }
+  .az_contact_form .az-validcode .az-valicode_freash {
+    width: 43% !important;
+  }
+
+  .az-register-one {
+    margin: 0 15px;
+  }
+
+  .az-user-login-page .main {
+    position: relative;
+    top: -100px;
+    z-index: 999;
+    background: white;
+  }
+
+  .az-register-one .az-register-onebox img {
+    padding: 1px !important;
+    border-radius: 10px 10px 0px 0px;
+    box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.15) !important;
+  }
+
+  #multistep-form-one {
+    margin: 0 !important;
+  }
+  #multistep-form-one .tips {
+    display: none;
+  }
+  #multistep-form-one #az-phone-email div input {
+    width: 100% !important;
+  }
+  #multistep-form-one #az-pass-confirm-pass div input {
+    width: 100% !important;
+  }
+
+  .az-reg-s1 input {
+    width: 100% !important;
+  }
+
+  .az-reg-s1-send .js-form-item-verify-code {
+    left: -30px !important;
+  }
+  .az-reg-s1-send .js-form-item-verify-code input {
+    width: 142px !important;
+  }
+
+  #edit-privacy-statement .statement {
+    height: 200px;
+    overflow: auto;
+  }
+
+  #edit-attention1 .js-form-item-attention1-2 {
+    display: flex;
   }
 }
 .az-offer-detail {
@@ -2079,10 +2738,6 @@ body.az-user-login-page.path-user #page-main-content .main-content-inner {
   font-weight: bold;
 }
 
-#block-astrazeneca-page-title {
-  margin-left: 40px;
-}
-
 .field--name-field-relate-clinal {
   display: none;
 }
@@ -2097,7 +2752,7 @@ body.az-user-login-page.path-user #page-main-content .main-content-inner {
 
 .az-top-banner {
   position: relative;
-  top: -18px;
+  top: -69px;
 }
 .az-top-banner h1 {
   position: relative;
@@ -2138,6 +2793,7 @@ body.az-user-login-page.path-user #page-main-content .main-content-inner {
 }
 #multistep-form-one .tips {
   margin-left: 15px;
+  text-align: left;
 }
 #multistep-form-one #edit-send-code {
   border-radius: 0;
@@ -2175,6 +2831,9 @@ body.az-user-login-page.path-user #page-main-content .main-content-inner {
 #multistep-form-one #edit-attention1--wrapper legend span {
   padding-left: 15px;
   font-size: 16px;
+}
+#multistep-form-one #edit-attention1 {
+  text-align: left;
 }
 #multistep-form-one #edit-attention1 .js-form-item-attention1-1 {
   display: flex;
