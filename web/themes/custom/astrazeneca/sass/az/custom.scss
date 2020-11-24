@@ -9,6 +9,61 @@ body {
 input,a,button,select,textarea,span,label {
   font-family: "PingFang TC - Semibold","PingFang TC - Regular";
 }
+.az-dashboard {
+ .az-das-bd {
+   .az-das-head  {
+     display: flex;
+     .az-das-title {
+       text-align: left;
+       .dashboard-1 {
+         font-family: $font-family-defaulttt;
+         color: $color-balck;
+         font-size: 25px;
+       }
+       .dashboard-2 {
+         font-size: 18px;
+         color: $color-thingrey;
+       }
+     }
+     .az-dasrg-button {
+       a {
+         width: 60%;
+         background: $color-red;
+         border-radius: 8px;
+         text-align: center;
+         &::after{
+           content: "" ;
+         }
+       }
+     }
+     margin-bottom: 30px;
+   }
+   .az-das-icon {
+     display: flex;
+     margin-bottom: 50px;
+     .az-das-cc-box  {
+       border: 1px solid $color-red;
+       padding: 20px;
+       margin-right: 40px;
+       width: 165px;
+       border-radius: 10px;
+       img {
+         margin-bottom: 18px;
+       }
+       a {
+         color: $color-red;
+       }
+     }
+   }
+ }
+}
+//.path-dashboard {
+//  #block-views-block-latest-offers-block-1 {
+//    header  {
+//      font-family: $font-family-defaulttt;
+//    }
+//  }
+//}
 #header {
   z-index: 100;
 }
@@ -2480,9 +2535,46 @@ body.az-user-login-page.path-user #page-main-content  {
 }
 
 @media (max-width : 375px) {
-  //.gva-navigation {
-  //  display: none;
-  //}
+  .az-top-banner {
+    h1 {
+      top: 0 !important;
+    }
+  }
+  .path-dashboard {
+    .main {
+      position: relative;
+      top: -100px;
+    }
+    .az-dashboard {
+      .az-das-bd {
+        .az-das-head{
+          display: block !important;
+          .az-das-title {
+            text-align: left;
+            .dashboard-2 {
+              font-size: 10px !important;
+            }
+          }
+          .az-dasrg-button {
+            margin-top: 10px !important;
+            a {
+              width: 100% !important;
+            }
+          }
+        }
+        .az-das-icon {
+          display: flex;
+          flex-wrap: wrap;
+          .az-das-cc-box {
+            width: 42% !important;
+            margin-right: 0 !important;
+            height: 158px;
+            margin: 5px 15px;
+          }
+        }
+      }
+    }
+  }
   .az-welcome{
     .az-wel-bd {
       position: relative;

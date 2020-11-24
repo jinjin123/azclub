@@ -1,23 +1,32 @@
 
-<div class="dashboard">
-  <div class="dashboard-1">您好，{{ variables.name }}{{ variables.genderName }}歡迎加入「康心摯友會」</div>
-  <div class="dashboard-2">「康心摯友」為您提供最新醫學情報及健康小貼士</div>
-  <a href="/user/logout" class="logout btn">登出</a>
+<div class="az-dashboard">
+  <div class=" az-das-bd">
+    <div class="az-das-head col-lg-12 col-xs-12">
+      <div  class="az-das-title col-lg-8 col-xs-12">
+        <div class="dashboard-1">您好，{{ variables.name }}{{ variables.genderName }}歡迎加入「康心摯友會」</div>
+        <div class="dashboard-2">「康心摯友」為您提供最新醫學情報及健康小貼士</div>
+      </div>
+      <div  class="az-dasrg-button col-lg-4 col-xs-12">
+        <a href="/user/logout" class="logout btn">登出</a>
+      </div>
+    </div>
 
-  <div class="my-profile">
-    <img src="/sites/default/files/imce_upload/admin/Member%20Dashboard-My%20profile.png" />
-    <a href="/profile/1" >我的資料</a>
+    <div class="az-das-icon col-lg-12 col-xs-12">
+      <div class="az-das-cc-box my-profile col-lg-1 col-xs-6">
+        <img src="/sites/default/files/imce_upload/admin/Member%20Dashboard-My%20profile.png" />
+        <a href="/profile/1" >我的資料</a>
+      </div>
+
+      <div class="az-das-cc-box my-clinical-trial col-lg-1 col-xs-6">
+        <img src="/sites/default/files/imce_upload/admin/Member%20Dashboard-My%20Clinical%20Trial.png" />
+        <a href="#" class="latest-promote">我的臨床實驗</a>
+      </div>
+
+      <div class="az-das-cc-box medical-tutorial col-lg-1 col-xs-6">
+        <img src="/sites/default/files/imce_upload/admin/Member%20Dashboard-Healthcare%20Guidance.png" />
+        <a href="#" >藥物指導</a>
+      </div>
+    </div>
   </div>
-
-  <div class="my-clinical-trial">
-    <img src="/sites/default/files/imce_upload/admin/Member%20Dashboard-My%20Clinical%20Trial.png" />
-    <a href="#" class="latest-promote">我的臨床實驗</a>
-  </div>
-
-  <div class="medical-tutorial">
-    <img src="/sites/default/files/imce_upload/admin/Member%20Dashboard-Healthcare%20Guidance.png" />
-    <a href="#" >藥物指導</a>
-  </div>
-
 </div>
 
