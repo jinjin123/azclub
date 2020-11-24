@@ -1,7 +1,0 @@
-mailgroup_amazonses.receive:
-  path: '/mailgroup/amazonses/receive'
-  defaults:
-    _controller: '\Drupal\mailgroup_amazonses\Controller\AmazonSesController::receive'
-  methods: 'POST'
-  requirements:
-    _access: 'TRUE'
