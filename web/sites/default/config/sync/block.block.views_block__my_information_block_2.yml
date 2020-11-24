@@ -1,9 +1,9 @@
-uuid: 45c4b7a7-67f0-4aa5-9e79-49a08843fc97
+uuid: 258795cf-d6e7-4e80-bce5-7bc067fc74ba
 langcode: en
 status: true
 dependencies:
   config:
-    - views.view.latest_offers
+    - views.view.my_information
   module:
     - block_visibility_groups
     - gaviasthemer
@@ -14,14 +14,14 @@ dependencies:
 third_party_settings:
   gaviasthemer:
     classes: ''
-id: views_block__latest_offers_block_1
+id: views_block__my_information_block_2
 theme: astrazeneca
 region: content_bottom
-weight: -22
+weight: 0
 provider: null
-plugin: 'views_block:latest_offers-block_1'
+plugin: 'views_block:my_information-block_2'
 settings:
-  id: 'views_block:latest_offers-block_1'
+  id: 'views_block:my_information-block_2'
   label: ''
   provider: views
   label_display: '0'
