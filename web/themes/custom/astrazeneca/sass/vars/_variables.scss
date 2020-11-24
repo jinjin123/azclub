@@ -53,7 +53,8 @@ $link-hover-color:      #2B94E8 !default;
 //== Typography
 //
 //## Font, line-height, and color for body text, headings, and more.
-
+$font-family-defaulttt: "PingFang TC - Semibold" !default;
+$font-family-defaultdes: "PingFang TC - Regular" !default;
 $font-family-sans-serif:  "Open Sans", Arial, sans-serif !default;
 $font-family-serif:       Georgia, "Times New Roman", Times, serif !default;
 //** Default monospace fonts for `<code>`, `<kbd>`, and `<pre>`.
@@ -853,5 +854,13 @@ $page-header-border-color:    $gray-lighter !default;
 $dl-horizontal-offset:        $component-offset-horizontal !default;
 //** Horizontal line color.
 $hr-border:                   $gray-lighter !default;
+
+
+//@font-face {
+//  font-family: "PingFangTC";
+//  url:('/themes/custom/astrazeneca/fonts/PingFangTC-Semibold.ttf') format('truetype');
+//}
+//$font-family-sans-serif: "PingFang TC - Semibold" , "PingFang TC - Regular";
+
 
 

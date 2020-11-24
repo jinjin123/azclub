@@ -5,9 +5,11 @@
  */
 #}
 {% set mobile_menu = simplify_menu('main') %}
-<div class="body-page">
+
+<div class="body-page az-welcome">
   {% include directory ~ '/templates/page/parts/preloader.html.twig' %}
   {% include header_skin %}
+
   {% if mobile_menu %}
     {# Mobile menu #}
     <nav class="navbar navbar-fixed-top" id="sidebar-wrapper" role="navigation">
@@ -62,7 +64,11 @@
   {% if page.breadcrumbs %}
     <div class="breadcrumbs">
       {{ page.breadcrumbs }}
-      {{ page.content }}
+      <div class="az-welcome">
+        <div class="container az-wel-bd">
+          {{ page.content }}
+        </div>
+      </div>
     </div>
   {% endif %}
 

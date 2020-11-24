@@ -1,10 +1,11 @@
-uuid: b7e6aa5f-7664-4441-872e-c85c0253ce0d
+uuid: 00481dfd-c884-4b05-94eb-0484a69e5752
 langcode: en
 status: true
 dependencies:
   content:
-    - 'block_content:basic:66d9cc7f-d1cb-4bf5-a977-5e18e750c8da'
+    - 'block_content:basic:5eda6e96-b48f-4e47-b631-6467eeaaeecf'
   module:
+    - block_class
     - block_content
     - block_visibility_groups
     - gaviasthemer
@@ -12,17 +13,19 @@ dependencies:
   theme:
     - astrazeneca
 third_party_settings:
+  block_class:
+    classes: ta-articles-list-header
   gaviasthemer:
     classes: ''
-id: referenceblock
+id: zhenduanguanxinbing
 theme: astrazeneca
-region: content_bottom
-weight: -23
+region: after_content
+weight: -20
 provider: null
-plugin: 'block_content:66d9cc7f-d1cb-4bf5-a977-5e18e750c8da'
+plugin: 'block_content:5eda6e96-b48f-4e47-b631-6467eeaaeecf'
 settings:
-  id: 'block_content:66d9cc7f-d1cb-4bf5-a977-5e18e750c8da'
-  label: 參考：
+  id: 'block_content:5eda6e96-b48f-4e47-b631-6467eeaaeecf'
+  label: 診斷冠心病
   provider: block_content
   label_display: '0'
   status: true
@@ -35,5 +38,5 @@ visibility:
     block_visibility_group: ''
   request_path:
     id: request_path
-    pages: "/latest-news/*\r\n/azhealthclub/clinical-search\r\n/Clinical/search-result\r\n/az-health-club/*"
+    pages: /cardiovascualr/coronary-heart
     negate: false

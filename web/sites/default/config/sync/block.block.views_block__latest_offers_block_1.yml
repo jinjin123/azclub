@@ -1,6 +1,6 @@
 uuid: 45c4b7a7-67f0-4aa5-9e79-49a08843fc97
 langcode: en
-status: false
+status: true
 dependencies:
   config:
     - views.view.latest_offers
@@ -17,7 +17,7 @@ third_party_settings:
 id: views_block__latest_offers_block_1
 theme: astrazeneca
 region: content_bottom
-weight: -14
+weight: -22
 provider: null
 plugin: 'views_block:latest_offers-block_1'
 settings:
@@ -34,5 +34,5 @@ visibility:
     block_visibility_group: ''
   request_path:
     id: request_path
-    pages: '<front>'
+    pages: /dashboard
     negate: false

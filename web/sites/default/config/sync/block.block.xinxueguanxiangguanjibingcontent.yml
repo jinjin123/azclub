@@ -1,10 +1,11 @@
-uuid: b7e6aa5f-7664-4441-872e-c85c0253ce0d
+uuid: 15c40c54-4aab-41cb-9e33-f61ee4468dda
 langcode: en
 status: true
 dependencies:
   content:
-    - 'block_content:basic:66d9cc7f-d1cb-4bf5-a977-5e18e750c8da'
+    - 'block_content:basic:c268f7d2-2f77-4dc7-82ad-49df4ae1f9f8'
   module:
+    - block_class
     - block_content
     - block_visibility_groups
     - gaviasthemer
@@ -12,17 +13,19 @@ dependencies:
   theme:
     - astrazeneca
 third_party_settings:
+  block_class:
+    classes: ta-articles-list-header
   gaviasthemer:
     classes: ''
-id: referenceblock
+id: xinxueguanxiangguanjibingcontent
 theme: astrazeneca
-region: content_bottom
-weight: -23
+region: after_content
+weight: -24
 provider: null
-plugin: 'block_content:66d9cc7f-d1cb-4bf5-a977-5e18e750c8da'
+plugin: 'block_content:c268f7d2-2f77-4dc7-82ad-49df4ae1f9f8'
 settings:
-  id: 'block_content:66d9cc7f-d1cb-4bf5-a977-5e18e750c8da'
-  label: 參考：
+  id: 'block_content:c268f7d2-2f77-4dc7-82ad-49df4ae1f9f8'
+  label: 心血管相關疾病--content
   provider: block_content
   label_display: '0'
   status: true
@@ -35,5 +38,5 @@ visibility:
     block_visibility_group: ''
   request_path:
     id: request_path
-    pages: "/latest-news/*\r\n/azhealthclub/clinical-search\r\n/Clinical/search-result\r\n/az-health-club/*"
+    pages: /cardiovascualr
     negate: false

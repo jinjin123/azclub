@@ -79,7 +79,7 @@ display:
         type: default
         options:
           grouping: {  }
-          row_class: 'col-sm-12 col-md-6 col-lg-4 portfolio-item filter-Packaging filter-Print portfolio item'
+          row_class: 'col-sm-12 col-md-6 col-lg-4 col-xs-6 az-health-cb-mobile portfolio-item filter-Packaging filter-Print portfolio item'
           default_row_class: true
       row:
         type: fields

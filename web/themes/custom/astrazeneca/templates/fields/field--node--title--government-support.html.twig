@@ -25,11 +25,12 @@
     'field--name-' ~ field_name|clean_class,
     'field--type-' ~ field_type|clean_class,
     'field--label-' ~ label_display,
+    'az-geo-title',
   ]
 %}
 <span{{ attributes.addClass(classes) }}>
   {%- for item in items -%}
       {{ item.content }}
   {%- endfor -%}
-{#  <div class="az_duplicate_across"></div>#}
+  <div class="az_duplicate_across"></div>
 </span>

@@ -5,7 +5,7 @@
  */
 #}
 {% set mobile_menu = simplify_menu('main') %}
-<div class="body-page">
+<div class="body-page az-register-two-bd">
   {% include directory ~ '/templates/page/parts/preloader.html.twig' %}
   {% include header_skin %}
   {% if mobile_menu %}
@@ -62,7 +62,11 @@
   {% if page.breadcrumbs %}
     <div class="breadcrumbs">
       {{ page.breadcrumbs }}
-      {{ page.content }}
+      <div class="az-reg-two-cc">
+        <div class="container">
+          {{ page.content }}
+        </div>
+      </div>
     </div>
   {% endif %}
 

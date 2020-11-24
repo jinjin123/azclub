@@ -8,7 +8,6 @@ dependencies:
     - node.type.ta_cardiovascular
     - taxonomy.vocabulary.ta_type
   content:
-    - 'block_content:basic:5eda6e96-b48f-4e47-b631-6467eeaaeecf'
     - 'taxonomy_term:ta_type:38ebce9b-1435-44f1-95f6-a3a0571db709'
   module:
     - image
@@ -79,6 +78,10 @@ display:
             automatically_load_content: false
       style:
         type: default
+        options:
+          grouping: {  }
+          row_class: 'col-sm-12 col-md-6 col-lg-4'
+          default_row_class: true
       row:
         type: fields
       fields:
@@ -446,26 +449,14 @@ display:
             label: ''
           granularity: second
       title: 'Therapeutic area article list'
-      header:
-        area:
-          id: area
-          table: views
-          field: area
-          relationship: none
-          group_type: group
-          admin_label: ''
-          empty: false
-          tokenize: false
-          content:
-            value: "心血管疾病\r\n相關資訊\r\nLorem lpsum is simply dummy text of the printing and typesetting industry. "
-            format: full_html
-          plugin_id: text
+      header: {  }
       footer: {  }
       empty: {  }
       relationships: {  }
       arguments: {  }
       display_extenders: {  }
       use_ajax: true
+      css_class: 'container ta-articles-list'
     cache_metadata:
       max-age: -1
       contexts:
@@ -593,21 +584,10 @@ display:
         pager: false
         header: false
         footer: false
+        css_class: false
       header: {  }
-      footer:
-        entity_block_content:
-          id: entity_block_content
-          table: views
-          field: entity_block_content
-          relationship: none
-          group_type: group
-          admin_label: ''
-          empty: false
-          tokenize: true
-          target: 5eda6e96-b48f-4e47-b631-6467eeaaeecf
-          view_mode: default
-          bypass_access: false
-          plugin_id: entity
+      footer: {  }
+      css_class: container
     cache_metadata:
       max-age: -1
       contexts:

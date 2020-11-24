@@ -1,9 +1,9 @@
-uuid: 301802ad-6773-4783-bb5e-fd2d4b1c96ab
+uuid: 258795cf-d6e7-4e80-bce5-7bc067fc74ba
 langcode: en
 status: true
 dependencies:
   config:
-    - views.view.ta_article_list
+    - views.view.my_information
   module:
     - block_visibility_groups
     - gaviasthemer
@@ -14,14 +14,14 @@ dependencies:
 third_party_settings:
   gaviasthemer:
     classes: ''
-id: views_block__ta_article_list_block_2
+id: views_block__my_information_block_2
 theme: astrazeneca
-region: after_content
-weight: -21
+region: content_bottom
+weight: 0
 provider: null
-plugin: 'views_block:ta_article_list-block_2'
+plugin: 'views_block:my_information-block_2'
 settings:
-  id: 'views_block:ta_article_list-block_2'
+  id: 'views_block:my_information-block_2'
   label: ''
   provider: views
   label_display: '0'
@@ -34,5 +34,5 @@ visibility:
     block_visibility_group: ''
   request_path:
     id: request_path
-    pages: /cardiovascualr/coronary-heart
+    pages: /dashboard
     negate: false
