@@ -1,32 +1,33 @@
-uuid: 301802ad-6773-4783-bb5e-fd2d4b1c96ab
+uuid: c5e10156-5eba-4bca-a2ff-1afb72cc3d76
 langcode: en
 status: true
 dependencies:
-  config:
-    - views.view.ta_article_list
+  content:
+    - 'block_content:basic:862d6d69-6c75-4bab-8f84-ae2889aaa31e'
   module:
+    - block_content
     - block_visibility_groups
     - gaviasthemer
     - system
-    - views
   theme:
     - astrazeneca
 third_party_settings:
   gaviasthemer:
     classes: ''
-id: views_block__ta_article_list_block_2
+id: guanxinbingzhiliaofangan
 theme: astrazeneca
 region: after_content
-weight: -21
+weight: -19
 provider: null
-plugin: 'views_block:ta_article_list-block_2'
+plugin: 'block_content:862d6d69-6c75-4bab-8f84-ae2889aaa31e'
 settings:
-  id: 'views_block:ta_article_list-block_2'
-  label: ''
-  provider: views
+  id: 'block_content:862d6d69-6c75-4bab-8f84-ae2889aaa31e'
+  label: 冠心病治療方案
+  provider: block_content
   label_display: '0'
-  views_label: ''
-  items_per_page: none
+  status: true
+  info: ''
+  view_mode: full
 visibility:
   condition_group:
     id: condition_group
