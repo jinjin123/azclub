@@ -52,6 +52,11 @@ class MemberController extends ControllerBase {
     }
     else {
       // todo: not has member profile
+      return [
+        '#theme' => 'azhealthclub_dashboard',
+        '#type' => 'markup',
+        '#variables' => $variables
+      ];
     }
 
   }
