@@ -4,10 +4,61 @@
  * Gavias's theme implementation to display a single Drupal page.
  */
 #}
-
+{% set mobile_menu = simplify_menu('main') %}
 <div class="body-page  az-register-three-bd">
   {% include directory ~ '/templates/page/parts/preloader.html.twig' %}
   {% include header_skin %}
+  {% if mobile_menu %}
+    {# Mobile menu #}
+    <nav class="navbar navbar-fixed-top" id="sidebar-wrapper" role="navigation">
+      <div class="mobile-header-menu">
+        <div >
+          <a href="/" title="Home" rel="home" class="site-branding-logo col-xs-11">
+            <img src="/themes/custom/astrazeneca/logo.png" alt="Home">
+          </a>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">×</span>
+          </button>
+        </div>
+      </div>
+      <ul class="nav sidebar-nav">
+        {% for menu_item in mobile_menu.menu_tree %}
+          {% set active_trail = '' %}
+          {% if menu_item.active_trail or menu_item.active %}
+            {% set active_trail = 'active' %}
+          {% endif %}
+          {% if menu_item.submenu %}
+            {% if menu_item.url == '' %}
+            <li class="parent nolink {{active_trail}}" id="{{menu_item.options.attributes.class}}"><a href="javascript:void(0);">{{ menu_item.text|t }}</a>
+            {% else %}
+              <li class="parent {{active_trail}}"><a href="javascript:void(0);">{{ menu_item.text|t }}</a>
+            {% endif %}
+          {% else %}
+            {% set menu_url = menu_item.url %}
+            <li class="{{active_trail}}">
+            <a href="{{ menu_url }}" class="" title="{{ menu_item.text|t }}" target="{{menu_item.options.attributes.target}}">{{ menu_item.text|t }}</a>
+          {% endif %}
+          {% if menu_item.submenu %}
+            <ul class="sub-sidebar-nav">
+              <li>
+                <a href="{{ menu_item.url }}" class="" title="{{ menu_item.text|t }}" target="{{menu_item.options.attributes.target}}">{{ menu_item.text|t }}</a>
+              </li>
+              {% for sub_menu_item in menu_item.submenu %}
+                <li>
+                  <a href="{{ sub_menu_item.url }}" title="{{ sub_menu_item.text|t }}" target="{{sub_menu_item.options.attributes.target}}">{{ sub_menu_item.text|t }}</a>
+                </li>
+              {% endfor %}
+            </ul>
+          {% endif %}
+          </li>
+          {#            <div id="menuEnd"></div>#}
+          <hr class="menu_btn_line"/>
+        {% endfor %}
+      </ul>
+      <ul id="linkage-icon-sidebar" class="nav navbar-nav"></ul>
+    </nav>
+  {% endif %}
+  {# Mobile menu #}
   {% if page.breadcrumbs %}
     <div class="breadcrumbs">
       {{ page.breadcrumbs }}

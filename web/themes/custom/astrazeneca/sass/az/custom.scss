@@ -2177,6 +2177,9 @@ footer#footer::after {
 }
 
 @media (min-width: 770px) and (max-width: 990px) {
+  //.gva-navigation {
+  //  display: none;
+  //}
   //冠心病治療方案
   #block-guanxinbingzhiliaofangan {
     .block-content {
@@ -2193,6 +2196,9 @@ footer#footer::after {
 }
 
 @media (min-width: 513px) and (max-width: 770px)  {
+  //.gva-navigation {
+  //  display: none;
+  //}
   //冠心病治療方案
   #block-guanxinbingzhiliaofangan {
     .block-content {
@@ -2474,6 +2480,9 @@ body.az-user-login-page.path-user #page-main-content  {
 }
 
 @media (max-width : 375px) {
+  //.gva-navigation {
+  //  display: none;
+  //}
   .az-welcome{
     .az-wel-bd {
       position: relative;
