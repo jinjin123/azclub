@@ -6,6 +6,9 @@ body {
 input, a, button, select, textarea, span, label {
   font-family: "PingFang TC - Semibold","PingFang TC - Regular"; }
 
+#header {
+  z-index: 100; }
+
 .az-gb-refer .az-gbrefer-title {
   font-size: 20px;
   font-weight: bold;
@@ -74,7 +77,7 @@ a.button {
 
 .az-welcome .az-wel-bd {
   position: relative;
-  top: -100px;
+  top: -130px;
   max-width: 35% !important;
   box-shadow: 0px 0px 10px 0px #979797;
   background: white; }
@@ -2076,7 +2079,7 @@ body.az-user-login-page.path-user #page-main-content .main-content-inner {
 
 .az-top-banner {
   position: relative;
-  top: -18px; }
+  top: -69px; }
   .az-top-banner h1 {
     position: relative;
     text-align: center;

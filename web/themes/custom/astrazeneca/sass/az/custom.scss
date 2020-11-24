@@ -9,6 +9,9 @@ body {
 input,a,button,select,textarea,span,label {
   font-family: "PingFang TC - Semibold","PingFang TC - Regular";
 }
+#header {
+  z-index: 100;
+}
 
 //参考
 .az-gb-refer {
@@ -105,7 +108,7 @@ a.button {
 .az-welcome{
   .az-wel-bd {
     position: relative;
-    top: -100px;
+    top: -130px;
     max-width: 35% !important;
     box-shadow: 0px 0px 10px 0px $color-gray;
     background: white;
@@ -3289,7 +3292,7 @@ body.az-user-login-page.path-user #page-main-content  {
 // top banner
 .az-top-banner {
   position: relative;
-  top: -18px;
+  top: -69px;
   h1 {
     position: relative;
     text-align: center;
