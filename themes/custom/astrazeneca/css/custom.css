@@ -1400,22 +1400,22 @@ footer#footer::after {
   display: flex;
   width: 100%;
   flex-wrap: wrap; }
-  .paragraph--type--clinical-trial-portal-category-p .field--name-field-az-clinical-category-item .field__item {
-    width: 30%; }
-    .paragraph--type--clinical-trial-portal-category-p .field--name-field-az-clinical-category-item .field__item .az-clinical-middle-kv .az-middle-box {
-      width: 80%; }
-      .paragraph--type--clinical-trial-portal-category-p .field--name-field-az-clinical-category-item .field__item .az-clinical-middle-kv .az-middle-box .az-clinical-mid__boom {
-        display: flex;
-        flex-wrap: wrap; }
-        .paragraph--type--clinical-trial-portal-category-p .field--name-field-az-clinical-category-item .field__item .az-clinical-middle-kv .az-middle-box .az-clinical-mid__boom .az-middle-trialimg {
-          width: 20%; }
-          .paragraph--type--clinical-trial-portal-category-p .field--name-field-az-clinical-category-item .field__item .az-clinical-middle-kv .az-middle-box .az-clinical-mid__boom .az-middle-trialimg .field--name-field__clinical-trial-img img {
-            padding: 20px 0px; }
-        .paragraph--type--clinical-trial-portal-category-p .field--name-field-az-clinical-category-item .field__item .az-clinical-middle-kv .az-middle-box .az-clinical-mid__boom .az-middle-rgx {
-          width: 50%; }
-          .paragraph--type--clinical-trial-portal-category-p .field--name-field-az-clinical-category-item .field__item .az-clinical-middle-kv .az-middle-box .az-clinical-mid__boom .az-middle-rgx .field--name-field-clinical-name {
-            font-size: 18px;
-            color: #fcaf17; }
+  .paragraph--type--clinical-trial-portal-category-p .field--name-field-az-clinical-category-item .field__item .az-clinical-middle-kv .az-middle-box {
+    width: 100%;
+    margin-right: 40px; }
+    .paragraph--type--clinical-trial-portal-category-p .field--name-field-az-clinical-category-item .field__item .az-clinical-middle-kv .az-middle-box .az-clinical-mid__boom {
+      display: flex;
+      flex-wrap: wrap; }
+      .paragraph--type--clinical-trial-portal-category-p .field--name-field-az-clinical-category-item .field__item .az-clinical-middle-kv .az-middle-box .az-clinical-mid__boom .az-middle-trialimg {
+        width: 20%;
+        margin-right: 10px; }
+        .paragraph--type--clinical-trial-portal-category-p .field--name-field-az-clinical-category-item .field__item .az-clinical-middle-kv .az-middle-box .az-clinical-mid__boom .az-middle-trialimg .field--name-field__clinical-trial-img img {
+          padding: 20px 0px; }
+      .paragraph--type--clinical-trial-portal-category-p .field--name-field-az-clinical-category-item .field__item .az-clinical-middle-kv .az-middle-box .az-clinical-mid__boom .az-middle-rgx {
+        width: 70%; }
+        .paragraph--type--clinical-trial-portal-category-p .field--name-field-az-clinical-category-item .field__item .az-clinical-middle-kv .az-middle-box .az-clinical-mid__boom .az-middle-rgx .field--name-field-clinical-name {
+          font-size: 18px;
+          color: #fcaf17; }
 
 .node--type-az-clinical-experience-process .field--name-field-refers {
   display: block;
