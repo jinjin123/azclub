@@ -2215,6 +2215,7 @@ footer#footer::after {
       margin-top: 20px;
       top: 150px;
       display: block;
+      border-bottom: 1px solid $color-thingrey;
     }
   }
 }
@@ -2930,6 +2931,20 @@ body.az-user-login-page.path-user #page-main-content  {
       a:after {
          content:"";
       }
+    }
+  }
+}
+.az-clinical-right-kv {
+  .az-clinal-dt-share {
+    position: relative;
+    top: -160px;
+    float: right;
+    clear: both;
+    display: block;
+    left: 100px;
+    //margin-top: 20px;
+    .shares {
+      display: contents;
     }
   }
 }

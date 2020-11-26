@@ -1437,7 +1437,8 @@ footer#footer::after {
     position: relative;
     margin-top: 20px;
     top: 150px;
-    display: block; }
+    display: block;
+    border-bottom: 1px solid #d7d7d7; }
 
 .node--type-az-clinical-experience-process .az-article-header {
   top: -60px; }
@@ -1865,6 +1866,16 @@ body.az-user-login-page.path-user #page-main-content .main-content-inner {
 
 .path-user .main-content-inner .form-actions a:after {
   content: ""; }
+
+.az-clinical-right-kv .az-clinal-dt-share {
+  position: relative;
+  top: -160px;
+  float: right;
+  clear: both;
+  display: block;
+  left: 100px; }
+  .az-clinical-right-kv .az-clinal-dt-share .shares {
+    display: contents; }
 
 @media (max-width: 375px) {
   .az-myjibin .view-content-wrap .item {
