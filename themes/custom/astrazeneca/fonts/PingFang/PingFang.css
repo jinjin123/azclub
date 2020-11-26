@@ -1,0 +1,19 @@
+/* Normal */
+/*
+@font-face {
+    font-family: 'PingFang';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: local('Microsoft JhengHei UI'), local('DroidSansFallbackFull'), url('PingFangTC-Regular.ttf') format('truetype');
+}
+ */
+
+@font-face {
+    font-family: 'PingFang';
+    font-style: normal;
+    font-weight: 600;
+    font-display: swap;
+    /*src: local('Microsoft JhengHei UI Bold'), local('DroidSansFallbackFull'), url('PingFangTC-SemiBold.ttf') format('truetype');*/
+    src: url('PingFangTC-SemiBold.ttf') format('truetype');
+}

@@ -1,13 +1,15 @@
 @import "../vars/variables";
+@import url('../../fonts/PingFang/PingFang.css');
 
 body {
   //background-color:  $head-cus!important;
   //overflow: hidden;
   overflow: auto;
-  font-family: "PingFang TC - Semibold","PingFang TC - Regular";
+  font-family: "PingFang" !important;
+  font-weight: 600;
 }
 input,a,button,select,textarea,span,label,h4,h5,h6 {
-  font-family: "PingFang TC - Semibold","PingFang TC - Regular";
+  //font-family: "PingFang TC - Semibold","PingFang TC - Regular";
 }
 .path-healthcare-guidance {
   #block-nurseoncallyaowuyiqizhidao-2 {
@@ -958,7 +960,7 @@ a.button {
     padding: 0px 20px 0px 20px;
     text-align: left;
     .az-offer_body_title {
-      font-weight: bold;
+      font-weight: 600;
       word-break: break-all;
       text-overflow: ellipsis;
       overflow: hidden;
@@ -2278,7 +2280,7 @@ footer#footer::after {
         a {
           color: black;
           text-align: center;
-          font-weight: bolder;
+          font-weight: 600;
 
           img {
             margin-bottom: 5px;
