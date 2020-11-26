@@ -4182,3 +4182,23 @@ body.az-user-login-page.path-user #page-main-content  {
     font-size: 20px;
   }
 }
+
+// front page
+body.page-node-7 {
+ .node__content{
+   p {
+     width: 60%;
+     margin: 0 auto;
+   }
+ }
+}
+
+// basic page
+.node--type-page {
+  .node__content{
+    p {
+      width: 60%;
+      margin: 0 auto;
+    }
+  }
+}

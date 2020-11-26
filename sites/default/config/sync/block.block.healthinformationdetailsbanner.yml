@@ -1,0 +1,39 @@
+uuid: 833be2af-9e36-408e-af8d-b76a49e50e42
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:28669e5b-7323-411c-aca0-5e8de14becb8'
+  module:
+    - block_content
+    - block_visibility_groups
+    - gaviasthemer
+    - system
+  theme:
+    - astrazeneca
+third_party_settings:
+  gaviasthemer:
+    classes: ''
+id: healthinformationdetailsbanner
+theme: astrazeneca
+region: breadcrumbs
+weight: 0
+provider: null
+plugin: 'block_content:28669e5b-7323-411c-aca0-5e8de14becb8'
+settings:
+  id: 'block_content:28669e5b-7323-411c-aca0-5e8de14becb8'
+  label: 'Health Information Details Banner'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  condition_group:
+    id: condition_group
+    negate: false
+    block_visibility_group: ''
+  request_path:
+    id: request_path
+    pages: '/health-information/*'
+    negate: false

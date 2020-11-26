@@ -1,0 +1,39 @@
+uuid: 9685bc25-80b9-4f57-acc7-af54114c8de2
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:d454dcda-b55a-46ae-8264-a47bbe6f5880'
+  module:
+    - block_content
+    - block_visibility_groups
+    - gaviasthemer
+    - system
+  theme:
+    - astrazeneca
+third_party_settings:
+  gaviasthemer:
+    classes: ''
+id: medicalarticlebanner
+theme: astrazeneca
+region: breadcrumbs
+weight: 0
+provider: null
+plugin: 'block_content:d454dcda-b55a-46ae-8264-a47bbe6f5880'
+settings:
+  id: 'block_content:d454dcda-b55a-46ae-8264-a47bbe6f5880'
+  label: 'Medical Article Banner'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  condition_group:
+    id: condition_group
+    negate: false
+    block_visibility_group: ''
+  request_path:
+    id: request_path
+    pages: /medical-article
+    negate: false

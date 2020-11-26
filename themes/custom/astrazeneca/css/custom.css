@@ -3333,3 +3333,13 @@ body.az-user-login-page.path-user #page-main-content .main-content-inner {
   border-radius: 10px;
   font-size: 20px;
 }
+
+body.page-node-7 .node__content p {
+  width: 60%;
+  margin: 0 auto;
+}
+
+.node--type-page .node__content p {
+  width: 60%;
+  margin: 0 auto;
+}
