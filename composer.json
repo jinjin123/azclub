@@ -42,7 +42,8 @@
         "drupal/twig_tweak": "3.x-dev@dev",
         "drupal/webform": "^6.0",
         "drupal/weight": "^3.2",
-        "drupal/yearonly": "^9.0"
+        "drupal/yearonly": "^9.0",
+        "drush/drush": "^10.3"
     },
     "conflict": {
         "drupal/drupal": "*"
