@@ -55,7 +55,7 @@ display:
       pager:
         type: infinite_scroll
         options:
-          items_per_page: 6
+          items_per_page: 8
           offset: 0
           id: 0
           total_pages: null
@@ -71,7 +71,7 @@ display:
             offset: false
             offset_label: Offset
           views_infinite_scroll:
-            button_text: 'Load More'
+            button_text: 瀏覽更多
             automatically_load_content: false
       style:
         type: default
@@ -405,7 +405,7 @@ display:
           exclude: false
           alter:
             alter_text: true
-            text: " <div class=\"az-cardtow_box\">\r\n  <div class=\"az-cardtow_img\"> {{ field_medical_article_img }}</div>\r\n  <div class=\"az-cardtow_body\">\r\n     <h4 class=\"az-cardtow_body_title\">{{ title }}</h4>\r\n    <div class=\"az-cardtow_sub_title\"><p>{{ field_medical_article_tag }}</p><p>{{ created }}</p></div>\r\n<div class=\"az-cardtow_click_bottom\"><a href=\"{{ view_node }}\">了解更多</a></div>\r\n  </div>\r\n</div>"
+            text: " <div class=\"az-cardtwo_box\">\r\n  <div class=\"az-cardtwo_img\"> {{ field_medical_article_img }}</div>\r\n  <div class=\"az-cardtwo_body\">\r\n     <h4 class=\"az-cardtwo_body_title\">{{ title }}</h4>\r\n    <div class=\"az-cardtwo_sub_title\"><p>{{ field_medical_article_tag }}</p><p>{{ created }}</p></div>\r\n<div class=\"az-cardtwo_click_bottom\"><a href=\"{{ view_node }}\">了解更多</a></div>\r\n  </div>\r\n</div>"
             make_link: false
             path: ''
             absolute: false

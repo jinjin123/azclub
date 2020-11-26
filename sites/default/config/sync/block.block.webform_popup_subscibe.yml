@@ -1,0 +1,34 @@
+uuid: 45f4131c-8c01-46d8-afae-02375bd6b64b
+langcode: en
+status: true
+dependencies:
+  config:
+    - webform.webform.newsletter_subscription
+  module:
+    - block_visibility_groups
+    - gaviasthemer
+    - webform
+  theme:
+    - astrazeneca
+third_party_settings:
+  gaviasthemer:
+    classes: ''
+id: webform_popup_subscibe
+theme: astrazeneca
+region: content
+weight: -10
+provider: null
+plugin: webform_block
+settings:
+  id: webform_block
+  label: 立即登記！康心摯友會資訊
+  provider: webform
+  label_display: visible
+  webform_id: newsletter_subscription
+  default_data: ''
+  redirect: false
+visibility:
+  condition_group:
+    id: condition_group
+    negate: false
+    block_visibility_group: ''

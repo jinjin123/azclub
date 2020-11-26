@@ -78,7 +78,7 @@ azhealthclub_modify.relateclinal:
     _custom_access: '\Drupal\azhealthclub_modify\Controller\MemberController::access'
 
 
-azhealthclub_modify.:
+azhealthclub_modify.customclinal:
   path: '/memberclinal/{user}'
   defaults:
     _controller: '\Drupal\azhealthclub_modify\Controller\MemberController::customclinal'
@@ -87,3 +87,18 @@ azhealthclub_modify.:
     _permission: 'access content'
   options:
     user: \d+
+
+azhealthclub_modify.cancelSubscribe:
+  path: '/cancel-subscribe'
+  defaults:
+    _form: '\Drupal\azhealthclub_modify\Form\CancelSubscribeForm'
+    _title: ''
+  requirements:
+    _custom_access: '\Drupal\azhealthclub_modify\Controller\MemberController::access'
+azhealthclub_modify.cancelSubscribeSuccess:
+  path: '/cancel-subscribe-success'
+  defaults:
+    _controller: '\Drupal\azhealthclub_modify\Controller\MemberController::cancelSubscribeSuccess'
+    _title: ''
+  requirements:
+    _custom_access: '\Drupal\azhealthclub_modify\Controller\MemberController::access'

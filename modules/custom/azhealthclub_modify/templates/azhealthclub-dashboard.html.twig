@@ -14,17 +14,17 @@
     <div class="az-das-icon col-lg-12 col-xs-12">
       <div class="az-das-cc-box my-profile col-lg-1 col-xs-6">
         <img src="/sites/default/files/imce_upload/admin/Member%20Dashboard-My%20profile.png" />
-        <a href="/profile/1" >我的資料</a>
+        <a href="/profile/{{ variables['memberId']  }}" >我的資料</a>
       </div>
 
       <div class="az-das-cc-box my-clinical-trial col-lg-1 col-xs-6">
         <img src="/sites/default/files/imce_upload/admin/Member%20Dashboard-My%20Clinical%20Trial.png" />
-        <a href="#" class="latest-promote">我的臨床實驗</a>
+        <a href="/memberclinal/{{ variables['memberId'] }}" class="latest-promote">我的臨床實驗</a>
       </div>
 
       <div class="az-das-cc-box medical-tutorial col-lg-1 col-xs-6">
         <img src="/sites/default/files/imce_upload/admin/Member%20Dashboard-Healthcare%20Guidance.png" />
-        <a href="#" >藥物指導</a>
+        <a href="/Healthcare-guidance" >藥物指導</a>
       </div>
     </div>
   </div>

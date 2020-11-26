@@ -5,8 +5,11 @@ dependencies:
   config:
     - core.entity_view_mode.node.teaser
     - field.field.node.medical_article.body
+    - field.field.node.medical_article.field_author_name
     - field.field.node.medical_article.field_medical_article_img
     - field.field.node.medical_article.field_medical_article_tag
+    - field.field.node.medical_article.field_refers
+    - field.field.node.medical_article.field_sub_title
     - node.type.medical_article
   module:
     - text
@@ -30,6 +33,10 @@ content:
     third_party_settings: {  }
     region: content
 hidden:
+  addtoany: true
+  field_author_name: true
   field_medical_article_img: true
   field_medical_article_tag: true
+  field_refers: true
+  field_sub_title: true
   search_api_excerpt: true

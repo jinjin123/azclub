@@ -75,11 +75,16 @@ function azhealthclub_modify_theme()
        'variables' => []
      ]
    ],
-    'azhealthclub_memberclinal' =>[
-      'variables' => [
-        'variables' => []
-      ]
+  'azhealthclub_memberclinal' =>[
+    'variables' => [
+      'variables' => []
     ]
+  ],
+  'azhealthclub_cancel_subscribe_success' =>[
+   'variables' => [
+     'variables' => []
+   ]
+  ],
  ];
 }
 
@@ -126,6 +131,12 @@ function azhealthclub_modify_form_alter(&$form, \Drupal\Core\Form\FormStateInter
     ];
 
     array_unshift($form["#validate"], 'azhealthclub_modify_login_validate');
+  }
+
+  if ($form_id == "webform_submission_newsletter_subscription_node_7_add_form") {
+    if ($form["#id"] == 'webform-submission-newsletter-subscription-node-7-add-form') {
+      $form["elements"]["actions"]["#submit__label"] = '立即登記';
+    }
   }
 
 }
@@ -273,4 +284,3 @@ function azhealthclub_modify_user_login(UserInterface $account) {
     $response->send();
   }
 }
-

@@ -1,0 +1,22 @@
+uuid: 2f1f5cd4-d68e-4bd6-8f83-b8acd7d772ef
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: jiankangzixun
+label: 健康資訊
+type: 'canonical_entities:node'
+pattern: 'health-information/[node:nid]'
+selection_criteria:
+  1fb0c7c9-5059-4c79-8c48-13bdf9611bb2:
+    id: node_type
+    bundles:
+      health_information: health_information
+    negate: false
+    context_mapping:
+      node: node
+    uuid: 1fb0c7c9-5059-4c79-8c48-13bdf9611bb2
+selection_logic: and
+weight: -5
+relationships: {  }

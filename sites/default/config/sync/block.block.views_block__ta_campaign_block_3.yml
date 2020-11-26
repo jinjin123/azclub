@@ -17,7 +17,7 @@ third_party_settings:
 id: views_block__ta_campaign_block_3
 theme: astrazeneca
 region: content
-weight: -11
+weight: -20
 provider: null
 plugin: 'views_block:ta_campaign-block_3'
 settings:

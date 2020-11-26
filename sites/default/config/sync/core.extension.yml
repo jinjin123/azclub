@@ -73,6 +73,7 @@ module:
   search: 0
   search_api: 0
   serialization: 0
+  simple_popup_blocks: 0
   simplify_menu: 0
   smtp: 0
   structure_sync: 0

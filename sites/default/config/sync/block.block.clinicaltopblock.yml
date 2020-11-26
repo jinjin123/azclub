@@ -16,7 +16,7 @@ third_party_settings:
 id: clinicaltopblock
 theme: astrazeneca
 region: content
-weight: 0
+weight: -11
 provider: null
 plugin: 'block_content:970919fa-b9d4-4774-a634-c92dc0cb20b9'
 settings:

@@ -35,5 +35,5 @@ visibility:
     block_visibility_group: ''
   request_path:
     id: request_path
-    pages: "<front>\r\n/user/register/*"
+    pages: "<front>\r\n/user/register/*\r\n/clinical/*\r\n/OffersDetail/*\r\n/azhealthclub/clinical-search\r\n/cancel-subscribe\r\n/cancel-subscribe-success"
     negate: true

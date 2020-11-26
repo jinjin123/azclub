@@ -1,0 +1,21 @@
+uuid: fa4014be-7cf0-49d4-90ea-c3e7705360b7
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_refers
+    - node.type.medical_article
+  module:
+    - text
+id: node.medical_article.field_refers
+field_name: field_refers
+entity_type: node
+bundle: medical_article
+label: 參考：
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

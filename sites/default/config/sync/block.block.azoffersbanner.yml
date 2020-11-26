@@ -1,0 +1,42 @@
+uuid: f5237a4b-5949-4739-b42c-fa2dd68d7c44
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:6792817d-e79b-42fc-89a8-f0d73d0440e5'
+  module:
+    - block_content
+    - block_visibility_groups
+    - gaviasthemer
+    - node
+  theme:
+    - astrazeneca
+third_party_settings:
+  gaviasthemer:
+    classes: ''
+id: azoffersbanner
+theme: astrazeneca
+region: breadcrumbs
+weight: 0
+provider: null
+plugin: 'block_content:6792817d-e79b-42fc-89a8-f0d73d0440e5'
+settings:
+  id: 'block_content:6792817d-e79b-42fc-89a8-f0d73d0440e5'
+  label: 'az offers banner '
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  condition_group:
+    id: condition_group
+    negate: false
+    block_visibility_group: ''
+  node_type:
+    id: node_type
+    bundles:
+      offers_details: offers_details
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'

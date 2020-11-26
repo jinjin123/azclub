@@ -62,6 +62,7 @@ class MemberController extends ControllerBase {
   }
 
   public function access(AccountInterface $account) {
+    $roles = $account->getRoles();
     if ($account->isAnonymous()) {
       // redirect page
       //$response = new RedirectResponse('/home');
@@ -69,6 +70,10 @@ class MemberController extends ControllerBase {
 
       // just forbidden it
       return AccessResult::forbidden();
+    }
+    elseif (!in_array('member', $roles)) {
+      \Drupal::messenger()->addMessage('該用戶不是會員角色', 'notice', TRUE);
+      return AccessResult::forbidden('該用戶不是會員角色');
     }
     else {
       return AccessResult::allowed();
@@ -164,5 +169,14 @@ class MemberController extends ControllerBase {
     ];
   }
 
-}
+  public function cancelSubscribeSuccess() {
+    $member = \Drupal::currentUser();
+    $variables['memberId'] = $member->id();
+    return [
+      '#theme' => 'azhealthclub_cancel_subscribe_success',
+      '#type' => 'markup',
+      '#variables' => $variables
+    ];
+  }
 
+}

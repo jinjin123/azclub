@@ -286,7 +286,7 @@ blocks:
     fields:
       body:
         -
-          value: "<div class=\"az_clinical_box\">\r\n<p>臨床試驗文章</p>\r\n\r\n<p>臨床實驗相關文章</p>\r\n\r\n<p>他們痛苦不堪。什麼東西。但是因為我必到最小的地方來。我們的軍隊是誰呢？除了最小的以外，我什麼都不勞苦。好的，洛琳考慮到這一點，他一定很痛苦。</p>\r\n\r\n<p>&nbsp;</p>\r\n</div>\r\n"
+          value: "<div class=\"az_clinical_box\">\r\n<div class=\"container\">\r\n<p>臨床試驗文章</p>\r\n\r\n<p>臨床實驗相關文章</p>\r\n\r\n<p>他們痛苦不堪。什麼東西。但是因為我必到最小的地方來。我們的軍隊是誰呢？除了最小的以外，我什麼都不勞苦。好的，洛琳考慮到這一點，他一定很痛苦。</p>\r\n\r\n<p>&nbsp;</p>\r\n</div>\r\n</div>\r\n"
           summary: ''
           format: full_html
   -
@@ -312,7 +312,7 @@ blocks:
     fields:
       body:
         -
-          value: "<div class=\"az-header-topimg\"><img alt=\"\" data-entity-type=\"file\" data-entity-uuid=\"8cd2c98c-8751-449f-8b47-b7eb41433c32\" height=\"400\" src=\"/sites/default/files/imce_upload/admin/home-banner.png\" width=\"1430\" />\r\n<div class=\"az-header-imgbody\">\r\n<p><a href=\"/home\">Az Health Club</a></p>\r\n\r\n<p>康心摯友</p>\r\n\r\n<p>你的健康守護者</p>\r\n\r\n<p>無微不至的照顧，助你輕鬆管理身體狀況</p>\r\n</div>\r\n</div>\r\n"
+          value: "<div class=\"az-header-topimg\"><img alt=\"\" data-entity-type=\"file\" data-entity-uuid=\"\" height=\"400\" src=\"/sites/default/files/imce_upload/admin/home-banner.png\" width=\"1430\" />\r\n<div class=\"az-header-imgbody\">\r\n<p><a href=\"/home\">Az Health Club</a></p>\r\n\r\n<p>康心摯友</p>\r\n\r\n<p>你的健康守護者</p>\r\n\r\n<p>無微不至的照顧，助你輕鬆管理身體狀況</p>\r\n</div>\r\n</div>\r\n"
           summary: ''
           format: full_html
   -
@@ -377,7 +377,7 @@ blocks:
     fields:
       body:
         -
-          value: "<div class=\"az-product_head\">\r\n<div class=\"az-product_head__title1\"><span>臨床實驗</span></div>\r\n\r\n<div class=\"az-product_head__title2\"><span>What sre Clinical Trials</span></div>\r\n\r\n<div class=\"az-pipline-redbox\">\r\n<div><a href=\"javascript;\"><img src=\"/themes/custom/astrazeneca/images/icon/CTP-Hover1.png\" /></a></div>\r\n\r\n<div><a href=\"javascript;\"><img src=\"/themes/custom/astrazeneca/images/icon/CTP-Hover2.png\" /></a></div>\r\n\r\n<div><a href=\"javascript;\"><img src=\"/themes/custom/astrazeneca/images/icon/CTP-Hover3.png\" /></a></div>\r\n\r\n<div><a href=\"javascript;\"><img src=\"/themes/custom/astrazeneca/images/icon/CTP-Hover4.png\" /></a></div>\r\n\r\n<div><a href=\"javascript;\"><img src=\"/themes/custom/astrazeneca/images/icon/CTP-Hover5.png\" /></a></div>\r\n</div>\r\n</div>\r\n"
+          value: "<div class=\"az-product_head\">\r\n\t<div class=\"az-product_head__title1\"><span>臨床實驗</span></div>\r\n\r\n\t<div class=\"az-product_head__title2\"><span>What sre Clinical Trials</span></div>\r\n \t<div class=\"container\">\r\n\t\t<div class=\"az-pipline-redbox \">\r\n\t\t\t<div ><a href=\"javascript; \"><img src=\"/themes/custom/astrazeneca/images/icon/CTP-Hover1.png\" /></a></div>\r\n\r\n\t\t\t<div><a href=\"javascript;\"><img src=\"/themes/custom/astrazeneca/images/icon/CTP-Hover2.png\" /></a></div>\r\n\r\n\t\t\t<div><a href=\"javascript;\"><img src=\"/themes/custom/astrazeneca/images/icon/CTP-Hover3.png\" /></a></div>\r\n\r\n\t\t\t<div><a href=\"javascript;\"><img src=\"/themes/custom/astrazeneca/images/icon/CTP-Hover4.png\" /></a></div>\r\n\r\n\t\t\t<div><a href=\"javascript;\"><img src=\"/themes/custom/astrazeneca/images/icon/CTP-Hover5.png\" /></a></div>\r\n\t\t</div>\r\n\t</div>\r\n</div>"
           summary: ''
           format: full_html
   -
@@ -390,7 +390,7 @@ blocks:
     fields:
       body:
         -
-          value: "<div class=\"az-nurse-contentimg\"><img src=\"sites/default/files/2020-11/Bydureon.png\" /> <img src=\"sites/default/files/2020-11/Symbicort.png\" /></div>\r\n\r\n<div class=\"az-nurse-box\">\r\n<div class=\"container\">\r\n<div class=\"az-nurse-left-icon\"><img src=\"/themes/custom/astrazeneca/images/icon/phone-call.png\" /></div>\r\n\r\n<div class=\"az-nurse-right-box\">\r\n<div class=\"az-nurse-right-title\">護⼠熱線</div>\r\n\r\n<div class=\"az-nurse-right-body\">如會員在應⽤百達揚®Bydureon®注射筆 及信必可®Symbicort®吸入器時遇 到疑問,可致電 2941 5106 查詢有關註冊護⼠儀器應⽤指導安排。</div>\r\n\r\n<p>*指導服務只適⽤於指定藥物儀器使⽤者。</p>\r\n</div>\r\n</div>\r\n</div>\r\n"
+          value: "<div class=\"container\">\r\n<div class=\"az-product_head\">\r\n<div class=\"az-product_head__title1\">藥物儀器指導</div>\r\n\r\n<div class=\"az-product_head__title2\">各類儀器指導</div>\r\n\r\n<div class=\"az-product_head__body az-product-nurse-bd\">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type</div>\r\n</div>\r\n</div>\r\n\r\n<div class=\"az-nurse-contentimg\">\r\n<div class=\"col-lg-6\"><img src=\"sites/default/files/2020-11/Bydureon.png\" />\r\n<h4>百達揚®Bydureon®注射筆</h4>\r\n</div>\r\n\r\n<div class=\"col-lg-6\"><img src=\"sites/default/files/2020-11/Symbicort.png\" />\r\n<h4>信必可®Symbicort®吸入器</h4>\r\n</div>\r\n</div>\r\n\r\n<div class=\"az-nurse-box\">\r\n<div class=\"container\">\r\n<div class=\"az-nurse-left-icon\"><img src=\"/themes/custom/astrazeneca/images/icon/phone-call.png\" /></div>\r\n\r\n<div class=\"az-nurse-right-box\">\r\n<div class=\"az-nurse-right-title\">查詢熱線 : 2941 5106</div>\r\n\r\n<div class=\"az-nurse-right-body\">如會員在應⽤百達揚®Bydureon®注射筆 及信必可®Symbicort®吸入器時遇 到疑問,可致電 2941 5106 查詢有關註冊護⼠儀器應⽤指導安排。</div>\r\n\r\n<p>*指導服務只適⽤於指定藥物儀器使⽤者。</p>\r\n</div>\r\n</div>\r\n</div>\r\n"
           summary: ''
           format: full_html
   -
@@ -469,6 +469,58 @@ blocks:
       body:
         -
           value: "<hr />\r\n<p>了解冠心病</p>\r\n\r\n<h3>冠心病治療方案</h3>\r\n\r\n<p>治療冠心病一般可分為三種</p>\r\n\r\n<ul>\r\n\t<li>\r\n\t<div><span><img src=\"/sites/default/files/imce_upload/admin/Trestment-catheter.png\" /></span></div>\r\n\r\n\t<h4>藥物治療</h4>\r\n\r\n\t<p>阿士匹靈、B受體阻斷劑、血管擴張劑、血管緊張素轉換酵素抑制劑(ACEI)、鈣離子拮抗劑。</p>\r\n\t</li>\r\n\t<li>\r\n\t<div><span><img src=\"/sites/default/files/imce_upload/admin/Trestment-drugs.png\" />﻿</span></div>\r\n\r\n\t<h4>介入導管治療</h4>\r\n\r\n\t<p>醫生會以特製氣襄搌張血管，放入合適支架，以改 善心臟血管暢通，減少心絞痛。此方法為俗稱「通 波仔」的「冠狀動脈介入治療術」。此治療的併發 症可包括出血過多、心嫌病發、中風等。</p>\r\n\t</li>\r\n\t<li>\r\n\t<div><span><img src=\"/sites/default/files/imce_upload/admin/Trestment-surgery-tools.png\" /></span></div>\r\n\r\n\t<h4>心臟手術治療</h4>\r\n\r\n\t<p>醫生利用從病人體內其他血管接駁成橋樑，讓血液避過阻塞部位，以流向受損的心肌。此為俗稱搭橋 手術的血萤規道手術。此手術可引致嚴重的倂發 症，應跟翳生誶细商討。</p>\r\n\t</li>\r\n</ul>\r\n"
+          summary: ''
+          format: full_html
+  -
+    info: 'az offers detail banner '
+    langcode: en
+    uuid: 6792817d-e79b-42fc-89a8-f0d73d0440e5
+    bundle: basic
+    revision_id: null
+    rev_id_current: null
+    fields:
+      body:
+        -
+          value: "<div class=\"az-top-banner\">\r\n<h1>&nbsp;</h1>\r\n<img alt=\"\" data-entity-type=\"file\" data-entity-uuid=\"\" height=\"400\" src=\"/sites/default/files/imce_upload/admin/Health%20Information%20-TA%20Campaign%20-%20Heart.png\" width=\"1430\" /></div>\r\n"
+          summary: ''
+          format: full_html
+  -
+    info: 'az clinical trial home banner'
+    langcode: en
+    uuid: f3428cb6-29be-4fc7-b6e7-2a7926a29276
+    bundle: basic
+    revision_id: null
+    rev_id_current: null
+    fields:
+      body:
+        -
+          value: "<div class=\"az-top-banner\">\r\n<div class=\"container\" ><h1>臨床實驗</h1>\r\n\r\n<h1>CLINICAL TRIAL PROTAL</h1></div>\r\n<img alt=\"\" data-entity-type=\"file\" data-entity-uuid=\"\" height=\"400\" src=\"/sites/default/files/imce_upload/admin/Clinical%20Trial%20Portal.png\" width=\"1430\" /></div>\r\n"
+          summary: ''
+          format: full_html
+  -
+    info: 諮詢醫生
+    langcode: en
+    uuid: 70982bd3-dbc1-494a-a1f9-9789f9f2e9c9
+    bundle: basic
+    revision_id: null
+    rev_id_current: null
+    fields:
+      body:
+        -
+          value: "<h4>諮詢醫生</h4>\r\n\r\n<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text</p>\r\n\r\n<p><a href=\"\\\">私家醫生</a>&nbsp;<a href=\"\\\">政府醫生</a></p>\r\n"
+          summary: ''
+          format: full_html
+  -
+    info: 'az clinical trial detail page  banner'
+    langcode: en
+    uuid: 2b4bd6bf-81ce-40d8-bf9d-ce9c5b5a234e
+    bundle: basic
+    revision_id: null
+    rev_id_current: null
+    fields:
+      body:
+        -
+          value: "<div class=\"az-top-banner\">\r\n<div class=\"container\">\r\n<h1>肺癌</h1>\r\n\r\n<h1>LUNG GANNER</h1>\r\n</div>\r\n<img alt=\"\" data-entity-type=\"file\" data-entity-uuid=\"\" height=\"400\" src=\"/sites/default/files/imce_upload/admin/Health%20Information%20-TA%20Campaign%20-%20Lung.png\" width=\"1430\" /></div>\r\n"
           summary: ''
           format: full_html
 menus:
@@ -599,7 +651,7 @@ menus:
     uri: 'internal:/az-latest-news'
     link_title: ''
     description: null
-    enabled: '1'
+    enabled: '0'
     expanded: '0'
     weight: '-50'
     langcode: en

@@ -15,6 +15,7 @@ use Drupal\Core\TempStore\PrivateTempStoreFactory;
 use Symfony\Component\DependencyInjection\ContainerInterface;
 use Drupal\user\Entity\User;
 use Drupal\profile\Entity\Profile;
+use Symfony\Component\HttpFoundation\RedirectResponse;
 
 abstract class MultistepFormBase extends FormBase {
 
@@ -68,6 +69,12 @@ abstract class MultistepFormBase extends FormBase {
   * {@inheritdoc}.
   */
   public function buildForm(array $form, FormStateInterface $form_state) {
+
+    if (!\Drupal::currentUser()->isAnonymous()) {
+      $response = new RedirectResponse('/user');
+      $response->send();
+    }
+
     // Start a manual session for anonymous users.
     if (\Drupal::currentUser()->isAnonymous() && !isset($_SESSION['multistep_form_holds_session'])) {
       $_SESSION['multistep_form_holds_session'] = true;

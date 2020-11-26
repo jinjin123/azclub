@@ -361,7 +361,7 @@ display:
           empty: false
           tokenize: false
           content:
-            value: "最新藥物優惠\r\n<hr />"
+            value: "<h4 class=\"az-das-title\">最新藥物優惠</h4>\r\n<hr />"
             format: full_html
           plugin_id: text
       footer: {  }

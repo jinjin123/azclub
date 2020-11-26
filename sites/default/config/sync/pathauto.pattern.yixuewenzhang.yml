@@ -1,0 +1,22 @@
+uuid: 195facac-ef9f-4eeb-9ec7-3f138a773fae
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: yixuewenzhang
+label: 醫學文章
+type: 'canonical_entities:node'
+pattern: 'medical-article/[node:nid]'
+selection_criteria:
+  e06a8c85-07a3-44a2-9307-db21adff4c13:
+    id: node_type
+    bundles:
+      medical_article: medical_article
+    negate: false
+    context_mapping:
+      node: node
+    uuid: e06a8c85-07a3-44a2-9307-db21adff4c13
+selection_logic: and
+weight: -5
+relationships: {  }

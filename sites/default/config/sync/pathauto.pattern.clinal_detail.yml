@@ -1,0 +1,22 @@
+uuid: 667023a2-c690-49da-b4a4-83b68d4c1537
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: clinal_detail
+label: clinal-detail
+type: 'canonical_entities:node'
+pattern: 'clinical/[node:nid]'
+selection_criteria:
+  4aa36cbb-2fce-406a-91e6-f37a0f9bb661:
+    id: node_type
+    bundles:
+      az_clinical_experience_process: az_clinical_experience_process
+    negate: false
+    context_mapping:
+      node: node
+    uuid: 4aa36cbb-2fce-406a-91e6-f37a0f9bb661
+selection_logic: and
+weight: -5
+relationships: {  }

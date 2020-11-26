@@ -15,7 +15,7 @@ third_party_settings:
 id: azclinicalfilterblock
 theme: astrazeneca
 region: content
-weight: -17
+weight: -26
 provider: null
 plugin: az_clinical_filter_block
 settings:

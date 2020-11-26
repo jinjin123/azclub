@@ -1,0 +1,39 @@
+uuid: 938a0c8e-0ee7-4f15-a708-6b87dd57adf2
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:f3428cb6-29be-4fc7-b6e7-2a7926a29276'
+  module:
+    - block_content
+    - block_visibility_groups
+    - gaviasthemer
+    - system
+  theme:
+    - astrazeneca
+third_party_settings:
+  gaviasthemer:
+    classes: ''
+id: azclinicaltrialhomebanner
+theme: astrazeneca
+region: breadcrumbs
+weight: 0
+provider: null
+plugin: 'block_content:f3428cb6-29be-4fc7-b6e7-2a7926a29276'
+settings:
+  id: 'block_content:f3428cb6-29be-4fc7-b6e7-2a7926a29276'
+  label: 'az clinical trial home banner'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  condition_group:
+    id: condition_group
+    negate: false
+    block_visibility_group: ''
+  request_path:
+    id: request_path
+    pages: /azhealthclub/clinical-search
+    negate: false

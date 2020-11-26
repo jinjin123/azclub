@@ -1,0 +1,39 @@
+uuid: e87c2ecf-3b97-408b-9537-acfad0fcbd49
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:2b4bd6bf-81ce-40d8-bf9d-ce9c5b5a234e'
+  module:
+    - block_content
+    - block_visibility_groups
+    - gaviasthemer
+    - system
+  theme:
+    - astrazeneca
+third_party_settings:
+  gaviasthemer:
+    classes: ''
+id: azclinicaltrialdetailpagebanner
+theme: astrazeneca
+region: breadcrumbs
+weight: 0
+provider: null
+plugin: 'block_content:2b4bd6bf-81ce-40d8-bf9d-ce9c5b5a234e'
+settings:
+  id: 'block_content:2b4bd6bf-81ce-40d8-bf9d-ce9c5b5a234e'
+  label: 'az clinical trial detail page  banner'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  condition_group:
+    id: condition_group
+    negate: false
+    block_visibility_group: ''
+  request_path:
+    id: request_path
+    pages: '/clinical/*'
+    negate: false

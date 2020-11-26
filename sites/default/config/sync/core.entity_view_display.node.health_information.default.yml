@@ -4,6 +4,7 @@ status: true
 dependencies:
   config:
     - field.field.node.health_information.body
+    - field.field.node.health_information.field_author_name
     - field.field.node.health_information.field_health_information_img
     - field.field.node.health_information.field_refers
     - field.field.node.health_information.field_sub_title
@@ -24,6 +25,14 @@ content:
     weight: 1
     settings: {  }
     third_party_settings: {  }
+    region: content
+  field_author_name:
+    weight: 5
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
     region: content
   field_health_information_img:
     weight: 3
