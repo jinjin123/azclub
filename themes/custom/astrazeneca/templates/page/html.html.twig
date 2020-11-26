@@ -25,7 +25,7 @@
 #}
 <!DOCTYPE html>
 <html{{ html_attributes }}>
-  <head> 
+  <head>
     <head-placeholder token="{{ placeholder_token|raw }}">
     <title>{{ head_title|safe_join(' | ') }}</title>
     <css-placeholder token="{{ placeholder_token|raw }}">
@@ -48,14 +48,25 @@
     {% endif %}
 
   </head>
-
-  {% set body_classes = [
-    logged_in ? 'logged-in',
-    not root_path ? 'frontpage' : 'path-' ~ root_path|clean_class,
-    node_type ? 'node--type-' ~ node_type|clean_class,
-    node_id ? 'node-' ~ node_id|clean_class
-    ]
-  %}
+      {% set url = url('<current>') %}
+     {% if '/product' in url["#markup"]  %}
+        {% set body_classes = [
+          logged_in ? 'logged-in',
+          not root_path ? 'frontpage' : 'path-' ~ root_path|clean_class,
+          node_type ? 'node--type-' ~ node_type|clean_class,
+          node_id ? 'node-' ~ node_id|clean_class,
+          'path-product-home'
+          ]
+        %}
+      {% else %}
+         {% set body_classes = [
+           logged_in ? 'logged-in',
+           not root_path ? 'frontpage' : 'path-' ~ root_path|clean_class,
+           node_type ? 'node--type-' ~ node_type|clean_class,
+           node_id ? 'node-' ~ node_id|clean_class,
+         ]
+         %}
+      {%  endif %}
 
   <body{{ attributes.addClass(body_classes) }}>
 
@@ -66,12 +77,12 @@
     {{ page }}
     {{ page_bottom }}
     <js-bottom-placeholder token="{{ placeholder_token|raw }}">
-    
+
     {% if addon_template %}
       <div class="permission-save-{{ save_customize_permission }}">
         {% include addon_template %}
-      </div>  
+      </div>
     {% endif %}
-  
+
   </body>
 </html>

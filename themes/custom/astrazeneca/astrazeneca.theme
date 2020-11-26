@@ -98,7 +98,6 @@ function astrazeneca_preprocess_html(&$variables) {
     }
     $variables['current_url'] = $current_url;
   }
-
   $tmp_logo = theme_get_setting('logo');
 
   $variables['site_logo'] = $tmp_logo['url'];

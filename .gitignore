@@ -50,3 +50,4 @@ sites/default/config/content/paragraph
 sites/default/config/content/taxonomy_term
 sites/default/config/content/user
 .vscode
+themes/custom/astrazeneca/node_modules

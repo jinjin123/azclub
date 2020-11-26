@@ -97,11 +97,16 @@
   </div>
   <hr class="az-hr"/>
   <div class="row az-share-and-author">
-    <div class="shares">{{ drupal_block('addtoany_block')  }}</div>
+    <div class="shares">{{ drupal_block('addtoany_block') }}</div>
     <div class="author-by">
-      By <span class="author-name">{{ author_name }}</span>
+      By <span class="author-name">{{ content.field_author_name }}</span>
     </div>
   </div>
-  <h3>參考:</h3>
   {{ content.field_refers }}
 </article>
+
+{#{{ drupal_block('more_articles-block_1') }}#}
+<div class="more-articles">
+<div class="more-articles-title">更多資訊</div>
+  {{ drupal_view('more_articles', 'block_1') }}
+</div>

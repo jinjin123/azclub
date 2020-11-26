@@ -97,7 +97,7 @@
     {{ content['body'] }}
     </div>
     <div {{ content_attributes.addClass('az-node__content_bottom_boder', 'clearfix') }}>
-      <div class="row">
+      <div class="row col-lg-12 az-geo" >
 {#        <div class="col-md-9">#}
 {#          <span></span>#}
 {#          <span></span>#}
@@ -106,8 +106,8 @@
 {#        <div class="col-md-3">#}
 {#          By {{ author_name }}#}
 {#        </div>#}
-        <div class="shares col-sm-6 col-xs-6">{{ drupal_block('addtoany_block')  }}</div>
-        <div class="col-sm-6 col-xs-6 az-bottom-link-author">By <span class="author-name">{{ author_name }}</span></div>
+        <div class="shares col-lg-6 col-sm-6 col-xs-6">{{ drupal_block('addtoany_block')  }}</div>
+        <div class="col-sm-6 col-lg-6 col-xs-6 az-bottom-link-author">By <span class="author-name">{{ author_name }}</span></div>
       </div>
     </div>
     <div>{{ content.field_refers }}</div>

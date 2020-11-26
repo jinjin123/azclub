@@ -99,9 +99,13 @@
   <div class="row az-share-and-author">
     <div class="shares">{{ drupal_block('addtoany_block')  }}</div>
     <div class="author-by">
-      By <span class="author-name">{{ author_name }}</span>
+      <span class="author-name">{{ content.field_author_name }}</span><span>醫生訪問</span>
     </div>
   </div>
-  <h3>參考:</h3>
   {{ content.field_refers }}
 </article>
+
+<div class="more-articles">
+  <div class="more-articles-title">更多文章</div>
+  {{ drupal_view('more_articles', 'block_2') }}
+</div>
