@@ -472,19 +472,6 @@ blocks:
           summary: ''
           format: full_html
   -
-    info: 'az offers detail banner '
-    langcode: en
-    uuid: 6792817d-e79b-42fc-89a8-f0d73d0440e5
-    bundle: basic
-    revision_id: null
-    rev_id_current: null
-    fields:
-      body:
-        -
-          value: "<div class=\"az-top-banner\">\r\n<h1>&nbsp;</h1>\r\n<img alt=\"\" data-entity-type=\"file\" data-entity-uuid=\"\" height=\"400\" src=\"/sites/default/files/imce_upload/admin/Health%20Information%20-TA%20Campaign%20-%20Heart.png\" width=\"1430\" /></div>\r\n"
-          summary: ''
-          format: full_html
-  -
     info: 'az clinical trial home banner'
     langcode: en
     uuid: f3428cb6-29be-4fc7-b6e7-2a7926a29276
@@ -521,6 +508,19 @@ blocks:
       body:
         -
           value: "<div class=\"az-top-banner\">\r\n<div class=\"container\">\r\n<h1>肺癌</h1>\r\n\r\n<h1>LUNG GANNER</h1>\r\n</div>\r\n<img alt=\"\" data-entity-type=\"file\" data-entity-uuid=\"\" height=\"400\" src=\"/sites/default/files/imce_upload/admin/Health%20Information%20-TA%20Campaign%20-%20Lung.png\" width=\"1430\" /></div>\r\n"
+          summary: ''
+          format: full_html
+  -
+    info: 'az offers detail page banner'
+    langcode: en
+    uuid: 335c6863-d9a7-4f14-aad1-e34c3f70aac1
+    bundle: basic
+    revision_id: null
+    rev_id_current: null
+    fields:
+      body:
+        -
+          value: "<div class=\"az-top-banner\">\r\n<div class=\"container\">\r\n<h1>病友支援 / 藥物優惠</h1>\r\n\r\n<h1>兩盒裝優惠 (附特選藥房資訊)</h1>\r\n</div>\r\n<img alt=\"\" data-entity-type=\"file\" data-entity-uuid=\"a65e534a-6e4b-4ff4-887f-e279b80733ba\" height=\"260\" src=\"/sites/default/files/imce_upload/admin/Health%20Information%20-TA%20Campaign%20-%20Heart.png\" width=\"1440\" /></div>\r\n"
           summary: ''
           format: full_html
 menus:

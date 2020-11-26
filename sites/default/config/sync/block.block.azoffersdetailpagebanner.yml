@@ -1,28 +1,28 @@
-uuid: f5237a4b-5949-4739-b42c-fa2dd68d7c44
+uuid: 30c026f2-afa3-4c6e-87fb-18d716051cd2
 langcode: en
 status: true
 dependencies:
   content:
-    - 'block_content:basic:6792817d-e79b-42fc-89a8-f0d73d0440e5'
+    - 'block_content:basic:335c6863-d9a7-4f14-aad1-e34c3f70aac1'
   module:
     - block_content
     - block_visibility_groups
     - gaviasthemer
-    - node
+    - system
   theme:
     - astrazeneca
 third_party_settings:
   gaviasthemer:
     classes: ''
-id: azoffersbanner
+id: azoffersdetailpagebanner
 theme: astrazeneca
 region: breadcrumbs
 weight: 0
 provider: null
-plugin: 'block_content:6792817d-e79b-42fc-89a8-f0d73d0440e5'
+plugin: 'block_content:335c6863-d9a7-4f14-aad1-e34c3f70aac1'
 settings:
-  id: 'block_content:6792817d-e79b-42fc-89a8-f0d73d0440e5'
-  label: 'az offers banner '
+  id: 'block_content:335c6863-d9a7-4f14-aad1-e34c3f70aac1'
+  label: 'az offers detail page banner'
   provider: block_content
   label_display: '0'
   status: true
@@ -33,10 +33,7 @@ visibility:
     id: condition_group
     negate: false
     block_visibility_group: ''
-  node_type:
-    id: node_type
-    bundles:
-      offers_details: offers_details
+  request_path:
+    id: request_path
+    pages: '/offersdetail/*'
     negate: false
-    context_mapping:
-      node: '@node.node_route_context:node'

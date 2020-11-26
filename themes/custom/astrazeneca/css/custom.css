@@ -620,7 +620,7 @@ a.button {
   .az-product_head .az-product_head__body {
     color: #979797; }
     .az-product_head .az-product_head__body .container {
-      width: 70% !important; }
+      width: 60% !important; }
   .az-product_head .az-pipline-redbox {
     display: flex; }
     .az-product_head .az-pipline-redbox div {
@@ -965,7 +965,8 @@ a.button {
 
 .az-offerdetail-article-header {
   position: relative;
-  left: 37%; }
+  left: 37.5%;
+  top: -50px; }
   .az-offerdetail-article-header span div {
     font-size: 21px; }
 
@@ -1281,8 +1282,9 @@ footer#footer::after {
 .az-offers_product_box {
   position: relative;
   left: -30%;
-  top: -150px;
-  border: 1px solid gray;
+  top: -200px;
+  box-shadow: 17px 18px 25px rgba(0, 0, 0, 0.15);
+  border-right: 1px solid #d7d7d7;
   padding: 0px; }
   .az-offers_product_box .az-offers_bgimg {
     position: relative;
@@ -1295,12 +1297,13 @@ footer#footer::after {
     bottom: 30px;
     left: 20px; }
   .az-offers_product_box .az-offers_logodes {
-    padding-left: 10px; }
+    padding: 30px; }
 
 .az-offer-article .az-offerdetail {
   position: relative;
-  margin-left: 25.5%;
-  display: flex; }
+  margin-left: 26%;
+  display: flex;
+  top: -690px; }
   .az-offer-article .az-offerdetail .az-off-pp-params {
     border-top: 1px solid #d9d8d8;
     border-bottom: 1px solid #d9d8d8;
@@ -1313,9 +1316,11 @@ footer#footer::after {
 
 .az-offernode__content_body {
   position: relative;
-  left: -29.5%;
-  top: 120px;
-  display: block; }
+  left: 33%;
+  top: -520px;
+  display: block;
+  width: 50%;
+  margin: 10px 100px; }
   .az-offernode__content_body p {
     color: #979797; }
 
@@ -1324,16 +1329,27 @@ footer#footer::after {
   position: relative;
   width: 40%;
   margin-top: 8%;
-  margin-left: 36%;
+  margin-left: 37.5%;
   margin-right: auto;
-  margin-bottom: 20px; }
+  margin-bottom: 20px;
+  top: -700px;
+  clear: both;
+  float: unset;
+  margin-bottom: 50px;
+  padding-right: 0 !important;
+  padding-left: 0 !important;
+  padding-bottom: 30px;
+  border-bottom: 1px solid #979797; }
   .az-offers_shop div img {
     width: 100%; }
 
 .az-medicine-shop-header {
-  left: 35.8%;
+  left: 26.5%;
   display: flex;
-  position: relative; }
+  position: relative;
+  top: -700px; }
+  .az-medicine-shop-header .az-medicinie-left {
+    margin-right: 70px; }
 
 .az-offer-article {
   margin-bottom: 10px; }
@@ -2341,7 +2357,11 @@ body.az-user-login-page.path-user #page-main-content .main-content-inner {
     display: flex; } }
 
 .az-offer-detail {
-  display: flex; }
+  position: relative;
+  top: -730px;
+  margin: 0px 500px;
+  left: -150px;
+  text-align: right; }
 
 .az-nurse-contentimg {
   display: flex;

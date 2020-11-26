@@ -1,0 +1,22 @@
+uuid: e8999d9d-8bc0-44d5-8513-37be0833c3c4
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: offers_detail
+label: offers-detail
+type: 'canonical_entities:node'
+pattern: 'offersdetail/[node:nid]'
+selection_criteria:
+  af27a023-9622-41c9-a501-1c3970b8bd45:
+    id: node_type
+    bundles:
+      offers_details: offers_details
+    negate: false
+    context_mapping:
+      node: node
+    uuid: af27a023-9622-41c9-a501-1c3970b8bd45
+selection_logic: and
+weight: -5
+relationships: {  }

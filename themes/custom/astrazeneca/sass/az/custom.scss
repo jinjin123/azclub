@@ -920,7 +920,7 @@ a.button {
     //width: 70%;
     //margin: 0 200px;
     .container {
-      width: 70% !important;
+      width: 60% !important;
     }
   }
 
@@ -1417,7 +1417,8 @@ a.button {
 
 .az-offerdetail-article-header {
   position: relative;
-  left: 37%;
+  left: 37.5%;
+  top:-50px;
 
   span {
     div {
@@ -1934,8 +1935,10 @@ footer#footer::after {
   position: relative;
   //clear: both;
   left: -30%;
-  top: -150px;
-  border: 1px solid gray;
+  top: -200px;
+  //border: 1px solid gray;
+  box-shadow: 17px 18px 25px rgba(0, 0, 0, 0.15);
+  border-right: 1px solid $color-thingrey;
   padding: 0px;
 
   .az-offers_bgimg {
@@ -1955,7 +1958,7 @@ footer#footer::after {
   }
 
   .az-offers_logodes {
-    padding-left: 10px;
+    padding: 30px;
   }
 }
 
@@ -1969,8 +1972,9 @@ footer#footer::after {
 .az-offer-article {
   .az-offerdetail {
     position: relative;
-    margin-left: 25.5%;
+    margin-left: 26%;
     display: flex;
+    top: -690px;
 
     .az-off-pp-params {
       border-top: 1px solid #d9d8d8;
@@ -1995,10 +1999,11 @@ footer#footer::after {
 //}
 .az-offernode__content_body {
   position: relative;
-  left: -29.5%;
-  top: 120px;
+  left: 33%;
+  top: -520px;
   display: block;
-
+  width: 50%;
+  margin: 10px 100px;
   p {
     color: $color-gray;
   }
@@ -2009,10 +2014,17 @@ footer#footer::after {
   position: relative;
   width: 40%;
   margin-top: 8%;
-  margin-left: 36%;
+  margin-left: 37.5%;
   margin-right: auto;
   margin-bottom: 20px;
-
+  top:-700px;
+  clear: both;
+  float: unset;
+  margin-bottom: 50px;
+  padding-right: 0 !important;
+  padding-left: 0 !important;
+  padding-bottom: 30px;
+  border-bottom: 1px solid $color-gray;
   div {
     img {
       width: 100%;
@@ -2021,9 +2033,14 @@ footer#footer::after {
 }
 
 .az-medicine-shop-header {
-  left: 35.8%;
+  left: 26.5%;
   display: flex;
   position: relative;
+  //margin-top: -700px;
+  top: -700px;
+  .az-medicinie-left {
+    margin-right: 70px;
+  }
 }
 
 .az-offer-article {
@@ -3770,7 +3787,12 @@ body.az-user-login-page.path-user #page-main-content  {
 }
 
 .az-offer-detail {
-  display: flex;
+  position: relative;
+  top: -730px;
+  //margin: 30px 500px;
+  margin: 0px 500px;
+  left: -150px;
+  text-align: right;
 }
 
 .az-nurse-contentimg {
