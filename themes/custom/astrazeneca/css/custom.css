@@ -772,25 +772,6 @@ a.button {
   padding-right: 10px;
   position: relative; }
 
-@media (min-width: 768px) {
-  .col-sm-1-7 {
-    width: 14.28%;
-    float: left; } }
-
-@media (min-width: 992px) {
-  .col-md-1-7 {
-    width: 14.28%;
-    float: left; }
-  #sidebar-wrapper {
-    display: none; } }
-
-@media (min-width: 1200px) {
-  .col-lg-1-7 {
-    width: 14.28%;
-    float: left; }
-  .gva-navigation {
-    display: block; } }
-
 #sidebar-wrapper {
   display: none; }
 
@@ -1283,8 +1264,8 @@ footer#footer::after {
   position: relative;
   left: -30%;
   top: -200px;
-  box-shadow: 17px 18px 25px rgba(0, 0, 0, 0.15);
-  border-right: 1px solid #d7d7d7;
+  box-shadow: 1px 1px 5px #ccc;
+  border-right: 1px solid rgba(0, 0, 0, 0.125);
   padding: 0px; }
   .az-offers_product_box .az-offers_bgimg {
     position: relative;
@@ -1302,17 +1283,22 @@ footer#footer::after {
 .az-offer-article .az-offerdetail {
   position: relative;
   margin-left: 26%;
-  display: flex;
-  top: -690px; }
+  float: unset;
+  clear: both;
+  top: -450px;
+  display: flex; }
   .az-offer-article .az-offerdetail .az-off-pp-params {
     border-top: 1px solid #d9d8d8;
     border-bottom: 1px solid #d9d8d8;
     width: 25%; }
+    .az-offer-article .az-offerdetail .az-off-pp-params div {
+      padding-top: 15px; }
   .az-offer-article .az-offerdetail .az-off-pp-area {
+    padding: 15px;
     border-top: 1px solid #d9d8d8;
     border-bottom: 1px solid #d9d8d8;
     width: 25%;
-    text-align: right; }
+    text-align: center; }
 
 .az-offernode__content_body {
   position: relative;
@@ -1320,26 +1306,31 @@ footer#footer::after {
   top: -520px;
   display: block;
   width: 50%;
-  margin: 10px 100px; }
+  margin: 10px 100px;
+  clear: both;
+  height: auto;
+  z-index: 10; }
   .az-offernode__content_body p {
     color: #979797; }
 
 .az-offers_shop {
   display: block;
+  margin-top: 0px !important;
+  top: -500px;
+  float: left;
   position: relative;
-  width: 40%;
-  margin-top: 8%;
-  margin-left: 37.5%;
+  width: 42%;
+  margin-left: 37%;
   margin-right: auto;
   margin-bottom: 20px;
-  top: -700px;
-  clear: both;
-  float: unset;
-  margin-bottom: 50px;
+  /* top: -700px; */
+  /* clear: both; */
+  /* float: unset; */
+  /* margin-bottom: 50px; */
   padding-right: 0 !important;
   padding-left: 0 !important;
   padding-bottom: 30px;
-  border-bottom: 1px solid #979797; }
+  border-bottom: 1px solid rgba(0, 0, 0, 0.125); }
   .az-offers_shop div img {
     width: 100%; }
 
@@ -1347,7 +1338,7 @@ footer#footer::after {
   left: 26.5%;
   display: flex;
   position: relative;
-  top: -700px; }
+  top: -460px; }
   .az-medicine-shop-header .az-medicinie-left {
     margin-right: 70px; }
 
@@ -1698,36 +1689,6 @@ footer#footer::after {
         #block-guanxinbingzhiliaofangan .block-content ul li div img {
           margin-top: 40px; }
 
-@media (min-width: 770px) and (max-width: 990px) {
-  #block-guanxinbingzhiliaofangan .block-content {
-    padding-top: 20px; }
-    #block-guanxinbingzhiliaofangan .block-content ul li {
-      margin: 0 10%;
-      float: unset;
-      width: auto; } }
-
-@media (min-width: 513px) and (max-width: 770px) {
-  #block-guanxinbingzhiliaofangan .block-content {
-    padding-top: 350px; }
-    #block-guanxinbingzhiliaofangan .block-content ul li {
-      margin: 0 10%;
-      float: unset;
-      width: auto; } }
-
-@media (max-width: 994px) {
-  .gva-navigation {
-    display: none; } }
-
-@media (max-width: 513px) {
-  #block-zhenduanguanxinbing .block-content ul li:nth-child(2) {
-    position: unset; }
-  #block-guanxinbingzhiliaofangan .block-content {
-    padding-top: 670px; }
-    #block-guanxinbingzhiliaofangan .block-content ul li {
-      margin: 0 10%;
-      float: unset;
-      width: auto; } }
-
 .az-product-position .az-product_headtwo {
   height: 300px;
   background-color: #eb1384;
@@ -1804,42 +1765,6 @@ footer .az-product-position .views-infinite-scroll-content-wrapper {
 .az-clinical-result-content .views-element-container .views-infinite-scroll-content-wrapper {
   margin: 0 auto; }
 
-@media (min-width: 768px) {
-  .path-az-health-club .views-infinite-scroll-content-wrapper {
-    width: 750px; }
-  .az-clinical-result-content .views-element-container header {
-    width: 750px; }
-  .az-clinical-result-content .views-element-container .views-infinite-scroll-content-wrapper {
-    width: 750px; } }
-
-@media screen and (min-width: 768px) and (max-width: 994px) {
-  .az-header_bottom .az-header-bbox .az-header-search-box #search-block-form input {
-    background-position: 500px; } }
-
-@media screen and (min-width: 660px) and (max-width: 764px) {
-  .az-header_bottom .az-header-bbox .az-header-search-box #search-block-form input {
-    background-position: 400px  !important; } }
-
-@media (min-width: 992px) {
-  .path-az-health-club .views-infinite-scroll-content-wrapper {
-    width: 970px; }
-  .az-clinical-result-content .views-element-container header {
-    width: 970px; }
-  .az-clinical-result-content .views-element-container .views-infinite-scroll-content-wrapper {
-    width: 970px; } }
-
-@media (min-width: 1200px) {
-  .path-az-health-club .views-infinite-scroll-content-wrapper {
-    width: 1200px; }
-  .az-clinical-result-content .views-element-container header {
-    width: 1200px; }
-  .az-clinical-result-content .views-element-container .views-infinite-scroll-content-wrapper {
-    width: 1200px; } }
-
-@media (max-width: 1200px) and (min-width: 994px) {
-  .az-header_bottom .az-header-bbox .az-header-search-box #search-block-form input {
-    background-position: 100px; } }
-
 .az-clinical-trial-aritcle {
   position: relative;
   bottom: 80px; }
@@ -1892,6 +1817,377 @@ body.az-user-login-page.path-user #page-main-content .main-content-inner {
   left: 100px; }
   .az-clinical-right-kv .az-clinal-dt-share .shares {
     display: contents; }
+
+.az-offer-detail {
+  margin: 0 !important;
+  height: 0px;
+  float: none;
+  clear: both;
+  top: -500px;
+  position: relative;
+  left: 730px; }
+
+.az-nurse-contentimg {
+  display: flex;
+  margin: 0 500px; }
+  .az-nurse-contentimg div {
+    margin-bottom: 100px; }
+    .az-nurse-contentimg div img {
+      margin-right: 150px;
+      width: 100%; }
+    .az-nurse-contentimg div h4 {
+      text-align: center; }
+
+.az-nurse-box {
+  display: flex;
+  height: 200px;
+  width: 100%;
+  background: url("/sites/default/files/imce_upload/admin/Healthcare%20Guidance-Hotline.png") no-repeat;
+  background-size: 100%; }
+  .az-nurse-box .container {
+    display: flex;
+    margin: 50px auto;
+    padding: 0 200px; }
+  .az-nurse-box .az-nurse-left-icon {
+    margin-right: 20px;
+    height: 100%; }
+    .az-nurse-box .az-nurse-left-icon img {
+      height: 80%; }
+  .az-nurse-box .az-nurse-right-box .az-nurse-right-title {
+    font-size: 23px;
+    color: #eb1384; }
+  .az-nurse-box .az-nurse-right-box .az-nurse-right-body {
+    width: 500px; }
+
+.az-member-clinal .v-line {
+  border: 1px solid;
+  margin-bottom: 30px;
+  margin-left: 20px; }
+
+.az-member-clinal .az-clinical_box {
+  box-shadow: 5px 0px 5px #d0c9c9;
+  border-radius: 5px;
+  height: 146px; }
+  .az-member-clinal .az-clinical_box .az-clinical_body .az-clinical_body_title {
+    font-weight: bold; }
+
+.field--name-field-relate-clinal {
+  display: none; }
+
+.breadcrumb-content-inner {
+  text-align: left;
+  margin-left: 280px; }
+  .breadcrumb-content-inner .gva-breadcrumb-content .gva-block-breadcrumb .breadcrumb-style {
+    min-height: 0; }
+
+.az-top-banner {
+  position: relative;
+  top: -89px; }
+  .az-top-banner h1 {
+    color: #fff;
+    margin: 0 !important;
+    position: relative;
+    text-align: center;
+    top: 200px; }
+  .az-top-banner img {
+    width: 100%; }
+
+#block-registeroneblock {
+  text-align: center;
+  top: -60px;
+  position: relative; }
+
+.az-register-one .az-register-onebox img {
+  box-shadow: 0px 4px 5px #979797;
+  padding: 30px;
+  width: 800px;
+  margin: 0 auto;
+  background: white; }
+
+.az-user-register .main #content {
+  position: relative;
+  top: -120px; }
+
+.az-user-register .az-register-one-banner img {
+  width: 100%; }
+
+#multistep-form-one {
+  margin-left: 30px; }
+  #multistep-form-one div input {
+    margin: 10px 0; }
+  #multistep-form-one .tips {
+    margin-left: 15px;
+    text-align: left; }
+  #multistep-form-one #edit-send-code {
+    border-radius: 0;
+    background-color: #333333; }
+  #multistep-form-one .js-form-item-verify-code {
+    position: relative;
+    left: -21px;
+    display: block; }
+  #multistep-form-one #edit-verify-code {
+    height: 41px; }
+  #multistep-form-one .send-code-tips {
+    padding-bottom: 15px;
+    margin-left: 15px; }
+  #multistep-form-one #edit-privacy-statement {
+    margin-left: 15px;
+    border: 1px solid grey;
+    margin-bottom: 10px; }
+    #multistep-form-one #edit-privacy-statement summary {
+      color: #fff;
+      background-color: #eb1384; }
+  #multistep-form-one #edit-attention1--wrapper {
+    margin-left: 15px;
+    margin-bottom: 30px; }
+    #multistep-form-one #edit-attention1--wrapper legend {
+      color: #fff;
+      background: #eb1384; }
+      #multistep-form-one #edit-attention1--wrapper legend span {
+        padding-left: 15px;
+        font-size: 16px; }
+  #multistep-form-one #edit-attention1 {
+    text-align: left; }
+    #multistep-form-one #edit-attention1 .js-form-item-attention1-1 {
+      display: flex; }
+    #multistep-form-one #edit-attention1 label {
+      padding-left: 10px; }
+  #multistep-form-one #edit-actions {
+    width: 30%;
+    float: right;
+    position: relative;
+    top: -30px; }
+    #multistep-form-one #edit-actions input {
+      width: 100%;
+      background: #eb1384; }
+
+.sidebar-nav .sub-sidebar-nav li a {
+  border-left: 3px solid #fcaf17;
+  padding-left: 10px;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 14px; }
+
+.sidebar-nav .menu_btn_line {
+  margin: 0 10px; }
+
+.sidebar-nav li a {
+  width: 130px; }
+
+.sidebar-nav li.parent:before {
+  right: 30px; }
+
+#search-block-form div {
+  width: 100%; }
+  #search-block-form div input {
+    width: 100%; }
+
+#block-zixunyisheng {
+  margin: 0; }
+  #block-zixunyisheng .block-content {
+    height: 200px;
+    margin: 0;
+    background: url("/sites/default/files/imce_upload/admin/CTA.png") no-repeat;
+    background-size: cover; }
+    #block-zixunyisheng .block-content:before {
+      content: '';
+      height: 30px;
+      display: block; }
+    #block-zixunyisheng .block-content div {
+      margin-left: 30%;
+      width: 24%;
+      color: white; }
+      #block-zixunyisheng .block-content div h4 {
+        color: white; }
+    #block-zixunyisheng .block-content a {
+      color: white;
+      float: right;
+      position: relative;
+      right: -266px;
+      top: -40px;
+      border-radius: 10px;
+      margin-right: 10px;
+      background-color: #eb1384;
+      width: 100px;
+      height: 40px;
+      text-align: center;
+      line-height: 40px; }
+
+#block-webform-popup-subscibe {
+  display: none; }
+
+.block-webform-popup-subscibe-modal .spb_center {
+  border: 0;
+  border-radius: 10px;
+  text-align: center;
+  height: 482px; }
+  .block-webform-popup-subscibe-modal .spb_center .block-webform-popup-subscibe-modal-close.spb_close {
+    position: relative;
+    top: -30px;
+    right: -25px;
+    background: black;
+    width: 66px;
+    height: 66px;
+    border: 0;
+    border-radius: 50%;
+    color: white;
+    font-size: 58px;
+    line-height: 66px; }
+  .block-webform-popup-subscibe-modal .spb_center .block-title {
+    margin-bottom: 10px; }
+    .block-webform-popup-subscibe-modal .spb_center .block-title span {
+      font-size: 30px; }
+    .block-webform-popup-subscibe-modal .spb_center .block-title::after {
+      content: '';
+      display: block;
+      height: 8px;
+      width: 75px;
+      border-radius: 5px;
+      background-color: #F7B500;
+      margin: 9px auto; }
+  .block-webform-popup-subscibe-modal .spb_center #edit-markup {
+    font-size: 23px;
+    color: #eb1384;
+    margin-bottom: 20px; }
+  .block-webform-popup-subscibe-modal .spb_center input[name="email"] {
+    width: 620px;
+    height: 75px;
+    margin-bottom: 24px; }
+  .block-webform-popup-subscibe-modal .spb_center select {
+    width: 620px;
+    height: 75px; }
+  .block-webform-popup-subscibe-modal .spb_center input#edit-actions-submit {
+    margin-top: 23px;
+    width: 300px;
+    height: 80px;
+    background-color: #eb1384;
+    border-radius: 10px;
+    font-size: 20px; }
+
+body.page-node-7 .node__content p {
+  width: 60%;
+  margin: 0 auto; }
+
+.node--type-page .node__content p {
+  width: 60%;
+  margin: 0 auto; }
+
+@import url("../../fonts/PingFang/PingFang.css");
+@media (min-width: 770px) and (max-width: 990px) {
+  #block-guanxinbingzhiliaofangan .block-content {
+    padding-top: 20px; }
+    #block-guanxinbingzhiliaofangan .block-content ul li {
+      margin: 0 10%;
+      float: unset;
+      width: auto; } }
+
+@media (min-width: 513px) and (max-width: 770px) {
+  #block-guanxinbingzhiliaofangan .block-content {
+    padding-top: 350px; }
+    #block-guanxinbingzhiliaofangan .block-content ul li {
+      margin: 0 10%;
+      float: unset;
+      width: auto; } }
+
+@media (max-width: 994px) {
+  .gva-navigation {
+    display: none; } }
+
+@media (max-width: 513px) {
+  #block-zhenduanguanxinbing .block-content ul li:nth-child(2) {
+    position: unset; }
+  #block-guanxinbingzhiliaofangan .block-content {
+    padding-top: 670px; }
+    #block-guanxinbingzhiliaofangan .block-content ul li {
+      margin: 0 10%;
+      float: unset;
+      width: auto; } }
+
+@media (min-width: 768px) {
+  .path-az-health-club .views-infinite-scroll-content-wrapper {
+    width: 750px; }
+  .az-clinical-result-content .views-element-container header {
+    width: 750px; }
+  .az-clinical-result-content .views-element-container .views-infinite-scroll-content-wrapper {
+    width: 750px; } }
+
+@media screen and (min-width: 768px) and (max-width: 994px) {
+  .az-header_bottom .az-header-bbox .az-header-search-box #search-block-form input {
+    background-position: 500px; } }
+
+@media screen and (min-width: 660px) and (max-width: 764px) {
+  .az-header_bottom .az-header-bbox .az-header-search-box #search-block-form input {
+    background-position: 400px  !important; } }
+
+@media (min-width: 992px) {
+  .path-az-health-club .views-infinite-scroll-content-wrapper {
+    width: 970px; }
+  .az-clinical-result-content .views-element-container header {
+    width: 970px; }
+  .az-clinical-result-content .views-element-container .views-infinite-scroll-content-wrapper {
+    width: 970px; } }
+
+@media (min-width: 1200px) {
+  .path-az-health-club .views-infinite-scroll-content-wrapper {
+    width: 1200px; }
+  .az-clinical-result-content .views-element-container header {
+    width: 1200px; }
+  .az-clinical-result-content .views-element-container .views-infinite-scroll-content-wrapper {
+    width: 1200px; } }
+
+@media (max-width: 1200px) and (min-width: 994px) {
+  .az-header_bottom .az-header-bbox .az-header-search-box #search-block-form input {
+    background-position: 100px; } }
+
+@media (max-width: 994px) {
+  #sidebar-wrapper {
+    background: white;
+    height: 100%;
+    overflow: auto; }
+    #sidebar-wrapper .mobile-header-menu {
+      margin-bottom: 20px;
+      padding: 10px;
+      box-shadow: 0px 0px 0px 1px #eeeeee; }
+      #sidebar-wrapper .mobile-header-menu div {
+        text-align: center;
+        display: flex; }
+        #sidebar-wrapper .mobile-header-menu div .close {
+          float: right;
+          font-size: 50px;
+          font-weight: 100;
+          line-height: 1;
+          color: #000;
+          text-shadow: 0 1px 0 #fff;
+          opacity: .2;
+          position: relative;
+          left: -20px; }
+  #search-block-form div {
+    width: 100%; }
+    #search-block-form div input {
+      background-position: 180px !important; }
+  #menu-bar {
+    margin: 0 15px !important;
+    top: 20px;
+    left: 0; } }
+
+@media (min-width: 768px) {
+  .col-sm-1-7 {
+    width: 14.28%;
+    float: left; } }
+
+@media (min-width: 992px) {
+  .col-md-1-7 {
+    width: 14.28%;
+    float: left; }
+  #sidebar-wrapper {
+    display: none; } }
+
+@media (min-width: 1200px) {
+  .col-lg-1-7 {
+    width: 14.28%;
+    float: left; }
+  .gva-navigation {
+    display: block; } }
 
 @media (max-width: 375px) {
   .az-myjibin .view-content-wrap .item {
@@ -2355,286 +2651,3 @@ body.az-user-login-page.path-user #page-main-content .main-content-inner {
     overflow: auto; }
   #edit-attention1 .js-form-item-attention1-2 {
     display: flex; } }
-
-.az-offer-detail {
-  position: relative;
-  top: -730px;
-  margin: 0px 500px;
-  left: -150px;
-  text-align: right; }
-
-.az-nurse-contentimg {
-  display: flex;
-  margin: 0 500px; }
-  .az-nurse-contentimg div {
-    margin-bottom: 100px; }
-    .az-nurse-contentimg div img {
-      margin-right: 150px;
-      width: 100%; }
-    .az-nurse-contentimg div h4 {
-      text-align: center; }
-
-.az-nurse-box {
-  display: flex;
-  height: 200px;
-  width: 100%;
-  background: url("/sites/default/files/imce_upload/admin/Healthcare%20Guidance-Hotline.png") no-repeat;
-  background-size: 100%; }
-  .az-nurse-box .container {
-    display: flex;
-    margin: 50px auto;
-    padding: 0 200px; }
-  .az-nurse-box .az-nurse-left-icon {
-    margin-right: 20px;
-    height: 100%; }
-    .az-nurse-box .az-nurse-left-icon img {
-      height: 80%; }
-  .az-nurse-box .az-nurse-right-box .az-nurse-right-title {
-    font-size: 23px;
-    color: #eb1384; }
-  .az-nurse-box .az-nurse-right-box .az-nurse-right-body {
-    width: 500px; }
-
-.az-member-clinal .v-line {
-  border: 1px solid;
-  margin-bottom: 30px;
-  margin-left: 20px; }
-
-.az-member-clinal .az-clinical_box {
-  box-shadow: 5px 0px 5px #d0c9c9;
-  border-radius: 5px;
-  height: 146px; }
-  .az-member-clinal .az-clinical_box .az-clinical_body .az-clinical_body_title {
-    font-weight: bold; }
-
-.field--name-field-relate-clinal {
-  display: none; }
-
-.breadcrumb-content-inner {
-  text-align: left;
-  margin-left: 280px; }
-  .breadcrumb-content-inner .gva-breadcrumb-content .gva-block-breadcrumb .breadcrumb-style {
-    min-height: 0; }
-
-.az-top-banner {
-  position: relative;
-  top: -89px; }
-  .az-top-banner h1 {
-    color: #fff;
-    margin: 0 !important;
-    position: relative;
-    text-align: center;
-    top: 200px; }
-  .az-top-banner img {
-    width: 100%; }
-
-#block-registeroneblock {
-  text-align: center;
-  top: -60px;
-  position: relative; }
-
-.az-register-one .az-register-onebox img {
-  box-shadow: 0px 4px 5px #979797;
-  padding: 30px;
-  width: 800px;
-  margin: 0 auto;
-  background: white; }
-
-.az-user-register .main #content {
-  position: relative;
-  top: -120px; }
-
-.az-user-register .az-register-one-banner img {
-  width: 100%; }
-
-#multistep-form-one {
-  margin-left: 30px; }
-  #multistep-form-one div input {
-    margin: 10px 0; }
-  #multistep-form-one .tips {
-    margin-left: 15px;
-    text-align: left; }
-  #multistep-form-one #edit-send-code {
-    border-radius: 0;
-    background-color: #333333; }
-  #multistep-form-one .js-form-item-verify-code {
-    position: relative;
-    left: -21px;
-    display: block; }
-  #multistep-form-one #edit-verify-code {
-    height: 41px; }
-  #multistep-form-one .send-code-tips {
-    padding-bottom: 15px;
-    margin-left: 15px; }
-  #multistep-form-one #edit-privacy-statement {
-    margin-left: 15px;
-    border: 1px solid grey;
-    margin-bottom: 10px; }
-    #multistep-form-one #edit-privacy-statement summary {
-      color: #fff;
-      background-color: #eb1384; }
-  #multistep-form-one #edit-attention1--wrapper {
-    margin-left: 15px;
-    margin-bottom: 30px; }
-    #multistep-form-one #edit-attention1--wrapper legend {
-      color: #fff;
-      background: #eb1384; }
-      #multistep-form-one #edit-attention1--wrapper legend span {
-        padding-left: 15px;
-        font-size: 16px; }
-  #multistep-form-one #edit-attention1 {
-    text-align: left; }
-    #multistep-form-one #edit-attention1 .js-form-item-attention1-1 {
-      display: flex; }
-    #multistep-form-one #edit-attention1 label {
-      padding-left: 10px; }
-  #multistep-form-one #edit-actions {
-    width: 30%;
-    float: right;
-    position: relative;
-    top: -30px; }
-    #multistep-form-one #edit-actions input {
-      width: 100%;
-      background: #eb1384; }
-
-@media (max-width: 994px) {
-  #sidebar-wrapper {
-    background: white;
-    height: 100%;
-    overflow: auto; }
-    #sidebar-wrapper .mobile-header-menu {
-      margin-bottom: 20px;
-      padding: 10px;
-      box-shadow: 0px 0px 0px 1px #eeeeee; }
-      #sidebar-wrapper .mobile-header-menu div {
-        text-align: center;
-        display: flex; }
-        #sidebar-wrapper .mobile-header-menu div .close {
-          float: right;
-          font-size: 50px;
-          font-weight: 100;
-          line-height: 1;
-          color: #000;
-          text-shadow: 0 1px 0 #fff;
-          opacity: .2;
-          position: relative;
-          left: -20px; }
-  #search-block-form div {
-    width: 100%; }
-    #search-block-form div input {
-      background-position: 180px !important; }
-  #menu-bar {
-    margin: 0 15px !important;
-    top: 20px;
-    left: 0; } }
-
-.sidebar-nav .sub-sidebar-nav li a {
-  border-left: 3px solid #fcaf17;
-  padding-left: 10px;
-  margin-top: 0;
-  margin-bottom: 0;
-  font-size: 14px; }
-
-.sidebar-nav .menu_btn_line {
-  margin: 0 10px; }
-
-.sidebar-nav li a {
-  width: 130px; }
-
-.sidebar-nav li.parent:before {
-  right: 30px; }
-
-#search-block-form div {
-  width: 100%; }
-  #search-block-form div input {
-    width: 100%; }
-
-#block-zixunyisheng {
-  margin: 0; }
-  #block-zixunyisheng .block-content {
-    height: 200px;
-    margin: 0;
-    background: url("/sites/default/files/imce_upload/admin/CTA.png") no-repeat;
-    background-size: cover; }
-    #block-zixunyisheng .block-content:before {
-      content: '';
-      height: 30px;
-      display: block; }
-    #block-zixunyisheng .block-content div {
-      margin-left: 30%;
-      width: 24%;
-      color: white; }
-      #block-zixunyisheng .block-content div h4 {
-        color: white; }
-    #block-zixunyisheng .block-content a {
-      color: white;
-      float: right;
-      position: relative;
-      right: -266px;
-      top: -40px;
-      border-radius: 10px;
-      margin-right: 10px;
-      background-color: #eb1384;
-      width: 100px;
-      height: 40px;
-      text-align: center;
-      line-height: 40px; }
-
-#block-webform-popup-subscibe {
-  display: none; }
-
-.block-webform-popup-subscibe-modal .spb_center {
-  border: 0;
-  border-radius: 10px;
-  text-align: center;
-  height: 482px; }
-  .block-webform-popup-subscibe-modal .spb_center .block-webform-popup-subscibe-modal-close.spb_close {
-    position: relative;
-    top: -30px;
-    right: -25px;
-    background: black;
-    width: 66px;
-    height: 66px;
-    border: 0;
-    border-radius: 50%;
-    color: white;
-    font-size: 58px;
-    line-height: 66px; }
-  .block-webform-popup-subscibe-modal .spb_center .block-title {
-    margin-bottom: 10px; }
-    .block-webform-popup-subscibe-modal .spb_center .block-title span {
-      font-size: 30px; }
-    .block-webform-popup-subscibe-modal .spb_center .block-title::after {
-      content: '';
-      display: block;
-      height: 8px;
-      width: 75px;
-      border-radius: 5px;
-      background-color: #F7B500;
-      margin: 9px auto; }
-  .block-webform-popup-subscibe-modal .spb_center #edit-markup {
-    font-size: 23px;
-    color: #eb1384;
-    margin-bottom: 20px; }
-  .block-webform-popup-subscibe-modal .spb_center input[name="email"] {
-    width: 620px;
-    height: 75px;
-    margin-bottom: 24px; }
-  .block-webform-popup-subscibe-modal .spb_center select {
-    width: 620px;
-    height: 75px; }
-  .block-webform-popup-subscibe-modal .spb_center input#edit-actions-submit {
-    margin-top: 23px;
-    width: 300px;
-    height: 80px;
-    background-color: #eb1384;
-    border-radius: 10px;
-    font-size: 20px; }
-
-body.page-node-7 .node__content p {
-  width: 60%;
-  margin: 0 auto; }
-
-.node--type-page .node__content p {
-  width: 60%;
-  margin: 0 auto; }
