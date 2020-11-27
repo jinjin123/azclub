@@ -3,6 +3,18 @@ body {
   overflow: auto;
   font-family: "Noto Sans HK", sans-serif; }
 
+/*
+input,a,button,select,textarea,span,label,h4,h5,h6 {
+  //font-family: "PingFang TC - Semibold","PingFang TC - Regular";
+}
+ */
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Noto Sans HK", sans-serif;
+  font-weight: 500; }
+
+.ui-widget {
+  font-family: "Noto Sans HK", sans-serif; }
+
 .path-healthcare-guidance #block-nurseoncallyaowuyiqizhidao-2 {
   margin: 0 !important; }
 
@@ -459,13 +471,11 @@ a.button {
     height: 40px;
     margin-right: 10px;
     background: transparent url(../images/iphone.png) no-repeat; }
-  .az-header_top .top-box-info h1 {
-    font-size: 15px;
-    font-weight: 500; }
   .az-header_top .top-box-info a {
+    font-size: 16px;
     font-weight: 500; }
   .az-header_top .top-box-info p {
-    font-size: 12px;
+    font-size: 16px;
     color: #979797;
     font-weight: 400; }
 
@@ -480,7 +490,8 @@ a.button {
   .az-header_bottom .az-header-bbox {
     padding: 0px; }
     .az-header_bottom .az-header-bbox .header-inner {
-      padding: 0px; }
+      padding: 0px;
+      height: 54px; }
       .az-header_bottom .az-header-bbox .header-inner .area-inner {
         padding: 0px; }
       .az-header_bottom .az-header-bbox .header-inner .menu-bar {
@@ -491,6 +502,7 @@ a.button {
         float: left; }
         .az-header_bottom .az-header-bbox .header-inner .az-header_bottom_menu .gva-navigation .gva_menu_main li a {
           font-weight: 500;
+          font-size: 16px;
           padding-top: 0 !important;
           padding-bottom: 0 !important;
           line-height: 55px; }
@@ -510,7 +522,7 @@ a.button {
         .az-header_bottom .az-header-bbox .header-inner .az-header_bottom_menu .gva-navigation .gva_menu_main .active > a:nth-child(1) {
           color: #eb1384; }
     .az-header_bottom .az-header-bbox .az-header-search-box {
-      height: 55px;
+      height: 54px;
       padding: 0px; }
       .az-header_bottom .az-header-bbox .az-header-search-box #search-block-form {
         margin: 0px; }
@@ -523,8 +535,8 @@ a.button {
           border-bottom: none;
           text-indent: 10px; }
     .az-header_bottom .az-header-bbox .az-header-right {
-      line-height: 55px;
-      height: 55px; }
+      line-height: 54px;
+      height: 54px; }
 
 .az_clinical_box {
   background-color: #eb1384;
@@ -620,10 +632,12 @@ a.button {
   width: 100%;
   margin-bottom: 30px; }
   .az-product_head .az-product_head__title2 {
-    font-size: 30px;
-    font-weight: bold; }
+    font-size: 32px;
+    font-weight: 500; }
   .az-product_head .az-product_head__title1 {
-    color: #979797; }
+    color: #979797;
+    font-size: 14px;
+    font-weight: 400; }
   .az-product_head .az-product-nurse-bd {
     margin: 0 200px; }
   .az-product_head .az-product_head__body {
@@ -1249,9 +1263,13 @@ a.button {
       #footer .footer-center #block-footerleft div.field--name-body img {
         height: 104px; }
       #footer .footer-center #block-footerleft div.field--name-body p {
-        margin-left: 20px; }
+        margin-left: 20px;
+        font-weight: 400;
+        font-size: 16px; }
         #footer .footer-center #block-footerleft div.field--name-body p strong {
-          color: black; }
+          color: black;
+          font-weight: 500;
+          font-size: 18px; }
     #footer .footer-center #block-webform .block-title span {
       font-weight: 400;
       font-size: 18px;
@@ -1647,10 +1665,14 @@ footer#footer::after {
       border: 1px solid rgba(0, 0, 0, 0.125); }
 
 .content-main #block-astrazeneca-content {
-  text-align: center;
   margin-bottom: 20px; }
   .content-main #block-astrazeneca-content p {
     color: #898989; }
+
+.node--type-page #block-astrazeneca-content,
+.node--type-page-full #block-astrazeneca-content {
+  text-align: center;
+  margin-bottom: 20px; }
 
 .ta-articles-list-header {
   text-align: center;
@@ -1661,7 +1683,8 @@ footer#footer::after {
     color: white;
     padding-top: 100px; }
     .ta-articles-list-header .block-content h3 {
-      color: white; }
+      color: white;
+      font-weight: 500; }
 
 .ta-articles-list {
   position: relative;
@@ -2639,9 +2662,25 @@ body.page-node-7 .node__content p {
   width: 60%;
   margin: 0 auto; }
 
+body.page-node-7 .node__content p:nth-child(1) {
+  font-size: 14px;
+  font-weight: 400; }
+
+body.page-node-7 .node__content h2 {
+  font-size: 32px;
+  font-weight: 500; }
+
 .node--type-page .node__content p {
   width: 60%;
   margin: 0 auto; }
+
+.node--type-page .node__content p:nth-child(1) {
+  font-size: 14px;
+  font-weight: 400; }
+
+.node--type-page .node__content h2 {
+  font-size: 32px;
+  font-weight: 500; }
 
 #block-medicalarticlebanner img,
 #block-healthinformationbanner img,

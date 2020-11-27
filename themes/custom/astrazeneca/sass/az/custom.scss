@@ -9,8 +9,19 @@ body {
   font-family: $fr;
   //font-weight: 400;
 }
+
+/*
 input,a,button,select,textarea,span,label,h4,h5,h6 {
   //font-family: "PingFang TC - Semibold","PingFang TC - Regular";
+}
+ */
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: $fr;
+  font-weight: $fss;
+}
+.ui-widget {
+  font-family: $fr;
 }
 
 .path-healthcare-guidance {
@@ -685,16 +696,17 @@ a.button {
   }
 
   .top-box-info {
-    h1 {
-      font-size: 15px;
-      font-weight: $fss;
-    }
+    //h1 {
+    //  font-size: 16px;
+    //  font-weight: $fss;
+    //}
     a {
+      font-size: 16px;
       font-weight: $fss;
     }
 
     p {
-      font-size: 12px;
+      font-size: 16px;
       color: $color-gray;
       font-weight: $frs;
     }
@@ -712,6 +724,7 @@ a.button {
 
     .header-inner {
       padding: 0px;
+      height: 54px;
 
       .area-inner {
         padding: 0px;
@@ -731,6 +744,7 @@ a.button {
             li {
               a {
                 font-weight: $fss;
+                font-size: 16px;
                 padding-top: 0 !important;
                 padding-bottom: 0 !important;
                 line-height: 55px;
@@ -769,7 +783,7 @@ a.button {
     }
 
     .az-header-search-box {
-      height: 55px;
+      height: 54px;
       padding: 0px;
 
       #search-block-form {
@@ -790,8 +804,8 @@ a.button {
     }
 
     .az-header-right {
-      line-height: 55px;
-      height: 55px;
+      line-height: 54px;
+      height: 54px;
     }
   }
 
@@ -936,13 +950,16 @@ a.button {
   width: 100%;
   margin-bottom: 30px;
   .az-product_head__title2 {
-    font-size: 30px;
-    font-weight: bold;
+    font-size: 32px;
+    font-weight: $fss;
   }
 
   .az-product_head__title1 {
     color: $color-gray;
+    font-size: 14px;
+    font-weight: $frs;
   }
+
 
   .az-product-nurse-bd{
     margin: 0 200px;
@@ -1904,9 +1921,13 @@ a.button {
 
         p {
           margin-left: 20px;
+          font-weight: $frs;
+          font-size: 16px;
 
           strong {
             color: black;
+            font-weight: $fss;
+            font-size: 18px;
           }
         }
       }
@@ -2544,13 +2565,22 @@ footer#footer::after {
 
 .content-main {
   #block-astrazeneca-content {
-    text-align: center;
+    //text-align: center;
     margin-bottom: 20px;
     p {
       color:#898989;
     }
   }
 }
+
+.node--type-page,
+.node--type-page-full {
+  #block-astrazeneca-content {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+}
+
 //.view-content-wrap {
 //  display: table;
 //}
@@ -2566,6 +2596,7 @@ footer#footer::after {
     padding-top: 100px;
     h3 {
       color: white;
+      font-weight: $fss;
     }
   }
 }
@@ -4071,6 +4102,14 @@ body.page-node-7 {
      width: 60%;
      margin: 0 auto;
    }
+   p:nth-child(1) {
+     font-size: 14px;
+     font-weight: $frs;
+   }
+   h2 {
+     font-size: 32px;
+     font-weight: $fss;
+   }
  }
 }
 
@@ -4080,6 +4119,14 @@ body.page-node-7 {
     p {
       width: 60%;
       margin: 0 auto;
+    }
+    p:nth-child(1) {
+      font-size: 14px;
+      font-weight: $frs;
+    }
+    h2 {
+      font-size: 32px;
+      font-weight: $fss;
     }
   }
 }
@@ -4111,3 +4158,4 @@ body.page-node-7 {
     font-size:27px;
   }
 }
+
