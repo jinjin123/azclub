@@ -133,7 +133,7 @@ h1, h2, h3, h4, h5, h6 {
   text-align: left; }
   .az-gb-refer .az-gbrefer-title {
     font-size: 20px;
-    font-weight: bold;
+    font-weight: 500;
     padding-top: 60px; }
   .az-gb-refer p {
     color: #979797; }
@@ -969,7 +969,7 @@ a.button {
   position: relative;
   left: 41.5%; }
   .az-article-header .az-healthtips-title div {
-    font-size: 21px; }
+    font-size: 22px; }
 
 .az-midbn .az-midbn-btn {
   margin-top: 40px; }
@@ -1437,7 +1437,8 @@ footer#footer::after {
     padding-left: 30px;
     padding-bottom: 10px; }
     .az-clinical-right-box .az-clinical-rbx__boom label {
-      padding-right: 10px; }
+      padding-right: 10px;
+      font-weight: 500; }
     .az-clinical-right-box .az-clinical-rbx__boom .field--name-field-az-body {
       padding-bottom: 10px; }
   .az-clinical-right-box .az-clinical-rbx_logo {
@@ -1448,8 +1449,8 @@ footer#footer::after {
     text-align: center;
     padding-bottom: 20px; }
     .az-clinical-right-box .az-clinical-bottom-box span {
-      font-size: 15px;
-      font-weight: bold; }
+      font-size: 22px;
+      font-weight: 500; }
     .az-clinical-right-box .az-clinical-bottom-box div {
       margin-top: 40px; }
       .az-clinical-right-box .az-clinical-bottom-box div button {

@@ -200,7 +200,7 @@ h1, h2, h3, h4, h5, h6 {
   text-align: left;
   .az-gbrefer-title {
     font-size: 20px;
-    font-weight: bold;
+    font-weight: $fss;
     padding-top: 60px;
   }
 
@@ -1443,7 +1443,7 @@ a.button {
 
   .az-healthtips-title {
     div {
-      font-size: 21px;
+      font-size: 22px;
     }
   }
 }
@@ -2184,6 +2184,7 @@ footer#footer::after {
     padding-bottom: 10px;
     label {
       padding-right: 10px;
+      font-weight: $fss;
     }
     .field--name-field-az-body {
       padding-bottom: 10px;
@@ -2201,8 +2202,8 @@ footer#footer::after {
     padding-bottom: 20px;
 
     span {
-      font-size: 15px;
-      font-weight: bold;
+      font-size: 22px;
+      font-weight: $fss;
     }
 
     div {
