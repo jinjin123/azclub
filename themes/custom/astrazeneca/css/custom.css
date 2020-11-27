@@ -402,17 +402,22 @@ a.button {
 .az-cardtwo_box {
   box-shadow: 1px 1px 5px #ccc;
   margin-bottom: 30px;
-  height: 386px; }
-  .az-cardtwo_box .az-cardtwo_img img {
-    width: 100%; }
+  height: 500px; }
+  .az-cardtwo_box .az-cardtwo_img {
+    height: 330px; }
+    .az-cardtwo_box .az-cardtwo_img img {
+      width: 100%;
+      height: 100%; }
   .az-cardtwo_box .az-cardtwo_body {
-    padding: 0px 20px 0px 20px;
+    padding: 20px 20px 0px 20px;
     position: relative;
     padding-bottom: 10px; }
     .az-cardtwo_box .az-cardtwo_body .az-cardtwo_body_title {
+      text-align: left;
       margin: 0px;
-      font-weight: bold;
-      font-size: 20px;
+      color: #444444;
+      font-weight: 500;
+      font-size: 22px;
       word-break: break-all;
       text-overflow: ellipsis;
       overflow: hidden;
@@ -420,8 +425,9 @@ a.button {
       -webkit-line-clamp: 2;
       -webkit-box-orient: vertical; }
     .az-cardtwo_box .az-cardtwo_body .az-cardtwo_sub_title {
-      color: #979797;
-      float: left; }
+      color: #444444;
+      float: left;
+      text-align: left; }
     .az-cardtwo_box .az-cardtwo_body .az-cardtwo_click_bottom {
       float: right;
       text-align: center;
@@ -951,12 +957,23 @@ a.button {
   .az-article-header .az-healthtips-title div {
     font-size: 21px; }
 
+.az-midbn .az-midbn-btn {
+  margin-top: 40px; }
+  .az-midbn .az-midbn-btn button {
+    margin-right: 30px;
+    border-radius: 8px;
+    background-color: #fcaf17;
+    border: 1px solid #fcaf17; }
+
 .az-offerdetail-article-header {
   position: relative;
   left: 37.5%;
   top: -50px; }
   .az-offerdetail-article-header span div {
     font-size: 21px; }
+
+.az-mb-hd {
+  display: none; }
 
 .az-node__content .az-node__content_bottom_boder {
   border-top: 1px solid rgba(0, 0, 0, 0.125);
@@ -1630,7 +1647,8 @@ footer#footer::after {
       border: 1px solid rgba(0, 0, 0, 0.125); }
 
 .content-main #block-astrazeneca-content {
-  text-align: center; }
+  text-align: center;
+  margin-bottom: 20px; }
   .content-main #block-astrazeneca-content p {
     color: #898989; }
 
@@ -1638,7 +1656,7 @@ footer#footer::after {
   text-align: center;
   background: #EB1384;
   height: 400px;
-  margin: 0; }
+  margin-top: 60px !important; }
   .ta-articles-list-header .block-content {
     color: white;
     padding-top: 100px; }
@@ -2540,36 +2558,30 @@ body.az-user-login-page.path-user #page-main-content .main-content-inner {
   #search-block-form div input {
     width: 100%; }
 
-#block-zixunyisheng {
-  margin: 0; }
-  #block-zixunyisheng .block-content {
-    height: 200px;
-    margin: 0;
-    background: url("/sites/default/files/imce_upload/admin/design-files/Banner/CTA.png") no-repeat;
-    background-size: cover; }
-    #block-zixunyisheng .block-content:before {
-      content: '';
-      height: 30px;
-      display: block; }
-    #block-zixunyisheng .block-content div {
-      margin-left: 30%;
-      width: 24%;
-      color: white; }
-      #block-zixunyisheng .block-content div h4 {
-        color: white; }
-    #block-zixunyisheng .block-content a {
-      color: white;
-      float: right;
-      position: relative;
-      right: -266px;
-      top: -40px;
-      border-radius: 10px;
-      margin-right: 10px;
-      background-color: #eb1384;
-      width: 100px;
-      height: 40px;
-      text-align: center;
-      line-height: 40px; }
+#block-zixunyisheng .az-fk-container {
+  width: 100% !important;
+  background: url("/sites/default/files/imce_upload/admin/CTA.png") no-repeat;
+  background-size: 100%; }
+  #block-zixunyisheng .az-fk-container .az-ask-rg {
+    margin: 30px 400px; }
+    #block-zixunyisheng .az-fk-container .az-ask-rg .az-ask-bt {
+      margin-bottom: 30px; }
+      #block-zixunyisheng .az-fk-container .az-ask-rg .az-ask-bt h1 {
+        color: #fff;
+        font-weight: 500; }
+      #block-zixunyisheng .az-fk-container .az-ask-rg .az-ask-bt h5 {
+        font-size: 12px;
+        color: #fff;
+        font-weight: 400; }
+    #block-zixunyisheng .az-fk-container .az-ask-rg .az-ask-rbtn {
+      margin-top: 50px; }
+      #block-zixunyisheng .az-fk-container .az-ask-rg .az-ask-rbtn button {
+        border: 1px solid #eb1384;
+        background: #eb1384;
+        color: #fff;
+        border-radius: 8px;
+        width: 45%;
+        margin-right: 10px; }
 
 #block-webform-popup-subscibe {
   display: none; }
@@ -2689,6 +2701,10 @@ body.page-node-7 .node__content p {
   .az-header_bottom .az-header-bbox .az-header-search-box #search-block-form input {
     background-position: 400px  !important; } }
 
+@media screen and (min-width: 410px) and (max-width: 630px) {
+  .az-header_bottom .az-header-bbox .az-header-search-box #search-block-form input {
+    background-position: 230px  !important; } }
+
 @media (min-width: 992px) {
   .path-az-health-club .views-infinite-scroll-content-wrapper {
     width: 970px; }
@@ -2731,10 +2747,6 @@ body.page-node-7 .node__content p {
           opacity: .2;
           position: relative;
           left: -20px; }
-  #search-block-form div {
-    width: 100%; }
-    #search-block-form div input {
-      background-position: 180px !important; }
   #menu-bar {
     margin: 0 15px !important;
     top: 20px;
@@ -2759,7 +2771,77 @@ body.page-node-7 .node__content p {
   .gva-navigation {
     display: block; } }
 
+@media only screen and (min-width: 376px) and (max-width: 1200px) {
+  .az-cardtwo_box {
+    height: 500px; }
+    .az-cardtwo_box .az-cardtwo_img {
+      height: 306px; }
+      .az-cardtwo_box .az-cardtwo_img img {
+        height: 100%; } }
+
 @media (max-width: 375px) {
+  .block-views-blockmedical-article-block-1 .view-content-wrap {
+    display: flex;
+    flex-wrap: wrap; }
+    .block-views-blockmedical-article-block-1 .view-content-wrap > div {
+      padding: 3px !important; }
+    .block-views-blockmedical-article-block-1 .view-content-wrap .az-cardtwo_box .az-cardtwo_body_title {
+      font-size: 22px;
+      font-weight: 500; }
+    .block-views-blockmedical-article-block-1 .view-content-wrap .az-cardtwo_box .az-cardtwo_sub_title > p:nth-child(2) {
+      color: #444444; }
+  .az-cardtwo_box {
+    background: #ccc;
+    height: 350px; }
+    .az-cardtwo_box .az-cardtwo_img {
+      height: 200px; }
+      .az-cardtwo_box .az-cardtwo_img img {
+        height: 100%; }
+  .az-ft-fk .az-ft-img {
+    width: 25%; }
+  .ui-tabs-panel {
+    padding: 0 !important; }
+    .ui-tabs-panel .view-content-wrap {
+      display: flex;
+      flex-wrap: wrap; }
+      .ui-tabs-panel .view-content-wrap > div {
+        padding: 1px !important; }
+      .ui-tabs-panel .view-content-wrap .az-offer_box {
+        height: 350px; }
+        .ui-tabs-panel .view-content-wrap .az-offer_box .az-offer_body {
+          padding: 5px; }
+          .ui-tabs-panel .view-content-wrap .az-offer_box .az-offer_body .az-offer_img {
+            height: 180px; }
+          .ui-tabs-panel .view-content-wrap .az-offer_box .az-offer_body .az-offer_body_title {
+            font-size: 15px; }
+          .ui-tabs-panel .view-content-wrap .az-offer_box .az-offer_body .az-offer_sub_title {
+            font-size: 10px; }
+          .ui-tabs-panel .view-content-wrap .az-offer_box .az-offer_body .az-offer_click_bottom a {
+            font-size: 5px;
+            border-radius: 10px; }
+  .block-quicktabs .ui-widget .ui-widget-content .ui-tabs-nav {
+    display: flex;
+    flex-wrap: wrap; }
+    .block-quicktabs .ui-widget .ui-widget-content .ui-tabs-nav > li {
+      width: 25%; }
+  .az-midbn .az-midbn-btn {
+    margin-top: 40px; }
+    .az-midbn .az-midbn-btn button {
+      width: 45%;
+      margin-right: 14px !important;
+      border-radius: 8px;
+      background-color: #fcaf17;
+      border: 1px solid #fcaf17; }
+  .az-mb-hd {
+    display: block;
+    height: 300px; }
+    .az-mb-hd img {
+      width: 100%;
+      height: 100%; }
+  .az-hr-img {
+    display: none; }
+  .az-header_bottom .az-header-bbox .az-header-search-box #search-block-form input {
+    background-position: 200px !important; }
   .az-myjibin .view-content-wrap .item {
     margin-bottom: 30px; }
   .path-product-home .main {
@@ -3062,13 +3144,14 @@ body.page-node-7 .node__content p {
     flex-wrap: wrap; }
     .block-quicktabs .quicktabs-ui-wrapper .ui-tabs-nav .ui-tabs-tab {
       margin-right: 30px;
-      width: 15%; }
+      width: 25%; }
       .block-quicktabs .quicktabs-ui-wrapper .ui-tabs-nav .ui-tabs-tab .ui-tabs-anchor {
         display: grid;
         font-size: 5px !important; }
         .block-quicktabs .quicktabs-ui-wrapper .ui-tabs-nav .ui-tabs-tab .ui-tabs-anchor img {
           width: 35px;
-          height: 35px; }
+          height: 35px;
+          margin-bottom: 0; }
   .az-product-searright {
     display: flex; }
     .az-product-searright .az-product-search_button input {

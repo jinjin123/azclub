@@ -128,6 +128,19 @@
     }
   }
 }
+@media screen and (min-width: 410px ) and (max-width: 630px)  {
+  .az-header_bottom {
+    .az-header-bbox {
+      .az-header-search-box {
+        #search-block-form {
+          input {
+            background-position: 230px  !important;
+          }
+        }
+      }
+    }
+  }
+}
 
 @media (min-width: 992px) {
   .path-az-health-club {
@@ -221,14 +234,14 @@
       }
     }
   }
-  #search-block-form {
-    div {
-      width: 100%;
-      input {
-        background-position: 180px !important;
-      }
-    }
-  }
+  //#search-block-form {
+  //  div {
+  //    width: 100%;
+  //    input {
+  //      background-position: 180px !important;
+  //    }
+  //  }
+  //}
   #menu-bar {
     //top: -16px;
     //left: 20px;
@@ -268,7 +281,145 @@
     display: block;
   }
 }
+@media only screen and (min-width : 376px) and (max-width: 1200px) {
+  .az-cardtwo_box {
+    height: 500px;
+    .az-cardtwo_img{
+      height: 306px;
+      img {
+        height: 100%;
+      }
+    }
+  }
+}
+@media only screen and (min-width : 376px) and (max-width: 1200px) {
+  
+}
+
 @media (max-width : 375px) {
+  .block-views-blockmedical-article-block-1 {
+    .view-content-wrap {
+      display: flex;
+      flex-wrap: wrap;
+      > div  {
+        //padding-left: 0 !important;
+        //padding-right: 0 !important;
+        padding: 3px !important;
+      }
+      .az-cardtwo_box{
+        .az-cardtwo_body_title {
+            font-size: 22px;
+          font-weight: $fss;
+        }
+        .az-cardtwo_sub_title {
+           >p {
+             &:nth-child(2) {
+               color: $cl4;
+             }
+           }
+        }
+      }
+    }
+  }
+  .az-cardtwo_box  {
+    background: #ccc;
+    height:350px ;
+    .az-cardtwo_img{
+      height: 200px;
+      img {
+        height: 100%;
+      }
+    }
+  }
+  .az-ft-fk  {
+    .az-ft-img{
+      width: 25%;
+    }
+  }
+  .ui-tabs-panel {
+    padding: 0 !important;
+    .view-content-wrap {
+      display: flex;
+      flex-wrap: wrap;
+      >div {
+        //padding-right: 3px !important;
+        //padding-left: 10px !important;
+        //padding-right: 0px !important;
+        //&:nth-child(1) {
+          padding:1px !important;
+        //}
+      }
+      .az-offer_box {
+        height: 350px;
+        .az-offer_body {
+          padding:  5px   ;
+          .az-offer_img {
+            height: 180px;
+          }
+          .az-offer_body_title {
+            font-size: 15px;
+          }
+          .az-offer_sub_title  {
+            font-size: 10px;
+          }
+          .az-offer_click_bottom{
+            a {
+              font-size: 5px;
+              border-radius: 10px;
+            }
+          }
+        }
+      }
+    }
+  }
+  .block-quicktabs  {
+    .ui-widget {
+      .ui-widget-content {
+        .ui-tabs-nav {
+          display: flex;
+          flex-wrap: wrap;
+          >li {
+            width: 25%;
+          }
+        }
+      }
+    }
+  }
+  .az-midbn {
+    .az-midbn-btn {
+      margin-top: 40px;
+      button {
+        width: 45%;
+        margin-right: 14px !important; ;
+        border-radius: 8px;
+        background-color: $color-orange;
+        border:  1px solid  $color-orange ;
+      }
+    }
+  }
+  .az-mb-hd {
+     //background: url("/sites/default/files/imce_upload/admin/v13.jpg") no-repeat;
+    display:  block;
+    height: 300px;
+    img {
+       width: 100%;
+      height: 100%;
+    }
+  }
+  .az-hr-img {
+     display: none;
+  }
+  .az-header_bottom {
+    .az-header-bbox {
+      .az-header-search-box {
+        #search-block-form {
+          input {
+            background-position: 200px !important; ;
+          }
+        }
+      }
+    }
+  }
   .az-myjibin {
     .view-content-wrap {
       .item {
@@ -800,13 +951,14 @@
         flex-wrap: wrap;
         .ui-tabs-tab {
           margin-right: 30px;
-          width: 15%;
+          width: 25%;
           .ui-tabs-anchor {
             display: grid;
             font-size:5px !important;
             img {
               width: 35px;
               height: 35px;
+              margin-bottom:  0;
             }
           }
         }

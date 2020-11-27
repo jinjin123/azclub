@@ -219,6 +219,10 @@ Drupal.behaviors.PharmaTheme = {
       $(this).find('li').first().remove();
     });
     /*sidebar*/
+    if($(".az-fk-container").length >0) {
+      $(".footer").css("margin-top","0")
+      $("#block-zixunyisheng").css("margin","0")
+    }
 
     // health tips bg
    // $(".az-healthtips_head").parent().parent().css("background-color","oranage");
