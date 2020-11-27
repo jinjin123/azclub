@@ -1,12 +1,13 @@
 @import "../vars/variables";
-@import url('../../fonts/PingFang/PingFang.css');
+//@import url('../../fonts/PingFang/PingFang.css');
 
 body {
   //background-color:  $head-cus!important;
   //overflow: hidden;
   overflow: auto;
-  font-family: "PingFang" !important;
-  font-weight: 600;
+  //font-family: "PingFang" !important;
+  font-family: $fr;
+  //font-weight: 400;
 }
 input,a,button,select,textarea,span,label,h4,h5,h6 {
   //font-family: "PingFang TC - Semibold","PingFang TC - Regular";
@@ -37,7 +38,8 @@ input,a,button,select,textarea,span,label,h4,h5,h6 {
     //border: 1px solid;
     margin: 100px 300px;
     padding: 50px;
-    box-shadow: 0px 5px 10px 0px $color-gray;
+    //box-shadow: 0px 5px 10px 0px $color-gray;
+    box-shadow: $bdx-sdw;
     background: $body-bg;
     .cancel-subscribe-success {
       .ta-typ-list {
@@ -78,7 +80,8 @@ input,a,button,select,textarea,span,label,h4,h5,h6 {
     //border: 1px solid;
     margin: 100px 300px;
     padding: 50px;
-    box-shadow: 0px 5px 10px 0px $color-gray;
+    //box-shadow: 0px 5px 10px 0px $color-gray;
+    box-shadow: $bdx-sdw;
     legend {
       border: 0 !important;
     }
@@ -220,7 +223,8 @@ a.button {
 
 //card
 .az-cardthree_box {
-  border: 1px solid $color-gray;
+  //border: 1px solid $color-gray;
+  border: $bdr;
   padding-bottom: 30px;
   float: left;
   margin-bottom: 20px;
@@ -288,7 +292,8 @@ a.button {
     position: relative;
     top: -130px;
     max-width: 35% !important;
-    box-shadow: 0px 0px 10px 0px $color-gray;
+    //box-shadow: 0px 0px 10px 0px $color-gray;
+    box-shadow: $bdx-sdw;
     background: white;
     .welcome {
       margin: 0 100px;
@@ -334,7 +339,8 @@ a.button {
     position: relative;
     top: -100px;
     max-width: 50% !important;
-    box-shadow: 0px 0px 10px 0px $color-gray;
+    //box-shadow: 0px 0px 10px 0px $color-gray;
+    box-shadow: $bdx-sdw;
     >div {
       padding: 50px;
     }
@@ -429,7 +435,8 @@ a.button {
     position: relative;
     top: -100px;
     max-width: 40% !important;
-    box-shadow: 0px 0px 10px 0px $color-gray;
+    //box-shadow: 0px 0px 10px 0px $color-gray;
+    box-shadow:$bdx-sdw;
     >div {
       padding: 50px;
     }
@@ -520,7 +527,8 @@ a.button {
 .az-card7_box {
   display: flex;
   height: 180px;
-  box-shadow: 0px 0px 9px 2px  $color-thingrey;
+  box-shadow: $bdx-sdw;
+  //box-shadow: 0px 0px 9px 2px  $color-thingrey;
   border-radius: 8px;
   .az-card7_img {
     height: 100%;
@@ -560,7 +568,7 @@ a.button {
     }
     .az-card7_click_bottom {
        text-align: center;
-      width: 100px;
+      //width: 100px;
       clear: both;
       float: right;
       height: 25px;
@@ -582,7 +590,8 @@ a.button {
 }
 
 .az-cardtwo_box {
-  box-shadow: 0px 0px 10px 5px $color-gray;
+  //box-shadow: 0px 0px 10px 5px $color-gray;
+  box-shadow: $bdx-sdw;
   margin-bottom: 30px;
   height: 386px;
 
@@ -666,20 +675,26 @@ a.button {
   .top-box-info {
     h1 {
       font-size: 15px;
+      font-weight: $fss;
+    }
+    a {
+      font-weight: $fss;
     }
 
     p {
       font-size: 12px;
       color: $color-gray;
+      font-weight: $frs;
     }
   }
 }
 
 .az-header_bottom {
-  border-top: 1px solid #b8b8b8;
-  border-bottom: 1px solid #b8b8b8;
+  //border-top: 1px solid #b8b8b8;
+  border-top: $bdr;
+  border-bottom: $bdr;
+  //border-bottom: 1px solid #b8b8b8;
   height: 55px;
-
   .az-header-bbox {
     padding: 0px;
 
@@ -703,6 +718,7 @@ a.button {
 
             li {
               a {
+                font-weight: $fss;
                 padding-top: 0 !important;
                 padding-bottom: 0 !important;
                 line-height: 55px;
@@ -722,6 +738,7 @@ a.button {
                   line-height: 36px;
 
                   a {
+                    font-weight: $fss;
                     height: 36px;
                     line-height: 36px;
                   }
@@ -751,7 +768,8 @@ a.button {
           background-position: 150px;
           //height: 55px;
           height: 53px;
-          border: 1px solid $color-gray;
+          //border: 1px solid $color-gray;
+          border: $bdr;
           border-top: none;
           border-bottom: none;
           text-indent: 10px;
@@ -842,7 +860,8 @@ a.button {
   }
 
   .az-ref_hr {
-    border-top: 1px solid $color-gray;
+    //border-top: 1px solid $color-gray;
+    border-top: $bdr;
   }
 
   .az-ref__body {
@@ -892,7 +911,8 @@ a.button {
 .az-product-seach_across {
   width: 100%;
   height: 60px;
-  border-bottom: 2px solid $color-gray;
+  //border-bottom: 2px solid $color-gray;
+  border-bottom:  $bdr;
   margin-bottom: 50px;
 }
 
@@ -942,16 +962,19 @@ a.button {
   float: none;
   margin-bottom: 20px;
   padding-bottom: 20px;
-  border: 1px solid $color-gray;
+  //border: 1px solid $color-gray;
+  border: $bdr;
   position: relative;
   width: 100%;
-  height: 320px;
+  //height: 320px;
+  height: auto;
   .az-offer_img {
     border-bottom: 7px solid $color-orange;
-    height: 200px;
+    height: 228px;
     display: block;
     img {
-      height: 200px;
+      //height: 200px;
+      height: 100%;
       width: 100%;
     }
   }
@@ -960,13 +983,20 @@ a.button {
     padding: 0px 20px 0px 20px;
     text-align: left;
     .az-offer_body_title {
-      font-weight: 600;
+      //font-weight: 600;
+      color: $cl4;
+      font-weight: $frs;
+      font-size: 22px;
       word-break: break-all;
       text-overflow: ellipsis;
       overflow: hidden;
       display: -webkit-box;
       -webkit-line-clamp: 2;
       -webkit-box-orient: vertical;
+    }
+    .az-offer_body_desc {
+      font-size: 16px;
+      color: $cl4;
     }
 
     .az-offer_sub_title {
@@ -988,7 +1018,6 @@ a.button {
     right: 20px;
 
     a {
-      color: white;
       background-color: $color-red;
       border-radius: 5px;
       padding: 5px 10px;
@@ -1076,7 +1105,8 @@ a.button {
         margin-left: auto;
         margin-top: 50px;
         height: 200px;
-        box-shadow: 6px 6px 5px #d0c9c9;
+        //box-shadow: 6px 6px 5px #d0c9c9;
+        box-shadow: $bdx-sdw;
         border-radius: 5px;
 
         .az-search-titile {
@@ -1092,20 +1122,23 @@ a.button {
 
           .az-search-clinical-type {
             width: 50%;
-            border: 1px solid $color-gray;
+            //border: 1px solid $color-gray;
+            border: $bdr;
             height: 50px;
             margin-right: 10px;
           }
 
           .az-search-clinical-age {
             width: 20%;
-            border: 1px solid $color-gray;
+            //border: 1px solid $color-gray;
+            border: $bdr;
             height: 50px;
           }
 
           .az-search-clinical-sex {
             width: 20%;
-            border: 1px solid $color-gray;
+            //border: 1px solid $color-gray;
+            border: $bdr;
             height: 50px;
           }
 
@@ -1139,35 +1172,7 @@ a.button {
   position: relative;
 }
 
-@media (min-width : 768px) {
-  .col-sm-1-7 {
-    width: 14.28%;
-    float: left;
-  }
-}
 
-@media (min-width : 992px) {
-  .col-md-1-7 {
-    width: 14.28%;
-    float: left;
-  }
-    #sidebar-wrapper {
-      display: none;
-    }
-  //.gva-navigation {
-  //  display: none;
-  //}
-}
-
-@media (min-width : 1200px) {
-  .col-lg-1-7 {
-    width: 14.28%;
-    float: left;
-  }
-  .gva-navigation {
-    display: block;
-  }
-}
 
 #sidebar-wrapper  {
   display: none;
@@ -1194,7 +1199,8 @@ a.button {
   float: left;
   margin: 20px;
   border-radius: 0px 5px 5px 0px;
-  box-shadow: 1px 1px 5px $color-gray;
+  //box-shadow: 1px 1px 5px $color-gray;
+  box-shadow: $bdx-sdw;
 
   .az-product_img {
     float: left;
@@ -1271,7 +1277,8 @@ a.button {
     .az-product_selectbox_btnno {
       margin-left: 10px;
       background-color: $color-gray;
-      border: 1px solid $color-gray;
+      //border: 1px solid $color-gray;
+      border: $bdr;
     }
   }
 
@@ -1429,7 +1436,8 @@ a.button {
 
 .az-node__content {
   .az-node__content_bottom_boder {
-    border-top: 1px solid $color-gray;
+    //border-top: 1px solid $color-gray;
+    border-top:  $bdr;
     padding-top: 10px;
 
     .row {
@@ -1477,7 +1485,8 @@ a.button {
 
         input {
           height: 40px;
-          border: 1px solid $color-gray;
+          //border: 1px solid $color-gray;
+          border: $bdr;
         }
       }
 
@@ -1520,7 +1529,8 @@ a.button {
     //padding-top: 20px;
     font-size: 5px;
     //border: 1px solid ;
-    box-shadow: 0px 0px 5px 0px grey;
+    //box-shadow: 0px 0px 5px 0px grey;
+    box-shadow: $bdx-sdw;
     border-radius: 0 8px 8px 0;
     .az-clinical_body_title {
       a {
@@ -1601,11 +1611,13 @@ a.button {
   }
 
   .az-contact-form_body {
-    border: 1px solid #d0c9c9;
+    //border: 1px solid #d0c9c9;
+    border: $bdr;
     background-color: white;
     width: 100%;
     padding:  35px;
-    box-shadow: -5px 5px 10px -7px grey;
+    //box-shadow: -5px 5px 10px -7px grey;
+    box-shadow: $bdx-sdw;
     .az_title {
       font-weight: bold;
       font-size: 20px;
@@ -1937,8 +1949,8 @@ footer#footer::after {
   left: -30%;
   top: -200px;
   //border: 1px solid gray;
-  box-shadow: 17px 18px 25px rgba(0, 0, 0, 0.15);
-  border-right: 1px solid $color-thingrey;
+  box-shadow: $bdx-sdw;
+  border-right: $bdr;
   padding: 0px;
 
   .az-offers_bgimg {
@@ -1952,7 +1964,6 @@ footer#footer::after {
 
   .az-offers_logoimg {
     position: relative;
-    bottom: 30px;
     bottom: 30px;
     left: 20px;
   }
@@ -1973,20 +1984,30 @@ footer#footer::after {
   .az-offerdetail {
     position: relative;
     margin-left: 26%;
+    float: unset;
+    clear: both;
+    top: -450px;
     display: flex;
-    top: -690px;
-
     .az-off-pp-params {
-      border-top: 1px solid #d9d8d8;
-      border-bottom: 1px solid #d9d8d8;
+      //border-top: 1px solid #d9d8d8;
+      //border-bottom: 1px solid #d9d8d8;
+      border-top: $bdr;
+      border-bottom: $bdr;
       width: 25%;
+      //padding: 10px;
+      div {
+        padding-top: 15px;
+      }
     }
 
     .az-off-pp-area {
-      border-top: 1px solid #d9d8d8;
-      border-bottom: 1px solid #d9d8d8;
+      padding: 15px;
+      //border-top: 1px solid #d9d8d8;
+      //border-bottom: 1px solid #d9d8d8;
+      border-top: $bdr;
+      border-bottom: $bdr;
       width: 25%;
-      text-align: right;
+      text-align: center;
     }
   }
 }
@@ -2004,6 +2025,9 @@ footer#footer::after {
   display: block;
   width: 50%;
   margin: 10px 100px;
+  clear: both;
+  height: auto;
+  z-index: 10;;
   p {
     color: $color-gray;
   }
@@ -2011,20 +2035,23 @@ footer#footer::after {
 
 .az-offers_shop {
   display: block;
+  margin-top: 0px !important;
+  top: -500px;
+  float: left;
   position: relative;
-  width: 40%;
-  margin-top: 8%;
-  margin-left: 37.5%;
+  width: 42%;
+  //margin-top: 8%;
+  margin-left: 37%;
   margin-right: auto;
   margin-bottom: 20px;
-  top:-700px;
-  clear: both;
-  float: unset;
-  margin-bottom: 50px;
+  /* top: -700px; */
+  /* clear: both; */
+  /* float: unset; */
+  /* margin-bottom: 50px; */
   padding-right: 0 !important;
   padding-left: 0 !important;
   padding-bottom: 30px;
-  border-bottom: 1px solid $color-gray;
+  border-bottom: $bdr;
   div {
     img {
       width: 100%;
@@ -2037,7 +2064,7 @@ footer#footer::after {
   display: flex;
   position: relative;
   //margin-top: -700px;
-  top: -700px;
+  top: -460px;
   .az-medicinie-left {
     margin-right: 70px;
   }
@@ -2076,7 +2103,8 @@ footer#footer::after {
   //top: -100px;
   top: -200px;
   padding: 0 !important;
-  box-shadow: 17px 18px 25px rgba(0, 0, 0, 0.15) ;
+  //box-shadow: 17px 18px 25px rgba(0, 0, 0, 0.15) ;
+  box-shadow: $bdx-sdw ;
   .field--name-field-az-clinical-page-image {
     background: $color-thingrey;
     padding: 50px;
@@ -2232,7 +2260,8 @@ footer#footer::after {
       margin-top: 20px;
       top: 150px;
       display: block;
-      border-bottom: 1px solid $color-thingrey;
+      //border-bottom: 1px solid $color-thingrey;
+      border-bottom:$bdr;
     }
   }
 }
@@ -2296,12 +2325,12 @@ footer#footer::after {
         float: unset;
 
         a {
-          color: black;
+          color: $cl4;
           text-align: center;
-          font-weight: 600;
-
+          font-weight: $fss;
+          font-size: 16px;
           img {
-            margin-bottom: 5px;
+            margin-bottom: 18px;
           }
         }
       }
@@ -2330,7 +2359,8 @@ footer#footer::after {
       }
 
       input {
-        border: 1px solid $color-gray;
+        //border: 1px solid $color-gray;
+        border: $bdr;
         width: 240px;
         height: 40px;
         margin-left: 20px;
@@ -2402,7 +2432,8 @@ footer#footer::after {
 
     .az-clinical-ckb-box {
       background-color: #E0DEDEDE;
-      border: 1px solid #979797;
+      //border: 1px solid #979797;
+      border:$bdr;
       width: 240px;
       height: 40px;
       margin-left: 30%;
@@ -2466,7 +2497,8 @@ footer#footer::after {
     .az-clinical-subjest_btncancel {
       margin-left: 10px;
       background-color: $color-gray;
-      border: 1px solid $color-gray;
+      //border: 1px solid $color-gray;
+      border: $bdr;
     }
   }
 }
@@ -2543,7 +2575,8 @@ footer#footer::after {
     text-align: center;
     hr {
       width: 80%;
-      border: 1px solid #979797
+      //border: 1px solid #979797
+      border: $bdr;
     }
     ul {
       height: 300px;
@@ -2579,95 +2612,6 @@ footer#footer::after {
     }
   }
 }
-
-@media (min-width: 770px) and (max-width: 990px) {
-  //.gva-navigation {
-  //  display: none;
-  //}
-  //冠心病治療方案
-  #block-guanxinbingzhiliaofangan {
-    .block-content {
-      padding-top: 20px;
-      ul {
-        li {
-          margin: 0 10%;
-          float: unset;
-          width: auto;
-        }
-      }
-    }
-  }
-  //#sidebar-wrapper {
-  //  display: none;
-  //}
-  //.gva-navigation {
-  //  display: none;
-  //}
-}
-
-@media (min-width: 513px) and (max-width: 770px)  {
-  //.gva-navigation {
-  //  display: none;
-  //}
-  //冠心病治療方案
-  #block-guanxinbingzhiliaofangan {
-    .block-content {
-      padding-top: 350px;
-      ul {
-        li {
-          margin: 0 10%;
-          float: unset;
-          width: auto;
-        }
-      }
-    }
-  }
-}
-
-@media (max-width: 994px) {
-  .gva-navigation {
-    display: none;
-  }
-  //.az-header_bottom {
-  //  .az-header-bbox {
-  //    .az-header-search-box {
-  //      #search-block-form {
-  //        input {
-  //          background-position: 500px ;
-  //        }
-  //      }
-  //    }
-  //  }
-  //}
-}
-
-@media  (max-width: 513px) {
-  //診斷冠心病
-  #block-zhenduanguanxinbing {
-    .block-content {
-      ul {
-        li:nth-child(2) {
-          position: unset;
-        }
-      }
-    }
-  }
-  //冠心病治療方案
-  #block-guanxinbingzhiliaofangan {
-    .block-content {
-      padding-top: 670px;
-      ul {
-        li {
-          margin: 0 10%;
-          float: unset;
-          width: auto;
-        }
-      }
-    }
-  }
-}
-
-
 
 .az-product-position {
   .az-product_headtwo {
@@ -2711,7 +2655,8 @@ footer#footer::after {
 
   .az-hr {
     //margin: 10px 0 10px 0;
-    border: 1px solid #979797;
+    //border: 1px solid #979797;
+    border: $bdr;
   }
 
   .az-share-and-author {
@@ -2787,108 +2732,6 @@ footer {
   }
 }
 
-@media (min-width: 768px) {
-  .path-az-health-club {
-    .views-infinite-scroll-content-wrapper {
-      width: 750px;
-    }
-  }
-
-  .az-clinical-result-content {
-    .views-element-container {
-      header {
-        width: 750px;
-      }
-
-      .views-infinite-scroll-content-wrapper {
-        width: 750px;
-      }
-    }
-  }
-}
-
-@media screen and (min-width: 768px) and(max-width: 994px)  {
-  .az-header_bottom {
-    .az-header-bbox {
-      .az-header-search-box {
-        #search-block-form {
-          input {
-            background-position: 500px ;
-          }
-        }
-      }
-    }
-  }
-}
-@media screen and (min-width: 660px ) and (max-width: 764px)  {
-  .az-header_bottom {
-    .az-header-bbox {
-      .az-header-search-box {
-        #search-block-form {
-          input {
-            background-position: 400px  !important;
-          }
-        }
-      }
-    }
-  }
-}
-
-@media (min-width: 992px) {
-  .path-az-health-club {
-    .views-infinite-scroll-content-wrapper {
-      width: 970px;
-    }
-  }
-  .az-clinical-result-content {
-    .views-element-container {
-      header {
-        width: 970px;
-      }
-
-      .views-infinite-scroll-content-wrapper {
-        width: 970px;
-      }
-    }
-
-  }
-}
-
-@media (min-width: 1200px) {
-  .path-az-health-club {
-    .views-infinite-scroll-content-wrapper {
-      width: 1200px;
-    }
-  }
-
-  .az-clinical-result-content {
-    .views-element-container {
-      header {
-        width: 1200px;
-      }
-
-      .views-infinite-scroll-content-wrapper {
-        width: 1200px;
-      }
-    }
-
-  }
-}
-
-@media (max-width: 1200px) and (min-width: 994px) {
-  .az-header_bottom {
-    .az-header-bbox {
-      .az-header-search-box {
-        #search-block-form {
-          input {
-            background-position: 100px ;
-          }
-        }
-      }
-    }
-  }
-}
-
 
 .az-clinical-trial-aritcle {
   position: relative;
@@ -2898,14 +2741,19 @@ footer {
 .az-ft-fk {
   display: flex;
   .az-ft-img {
-    width: 20%;
+    width: 15%;
     img {
       height: auto !important;
     }
   }
   .az-ft-rg-bd {
+
     p {
-        color: #767676;
+      >strong {
+        font-weight: $fss;
+      }
+      font-weight: $frs;
+      color: #767676;
     }
   }
 }
@@ -2966,85 +2814,80 @@ body.az-user-login-page.path-user #page-main-content  {
   }
 }
 
-@media (max-width : 375px) {
-  .az-myjibin {
-    .view-content-wrap {
-      .item {
-        margin-bottom: 30px;
-      }
+
+
+.az-offer-detail {
+  margin: 0 !important;
+  height: 0px;
+  float: none;
+  clear: both;
+  top: -500px;
+  position: relative;
+  left: 730px;
+}
+
+.az-nurse-contentimg {
+  display: flex;
+  margin: 0 500px;
+  div {
+    margin-bottom: 100px;
+    img {
+      margin-right:150px;
+      width: 100%;
+    }
+    h4 {
+      text-align: center;
     }
   }
-  .path-product-home {
-    .main {
-      position: relative;
-      top: -100px;
+}
+.az-nurse-box {
+  display: flex;
+  height: 200px;
+  width: 100%;
+  //background: #d7d7d7;
+  background: url("/sites/default/files/imce_upload/admin/Healthcare%20Guidance-Hotline.png") no-repeat;
+  background-size: 100%;
+  .container {
+    display: flex;
+    margin: 50px auto;
+    padding: 0 200px;
+  }
+  .az-nurse-left-icon {
+    margin-right:20px;
+    height: 100%;
+    img {
+      height: 80%;
     }
   }
-  .path-offers  {
-    .main {
-      position: relative;
-      top: -100px;
+  .az-nurse-right-box {
+    .az-nurse-right-title {
+      font-size:23px;
+      color:$color-red;
+    }
+    .az-nurse-right-body {
+      width: 500px;
     }
   }
-  .path-az-health-club {
-    #block-astrazeneca-content {
-      margin: 0 10px;
-      position: relative;
-      top: -50px;
+}
+
+.az-member-clinal {
+  .v-line {
+    border: 1px solid;
+    margin-bottom: 30px;
+    margin-left: 20px;
+  }
+  .az-clinical_box {
+    //box-shadow: 5px 0px 5px #d0c9c9;
+    box-shadow: $bdx-sdw;
+    border-radius: 5px;
+    height: 146px;
+    .az-clinical_body {
+       .az-clinical_body_title {
+         font-weight: bold;
+       }
     }
   }
-  .az-product-search_box > div {
-         &:nth-child(1) {
-           padding: 0 !important;
-        }
-  }
-  .az-product_head {
-    width: 100% !important;
-    .az-product_head__body {
-      margin: 0 !important;
-      width: 100% !important;
-    }
-  }
-  .az-top-banner {
-    h1 {
-      top: 0 !important;
-    }
-  }
-  .path-dashboard {
-    .main {
-      position: relative;
-      top: -100px;
-    }
-    .az-dashboard {
-      .az-das-bd {
-        .az-das-head{
-          display: block !important;
-          .az-das-title {
-            text-align: left;
-            .dashboard-2 {
-              font-size: 10px !important;
-            }
-          }
-          .az-dasrg-button {
-            margin-top: 10px !important;
-            a {
-              width: 100% !important;
-            }
-          }
-        }
-        .az-das-icon {
-          display: flex;
-          flex-wrap: wrap;
-          .az-das-cc-box {
-            width: 42% !important;
-            margin-right: 0 !important;
-            height: 158px;
-            margin: 5px 15px;
-          }
-        }
-      }
-    }
-  }
+
   .az-welcome{
     .az-wel-bd {
       position: relative;
@@ -3894,6 +3737,7 @@ body.az-user-login-page.path-user #page-main-content  {
     position: relative;
     text-align: center;
     top: 200px;
+    font-weight: $frs;
   }
   //h2 {
   //  color: #fff;
@@ -3915,7 +3759,8 @@ body.az-user-login-page.path-user #page-main-content  {
 .az-register-one {
   .az-register-onebox {
     img {
-      box-shadow: 0px 4px 5px #979797;
+      //box-shadow: 0px 4px 5px #979797;
+      box-shadow: $bdx-sdw;
       padding: 30px;
       width: 800px;
       margin: 0 auto;
@@ -3966,7 +3811,8 @@ body.az-user-login-page.path-user #page-main-content  {
   }
   #edit-privacy-statement  {
     margin-left: 15px;
-    border: 1px solid grey;
+    //border: 1px solid grey;
+    border: $bdr;
     margin-bottom: 10px;
     summary {
       color:#fff;
@@ -4007,88 +3853,7 @@ body.az-user-login-page.path-user #page-main-content  {
 }
 
 
-//@media(max-width: 991px) {
-// .gva-offcanvas-mobile {
-//   margin-left: 100%;
-//   //left:200px !important;
-//   max-width: 991px;
-//   .close-offcanvas {
-//     //text-align: right;
-//     padding: 15px 15px;
-//     div {
-//       display: flex;
-//       .close {
-//         float: right;
-//         font-size: 50px;
-//         font-weight: 100;
-//         line-height: 1;
-//         color: #000;
-//         text-shadow: 0 1px 0 #fff;
-//         opacity: .2;
-//         position: relative;
-//         //top: -15px;
-//       }
-//     }
-//   }
-// }
-//}
-//@media only screen and (mix-width: 767px) {
-//  #sidebar-wrapper {
-//    display: none;
-//  }
-//}
-@media (max-width: 994px) {
-  //nav {
-  //  display: none;
-  //}
-  //nav {
-  //  display: none;
-  //}
-  #sidebar-wrapper {
-    //display: none;
-    background: white;
-    height: 100%;
-    overflow: auto;
-    .mobile-header-menu {
-      margin-bottom: 20px;
-      //margin-top: 15px;
-      //padding-top: 10px;
-      padding: 10px;
-      box-shadow: 0px 0px 0px 1px #eeeeee;
-      div {
-        text-align: center;
-        display: flex;
-         .close {
-           float: right;
-           font-size: 50px;
-           font-weight: 100;
-           line-height: 1;
-           color: #000;
-           text-shadow: 0 1px 0 #fff;
-           opacity: .2;
-           position: relative;
-           left: -20px;
-           //top: -15px;
-         }
-      }
-    }
-  }
-  #search-block-form {
-    div {
-      width: 100%;
-      input {
-        background-position: 180px !important;
-      }
-    }
-  }
-  #menu-bar {
-    //top: -16px;
-    //left: 20px;
-    margin: 0 15px!important;
-    top: 20px;
-    left: 0;
-  }
-}
+
 
 .sidebar-nav {
   .sub-sidebar-nav {
@@ -4190,6 +3955,7 @@ body.az-user-login-page.path-user #page-main-content  {
     margin-bottom: 10px;
     span {
       font-size: 30px;
+      font-weight: $frs;
     }
     &::after {
       content: '';
@@ -4261,8 +4027,4 @@ body.page-node-7 {
     font-weight: 600;
     font-size:27px;
   }
-}
-
-.breadcrumb-content-inner {
-
 }
