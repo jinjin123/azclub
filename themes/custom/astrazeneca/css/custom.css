@@ -549,14 +549,14 @@ a.button {
     color: white;
     text-align: center;
     padding-top: 10px;
-    font-size: 12px;
-    font-weight: lighter; }
+    font-size: 14px;
+    font-weight: 400; }
     .az_clinical_box .container > p:nth-child(2) {
       font-size: 25px; }
 
 .az_clinical_box > p:nth-child(2) {
-  font-size: 20px;
-  font-weight: bold; }
+  font-size: 32px;
+  font-weight: 500; }
 
 .az_clinical_bottom_box {
   background-color: #979797;
@@ -569,11 +569,11 @@ a.button {
     margin-top: 50px;
     margin-left: 18%; }
     .az_clinical_bottom_box .az__bottom_right_box .az__bottom_right_box_title {
-      font-weight: bold;
+      font-weight: 500;
       font-size: 20px;
       margin-bottom: 20px; }
     .az_clinical_bottom_box .az__bottom_right_box .az__bottom_right_box_body {
-      font-weight: lighter; }
+      font-weight: 400; }
   .az_clinical_bottom_box .az__bottom_left_box {
     float: right;
     width: 16%;
@@ -587,7 +587,7 @@ a.button {
 
 .az-ref-box .az-ref__title {
   font-size: 20px;
-  font-weight: bold;
+  font-weight: 500;
   color: #222222; }
 
 .az-ref-box .az-ref_hr {
@@ -601,7 +601,7 @@ a.button {
   float: left; }
   .az-product-search_box > div:nth-child(1) span {
     font-size: 20px;
-    font-weight: bold; }
+    font-weight: 500; }
 
 .az-product-search_box > div:nth-child(2) {
   float: right;
@@ -741,11 +741,11 @@ a.button {
       color: white; }
     .az-clinical-result .az-clinical-product-search .az-clinical-bgimg .az-clinical-bgfrontblock > div:nth-child(1) {
       padding-top: 40px;
-      font-size: 12px;
-      font-weight: lighter; }
+      font-weight: 400; }
     .az-clinical-result .az-clinical-product-search .az-clinical-bgimg .az-clinical-bgfrontblock > div:nth-child(2) {
-      font-size: 20px;
-      margin-bottom: 20px; }
+      font-size: 32px;
+      margin-bottom: 20px;
+      font-weight: 500; }
     .az-clinical-result .az-clinical-product-search .az-clinical-bgimg .az-clinical-search-block {
       display: block;
       background-color: white;
@@ -759,8 +759,8 @@ a.button {
       border-radius: 5px; }
       .az-clinical-result .az-clinical-product-search .az-clinical-bgimg .az-clinical-search-block .az-search-titile {
         padding: 20px;
-        font-weight: bold;
-        font-size: 18px; }
+        font-weight: 500;
+        font-size: 24px; }
       .az-clinical-result .az-clinical-product-search .az-clinical-bgimg .az-clinical-search-block .az-clinical__search_body {
         margin-top: 20px;
         color: #979797;
@@ -1007,8 +1007,8 @@ a.button {
 .az-clinical-search_box > div:nth-child(1) {
   float: left; }
   .az-clinical-search_box > div:nth-child(1) span {
-    font-size: 20px;
-    font-weight: bold; }
+    font-size: 24px;
+    font-weight: 500; }
 
 .az-clinical-search_box > div:nth-child(2) {
   float: right;
@@ -1051,13 +1051,17 @@ a.button {
     box-shadow: 1px 1px 5px #ccc;
     border-radius: 0 8px 8px 0; }
     .az-clinical_box .az-clinical_body .az-clinical_body_title a {
-      font-weight: bold;
-      font-size: 15px; }
+      font-weight: 500;
+      font-size: 14px; }
     .az-clinical_box .az-clinical_body .az-clinical_body_desc {
-      color: #979797; }
+      color: #979797;
+      font-weight: 400;
+      font-size: 14px; }
     .az-clinical_box .az-clinical_body .az-oclinical_time_bottom span {
       float: right;
-      color: #979797; }
+      color: #979797;
+      font-weight: 400;
+      font-size: 14px; }
 
 .az-contact-main_box {
   display: flex;

@@ -824,8 +824,8 @@ a.button {
     color: white;
     text-align: center;
     padding-top: 10px;
-    font-size: 12px;
-    font-weight: lighter;
+    font-size: 14px;
+    font-weight: $frs;
     &:nth-child(2) {
       font-size: 25px;
     }
@@ -834,8 +834,8 @@ a.button {
 
 .az_clinical_box>p {
   &:nth-child(2) {
-    font-size: 20px;
-    font-weight: bold;
+    font-size: 32px;
+    font-weight: $fss;
   }
 }
 
@@ -852,13 +852,13 @@ a.button {
     margin-left: 18%;
 
     .az__bottom_right_box_title {
-      font-weight: bold;
+      font-weight: $fss;
       font-size: 20px;
       margin-bottom: 20px;
     }
 
     .az__bottom_right_box_body {
-      font-weight: lighter;
+      font-weight: $frs;
     }
   }
 
@@ -878,7 +878,7 @@ a.button {
 .az-ref-box {
   .az-ref__title {
     font-size: 20px;
-    font-weight: bold;
+    font-weight: $fss;
     color:$gray-darker;
   }
 
@@ -899,7 +899,7 @@ a.button {
 
     span {
       font-size: 20px;
-      font-weight: bold;
+      font-weight: $fss;
     }
   }
 
@@ -1112,13 +1112,13 @@ a.button {
       .az-clinical-bgfrontblock>div {
         &:nth-child(1) {
           padding-top: 40px;
-          font-size: 12px;
-          font-weight: lighter;
+          font-weight: $frs;
         }
 
         &:nth-child(2) {
-          font-size: 20px;
+          font-size: 32px;
           margin-bottom: 20px;
+          font-weight: $fss;
         }
       }
 
@@ -1137,8 +1137,8 @@ a.button {
 
         .az-search-titile {
           padding: 20px;
-          font-weight: bold;
-          font-size: 18px;
+          font-weight: $fss;
+          font-size: 24px;
         }
 
         .az-clinical__search_body {
@@ -1507,8 +1507,8 @@ a.button {
     float: left;
 
     span {
-      font-size: 20px;
-      font-weight: bold;
+      font-size: 24px;
+      font-weight: $fss;
     }
   }
 
@@ -1573,19 +1573,23 @@ a.button {
     border-radius: 0 8px 8px 0;
     .az-clinical_body_title {
       a {
-        font-weight: bold;
-        font-size: 15px;
+        font-weight: $fss;
+        font-size: 14px;
       }
     }
 
     .az-clinical_body_desc {
       color: $color-gray;
+      font-weight: $frs;
+      font-size: 14px
     }
 
     .az-oclinical_time_bottom {
       span {
         float: right;
         color: $color-gray;
+        font-weight: $frs;
+        font-size: 14px
       }
     }
   }
