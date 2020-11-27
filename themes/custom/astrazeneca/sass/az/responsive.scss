@@ -291,12 +291,143 @@
       }
     }
   }
+  .az_clinical_box {
+    .container > p {
+      width: 100%;
+    }
+  }
 }
-@media only screen and (min-width : 376px) and (max-width: 1200px) {
-  
+@media only screen and (min-width : 668px) and (max-width: 790px) {
+  #block-zixunyisheng {
+    .az-fk-container {
+      .az-ask-rg {
+        margin: 30px 50px;
+        .az-ask-rbtn {
+          >button {
+             margin-bottom: 10px;
+          }
+        }
+      }
+    }
+  }
+  .az-clinical_body {
+    padding: 50px !important;
+  }
+}
+@media only screen and (min-width : 469px) and (max-width: 650px) {
+  .az-clinical_body {
+    padding: 50px !important;
+  }
+  #block-zixunyisheng {
+    .az-fk-container {
+      .az-ask-rg {
+        margin: 30px 50px;
+        .az-ask-rbtn {
+          >button {
+            margin-bottom: 10px;
+          }
+        }
+      }
+    }
+  }
+  .az-search-clinical-sex  {
+     width: 40% !important;
+    margin-bottom: 5px;
+  }
+  .az-search-button  {
+    width: 93% !important;
+    margin: 0 !important;
+  }
+}
+@media only screen and (min-width : 375px) and (max-width: 468px) {
+  #block-zixunyisheng {
+    .az-fk-container {
+      .az-ask-rg {
+        margin: 30px 50px;
+        .az-ask-rbtn {
+          >button {
+            margin-bottom: 10px;
+          }
+        }
+      }
+    }
+  }
 }
 
+@media only screen and (min-width : 376px) and (max-width:736px) {
+  .az-clinical-result  {
+    .az-product_head {
+      //margin-bottom: 300px;
+      position: relative;
+      .az-pipline-redbox{
+        display: flex;
+        flex-wrap: wrap;
+         div {
+          margin-right: 1px;
+           img {
+             width: 100px;
+           }
+        }
+      }
+    }
+  }
+  .az-clinical_box {
+    .az-clinical_body {
+      .az-clinical_body_desc  {
+        word-break: break-all;
+        text-overflow: ellipsis;
+        overflow: hidden;
+        display: -webkit-box;
+        -webkit-line-clamp: 2;
+        -webkit-box-orient: vertical;
+      }
+    }
+  }
+
+}
+
+
 @media (max-width : 375px) {
+  .az_clinical_box {
+    .container > p {
+      width: 100%;
+    }
+    //.az-clinical_body {
+    //  .az-clinical_body_desc  {
+    //    word-break: break-all;
+    //    text-overflow: ellipsis;
+    //    overflow: hidden;
+    //    display: -webkit-box;
+    //    -webkit-line-clamp: 2;
+    //    -webkit-box-orient: vertical;
+    //  }
+    //}
+  }
+  .az-clinical_box {
+    .az-clinical_body {
+      .az-clinical_body_desc  {
+        word-break: break-all;
+        text-overflow: ellipsis;
+        overflow: hidden;
+        display: -webkit-box;
+        -webkit-line-clamp: 2;
+        -webkit-box-orient: vertical;
+      }
+    }
+  }
+  #block-zixunyisheng {
+    .az-fk-container {
+      .az-ask-rg {
+        margin: 0;
+        .az-ask-rbtn {
+          display: flex;
+          >button {
+            margin-bottom: 10px;
+          }
+        }
+      }
+    }
+  }
   .block-views-blockmedical-article-block-1 {
     .view-content-wrap {
       display: flex;

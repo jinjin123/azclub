@@ -1545,7 +1545,8 @@ a.button {
   .az-clinical_body {
     float: left;
     width: 50%;
-    padding: 15px !important;
+    //padding: 15px !important;
+    padding: 15px ;
     margin-bottom: 31px;
     //padding-left: 20px;
     //padding-top: 20px;
@@ -3931,7 +3932,7 @@ body.az-user-login-page.path-user #page-main-content  {
   .az-fk-container {
     width: 100% !important;
     background: url("/sites/default/files/imce_upload/admin/CTA.png") no-repeat;
-    background-size: 100%;
+    background-size: 100% 100%;
     .az-ask-rg {
       margin: 30px 400px;
       .az-ask-bt {

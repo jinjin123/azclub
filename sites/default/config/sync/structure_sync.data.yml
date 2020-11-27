@@ -494,7 +494,7 @@ blocks:
     fields:
       body:
         -
-          value: "<div class=\"container az-fk-container \">\r\n<div class=\"az-ask-doc col-lg-12\">\r\n<div class=\"az-ask-rg  \">\r\n<div class=\"az-ask-bt col-lg-8\">\r\n<h1>咨詢醫生</h1>\r\n\r\n<h5>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text</h5>\r\n</div>\r\n\r\n<div class=\"az-ask-rbtn col-lg-4\"><button>私家醫生</button><button>政府醫生</button></div>\r\n</div>\r\n</div>\r\n</div>\r\n"
+          value: "<div class=\"container az-fk-container \">\r\n<div class=\"az-ask-doc col-lg-12\">\r\n<div class=\"az-ask-rg col-md-8 col-xs-12 \">\r\n<div class=\"az-ask-bt col-lg-8 col-md-8 col-xs-8 col-sm-2\">\r\n<h1>咨詢醫生</h1>\r\n\r\n<h5>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text</h5>\r\n</div>\r\n\r\n<div class=\"az-ask-rbtn col-lg-4 col-md-4 col-xs-4 col-sm-4\"><button>私家醫生</button><button>政府醫生</button></div>\r\n</div>\r\n</div>\r\n</div>\r\n"
           summary: ''
           format: full_html
   -

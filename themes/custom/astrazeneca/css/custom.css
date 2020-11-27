@@ -1031,7 +1031,7 @@ a.button {
   .az-clinical_box .az-clinical_body {
     float: left;
     width: 50%;
-    padding: 15px !important;
+    padding: 15px;
     margin-bottom: 31px;
     font-size: 5px;
     box-shadow: 1px 1px 5px #ccc;
@@ -2561,7 +2561,7 @@ body.az-user-login-page.path-user #page-main-content .main-content-inner {
 #block-zixunyisheng .az-fk-container {
   width: 100% !important;
   background: url("/sites/default/files/imce_upload/admin/CTA.png") no-repeat;
-  background-size: 100%; }
+  background-size: 100% 100%; }
   #block-zixunyisheng .az-fk-container .az-ask-rg {
     margin: 30px 400px; }
     #block-zixunyisheng .az-fk-container .az-ask-rg .az-ask-bt {
@@ -2777,9 +2777,72 @@ body.page-node-7 .node__content p {
     .az-cardtwo_box .az-cardtwo_img {
       height: 306px; }
       .az-cardtwo_box .az-cardtwo_img img {
-        height: 100%; } }
+        height: 100%; }
+  .az_clinical_box .container > p {
+    width: 100%; } }
+
+@media only screen and (min-width: 668px) and (max-width: 790px) {
+  #block-zixunyisheng .az-fk-container .az-ask-rg {
+    margin: 30px 50px; }
+    #block-zixunyisheng .az-fk-container .az-ask-rg .az-ask-rbtn > button {
+      margin-bottom: 10px; }
+  .az-clinical_body {
+    padding: 50px !important; } }
+
+@media only screen and (min-width: 469px) and (max-width: 650px) {
+  .az-clinical_body {
+    padding: 50px !important; }
+  #block-zixunyisheng .az-fk-container .az-ask-rg {
+    margin: 30px 50px; }
+    #block-zixunyisheng .az-fk-container .az-ask-rg .az-ask-rbtn > button {
+      margin-bottom: 10px; }
+  .az-search-clinical-sex {
+    width: 40% !important;
+    margin-bottom: 5px; }
+  .az-search-button {
+    width: 93% !important;
+    margin: 0 !important; } }
+
+@media only screen and (min-width: 375px) and (max-width: 468px) {
+  #block-zixunyisheng .az-fk-container .az-ask-rg {
+    margin: 30px 50px; }
+    #block-zixunyisheng .az-fk-container .az-ask-rg .az-ask-rbtn > button {
+      margin-bottom: 10px; } }
+
+@media only screen and (min-width: 376px) and (max-width: 736px) {
+  .az-clinical-result .az-product_head {
+    position: relative; }
+    .az-clinical-result .az-product_head .az-pipline-redbox {
+      display: flex;
+      flex-wrap: wrap; }
+      .az-clinical-result .az-product_head .az-pipline-redbox div {
+        margin-right: 1px; }
+        .az-clinical-result .az-product_head .az-pipline-redbox div img {
+          width: 100px; }
+  .az-clinical_box .az-clinical_body .az-clinical_body_desc {
+    word-break: break-all;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical; } }
 
 @media (max-width: 375px) {
+  .az_clinical_box .container > p {
+    width: 100%; }
+  .az-clinical_box .az-clinical_body .az-clinical_body_desc {
+    word-break: break-all;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical; }
+  #block-zixunyisheng .az-fk-container .az-ask-rg {
+    margin: 0; }
+    #block-zixunyisheng .az-fk-container .az-ask-rg .az-ask-rbtn {
+      display: flex; }
+      #block-zixunyisheng .az-fk-container .az-ask-rg .az-ask-rbtn > button {
+        margin-bottom: 10px; }
   .block-views-blockmedical-article-block-1 .view-content-wrap {
     display: flex;
     flex-wrap: wrap; }
