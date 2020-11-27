@@ -1432,6 +1432,7 @@ a.button {
 }
 .az-header-topimg img {
   width: 100%;
+  margin-top: -1px;
 }
 .az-header-topimg .az-header-imgbody {
   position: absolute;
@@ -1985,11 +1986,13 @@ footer#footer::after {
   border: 1px solid rgba(0, 0, 0, 0.125);
 }
 
-.content-main #block-astrazeneca-content {
-  text-align: center;
-}
 .content-main #block-astrazeneca-content p {
   color: #898989;
+}
+
+.node--type-page #block-astrazeneca-content,
+.node--type-page-full #block-astrazeneca-content {
+  text-align: center;
 }
 
 .ta-articles-list-header {
@@ -3196,6 +3199,7 @@ body.page-node-7 .node__content p {
 #block-healthinformationdetailsbanner img,
 #block-medicalarticledetailsbanner img {
   width: 100%;
+  margin-top: -1px;
 }
 
 .more-articles .more-articles-title {

@@ -1767,6 +1767,7 @@ a.button {
 
   img {
     width: 100%;
+    margin-top: -1px;
   }
 
   .az-header-imgbody {
@@ -2505,12 +2506,19 @@ footer#footer::after {
 
 .content-main {
   #block-astrazeneca-content {
-    text-align: center;
     p {
       color:#898989;
     }
   }
 }
+
+.node--type-page,
+.node--type-page-full {
+  #block-astrazeneca-content {
+    text-align: center;
+  }
+}
+
 //.view-content-wrap {
 //  display: table;
 //}
@@ -4018,6 +4026,7 @@ body.page-node-7 {
 #block-medicalarticledetailsbanner {
   img {
     width: 100%;
+    margin-top: -1px;
   }
 }
 
