@@ -2828,6 +2828,15 @@ body.page-node-7 .node__content p {
     -webkit-box-orient: vertical; } }
 
 @media (max-width: 375px) {
+  .health-tips-orange {
+    height: 100%; }
+    .health-tips-orange .view-content-wrap {
+      display: flex; }
+      .health-tips-orange .view-content-wrap .az-offertips_box {
+        margin: 10px 10px; }
+      .health-tips-orange .view-content-wrap .az-offer_body {
+        width: 100%;
+        padding: 10px 10px !important; }
   .path-product-home .az-product_box {
     margin-bottom: 30px !important;
     border-radius: 15px; }
@@ -2928,6 +2937,8 @@ body.page-node-7 .node__content p {
     margin: 0 10px;
     position: relative;
     top: -50px; }
+  .path-az-health-club .az-health-cb-mobile {
+    padding: 3px  !important; }
   .az-product-search_box > div:nth-child(1) {
     padding: 0 !important; }
   .az-product_head {
@@ -3316,7 +3327,7 @@ body.page-node-7 .node__content p {
     text-align: center;
     margin: 10px 55px; }
   .az-health-cb-mobile .az-offer_box {
-    height: 300px !important; }
+    height: 400px !important; }
     .az-health-cb-mobile .az-offer_box .az-offer_body .az-offer_body_title {
       font-size: 15px; }
     .az-health-cb-mobile .az-offer_box .az-offer_body .az-offer_sub_title {
@@ -3324,7 +3335,7 @@ body.page-node-7 .node__content p {
   .az-product_headtwo {
     height: 420px !important; }
   .az-doc-talk .az-offer_box {
-    height: 300px !important; }
+    height: 400px !important; }
     .az-doc-talk .az-offer_box .az-offer_body .az-offer_body_title {
       font-size: 15px; }
   .az-healthtips_heads {

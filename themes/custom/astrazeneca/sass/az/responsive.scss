@@ -388,6 +388,19 @@
 
 
 @media (max-width : 375px) {
+  .health-tips-orange {
+    height: 100%;
+    .view-content-wrap {
+      display: flex;
+      .az-offertips_box {
+        margin: 10px 10px;
+      }
+      .az-offer_body {
+        width: 100%;
+        padding: 10px 10px !important;
+      }
+    }
+  }
   .path-product-home {
     .az-product_box {
       margin-bottom: 30px !important;
@@ -593,6 +606,12 @@
       margin: 0 10px;
       position: relative;
       top: -50px;
+      //.health-cb-mobile {
+      //  padding: 0  !important;
+      //}
+    }
+    .az-health-cb-mobile {
+        padding: 3px  !important;
     }
   }
   .az-product-search_box > div {
@@ -1255,7 +1274,7 @@
   }
   .az-health-cb-mobile {
     .az-offer_box {
-      height: 300px !important;
+      height: 400px !important;
       .az-offer_body{
         .az-offer_body_title {
           font-size: 15px;
@@ -1271,7 +1290,7 @@
   }
   .az-doc-talk {
     .az-offer_box {
-      height: 300px !important;
+      height: 400px !important;
       .az-offer_body {
         .az-offer_body_title {
           font-size: 15px;
