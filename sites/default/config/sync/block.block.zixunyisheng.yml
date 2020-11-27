@@ -35,5 +35,5 @@ visibility:
     block_visibility_group: ''
   request_path:
     id: request_path
-    pages: "/health-information/*\r\n/medical-article/*"
+    pages: /cardiovascualr/coronary-heart
     negate: false

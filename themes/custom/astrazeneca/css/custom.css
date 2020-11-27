@@ -1892,12 +1892,548 @@ body.az-user-login-page.path-user #page-main-content .main-content-inner {
   .az-member-clinal .az-clinical_box .az-clinical_body .az-clinical_body_title {
     font-weight: bold; }
 
+.az-member-clinal .az-welcome .az-wel-bd {
+  position: relative;
+  top: -100px;
+  max-width: 90% !important;
+  box-shadow: 0px 0px 10px 0px #979797;
+  background: white; }
+  .az-member-clinal .az-welcome .az-wel-bd .welcome {
+    margin: 0 !important;
+    padding: 10px !important;
+    height: 300px; }
+    .az-member-clinal .az-welcome .az-wel-bd .welcome .welcome-1 {
+      font-size: 19px;
+      font-family: "PingFang TC - Semibold";
+      text-align: center; }
+    .az-member-clinal .az-welcome .az-wel-bd .welcome .welcome-2 {
+      color: #d7d7d7;
+      text-align: center; }
+    .az-member-clinal .az-welcome .az-wel-bd .welcome .az-wel-btn {
+      display: flex;
+      flex-wrap: wrap;
+      padding: 50px; }
+    .az-member-clinal .az-welcome .az-wel-bd .welcome .az-wel-btn > a::after {
+      content: ""; }
+    .az-member-clinal .az-welcome .az-wel-bd .welcome .az-wel-btn > a:nth-child(1) {
+      background: #eb1384;
+      text-align: center;
+      border-radius: 8px;
+      margin-bottom: 10px;
+      width: 100%; }
+    .az-member-clinal .az-welcome .az-wel-bd .welcome .az-wel-btn > a:nth-child(2) {
+      background: #d7d7d7;
+      text-align: center;
+      border-radius: 8px;
+      width: 100%; }
+
+.az-member-clinal .az-reg-three-cc .container {
+  max-width: 90% !important;
+  top: -50px !important;
+  background: white; }
+  .az-member-clinal .az-reg-three-cc .container > div {
+    padding: 10px  !important; }
+  .az-member-clinal .az-reg-three-cc .container .page-title .login-title {
+    font-size: 20px;
+    padding-left: 10px; }
+  .az-member-clinal .az-reg-three-cc .container .page-title .login-sub-title {
+    padding-left: 10px; }
+  .az-member-clinal .az-reg-three-cc .container #edit-medicine-using--wrapper legend {
+    border-bottom: 0  !important;
+    margin-bottom: 0 !important; }
+    .az-member-clinal .az-reg-three-cc .container #edit-medicine-using--wrapper legend span {
+      font-size: 10px; }
+  .az-member-clinal .az-reg-three-cc .container #edit-medicine-using .js-form-type-radio {
+    width: 45% !important;
+    margin-right: 10px !important; }
+    .az-member-clinal .az-reg-three-cc .container #edit-medicine-using .js-form-type-radio input {
+      top: 110px !important;
+      left: 100px !important; }
+  .az-member-clinal .az-reg-three-cc .container #edit-where1--wrapper legend {
+    margin-bottom: 0 !important;
+    font-size: 10px !important; }
+  .az-member-clinal .az-reg-three-cc .container #edit-where1--wrapper #edit-where1 label {
+    font-size: 10px;
+    font-weight: 100; }
+  .az-member-clinal .az-reg-three-cc .container #edit-where2--wrapper legend {
+    margin-bottom: 0 !important;
+    font-size: 10px !important; }
+  .az-member-clinal .az-reg-three-cc .container #edit-where2--wrapper #edit-where2 label {
+    font-size: 10px;
+    font-weight: 100; }
+  .az-member-clinal .az-reg-three-cc .container #edit-actions a {
+    width: 100% !important;
+    margin-bottom: 10px; }
+  .az-member-clinal .az-reg-three-cc .container #edit-actions #edit-submit {
+    float: none !important;
+    width: 100% !important; }
+
+.az-member-clinal .az-reg-two-cc .container {
+  max-width: 90% !important;
+  top: -50px !important;
+  background: white; }
+  .az-member-clinal .az-reg-two-cc .container .page-title .login-title {
+    font-size: 20px;
+    padding-left: 10px; }
+  .az-member-clinal .az-reg-two-cc .container .page-title .login-sub-title {
+    padding-left: 10px; }
+  .az-member-clinal .az-reg-two-cc .container #multistep-form-two {
+    left: -10px;
+    position: relative; }
+    .az-member-clinal .az-reg-two-cc .container #multistep-form-two #edit-attention2 {
+      margin-left: 0 !important;
+      font-size: 10px; }
+      .az-member-clinal .az-reg-two-cc .container #multistep-form-two #edit-attention2 .js-form-item-attention2-1 input {
+        margin-right: 0 !important; }
+    .az-member-clinal .az-reg-two-cc .container #multistep-form-two #edit-communication-mode--wrapper {
+      font-size: 10px !important; }
+      .az-member-clinal .az-reg-two-cc .container #multistep-form-two #edit-communication-mode--wrapper legend {
+        font-size: 10px !important;
+        font-weight: unset;
+        border: 0 !important;
+        width: 90% !important; }
+      .az-member-clinal .az-reg-two-cc .container #multistep-form-two #edit-communication-mode--wrapper .fieldset-wrapper #edit-communication-mode .js-form-item input {
+        margin-right: 10px; }
+      .az-member-clinal .az-reg-two-cc .container #multistep-form-two #edit-communication-mode--wrapper .fieldset-wrapper #edit-communication-mode .js-form-item label {
+        font-weight: unset !important; }
+    .az-member-clinal .az-reg-two-cc .container #multistep-form-two #edit-actions a {
+      height: 42px;
+      margin-bottom: 10px; }
+    .az-member-clinal .az-reg-two-cc .container #multistep-form-two #edit-actions input {
+      float: none; }
+  .az-member-clinal .az-reg-two-cc .container #block-astrazeneca-content div input {
+    width: 100%;
+    margin-bottom: 10px; }
+  .az-member-clinal .az-reg-two-cc .container #block-astrazeneca-content .az-form-element-container div select {
+    width: 100% !important; }
+
+.az-member-clinal .path-user .main-content-inner .page-title {
+  font-size: 25px; }
+
+.az-member-clinal .path-user .main-content-inner .form-actions input {
+  width: 100%;
+  margin-right: 20px;
+  background: #EB1384 !important;
+  margin-bottom: 10px; }
+
+.az-member-clinal .path-user .main-content-inner .form-actions a {
+  border-radius: 5px;
+  background: #898989 !important;
+  padding-left: 90px;
+  width: 100%;
+  margin-left: 0;
+  text-align: left !important; }
+
+.az-member-clinal .az-user-register .main-content-inner {
+  height: 1130px; }
+
+.az-member-clinal .az-user-register #edit-actions {
+  float: none;
+  width: 100% !important;
+  top: 0 !important; }
+
+.az-member-clinal .az-contact-right-box .top-box-img {
+  margin-right: 10px; }
+
+.az-member-clinal #az_clinic_select_type {
+  width: 95%;
+  margin-bottom: 10px; }
+
+.az-member-clinal #az_clinic_select_sex {
+  width: 50%; }
+
+.az-member-clinal .az-clinical__search_body .az-search-button {
+  width: 40% !important; }
+
+.az-member-clinal .az-clinical-search-block {
+  height: 220px !important;
+  box-shadow: 0px 0px 0px #d0c9c9 !important;
+  width: 80%; }
+
+.az-member-clinal .az-clinical-search_box .az-clincal-searright {
+  display: flex;
+  position: relative;
+  top: -40px; }
+  .az-member-clinal .az-clinical-search_box .az-clincal-searright .az-clincal-search_button input {
+    width: 100% !important; }
+  .az-member-clinal .az-clinical-search_box .az-clincal-searright .az-clincal-search_icon {
+    width: 50px !important; }
+
+.az-member-clinal .az-clinical_box {
+  padding-bottom: 20px; }
+  .az-member-clinal .az-clinical_box .az-clinical_img {
+    height: 185px; }
+    .az-member-clinal .az-clinical_box .az-clinical_img img {
+      height: 100%; }
+
+.az-member-clinal .az-clinical-trial-aritcle {
+  margin-top: 40px; }
+
+.az-member-clinal .az_clinical_bottom_box {
+  height: 300px !important;
+  margin-bottom: 50px; }
+  .az-member-clinal .az_clinical_bottom_box .az__bottom_right_box {
+    float: none;
+    position: relative;
+    top: 60px;
+    width: 100% !important;
+    margin: 0 !important; }
+    .az-member-clinal .az_clinical_bottom_box .az__bottom_right_box .az__bottom_right_box_title {
+      text-align: center; }
+  .az-member-clinal .az_clinical_bottom_box .az__bottom_left_box {
+    width: 100%;
+    float: none; }
+
+.az-member-clinal .az-ref-box {
+  width: 100%;
+  word-break: break-all; }
+
+.az-member-clinal .webform-submission-newsletter-subscription-form {
+  display: block !important; }
+  .az-member-clinal .webform-submission-newsletter-subscription-form div {
+    width: 100% !important;
+    margin-bottom: 10px; }
+
+.az-member-clinal .az-product_head .az-pipline-redbox {
+  display: block; }
+
+.az-member-clinal .az-clinical-product-search {
+  margin-top: 800px; }
+
+.az-member-clinal .az-clinical-right-box {
+  margin: 0 15px;
+  padding: 0; }
+  .az-member-clinal .az-clinical-right-box div .field--name-field-az-clinical-page-image img {
+    width: 100%; }
+  .az-member-clinal .az-clinical-right-box div label {
+    padding-right: 10px; }
+  .az-member-clinal .az-clinical-right-box .az-clinical-rbx_logo {
+    left: 30px !important; }
+
+.az-member-clinal .az-clinical-subjest-email .az-clinical-subjest-body {
+  width: 350px !important; }
+  .az-member-clinal .az-clinical-subjest-email .az-clinical-subjest-body div span {
+    margin: 0 !important; }
+  .az-member-clinal .az-clinical-subjest-email .az-clinical-subjest-body .az-clinical-ckb-box {
+    margin-left: 15%; }
+  .az-member-clinal .az-clinical-subjest-email .az-clinical-subjest-body .az-clinical-ckb-box {
+    margin-left: 15% !important; }
+  .az-member-clinal .az-clinical-subjest-email .az-clinical-subjest-body .az-clinical-subjest_btn {
+    display: flex; }
+
+.az-member-clinal .az-clinical-right-kv .row .shares {
+  float: right;
+  text-align: right;
+  top: -90px; }
+
+.az-member-clinal .node--type-az-clinical-experience-process .node__content .field--name-body {
+  width: 100%;
+  left: 0 !important;
+  word-break: break-all;
+  top: 0 !important;
+  padding: 20px;
+  margin: 0 10px !important;
+  margin-bottom: 30px !important; }
+
+.az-member-clinal .node--type-az-clinical-experience-process .node__content .field--name-field-az-clinical-mid-params {
+  width: 100%;
+  display: block;
+  position: relative;
+  margin: 10px 20px !important;
+  top: -150px; }
+
+.az-member-clinal .field--name-field-az-clinical-category-item {
+  width: 100% !important; }
+  .az-member-clinal .field--name-field-az-clinical-category-item .field__item {
+    margin-bottom: 30px; }
+    .az-member-clinal .field--name-field-az-clinical-category-item .field__item .az-clinical-middle-kv .az-middle-box .az-clinical-mid__boom .az-middle-trialimg {
+      width: 100%; }
+      .az-member-clinal .field--name-field-az-clinical-category-item .field__item .az-clinical-middle-kv .az-middle-box .az-clinical-mid__boom .az-middle-trialimg .field--name-field__clinical-trial-img {
+        height: 100%; }
+        .az-member-clinal .field--name-field-az-clinical-category-item .field__item .az-clinical-middle-kv .az-middle-box .az-clinical-mid__boom .az-middle-trialimg .field--name-field__clinical-trial-img img {
+          height: 100%; }
+    .az-member-clinal .field--name-field-az-clinical-category-item .field__item .az-clinical-middle-kv .az-middle-box .az-clinical-mid__boom .az-middle-rgx {
+      margin-left: 20px; }
+      .az-member-clinal .field--name-field-az-clinical-category-item .field__item .az-clinical-middle-kv .az-middle-box .az-clinical-mid__boom .az-middle-rgx .field--name-field-clinical-name {
+        color: #fcaf17;
+        font-weight: bold;
+        font-size: 15px; }
+
+.az-member-clinal .az-gb-refer {
+  margin: 0 20px !important;
+  word-break: break-all;
+  width: 90% !important;
+  text-align: left !important; }
+
+.az-member-clinal .path-az-health-club .az-product_head {
+  position: relative;
+  display: block;
+  width: 100% !important; }
+  .az-member-clinal .path-az-health-club .az-product_head .az-product_head__title1 {
+    font-size: 10px;
+    text-align: center; }
+  .az-member-clinal .path-az-health-club .az-product_head .az-product_head__title2 {
+    font-size: 30px;
+    font-weight: bold; }
+
+.az-member-clinal .block-quicktabs .quicktabs-ui-wrapper .ui-tabs-nav {
+  display: flex;
+  flex-wrap: wrap; }
+  .az-member-clinal .block-quicktabs .quicktabs-ui-wrapper .ui-tabs-nav .ui-tabs-tab {
+    margin-right: 30px;
+    width: 15%; }
+    .az-member-clinal .block-quicktabs .quicktabs-ui-wrapper .ui-tabs-nav .ui-tabs-tab .ui-tabs-anchor {
+      display: grid;
+      font-size: 5px !important; }
+      .az-member-clinal .block-quicktabs .quicktabs-ui-wrapper .ui-tabs-nav .ui-tabs-tab .ui-tabs-anchor img {
+        width: 35px;
+        height: 35px; }
+
+.az-member-clinal .az-product-searright {
+  display: flex; }
+  .az-member-clinal .az-product-searright .az-product-search_button input {
+    width: 100%; }
+  .az-member-clinal .az-product-searright .az-product-search_icon {
+    width: 50px !important; }
+
+.az-member-clinal .az-product_box {
+  margin: 0 !important; }
+  .az-member-clinal .az-product_box .az-product_img {
+    height: 100%; }
+    .az-member-clinal .az-product_box .az-product_img img {
+      height: 100%; }
+  .az-member-clinal .az-product_box .az-product_body {
+    position: relative;
+    top: 20px; }
+
+.az-member-clinal .az-qk-tab {
+  margin-bottom: 15px; }
+
+.az-member-clinal .az-product_selectbox .az-product_selectbox_content {
+  width: 350px;
+  height: 350px; }
+  .az-member-clinal .az-product_selectbox .az-product_selectbox_content .az-product_selectbox_btn {
+    display: flex; }
+
+.az-member-clinal .az-product_duplicate .az-product_duplicate_content {
+  background-color: #d7d7d7;
+  width: 90% !important;
+  height: 630px !important; }
+  .az-member-clinal .az-product_duplicate .az-product_duplicate_content .az-product_duplicate_img {
+    width: 100%; }
+    .az-member-clinal .az-product_duplicate .az-product_duplicate_content .az-product_duplicate_img img {
+      width: 100%; }
+  .az-member-clinal .az-product_duplicate .az-product_duplicate_content .az-product-icon {
+    margin: 0 !important;
+    margin-left: 30px !important;
+    top: -25px;
+    position: relative; }
+  .az-member-clinal .az-product_duplicate .az-product_duplicate_content .az-product_duplicate_body {
+    padding: 20px !important;
+    width: 80%; }
+
+.az-member-clinal .az-offer-mobile {
+  padding: 20px !important;
+  margin-bottom: 20px; }
+  .az-member-clinal .az-offer-mobile .views-field-body .field-content .az-offer_box {
+    margin: 0 !important; }
+    .az-member-clinal .az-offer-mobile .views-field-body .field-content .az-offer_box .az-offer_img img {
+      width: 100%; }
+
+.az-member-clinal .az-offers_product_box {
+  margin: 0 30px;
+  left: 0 !important;
+  top: -280px !important; }
+
+.az-member-clinal .az-offer-detail {
+  position: relative;
+  top: -830px; }
+  .az-member-clinal .az-offer-detail .shares {
+    text-align: right; }
+
+.az-member-clinal .az-offerdetail-article-header {
+  text-align: left;
+  left: 0 !important;
+  top: -520px !important; }
+
+.az-member-clinal .az-offernode__content_body {
+  left: 0 !important;
+  top: -60px !important;
+  margin: 0 30px; }
+
+.az-member-clinal .az-offers_shop {
+  width: 100%;
+  top: -60px;
+  margin: 0 !important; }
+
+.az-member-clinal .az-medicine-shop-header {
+  left: 0 !important; }
+
+.az-member-clinal .field--name-field-medicine-shop-params {
+  left: -60px !important;
+  position: relative; }
+
+.az-member-clinal .az-offer-article .az-offerdetail {
+  margin: 10px 60px !important; }
+
+.az-member-clinal .az-health-cb-mobile .az-offer_box {
+  height: 300px !important; }
+  .az-member-clinal .az-health-cb-mobile .az-offer_box .az-offer_body .az-offer_body_title {
+    font-size: 15px; }
+  .az-member-clinal .az-health-cb-mobile .az-offer_box .az-offer_body .az-offer_sub_title {
+    font-size: 10px; }
+
+.az-member-clinal .az-product_headtwo {
+  height: 420px !important; }
+
+.az-member-clinal .az-doc-talk .az-offer_box {
+  height: 300px !important; }
+  .az-member-clinal .az-doc-talk .az-offer_box .az-offer_body .az-offer_body_title {
+    font-size: 15px; }
+
+.az-member-clinal .az-healthtips_heads {
+  margin-bottom: 80px !important; }
+
+.az-member-clinal .az-offertips_box {
+  height: 160px !important; }
+  .az-member-clinal .az-offertips_box .az-offer_img {
+    width: 30% !important; }
+  .az-member-clinal .az-offertips_box .az-offer_body .az-offer_body_title {
+    font-size: 10px !important;
+    font-weight: unset !important; }
+  .az-member-clinal .az-offertips_box .az-offer_body .az-offer_sub_title {
+    font-size: 5px !important; }
+
+.az-member-clinal .az-contact-main_box {
+  display: block !important; }
+  .az-member-clinal .az-contact-main_box .az_contact_rg_box .az_head {
+    text-align: left !important; }
+  .az-member-clinal .az-contact-main_box .az_contact_rg_box .az_body {
+    text-align: left !important; }
+
+.az-member-clinal .az-contact-form_body .az_title {
+  text-align: left !important; }
+
+.az-member-clinal .az_contact_form .js-form-item-name {
+  float: none !important; }
+  .az-member-clinal .az_contact_form .js-form-item-name input {
+    width: 100% !important; }
+
+.az-member-clinal .az_contact_form .js-form-item-email input {
+  margin-bottom: 10px !important; }
+
+.az-member-clinal .az_contact_form .js-form-item-code {
+  display: block !important; }
+  .az-member-clinal .az_contact_form .js-form-item-code input {
+    width: 100% !important;
+    margin-bottom: 10px; }
+
+.az-member-clinal .az_contact_form .az-validcode .az-valicodeshow {
+  position: relative;
+  left: -10px; }
+  .az-member-clinal .az_contact_form .az-validcode .az-valicodeshow input {
+    width: 100px !important; }
+
+.az-member-clinal .az_contact_form .az-validcode .az-valicode_freash {
+  width: 43% !important; }
+
+.az-member-clinal .az-register-one {
+  margin: 0 15px; }
+
+.az-member-clinal .az-user-login-page .main {
+  position: relative;
+  top: -100px;
+  z-index: 999;
+  background: white; }
+
+.az-member-clinal .az-register-one .az-register-onebox img {
+  padding: 1px !important;
+  border-radius: 10px 10px 0px 0px;
+  box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.15) !important; }
+
+.az-member-clinal #multistep-form-one {
+  margin: 0 !important; }
+  .az-member-clinal #multistep-form-one .tips {
+    display: none; }
+  .az-member-clinal #multistep-form-one #az-phone-email div input {
+    width: 100% !important; }
+  .az-member-clinal #multistep-form-one #az-pass-confirm-pass div input {
+    width: 100% !important; }
+
+.az-member-clinal .az-reg-s1 input {
+  width: 100% !important; }
+
+.az-member-clinal .az-reg-s1-send .js-form-item-verify-code {
+  left: -30px !important; }
+  .az-member-clinal .az-reg-s1-send .js-form-item-verify-code input {
+    width: 142px !important; }
+
+.az-member-clinal #edit-privacy-statement .statement {
+  height: 200px;
+  overflow: auto; }
+
+.az-member-clinal #edit-attention1 .js-form-item-attention1-2 {
+  display: flex; }
+
+.az-offer-detail {
+  position: relative;
+  top: -730px;
+  margin: 0px 500px;
+  left: -150px;
+  text-align: right; }
+
+.az-nurse-contentimg {
+  display: flex;
+  margin: 0 500px; }
+  .az-nurse-contentimg div {
+    margin-bottom: 100px; }
+    .az-nurse-contentimg div img {
+      margin-right: 150px;
+      width: 100%; }
+    .az-nurse-contentimg div h4 {
+      text-align: center; }
+
+.az-nurse-box {
+  display: flex;
+  height: 200px;
+  width: 100%;
+  background: url("/sites/default/files/imce_upload/admin/Healthcare%20Guidance-Hotline.png") no-repeat;
+  background-size: 100%; }
+  .az-nurse-box .container {
+    display: flex;
+    margin: 50px auto;
+    padding: 0 200px; }
+  .az-nurse-box .az-nurse-left-icon {
+    margin-right: 20px;
+    height: 100%; }
+    .az-nurse-box .az-nurse-left-icon img {
+      height: 80%; }
+  .az-nurse-box .az-nurse-right-box .az-nurse-right-title {
+    font-size: 23px;
+    color: #eb1384; }
+  .az-nurse-box .az-nurse-right-box .az-nurse-right-body {
+    width: 500px; }
+
+.az-member-clinal .v-line {
+  border: 1px solid;
+  margin-bottom: 30px;
+  margin-left: 20px; }
+
+.az-member-clinal .az-clinical_box {
+  box-shadow: 5px 0px 5px #d0c9c9;
+  border-radius: 5px;
+  height: 146px; }
+  .az-member-clinal .az-clinical_box .az-clinical_body .az-clinical_body_title {
+    font-weight: bold; }
+
 .field--name-field-relate-clinal {
   display: none; }
 
 .breadcrumb-content-inner {
-  text-align: left;
-  margin-left: 280px; }
+  text-align: center;
+  margin-left: 0;
+  position: absolute;
+  top: 365px; }
   .breadcrumb-content-inner .gva-breadcrumb-content .gva-block-breadcrumb .breadcrumb-style {
     min-height: 0; }
 
@@ -2009,7 +2545,7 @@ body.az-user-login-page.path-user #page-main-content .main-content-inner {
   #block-zixunyisheng .block-content {
     height: 200px;
     margin: 0;
-    background: url("/sites/default/files/imce_upload/admin/CTA.png") no-repeat;
+    background: url("/sites/default/files/imce_upload/admin/design-files/Banner/CTA.png") no-repeat;
     background-size: cover; }
     #block-zixunyisheng .block-content:before {
       content: '';
@@ -2094,6 +2630,17 @@ body.page-node-7 .node__content p {
 .node--type-page .node__content p {
   width: 60%;
   margin: 0 auto; }
+
+#block-medicalarticlebanner img,
+#block-healthinformationbanner img,
+#block-healthinformationdetailsbanner img,
+#block-medicalarticledetailsbanner img {
+  width: 100%; }
+
+.more-articles .more-articles-title {
+  text-align: left;
+  font-weight: 600;
+  font-size: 27px; }
 
 @import url("../../fonts/PingFang/PingFang.css");
 @media (min-width: 770px) and (max-width: 990px) {
