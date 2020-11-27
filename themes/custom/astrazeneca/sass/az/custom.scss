@@ -946,13 +946,13 @@ a.button {
   width: 100%;
   margin-bottom: 30px;
   .az-product_head__title2 {
-    font-size:36px;
+    font-size: 32px;
     font-weight: #fss;
   }
 
   .az-product_head__title1 {
     color: $color-gray;
-    font-size: 24px;
+    font-size: 14px;
     font-weight: $frs;
   }
 
@@ -4097,11 +4097,11 @@ body.page-node-7 {
      margin: 0 auto;
    }
    p:nth-child(1) {
-     font-size: 24px;
+     font-size: 14px;
      font-weight: $frs;
    }
    h2 {
-     font-size: 36px;
+     font-size: 32px;
      font-weight: $fss;
    }
  }
@@ -4115,11 +4115,11 @@ body.page-node-7 {
       margin: 0 auto;
     }
     p:nth-child(1) {
-      font-size: 24px;
+      font-size: 14px;
       font-weight: $frs;
     }
     h2 {
-      font-size: 36px;
+      font-size: 32px;
       font-weight: $fss;
     }
   }
@@ -4153,7 +4153,3 @@ body.page-node-7 {
   }
 }
 
-.notosansfont {
-  font-weight: 300;
-  font-size: 100px;
-}

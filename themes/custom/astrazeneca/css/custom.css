@@ -785,12 +785,12 @@ a.button {
   margin-bottom: 30px;
 }
 .az-product_head .az-product_head__title2 {
-  font-size: 36px;
+  font-size: 32px;
   font-weight: #fss;
 }
 .az-product_head .az-product_head__title1 {
   color: #979797;
-  font-size: 24px;
+  font-size: 14px;
   font-weight: 400;
 }
 .az-product_head .az-product-nurse-bd {
@@ -3239,11 +3239,11 @@ body.page-node-7 .node__content p {
   margin: 0 auto;
 }
 body.page-node-7 .node__content p:nth-child(1) {
-  font-size: 24px;
+  font-size: 14px;
   font-weight: 400;
 }
 body.page-node-7 .node__content h2 {
-  font-size: 36px;
+  font-size: 32px;
   font-weight: 500;
 }
 
@@ -3252,11 +3252,11 @@ body.page-node-7 .node__content h2 {
   margin: 0 auto;
 }
 .node--type-page .node__content p:nth-child(1) {
-  font-size: 24px;
+  font-size: 14px;
   font-weight: 400;
 }
 .node--type-page .node__content h2 {
-  font-size: 36px;
+  font-size: 32px;
   font-weight: 500;
 }
 
@@ -3271,9 +3271,4 @@ body.page-node-7 .node__content h2 {
   text-align: left;
   font-weight: 600;
   font-size: 27px;
-}
-
-.notosansfont {
-  font-weight: 300;
-  font-size: 100px;
 }
