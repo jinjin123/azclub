@@ -700,6 +700,7 @@ a.button {
 
     .header-inner {
       padding: 0px;
+      height: 54px;
 
       .area-inner {
         padding: 0px;
@@ -757,7 +758,7 @@ a.button {
     }
 
     .az-header-search-box {
-      height: 55px;
+      height: 54px;
       padding: 0px;
 
       #search-block-form {
@@ -778,8 +779,8 @@ a.button {
     }
 
     .az-header-right {
-      line-height: 55px;
-      height: 55px;
+      line-height: 54px;
+      height: 54px;
     }
   }
 
@@ -1767,7 +1768,6 @@ a.button {
 
   img {
     width: 100%;
-    margin-top: -1px;
   }
 
   .az-header-imgbody {
@@ -4026,7 +4026,6 @@ body.page-node-7 {
 #block-medicalarticledetailsbanner {
   img {
     width: 100%;
-    margin-top: -1px;
   }
 }
 

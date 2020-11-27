@@ -595,6 +595,7 @@ a.button {
 }
 .az-header_bottom .az-header-bbox .header-inner {
   padding: 0px;
+  height: 54px;
 }
 .az-header_bottom .az-header-bbox .header-inner .area-inner {
   padding: 0px;
@@ -634,7 +635,7 @@ a.button {
   color: #eb1384;
 }
 .az-header_bottom .az-header-bbox .az-header-search-box {
-  height: 55px;
+  height: 54px;
   padding: 0px;
 }
 .az-header_bottom .az-header-bbox .az-header-search-box #search-block-form {
@@ -650,8 +651,8 @@ a.button {
   text-indent: 10px;
 }
 .az-header_bottom .az-header-bbox .az-header-right {
-  line-height: 55px;
-  height: 55px;
+  line-height: 54px;
+  height: 54px;
 }
 
 .az_clinical_box {
@@ -1432,7 +1433,6 @@ a.button {
 }
 .az-header-topimg img {
   width: 100%;
-  margin-top: -1px;
 }
 .az-header-topimg .az-header-imgbody {
   position: absolute;
@@ -3199,7 +3199,6 @@ body.page-node-7 .node__content p {
 #block-healthinformationdetailsbanner img,
 #block-medicalarticledetailsbanner img {
   width: 100%;
-  margin-top: -1px;
 }
 
 .more-articles .more-articles-title {
