@@ -1537,9 +1537,9 @@ a.button {
   font-size: 18px;
 }
 #footer .footer-center #block-webform .block-title span {
-  color: black !important;
-  font-size: 18px;
   font-weight: 400;
+  font-size: 18px;
+  color: #444444 !important;
 }
 #footer .footer-center #block-webform .block-content #edit-markup--2 {
   display: none;
@@ -1597,10 +1597,15 @@ footer#footer::after {
 .az-offers_product_box .az-offers_logoimg {
   position: relative;
   bottom: 30px;
-  left: 20px;
+  left: 30px;
 }
 .az-offers_product_box .az-offers_logodes {
-  padding: 30px;
+  padding-right: 30px;
+  padding-left: 30px;
+  padding-bottom: 30px;
+  font-weight: 400;
+  font-size: 16px;
+  color: #444444;
 }
 
 .az-offer-article .az-offerdetail {
@@ -1708,21 +1713,27 @@ footer#footer::after {
 }
 .az-clinical-right-box .field--name-field-az-clinical-page-image {
   background: #d7d7d7;
-  padding: 50px;
+  padding: 70px;
 }
 .az-clinical-right-box .az-clinical-rbx_title {
-  font-size: 20px;
-  font-weight: bold;
-  padding-left: 20px;
+  font-size: 22px;
+  font-weight: 500;
+  padding-left: 30px;
 }
 .az-clinical-right-box .az-clinical-rbx_desc {
   margin-bottom: 20px;
   margin-top: 20px;
-  padding-left: 20px;
+  padding-left: 30px;
+  font-weight: 400;
+  font-size: 18px;
 }
 .az-clinical-right-box .az-clinical-rbx__boom {
   display: flex;
-  padding-left: 20px;
+  padding-left: 30px;
+  padding-bottom: 10px;
+}
+.az-clinical-right-box .az-clinical-rbx__boom label {
+  padding-right: 10px;
 }
 .az-clinical-right-box .az-clinical-rbx__boom .field--name-field-az-body {
   padding-bottom: 10px;
@@ -1730,7 +1741,7 @@ footer#footer::after {
 .az-clinical-right-box .az-clinical-rbx_logo {
   position: relative;
   top: -35px;
-  left: 10px;
+  left: 30px;
 }
 .az-clinical-right-box .az-clinical-bottom-box {
   text-align: center;
@@ -1741,7 +1752,7 @@ footer#footer::after {
   font-weight: bold;
 }
 .az-clinical-right-box .az-clinical-bottom-box div {
-  margin-top: 20px;
+  margin-top: 40px;
 }
 .az-clinical-right-box .az-clinical-bottom-box div button {
   border: 0px;
@@ -2245,7 +2256,7 @@ body.az-user-login-page.path-user #page-main-content .main-content-inner {
 
 .az-clinical-right-kv .az-clinal-dt-share {
   position: relative;
-  top: -160px;
+  top: -360px;
   float: right;
   clear: both;
   display: block;
