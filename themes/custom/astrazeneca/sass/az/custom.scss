@@ -18,6 +18,7 @@ input,a,button,select,textarea,span,label,h4,h5,h6 {
 
 h1, h2, h3, h4, h5, h6 {
   font-family: $fr;
+  font-weight: $fss;
 }
 .ui-widget {
   font-family: $fr;
@@ -947,7 +948,7 @@ a.button {
   margin-bottom: 30px;
   .az-product_head__title2 {
     font-size: 32px;
-    font-weight: #fss;
+    font-weight: $fss;
   }
 
   .az-product_head__title1 {
@@ -2560,7 +2561,7 @@ footer#footer::after {
 
 .content-main {
   #block-astrazeneca-content {
-    text-align: center;
+    //text-align: center;
     margin-bottom: 20px;
     p {
       color:#898989;
@@ -2591,6 +2592,7 @@ footer#footer::after {
     padding-top: 100px;
     h3 {
       color: white;
+      font-weight: $fss;
     }
   }
 }
