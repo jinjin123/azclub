@@ -1,9 +1,7 @@
 @charset "UTF-8";
-@import url("../../fonts/PingFang/PingFang.css");
 body {
   overflow: auto;
-  font-family: "PingFang" !important;
-  font-weight: 600; }
+  font-family: "Noto Sans HK", sans-serif; }
 
 .path-healthcare-guidance #block-nurseoncallyaowuyiqizhidao-2 {
   margin: 0 !important; }
@@ -456,10 +454,14 @@ a.button {
     margin-right: 10px;
     background: transparent url(../images/iphone.png) no-repeat; }
   .az-header_top .top-box-info h1 {
-    font-size: 15px; }
+    font-size: 15px;
+    font-weight: 500; }
+  .az-header_top .top-box-info a {
+    font-weight: 500; }
   .az-header_top .top-box-info p {
     font-size: 12px;
-    color: #979797; }
+    color: #979797;
+    font-weight: 400; }
 
 .az-header_bottom {
   border-top: 1px solid rgba(0, 0, 0, 0.125);
@@ -482,6 +484,7 @@ a.button {
       .az-header_bottom .az-header-bbox .header-inner .az-header_bottom_menu .gva-navigation .gva_menu_main {
         float: left; }
         .az-header_bottom .az-header-bbox .header-inner .az-header_bottom_menu .gva-navigation .gva_menu_main li a {
+          font-weight: 500;
           padding-top: 0 !important;
           padding-bottom: 0 !important;
           line-height: 55px; }
@@ -495,6 +498,7 @@ a.button {
             height: 36px;
             line-height: 36px; }
             .az-header_bottom .az-header-bbox .header-inner .az-header_bottom_menu .gva-navigation .gva_menu_main li ul li a {
+              font-weight: 500;
               height: 36px;
               line-height: 36px; }
         .az-header_bottom .az-header-bbox .header-inner .az-header_bottom_menu .gva-navigation .gva_menu_main .active > a:nth-child(1) {
@@ -635,25 +639,30 @@ a.button {
   border: 1px solid rgba(0, 0, 0, 0.125);
   position: relative;
   width: 100%;
-  height: 320px; }
+  height: auto; }
   .az-offer_box .az-offer_img {
     border-bottom: 7px solid #fcaf17;
-    height: 200px;
+    height: 228px;
     display: block; }
     .az-offer_box .az-offer_img img {
-      height: 200px;
+      height: 100%;
       width: 100%; }
   .az-offer_box .az-offer_body {
     padding: 0px 20px 0px 20px;
     text-align: left; }
     .az-offer_box .az-offer_body .az-offer_body_title {
-      font-weight: 600;
+      color: #444444;
+      font-weight: 400;
+      font-size: 22px;
       word-break: break-all;
       text-overflow: ellipsis;
       overflow: hidden;
       display: -webkit-box;
       -webkit-line-clamp: 2;
       -webkit-box-orient: vertical; }
+    .az-offer_box .az-offer_body .az-offer_body_desc {
+      font-size: 16px;
+      color: #444444; }
     .az-offer_box .az-offer_body .az-offer_sub_title {
       color: #979797;
       word-break: break-all;
@@ -1483,11 +1492,12 @@ footer#footer::after {
         display: inline-block;
         float: unset; }
         .block-quicktabs .ui-widget.ui-widget-content .ui-tabs-nav li a {
-          color: black;
+          color: #444444;
           text-align: center;
-          font-weight: 600; }
+          font-weight: 500;
+          font-size: 16px; }
           .block-quicktabs .ui-widget.ui-widget-content .ui-tabs-nav li a img {
-            margin-bottom: 5px; }
+            margin-bottom: 18px; }
 
 .az-clinical-subjest-email {
   display: none; }
@@ -1769,11 +1779,14 @@ footer .az-product-position .views-infinite-scroll-content-wrapper {
 .az-ft-fk {
   display: flex; }
   .az-ft-fk .az-ft-img {
-    width: 20%; }
+    width: 15%; }
     .az-ft-fk .az-ft-img img {
       height: auto !important; }
   .az-ft-fk .az-ft-rg-bd p {
+    font-weight: 400;
     color: #767676; }
+    .az-ft-fk .az-ft-rg-bd p > strong {
+      font-weight: 500; }
 
 body.az-user-login-page.path-user #page-main-content .main-content-inner {
   max-width: 500px; }
@@ -1885,7 +1898,8 @@ body.az-user-login-page.path-user #page-main-content .main-content-inner {
     margin: 0 !important;
     position: relative;
     text-align: center;
-    top: 200px; }
+    top: 200px;
+    font-weight: 400; }
   .az-top-banner img {
     width: 100%; }
 
@@ -2033,7 +2047,8 @@ body.az-user-login-page.path-user #page-main-content .main-content-inner {
   .block-webform-popup-subscibe-modal .spb_center .block-title {
     margin-bottom: 10px; }
     .block-webform-popup-subscibe-modal .spb_center .block-title span {
-      font-size: 30px; }
+      font-size: 30px;
+      font-weight: 400; }
     .block-webform-popup-subscibe-modal .spb_center .block-title::after {
       content: '';
       display: block;
