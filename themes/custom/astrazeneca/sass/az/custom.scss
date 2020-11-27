@@ -1888,8 +1888,11 @@ a.button {
 
     #block-webform {
       .block-title span {
-        color: black !important;
-        font-size: 15px;
+        //color: black !important;
+        //font-size: 15px;
+        font-weight: $frs ;
+        font-size: 18px ;
+        color: $cl4 !important;
       }
 
       .block-content {
@@ -1965,11 +1968,16 @@ footer#footer::after {
   .az-offers_logoimg {
     position: relative;
     bottom: 30px;
-    left: 20px;
+    left: 30px;
   }
 
   .az-offers_logodes {
-    padding: 30px;
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-bottom: 30px;
+    font-weight: $frs;
+    font-size: 16px;
+    color: $cl4;
   }
 }
 
@@ -2107,24 +2115,29 @@ footer#footer::after {
   box-shadow: $bdx-sdw ;
   .field--name-field-az-clinical-page-image {
     background: $color-thingrey;
-    padding: 50px;
+    padding: 70px;
   }
   .az-clinical-rbx_title {
-    font-size: 20px;
-    font-weight: bold;
-    padding-left: 20px;
+    font-size: 22px;
+    font-weight: $fss;
+    padding-left: 30px;
   }
 
   .az-clinical-rbx_desc {
     margin-bottom: 20px;
     margin-top: 20px;
-    padding-left: 20px;
+    padding-left: 30px;
+    font-weight: $frs;
+    font-size: 18px;
   }
 
   .az-clinical-rbx__boom {
     display: flex;
-    padding-left: 20px;
-
+    padding-left: 30px;
+    padding-bottom: 10px;
+    label {
+      padding-right: 10px;
+    }
     .field--name-field-az-body {
       padding-bottom: 10px;
     }
@@ -2133,7 +2146,7 @@ footer#footer::after {
   .az-clinical-rbx_logo {
     position: relative;
     top: -35px;
-    left: 10px;
+    left: 30px;
   }
 
   .az-clinical-bottom-box {
@@ -2146,7 +2159,7 @@ footer#footer::after {
     }
 
     div {
-      margin-top: 20px;
+      margin-top: 40px;
 
       button {
         border: 0px;
@@ -2802,7 +2815,8 @@ body.az-user-login-page.path-user #page-main-content  {
 .az-clinical-right-kv {
   .az-clinal-dt-share {
     position: relative;
-    top: -160px;
+    //top: -160px;
+    top: -360px;
     float: right;
     clear: both;
     display: block;
@@ -3194,3 +3208,13 @@ body.page-node-7 {
     }
   }
 }
+//.footer-third  {
+//   h2 {
+//     span {
+//       font-weight: $frs ;
+//       font-size: 18px ;
+//       color: $cl4;
+//     }
+//   }
+//}
+//
