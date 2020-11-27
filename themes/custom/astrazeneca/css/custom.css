@@ -25,7 +25,7 @@ body {
   border-radius: 8px;
   margin: 100px 300px;
   padding: 50px;
-  box-shadow: 0px 5px 10px 0px #979797;
+  box-shadow: 1px 1px 5px #ccc;
   background: #fff; }
   .path-cancel-subscribe-success #block-astrazeneca-content .cancel-subscribe-success .ta-typ-list {
     margin: 0 !important;
@@ -56,7 +56,7 @@ body {
   border-radius: 8px;
   margin: 100px 300px;
   padding: 50px;
-  box-shadow: 0px 5px 10px 0px #979797; }
+  box-shadow: 1px 1px 5px #ccc; }
   .path-cancel-subscribe #cancel-subscribe-form legend {
     border: 0 !important; }
   .path-cancel-subscribe #cancel-subscribe-form .az-can-mail {
@@ -149,7 +149,7 @@ a.button {
   border: 1px solid gray !important; }
 
 .az-cardthree_box {
-  border: 1px solid #979797;
+  border: 1px solid rgba(0, 0, 0, 0.125);
   padding-bottom: 30px;
   float: left;
   margin-bottom: 20px;
@@ -198,7 +198,7 @@ a.button {
   position: relative;
   top: -130px;
   max-width: 35% !important;
-  box-shadow: 0px 0px 10px 0px #979797;
+  box-shadow: 1px 1px 5px #ccc;
   background: white; }
   .az-welcome .az-wel-bd .welcome {
     margin: 0 100px;
@@ -233,7 +233,7 @@ a.button {
   position: relative;
   top: -100px;
   max-width: 50% !important;
-  box-shadow: 0px 0px 10px 0px #979797; }
+  box-shadow: 1px 1px 5px #ccc; }
   .az-reg-three-cc .container > div {
     padding: 50px; }
   .az-reg-three-cc .container .login-outline {
@@ -297,7 +297,7 @@ a.button {
   position: relative;
   top: -100px;
   max-width: 40% !important;
-  box-shadow: 0px 0px 10px 0px #979797; }
+  box-shadow: 1px 1px 5px #ccc; }
   .az-reg-two-cc .container > div {
     padding: 50px; }
   .az-reg-two-cc .container .login-outline {
@@ -352,7 +352,7 @@ a.button {
 .az-card7_box {
   display: flex;
   height: 180px;
-  box-shadow: 0px 0px 9px 2px #d7d7d7;
+  box-shadow: 1px 1px 5px #ccc;
   border-radius: 8px; }
   .az-card7_box .az-card7_img {
     height: 100%; }
@@ -386,7 +386,6 @@ a.button {
     top: -30px; }
   .az-card7_box .az-card7_body .az-card7_click_bottom {
     text-align: center;
-    width: 100px;
     clear: both;
     float: right;
     height: 25px;
@@ -403,7 +402,7 @@ a.button {
         content: ""; }
 
 .az-cardtwo_box {
-  box-shadow: 0px 0px 10px 5px #979797;
+  box-shadow: 1px 1px 5px #ccc;
   margin-bottom: 30px;
   height: 386px; }
   .az-cardtwo_box .az-cardtwo_img img {
@@ -463,8 +462,8 @@ a.button {
     color: #979797; }
 
 .az-header_bottom {
-  border-top: 1px solid #b8b8b8;
-  border-bottom: 1px solid #b8b8b8;
+  border-top: 1px solid rgba(0, 0, 0, 0.125);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.125);
   height: 55px;
   /*  .container-inline {
     float: right;
@@ -509,7 +508,7 @@ a.button {
           background: transparent url(../images/search-icon.png) no-repeat;
           background-position: 150px;
           height: 53px;
-          border: 1px solid #979797;
+          border: 1px solid rgba(0, 0, 0, 0.125);
           border-top: none;
           border-bottom: none;
           text-indent: 10px; }
@@ -570,7 +569,7 @@ a.button {
   color: #222222; }
 
 .az-ref-box .az-ref_hr {
-  border-top: 1px solid #979797; }
+  border-top: 1px solid rgba(0, 0, 0, 0.125); }
 
 .az-ref-box .az-ref__body {
   color: #979797;
@@ -602,7 +601,7 @@ a.button {
 .az-product-seach_across {
   width: 100%;
   height: 60px;
-  border-bottom: 2px solid #979797;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.125);
   margin-bottom: 50px; }
 
 .az-product_head {
@@ -633,7 +632,7 @@ a.button {
   float: none;
   margin-bottom: 20px;
   padding-bottom: 20px;
-  border: 1px solid #979797;
+  border: 1px solid rgba(0, 0, 0, 0.125);
   position: relative;
   width: 100%;
   height: 320px; }
@@ -670,7 +669,6 @@ a.button {
     bottom: 20px;
     right: 20px; }
     .az-offer_box .az-offer_click_bottom a {
-      color: white;
       background-color: #eb1384;
       border-radius: 5px;
       padding: 5px 10px;
@@ -728,7 +726,7 @@ a.button {
       margin-left: auto;
       margin-top: 50px;
       height: 200px;
-      box-shadow: 6px 6px 5px #d0c9c9;
+      box-shadow: 1px 1px 5px #ccc;
       border-radius: 5px; }
       .az-clinical-result .az-clinical-product-search .az-clinical-bgimg .az-clinical-search-block .az-search-titile {
         padding: 20px;
@@ -740,16 +738,16 @@ a.button {
         margin-left: 20px; }
         .az-clinical-result .az-clinical-product-search .az-clinical-bgimg .az-clinical-search-block .az-clinical__search_body .az-search-clinical-type {
           width: 50%;
-          border: 1px solid #979797;
+          border: 1px solid rgba(0, 0, 0, 0.125);
           height: 50px;
           margin-right: 10px; }
         .az-clinical-result .az-clinical-product-search .az-clinical-bgimg .az-clinical-search-block .az-clinical__search_body .az-search-clinical-age {
           width: 20%;
-          border: 1px solid #979797;
+          border: 1px solid rgba(0, 0, 0, 0.125);
           height: 50px; }
         .az-clinical-result .az-clinical-product-search .az-clinical-bgimg .az-clinical-search-block .az-clinical__search_body .az-search-clinical-sex {
           width: 20%;
-          border: 1px solid #979797;
+          border: 1px solid rgba(0, 0, 0, 0.125);
           height: 50px; }
         .az-clinical-result .az-clinical-product-search .az-clinical-bgimg .az-clinical-search-block .az-clinical__search_body .az-search-button {
           width: 25%;
@@ -787,7 +785,7 @@ a.button {
   float: left;
   margin: 20px;
   border-radius: 0px 5px 5px 0px;
-  box-shadow: 1px 1px 5px #979797; }
+  box-shadow: 1px 1px 5px #ccc; }
   .az-product_box .az-product_img {
     float: left;
     width: 40%;
@@ -840,7 +838,7 @@ a.button {
     .az-product_selectbox .az-product_selectbox_content .az-product_selectbox_btnno {
       margin-left: 10px;
       background-color: #979797;
-      border: 1px solid #979797; }
+      border: 1px solid rgba(0, 0, 0, 0.125); }
   .az-product_selectbox .az-product_transbkg {
     position: fixed;
     width: 100%;
@@ -952,7 +950,7 @@ a.button {
     font-size: 21px; }
 
 .az-node__content .az-node__content_bottom_boder {
-  border-top: 1px solid #979797;
+  border-top: 1px solid rgba(0, 0, 0, 0.125);
   padding-top: 10px; }
   .az-node__content .az-node__content_bottom_boder .row .col-md-9 > span {
     float: left;
@@ -981,7 +979,7 @@ a.button {
       float: left; }
       .az-clinical-search_box > div:nth-child(2) .az-clincal-searright .az-clincal-search_button input {
         height: 40px;
-        border: 1px solid #979797; }
+        border: 1px solid rgba(0, 0, 0, 0.125); }
     .az-clinical-search_box > div:nth-child(2) .az-clincal-searright .az-clincal-search_icon {
       float: left;
       width: 40px;
@@ -1010,7 +1008,7 @@ a.button {
     padding: 15px !important;
     margin-bottom: 31px;
     font-size: 5px;
-    box-shadow: 0px 0px 5px 0px grey;
+    box-shadow: 1px 1px 5px #ccc;
     border-radius: 0 8px 8px 0; }
     .az-clinical_box .az-clinical_body .az-clinical_body_title a {
       font-weight: bold;
@@ -1054,11 +1052,11 @@ a.button {
     background-position: 0 40%;
     background-size: 30px 30px; }
   .az-contact-main_box .az-contact-form_body {
-    border: 1px solid #d0c9c9;
+    border: 1px solid rgba(0, 0, 0, 0.125);
     background-color: white;
     width: 100%;
     padding: 35px;
-    box-shadow: -5px 5px 10px -7px grey; }
+    box-shadow: 1px 1px 5px #ccc; }
     .az-contact-main_box .az-contact-form_body .az_title {
       font-weight: bold;
       font-size: 20px;
@@ -1275,7 +1273,6 @@ footer#footer::after {
   .az-offers_product_box .az-offers_logoimg {
     position: relative;
     bottom: 30px;
-    bottom: 30px;
     left: 20px; }
   .az-offers_product_box .az-offers_logodes {
     padding: 30px; }
@@ -1288,15 +1285,15 @@ footer#footer::after {
   top: -450px;
   display: flex; }
   .az-offer-article .az-offerdetail .az-off-pp-params {
-    border-top: 1px solid #d9d8d8;
-    border-bottom: 1px solid #d9d8d8;
+    border-top: 1px solid rgba(0, 0, 0, 0.125);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.125);
     width: 25%; }
     .az-offer-article .az-offerdetail .az-off-pp-params div {
       padding-top: 15px; }
   .az-offer-article .az-offerdetail .az-off-pp-area {
     padding: 15px;
-    border-top: 1px solid #d9d8d8;
-    border-bottom: 1px solid #d9d8d8;
+    border-top: 1px solid rgba(0, 0, 0, 0.125);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.125);
     width: 25%;
     text-align: center; }
 
@@ -1367,7 +1364,7 @@ footer#footer::after {
   position: relative;
   top: -200px;
   padding: 0 !important;
-  box-shadow: 17px 18px 25px rgba(0, 0, 0, 0.15); }
+  box-shadow: 1px 1px 5px #ccc; }
   .az-clinical-right-box .field--name-field-az-clinical-page-image {
     background: #d7d7d7;
     padding: 50px; }
@@ -1445,7 +1442,7 @@ footer#footer::after {
     margin-top: 20px;
     top: 150px;
     display: block;
-    border-bottom: 1px solid #d7d7d7; }
+    border-bottom: 1px solid rgba(0, 0, 0, 0.125); }
 
 .node--type-az-clinical-experience-process .az-article-header {
   top: -60px; }
@@ -1528,7 +1525,7 @@ footer#footer::after {
     .az-clinical-subjest-email .az-clinical-subjest-body > div:nth-child(2) span {
       margin-right: 60px; }
     .az-clinical-subjest-email .az-clinical-subjest-body > div:nth-child(2) input {
-      border: 1px solid #979797;
+      border: 1px solid rgba(0, 0, 0, 0.125);
       width: 240px;
       height: 40px;
       margin-left: 20px;
@@ -1563,7 +1560,7 @@ footer#footer::after {
       text-align: center; }
     .az-clinical-subjest-email .az-clinical-subjest-body .az-clinical-ckb-box {
       background-color: #E0DEDEDE;
-      border: 1px solid #979797;
+      border: 1px solid rgba(0, 0, 0, 0.125);
       width: 240px;
       height: 40px;
       margin-left: 30%;
@@ -1609,7 +1606,7 @@ footer#footer::after {
     .az-clinical-subjest-email .az-clinical-subjest-body .az-clinical-subjest_btncancel {
       margin-left: 10px;
       background-color: #979797;
-      border: 1px solid #979797; }
+      border: 1px solid rgba(0, 0, 0, 0.125); }
 
 .content-main #block-astrazeneca-content {
   text-align: center; }
@@ -1660,7 +1657,7 @@ footer#footer::after {
   text-align: center; }
   #block-guanxinbingzhiliaofangan .block-content hr {
     width: 80%;
-    border: 1px solid #979797; }
+    border: 1px solid rgba(0, 0, 0, 0.125); }
   #block-guanxinbingzhiliaofangan .block-content ul {
     height: 300px;
     padding: 0;
@@ -1716,7 +1713,7 @@ footer#footer::after {
 
 .node--type-health-information .az-hr,
 .node--type-medical-article .az-hr {
-  border: 1px solid #979797; }
+  border: 1px solid rgba(0, 0, 0, 0.125); }
 
 .node--type-health-information .az-share-and-author,
 .node--type-medical-article .az-share-and-author {
@@ -1865,7 +1862,7 @@ body.az-user-login-page.path-user #page-main-content .main-content-inner {
   margin-left: 20px; }
 
 .az-member-clinal .az-clinical_box {
-  box-shadow: 5px 0px 5px #d0c9c9;
+  box-shadow: 1px 1px 5px #ccc;
   border-radius: 5px;
   height: 146px; }
   .az-member-clinal .az-clinical_box .az-clinical_body .az-clinical_body_title {
@@ -1898,7 +1895,7 @@ body.az-user-login-page.path-user #page-main-content .main-content-inner {
   position: relative; }
 
 .az-register-one .az-register-onebox img {
-  box-shadow: 0px 4px 5px #979797;
+  box-shadow: 1px 1px 5px #ccc;
   padding: 30px;
   width: 800px;
   margin: 0 auto;
@@ -1932,7 +1929,7 @@ body.az-user-login-page.path-user #page-main-content .main-content-inner {
     margin-left: 15px; }
   #multistep-form-one #edit-privacy-statement {
     margin-left: 15px;
-    border: 1px solid grey;
+    border: 1px solid rgba(0, 0, 0, 0.125);
     margin-bottom: 10px; }
     #multistep-form-one #edit-privacy-statement summary {
       color: #fff;

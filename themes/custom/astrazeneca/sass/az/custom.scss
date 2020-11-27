@@ -37,7 +37,8 @@ input,a,button,select,textarea,span,label,h4,h5,h6 {
     //border: 1px solid;
     margin: 100px 300px;
     padding: 50px;
-    box-shadow: 0px 5px 10px 0px $color-gray;
+    //box-shadow: 0px 5px 10px 0px $color-gray;
+    box-shadow: $bdx-sdw;
     background: $body-bg;
     .cancel-subscribe-success {
       .ta-typ-list {
@@ -78,7 +79,8 @@ input,a,button,select,textarea,span,label,h4,h5,h6 {
     //border: 1px solid;
     margin: 100px 300px;
     padding: 50px;
-    box-shadow: 0px 5px 10px 0px $color-gray;
+    //box-shadow: 0px 5px 10px 0px $color-gray;
+    box-shadow: $bdx-sdw;
     legend {
       border: 0 !important;
     }
@@ -220,7 +222,8 @@ a.button {
 
 //card
 .az-cardthree_box {
-  border: 1px solid $color-gray;
+  //border: 1px solid $color-gray;
+  border: $bdr;
   padding-bottom: 30px;
   float: left;
   margin-bottom: 20px;
@@ -288,7 +291,8 @@ a.button {
     position: relative;
     top: -130px;
     max-width: 35% !important;
-    box-shadow: 0px 0px 10px 0px $color-gray;
+    //box-shadow: 0px 0px 10px 0px $color-gray;
+    box-shadow: $bdx-sdw;
     background: white;
     .welcome {
       margin: 0 100px;
@@ -334,7 +338,8 @@ a.button {
     position: relative;
     top: -100px;
     max-width: 50% !important;
-    box-shadow: 0px 0px 10px 0px $color-gray;
+    //box-shadow: 0px 0px 10px 0px $color-gray;
+    box-shadow: $bdx-sdw;
     >div {
       padding: 50px;
     }
@@ -429,7 +434,8 @@ a.button {
     position: relative;
     top: -100px;
     max-width: 40% !important;
-    box-shadow: 0px 0px 10px 0px $color-gray;
+    //box-shadow: 0px 0px 10px 0px $color-gray;
+    box-shadow:$bdx-sdw;
     >div {
       padding: 50px;
     }
@@ -520,7 +526,8 @@ a.button {
 .az-card7_box {
   display: flex;
   height: 180px;
-  box-shadow: 0px 0px 9px 2px  $color-thingrey;
+  box-shadow: $bdx-sdw;
+  //box-shadow: 0px 0px 9px 2px  $color-thingrey;
   border-radius: 8px;
   .az-card7_img {
     height: 100%;
@@ -560,7 +567,7 @@ a.button {
     }
     .az-card7_click_bottom {
        text-align: center;
-      width: 100px;
+      //width: 100px;
       clear: both;
       float: right;
       height: 25px;
@@ -582,7 +589,8 @@ a.button {
 }
 
 .az-cardtwo_box {
-  box-shadow: 0px 0px 10px 5px $color-gray;
+  //box-shadow: 0px 0px 10px 5px $color-gray;
+  box-shadow: $bdx-sdw;
   margin-bottom: 30px;
   height: 386px;
 
@@ -676,8 +684,10 @@ a.button {
 }
 
 .az-header_bottom {
-  border-top: 1px solid #b8b8b8;
-  border-bottom: 1px solid #b8b8b8;
+  //border-top: 1px solid #b8b8b8;
+  border-top: $bdr;
+  border-bottom: $bdr;
+  //border-bottom: 1px solid #b8b8b8;
   height: 55px;
 
   .az-header-bbox {
@@ -751,7 +761,8 @@ a.button {
           background-position: 150px;
           //height: 55px;
           height: 53px;
-          border: 1px solid $color-gray;
+          //border: 1px solid $color-gray;
+          border: $bdr;
           border-top: none;
           border-bottom: none;
           text-indent: 10px;
@@ -842,7 +853,8 @@ a.button {
   }
 
   .az-ref_hr {
-    border-top: 1px solid $color-gray;
+    //border-top: 1px solid $color-gray;
+    border-top: $bdr;
   }
 
   .az-ref__body {
@@ -892,7 +904,8 @@ a.button {
 .az-product-seach_across {
   width: 100%;
   height: 60px;
-  border-bottom: 2px solid $color-gray;
+  //border-bottom: 2px solid $color-gray;
+  border-bottom:  $bdr;
   margin-bottom: 50px;
 }
 
@@ -942,7 +955,8 @@ a.button {
   float: none;
   margin-bottom: 20px;
   padding-bottom: 20px;
-  border: 1px solid $color-gray;
+  //border: 1px solid $color-gray;
+  border: $bdr;
   position: relative;
   width: 100%;
   height: 320px;
@@ -988,7 +1002,6 @@ a.button {
     right: 20px;
 
     a {
-      color: white;
       background-color: $color-red;
       border-radius: 5px;
       padding: 5px 10px;
@@ -1076,7 +1089,8 @@ a.button {
         margin-left: auto;
         margin-top: 50px;
         height: 200px;
-        box-shadow: 6px 6px 5px #d0c9c9;
+        //box-shadow: 6px 6px 5px #d0c9c9;
+        box-shadow: $bdx-sdw;
         border-radius: 5px;
 
         .az-search-titile {
@@ -1092,20 +1106,23 @@ a.button {
 
           .az-search-clinical-type {
             width: 50%;
-            border: 1px solid $color-gray;
+            //border: 1px solid $color-gray;
+            border: $bdr;
             height: 50px;
             margin-right: 10px;
           }
 
           .az-search-clinical-age {
             width: 20%;
-            border: 1px solid $color-gray;
+            //border: 1px solid $color-gray;
+            border: $bdr;
             height: 50px;
           }
 
           .az-search-clinical-sex {
             width: 20%;
-            border: 1px solid $color-gray;
+            //border: 1px solid $color-gray;
+            border: $bdr;
             height: 50px;
           }
 
@@ -1166,7 +1183,8 @@ a.button {
   float: left;
   margin: 20px;
   border-radius: 0px 5px 5px 0px;
-  box-shadow: 1px 1px 5px $color-gray;
+  //box-shadow: 1px 1px 5px $color-gray;
+  box-shadow: $bdx-sdw;
 
   .az-product_img {
     float: left;
@@ -1243,7 +1261,8 @@ a.button {
     .az-product_selectbox_btnno {
       margin-left: 10px;
       background-color: $color-gray;
-      border: 1px solid $color-gray;
+      //border: 1px solid $color-gray;
+      border: $bdr;
     }
   }
 
@@ -1401,7 +1420,8 @@ a.button {
 
 .az-node__content {
   .az-node__content_bottom_boder {
-    border-top: 1px solid $color-gray;
+    //border-top: 1px solid $color-gray;
+    border-top:  $bdr;
     padding-top: 10px;
 
     .row {
@@ -1449,7 +1469,8 @@ a.button {
 
         input {
           height: 40px;
-          border: 1px solid $color-gray;
+          //border: 1px solid $color-gray;
+          border: $bdr;
         }
       }
 
@@ -1492,7 +1513,8 @@ a.button {
     //padding-top: 20px;
     font-size: 5px;
     //border: 1px solid ;
-    box-shadow: 0px 0px 5px 0px grey;
+    //box-shadow: 0px 0px 5px 0px grey;
+    box-shadow: $bdx-sdw;
     border-radius: 0 8px 8px 0;
     .az-clinical_body_title {
       a {
@@ -1573,11 +1595,13 @@ a.button {
   }
 
   .az-contact-form_body {
-    border: 1px solid #d0c9c9;
+    //border: 1px solid #d0c9c9;
+    border: $bdr;
     background-color: white;
     width: 100%;
     padding:  35px;
-    box-shadow: -5px 5px 10px -7px grey;
+    //box-shadow: -5px 5px 10px -7px grey;
+    box-shadow: $bdx-sdw;
     .az_title {
       font-weight: bold;
       font-size: 20px;
@@ -1925,7 +1949,6 @@ footer#footer::after {
   .az-offers_logoimg {
     position: relative;
     bottom: 30px;
-    bottom: 30px;
     left: 20px;
   }
 
@@ -1950,8 +1973,10 @@ footer#footer::after {
     top: -450px;
     display: flex;
     .az-off-pp-params {
-      border-top: 1px solid #d9d8d8;
-      border-bottom: 1px solid #d9d8d8;
+      //border-top: 1px solid #d9d8d8;
+      //border-bottom: 1px solid #d9d8d8;
+      border-top: $bdr;
+      border-bottom: $bdr;
       width: 25%;
       //padding: 10px;
       div {
@@ -1961,8 +1986,10 @@ footer#footer::after {
 
     .az-off-pp-area {
       padding: 15px;
-      border-top: 1px solid #d9d8d8;
-      border-bottom: 1px solid #d9d8d8;
+      //border-top: 1px solid #d9d8d8;
+      //border-bottom: 1px solid #d9d8d8;
+      border-top: $bdr;
+      border-bottom: $bdr;
       width: 25%;
       text-align: center;
     }
@@ -2060,7 +2087,8 @@ footer#footer::after {
   //top: -100px;
   top: -200px;
   padding: 0 !important;
-  box-shadow: 17px 18px 25px rgba(0, 0, 0, 0.15) ;
+  //box-shadow: 17px 18px 25px rgba(0, 0, 0, 0.15) ;
+  box-shadow: $bdx-sdw ;
   .field--name-field-az-clinical-page-image {
     background: $color-thingrey;
     padding: 50px;
@@ -2216,7 +2244,8 @@ footer#footer::after {
       margin-top: 20px;
       top: 150px;
       display: block;
-      border-bottom: 1px solid $color-thingrey;
+      //border-bottom: 1px solid $color-thingrey;
+      border-bottom:$bdr;
     }
   }
 }
@@ -2314,7 +2343,8 @@ footer#footer::after {
       }
 
       input {
-        border: 1px solid $color-gray;
+        //border: 1px solid $color-gray;
+        border: $bdr;
         width: 240px;
         height: 40px;
         margin-left: 20px;
@@ -2386,7 +2416,8 @@ footer#footer::after {
 
     .az-clinical-ckb-box {
       background-color: #E0DEDEDE;
-      border: 1px solid #979797;
+      //border: 1px solid #979797;
+      border:$bdr;
       width: 240px;
       height: 40px;
       margin-left: 30%;
@@ -2450,7 +2481,8 @@ footer#footer::after {
     .az-clinical-subjest_btncancel {
       margin-left: 10px;
       background-color: $color-gray;
-      border: 1px solid $color-gray;
+      //border: 1px solid $color-gray;
+      border: $bdr;
     }
   }
 }
@@ -2527,7 +2559,8 @@ footer#footer::after {
     text-align: center;
     hr {
       width: 80%;
-      border: 1px solid #979797
+      //border: 1px solid #979797
+      border: $bdr;
     }
     ul {
       height: 300px;
@@ -2606,7 +2639,8 @@ footer#footer::after {
 
   .az-hr {
     //margin: 10px 0 10px 0;
-    border: 1px solid #979797;
+    //border: 1px solid #979797;
+    border: $bdr;
   }
 
   .az-share-and-author {
@@ -2822,7 +2856,8 @@ body.az-user-login-page.path-user #page-main-content  {
     margin-left: 20px;
   }
   .az-clinical_box {
-    box-shadow: 5px 0px 5px #d0c9c9;
+    //box-shadow: 5px 0px 5px #d0c9c9;
+    box-shadow: $bdx-sdw;
     border-radius: 5px;
     height: 146px;
     .az-clinical_body {
@@ -2886,7 +2921,8 @@ body.az-user-login-page.path-user #page-main-content  {
 .az-register-one {
   .az-register-onebox {
     img {
-      box-shadow: 0px 4px 5px #979797;
+      //box-shadow: 0px 4px 5px #979797;
+      box-shadow: $bdx-sdw;
       padding: 30px;
       width: 800px;
       margin: 0 auto;
@@ -2937,7 +2973,8 @@ body.az-user-login-page.path-user #page-main-content  {
   }
   #edit-privacy-statement  {
     margin-left: 15px;
-    border: 1px solid grey;
+    //border: 1px solid grey;
+    border: $bdr;
     margin-bottom: 10px;
     summary {
       color:#fff;
