@@ -115,9 +115,12 @@ input,a,button,select,textarea,span,label,h4,h5,h6 {
 
 }
 .path-product-home {
-  .js-quickedit-page-title {
-    display: none;
-  }
+  //.js-quickedit-page-title {
+  //  display: none;
+  //}
+ .page-title {
+   display: none;
+ }
 }
 .path-dashboard {
   #block-astrazeneca-content  {

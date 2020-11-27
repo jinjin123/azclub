@@ -73,7 +73,7 @@ body {
       background: #eb1384;
       width: 150px; }
 
-.path-product-home .js-quickedit-page-title {
+.path-product-home .page-title {
   display: none; }
 
 .path-dashboard #block-astrazeneca-content {
@@ -2828,6 +2828,16 @@ body.page-node-7 .node__content p {
     -webkit-box-orient: vertical; } }
 
 @media (max-width: 375px) {
+  .path-product-home .az-product_box {
+    margin-bottom: 30px !important;
+    border-radius: 15px; }
+  .node--type-az-clinical-experience-process .az-article-header {
+    top: 1150px;
+    left: 10px; }
+  .az-clinal-dt-share {
+    float: left !important;
+    left: 280px !important;
+    top: -186px !important; }
   .az_clinical_box .container > p {
     width: 100%; }
   .az-clinical_box .az-clinical_body .az-clinical_body_desc {
@@ -2883,6 +2893,7 @@ body.page-node-7 .node__content p {
             font-size: 5px;
             border-radius: 10px; }
   .block-quicktabs .ui-widget .ui-widget-content .ui-tabs-nav {
+    margin-bottom: 30px;
     display: flex;
     flex-wrap: wrap; }
     .block-quicktabs .ui-widget .ui-widget-content .ui-tabs-nav > li {
@@ -2924,6 +2935,8 @@ body.page-node-7 .node__content p {
     .az-product_head .az-product_head__body {
       margin: 0 !important;
       width: 100% !important; }
+      .az-product_head .az-product_head__body .container {
+        width: 100% !important; }
   .az-top-banner h1 {
     top: 0 !important; }
   .path-dashboard .main {
@@ -3204,7 +3217,8 @@ body.page-node-7 .node__content p {
       font-weight: bold; }
   .block-quicktabs .quicktabs-ui-wrapper .ui-tabs-nav {
     display: flex;
-    flex-wrap: wrap; }
+    flex-wrap: wrap;
+    margin-bottom: 30px; }
     .block-quicktabs .quicktabs-ui-wrapper .ui-tabs-nav .ui-tabs-tab {
       margin-right: 30px;
       width: 25%; }
@@ -3266,28 +3280,41 @@ body.page-node-7 .node__content p {
     top: -280px !important; }
   .az-offer-detail {
     position: relative;
-    top: -830px; }
+    top: -1300px;
+    left: -13px; }
     .az-offer-detail .shares {
       text-align: right; }
   .az-offerdetail-article-header {
     text-align: left;
-    left: 0 !important;
-    top: -520px !important; }
+    left: 15px !important;
+    top: 600px !important;
+    font-weight: 500; }
   .az-offernode__content_body {
     left: 0 !important;
     top: -60px !important;
-    margin: 0 30px; }
+    margin: 0 30px;
+    width: 84%; }
   .az-offers_shop {
     width: 100%;
     top: -60px;
     margin: 0 !important; }
+    .az-offers_shop .field--name-field-medicine-shop-img {
+      margin: 0 20px; }
   .az-medicine-shop-header {
-    left: 0 !important; }
+    left: 0 !important;
+    top: -70px; }
+    .az-medicine-shop-header .az-medicinie-left {
+      margin: 0 !important;
+      padding: 0 !important; }
+    .az-medicine-shop-header .az-medicinie-right {
+      padding: 0 !important; }
   .field--name-field-medicine-shop-params {
     left: -60px !important;
     position: relative; }
   .az-offer-article .az-offerdetail {
-    margin: 10px 60px !important; }
+    top: -70px;
+    text-align: center;
+    margin: 10px 55px; }
   .az-health-cb-mobile .az-offer_box {
     height: 300px !important; }
     .az-health-cb-mobile .az-offer_box .az-offer_body .az-offer_body_title {
