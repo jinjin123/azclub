@@ -83,7 +83,8 @@ h1, h2, h3, h4, h5, h6 {
     .path-cancel-subscribe #cancel-subscribe-form #edit-actions input {
       border-radius: 8px;
       background: #eb1384;
-      width: 150px; }
+      width: 150px;
+      font-family: "Noto Sans HK", sans-serif; }
 
 .path-product-home .js-quickedit-page-title {
   display: none; }
@@ -316,7 +317,7 @@ a.button {
       padding-left: 30px; }
     .az-reg-two-cc .container .login-outline .login-sub-title {
       padding-left: 30px;
-      font-size: 10px;
+      font-size: 14px;
       color: #d7d7d7; }
   .az-reg-two-cc .container #multistep-form-two .az-form-element-container {
     margin-bottom: 10px; }
@@ -344,6 +345,8 @@ a.button {
       display: flex; }
       .az-reg-two-cc .container #edit-attention2 .js-form-item-attention2-1 input {
         margin-right: 10px; }
+      .az-reg-two-cc .container #edit-attention2 .js-form-item-attention2-1 label {
+        font-weight: 500; }
   .az-reg-two-cc .container #edit-communication-mode--wrapper legend {
     font-size: 18px !important;
     margin-left: 20px;
@@ -354,6 +357,12 @@ a.button {
       display: flex; }
       .az-reg-two-cc .container #edit-communication-mode--wrapper .fieldset-wrapper #edit-communication-mode div {
         margin-right: 30px; }
+      .az-reg-two-cc .container #edit-communication-mode--wrapper .fieldset-wrapper #edit-communication-mode label {
+        font-weight: 500; }
+  .az-reg-two-cc .container #edit-actions #edit-previous {
+    font-family: "Noto Sans HK", sans-serif; }
+  .az-reg-two-cc .container #edit-actions #edit-submit {
+    font-family: "Noto Sans HK", sans-serif; }
 
 .az-myjibin {
   position: relative;
@@ -2525,7 +2534,8 @@ body.az-user-login-page.path-user #page-main-content .main-content-inner {
     text-align: left; }
   #multistep-form-one #edit-send-code {
     border-radius: 0;
-    background-color: #333333; }
+    background-color: #333333;
+    font-family: "Noto Sans HK", sans-serif; }
   #multistep-form-one .js-form-item-verify-code {
     position: relative;
     left: -21px;
@@ -2541,7 +2551,9 @@ body.az-user-login-page.path-user #page-main-content .main-content-inner {
     margin-bottom: 10px; }
     #multistep-form-one #edit-privacy-statement summary {
       color: #fff;
-      background-color: #eb1384; }
+      background-color: #eb1384;
+      font-size: 16px;
+      font-weight: 500; }
   #multistep-form-one #edit-attention1--wrapper {
     margin-left: 15px;
     margin-bottom: 30px; }
@@ -2550,13 +2562,15 @@ body.az-user-login-page.path-user #page-main-content .main-content-inner {
       background: #eb1384; }
       #multistep-form-one #edit-attention1--wrapper legend span {
         padding-left: 15px;
-        font-size: 16px; }
+        font-size: 16px;
+        font-weight: 500; }
   #multistep-form-one #edit-attention1 {
     text-align: left; }
     #multistep-form-one #edit-attention1 .js-form-item-attention1-1 {
       display: flex; }
     #multistep-form-one #edit-attention1 label {
-      padding-left: 10px; }
+      padding-left: 10px;
+      font-weight: 500; }
   #multistep-form-one #edit-actions {
     width: 30%;
     float: right;
@@ -2564,7 +2578,8 @@ body.az-user-login-page.path-user #page-main-content .main-content-inner {
     top: -30px; }
     #multistep-form-one #edit-actions input {
       width: 100%;
-      background: #eb1384; }
+      background: #eb1384;
+      font-family: "Noto Sans HK", sans-serif; }
 
 .sidebar-nav .sub-sidebar-nav li a {
   border-left: 3px solid #fcaf17;

@@ -118,6 +118,7 @@ h1, h2, h3, h4, h5, h6 {
         border-radius: 8px;
         background: $color-red;
         width: 150px;
+        font-family: $fr;
       }
     }
   }
@@ -459,7 +460,7 @@ a.button {
       }
       .login-sub-title {
         padding-left: 30px;
-        font-size: 10px;
+        font-size: 14px;
         color: $color-thingrey;
       }
     }
@@ -506,6 +507,9 @@ a.button {
         input {
           margin-right: 10px;
         }
+        label {
+          font-weight: $fss;
+        }
       }
     }
     #edit-communication-mode--wrapper {
@@ -521,9 +525,21 @@ a.button {
           div {
             margin-right: 30px;
           }
+          label {
+            font-weight: $fss;
+          }
         }
       }
     }
+    #edit-actions {
+      #edit-previous {
+        font-family: $fr;
+      }
+      #edit-submit {
+        font-family: $fr;
+      }
+    }
+
   }
 }
 .az-myjibin {
@@ -3871,6 +3887,7 @@ body.az-user-login-page.path-user #page-main-content  {
   #edit-send-code {
     border-radius: 0;
     background-color: $gray-dark;
+    font-family: $fr;
   }
   .js-form-item-verify-code  {
     position: relative;
@@ -3892,6 +3909,8 @@ body.az-user-login-page.path-user #page-main-content  {
     summary {
       color:#fff;
       background-color: $color-red;
+      font-size: 16px;
+      font-weight: $fss;
     }
   }
   #edit-attention1--wrapper {
@@ -3903,6 +3922,7 @@ body.az-user-login-page.path-user #page-main-content  {
       span {
         padding-left: 15px;
         font-size: 16px;
+        font-weight: $fss;
       }
     }
   }
@@ -3913,6 +3933,7 @@ body.az-user-login-page.path-user #page-main-content  {
     }
     label {
       padding-left: 10px;
+      font-weight: $fss;
     }
   }
   #edit-actions {
@@ -3923,6 +3944,7 @@ body.az-user-login-page.path-user #page-main-content  {
     input {
       width: 100%;
       background: $color-red;
+      font-family: $fr;
     }
   }
 }
