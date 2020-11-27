@@ -3867,12 +3867,17 @@ body.az-user-login-page.path-user #page-main-content  {
 }
 
 .breadcrumb-content-inner {
-  text-align: left;
-  margin-left: 280px;
+  text-align: center;
+  margin-left: 0;
+  position: absolute;
+  top: 365px;
   .gva-breadcrumb-content {
     .gva-block-breadcrumb {
       .breadcrumb-style {
         min-height: 0;
+        block-content {
+          //font-weight: 600;
+        }
       }
     }
   }
@@ -4124,7 +4129,7 @@ body.az-user-login-page.path-user #page-main-content  {
   .block-content {
     height: 200px;
     margin: 0;
-    background: url("/sites/default/files/imce_upload/admin/CTA.png") no-repeat;
+    background: url("/sites/default/files/imce_upload/admin/design-files/Banner/CTA.png") no-repeat;
     background-size: cover;
 
     &:before {
@@ -4238,4 +4243,26 @@ body.page-node-7 {
       margin: 0 auto;
     }
   }
+}
+
+// all banner img
+#block-medicalarticlebanner,
+#block-healthinformationbanner,
+#block-healthinformationdetailsbanner,
+#block-medicalarticledetailsbanner {
+  img {
+    width: 100%;
+  }
+}
+
+.more-articles {
+  .more-articles-title {
+    text-align: left;
+    font-weight: 600;
+    font-size:27px;
+  }
+}
+
+.breadcrumb-content-inner {
+
 }

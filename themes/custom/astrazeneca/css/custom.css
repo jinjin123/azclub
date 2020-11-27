@@ -3094,13 +3094,14 @@ body.az-user-login-page.path-user #page-main-content .main-content-inner {
 }
 
 .breadcrumb-content-inner {
-  text-align: left;
-  margin-left: 280px;
+  text-align: center;
+  margin-left: 0;
+  position: absolute;
+  top: 365px;
 }
 .breadcrumb-content-inner .gva-breadcrumb-content .gva-block-breadcrumb .breadcrumb-style {
   min-height: 0;
 }
-
 .az-top-banner {
   position: relative;
   top: -89px;
@@ -3275,7 +3276,7 @@ body.az-user-login-page.path-user #page-main-content .main-content-inner {
 #block-zixunyisheng .block-content {
   height: 200px;
   margin: 0;
-  background: url("/sites/default/files/imce_upload/admin/CTA.png") no-repeat;
+  background: url("/sites/default/files/imce_upload/admin/design-files/Banner/CTA.png") no-repeat;
   background-size: cover;
 }
 #block-zixunyisheng .block-content:before {
@@ -3375,4 +3376,17 @@ body.page-node-7 .node__content p {
 .node--type-page .node__content p {
   width: 60%;
   margin: 0 auto;
+}
+
+#block-medicalarticlebanner img,
+#block-healthinformationbanner img,
+#block-healthinformationdetailsbanner img,
+#block-medicalarticledetailsbanner img {
+  width: 100%;
+}
+
+.more-articles .more-articles-title {
+  text-align: left;
+  font-weight: 600;
+  font-size: 27px;
 }
