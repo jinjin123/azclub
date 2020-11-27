@@ -19,6 +19,9 @@ input,a,button,select,textarea,span,label,h4,h5,h6 {
 h1, h2, h3, h4, h5, h6 {
   font-family: $fr;
 }
+.ui-widget {
+  font-family: $fr;
+}
 
 .path-healthcare-guidance {
   #block-nurseoncallyaowuyiqizhidao-2 {
@@ -935,13 +938,16 @@ a.button {
   width: 100%;
   margin-bottom: 30px;
   .az-product_head__title2 {
-    font-size: 30px;
-    font-weight: bold;
+    font-size:36px;
+    font-weight: #fss;
   }
 
   .az-product_head__title1 {
     color: $color-gray;
+    font-size: 24px;
+    font-weight: $frs;
   }
+
 
   .az-product-nurse-bd{
     margin: 0 200px;
@@ -2543,6 +2549,7 @@ footer#footer::after {
 .node--type-page-full {
   #block-astrazeneca-content {
     text-align: center;
+    margin-bottom: 20px;
   }
 }
 
@@ -4034,6 +4041,14 @@ body.page-node-7 {
      width: 60%;
      margin: 0 auto;
    }
+   p:nth-child(1) {
+     font-size: 24px;
+     font-weight: $frs;
+   }
+   h2 {
+     font-size: 36px;
+     font-weight: $fss;
+   }
  }
 }
 
@@ -4043,6 +4058,14 @@ body.page-node-7 {
     p {
       width: 60%;
       margin: 0 auto;
+    }
+    p:nth-child(1) {
+      font-size: 24px;
+      font-weight: $frs;
+    }
+    h2 {
+      font-size: 36px;
+      font-weight: $fss;
     }
   }
 }

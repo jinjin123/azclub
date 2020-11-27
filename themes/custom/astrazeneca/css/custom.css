@@ -13,6 +13,10 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "Noto Sans HK", sans-serif;
 }
 
+.ui-widget {
+  font-family: "Noto Sans HK", sans-serif;
+}
+
 .path-healthcare-guidance #block-nurseoncallyaowuyiqizhidao-2 {
   margin: 0 !important;
 }
@@ -774,11 +778,13 @@ a.button {
   margin-bottom: 30px;
 }
 .az-product_head .az-product_head__title2 {
-  font-size: 30px;
-  font-weight: bold;
+  font-size: 36px;
+  font-weight: #fss;
 }
 .az-product_head .az-product_head__title1 {
   color: #979797;
+  font-size: 24px;
+  font-weight: 400;
 }
 .az-product_head .az-product-nurse-bd {
   margin: 0 200px;
@@ -2016,6 +2022,7 @@ footer#footer::after {
 .node--type-page #block-astrazeneca-content,
 .node--type-page-full #block-astrazeneca-content {
   text-align: center;
+  margin-bottom: 20px;
 }
 
 .ta-articles-list-header {
@@ -3211,10 +3218,26 @@ body.page-node-7 .node__content p {
   width: 60%;
   margin: 0 auto;
 }
+body.page-node-7 .node__content p:nth-child(1) {
+  font-size: 24px;
+  font-weight: 400;
+}
+body.page-node-7 .node__content h2 {
+  font-size: 36px;
+  font-weight: 500;
+}
 
 .node--type-page .node__content p {
   width: 60%;
   margin: 0 auto;
+}
+.node--type-page .node__content p:nth-child(1) {
+  font-size: 24px;
+  font-weight: 400;
+}
+.node--type-page .node__content h2 {
+  font-size: 36px;
+  font-weight: 500;
 }
 
 #block-medicalarticlebanner img,
