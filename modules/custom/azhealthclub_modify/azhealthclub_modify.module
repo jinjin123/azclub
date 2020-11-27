@@ -55,6 +55,11 @@ function azhealthclub_modify_theme()
        'variables'=>[]
      ]
    ],
+   'azhealthclub_faq'=> [
+     'variables' => [
+       'variables'=>[]
+     ]
+   ],
    'az_clinical_filter_block'=>[
      'variables' => [
        'variables' => []

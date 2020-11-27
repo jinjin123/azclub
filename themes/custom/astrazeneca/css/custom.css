@@ -12,6 +12,39 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "Noto Sans HK", sans-serif;
   font-weight: 500; }
 
+.az-faq-main_box {
+  position: relative;
+  top: -200px;
+  background: white;
+  box-shadow: 1px 1px 5px #ccc; }
+  .az-faq-main_box .az-fc {
+    padding: 50px; }
+    .az-faq-main_box .az-fc .az-faq-dbox {
+      margin-bottom: 30px; }
+      .az-faq-main_box .az-fc .az-faq-dbox #webform-submission-guanzhongguankanliangduanxinzang-add-form #edit-markup-01 {
+        font-weight: 500;
+        font-size: 22px;
+        color: #444444;
+        padding-left: 10px;
+        border-left: 5px solid #eb1384;
+        margin-bottom: 20px; }
+      .az-faq-main_box .az-fc .az-faq-dbox #webform-submission-guanzhongguankanliangduanxinzang-add-form #edit-markup-02 {
+        color: #979797;
+        font-size: 16px;
+        margin-bottom: 20px; }
+      .az-faq-main_box .az-fc .az-faq-dbox #webform-submission-guanzhongguankanliangduanxinzang-add-form fieldset {
+        margin-bottom: 10px; }
+        .az-faq-main_box .az-fc .az-faq-dbox #webform-submission-guanzhongguankanliangduanxinzang-add-form fieldset legend {
+          border-bottom: 0;
+          margin-bottom: 10px; }
+          .az-faq-main_box .az-fc .az-faq-dbox #webform-submission-guanzhongguankanliangduanxinzang-add-form fieldset legend span {
+            color: #444444; }
+      .az-faq-main_box .az-fc .az-faq-dbox #webform-submission-guanzhongguankanliangduanxinzang-add-form #edit-actions {
+        text-align: right; }
+        .az-faq-main_box .az-fc .az-faq-dbox #webform-submission-guanzhongguankanliangduanxinzang-add-form #edit-actions input {
+          width: 200px;
+          background: #eb1384; }
+
 .ui-widget {
   font-family: "Noto Sans HK", sans-serif; }
 
@@ -2867,6 +2900,24 @@ body.page-node-7 .node__content h2 {
     -webkit-box-orient: vertical; } }
 
 @media (max-width: 375px) {
+  .path-faq .az-faq-main_box {
+    top: -150px;
+    max-width: 80%; }
+    .path-faq .az-faq-main_box .az-fc {
+      padding: 0;
+      padding-top: 30px; }
+      .path-faq .az-faq-main_box .az-fc .az-faq-dbox #webform-submission-guanzhongguankanliangduanxinzang-add-form #edit-markup-01 {
+        font-size: 15px;
+        font-weight: 500; }
+      .path-faq .az-faq-main_box .az-fc .az-faq-dbox #webform-submission-guanzhongguankanliangduanxinzang-add-form #edit-markup-02 {
+        font-size: 12px;
+        font-weight: 400; }
+      .path-faq .az-faq-main_box .az-fc .az-faq-dbox #webform-submission-guanzhongguankanliangduanxinzang-add-form fieldset legend span {
+        font-size: 15px;
+        font-weight: 400; }
+  .path-contact-home .main {
+    position: relative;
+    top: -130px; }
   .health-tips-orange {
     height: 100%; }
     .health-tips-orange .view-content-wrap {

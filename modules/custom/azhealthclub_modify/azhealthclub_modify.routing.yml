@@ -102,3 +102,14 @@ azhealthclub_modify.cancelSubscribeSuccess:
     _title: ''
   requirements:
     _custom_access: '\Drupal\azhealthclub_modify\Controller\MemberController::access'
+
+
+
+
+azhealthclub_modify.askfk:
+  path: '/faq'
+  defaults:
+    _controller: '\Drupal\azhealthclub_modify\Controller\ContactController::askfk'
+    _title: ''
+  requirements:
+    _permission: 'access content'
