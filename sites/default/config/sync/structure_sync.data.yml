@@ -325,7 +325,7 @@ blocks:
     fields:
       body:
         -
-          value: "<div class=\"row\">\r\n<div class=\"left col-md-6\">\r\n<div>AZ Health Club</div>\r\n\r\n<h5>認識康心摯友</h5>\r\n\r\n<div>使命與信念 英國阿斯利康作為全球藥物研發的公司，一直將健康放於首位。我們不斷突破科學界限，提供改變生命的藥物，務求解決影響全球數百萬人的疾病而還未滿足的醫療需求。與此同時，我們希望給予病患者帶來最大獲益，為醫療系統及社會帶來價值。 阿斯利康本着「我們以病人為先」的宗旨，服務皆以病者的需要為中心。由疾病預防、診斷、治療到治療後管理，全程關顧健康道路上的需要。 因此，我們成立了「康心摯友」，希望藉着這平台提供更貼心的服務。</div>\r\n</div>\r\n\r\n<div class=\"right col-md-6\"><img alt=\"\" data-entity-type=\"file\" data-entity-uuid=\"66819f95-018b-4362-ab83-a53b9a6aadbd\" height=\"371\" src=\"/sites/default/files/imce_upload/admin/Screenshot%20from%202020-10-20%2016-12-39-wdbkv9.png\" width=\"479\" /></div>\r\n</div>\r\n"
+          value: "<div class=\"az-mb-hd \"><img src=\"/sites/default/files/imce_upload/admin/v13.jpg\" /></div>\r\n\r\n<div class=\"row az-midbn\">\r\n<div class=\"left col-md-6\">\r\n<div>AZ Health Club</div>\r\n\r\n<h5>認識康心摯友</h5>\r\n\r\n<div>使命與信念 英國阿斯利康作為全球藥物研發的公司，一直將健康放於首位。我們不斷突破科學界限，提供改變生命的藥物，務求解決影響全球數百萬人的疾病而還未滿足的醫療需求。與此同時，我們希望給予病患者帶來最大獲益，為醫療系統及社會帶來價值。 阿斯利康本着「我們以病人為先」的宗旨，服務皆以病者的需要為中心。由疾病預防、診斷、治療到治療後管理，全程關顧健康道路上的需要。 因此，我們成立了「康心摯友」，希望藉着這平台提供更貼心的服務。</div>\r\n\r\n<div class=\"col-lg-12 col-xs-12 col-md-12 az-midbn-btn\"><button class=\"col-lg-4 col-md-4 col-xs-4\">加入康心摯友會</button><button class=\"col-lg-4 col-md-4 col-xs-4\">最新藥物優惠</button></div>\r\n</div>\r\n\r\n<div class=\"right az-hr-img col-md-6\"><img alt=\"\" data-entity-type=\"file\" data-entity-uuid=\"33361732-d209-4602-a82b-9b825d405879\" height=\"400\" src=\"/sites/default/files/imce_upload/admin/v13.jpg\" width=\"1024\" /></div>\r\n</div>\r\n"
           summary: ''
           format: full_html
   -
@@ -494,7 +494,7 @@ blocks:
     fields:
       body:
         -
-          value: "<h4>諮詢醫生</h4>\r\n\r\n<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text</p>\r\n\r\n<p><a href=\"\\\">私家醫生</a>&nbsp;<a href=\"\\\">政府醫生</a></p>\r\n"
+          value: "<div class=\"container az-fk-container \">\r\n<div class=\"az-ask-doc col-lg-12\">\r\n<div class=\"az-ask-rg  \">\r\n<div class=\"az-ask-bt col-lg-8\">\r\n<h1>咨詢醫生</h1>\r\n\r\n<h5>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text</h5>\r\n</div>\r\n\r\n<div class=\"az-ask-rbtn col-lg-4\"><button>私家醫生</button><button>政府醫生</button></div>\r\n</div>\r\n</div>\r\n</div>\r\n"
           summary: ''
           format: full_html
   -
@@ -508,6 +508,19 @@ blocks:
       body:
         -
           value: "<div class=\"az-top-banner\">\r\n<div class=\"container\">\r\n<h1>肺癌</h1>\r\n\r\n<h1>LUNG GANNER</h1>\r\n</div>\r\n<img alt=\"\" data-entity-type=\"file\" data-entity-uuid=\"\" height=\"400\" src=\"/sites/default/files/imce_upload/admin/Health%20Information%20-TA%20Campaign%20-%20Lung.png\" width=\"1430\" /></div>\r\n"
+          summary: ''
+          format: full_html
+  -
+    info: 'az offers detail page banner'
+    langcode: en
+    uuid: 335c6863-d9a7-4f14-aad1-e34c3f70aac1
+    bundle: basic
+    revision_id: null
+    rev_id_current: null
+    fields:
+      body:
+        -
+          value: "<div class=\"az-top-banner\">\r\n<div class=\"container\">\r\n<h1>病友支援 / 藥物優惠</h1>\r\n\r\n<h1>兩盒裝優惠 (附特選藥房資訊)</h1>\r\n</div>\r\n<img alt=\"\" data-entity-type=\"file\" data-entity-uuid=\"a65e534a-6e4b-4ff4-887f-e279b80733ba\" height=\"260\" src=\"/sites/default/files/imce_upload/admin/Health%20Information%20-TA%20Campaign%20-%20Heart.png\" width=\"1440\" /></div>\r\n"
           summary: ''
           format: full_html
   -
@@ -571,19 +584,6 @@ blocks:
     rev_id_current: null
     fields:
       body: {  }
-  -
-    info: 'az offers detail page banner'
-    langcode: en
-    uuid: 335c6863-d9a7-4f14-aad1-e34c3f70aac1
-    bundle: basic
-    revision_id: null
-    rev_id_current: null
-    fields:
-      body:
-        -
-          value: "<div class=\"az-top-banner\">\r\n<div class=\"container\">\r\n<h1>病友支援 / 藥物優惠</h1>\r\n\r\n<h1>兩盒裝優惠 (附特選藥房資訊)</h1>\r\n</div>\r\n<img alt=\"\" data-entity-type=\"file\" data-entity-uuid=\"a65e534a-6e4b-4ff4-887f-e279b80733ba\" height=\"260\" src=\"/sites/default/files/imce_upload/admin/Health%20Information%20-TA%20Campaign%20-%20Heart.png\" width=\"1440\" /></div>\r\n"
-          summary: ''
-          format: full_html
 menus:
   -
     menu_name: footer
