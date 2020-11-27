@@ -58,7 +58,17 @@
           'path-product-home'
           ]
         %}
-      {% else %}
+
+      {% elseif '/contact' in  url["#markup"]  %}
+         {% set body_classes = [
+           logged_in ? 'logged-in',
+           not root_path ? 'frontpage' : 'path-' ~ root_path|clean_class,
+           node_type ? 'node--type-' ~ node_type|clean_class,
+           node_id ? 'node-' ~ node_id|clean_class,
+           'path-contact-home'
+         ]
+         %}
+       {% else %}
          {% set body_classes = [
            logged_in ? 'logged-in',
            not root_path ? 'frontpage' : 'path-' ~ root_path|clean_class,

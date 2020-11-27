@@ -291,12 +291,209 @@
       }
     }
   }
+  .az_clinical_box {
+    .container > p {
+      width: 100%;
+    }
+  }
 }
-@media only screen and (min-width : 376px) and (max-width: 1200px) {
-  
+@media only screen and (min-width : 668px) and (max-width: 790px) {
+  #block-zixunyisheng {
+    .az-fk-container {
+      .az-ask-rg {
+        margin: 30px 50px;
+        .az-ask-rbtn {
+          >button {
+             margin-bottom: 10px;
+          }
+        }
+      }
+    }
+  }
+  .az-clinical_body {
+    padding: 50px !important;
+  }
+}
+@media only screen and (min-width : 469px) and (max-width: 650px) {
+  .az-clinical_body {
+    padding: 50px !important;
+  }
+  #block-zixunyisheng {
+    .az-fk-container {
+      .az-ask-rg {
+        margin: 30px 50px;
+        .az-ask-rbtn {
+          >button {
+            margin-bottom: 10px;
+          }
+        }
+      }
+    }
+  }
+  .az-search-clinical-sex  {
+     width: 40% !important;
+    margin-bottom: 5px;
+  }
+  .az-search-button  {
+    width: 93% !important;
+    margin: 0 !important;
+  }
+}
+@media only screen and (min-width : 375px) and (max-width: 468px) {
+  #block-zixunyisheng {
+    .az-fk-container {
+      .az-ask-rg {
+        margin: 30px 50px;
+        .az-ask-rbtn {
+          >button {
+            margin-bottom: 10px;
+          }
+        }
+      }
+    }
+  }
 }
 
+@media only screen and (min-width : 376px) and (max-width:736px) {
+  .az-clinical-result  {
+    .az-product_head {
+      //margin-bottom: 300px;
+      position: relative;
+      .az-pipline-redbox{
+        display: flex;
+        flex-wrap: wrap;
+         div {
+          margin-right: 1px;
+           img {
+             width: 100px;
+           }
+        }
+      }
+    }
+  }
+  .az-clinical_box {
+    .az-clinical_body {
+      .az-clinical_body_desc  {
+        word-break: break-all;
+        text-overflow: ellipsis;
+        overflow: hidden;
+        display: -webkit-box;
+        -webkit-line-clamp: 2;
+        -webkit-box-orient: vertical;
+      }
+    }
+  }
+
+}
+
+
 @media (max-width : 375px) {
+  .path-faq {
+    .az-faq-main_box {
+      top: -150px;
+      max-width: 80%;
+      .az-fc  {
+        padding: 0 ;
+        padding-top: 30px;
+        .az-faq-dbox {
+          #webform-submission-guanzhongguankanliangduanxinzang-add-form {
+            #edit-markup-01 {
+              font-size: 15px;
+              font-weight: $fss;
+            }
+            #edit-markup-02 {
+              font-size: 12px;
+              font-weight: $frs;
+            }
+            fieldset  {
+              legend {
+                span {
+                  font-size: 15px;
+                  font-weight: $frs;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  .path-contact-home {
+    .main  {
+      position: relative;
+      top: -130px;
+    }
+  }
+  .health-tips-orange {
+    height: 100%;
+    .view-content-wrap {
+      display: flex;
+      .az-offertips_box {
+        margin: 10px 10px;
+      }
+      .az-offer_body {
+        width: 100%;
+        padding: 10px 10px !important;
+      }
+    }
+  }
+  .path-product-home {
+    .az-product_box {
+      margin-bottom: 30px !important;
+      border-radius: 15px;
+    }
+  }
+  .node--type-az-clinical-experience-process {
+    .az-article-header {
+      top: 1150px;
+      left: 10px;
+    }
+  }
+  .az-clinal-dt-share  {
+    float: left !important;
+    left: 280px !important;
+    top: -186px !important;
+  }
+  .az_clinical_box {
+    .container > p {
+      width: 100%;
+    }
+    //.az-clinical_body {
+    //  .az-clinical_body_desc  {
+    //    word-break: break-all;
+    //    text-overflow: ellipsis;
+    //    overflow: hidden;
+    //    display: -webkit-box;
+    //    -webkit-line-clamp: 2;
+    //    -webkit-box-orient: vertical;
+    //  }
+    //}
+  }
+  .az-clinical_box {
+    .az-clinical_body {
+      .az-clinical_body_desc  {
+        word-break: break-all;
+        text-overflow: ellipsis;
+        overflow: hidden;
+        display: -webkit-box;
+        -webkit-line-clamp: 2;
+        -webkit-box-orient: vertical;
+      }
+    }
+  }
+  #block-zixunyisheng {
+    .az-fk-container {
+      .az-ask-rg {
+        margin: 0;
+        .az-ask-rbtn {
+          display: flex;
+          >button {
+            margin-bottom: 10px;
+          }
+        }
+      }
+    }
+  }
   .block-views-blockmedical-article-block-1 {
     .view-content-wrap {
       display: flex;
@@ -376,6 +573,7 @@
     .ui-widget {
       .ui-widget-content {
         .ui-tabs-nav {
+          margin-bottom: 30px;
           display: flex;
           flex-wrap: wrap;
           >li {
@@ -444,6 +642,12 @@
       margin: 0 10px;
       position: relative;
       top: -50px;
+      //.health-cb-mobile {
+      //  padding: 0  !important;
+      //}
+    }
+    .az-health-cb-mobile {
+        padding: 3px  !important;
     }
   }
   .az-product-search_box > div {
@@ -456,6 +660,9 @@
     .az-product_head__body {
       margin: 0 !important;
       width: 100% !important;
+      .container  {
+        width: 100% !important;
+      }
     }
   }
   .az-top-banner {
@@ -949,6 +1156,7 @@
       .ui-tabs-nav {
         display: flex;
         flex-wrap: wrap;
+        margin-bottom: 30px;
         .ui-tabs-tab {
           margin-right: 30px;
           width: 25%;
@@ -1047,7 +1255,9 @@
   }
   .az-offer-detail {
     position: relative;
-    top: -830px;
+    //top: -830px;
+    top: -1300px;
+    left: -13px;
     .shares {
       //left: 380px;
       text-align: right;
@@ -1055,21 +1265,36 @@
   }
   .az-offerdetail-article-header {
     text-align: left;
-    left: 0 !important;
-    top: -520px !important;
+    //left: 0 !important;
+    left: 15px !important;
+    //top: -520px !important;
+    top: 600px !important;
+    font-weight: $fss;
   }
   .az-offernode__content_body {
     left: 0 !important;
     top: -60px !important;
     margin: 0 30px;
+    width: 84%;
   }
   .az-offers_shop{
     width: 100%;
     top: -60px;
     margin: 0 !important;
+    .field--name-field-medicine-shop-img  {
+      margin: 0 20px;
+    }
   }
   .az-medicine-shop-header {
     left: 0 !important;
+    top: -70px;
+    .az-medicinie-left {
+      margin: 0 !important;
+      padding: 0 !important;
+    }
+    .az-medicinie-right {
+      padding: 0 !important;
+    }
   }
   .field--name-field-medicine-shop-params {
     left: -60px !important;
@@ -1077,12 +1302,15 @@
   }
   .az-offer-article {
     .az-offerdetail {
-      margin: 10px 60px !important;
+      //margin: 10px 60px !important;
+      top: -70px;
+      text-align: center;
+      margin: 10px 55px;
     }
   }
   .az-health-cb-mobile {
     .az-offer_box {
-      height: 300px !important;
+      height: 400px !important;
       .az-offer_body{
         .az-offer_body_title {
           font-size: 15px;
@@ -1098,7 +1326,7 @@
   }
   .az-doc-talk {
     .az-offer_box {
-      height: 300px !important;
+      height: 400px !important;
       .az-offer_body {
         .az-offer_body_title {
           font-size: 15px;
