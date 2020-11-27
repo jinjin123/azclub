@@ -4,6 +4,15 @@ body {
   font-family: "Noto Sans HK", sans-serif;
 }
 
+/*
+input,a,button,select,textarea,span,label,h4,h5,h6 {
+  //font-family: "PingFang TC - Semibold","PingFang TC - Regular";
+}
+ */
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Noto Sans HK", sans-serif;
+}
+
 .path-healthcare-guidance #block-nurseoncallyaowuyiqizhidao-2 {
   margin: 0 !important;
 }
@@ -568,15 +577,12 @@ a.button {
   margin-right: 10px;
   background: transparent url(../images/iphone.png) no-repeat;
 }
-.az-header_top .top-box-info h1 {
-  font-size: 15px;
-  font-weight: 500;
-}
 .az-header_top .top-box-info a {
+  font-size: 16px;
   font-weight: 500;
 }
 .az-header_top .top-box-info p {
-  font-size: 12px;
+  font-size: 16px;
   color: #979797;
   font-weight: 400;
 }
@@ -610,6 +616,7 @@ a.button {
 }
 .az-header_bottom .az-header-bbox .header-inner .az-header_bottom_menu .gva-navigation .gva_menu_main li a {
   font-weight: 500;
+  font-size: 16px;
   padding-top: 0 !important;
   padding-bottom: 0 !important;
   line-height: 55px;
@@ -1521,13 +1528,18 @@ a.button {
 }
 #footer .footer-center #block-footerleft div.field--name-body p {
   margin-left: 20px;
+  font-weight: 400;
+  font-size: 16px;
 }
 #footer .footer-center #block-footerleft div.field--name-body p strong {
   color: black;
+  font-weight: 500;
+  font-size: 18px;
 }
 #footer .footer-center #block-webform .block-title span {
   color: black !important;
-  font-size: 15px;
+  font-size: 18px;
+  font-weight: 400;
 }
 #footer .footer-center #block-webform .block-content #edit-markup--2 {
   display: none;
@@ -3205,4 +3217,9 @@ body.page-node-7 .node__content p {
   text-align: left;
   font-weight: 600;
   font-size: 27px;
+}
+
+.notosansfont {
+  font-weight: 300;
+  font-size: 100px;
 }

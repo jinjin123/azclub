@@ -9,9 +9,17 @@ body {
   font-family: $fr;
   //font-weight: 400;
 }
+
+/*
 input,a,button,select,textarea,span,label,h4,h5,h6 {
   //font-family: "PingFang TC - Semibold","PingFang TC - Regular";
 }
+ */
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: $fr;
+}
+
 .path-healthcare-guidance {
   #block-nurseoncallyaowuyiqizhidao-2 {
     margin: 0 !important;
@@ -673,16 +681,17 @@ a.button {
   }
 
   .top-box-info {
-    h1 {
-      font-size: 15px;
-      font-weight: $fss;
-    }
+    //h1 {
+    //  font-size: 16px;
+    //  font-weight: $fss;
+    //}
     a {
+      font-size: 16px;
       font-weight: $fss;
     }
 
     p {
-      font-size: 12px;
+      font-size: 16px;
       color: $color-gray;
       font-weight: $frs;
     }
@@ -720,6 +729,7 @@ a.button {
             li {
               a {
                 font-weight: $fss;
+                font-size: 16px;
                 padding-top: 0 !important;
                 padding-bottom: 0 !important;
                 line-height: 55px;
@@ -1879,9 +1889,13 @@ a.button {
 
         p {
           margin-left: 20px;
+          font-weight: $frs;
+          font-size: 16px;
 
           strong {
             color: black;
+            font-weight: $fss;
+            font-size: 18px;
           }
         }
       }
@@ -1890,7 +1904,8 @@ a.button {
     #block-webform {
       .block-title span {
         color: black !important;
-        font-size: 15px;
+        font-size: 18px;
+        font-weight: $frs;
       }
 
       .block-content {
@@ -4035,4 +4050,9 @@ body.page-node-7 {
     font-weight: 600;
     font-size:27px;
   }
+}
+
+.notosansfont {
+  font-weight: 300;
+  font-size: 100px;
 }

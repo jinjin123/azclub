@@ -3,8 +3,8 @@ global-styling:
   header: true
   css:
     theme:
-      //fonts.googleapis.com/css?family=Raleway:400,600,700,800,900: { type: external }
-      //fonts.googleapis.com/css?family=Open+Sans:400,600,700,800: { type: external }
+#      fonts.googleapis.com/css?family=Raleway:400,600,700,800,900: { type: external }
+#      fonts.googleapis.com/css?family=Open+Sans:400,600,700,800: { type: external }
       css/sliderlayer.css: {}
       css/font-awesome.css: {}
       css/sidebar.css: {}
