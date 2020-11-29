@@ -69,11 +69,11 @@ abstract class MultistepFormBase extends FormBase {
   * {@inheritdoc}.
   */
   public function buildForm(array $form, FormStateInterface $form_state) {
-
-    if (!\Drupal::currentUser()->isAnonymous()) {
+    /*$roles = \Drupal::currentUser()->getRoles();
+    if (!\Drupal::currentUser()->isAnonymous() && !in_array('member', $roles)) {
       $response = new RedirectResponse('/user');
       $response->send();
-    }
+    }*/
 
     // Start a manual session for anonymous users.
     if (\Drupal::currentUser()->isAnonymous() && !isset($_SESSION['multistep_form_holds_session'])) {

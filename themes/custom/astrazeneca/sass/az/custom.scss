@@ -195,7 +195,7 @@ h1, h2, h3, h4, h5, h6 {
      .az-das-title {
        text-align: left;
        .dashboard-1 {
-         font-family: $font-family-defaulttt;
+         font-family: $fr;
          color: $color-balck;
          font-size: 25px;
        }
@@ -210,6 +210,8 @@ h1, h2, h3, h4, h5, h6 {
          background: $color-red;
          border-radius: 8px;
          text-align: center;
+         font-family: $fr;
+         font-weight: $fss;
          &::after{
            content: "" ;
          }
@@ -365,7 +367,7 @@ a.button {
       height: 300px;
       .welcome-1 {
         font-size: 25px;
-        font-family: $font-family-defaulttt;
+        font-family: $fr;
         text-align: center;
       }
       .welcome-2 {
@@ -376,6 +378,11 @@ a.button {
         display: flex;
         flex-wrap: wrap;
         padding: 50px;
+        a {
+          font-family: $fr;
+          font-size: 14px;
+          font-weight: $fss;
+        }
       }
       .az-wel-btn>a{
         &::after {
@@ -4260,3 +4267,15 @@ body.page-node-7 {
   }
 }
 
+#user-login-form {
+  #edit-submit {
+    font-family: $fr;
+    font-size: 14px;
+    font-weight: $fss;
+  }
+  #edit-register {
+    font-family: $fr;
+    font-size: 14px;
+    font-weight: $fss;
+  }
+}

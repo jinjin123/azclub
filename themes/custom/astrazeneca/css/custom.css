@@ -132,7 +132,7 @@ h1, h2, h3, h4, h5, h6 {
   .az-dashboard .az-das-bd .az-das-head .az-das-title {
     text-align: left; }
     .az-dashboard .az-das-bd .az-das-head .az-das-title .dashboard-1 {
-      font-family: "PingFang TC - Semibold";
+      font-family: "Noto Sans HK", sans-serif;
       color: #444444;
       font-size: 25px; }
     .az-dashboard .az-das-bd .az-das-head .az-das-title .dashboard-2 {
@@ -142,7 +142,9 @@ h1, h2, h3, h4, h5, h6 {
     width: 60%;
     background: #eb1384;
     border-radius: 8px;
-    text-align: center; }
+    text-align: center;
+    font-family: "Noto Sans HK", sans-serif;
+    font-weight: 500; }
     .az-dashboard .az-das-bd .az-das-head .az-dasrg-button a::after {
       content: ""; }
 
@@ -250,7 +252,7 @@ a.button {
     height: 300px; }
     .az-welcome .az-wel-bd .welcome .welcome-1 {
       font-size: 25px;
-      font-family: "PingFang TC - Semibold";
+      font-family: "Noto Sans HK", sans-serif;
       text-align: center; }
     .az-welcome .az-wel-bd .welcome .welcome-2 {
       color: #d7d7d7;
@@ -259,6 +261,10 @@ a.button {
       display: flex;
       flex-wrap: wrap;
       padding: 50px; }
+      .az-welcome .az-wel-bd .welcome .az-wel-btn a {
+        font-family: "Noto Sans HK", sans-serif;
+        font-size: 14px;
+        font-weight: 500; }
     .az-welcome .az-wel-bd .welcome .az-wel-btn > a::after {
       content: ""; }
     .az-welcome .az-wel-bd .welcome .az-wel-btn > a:nth-child(1) {
@@ -2765,6 +2771,16 @@ body.page-node-7 .node__content h2 {
   text-align: left;
   font-weight: 600;
   font-size: 27px; }
+
+#user-login-form #edit-submit {
+  font-family: "Noto Sans HK", sans-serif;
+  font-size: 14px;
+  font-weight: 500; }
+
+#user-login-form #edit-register {
+  font-family: "Noto Sans HK", sans-serif;
+  font-size: 14px;
+  font-weight: 500; }
 
 @import url("../../fonts/PingFang/PingFang.css");
 @media (min-width: 770px) and (max-width: 990px) {
