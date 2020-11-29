@@ -199,7 +199,7 @@ a.button {
   padding-bottom: 30px;
   float: left;
   margin-bottom: 20px;
-  height: 340px; }
+  height: auto; }
   .az-cardthree_box .az-cardthree_img img {
     width: 100%; }
   .az-cardthree_box .az-cardthree_body {
