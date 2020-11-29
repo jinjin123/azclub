@@ -465,6 +465,7 @@ a.button {
         }
       }
       #edit-where1--wrapper {
+        margin-top:30px;
         legend {
           border-bottom: 0 !important;
         }
@@ -482,6 +483,7 @@ a.button {
         }
       }
       #edit-where2--wrapper {
+        margin-top:30px;
         margin-bottom: 10px;
         legend {
           border-bottom: 0 !important;
@@ -548,11 +550,19 @@ a.button {
         .az-reg-brith {
           //margin-right: 22px;
         }
+        .az-reg-sex {
+
+        }
         div {
           select {
             width: 84% !important;
           }
         }
+        //>div{
+        //  &:nth-child(3){
+        //    left: -25px;
+        //  }
+        //}
       }
       #edit-actions {
         margin-top: 30px;
@@ -3181,6 +3191,7 @@ body.az-user-login-page.path-user #page-main-content  {
         }
       }
       #edit-where1--wrapper {
+        //margin-top: 30px;
         legend {
           margin-bottom: 0 !important;
           font-size: 10px !important;

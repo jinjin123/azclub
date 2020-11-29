@@ -87,7 +87,7 @@ class MultistepTwoForm extends MultistepFormBase {
       //'#title' => '*性別',
       '#options' => ['0' => '*性別' ] + $allowed_values,
       '#default_value' => $this->store->get('gender') ? $this->store->get('gender') : '',
-      '#prefix' => '<div class="col-lg-3 col-md-3 col-xs-6">',
+      '#prefix' => '<div class="col-lg-3 col-md-3 col-xs-6 az-reg-sex">',
       '#suffix' => '</div></div>',
     ];
 

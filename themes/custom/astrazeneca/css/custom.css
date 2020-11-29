@@ -318,17 +318,20 @@ a.button {
           width: 100%; }
           .az-reg-three-cc .container #multistep-form-three #edit-medicine-using--wrapper #edit-medicine-using .js-form-type-radio label img {
             width: 100%; }
-  .az-reg-three-cc .container #multistep-form-three #edit-where1--wrapper legend {
-    border-bottom: 0 !important; }
-  .az-reg-three-cc .container #multistep-form-three #edit-where1--wrapper #edit-where1 {
-    display: flex; }
-    .az-reg-three-cc .container #multistep-form-three #edit-where1--wrapper #edit-where1 .js-form-type-checkbox {
-      margin-right: 10px; }
-      .az-reg-three-cc .container #multistep-form-three #edit-where1--wrapper #edit-where1 .js-form-type-checkbox input {
+  .az-reg-three-cc .container #multistep-form-three #edit-where1--wrapper {
+    margin-top: 30px; }
+    .az-reg-three-cc .container #multistep-form-three #edit-where1--wrapper legend {
+      border-bottom: 0 !important; }
+    .az-reg-three-cc .container #multistep-form-three #edit-where1--wrapper #edit-where1 {
+      display: flex; }
+      .az-reg-three-cc .container #multistep-form-three #edit-where1--wrapper #edit-where1 .js-form-type-checkbox {
         margin-right: 10px; }
-      .az-reg-three-cc .container #multistep-form-three #edit-where1--wrapper #edit-where1 .js-form-type-checkbox label {
-        font-weight: 500; }
+        .az-reg-three-cc .container #multistep-form-three #edit-where1--wrapper #edit-where1 .js-form-type-checkbox input {
+          margin-right: 10px; }
+        .az-reg-three-cc .container #multistep-form-three #edit-where1--wrapper #edit-where1 .js-form-type-checkbox label {
+          font-weight: 500; }
   .az-reg-three-cc .container #multistep-form-three #edit-where2--wrapper {
+    margin-top: 30px;
     margin-bottom: 10px; }
     .az-reg-three-cc .container #multistep-form-three #edit-where2--wrapper legend {
       border-bottom: 0 !important; }
