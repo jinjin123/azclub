@@ -584,7 +584,8 @@ a.button {
             .az-header_bottom .az-header-bbox .header-inner .az-header_bottom_menu .gva-navigation .gva_menu_main li ul li a {
               font-weight: 500;
               height: 36px;
-              line-height: 36px; }
+              line-height: 36px;
+              font-size: 12px; }
         .az-header_bottom .az-header-bbox .header-inner .az-header_bottom_menu .gva-navigation .gva_menu_main .active > a:nth-child(1) {
           color: #eb1384; }
     .az-header_bottom .az-header-bbox .az-header-search-box {
@@ -1043,7 +1044,8 @@ a.button {
     margin-right: 30px;
     border-radius: 8px;
     background-color: #fcaf17;
-    border: 1px solid #fcaf17; }
+    border: 1px solid #fcaf17;
+    font-weight: 400; }
 
 .az-offerdetail-article-header {
   position: relative;
@@ -1327,7 +1329,8 @@ a.button {
   background: #F4F4F4;
   margin-top: 50px; }
   #footer .footer-center {
-    background: unset; }
+    background: unset;
+    margin-bottom: 40px; }
     #footer .footer-center #block-footerleft div.field--name-body {
       display: flex; }
       #footer .footer-center #block-footerleft div.field--name-body img {
