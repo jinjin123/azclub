@@ -199,7 +199,7 @@ a.button {
   padding-bottom: 30px;
   float: left;
   margin-bottom: 20px;
-  height: 380px; }
+  height: 340px; }
   .az-cardthree_box .az-cardthree_img img {
     width: 100%; }
   .az-cardthree_box .az-cardthree_body {
@@ -665,36 +665,41 @@ a.button {
   font-size: 12px; }
 
 .az-product-search_box > div:nth-child(1) {
-  float: left; }
+  float: left;
+  left: 20px; }
   .az-product-search_box > div:nth-child(1) span {
     font-size: 20px;
     font-weight: 500; }
 
 .az-product-search_box > div:nth-child(2) {
   float: right;
-  height: 40px; }
+  height: 40px;
+  right: 20px; }
   .az-product-search_box > div:nth-child(2) .az-product-searright {
     float: right; }
     .az-product-search_box > div:nth-child(2) .az-product-searright .az-product-search_button {
       float: left; }
       .az-product-search_box > div:nth-child(2) .az-product-searright .az-product-search_button input {
         height: 40px;
-        border: 1px solid #979797; }
+        border: 1px solid #979797;
+        text-indent: 10px; }
     .az-product-search_box > div:nth-child(2) .az-product-searright .az-product-search_icon {
       float: left;
       width: 40px;
       height: 40px;
-      background: black url(../images/search-icon.png) no-repeat;
+      background: black url(../images/white-search-icon.png) no-repeat;
       background-position: center; }
 
 .az-product-seach_across {
-  width: 100%;
+  width: 95%;
   height: 60px;
   border-bottom: 1px solid rgba(0, 0, 0, 0.125);
-  margin-bottom: 50px; }
+  margin-bottom: 10px;
+  margin-right: 30px;
+  margin-left: 30px; }
 
 .az-product_head {
-  margin: auto;
+  margin-top: -33px;
   text-align: center;
   width: 100%;
   margin-bottom: 30px; }
@@ -708,7 +713,8 @@ a.button {
   .az-product_head .az-product-nurse-bd {
     margin: 0 200px; }
   .az-product_head .az-product_head__body {
-    color: #979797; }
+    color: #979797;
+    line-height: 2; }
     .az-product_head .az-product_head__body .container {
       width: 60% !important; }
   .az-product_head .az-pipline-redbox {
@@ -1093,12 +1099,13 @@ a.button {
       float: left; }
       .az-clinical-search_box > div:nth-child(2) .az-clincal-searright .az-clincal-search_button input {
         height: 40px;
-        border: 1px solid rgba(0, 0, 0, 0.125); }
+        border: 1px solid rgba(0, 0, 0, 0.125);
+        text-indent: 10px; }
     .az-clinical-search_box > div:nth-child(2) .az-clincal-searright .az-clincal-search_icon {
       float: left;
       width: 40px;
       height: 40px;
-      background: black url(../images/search-icon.png) no-repeat;
+      background: black url(../images/white-search-icon.png) no-repeat;
       background-position: center; }
 
 .az-clincal-seach_across {
@@ -1915,7 +1922,8 @@ footer .az-product-position .views-infinite-scroll-content-wrapper {
 
 .az-clinical-trial-aritcle {
   position: relative;
-  bottom: 80px; }
+  bottom: 80px;
+  margin-top: 20px; }
 
 .az-ft-fk {
   display: flex; }
@@ -2909,6 +2917,46 @@ body.page-node-7 .node__content h2 {
     float: left; }
   .gva-navigation {
     display: block; } }
+
+@media only screen and (min-width: 998px) and (max-width: 1200px) {
+  .az-cardthree_box {
+    height: 370px; } }
+
+@media only screen and (min-width: 838px) and (max-width: 990px) {
+  .az-cardthree_box {
+    height: 500px; } }
+
+@media only screen and (min-width: 550px) and (max-width: 838px) {
+  .az-cardthree_box {
+    height: 430px; } }
+
+@media only screen and (min-width: 505px) and (max-width: 550px) {
+  .az-cardthree_box {
+    height: 400px; } }
+
+@media only screen and (min-width: 375px) and (max-width: 490px) {
+  .az-cardthree_box {
+    height: 320px; } }
+
+@media only screen and (min-width: 375px) and (max-width: 550px) {
+  .az-clinical-product-search {
+    margin-bottom: 300px; }
+  .az-clinical-search_box > div:nth-child(1) span {
+    font-size: 20px; }
+  .az-clinical-result .az-clinical-product-search {
+    margin-bottom: 280px; }
+    .az-clinical-result .az-clinical-product-search .az-clinical-bgimg .az-clinical-search-block {
+      height: 240px; }
+  .az-offer_box .az-offer_body .az-offer_body_desc {
+    word-break: break-all;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    padding-right: 90px; }
+  .az-offer_box .az-offer_click_bottom {
+    right: 5px; } }
 
 @media only screen and (min-width: 376px) and (max-width: 1200px) {
   .az-cardtwo_box {
