@@ -739,10 +739,11 @@ a.button {
   .az-offer_box .az-offer_img {
     border-bottom: 7px solid #fcaf17;
     height: 228px;
-    display: block; }
+    display: flex;
+    justify-content: center;
+    align-items: center; }
     .az-offer_box .az-offer_img img {
-      height: 100%;
-      width: 100%; }
+      height: 100%; }
   .az-offer_box .az-offer_body {
     padding: 0px 20px 0px 20px;
     text-align: left; }
@@ -1054,13 +1055,18 @@ a.button {
     font-size: 22px; }
 
 .az-midbn .az-midbn-btn {
-  margin-top: 40px; }
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-between; }
   .az-midbn .az-midbn-btn button {
-    margin-right: 30px;
+    width: 132px;
     border-radius: 8px;
     background-color: #fcaf17;
     border: 1px solid #fcaf17;
     font-weight: 400; }
+  .az-midbn .az-midbn-btn button:focus {
+    float: none;
+    outline: none; }
 
 .az-offerdetail-article-header {
   position: relative;
@@ -1346,6 +1352,7 @@ a.button {
 #block-homerenshikangxinzhiyou .row .right {
   padding-left: 0px !important; }
   #block-homerenshikangxinzhiyou .row .right img {
+    object-fit: cover;
     width: 100%;
     height: 500px; }
 
@@ -1393,7 +1400,7 @@ a.button {
         padding: 0; }
       #footer .footer-center #block-webform .block-content form > div:nth-child(4) input[type*='submit']:hover {
         color: white;
-        border-color: 0;
+        border-color: transparent;
         background-color: #fcaf17; }
     #footer .footer-center #block-webform .block-content form {
       display: flex;
