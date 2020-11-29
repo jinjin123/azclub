@@ -584,6 +584,32 @@ blocks:
     rev_id_current: null
     fields:
       body: {  }
+  -
+    info: 疾病文章
+    langcode: en
+    uuid: 847b512d-ebe0-4f1b-94c2-9228ace7db08
+    bundle: basic
+    revision_id: null
+    rev_id_current: null
+    fields:
+      body:
+        -
+          value: "<p>疾病⽂章</p>\r\n<h2>最新疾病⽂章</h2>\r\n<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has<br />\r\nbeen the industry's standard dummy text ever since the 1500s, when an unknown printer<br />\r\ntook a galley of type and scrambled it to make a type</p>\r\n"
+          summary: ''
+          format: basic_html
+  -
+    info: 'Footer Disclaimer'
+    langcode: en
+    uuid: df9384d3-ae22-404a-8e1e-6bc4b3757e87
+    bundle: basic
+    revision_id: null
+    rev_id_current: null
+    fields:
+      body:
+        -
+          value: "<div class=\"container\">\r\n<div class=\"row\">\r\n<div class=\"left\">\r\n<a>隱私政策聲明</a><p>|</p><a>法律聲明及使用條款</a><p>|</p><a>聯絡我們</a>\r\n</div>\r\n<div class=\"right\">\r\n</div>\r\n</div>\r\n</div>"
+          summary: ''
+          format: basic_html
 menus:
   -
     menu_name: footer

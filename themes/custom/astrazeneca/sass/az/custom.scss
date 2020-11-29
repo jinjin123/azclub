@@ -4365,3 +4365,198 @@ body.page-node-7 {
     font-weight: $fss;
   }
 }
+
+.path-profile {
+  .content-main {
+    max-width: 800px;
+    margin: 0 auto;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.15);
+    padding: 30px;
+    #edit-send-code {
+      font-weight: $fss;
+    }
+  }
+
+  #multistep-form-two {
+    .az-form-element-container {
+      margin-bottom: 10px;
+      .az-reg-brith {
+        //margin-right: 22px;
+      }
+      div {
+        select {
+          width: 84% !important;
+        }
+      }
+    }
+    #edit-actions {
+      margin-top: 30px;
+      margin-left: 20px;
+      a {
+        border-radius: 6px !important;
+        background:  $color-thingrey;
+        width: 200px;
+        text-align: center;
+      }
+    }
+    #edit-submit {
+      background:  $color-red;
+      text-align: center;
+      float: right;
+      width: 200px;
+    }
+
+    #edit-attention2 {
+      margin-left: 15px;
+      margin-top: 40px;
+      color: $color-red;
+      margin-bottom: 30px;
+      .js-form-item-attention2-1 {
+        display: flex;
+        input {
+          margin-right: 10px;
+        }
+        label {
+          font-weight: $fss;
+        }
+      }
+    }
+    #edit-communication-mode--wrapper {
+      legend {
+        font-size: 18px !important;
+        margin-left: 20px;
+        color: $color-red;
+      }
+      .fieldset-wrapper{
+        margin-left: 20px;
+        #edit-communication-mode {
+          display: flex;
+          div {
+            margin-right: 30px;
+          }
+          label {
+            font-weight: $fss;
+          }
+        }
+      }
+    }
+    #edit-actions {
+      #edit-previous {
+        font-family: $fr;
+        font-size: 14px;
+        font-weight: $fss;
+      }
+      #edit-submit {
+        font-family: $fr;
+        font-size: 14px;
+        font-weight: $fss;
+      }
+    }
+  }
+
+  #multistep-form-three {
+    .form-item-no-medicine-using  {
+      display: flex;
+      input {
+        margin-right: 10px;
+      }
+      label {
+        font-weight: $fss;
+      }
+    }
+    #edit-ta-type {
+      label {
+        font-weight: $fss;
+      }
+    }
+    #edit-medicine-using--wrapper {
+      margin-top: 20px;
+      #edit-medicine-using {
+        display: flex;
+        flex-wrap: wrap;
+        .js-form-type-radio {
+          width: 30%;
+          margin-right: 20px;
+          input {
+            position: relative;
+            top: 220px;
+            left: 220px;
+          }
+          label {
+            width: 100%;
+            img {
+              width: 100%;
+            }
+          }
+        }
+      }
+    }
+    #edit-where1--wrapper {
+      legend {
+        border-bottom: 0 !important;
+      }
+      #edit-where1 {
+        display: flex;
+        .js-form-type-checkbox {
+          margin-right: 10px;
+          input {
+            margin-right: 10px;
+          }
+          label {
+            font-weight: $fss;
+          }
+        }
+      }
+    }
+    #edit-where2--wrapper {
+      margin-bottom: 10px;
+      legend {
+        border-bottom: 0 !important;
+      }
+      #edit-where2 {
+        display: flex;
+        flex-wrap: wrap;
+        .js-form-type-checkbox {
+          margin-right: 10px;
+          input {
+            margin-right: 10px;
+          }
+        }
+        label {
+          font-weight: $fss;
+        }
+      }
+    }
+    #edit-actions {
+      a{
+        background: $color-thingrey;
+        border-radius: 5px;
+        width: 200px;
+        text-align: center;
+        font-size: 14px;
+        font-weight: $fss;
+      }
+      input {
+        float:right;
+        width: 200px;
+        background: $color-red;
+        font-size: 14px;
+        font-family: $fr;
+        font-weight: $fss;
+      }
+    }
+  }
+}
+
+#block-jibingwenzhang {
+  text-align: center;
+  h2 {
+    font-size: 32px;
+    font-weight: $fss;
+  }
+  p {
+    color: #898989;
+    margin: 0 auto;
+    width: 60%;
+  }
+}

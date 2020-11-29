@@ -1,9 +1,9 @@
-uuid: 11f666d5-5cc3-4149-a9d0-379c9043b5f5
+uuid: 0e5ccf3e-21f9-4101-8e3a-f7459c6f5cc3
 langcode: en
 status: true
 dependencies:
   config:
-    - views.view.az_health_tips
+    - views.view.ta_article_list
   module:
     - block_visibility_groups
     - gaviasthemer
@@ -14,14 +14,14 @@ dependencies:
 third_party_settings:
   gaviasthemer:
     classes: ''
-id: views_block__az_health_tips_health_tips_yellow
+id: views_block__ta_article_list_block_13
 theme: astrazeneca
 region: after_content
-weight: -25
+weight: -22
 provider: null
-plugin: 'views_block:az_health_tips-health_tips_yellow'
+plugin: 'views_block:ta_article_list-block_13'
 settings:
-  id: 'views_block:az_health_tips-health_tips_yellow'
+  id: 'views_block:ta_article_list-block_13'
   label: ''
   provider: views
   label_display: '0'
@@ -34,5 +34,5 @@ visibility:
     block_visibility_group: ''
   request_path:
     id: request_path
-    pages: /cardiovascualr/coronary-heart
+    pages: /respiratory/severe-asthma
     negate: false

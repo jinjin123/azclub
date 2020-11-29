@@ -1,10 +1,11 @@
-uuid: be8f3c8a-992a-43fe-bb6a-0882bf6c53e5
+uuid: 201c62a9-47b8-4e63-9353-abda3b0ed4f9
 langcode: en
 status: true
 dependencies:
   content:
-    - 'block_content:basic:121544e5-1f04-4139-8968-494680cee452'
+    - 'block_content:basic:847b512d-ebe0-4f1b-94c2-9228ace7db08'
   module:
+    - block_class
     - block_content
     - block_visibility_groups
     - gaviasthemer
@@ -12,17 +13,19 @@ dependencies:
   theme:
     - astrazeneca
 third_party_settings:
+  block_class:
+    classes: container
   gaviasthemer:
     classes: ''
-id: homerenshikangxinzhiyou
+id: jibingwenzhang
 theme: astrazeneca
 region: fw_after_content
-weight: -30
+weight: -29
 provider: null
-plugin: 'block_content:121544e5-1f04-4139-8968-494680cee452'
+plugin: 'block_content:847b512d-ebe0-4f1b-94c2-9228ace7db08'
 settings:
-  id: 'block_content:121544e5-1f04-4139-8968-494680cee452'
-  label: 'home 認識康心摯友'
+  id: 'block_content:847b512d-ebe0-4f1b-94c2-9228ace7db08'
+  label: 疾病文章-最新疾病文章
   provider: block_content
   label_display: '0'
   status: true
@@ -35,5 +38,5 @@ visibility:
     block_visibility_group: ''
   request_path:
     id: request_path
-    pages: '<front>'
+    pages: /home
     negate: false

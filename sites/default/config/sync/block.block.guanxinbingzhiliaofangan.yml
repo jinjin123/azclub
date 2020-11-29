@@ -17,7 +17,7 @@ third_party_settings:
 id: guanxinbingzhiliaofangan
 theme: astrazeneca
 region: after_content
-weight: -19
+weight: -26
 provider: null
 plugin: 'block_content:862d6d69-6c75-4bab-8f84-ae2889aaa31e'
 settings:
