@@ -2126,13 +2126,31 @@ a.button {
   }
 }
 
-footer#footer::after {
-  content: ' ';
+.after-footer{
+  // content: ' ';
   width: 100%;
   height: 40px;
   background-color: #0f0f0f;
-  display: block;
+  .row {
+    display: flex;
+    align-items: stretch;
+  }
+  .left {
+    align-items: flex-start;
+    align-self: stretch;
+  }
+  .right {
+    align-items: flex-end;
+    align-self: stretch;
+  }
 }
+// footer#footer::after {
+//   content: ' ';
+//   width: 100%;
+//   height: 40px;
+//   background-color: #0f0f0f;
+//   display: block;
+// }
 
 .az-offers_product_box {
   position: relative;
