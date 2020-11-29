@@ -281,7 +281,10 @@
     display: block;
   }
 }
-@media only screen and (min-width : 1200px) and (max-width: 1440px) {
+@media only screen and (min-width : 1350px) and (max-width: 1440px) {
+  .az-offerdetail-article-header {
+    left: 38%;
+  }
   .az-offer-article {
     .az-offernode__content_body {
       top: -500px;
@@ -310,6 +313,45 @@
       width: 55%;
       left: 420px;
       top: -513px;
+    }
+  }
+}
+@media only screen and (min-width : 1200px) and (max-width: 1340px) {
+  .az-offerdetail-article-header {
+    left: 39%;
+  }
+  .az-offer-article {
+    .az-offernode__content_body {
+      top: -560px;
+      left: 32%;
+    }
+    .az-offer-detail {
+      left: -80px;
+      top: -570px;
+    }
+    .az-offers_shop {
+      top: -560px;
+      left: 25px;
+    }
+    .az-medicine-shop-header {
+      top: -520px;
+      //width: 70%;
+      //left: 390px;
+      width: 50%;
+      left: 420px;
+      .az-medicinie-left{
+        //margin: 10px 159px;
+        margin-right: 180px;
+        width: 33%;
+      }
+    }
+    .az-offerdetail{
+      //width: 44%;
+      //width: 55%;
+      //left: 420px;
+      top: -513px;
+      width: 47%;
+      left: 450px;
     }
   }
 }
