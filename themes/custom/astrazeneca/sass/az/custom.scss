@@ -2178,8 +2178,11 @@ footer#footer::after {
 // offers detail
 .az-offer-article {
   .az-offerdetail {
+    //margin: 0 !important;
+    width: 70%;
+    left: 340px;
     position: relative;
-    margin-left: 26%;
+    //margin-left: 26%;
     float: unset;
     clear: both;
     //top: -450px;
@@ -2274,7 +2277,7 @@ footer#footer::after {
 
   .field--name-field-medicine-shop-params {
     position: relative;
-    left: 11%;
+    //left: 11%;
   }
 }
 

@@ -1426,8 +1426,9 @@ footer#footer::after {
     color: #444444; }
 
 .az-offer-article .az-offerdetail {
+  width: 70%;
+  left: 340px;
   position: relative;
-  margin-left: 26%;
   float: unset;
   clear: both;
   top: -530px;
@@ -1490,8 +1491,7 @@ footer#footer::after {
 .az-offer-article {
   margin-bottom: 10px; }
   .az-offer-article .field--name-field-medicine-shop-params {
-    position: relative;
-    left: 11%; }
+    position: relative; }
 
 #az-contact_valid_code {
   height: 45px;
@@ -2938,6 +2938,28 @@ body.page-node-7 .node__content h2 {
     float: left; }
   .gva-navigation {
     display: block; } }
+
+@media only screen and (min-width: 1200px) and (max-width: 1440px) {
+  .az-offer-article .az-offernode__content_body {
+    top: -500px;
+    left: 32%; }
+  .az-offer-article .az-offer-detail {
+    left: -110px;
+    top: -530px; }
+  .az-offer-article .az-offers_shop {
+    top: -520px;
+    left: 16px; }
+  .az-offer-article .az-medicine-shop-header {
+    top: -520px;
+    width: 70%;
+    left: 390px; }
+    .az-offer-article .az-medicine-shop-header .az-medicinie-left {
+      margin-right: 180px;
+      width: 33%; }
+  .az-offer-article .az-offerdetail {
+    width: 55%;
+    left: 420px;
+    top: -513px; } }
 
 @media only screen and (min-width: 998px) and (max-width: 1200px) {
   .az-cardthree_box {
