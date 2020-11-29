@@ -1059,7 +1059,7 @@ a.button {
   display: flex;
   justify-content: space-between; }
   .az-midbn .az-midbn-btn button {
-    margin-right: 30px;
+    width: 132px;
     border-radius: 8px;
     background-color: #fcaf17;
     border: 1px solid #fcaf17;

@@ -1580,7 +1580,8 @@ a.button {
     display: flex;
     justify-content: space-between;
      button {
-       margin-right: 30px;
+       // margin-right: 30px;
+       width: 132px;
        border-radius: 8px;
        background-color: $color-orange;
        border:  1px solid  $color-orange ;
