@@ -292,6 +292,10 @@ a.button {
     display: flex; }
     .az-reg-three-cc .container #multistep-form-three .form-item-no-medicine-using input {
       margin-right: 10px; }
+    .az-reg-three-cc .container #multistep-form-three .form-item-no-medicine-using label {
+      font-weight: 500; }
+  .az-reg-three-cc .container #multistep-form-three #edit-ta-type label {
+    font-weight: 500; }
   .az-reg-three-cc .container #multistep-form-three #edit-medicine-using--wrapper {
     margin-top: 20px; }
     .az-reg-three-cc .container #multistep-form-three #edit-medicine-using--wrapper #edit-medicine-using {
@@ -316,6 +320,8 @@ a.button {
       margin-right: 10px; }
       .az-reg-three-cc .container #multistep-form-three #edit-where1--wrapper #edit-where1 .js-form-type-checkbox input {
         margin-right: 10px; }
+      .az-reg-three-cc .container #multistep-form-three #edit-where1--wrapper #edit-where1 .js-form-type-checkbox label {
+        font-weight: 500; }
   .az-reg-three-cc .container #multistep-form-three #edit-where2--wrapper {
     margin-bottom: 10px; }
     .az-reg-three-cc .container #multistep-form-three #edit-where2--wrapper legend {
@@ -327,15 +333,22 @@ a.button {
         margin-right: 10px; }
         .az-reg-three-cc .container #multistep-form-three #edit-where2--wrapper #edit-where2 .js-form-type-checkbox input {
           margin-right: 10px; }
+      .az-reg-three-cc .container #multistep-form-three #edit-where2--wrapper #edit-where2 label {
+        font-weight: 500; }
   .az-reg-three-cc .container #multistep-form-three #edit-actions a {
     background: #d7d7d7;
     border-radius: 5px;
     width: 200px;
-    text-align: center; }
+    text-align: center;
+    font-size: 14px;
+    font-weight: 500; }
   .az-reg-three-cc .container #multistep-form-three #edit-actions input {
     float: right;
     width: 200px;
-    background: #eb1384; }
+    background: #eb1384;
+    font-size: 14px;
+    font-family: "Noto Sans HK", sans-serif;
+    font-weight: 500; }
 
 .az-reg-two-cc .container {
   position: relative;
@@ -393,9 +406,13 @@ a.button {
       .az-reg-two-cc .container #edit-communication-mode--wrapper .fieldset-wrapper #edit-communication-mode label {
         font-weight: 500; }
   .az-reg-two-cc .container #edit-actions #edit-previous {
-    font-family: "Noto Sans HK", sans-serif; }
+    font-family: "Noto Sans HK", sans-serif;
+    font-size: 14px;
+    font-weight: 500; }
   .az-reg-two-cc .container #edit-actions #edit-submit {
-    font-family: "Noto Sans HK", sans-serif; }
+    font-family: "Noto Sans HK", sans-serif;
+    font-size: 14px;
+    font-weight: 500; }
 
 .az-myjibin {
   position: relative;
@@ -2612,7 +2629,9 @@ body.az-user-login-page.path-user #page-main-content .main-content-inner {
     #multistep-form-one #edit-actions input {
       width: 100%;
       background: #eb1384;
-      font-family: "Noto Sans HK", sans-serif; }
+      font-family: "Noto Sans HK", sans-serif;
+      font-size: 14px;
+      font-weight: 500; }
 
 .sidebar-nav .sub-sidebar-nav li a {
   border-left: 3px solid #fcaf17;

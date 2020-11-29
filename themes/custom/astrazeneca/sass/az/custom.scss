@@ -425,6 +425,14 @@ a.button {
         input {
           margin-right: 10px;
         }
+        label {
+          font-weight: $fss;
+        }
+      }
+      #edit-ta-type {
+        label {
+          font-weight: $fss;
+        }
       }
       #edit-medicine-using--wrapper {
         margin-top: 20px;
@@ -459,6 +467,9 @@ a.button {
             input {
               margin-right: 10px;
             }
+            label {
+              font-weight: $fss;
+            }
           }
         }
       }
@@ -476,6 +487,9 @@ a.button {
               margin-right: 10px;
             }
           }
+          label {
+            font-weight: $fss;
+          }
         }
       }
       #edit-actions {
@@ -484,11 +498,16 @@ a.button {
           border-radius: 5px;
           width: 200px;
           text-align: center;
+          font-size: 14px;
+          font-weight: $fss;
         }
         input {
           float:right;
           width: 200px;
           background: $color-red;
+          font-size: 14px;
+          font-family: $fr;
+          font-weight: $fss;
         }
       }
     }
@@ -585,9 +604,13 @@ a.button {
     #edit-actions {
       #edit-previous {
         font-family: $fr;
+        font-size: 14px;
+        font-weight: $fss;
       }
       #edit-submit {
         font-family: $fr;
+        font-size: 14px;
+        font-weight: $fss;
       }
     }
 
@@ -3997,6 +4020,8 @@ body.az-user-login-page.path-user #page-main-content  {
       width: 100%;
       background: $color-red;
       font-family: $fr;
+      font-size: 14px;
+      font-weight: $fss;
     }
   }
 }
