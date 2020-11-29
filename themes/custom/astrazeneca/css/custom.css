@@ -2915,6 +2915,16 @@ body.page-node-7 .node__content h2 {
   font-family: "Noto Sans HK", sans-serif;
   font-weight: 500; }
 
+#block-jibingwenzhang {
+  text-align: center; }
+  #block-jibingwenzhang h2 {
+    font-size: 32px;
+    font-weight: 500; }
+  #block-jibingwenzhang p {
+    color: #898989;
+    margin: 0 auto;
+    width: 60%; }
+
 @import url("../../fonts/PingFang/PingFang.css");
 @media (min-width: 770px) and (max-width: 990px) {
   #block-guanxinbingzhiliaofangan .block-content {
