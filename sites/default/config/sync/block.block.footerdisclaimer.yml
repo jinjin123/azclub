@@ -1,0 +1,34 @@
+uuid: 0dd9bff0-f0c6-4426-b8e5-f4577345c6a6
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:df9384d3-ae22-404a-8e1e-6bc4b3757e87'
+  module:
+    - block_content
+    - block_visibility_groups
+    - gaviasthemer
+  theme:
+    - astrazeneca
+third_party_settings:
+  gaviasthemer:
+    classes: ''
+id: footerdisclaimer
+theme: astrazeneca
+region: after_footer
+weight: 0
+provider: null
+plugin: 'block_content:df9384d3-ae22-404a-8e1e-6bc4b3757e87'
+settings:
+  id: 'block_content:df9384d3-ae22-404a-8e1e-6bc4b3757e87'
+  label: 'Footer Disclaimer'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  condition_group:
+    id: condition_group
+    negate: false
+    block_visibility_group: ''

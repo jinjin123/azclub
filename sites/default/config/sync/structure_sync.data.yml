@@ -511,6 +511,19 @@ blocks:
           summary: ''
           format: full_html
   -
+    info: 'az offers detail page banner'
+    langcode: en
+    uuid: 335c6863-d9a7-4f14-aad1-e34c3f70aac1
+    bundle: basic
+    revision_id: null
+    rev_id_current: null
+    fields:
+      body:
+        -
+          value: "<div class=\"az-top-banner\">\r\n<div class=\"container\">\r\n<h1>病友支援 / 藥物優惠</h1>\r\n\r\n<h1>兩盒裝優惠 (附特選藥房資訊)</h1>\r\n</div>\r\n<img alt=\"\" data-entity-type=\"file\" data-entity-uuid=\"a65e534a-6e4b-4ff4-887f-e279b80733ba\" height=\"260\" src=\"/sites/default/files/imce_upload/admin/Health%20Information%20-TA%20Campaign%20-%20Heart.png\" width=\"1440\" /></div>\r\n"
+          summary: ''
+          format: full_html
+  -
     info: 'Health Information Banner'
     langcode: en
     uuid: 99a64187-31c9-4e28-a47e-76561497fdee
@@ -572,19 +585,6 @@ blocks:
     fields:
       body: {  }
   -
-    info: 'az offers detail page banner'
-    langcode: en
-    uuid: 335c6863-d9a7-4f14-aad1-e34c3f70aac1
-    bundle: basic
-    revision_id: null
-    rev_id_current: null
-    fields:
-      body:
-        -
-          value: "<div class=\"az-top-banner\">\r\n<div class=\"container\">\r\n<h1>病友支援 / 藥物優惠</h1>\r\n\r\n<h1>兩盒裝優惠 (附特選藥房資訊)</h1>\r\n</div>\r\n<img alt=\"\" data-entity-type=\"file\" data-entity-uuid=\"a65e534a-6e4b-4ff4-887f-e279b80733ba\" height=\"260\" src=\"/sites/default/files/imce_upload/admin/Health%20Information%20-TA%20Campaign%20-%20Heart.png\" width=\"1440\" /></div>\r\n"
-          summary: ''
-          format: full_html
-  -
     info: 疾病文章
     langcode: en
     uuid: 847b512d-ebe0-4f1b-94c2-9228ace7db08
@@ -595,6 +595,19 @@ blocks:
       body:
         -
           value: "<p>疾病⽂章</p>\r\n<h2>最新疾病⽂章</h2>\r\n<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has<br />\r\nbeen the industry's standard dummy text ever since the 1500s, when an unknown printer<br />\r\ntook a galley of type and scrambled it to make a type</p>\r\n"
+          summary: ''
+          format: basic_html
+  -
+    info: 'Footer Disclaimer'
+    langcode: en
+    uuid: df9384d3-ae22-404a-8e1e-6bc4b3757e87
+    bundle: basic
+    revision_id: null
+    rev_id_current: null
+    fields:
+      body:
+        -
+          value: "<div class=\"container\">\r\n<div class=\"row\">\r\n<div class=\"left\">\r\n<a>隱私政策聲明</a><p>|</p><a>法律聲明及使用條款</a><p>|</p><a>聯絡我們</a>\r\n</div>\r\n<div class=\"right\">\r\n</div>\r\n</div>\r\n</div>"
           summary: ''
           format: basic_html
 menus:
