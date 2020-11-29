@@ -281,6 +281,137 @@
     display: block;
   }
 }
+@media only screen and (min-width : 1350px) and (max-width: 1440px) {
+  .az-offerdetail-article-header {
+    left: 38%;
+  }
+  .az-offer-article {
+    .az-offernode__content_body {
+      top: -500px;
+      left: 32%;
+    }
+    .az-offer-detail {
+      left: -110px;
+      top: -530px;
+    }
+    .az-offers_shop {
+      top: -520px;
+      left: 16px;
+    }
+    .az-medicine-shop-header {
+      top: -520px;
+      width: 70%;
+      left: 390px;
+      .az-medicinie-left{
+        //margin: 10px 159px;
+        margin-right: 180px;
+        width: 33%;
+      }
+    }
+    .az-offerdetail{
+      //width: 44%;
+      width: 55%;
+      left: 420px;
+      top: -513px;
+    }
+  }
+}
+@media only screen and (min-width : 1200px) and (max-width: 1340px) {
+  .az-offerdetail-article-header {
+    left: 39%;
+  }
+  .az-offer-article {
+    .az-offernode__content_body {
+      top: -560px;
+      left: 32%;
+    }
+    .az-offer-detail {
+      left: -80px;
+      top: -570px;
+    }
+    .az-offers_shop {
+      top: -560px;
+      left: 25px;
+    }
+    .az-medicine-shop-header {
+      top: -520px;
+      //width: 70%;
+      //left: 390px;
+      width: 50%;
+      left: 420px;
+      .az-medicinie-left{
+        //margin: 10px 159px;
+        margin-right: 180px;
+        width: 33%;
+      }
+    }
+    .az-offerdetail{
+      //width: 44%;
+      //width: 55%;
+      //left: 420px;
+      top: -513px;
+      width: 47%;
+      left: 450px;
+    }
+  }
+}
+@media only screen and (min-width : 998px) and (max-width: 1200px) {
+  .az-cardthree_box {
+    height: 370px;
+  }
+}
+@media only screen and (min-width : 838px) and (max-width: 990px) {
+  .az-cardthree_box {
+    height: 500px;
+
+  }
+}
+@media only screen and (min-width : 550px) and (max-width: 838px) {
+  .az-cardthree_box {
+    height: 430px;
+  }
+}
+@media only screen and (min-width : 505px) and (max-width: 550px) {
+  .az-cardthree_box {
+    height: 400px;
+  }
+}
+@media only screen and (min-width : 375px) and (max-width: 490px) {
+  .az-cardthree_box {
+    height: 320px;
+  }
+}
+
+@media only screen and (min-width : 375px) and (max-width: 550px) {
+  .az-clinical-product-search  {
+    margin-bottom: 300px;
+  }
+  .az-clinical-search_box > div{
+     &:nth-child(1) {
+       span {
+         font-size: 20px;
+       }
+     }
+  }
+  .az-clinical-result .az-clinical-product-search {
+    margin-bottom: 280px;
+    .az-clinical-bgimg .az-clinical-search-block {
+      height: 240px;
+    }
+  }
+  .az-offer_box .az-offer_body .az-offer_body_desc {
+    word-break: break-all;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    padding-right: 90px;
+  }
+  .az-offer_box .az-offer_click_bottom {
+     right:5px;
+  }
+}
 @media only screen and (min-width : 376px) and (max-width: 1200px) {
   .az-cardtwo_box {
     height: 500px;
