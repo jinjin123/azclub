@@ -640,7 +640,7 @@ menus:
     uri: 'entity:node/14'
     link_title: null
     description: null
-    enabled: '1'
+    enabled: '0'
     expanded: '0'
     weight: '-48'
     langcode: en
@@ -688,7 +688,7 @@ menus:
     uri: 'internal:#'
     link_title: ''
     description: null
-    enabled: '1'
+    enabled: '0'
     expanded: '1'
     weight: '-43'
     langcode: en
@@ -892,7 +892,7 @@ menus:
     uri: 'internal:/azhealthclub/clinical-search'
     link_title: ''
     description: null
-    enabled: '1'
+    enabled: '0'
     expanded: '0'
     weight: '-46'
     langcode: en

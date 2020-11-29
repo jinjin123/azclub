@@ -1116,15 +1116,20 @@ a.button {
       text-overflow: ellipsis;
       overflow: hidden;
       display: -webkit-box;
+      font-family: $fr;
       -webkit-line-clamp: 2;
       -webkit-box-orient: vertical;
     }
     .az-offer_body_desc {
+      font-family: $fr;
       font-size: 16px;
       color: $cl4;
+      font-weight: $frs;
     }
 
     .az-offer_sub_title {
+      font-weight: $frs;
+      font-family: $fr;
       color: $color-gray;
       word-break: break-all;
       text-overflow: ellipsis;
@@ -1132,6 +1137,7 @@ a.button {
       display: -webkit-box;
       -webkit-line-clamp: 2;
       -webkit-box-orient: vertical;
+      padding-right: 70px;
     }
   }
 
@@ -1917,6 +1923,8 @@ a.button {
     position: absolute;
     top: 10%;
     left: 20%;
+    font-family: $fr;
+    font-weight: $fss;
   }
 
   .az-header-imgbody>p {
@@ -1926,31 +1934,40 @@ a.button {
       line-height: 3vw;
       text-align: center;
       border-radius: 10px;
-
+      font-family: $fr ;
+      font-weight: $frs ;
       a {
+        font-family: $fr ;
+        font-weight: $frs ;
         color: white;
-        font-weight: bold;
+        //font-weight: bold;
         font-size: 1vw;
       }
     }
 
     &:nth-child(2) {
       font-size: 5vw;
+      font-family: $fr ;
+      font-weight: $frs ;
       color: white;
-      font-weight: bold;
+      //font-weight: bold;
     }
 
     &:nth-child(3) {
       color: $color-red;
       font-size: 2vw;
-      font-weight: 500;
+      font-family: $fr ;
+      font-weight: $frs ;
+      //font-weight: 500;
     }
 
     &:nth-child(4) {
       color: white;
       font-size: 1.2vw;
-      font-weight: 200;
+      //font-weight: 200;
       width: 22vw;
+      font-family: $fr ;
+      font-weight: $frs ;
     }
   }
 }
@@ -2070,6 +2087,7 @@ a.button {
             width: 25%;
 
             input {
+              border-radius: 0;
               height: 40px;
               width: 100%;
               background: #EB1384;
@@ -2135,14 +2153,15 @@ footer#footer::after {
 //  top: 35%;
 //  left: 20%;
 //}
-
+// offers detail
 .az-offer-article {
   .az-offerdetail {
     position: relative;
     margin-left: 26%;
     float: unset;
     clear: both;
-    top: -450px;
+    //top: -450px;
+    top: -530px;
     display: flex;
     .az-off-pp-params {
       //border-top: 1px solid #d9d8d8;
@@ -2177,7 +2196,7 @@ footer#footer::after {
 .az-offernode__content_body {
   position: relative;
   left: 33%;
-  top: -520px;
+  top: -560px;
   display: block;
   width: 50%;
   margin: 10px 100px;
@@ -2192,7 +2211,8 @@ footer#footer::after {
 .az-offers_shop {
   display: block;
   margin-top: 0px !important;
-  top: -500px;
+  //top: -500px;
+  top: -560px;
   float: left;
   position: relative;
   width: 42%;
@@ -2220,7 +2240,8 @@ footer#footer::after {
   display: flex;
   position: relative;
   //margin-top: -700px;
-  top: -460px;
+  //top: -460px;
+  top: -540px;
   .az-medicinie-left {
     margin-right: 70px;
   }
@@ -2981,7 +3002,8 @@ body.az-user-login-page.path-user #page-main-content  {
     float: right;
     clear: both;
     display: block;
-    left: 100px;
+    //left: 100px;
+    left:60px;
     //margin-top: 20px;
     .shares {
       display: contents;
@@ -2991,15 +3013,15 @@ body.az-user-login-page.path-user #page-main-content  {
 
 
 
-.az-offer-detail {
-  margin: 0 !important;
-  height: 0px;
-  float: none;
-  clear: both;
-  top: -500px;
-  position: relative;
-  left: 730px;
-}
+//.az-offer-detail {
+//  margin: 0 !important;
+//  height: 0px;
+//  float: none;
+//  clear: both;
+//  top: -500px;
+//  position: relative;
+//  left: 730px;
+//}
 
 .az-nurse-contentimg {
   display: flex;
@@ -3806,10 +3828,12 @@ body.az-user-login-page.path-user #page-main-content  {
 
 .az-offer-detail {
   position: relative;
-  top: -730px;
+  //top: -730px;
+  top: -560px;
   //margin: 30px 500px;
   margin: 0px 500px;
-  left: -150px;
+  //left: -150px;
+  left: -190px;
   text-align: right;
 }
 
@@ -4150,19 +4174,23 @@ body.az-user-login-page.path-user #page-main-content  {
   border-radius: 10px;
   text-align: center;
   height: 482px;
-
+  top: 30%;
+  left: 40%;
   .block-webform-popup-subscibe-modal-close.spb_close {
     position: relative;
     top: -30px;
     right: -25px;
     background: black;
-    width: 66px;
-    height: 66px;
+    //width: 66px;
+    //height: 66px;
+    width: 60px;
+    height: 60px;
     border: 0;
     border-radius: 50%;
     color: white;
-    font-size: 58px;
-    line-height: 66px;
+    font-size: 47px;
+    //font-size: 43px;
+    line-height: 60px;
   }
 
   .block-title {

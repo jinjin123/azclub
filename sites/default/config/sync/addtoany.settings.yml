@@ -1,5 +1,5 @@
-buttons_size: 32
-additional_html: "<a class=\"a2a_button_facebook\"></a>\r\n<a class=\"a2a_button_linkedin\"></a>"
+buttons_size: 16
+additional_html: "<a class=\"a2a_button_facebook\">\r\n    <img src=\"/sites/default/files/imce_upload/admin/facebook.png\">\r\n</a>\r\n<a class=\"a2a_button_linkedin\">\r\n    <img src=\"/sites/default/files/imce_upload/admin/linkedin.png\">\r\n</a>"
 additional_css: ''
 additional_js: ''
 universal_button: none
