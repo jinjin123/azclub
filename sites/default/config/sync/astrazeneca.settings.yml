@@ -6,7 +6,9 @@ features:
 logo:
   use_default: 1
 favicon:
-  use_default: 1
+  use_default: 0
+  path: 'public://azclub_favicon_0.ico'
+  mimetype: image/vnd.microsoft.icon
 theme_skin: ''
 enable_customize: '0'
 layzy_load: 'off'
@@ -17,7 +19,7 @@ preloader: '0'
 default_header: header
 option_header: ''
 footer_first_size: '6'
-footer_second_size: '0'
+footer_second_size: '3'
 footer_third_size: '6'
-footer_four_size: '0'
+footer_four_size: '3'
 customize_css: ''
