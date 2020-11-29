@@ -607,9 +607,9 @@ blocks:
     fields:
       body:
         -
-          value: "<div class=\"container\">\r\n<div class=\"row\">\r\n<div class=\"left\">\r\n<a>隱私政策聲明</a><p>|</p><a>法律聲明及使用條款</a><p>|</p><a>聯絡我們</a>\r\n</div>\r\n<div class=\"right\">\r\n</div>\r\n</div>\r\n</div>"
+          value: "<div class=\"container\">\r\n<div class=\"row\">\r\n<div class=\"left\"><a>隱私政策聲明</a>\r\n<p>|</p>\r\n<a>法律聲明及使用條款</a>\r\n\r\n<p>|</p>\r\n<a>聯絡我們</a></div>\r\n\r\n<div class=\"right\">版權所有  ©2020阿斯利康</div>\r\n</div>\r\n</div>\r\n"
           summary: ''
-          format: basic_html
+          format: full_html
 menus:
   -
     menu_name: footer
