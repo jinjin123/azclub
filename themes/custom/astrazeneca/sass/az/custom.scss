@@ -862,6 +862,7 @@ a.button {
                     font-weight: $fss;
                     height: 36px;
                     line-height: 36px;
+                    font-size: 12px;
                   }
                 }
               }
@@ -1553,6 +1554,7 @@ a.button {
        border-radius: 8px;
        background-color: $color-orange;
        border:  1px solid  $color-orange ;
+       font-weight: $frs;
      }
   }
 }
@@ -2009,7 +2011,7 @@ a.button {
 
   .footer-center {
     background: unset;
-
+    margin-bottom: 40px;
     #block-footerleft {
       div.field--name-body {
         display: flex;
