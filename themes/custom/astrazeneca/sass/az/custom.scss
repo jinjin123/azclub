@@ -2113,6 +2113,12 @@ a.button {
               height: 40px;
               width: 100%;
               background: #EB1384;
+              padding: 0;
+            }
+            input[type*='submit']:hover {
+              color: white;
+              border-color: 0;
+              background-color: #fcaf17;
             }
           }
         }
