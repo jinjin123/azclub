@@ -1,0 +1,11 @@
+uuid: 851d09e1-d89d-4725-bea0-6a3f1b0deabf
+langcode: en
+status: true
+dependencies:
+  module:
+    - convert_bundles
+id: convert_bundles_on_date_format
+label: 'Convert Date format Entity Bundles'
+type: date_format
+plugin: convert_bundles_action_base
+configuration: {  }

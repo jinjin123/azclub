@@ -1,0 +1,11 @@
+uuid: 43566f66-b82f-442b-8ac3-c2a8131795dd
+langcode: en
+status: true
+dependencies:
+  module:
+    - convert_bundles
+id: convert_bundles_on_menu_link_content
+label: 'Convert Custom menu link Entity Bundles'
+type: menu_link_content
+plugin: convert_bundles_action_base
+configuration: {  }

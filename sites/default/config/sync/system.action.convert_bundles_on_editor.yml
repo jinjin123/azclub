@@ -1,0 +1,11 @@
+uuid: 24e68be8-7eda-4482-9aef-ee1d2ad64241
+langcode: en
+status: true
+dependencies:
+  module:
+    - convert_bundles
+id: convert_bundles_on_editor
+label: 'Convert Text Editor Entity Bundles'
+type: editor
+plugin: convert_bundles_action_base
+configuration: {  }

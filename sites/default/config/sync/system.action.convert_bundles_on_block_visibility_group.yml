@@ -1,0 +1,11 @@
+uuid: 7a94e584-faf0-44a3-be4a-eeeb2aeafd53
+langcode: en
+status: true
+dependencies:
+  module:
+    - convert_bundles
+id: convert_bundles_on_block_visibility_group
+label: 'Convert Block Visibility Group Entity Bundles'
+type: block_visibility_group
+plugin: convert_bundles_action_base
+configuration: {  }

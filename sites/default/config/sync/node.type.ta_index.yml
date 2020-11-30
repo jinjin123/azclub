@@ -1,0 +1,17 @@
+uuid: 6a3412e0-9ebc-4d23-ae2a-387beb20d7ea
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: 'TA Index'
+type: ta_index
+description: 'Therapeutic Area Index'
+help: ''
+new_revision: false
+preview_mode: 1
+display_submitted: false

@@ -1,0 +1,11 @@
+uuid: 2d88de40-822d-4caf-8443-2f206eca4ac9
+langcode: en
+status: true
+dependencies:
+  module:
+    - convert_bundles
+id: convert_bundles_on_profile_type
+label: 'Convert Profile type Entity Bundles'
+type: profile_type
+plugin: convert_bundles_action_base
+configuration: {  }

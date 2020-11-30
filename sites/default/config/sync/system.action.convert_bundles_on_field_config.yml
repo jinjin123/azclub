@@ -1,0 +1,11 @@
+uuid: f7cf1a07-2643-457b-a7b2-9e488c0ea8d9
+langcode: en
+status: true
+dependencies:
+  module:
+    - convert_bundles
+id: convert_bundles_on_field_config
+label: 'Convert Field Entity Bundles'
+type: field_config
+plugin: convert_bundles_action_base
+configuration: {  }

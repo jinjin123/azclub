@@ -1,0 +1,20 @@
+uuid: f68a98cc-a032-44ea-978b-5954ecab80c7
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - taxonomy
+id: node.field_ta_index_parent_type
+field_name: field_ta_index_parent_type
+entity_type: node
+type: entity_reference
+settings:
+  target_type: taxonomy_term
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

@@ -1,0 +1,11 @@
+uuid: d1f2e6ad-7c56-4a64-a750-97ea3c1c94dc
+langcode: en
+status: true
+dependencies:
+  module:
+    - convert_bundles
+id: convert_bundles_on_tour
+label: 'Convert Tour Entity Bundles'
+type: tour
+plugin: convert_bundles_action_base
+configuration: {  }

@@ -1,0 +1,42 @@
+uuid: b7df9f26-fb86-48e5-a59d-14ac5c5e88dd
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.ta_index.body
+    - field.field.node.ta_index.field_link
+    - field.field.node.ta_index.field_ta_index_img
+    - field.field.node.ta_index.field_ta_index_logo
+    - field.field.node.ta_index.field_ta_index_parent_type
+    - field.field.node.ta_index.field_weight
+    - node.type.ta_index
+  module:
+    - text
+    - user
+id: node.ta_index.teaser
+targetEntityType: node
+bundle: ta_index
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  addtoany: true
+  field_link: true
+  field_ta_index_img: true
+  field_ta_index_logo: true
+  field_ta_index_parent_type: true
+  field_weight: true
+  search_api_excerpt: true
