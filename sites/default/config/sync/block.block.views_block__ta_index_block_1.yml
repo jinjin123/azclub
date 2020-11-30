@@ -1,9 +1,9 @@
-uuid: d9d6b8dd-86ff-4a92-8fbb-c561e88dd3f0
+uuid: 5e325854-5d0a-4144-88f2-166debea63b7
 langcode: en
 status: true
 dependencies:
   config:
-    - views.view.ta_campaign
+    - views.view.ta_index
   module:
     - block_visibility_groups
     - gaviasthemer
@@ -14,14 +14,14 @@ dependencies:
 third_party_settings:
   gaviasthemer:
     classes: ''
-id: views_block__ta_campaign_block_1
+id: views_block__ta_index_block_1
 theme: astrazeneca
 region: content
-weight: -22
+weight: -31
 provider: null
-plugin: 'views_block:ta_campaign-block_1'
+plugin: 'views_block:ta_index-block_1'
 settings:
-  id: 'views_block:ta_campaign-block_1'
+  id: 'views_block:ta_index-block_1'
   label: ''
   provider: views
   label_display: '0'

@@ -1,9 +1,9 @@
-uuid: 80fd50c6-2ae6-4052-8049-476dabae9d21
+uuid: 64d44264-5e22-4757-904f-da161bacac11
 langcode: en
 status: true
 dependencies:
   config:
-    - views.view.ta_campaign
+    - views.view.ta_index
   module:
     - block_visibility_groups
     - gaviasthemer
@@ -14,14 +14,14 @@ dependencies:
 third_party_settings:
   gaviasthemer:
     classes: ''
-id: views_block__ta_campaign_block_2
+id: views_block__ta_index_block_3
 theme: astrazeneca
 region: content
-weight: -21
+weight: -29
 provider: null
-plugin: 'views_block:ta_campaign-block_2'
+plugin: 'views_block:ta_index-block_3'
 settings:
-  id: 'views_block:ta_campaign-block_2'
+  id: 'views_block:ta_index-block_3'
   label: ''
   provider: views
   label_display: '0'
@@ -34,5 +34,5 @@ visibility:
     block_visibility_group: ''
   request_path:
     id: request_path
-    pages: /cardiovascualr
+    pages: /diabetes
     negate: false

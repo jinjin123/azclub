@@ -16,7 +16,7 @@ _core:
 id: astrazeneca_page_title
 theme: astrazeneca
 region: content
-weight: -27
+weight: -41
 provider: null
 plugin: page_title_block
 settings:
