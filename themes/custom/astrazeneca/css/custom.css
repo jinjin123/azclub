@@ -3365,6 +3365,7 @@ body.page-node-7 .node__content h2 {
   .az-midbn .az-midbn-btn {
     margin-top: 40px; }
     .az-midbn .az-midbn-btn button {
+      font-size: 12px;
       width: 45%;
       margin-right: 14px !important;
       border-radius: 8px;
