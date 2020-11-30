@@ -1,0 +1,22 @@
+uuid: 14868b88-763a-4413-b644-670dfa8cc7e6
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.banner
+id: node.banner.status
+field_name: status
+entity_type: node
+bundle: banner
+label: Published
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean
