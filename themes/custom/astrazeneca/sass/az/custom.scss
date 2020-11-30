@@ -4611,3 +4611,16 @@ body.page-node-7 {
     width: 60%;
   }
 }
+
+.frontpage {
+  div.view-content-wrap {
+    div.col-sm-12.col-md-6.col-lg-4.item {
+      text-align: center;
+      div.views-field.views-field-body {
+        max-width: 360px;
+        margin: 0 auto;
+      }
+    }
+  }
+}
+
