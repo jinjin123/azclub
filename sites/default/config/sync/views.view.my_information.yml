@@ -1,14 +1,15 @@
 uuid: 5b30ca3a-d127-4253-98ee-3512284623b3
 langcode: en
-status: true
+status: false
 dependencies:
   config:
     - field.storage.node.body
     - field.storage.node.field_health_information_img
     - field.storage.node.field_ta_campaign_img
-    - field.storage.node.field_ta_campaign_logo
+    - field.storage.node.field_ta_index_img
+    - field.storage.node.field_ta_index_logo
     - node.type.health_information
-    - node.type.ta_campaign
+    - node.type.ta_index
   module:
     - image
     - node
@@ -71,70 +72,6 @@ display:
           id: field_ta_campaign_img
           table: node__field_ta_campaign_img
           field: field_ta_campaign_img
-          relationship: none
-          group_type: group
-          admin_label: ''
-          label: ''
-          exclude: true
-          alter:
-            alter_text: false
-            text: ''
-            make_link: false
-            path: ''
-            absolute: false
-            external: false
-            replace_spaces: false
-            path_case: none
-            trim_whitespace: false
-            alt: ''
-            rel: ''
-            link_class: ''
-            prefix: ''
-            suffix: ''
-            target: ''
-            nl2br: false
-            max_length: 0
-            word_boundary: true
-            ellipsis: true
-            more_link: false
-            more_link_text: ''
-            more_link_path: ''
-            strip_tags: false
-            trim: false
-            preserve_tags: ''
-            html: false
-          element_type: ''
-          element_class: ''
-          element_label_type: ''
-          element_label_class: ''
-          element_label_colon: false
-          element_wrapper_type: ''
-          element_wrapper_class: ''
-          element_default_classes: true
-          empty: ''
-          hide_empty: false
-          empty_zero: false
-          hide_alter_empty: true
-          click_sort_column: target_id
-          type: image
-          settings:
-            image_style: ''
-            image_link: ''
-          group_column: ''
-          group_columns: {  }
-          group_rows: true
-          delta_limit: 0
-          delta_offset: 0
-          delta_reversed: false
-          delta_first_last: false
-          multi_type: separator
-          separator: ', '
-          field_api_classes: false
-          plugin_id: field
-        field_ta_campaign_logo:
-          id: field_ta_campaign_logo
-          table: node__field_ta_campaign_logo
-          field: field_ta_campaign_logo
           relationship: none
           group_type: group
           admin_label: ''
@@ -397,7 +334,7 @@ display:
           admin_label: ''
           operator: in
           value:
-            ta_campaign: ta_campaign
+            ta_index: ta_index
           group: 1
           exposed: false
           expose:
@@ -476,7 +413,6 @@ display:
       tags:
         - 'config:field.storage.node.body'
         - 'config:field.storage.node.field_ta_campaign_img'
-        - 'config:field.storage.node.field_ta_campaign_logo'
   block_1:
     display_plugin: block
     id: block_1
@@ -504,10 +440,10 @@ display:
         fields: false
         css_class: false
       fields:
-        field_ta_campaign_img:
-          id: field_ta_campaign_img
-          table: node__field_ta_campaign_img
-          field: field_ta_campaign_img
+        field_ta_index_img:
+          id: field_ta_index_img
+          table: node__field_ta_index_img
+          field: field_ta_index_img
           relationship: none
           group_type: group
           admin_label: ''
@@ -568,10 +504,10 @@ display:
           separator: ', '
           field_api_classes: false
           plugin_id: field
-        field_ta_campaign_logo:
-          id: field_ta_campaign_logo
-          table: node__field_ta_campaign_logo
-          field: field_ta_campaign_logo
+        field_ta_index_logo:
+          id: field_ta_index_logo
+          table: node__field_ta_index_logo
+          field: field_ta_index_logo
           relationship: none
           group_type: group
           admin_label: ''
@@ -759,7 +695,7 @@ display:
           exclude: false
           alter:
             alter_text: true
-            text: "<div class=\"az-card7_box\">\r\n  <div class=\"az-card7_img\"> {{ field_ta_campaign_img }} </div>\r\n  <div class=\"az-card7_body\">\r\n\t<div class=\"az-card7_logoimg\"> {{ field_ta_campaign_logo }}</div>\r\n    \t <h4 class=\"az-card7_body_title\">{{ title }}</h4>\r\n    \t<div class=\"az-card7_sub_title\">{{ body }}</div>\r\n\t<div class=\"az-card7_click_bottom\"><a href=\"{{ view_node }}\" class=\"btn\">了解更多</a></div>\r\n  </div>\r\n</div>"
+            text: "<div class=\"az-card7_box\">\r\n  <div class=\"az-card7_img\"> {{ field_ta_index_img }} </div>\r\n  <div class=\"az-card7_body\">\r\n\t<div class=\"az-card7_logoimg\"> {{ field_ta_index_logo }}</div>\r\n    \t <h4 class=\"az-card7_body_title\">{{ title }}</h4>\r\n    \t<div class=\"az-card7_sub_title\">{{ body }}</div>\r\n\t<div class=\"az-card7_click_bottom\"><a href=\"{{ view_node }}\" class=\"btn\">了解更多</a></div>\r\n  </div>\r\n</div>"
             make_link: false
             path: ''
             absolute: false
@@ -820,8 +756,8 @@ display:
         - user.permissions
       tags:
         - 'config:field.storage.node.body'
-        - 'config:field.storage.node.field_ta_campaign_img'
-        - 'config:field.storage.node.field_ta_campaign_logo'
+        - 'config:field.storage.node.field_ta_index_img'
+        - 'config:field.storage.node.field_ta_index_logo'
   block_2:
     display_plugin: block
     id: block_2
