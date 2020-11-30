@@ -2997,6 +2997,12 @@ body.page-node-7 .node__content h2 {
     margin: 0 auto;
     width: 60%; }
 
+.frontpage div.view-content-wrap div.col-sm-12.col-md-6.col-lg-4.item {
+  text-align: center; }
+  .frontpage div.view-content-wrap div.col-sm-12.col-md-6.col-lg-4.item div.views-field.views-field-body {
+    max-width: 360px;
+    margin: 0 auto; }
+
 @import url("../../fonts/PingFang/PingFang.css");
 @media (min-width: 770px) and (max-width: 990px) {
   #block-guanxinbingzhiliaofangan .block-content {
