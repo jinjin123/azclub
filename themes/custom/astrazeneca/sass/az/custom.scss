@@ -2030,7 +2030,7 @@ a.button {
 //    }
 //}
 #block-homerenshikangxinzhiyou {
-  .row {
+  .az-midbn {
     .left {
       color: white;
       background-color: $color-red;
@@ -2044,7 +2044,7 @@ a.button {
     }
 
     .right {
-      padding-left: 0px !important;
+      padding: 0 !important;
 
       img {
         object-fit: cover;
