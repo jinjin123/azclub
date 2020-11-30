@@ -1,4 +1,5 @@
 module:
+  action: 0
   addtoany: 0
   admin_toolbar: 0
   admin_toolbar_links_access_filter: 0
@@ -24,6 +25,7 @@ module:
   contact_block: 0
   content_access: 0
   contextual: 0
+  convert_bundles: 0
   ctools: 0
   datetime: 0
   dblog: 0

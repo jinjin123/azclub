@@ -207,7 +207,10 @@ a.button {
     position: relative; }
     .az-cardthree_box .az-cardthree_body .az-cardthree_logoimg {
       float: right;
-      margin-top: -50px; }
+      margin-top: -50px;
+      background-color: white;
+      border-radius: 50%;
+      padding: 5px; }
     .az-cardthree_box .az-cardthree_body .az-cardthree_body_title {
       font-weight: 500;
       font-size: 20px;
@@ -224,7 +227,8 @@ a.button {
       overflow: hidden;
       display: -webkit-box;
       -webkit-line-clamp: 2;
-      -webkit-box-orient: vertical; }
+      -webkit-box-orient: vertical;
+      margin-right: 83px; }
     .az-cardthree_box .az-cardthree_body .az-cardthree_click_bottom {
       float: right;
       text-align: center;
@@ -773,7 +777,7 @@ a.button {
       display: -webkit-box;
       -webkit-line-clamp: 2;
       -webkit-box-orient: vertical;
-      padding-right: 70px; }
+      padding-right: 83px; }
   .az-offer_box .az-offer_click_bottom {
     float: right;
     text-align: center;
@@ -2997,11 +3001,16 @@ body.page-node-7 .node__content h2 {
     margin: 0 auto;
     width: 60%; }
 
+#block-views-block-ta-campaign-block-2 div.view-content-wrap div.col-sm-12.col-md-6.col-lg-4.item,
 .frontpage div.view-content-wrap div.col-sm-12.col-md-6.col-lg-4.item {
   text-align: center; }
+  #block-views-block-ta-campaign-block-2 div.view-content-wrap div.col-sm-12.col-md-6.col-lg-4.item div.views-field.views-field-body,
   .frontpage div.view-content-wrap div.col-sm-12.col-md-6.col-lg-4.item div.views-field.views-field-body {
     max-width: 360px;
     margin: 0 auto; }
+    #block-views-block-ta-campaign-block-2 div.view-content-wrap div.col-sm-12.col-md-6.col-lg-4.item div.views-field.views-field-body .az-offer_img img,
+    .frontpage div.view-content-wrap div.col-sm-12.col-md-6.col-lg-4.item div.views-field.views-field-body .az-offer_img img {
+      width: 100%; }
 
 @import url("../../fonts/PingFang/PingFang.css");
 @media (min-width: 770px) and (max-width: 990px) {
@@ -3365,6 +3374,7 @@ body.page-node-7 .node__content h2 {
   .az-midbn .az-midbn-btn {
     margin-top: 40px; }
     .az-midbn .az-midbn-btn button {
+      font-size: 12px;
       width: 45%;
       margin-right: 14px !important;
       border-radius: 8px;

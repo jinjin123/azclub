@@ -1,0 +1,22 @@
+uuid: 4f6b7d37-5684-4fcf-9074-c313d8ccc91c
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.ta_index
+id: node.ta_index.promote
+field_name: promote
+entity_type: node
+bundle: ta_index
+label: 'Promoted to front page'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

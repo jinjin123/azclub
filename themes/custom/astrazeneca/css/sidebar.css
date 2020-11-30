@@ -171,27 +171,29 @@ html { height: 100%;}
 .sidebar-nav > li.parent:before{
   content: '';
   background: url(../images/arrow-down.png) no-repeat white;
-  width: 15px;
+  width: 30px;
   height: 15px;
   display: inline-block;
   position: absolute;
   top: 13px;
   background-position: 0 10%;
-  background-size: 15px 15px;
+  background-size: 30px 15px;
   right:30px;
+  opacity: 0.2;
 }
 
 
 .sidebar-nav > li.parent.show-sub:before{
+  opacity: 0.2;
   content: '';
   background: url(../images/arrow-up.png) no-repeat white;
-  width: 15px;
+  width: 30px;
   height: 15px;
   display: inline-block;
   position: absolute;
   top: 13px;
   background-position: 0 10%;
-  background-size: 15px 15px;
+  background-size: 30px 15px;
   right:30px;
 }
 

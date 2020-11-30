@@ -1,0 +1,11 @@
+uuid: acf85ecc-2f27-4791-b482-100fcdf2b28f
+langcode: en
+status: true
+dependencies:
+  module:
+    - convert_bundles
+id: convert_bundles_on_file
+label: 'Convert File Entity Bundles'
+type: file
+plugin: convert_bundles_action_base
+configuration: {  }

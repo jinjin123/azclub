@@ -17,7 +17,7 @@ third_party_settings:
 id: clinicalmiddleblock
 theme: astrazeneca
 region: content
-weight: -14
+weight: -22
 provider: null
 plugin: 'block_content:250c78c1-5e57-44f5-aa86-6a4bc41299f8'
 settings:

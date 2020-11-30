@@ -15,7 +15,7 @@ third_party_settings:
 id: quicktabsproductshow
 theme: astrazeneca
 region: content
-weight: -16
+weight: -25
 provider: null
 plugin: 'quicktabs_block:product_show'
 settings:

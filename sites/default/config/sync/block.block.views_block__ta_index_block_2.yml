@@ -1,0 +1,38 @@
+uuid: 5dd6a925-1661-406e-b582-33b69a058691
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.ta_index
+  module:
+    - block_visibility_groups
+    - gaviasthemer
+    - system
+    - views
+  theme:
+    - astrazeneca
+third_party_settings:
+  gaviasthemer:
+    classes: ''
+id: views_block__ta_index_block_2
+theme: astrazeneca
+region: content
+weight: -30
+provider: null
+plugin: 'views_block:ta_index-block_2'
+settings:
+  id: 'views_block:ta_index-block_2'
+  label: ''
+  provider: views
+  label_display: '0'
+  views_label: ''
+  items_per_page: none
+visibility:
+  condition_group:
+    id: condition_group
+    negate: false
+    block_visibility_group: ''
+  request_path:
+    id: request_path
+    pages: /cardiovascualr
+    negate: false

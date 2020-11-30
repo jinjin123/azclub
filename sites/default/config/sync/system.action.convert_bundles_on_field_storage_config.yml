@@ -1,0 +1,11 @@
+uuid: abc11e8f-de1d-4752-8772-2b64d9ecaf18
+langcode: en
+status: true
+dependencies:
+  module:
+    - convert_bundles
+id: convert_bundles_on_field_storage_config
+label: 'Convert Field storage Entity Bundles'
+type: field_storage_config
+plugin: convert_bundles_action_base
+configuration: {  }

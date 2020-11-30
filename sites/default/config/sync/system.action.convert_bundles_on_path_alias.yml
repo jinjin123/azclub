@@ -1,0 +1,11 @@
+uuid: 7cf083d5-c380-42f3-b19d-73bb67ddaa02
+langcode: en
+status: true
+dependencies:
+  module:
+    - convert_bundles
+id: convert_bundles_on_path_alias
+label: 'Convert URL alias Entity Bundles'
+type: path_alias
+plugin: convert_bundles_action_base
+configuration: {  }

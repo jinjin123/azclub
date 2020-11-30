@@ -1,0 +1,23 @@
+uuid: 5bf92323-8c85-4af6-8e5f-80aade24c7f8
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_link
+    - node.type.ta_index
+  module:
+    - link
+id: node.ta_index.field_link
+field_name: field_link
+entity_type: node
+bundle: ta_index
+label: link
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  link_type: 17
+  title: 1
+field_type: link

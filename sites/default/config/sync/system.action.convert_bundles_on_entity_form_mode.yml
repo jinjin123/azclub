@@ -1,0 +1,11 @@
+uuid: 4587e18e-2a2a-4daf-9d0e-f0e7bc5146a9
+langcode: en
+status: true
+dependencies:
+  module:
+    - convert_bundles
+id: convert_bundles_on_entity_form_mode
+label: 'Convert Form mode Entity Bundles'
+type: entity_form_mode
+plugin: convert_bundles_action_base
+configuration: {  }

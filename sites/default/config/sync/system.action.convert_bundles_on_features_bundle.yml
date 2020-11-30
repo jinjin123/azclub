@@ -1,0 +1,11 @@
+uuid: bb9f20d4-6241-40bb-95d3-556de5e6201c
+langcode: en
+status: true
+dependencies:
+  module:
+    - convert_bundles
+id: convert_bundles_on_features_bundle
+label: 'Convert Features bundle Entity Bundles'
+type: features_bundle
+plugin: convert_bundles_action_base
+configuration: {  }

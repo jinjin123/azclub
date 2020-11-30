@@ -1,0 +1,11 @@
+uuid: 35cbee9d-bca7-48a0-809c-fe555291e83a
+langcode: en
+status: true
+dependencies:
+  module:
+    - convert_bundles
+id: convert_bundles_on_webform_options
+label: 'Convert Webform options Entity Bundles'
+type: webform_options
+plugin: convert_bundles_action_base
+configuration: {  }

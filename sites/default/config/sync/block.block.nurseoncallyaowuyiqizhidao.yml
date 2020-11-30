@@ -17,7 +17,7 @@ third_party_settings:
 id: nurseoncallyaowuyiqizhidao
 theme: astrazeneca
 region: content
-weight: -17
+weight: -26
 provider: null
 plugin: 'block_content:1b0d06ea-27d7-46aa-bb87-709e0f19261b'
 settings:

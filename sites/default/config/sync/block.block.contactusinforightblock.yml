@@ -17,7 +17,7 @@ third_party_settings:
 id: contactusinforightblock
 theme: astrazeneca
 region: content
-weight: -12
+weight: -20
 provider: null
 plugin: 'block_content:fa11c501-5950-469f-93a6-f8b379274c52'
 settings:
