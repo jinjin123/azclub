@@ -1164,7 +1164,7 @@ a.button {
       display: -webkit-box;
       -webkit-line-clamp: 2;
       -webkit-box-orient: vertical;
-      padding-right: 70px;
+      padding-right: 83px;
     }
   }
 
@@ -4616,6 +4616,7 @@ body.page-node-7 {
   }
 }
 
+#block-views-block-ta-campaign-block-2,
 .frontpage {
   div.view-content-wrap {
     div.col-sm-12.col-md-6.col-lg-4.item {
@@ -4623,6 +4624,11 @@ body.page-node-7 {
       div.views-field.views-field-body {
         max-width: 360px;
         margin: 0 auto;
+        .az-offer_img {
+          img {
+            width: 100%;
+          }
+        }
       }
     }
   }

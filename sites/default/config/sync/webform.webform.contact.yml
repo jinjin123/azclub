@@ -5,8 +5,6 @@ dependencies:
   enforced:
     module:
       - webform
-_core:
-  default_config_hash: Zdsrz0AOvwWoiSUBR8QppykLT3ote2PNjLJgkrRaoXA
 open: null
 close: null
 weight: 0
@@ -59,7 +57,6 @@ settings:
   form_access_denied_message: ''
   form_access_denied_attributes: {  }
   form_file_limit: ''
-  form_elements_attributes: {  }
   share: false
   share_node: false
   share_theme_name: ''
@@ -154,6 +151,7 @@ settings:
   results_customize: false
   token_view: false
   token_update: false
+  token_delete: false
   serial_disabled: false
 access:
   create:
@@ -278,3 +276,5 @@ handlers:
       sender_mail: ''
       sender_name: ''
 variants: {  }
+_core:
+  default_config_hash: Zdsrz0AOvwWoiSUBR8QppykLT3ote2PNjLJgkrRaoXA
