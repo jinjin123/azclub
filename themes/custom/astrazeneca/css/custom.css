@@ -207,7 +207,10 @@ a.button {
     position: relative; }
     .az-cardthree_box .az-cardthree_body .az-cardthree_logoimg {
       float: right;
-      margin-top: -50px; }
+      margin-top: -50px;
+      background-color: white;
+      border-radius: 50%;
+      padding: 5px; }
     .az-cardthree_box .az-cardthree_body .az-cardthree_body_title {
       font-weight: 500;
       font-size: 20px;
@@ -224,7 +227,8 @@ a.button {
       overflow: hidden;
       display: -webkit-box;
       -webkit-line-clamp: 2;
-      -webkit-box-orient: vertical; }
+      -webkit-box-orient: vertical;
+      margin-right: 83px; }
     .az-cardthree_box .az-cardthree_body .az-cardthree_click_bottom {
       float: right;
       text-align: center;

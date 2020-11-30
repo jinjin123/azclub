@@ -311,6 +311,9 @@ a.button {
     .az-cardthree_logoimg {
       float: right;
       margin-top: -50px;
+      background-color: white;
+      border-radius: 50%;
+      padding: 5px;
     }
 
     .az-cardthree_body_title {
@@ -332,6 +335,7 @@ a.button {
       display: -webkit-box;
       -webkit-line-clamp: 2;
       -webkit-box-orient: vertical;
+      margin-right: 83px;
     }
 
     .az-cardthree_click_bottom {
