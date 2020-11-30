@@ -11,7 +11,7 @@ field_name: field_ta_index_parent_type
 entity_type: node
 bundle: ta_index
 label: ta_index_parent_type
-description: ''
+description: 若為第一級，請選None
 required: false
 translatable: false
 default_value: {  }
