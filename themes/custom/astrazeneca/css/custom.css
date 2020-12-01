@@ -1845,7 +1845,7 @@ a.button {
   margin-top: 50px; }
 
 #block-zhenduanguanxinbing {
-  margin-bottom: 140px; }
+  margin-bottom: 250px; }
   #block-zhenduanguanxinbing .block-content p {
     margin: auto 20%; }
   #block-zhenduanguanxinbing .block-content ul {
@@ -3013,7 +3013,6 @@ body.page-node-7 .node__content h2 {
     .frontpage div.view-content-wrap div.col-sm-12.col-md-6.col-lg-4.item div.views-field.views-field-body .az-offer_img img {
       width: 100%; }
 
-@import url("../../fonts/PingFang/PingFang.css");
 @media (min-width: 770px) and (max-width: 990px) {
   #block-guanxinbingzhiliaofangan .block-content {
     padding-top: 20px; }
