@@ -678,10 +678,12 @@ display:
       defaults:
         filters: false
         filter_groups: false
+        css_class: false
       filter_groups:
         operator: AND
         groups:
           1: AND
+      css_class: 'container ta-articles-list1'
     cache_metadata:
       max-age: -1
       contexts:
@@ -889,10 +891,12 @@ display:
       defaults:
         filters: false
         filter_groups: false
+        css_class: false
       filter_groups:
         operator: AND
         groups:
           1: AND
+      css_class: 'container ta-articles-list1'
     cache_metadata:
       max-age: -1
       contexts:
@@ -1018,10 +1022,12 @@ display:
       defaults:
         filters: false
         filter_groups: false
+        css_class: false
       filter_groups:
         operator: AND
         groups:
           1: AND
+      css_class: 'container ta-articles-list1'
     cache_metadata:
       max-age: -1
       contexts:
@@ -1311,10 +1317,12 @@ display:
       defaults:
         filters: false
         filter_groups: false
+        css_class: false
       filter_groups:
         operator: AND
         groups:
           1: AND
+      css_class: 'container ta-articles-list1'
     cache_metadata:
       max-age: -1
       contexts:
@@ -1447,7 +1455,7 @@ display:
         filter_groups: false
       header: {  }
       footer: {  }
-      css_class: container
+      css_class: 'container ta-articles-list1'
       filters:
         status:
           value: '1'
@@ -1678,11 +1686,13 @@ display:
       defaults:
         filters: false
         filter_groups: false
+        css_class: false
       filter_groups:
         operator: AND
         groups:
           1: AND
       display_description: ''
+      css_class: 'container ta-articles-list1'
     cache_metadata:
       max-age: -1
       contexts:
@@ -1807,11 +1817,13 @@ display:
       defaults:
         filters: false
         filter_groups: false
+        css_class: false
       filter_groups:
         operator: AND
         groups:
           1: AND
       display_description: ''
+      css_class: 'container ta-articles-list1'
     cache_metadata:
       max-age: -1
       contexts:
@@ -2018,11 +2030,13 @@ display:
       defaults:
         filters: false
         filter_groups: false
+        css_class: false
       filter_groups:
         operator: AND
         groups:
           1: AND
       display_description: ''
+      css_class: 'container ta-articles-list1'
     cache_metadata:
       max-age: -1
       contexts:
@@ -2229,11 +2243,13 @@ display:
       defaults:
         filters: false
         filter_groups: false
+        css_class: false
       filter_groups:
         operator: AND
         groups:
           1: AND
       display_description: ''
+      css_class: 'container ta-articles-list1'
     cache_metadata:
       max-age: -1
       contexts:
@@ -2359,10 +2375,12 @@ display:
       defaults:
         filters: false
         filter_groups: false
+        css_class: false
       filter_groups:
         operator: AND
         groups:
           1: AND
+      css_class: 'container ta-articles-list1'
     cache_metadata:
       max-age: -1
       contexts:
