@@ -2834,9 +2834,11 @@ a.button {
   }
 }
 .ta-articles-list {
-  position: relative;
-  top: -100px;
-  margin-top:50px;
+  //header {
+  //  float: left;
+  //  width: 100%;
+  //  text-align: center;
+  //}
 }
 
 //診斷冠心病
@@ -4640,4 +4642,8 @@ body.page-node-7 {
 .az-refer-block {
   padding: 5%;
   color: $color-gray;
+}
+
+.ta-index-list {
+  overflow: hidden;
 }

@@ -1839,11 +1839,6 @@ a.button {
       .ta-articles-list-header .az-product_head .az-product_head__body .container {
         width: 60% !important; }
 
-.ta-articles-list {
-  position: relative;
-  top: -100px;
-  margin-top: 50px; }
-
 #block-zhenduanguanxinbing {
   margin-bottom: 250px; }
   #block-zhenduanguanxinbing .block-content p {
@@ -3016,6 +3011,9 @@ body.page-node-7 .node__content h2 {
 .az-refer-block {
   padding: 5%;
   color: #979797; }
+
+.ta-index-list {
+  overflow: hidden; }
 
 @media (min-width: 770px) and (max-width: 990px) {
   #block-guanxinbingzhiliaofangan .block-content {
