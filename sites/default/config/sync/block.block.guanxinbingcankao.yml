@@ -1,9 +1,9 @@
-uuid: be8f3c8a-992a-43fe-bb6a-0882bf6c53e5
+uuid: 9414a4e6-5307-4b92-bd21-758daf1fabbc
 langcode: en
 status: true
 dependencies:
   content:
-    - 'block_content:basic:121544e5-1f04-4139-8968-494680cee452'
+    - 'block_content:basic:760f955c-b87c-4fe4-8075-19f3c2ba22ba'
   module:
     - block_content
     - block_visibility_groups
@@ -14,15 +14,15 @@ dependencies:
 third_party_settings:
   gaviasthemer:
     classes: ''
-id: homerenshikangxinzhiyou
+id: guanxinbingcankao
 theme: astrazeneca
 region: fw_after_content
-weight: -38
+weight: -35
 provider: null
-plugin: 'block_content:121544e5-1f04-4139-8968-494680cee452'
+plugin: 'block_content:760f955c-b87c-4fe4-8075-19f3c2ba22ba'
 settings:
-  id: 'block_content:121544e5-1f04-4139-8968-494680cee452'
-  label: 'home 認識康心摯友'
+  id: 'block_content:760f955c-b87c-4fe4-8075-19f3c2ba22ba'
+  label: 冠心病參考
   provider: block_content
   label_display: '0'
   status: true
@@ -35,5 +35,5 @@ visibility:
     block_visibility_group: ''
   request_path:
     id: request_path
-    pages: '<front>'
+    pages: /cardiovascualr/coronary-heart
     negate: false
