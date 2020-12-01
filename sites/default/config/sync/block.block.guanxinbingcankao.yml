@@ -5,6 +5,7 @@ dependencies:
   content:
     - 'block_content:basic:760f955c-b87c-4fe4-8075-19f3c2ba22ba'
   module:
+    - block_class
     - block_content
     - block_visibility_groups
     - gaviasthemer
@@ -12,6 +13,8 @@ dependencies:
   theme:
     - astrazeneca
 third_party_settings:
+  block_class:
+    classes: az-refer-block
   gaviasthemer:
     classes: ''
 id: guanxinbingcankao
@@ -22,9 +25,9 @@ provider: null
 plugin: 'block_content:760f955c-b87c-4fe4-8075-19f3c2ba22ba'
 settings:
   id: 'block_content:760f955c-b87c-4fe4-8075-19f3c2ba22ba'
-  label: 冠心病參考
+  label: '參考:'
   provider: block_content
-  label_display: '0'
+  label_display: visible
   status: true
   info: ''
   view_mode: full
