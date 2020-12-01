@@ -20,7 +20,7 @@ third_party_settings:
 id: jibingwenzhang
 theme: astrazeneca
 region: fw_after_content
-weight: -29
+weight: -37
 provider: null
 plugin: 'block_content:847b512d-ebe0-4f1b-94c2-9228ace7db08'
 settings:

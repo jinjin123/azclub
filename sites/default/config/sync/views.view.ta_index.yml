@@ -625,6 +625,7 @@ display:
       relationships: {  }
       arguments: {  }
       display_extenders: {  }
+      css_class: ta-index-list
     cache_metadata:
       max-age: -1
       contexts:

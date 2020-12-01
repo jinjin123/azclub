@@ -17,7 +17,7 @@ third_party_settings:
 id: zixunyisheng
 theme: astrazeneca
 region: fw_after_content
-weight: -27
+weight: -34
 provider: null
 plugin: 'block_content:70982bd3-dbc1-494a-a1f9-9789f9f2e9c9'
 settings:
