@@ -1839,6 +1839,9 @@ a.button {
       .ta-articles-list-header .az-product_head .az-product_head__body .container {
         width: 60% !important; }
 
+.ta-articles-list header {
+  text-align: center; }
+
 #block-zhenduanguanxinbing {
   margin-bottom: 250px; }
   #block-zhenduanguanxinbing .block-content p {
