@@ -2801,6 +2801,8 @@ a.button {
   .block-content {
     color: white;
     padding-top: 100px;
+    width: 60%;
+    margin: 0 auto;
     h3 {
       color: white;
       font-weight: $fss;
@@ -2834,11 +2836,9 @@ a.button {
   }
 }
 .ta-articles-list {
-  header {
-    //float: left;
-    //width: 100%;
-    text-align: center;
-  }
+  position: relative;
+  top: -100px;
+  margin-top:50px
 }
 
 //診斷冠心病

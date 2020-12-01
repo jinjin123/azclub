@@ -20,7 +20,7 @@ third_party_settings:
 id: zhenduanguanxinbing
 theme: astrazeneca
 region: after_content
-weight: -27
+weight: -29
 provider: null
 plugin: 'block_content:5eda6e96-b48f-4e47-b631-6467eeaaeecf'
 settings:

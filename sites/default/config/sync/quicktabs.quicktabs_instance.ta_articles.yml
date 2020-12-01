@@ -35,7 +35,7 @@ configuration_data:
           hide_title: true
       view_content:
         options:
-          vid: az_clinical_trial_search_result
+          vid: az_health_club_
           display: default
           args: ''
   -
@@ -58,7 +58,7 @@ configuration_data:
           hide_title: true
       view_content:
         options:
-          vid: az_clinical_trial_search_result
+          vid: az_health_club_
           display: default
           args: ''
   -
@@ -81,7 +81,7 @@ configuration_data:
           hide_title: true
       view_content:
         options:
-          vid: az_clinical_trial_search_result
+          vid: az_health_club_
           display: default
           args: ''
   -
@@ -91,7 +91,7 @@ configuration_data:
     content:
       block_content:
         options:
-          bid: 'views_block:ta_campaign-block_5'
+          bid: 'views_block:ta_article_list-block_11'
           block_title: ''
           display_title: false
       qtabs_content:
@@ -104,7 +104,7 @@ configuration_data:
           hide_title: true
       view_content:
         options:
-          vid: az_clinical_trial_search_result
+          vid: az_health_club_
           display: default
           args: ''
   -
@@ -114,7 +114,7 @@ configuration_data:
     content:
       block_content:
         options:
-          bid: 'views_block:az_product_information-product_changweijibing'
+          bid: 'views_block:ta_article_list-block_7'
           block_title: ''
           display_title: false
       qtabs_content:
@@ -127,7 +127,7 @@ configuration_data:
           hide_title: true
       view_content:
         options:
-          vid: az_clinical_trial_search_result
+          vid: az_health_club_
           display: default
           args: ''
   -
@@ -150,7 +150,7 @@ configuration_data:
           hide_title: true
       view_content:
         options:
-          vid: az_clinical_trial_search_result
+          vid: az_health_club_
           display: default
           args: ''
   -
@@ -173,7 +173,7 @@ configuration_data:
           hide_title: true
       view_content:
         options:
-          vid: az_clinical_trial_search_result
+          vid: az_health_club_
           display: default
           args: ''
   -
@@ -196,7 +196,7 @@ configuration_data:
           hide_title: true
       view_content:
         options:
-          vid: az_clinical_trial_search_result
+          vid: az_health_club_
           display: default
           args: ''
   -
@@ -219,6 +219,6 @@ configuration_data:
           hide_title: true
       view_content:
         options:
-          vid: az_clinical_trial_search_result
+          vid: az_health_club_
           display: default
           args: ''

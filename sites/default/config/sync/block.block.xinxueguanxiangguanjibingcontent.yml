@@ -1,6 +1,6 @@
 uuid: 15c40c54-4aab-41cb-9e33-f61ee4468dda
 langcode: en
-status: false
+status: true
 dependencies:
   content:
     - 'block_content:basic:c268f7d2-2f77-4dc7-82ad-49df4ae1f9f8'
@@ -20,7 +20,7 @@ third_party_settings:
 id: xinxueguanxiangguanjibingcontent
 theme: astrazeneca
 region: after_content
-weight: -33
+weight: -41
 provider: null
 plugin: 'block_content:c268f7d2-2f77-4dc7-82ad-49df4ae1f9f8'
 settings:

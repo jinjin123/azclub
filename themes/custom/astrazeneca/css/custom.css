@@ -1817,7 +1817,9 @@ a.button {
   margin-top: 60px !important; }
   .ta-articles-list-header .block-content {
     color: white;
-    padding-top: 100px; }
+    padding-top: 100px;
+    width: 60%;
+    margin: 0 auto; }
     .ta-articles-list-header .block-content h3 {
       color: white;
       font-weight: 500; }
@@ -1839,8 +1841,10 @@ a.button {
       .ta-articles-list-header .az-product_head .az-product_head__body .container {
         width: 60% !important; }
 
-.ta-articles-list header {
-  text-align: center; }
+.ta-articles-list {
+  position: relative;
+  top: -100px;
+  margin-top: 50px; }
 
 #block-zhenduanguanxinbing {
   margin-bottom: 250px; }

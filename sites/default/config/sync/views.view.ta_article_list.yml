@@ -463,20 +463,7 @@ display:
             label: ''
           granularity: second
       title: 'Therapeutic area article list'
-      header:
-        area:
-          id: area
-          table: views
-          field: area
-          relationship: none
-          group_type: group
-          admin_label: ''
-          empty: false
-          tokenize: false
-          content:
-            value: "<p>心血管疾病</p>\r\n<h3>相關資訊</h3>\r\n<p>Lorem lpsum is simply dummy text of the printing and typesetting industry.</p>"
-            format: basic_html
-          plugin_id: text
+      header: {  }
       footer: {  }
       empty: {  }
       relationships: {  }

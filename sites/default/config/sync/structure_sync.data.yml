@@ -446,7 +446,7 @@ blocks:
           summary: ''
           format: full_html
   -
-    info: 心血管相關疾病--header
+    info: 心血管相關疾病--content
     langcode: en
     uuid: c268f7d2-2f77-4dc7-82ad-49df4ae1f9f8
     bundle: basic
@@ -621,6 +621,84 @@ blocks:
       body:
         -
           value: "<p>香港衛生署衛生防衛中心.心臟病:引言&amp;本地情況&amp;高危因素.Available at https://www.chp.gov.hk/tc/content/9/25/57htmlAccessedon18-12-18</p>\r\n\r\n<p>醫院管理局 智友網 冠心病 Available at http://www21.ha.org.hk/smartpatient/SPW/zh-HK/Disease-Information/Disease/?guid=f9899bdc-ad84-460b-825a-6fdd85a079d6 Accessed on 18-12-18</p>\r\n\r\n<p>British Heart Foundation. Diabetes and your Heart. Available at https://www.bhf.org.uk/-/media/files/publications/large-print/bhf_his22_diabetes_and_your_heart_a4.pdf Accessed on 28-11-18 Accessed on 18-12-18</p>\r\n\r\n<p>香港衛生衛生防護中心 男性常見疾病 冠狀動脈心臟病. Available at https://www.chp.gov.hk/tc/static/80035.html Accessed on 18-12-18</p>\r\n\r\n<p>World Health Organization.Cardiovascular Diseases(CVDs).Available at http://wwww.who.int/mediacentre/factsheets/fs317/en/ Accessed on 18-12-18</p>\r\n\r\n<p>The telegraph.One In Three Heart Attacks Feel Like Indigestion, Warns British Heart Foundation.Available at https://www.telegraphcouk/science/2016/04/11/one-in-three-heart-attacks-feel-like-indigestion-warns-british-h/ Accessed on 18-12-18</p>\r\n\r\n<p>香港衛生衛生防護中心.口服抗心絞痛藥.Available at https://www.drugoffce.gov.hk/eps/do/tc/consumer/news_informations/dm_27.html#b Accessed on 18-12-18</p>\r\n\r\n<p>American Heart Association.CPR &amp; ECC Guidelines.Available at https://eccguidelines.heart.org/index.php/circulation/cpr-ecc-guidelines-2/executive-summaries/?strue=1&amp;id=3-5-2 Accesed on 18-12-18</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p>HK-2061 15/02/2019</p>\r\n"
+          summary: ''
+          format: basic_html
+  -
+    info: 糖尿病相關疾病--content
+    langcode: en
+    uuid: 176c861c-3a66-45fb-b324-36010339f31a
+    bundle: basic
+    revision_id: null
+    rev_id_current: null
+    fields:
+      body:
+        -
+          value: "<p>糖尿病</p>\r\n\r\n<h3>相關資訊</h3>\r\n\r\n<p>Lorem lpsum is simply dummy text of the printing and typesetting industry.</p>\r\n"
+          summary: ''
+          format: basic_html
+  -
+    info: 癌症相關疾病--content
+    langcode: en
+    uuid: 3f617ecb-b120-4ce9-ad89-c7981c81e537
+    bundle: basic
+    revision_id: null
+    rev_id_current: null
+    fields:
+      body:
+        -
+          value: "<p>癌症</p>\r\n\r\n<h3>相關資訊</h3>\r\n\r\n<p>Lorem lpsum is simply dummy text of the printing and typesetting industry.</p>\r\n"
+          summary: ''
+          format: basic_html
+  -
+    info: 腸胃疾病相關疾病--content
+    langcode: en
+    uuid: 107d0c03-9899-4dfa-bb17-928eb0fb358a
+    bundle: basic
+    revision_id: null
+    rev_id_current: null
+    fields:
+      body:
+        -
+          value: "<p>腸胃疾病</p>\r\n\r\n<h3>相關資訊</h3>\r\n\r\n<p>Lorem lpsum is simply dummy text of the printing and typesetting industry.</p>\r\n"
+          summary: ''
+          format: basic_html
+  -
+    info: 呼吸系統疾病相關疾病--content
+    langcode: en
+    uuid: a1558f98-6719-4be9-9fcc-4ddabaa4ffd8
+    bundle: basic
+    revision_id: null
+    rev_id_current: null
+    fields:
+      body:
+        -
+          value: "<p>呼吸系統疾病</p>\r\n\r\n<h3>相關資訊</h3>\r\n\r\n<p>Lorem lpsum is simply dummy text of the printing and typesetting industry.</p>\r\n"
+          summary: ''
+          format: basic_html
+  -
+    info: 腎病相關疾病--content
+    langcode: en
+    uuid: 3e7d6f91-3f20-4733-8ccb-19ae0ef96871
+    bundle: basic
+    revision_id: null
+    rev_id_current: null
+    fields:
+      body:
+        -
+          value: "<p>腎病</p>\r\n\r\n<h3>相關資訊</h3>\r\n\r\n<p>Lorem lpsum is simply dummy text of the printing and typesetting industry.</p>\r\n"
+          summary: ''
+          format: basic_html
+  -
+    info: 感染/傳染病相關疾病--content
+    langcode: en
+    uuid: 3ebe5230-b746-4742-b426-bbf8efee1e87
+    bundle: basic
+    revision_id: null
+    rev_id_current: null
+    fields:
+      body:
+        -
+          value: "<p>感染/傳染病</p>\r\n\r\n<h3>相關資訊</h3>\r\n\r\n<p>Lorem lpsum is simply dummy text of the printing and typesetting industry.</p>\r\n"
           summary: ''
           format: basic_html
 menus:

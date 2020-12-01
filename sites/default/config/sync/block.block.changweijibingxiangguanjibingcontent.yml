@@ -1,10 +1,11 @@
-uuid: c5e10156-5eba-4bca-a2ff-1afb72cc3d76
+uuid: 68aa99b9-ec13-4202-a1e7-9d5083afcb34
 langcode: en
 status: true
 dependencies:
   content:
-    - 'block_content:basic:862d6d69-6c75-4bab-8f84-ae2889aaa31e'
+    - 'block_content:basic:107d0c03-9899-4dfa-bb17-928eb0fb358a'
   module:
+    - block_class
     - block_content
     - block_visibility_groups
     - gaviasthemer
@@ -12,17 +13,19 @@ dependencies:
   theme:
     - astrazeneca
 third_party_settings:
+  block_class:
+    classes: ta-articles-list-header
   gaviasthemer:
     classes: ''
-id: guanxinbingzhiliaofangan
+id: changweijibingxiangguanjibingcontent
 theme: astrazeneca
 region: after_content
-weight: -28
+weight: -35
 provider: null
-plugin: 'block_content:862d6d69-6c75-4bab-8f84-ae2889aaa31e'
+plugin: 'block_content:107d0c03-9899-4dfa-bb17-928eb0fb358a'
 settings:
-  id: 'block_content:862d6d69-6c75-4bab-8f84-ae2889aaa31e'
-  label: 冠心病治療方案
+  id: 'block_content:107d0c03-9899-4dfa-bb17-928eb0fb358a'
+  label: 腸胃疾病相關疾病--content
   provider: block_content
   label_display: '0'
   status: true
@@ -35,5 +38,5 @@ visibility:
     block_visibility_group: ''
   request_path:
     id: request_path
-    pages: /cardiovascualr/coronary-heart
+    pages: /gastrointestinal
     negate: false

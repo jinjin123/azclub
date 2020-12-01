@@ -17,7 +17,7 @@ third_party_settings:
 id: views_block__az_health_tips_health_tips_yellow
 theme: astrazeneca
 region: after_content
-weight: -25
+weight: -27
 provider: null
 plugin: 'views_block:az_health_tips-health_tips_yellow'
 settings:
